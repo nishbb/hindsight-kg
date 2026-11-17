@@ -1,0 +1,13 @@
+consequence,downgraded,stable_pathogenic,upgraded,stable_vus
+frameshift,204,13535,220,529
+inframe_indel,119,791,61,1284
+intronic,225,2339,103,3287
+missense,2892,13319,1279,51188
+nonsense,200,9979,220,461
+other,132,1360,20,1992
+splice_site,193,4561,127,257
+start_lost,46,337,25,513
+structural_or_other,38,3656,52,247
+synonymous,62,164,11,1107
+utr3,23,238,4,8135
+utr5,37,442,9,2307
