@@ -1,0 +1,48 @@
+VARIANT DOSSIER: rs9391855
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs9391855 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs9391855]
+- Earlier identifiers merged into rs9391855: rs116515025. [dbSNP build 157 rs9391855]
+- dbSNP records rs9391855 as variant type 'snv' on NC_000006.12 (GRCh38) with 1 alternate allele. [dbSNP build 157 rs9391855]
+- Alternate allele 1: NC_000006.12:g.32182024C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs9391855]
+
+FUNCTION
+- For alternate allele 1 (C>T), Ensembl VEP predicts downstream_gene_variant in PBX2, impact MODIFIER. [Ensembl VEP rs9391855]
+- Ensembl classifies the variant as 'SNV' with allele string C/T. [Ensembl VEP rs9391855]
+
+FREQUENCY
+- In gnomAD v2.1.1 exomes, alternate allele 1 (C>T) has an overall allele frequency of 0.053. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.017, Admixed American 0.00686, Ashkenazi Jewish 0.0104, East Asian 0.207, Finnish 0.0646, Non-Finnish European 0.0471, South Asian 0.0658, Other 0.0386. [gnomAD v2.1.1 exomes]
+- Population differentiation flag (gnomAD v2.1.1 exomes): allele 1 frequency ranges from 0.00686 in Admixed American to 0.207 in East Asian, a large between-ancestry difference. [gnomAD v2.1.1 exomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>T) has an overall allele frequency of 0.0498 (37,214 of 747,962 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.0162, Admixed American 0.00887, Ashkenazi Jewish 0.00997, East Asian 0.173, Finnish 0.0648, Non-Finnish European 0.0473, South Asian 0.0644, Middle Eastern 0.0122, Amish 0.0429, Remaining 0.0451. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0.00887 in Admixed American to 0.173 in East Asian, a large between-ancestry difference. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- The ClinVar 2026-11 release contains no record for rs9391855. [ClinVar 2026-11 release]
+
+SOMATIC EVIDENCE
+- Ensembl VEP reports 1 co-located COSMIC somatic mutation record(s) at this position (COSV107416179). [Ensembl VEP rs9391855]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 10 association record(s) for rs9391855. [GWAS Catalog rs9391855]
+- Genome-wide significant association with chronic obstructive pulmonary disease (p = 3e-83, study GCST90244098, effect allele rs9391855-C). [GWAS Catalog GCST90244098; PMID:37069358]
+- Genome-wide significant association with protein measurement (p = 3e-32, study GCST90425940, effect allele rs9391855-T). [GWAS Catalog GCST90425940; PMID:39528825]
+- Genome-wide significant association with FEV/FVC ratio (p = 2e-22, study GCST90054785, effect allele rs9391855-C). [GWAS Catalog GCST90054785; PMID:33766948]
+- Genome-wide significant association with diastolic blood pressure (p = 2e-18, study GCST90335165, effect allele rs9391855-C). [GWAS Catalog GCST90335165; PMID:39048560]
+- Genome-wide significant association with amount of syndecan-1 in blood (p = 2e-16, study GCST90860008). [GWAS Catalog GCST90860008; PMID:42097137]
+- Genome-wide significant association with mean arterial pressure (p = 2e-15, study GCST90335169, effect allele rs9391855-C). [GWAS Catalog GCST90335169; PMID:39048560]
+- rs9391855 is associated with 8 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs9391855]
+
+LITERATURE
+- LitVar2 links 8 PubMed articles to rs9391855. [LitVar2 rs9391855]
+- Linked article: "Nicotinic acetylcholine receptor signaling maintains epithelial barrier integrity" (Elife, 2023). [PMID:38063293]
+- Linked article: "Nanopore Sequencing of RAGE Gene Polymorphisms and Their Association with Type 2 Diabetes" (ACS Omega, 2023). [PMID:37521601]
+- Linked article: "Comprehensive proteogenomic characterization of early duodenal cancer reveals the carcinogenesis tracks of different subtypes" (Nat Commun, 2023). [PMID:36991000]
+
+CONFLICTS AND CAVEATS
+- Gene assignment conflict: sources name different genes for rs9391855 (Ensembl VEP: PBX2; GWAS Catalog: AGER). [Ensembl VEP rs9391855; GWAS Catalog rs9391855]
+
+BOTTOM LINE
+- Bottom line: rs9391855 in PBX2 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with chronic obstructive pulmonary disease. Sources disagree on some points (see conflicts). Confidence: high (10 genome-wide significant associations across 10 studies). [GWAS Catalog rs9391855; LitVar2 rs9391855]

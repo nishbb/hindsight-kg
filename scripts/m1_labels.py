@@ -34,7 +34,7 @@ def main() -> None:
     cv = RAW_DIR / "clinvar"
     print("loading ClinVar snapshots ...")
     t_df = load_variant_summary(cv / "variant_summary_2020-01.txt.gz")
-    latest = load_variant_summary(cv / "variant_summary.txt.gz")
+    latest = load_variant_summary(cv / "variant_summary_2026-11.txt.gz")
     a2v = dict(zip(t_df["allele_id"], t_df["variation_id"].astype(int)))
     s18 = load_variant_summary(cv / "variant_summary_2018-01.txt.gz", allele_to_variation=a2v)
     s19 = load_variant_summary(cv / "variant_summary_2019-01.txt.gz")
@@ -97,7 +97,7 @@ def main() -> None:
     dg = lab[lab["label"] == "downgraded"]["latest_clnsig_class"].value_counts()
     summary = {
         "T": "2020-01",
-        "latest_release_last_modified": "2026-11-16",
+        "latest_release": "2026-11 monthly archive (2026-11-05)",
         "label_counts": counts.to_dict(),
         "downgraded_to": dg.to_dict(),
         "downgrade_rate_among_PLP": float(

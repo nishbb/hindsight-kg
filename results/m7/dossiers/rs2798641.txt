@@ -1,0 +1,46 @@
+VARIANT DOSSIER: rs2798641
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs2798641 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs2798641]
+- Earlier identifiers merged into rs2798641: rs52832351, rs57825241. [dbSNP build 157 rs2798641]
+- dbSNP records rs2798641 as variant type 'snv' on NC_000006.12 (GRCh38) with 1 alternate allele. [dbSNP build 157 rs2798641]
+- Alternate allele 1: NC_000006.12:g.108946847C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs2798641]
+
+FUNCTION
+- For alternate allele 1 (C>T), Ensembl VEP predicts intron_variant in ARMC2 (ENST00000392644.9:c.1597-6186C>T), impact MODIFIER. [Ensembl VEP rs2798641]
+- Ensembl classifies the variant as 'SNV' with allele string C/T. [Ensembl VEP rs2798641]
+
+FREQUENCY
+- In gnomAD v2.1.1 genomes, alternate allele 1 (C>T) has an overall allele frequency of 0.151. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.0532, Admixed American 0.276, Ashkenazi Jewish 0.217, East Asian 0.286, Finnish 0.153, Non-Finnish European 0.182, Other 0.18. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0.0532 in African/African American to 0.286 in East Asian, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>T) has an overall allele frequency of 0.155 (23,577 of 152,106 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.0535, Admixed American 0.234, Ashkenazi Jewish 0.187, East Asian 0.284, Finnish 0.146, Non-Finnish European 0.186, South Asian 0.189, Middle Eastern 0.19, Amish 0.112, Remaining 0.196. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0.0535 in African/African American to 0.284 in East Asian, a large between-ancestry difference. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- The ClinVar 2026-11 release contains no record for rs2798641. [ClinVar 2026-11 release]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs2798641]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 9 association record(s) for rs2798641. [GWAS Catalog rs2798641]
+- Genome-wide significant association with FEV/FVC ratio (p = 4e-80, study GCST007080). [GWAS Catalog GCST007080; PMID:30595370]
+- Genome-wide significant association with chronic obstructive pulmonary disease (p = 3e-51, study GCST90244098, effect allele rs2798641-C). [GWAS Catalog GCST90244098; PMID:37069358]
+- Genome-wide significant association with forced expiratory volume (p = 2e-26, study GCST007432, effect allele rs2798641-T). [GWAS Catalog GCST007432; PMID:30804560]
+- Genome-wide significant association with peak expiratory flow (p = 3e-14, study GCST007430, effect allele rs2798641-T). [GWAS Catalog GCST007430; PMID:30804560]
+- rs2798641 is associated with 4 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs2798641]
+
+LITERATURE
+- LitVar2 links 33 PubMed articles to rs2798641. [LitVar2 rs2798641]
+- Linked article: "Genome- and Exome-Wide Association Studies Revealed Candidate Genes Associated with DaTscan Imaging Features" (Parkinsons Dis, 2023). [PMID:37664790]
+- Linked article: "A genome-wide association study identifies distinct variants associated with pulmonary function among European and African ancestries from the UK Biobank" (Commun Biol, 2023). [PMID:36641522]
+- Linked article: "Establishment and characterization of a new mantle cell lymphoma cell line with a NOTCH2 mutation, Arbo" (EJHaem, 2022). [PMID:36467812]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs2798641 in ARMC2 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: high (7 genome-wide significant associations across 9 studies). [GWAS Catalog rs2798641; LitVar2 rs2798641]

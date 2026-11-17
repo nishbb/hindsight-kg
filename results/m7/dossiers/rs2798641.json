@@ -1,0 +1,1677 @@
+{
+ "rsid_query": "rs2798641",
+ "rsid_current": "rs2798641",
+ "as_of": "latest",
+ "generated_at": "2026-11-17T18:44:53.307169+00:00",
+ "genes": {
+  "vep": [
+   "ARMC2"
+  ],
+  "dbsnp": [
+   "ARMC2"
+  ],
+  "clinvar": [],
+  "gwas": [
+   "ARMC2"
+  ]
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000006.12:g.108946847C>T",
+   "spdi_deleted": "C",
+   "spdi_inserted": "T",
+   "chrom": "6",
+   "pos": 108946847,
+   "ref": "C",
+   "alt": "T",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "6-108946847-C-T",
+   "vep": {
+    "gene_symbol": "ARMC2",
+    "consequence_terms": [
+     "intron_variant"
+    ],
+    "hgvsc": "ENST00000392644.9:c.1597-6186C>T",
+    "hgvsp": null,
+    "impact": "MODIFIER",
+    "mane_select": "NM_032131.6"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "genomes",
+     "overall": 0.151195,
+     "populations": {
+      "afr": 0.0532429,
+      "amr": 0.275943,
+      "asj": 0.217241,
+      "eas": 0.285623,
+      "fin": 0.152762,
+      "nfe": 0.182343,
+      "oth": 0.180479
+     },
+     "an": 31370,
+     "differentiated": true
+    },
+    "gnomad_v4": {
+     "overall": 0.15500374738669087,
+     "ac": 23577,
+     "an": 152106,
+     "populations": {
+      "afr": 0.0535395884535685,
+      "amr": 0.23367360293155345,
+      "asj": 0.1867435158501441,
+      "eas": 0.2842796446504442,
+      "fin": 0.1459280303030303,
+      "nfe": 0.18598493763238408,
+      "sas": 0.188616535105941,
+      "mid": 0.19047619047619047,
+      "ami": 0.11208791208791209,
+      "remaining": 0.19554924242424243
+     },
+     "differentiated": true
+    }
+   }
+  }
+ ],
+ "clinvar": [],
+ "clinvar_release": "2026-11",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 9,
+  "n_associations_in_scope": 9,
+  "n_genome_wide_significant": 7,
+  "n_studies": 9,
+  "mapped_genes": [
+   "ARMC2"
+  ],
+  "top_traits": [
+   {
+    "trait": "FEV/FVC ratio",
+    "p_value": "4e-80",
+    "accession": "GCST007080",
+    "pmid": "30595370"
+   },
+   {
+    "trait": "chronic obstructive pulmonary disease",
+    "p_value": "3e-51",
+    "accession": "GCST90244098",
+    "pmid": "37069358"
+   },
+   {
+    "trait": "forced expiratory volume",
+    "p_value": "2e-26",
+    "accession": "GCST007432",
+    "pmid": "30804560"
+   },
+   {
+    "trait": "peak expiratory flow",
+    "p_value": "3e-14",
+    "accession": "GCST007430",
+    "pmid": "30804560"
+   }
+  ],
+  "n_distinct_traits_significant": 4,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 33,
+  "n_in_scope": 33,
+  "pmids_in_scope": [
+   "37664790",
+   "36641522",
+   "36467812",
+   "31324189",
+   "30804560",
+   "30804561",
+   "29955180",
+   "29685792",
+   "29378629",
+   "29273806",
+   "29203782",
+   "28722347",
+   "28082375",
+   "28174340",
+   "28114305",
+   "27703156",
+   "27663977",
+   "26006746",
+   "27482468",
+   "26635082",
+   "26634245",
+   "26404118",
+   "25819875",
+   "25093840",
+   "24983941",
+   "24787735",
+   "24274136",
+   "23637549",
+   "23521772",
+   "22424883",
+   "23055711",
+   "23284291",
+   "21946350"
+  ],
+  "top": [
+   "37664790",
+   "36641522",
+   "36467812"
+  ]
+ },
+ "conflicts": [],
+ "bottom_line": {
+  "category": "trait-associated common variant without an established monogenic disease role",
+  "confidence": "high",
+  "rationale": "7 genome-wide significant associations across 9 studies",
+  "text": "Bottom line: rs2798641 in ARMC2 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: high (7 genome-wide significant associations across 9 studies)."
+ },
+ "notes": [],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs2798641 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs2798641",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs2798641",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs2798641: rs52832351, rs57825241.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs2798641",
+     "path": "dbsnp1_merges.0",
+     "value": "52832351",
+     "label": "dbSNP build 157 rs2798641",
+     "mode": "eq",
+     "shown": "rs52832351",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs2798641",
+     "path": "dbsnp1_merges.1",
+     "value": "57825241",
+     "label": "dbSNP build 157 rs2798641",
+     "mode": "eq",
+     "shown": "rs57825241",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs2798641 as variant type 'snv' on NC_000006.12 (GRCh38) with 1 alternate allele.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs2798641",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs2798641",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs2798641",
+     "path": "seq_id",
+     "value": "NC_000006.12",
+     "label": "dbSNP build 157 rs2798641",
+     "mode": "eq",
+     "shown": "NC_000006.12",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000006.12:g.108946847C>T, a single-nucleotide variant (SNV) (C>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs2798641",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000006.12:g.108946847C>T",
+     "label": "dbSNP build 157 rs2798641",
+     "mode": "eq",
+     "shown": "NC_000006.12:g.108946847C>T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (C>T), Ensembl VEP predicts intron_variant in ARMC2 (ENST00000392644.9:c.1597-6186C>T), impact MODIFIER.",
+   "citations": [
+    {
+     "record_id": "VEP:rs2798641",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "intron_variant",
+     "label": "Ensembl VEP rs2798641",
+     "mode": "eq",
+     "shown": "intron_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs2798641",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "ARMC2",
+     "label": "Ensembl VEP rs2798641",
+     "mode": "eq",
+     "shown": "ARMC2",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs2798641",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000392644.9:c.1597-6186C>T",
+     "label": "Ensembl VEP rs2798641",
+     "mode": "eq",
+     "shown": "ENST00000392644.9:c.1597-6186C>T",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs2798641",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODIFIER",
+     "label": "Ensembl VEP rs2798641",
+     "mode": "eq",
+     "shown": "MODIFIER",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string C/T.",
+   "citations": [
+    {
+     "record_id": "VEP:rs2798641",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs2798641",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs2798641",
+     "path": "allele_string",
+     "value": "C/T",
+     "label": "Ensembl VEP rs2798641",
+     "mode": "eq",
+     "shown": "C/T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 genomes, alternate allele 1 (C>T) has an overall allele frequency of 0.151.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs2798641",
+     "path": "hits.0.gnomad_genome.af.af",
+     "value": 0.151195,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.151",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.0532, Admixed American 0.276, Ashkenazi Jewish 0.217, East Asian 0.286, Finnish 0.153, Non-Finnish European 0.182, Other 0.18.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs2798641",
+     "path": "hits.0.gnomad_genome.af.af_afr",
+     "value": 0.0532429,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0532",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs2798641",
+     "path": "hits.0.gnomad_genome.af.af_amr",
+     "value": 0.275943,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.276",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs2798641",
+     "path": "hits.0.gnomad_genome.af.af_asj",
+     "value": 0.217241,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.217",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs2798641",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.285623,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.286",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs2798641",
+     "path": "hits.0.gnomad_genome.af.af_fin",
+     "value": 0.152762,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.153",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs2798641",
+     "path": "hits.0.gnomad_genome.af.af_nfe",
+     "value": 0.182343,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.182",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs2798641",
+     "path": "hits.0.gnomad_genome.af.af_oth",
+     "value": 0.180479,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.18",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0.0532 in African/African American to 0.286 in East Asian, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs2798641",
+     "path": "hits.0.gnomad_genome.af.af_afr",
+     "value": 0.0532429,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0532",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs2798641",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.285623,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.286",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>T) has an overall allele frequency of 0.155 (23,577 of 152,106 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:6-108946847-C-T",
+     "path": "",
+     "value": 0.15500374738669087,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.155",
+     "args": [
+      [
+       "variant.genome.ac"
+      ],
+      [
+       "variant.genome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.0535, Admixed American 0.234, Ashkenazi Jewish 0.187, East Asian 0.284, Finnish 0.146, Non-Finnish European 0.186, South Asian 0.189, Middle Eastern 0.19, Amish 0.112, Remaining 0.196.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:6-108946847-C-T",
+     "path": "",
+     "value": 0.0535395884535685,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0535",
+     "args": [
+      [
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-108946847-C-T",
+     "path": "",
+     "value": 0.23367360293155345,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.234",
+     "args": [
+      [
+       "variant.genome.populations.1.ac"
+      ],
+      [
+       "variant.genome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-108946847-C-T",
+     "path": "",
+     "value": 0.1867435158501441,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.187",
+     "args": [
+      [
+       "variant.genome.populations.7.ac"
+      ],
+      [
+       "variant.genome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-108946847-C-T",
+     "path": "",
+     "value": 0.2842796446504442,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.284",
+     "args": [
+      [
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-108946847-C-T",
+     "path": "",
+     "value": 0.1459280303030303,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.146",
+     "args": [
+      [
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-108946847-C-T",
+     "path": "",
+     "value": 0.18598493763238408,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.186",
+     "args": [
+      [
+       "variant.genome.populations.9.ac"
+      ],
+      [
+       "variant.genome.populations.9.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-108946847-C-T",
+     "path": "",
+     "value": 0.188616535105941,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.189",
+     "args": [
+      [
+       "variant.genome.populations.6.ac"
+      ],
+      [
+       "variant.genome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-108946847-C-T",
+     "path": "",
+     "value": 0.19047619047619047,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.19",
+     "args": [
+      [
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-108946847-C-T",
+     "path": "",
+     "value": 0.11208791208791209,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.112",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-108946847-C-T",
+     "path": "",
+     "value": 0.19554924242424243,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.196",
+     "args": [
+      [
+       "variant.genome.populations.0.ac"
+      ],
+      [
+       "variant.genome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0.0535 in African/African American to 0.284 in East Asian, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:6-108946847-C-T",
+     "path": "",
+     "value": 0.0535395884535685,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0535",
+     "args": [
+      [
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-108946847-C-T",
+     "path": "",
+     "value": 0.2842796446504442,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.284",
+     "args": [
+      [
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "The ClinVar 2026-11 release contains no record for rs2798641.",
+   "citations": [
+    {
+     "record_id": "ClinVar:rs2798641@2026-11",
+     "path": "n_records",
+     "value": 0,
+     "label": "ClinVar 2026-11 release",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Somatic evidence",
+   "text": "No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant.",
+   "citations": [
+    {
+     "record_id": "VEP:rs2798641",
+     "path": "cosmic_ids",
+     "value": [],
+     "label": "Ensembl VEP rs2798641",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 9 association record(s) for rs2798641.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2798641",
+     "path": "associations.8.association_id",
+     "value": 19232,
+     "label": "GWAS Catalog rs2798641",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with FEV/FVC ratio (p = 4e-80, study GCST007080).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2798641",
+     "path": "associations.5.accession_id",
+     "value": "GCST007080",
+     "label": "GWAS Catalog GCST007080",
+     "mode": "eq",
+     "shown": "GCST007080",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs2798641",
+     "path": "associations.5.pvalue_exponent",
+     "value": -80,
+     "label": "GWAS Catalog GCST007080",
+     "mode": "eq",
+     "shown": "4e-80",
+     "args": null
+    },
+    {
+     "record_id": "PMID:30595370",
+     "path": "pmid",
+     "value": "30595370",
+     "label": "PMID:30595370",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with chronic obstructive pulmonary disease (p = 3e-51, study GCST90244098, effect allele rs2798641-C).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2798641",
+     "path": "associations.1.accession_id",
+     "value": "GCST90244098",
+     "label": "GWAS Catalog GCST90244098",
+     "mode": "eq",
+     "shown": "GCST90244098",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs2798641",
+     "path": "associations.1.pvalue_exponent",
+     "value": -51,
+     "label": "GWAS Catalog GCST90244098",
+     "mode": "eq",
+     "shown": "3e-51",
+     "args": null
+    },
+    {
+     "record_id": "PMID:37069358",
+     "path": "pmid",
+     "value": "37069358",
+     "label": "PMID:37069358",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with forced expiratory volume (p = 2e-26, study GCST007432, effect allele rs2798641-T).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2798641",
+     "path": "associations.4.accession_id",
+     "value": "GCST007432",
+     "label": "GWAS Catalog GCST007432",
+     "mode": "eq",
+     "shown": "GCST007432",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs2798641",
+     "path": "associations.4.pvalue_exponent",
+     "value": -26,
+     "label": "GWAS Catalog GCST007432",
+     "mode": "eq",
+     "shown": "2e-26",
+     "args": null
+    },
+    {
+     "record_id": "PMID:30804560",
+     "path": "pmid",
+     "value": "30804560",
+     "label": "PMID:30804560",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with peak expiratory flow (p = 3e-14, study GCST007430, effect allele rs2798641-T).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2798641",
+     "path": "associations.2.accession_id",
+     "value": "GCST007430",
+     "label": "GWAS Catalog GCST007430",
+     "mode": "eq",
+     "shown": "GCST007430",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs2798641",
+     "path": "associations.2.pvalue_exponent",
+     "value": -14,
+     "label": "GWAS Catalog GCST007430",
+     "mode": "eq",
+     "shown": "3e-14",
+     "args": null
+    },
+    {
+     "record_id": "PMID:30804560",
+     "path": "pmid",
+     "value": "30804560",
+     "label": "PMID:30804560",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 33 PubMed articles to rs2798641.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs2798641",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs2798641",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Genome- and Exome-Wide Association Studies Revealed Candidate Genes Associated with DaTscan Imaging Features\" (Parkinsons Dis, 2023).",
+   "citations": [
+    {
+     "record_id": "PMID:37664790",
+     "path": "title",
+     "value": "Genome- and Exome-Wide Association Studies Revealed Candidate Genes Associated with DaTscan Imaging Features.",
+     "label": "PMID:37664790",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:37664790",
+     "path": "journal",
+     "value": "Parkinsons Dis",
+     "label": "PMID:37664790",
+     "mode": "eq",
+     "shown": "Parkinsons Dis",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"A genome-wide association study identifies distinct variants associated with pulmonary function among European and African ancestries from the UK Biobank\" (Commun Biol, 2023).",
+   "citations": [
+    {
+     "record_id": "PMID:36641522",
+     "path": "title",
+     "value": "A genome-wide association study identifies distinct variants associated with pulmonary function among European and African ancestries from the UK Biobank.",
+     "label": "PMID:36641522",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:36641522",
+     "path": "journal",
+     "value": "Commun Biol",
+     "label": "PMID:36641522",
+     "mode": "eq",
+     "shown": "Commun Biol",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Establishment and characterization of a new mantle cell lymphoma cell line with a NOTCH2 mutation, Arbo\" (EJHaem, 2022).",
+   "citations": [
+    {
+     "record_id": "PMID:36467812",
+     "path": "title",
+     "value": "Establishment and characterization of a new mantle cell lymphoma cell line with a NOTCH2 mutation, Arbo.",
+     "label": "PMID:36467812",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:36467812",
+     "path": "journal",
+     "value": "EJHaem",
+     "label": "PMID:36467812",
+     "mode": "eq",
+     "shown": "EJHaem",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "rs2798641 is associated with 4 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2798641",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs2798641",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs2798641 in ARMC2 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: high (7 genome-wide significant associations across 9 studies).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2798641",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs2798641",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs2798641",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs2798641",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs2798641": {
+   "record_id": "dbSNP:rs2798641",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/2798641",
+   "retrieved_at": "2026-11-17T18:25:25.970503+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "2798641",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "52832351",
+     "57825241"
+    ],
+    "merged_into": [],
+    "citations": [
+     21946350,
+     22424883,
+     23055711,
+     25093840
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000006.12",
+    "alleles": [
+     {
+      "hgvs": "NC_000006.12:g.108946847=",
+      "position0": 108946846,
+      "deleted": "C",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000006.12:g.108946847C>T",
+      "position0": 108946846,
+      "deleted": "C",
+      "inserted": "T"
+     }
+    ],
+    "genes": [
+     "ARMC2"
+    ]
+   }
+  },
+  "VEP:rs2798641": {
+   "record_id": "VEP:rs2798641",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs2798641",
+   "retrieved_at": "2026-11-17T18:25:40.994628+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs2798641",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "6",
+    "start": 108946847,
+    "end": 108946847,
+    "allele_string": "C/T",
+    "variant_class": "SNV",
+    "most_severe_consequence": "intron_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "T",
+      "gene_symbol": "ARMC2",
+      "gene_id": "ENSG00000118690",
+      "transcript_id": "ENST00000392644",
+      "mane_select": "NM_032131.6",
+      "consequence_terms": [
+       "intron_variant"
+      ],
+      "hgvsc": "ENST00000392644.9:c.1597-6186C>T",
+      "hgvsp": null,
+      "impact": "MODIFIER",
+      "amino_acids": null,
+      "protein_start": null,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [],
+    "colocated_somatic": false
+   }
+  },
+  "gnomAD-v2.1.1:rs2798641": {
+   "record_id": "gnomAD-v2.1.1:rs2798641",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T18:25:41.084963+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr6:g.109268050C>T",
+      "_score": 17.141094,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 7.617
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "T",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.151195,
+        "af_afr": 0.0532429,
+        "af_afr_female": 0.0512262,
+        "af_afr_male": 0.0547155,
+        "af_amr": 0.275943,
+        "af_amr_female": 0.268116,
+        "af_amr_male": 0.28341,
+        "af_asj": 0.217241,
+        "af_asj_female": 0.1375,
+        "af_asj_male": 0.247619,
+        "af_eas": 0.285623,
+        "af_eas_female": 0.297398,
+        "af_eas_male": 0.279412,
+        "af_female": 0.149705,
+        "af_fin": 0.152762,
+        "af_fin_female": 0.150054,
+        "af_fin_male": 0.155828,
+        "af_male": 0.152383,
+        "af_nfe": 0.182343,
+        "af_nfe_est": 0.174738,
+        "af_nfe_female": 0.178372,
+        "af_nfe_male": 0.185482,
+        "af_nfe_nwe": 0.182231,
+        "af_nfe_onf": 0.195042,
+        "af_nfe_seu": 0.264151,
+        "af_oth": 0.180479,
+        "af_oth_female": 0.217857,
+        "af_oth_male": 0.140684
+       },
+       "alt": "T",
+       "an": {
+        "an": 31370,
+        "an_afr": 8696,
+        "an_afr_female": 3670,
+        "an_afr_male": 5026,
+        "an_amr": 848,
+        "an_amr_female": 414,
+        "an_amr_male": 434,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1558,
+        "an_eas_female": 538,
+        "an_eas_male": 1020,
+        "an_female": 13914,
+        "an_fin": 3476,
+        "an_fin_female": 1846,
+        "an_fin_male": 1630,
+        "an_male": 17456,
+        "an_nfe": 15416,
+        "an_nfe_est": 4584,
+        "an_nfe_female": 6806,
+        "an_nfe_male": 8610,
+        "an_nfe_nwe": 8588,
+        "an_nfe_onf": 2138,
+        "an_nfe_seu": 106,
+        "an_oth": 1086,
+        "an_oth_female": 560,
+        "an_oth_male": 526
+       },
+       "ref": "C"
+      },
+      "vcf": {
+       "alt": "T",
+       "position": "109268050",
+       "ref": "C"
+      }
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:6-108946847-C-T": {
+   "record_id": "gnomAD-v4.1:6-108946847-C-T",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T18:25:41.198099+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "6-108946847-C-T",
+     "rsids": [
+      "rs2798641"
+     ],
+     "exome": null,
+     "genome": {
+      "ac": 23577,
+      "an": 152106,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 413,
+        "an": 2112
+       },
+       {
+        "id": "amr",
+        "ac": 3571,
+        "an": 15282
+       },
+       {
+        "id": "fin",
+        "ac": 1541,
+        "an": 10560
+       },
+       {
+        "id": "ami",
+        "ac": 102,
+        "an": 910
+       },
+       {
+        "id": "eas",
+        "ac": 1472,
+        "an": 5178
+       },
+       {
+        "id": "mid",
+        "ac": 56,
+        "an": 294
+       },
+       {
+        "id": "sas",
+        "ac": 908,
+        "an": 4814
+       },
+       {
+        "id": "asj",
+        "ac": 648,
+        "an": 3470
+       },
+       {
+        "id": "afr",
+        "ac": 2222,
+        "an": 41502
+       },
+       {
+        "id": "nfe",
+        "ac": 12644,
+        "an": 67984
+       }
+      ]
+     }
+    },
+    "errors": null
+   }
+  },
+  "ClinVar:rs2798641@2026-11": {
+   "record_id": "ClinVar:rs2798641@2026-11",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2026-11",
+   "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
+   "retrieved_at": "2026-11-17T18:44:53.304140+00:00",
+   "status": 200,
+   "data": {
+    "rsid": "rs2798641",
+    "n_records": 0
+   }
+  },
+  "GWAS:rs2798641": {
+   "record_id": "GWAS:rs2798641",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T18:25:44.643203+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 188125859,
+      "accession_id": "GCST90468165",
+      "pubmed_id": "39789286",
+      "first_author": "Loya H",
+      "p_value": 4e-67,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -67,
+      "or_value": null,
+      "beta": "0.041560728 unit increase",
+      "risk_frequency": "0.1824527",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004713",
+        "efo_trait": "FEV/FVC ratio"
+       }
+      ],
+      "reported_trait": [
+       "FEV1 FVC ratio Z score (UKB data field 20258)"
+      ],
+      "mapped_genes": [
+       "ARMC2"
+      ],
+      "snp_effect_allele": [
+       "rs2798641-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2025-02-01"
+     },
+     {
+      "association_id": 104932613,
+      "accession_id": "GCST90244098",
+      "pubmed_id": "37069358",
+      "first_author": "Cosentino J",
+      "p_value": 3e-51,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -51,
+      "or_value": null,
+      "beta": "0.0405232 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005002",
+        "efo_trait": "chronic obstructive pulmonary disease"
+       }
+      ],
+      "reported_trait": [
+       "Chronic obstructive pulmonary disease liability (machine learning-based score)"
+      ],
+      "mapped_genes": [
+       "ARMC2"
+      ],
+      "snp_effect_allele": [
+       "rs2798641-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 1,
+      "_pubdate": "2023-05-01"
+     },
+     {
+      "association_id": 41134901,
+      "accession_id": "GCST007430",
+      "pubmed_id": "30804560",
+      "first_author": "Shrine N",
+      "p_value": 3e-14,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -14,
+      "or_value": null,
+      "beta": "0.0247 unit decrease",
+      "risk_frequency": "0.1829",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009718",
+        "efo_trait": "peak expiratory flow"
+       }
+      ],
+      "reported_trait": [
+       "Peak expiratory flow"
+      ],
+      "mapped_genes": [
+       "ARMC2"
+      ],
+      "snp_effect_allele": [
+       "rs2798641-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 2,
+      "_pubdate": "2019-03-01"
+     },
+     {
+      "association_id": 41134326,
+      "accession_id": "GCST007431",
+      "pubmed_id": "30804560",
+      "first_author": "Shrine N",
+      "p_value": 4e-48,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -48,
+      "or_value": null,
+      "beta": "0.045 unit decrease",
+      "risk_frequency": "0.1829",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004713",
+        "efo_trait": "FEV/FVC ratio"
+       }
+      ],
+      "reported_trait": [
+       "Lung function (FEV1/FVC)"
+      ],
+      "mapped_genes": [
+       "ARMC2"
+      ],
+      "snp_effect_allele": [
+       "rs2798641-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 3,
+      "_pubdate": "2019-03-01"
+     },
+     {
+      "association_id": 41133553,
+      "accession_id": "GCST007432",
+      "pubmed_id": "30804560",
+      "first_author": "Shrine N",
+      "p_value": 2e-26,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -26,
+      "or_value": null,
+      "beta": "0.0322 unit decrease",
+      "risk_frequency": "0.1829",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004314",
+        "efo_trait": "forced expiratory volume"
+       }
+      ],
+      "reported_trait": [
+       "FEV1"
+      ],
+      "mapped_genes": [
+       "ARMC2"
+      ],
+      "snp_effect_allele": [
+       "rs2798641-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 4,
+      "_pubdate": "2019-03-01"
+     },
+     {
+      "association_id": 36524791,
+      "accession_id": "GCST007080",
+      "pubmed_id": "30595370",
+      "first_author": "Kichaev G",
+      "p_value": 4e-80,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -80,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004713",
+        "efo_trait": "FEV/FVC ratio"
+       }
+      ],
+      "reported_trait": [
+       "Lung function (FEV1/FVC)"
+      ],
+      "mapped_genes": [
+       "ARMC2"
+      ],
+      "snp_effect_allele": [
+       "rs2798641-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 5,
+      "_pubdate": "2019-01-03"
+     },
+     {
+      "association_id": 26557,
+      "accession_id": "GCST001784",
+      "pubmed_id": "23284291",
+      "first_author": "Hancock DB",
+      "p_value": 2e-07,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -7,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004314",
+        "efo_trait": "forced expiratory volume"
+       },
+       {
+        "efo_id": "EFO_0003892",
+        "efo_trait": "pulmonary function measurement"
+       },
+       {
+        "efo_id": "OBA_2050116",
+        "efo_trait": "smoking behavior trait"
+       }
+      ],
+      "reported_trait": [
+       "Pulmonary function (smoking interaction)"
+      ],
+      "mapped_genes": [
+       "ARMC2"
+      ],
+      "snp_effect_allele": [
+       "rs2798641-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 6,
+      "_pubdate": "2012-01-01"
+     },
+     {
+      "association_id": 19262,
+      "accession_id": "GCST001251",
+      "pubmed_id": "21946350",
+      "first_author": "Soler Artigas M",
+      "p_value": 4.9999999999999996e-06,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -6,
+      "or_value": null,
+      "beta": "0.03 unit decrease",
+      "risk_frequency": "0.18",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004314",
+        "efo_trait": "forced expiratory volume"
+       },
+       {
+        "efo_id": "EFO_0003892",
+        "efo_trait": "pulmonary function measurement"
+       }
+      ],
+      "reported_trait": [
+       "Pulmonary function"
+      ],
+      "mapped_genes": [
+       "ARMC2"
+      ],
+      "snp_effect_allele": [
+       "rs2798641-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 7,
+      "_pubdate": "2011-09-25"
+     },
+     {
+      "association_id": 19232,
+      "accession_id": "GCST001248",
+      "pubmed_id": "21946350",
+      "first_author": "Soler Artigas M",
+      "p_value": 8e-09,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.041 unit decrease",
+      "risk_frequency": "0.18",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004713",
+        "efo_trait": "FEV/FVC ratio"
+       },
+       {
+        "efo_id": "EFO_0003892",
+        "efo_trait": "pulmonary function measurement"
+       }
+      ],
+      "reported_trait": [
+       "Pulmonary function"
+      ],
+      "mapped_genes": [
+       "ARMC2"
+      ],
+      "snp_effect_allele": [
+       "rs2798641-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 8,
+      "_pubdate": "2011-09-25"
+     }
+    ]
+   }
+  },
+  "PMID:30595370": {
+   "record_id": "PMID:30595370",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30595370/",
+   "retrieved_at": "2026-11-17T18:25:44.787235+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "30595370",
+    "title": "Leveraging Polygenic Functional Enrichment to Improve GWAS Power.",
+    "journal": "Am J Hum Genet",
+    "pubdate": "2019 Jan 3",
+    "sortpubdate": "2019-01-03"
+   }
+  },
+  "PMID:37069358": {
+   "record_id": "PMID:37069358",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37069358/",
+   "retrieved_at": "2026-11-17T18:25:44.787235+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "37069358",
+    "title": "Inference of chronic obstructive pulmonary disease with deep learning on raw spirograms identifies new genetic loci and improves risk models.",
+    "journal": "Nat Genet",
+    "pubdate": "2023 May",
+    "sortpubdate": "2023-05-01"
+   }
+  },
+  "PMID:30804560": {
+   "record_id": "PMID:30804560",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30804560/",
+   "retrieved_at": "2026-11-17T18:25:44.787235+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "30804560",
+    "title": "New genetic signals for lung function highlight pathways and chronic obstructive pulmonary disease associations across multiple ancestries.",
+    "journal": "Nat Genet",
+    "pubdate": "2019 Mar",
+    "sortpubdate": "2019-03-01"
+   }
+  },
+  "LitVar2:rs2798641": {
+   "record_id": "LitVar2:rs2798641",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs2798641%23%23/publications",
+   "retrieved_at": "2026-11-17T18:25:44.835040+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     28114305,
+     28174340,
+     24983941,
+     26634245,
+     37664790,
+     24787735,
+     26404118,
+     31324189,
+     29685792,
+     28722347,
+     23637549,
+     22424883,
+     23284291,
+     29378629,
+     29203782,
+     28082375,
+     26635082,
+     29273806,
+     30804560,
+     30804561,
+     25093840,
+     24274136,
+     26006746,
+     23055711,
+     25819875,
+     36467812,
+     27482468,
+     27663977,
+     23521772,
+     29955180,
+     21946350,
+     36641522,
+     27703156
+    ]
+   }
+  },
+  "PMID:37664790": {
+   "record_id": "PMID:37664790",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37664790/",
+   "retrieved_at": "2026-11-17T18:25:45.344007+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "37664790",
+    "title": "Genome- and Exome-Wide Association Studies Revealed Candidate Genes Associated with DaTscan Imaging Features.",
+    "journal": "Parkinsons Dis",
+    "pubdate": "2023",
+    "sortpubdate": "2023-08-23",
+    "abstract": "Despite remarkable progress in identifying Parkinson's disease (PD) genetic risk loci, the genetic basis of PD remains largely unknown. With the help of the endophenotype approach and using data from dopamine transporter single-photon emission computerized tomography (DaTscan), we identified potentially involved genes in PD. We conducted an imaging genetic study by performing exome-wide association study (EWAS) and genome-wide association study (GWAS) on the specific binding ratio (SBR) of six DaTscan anatomical areas between 489 and 559 subjects of Parkinson's progression markers initiative (PPMI) cohort and 83,623 and 36,845 single-nucleotide polymorphisms (SNPs)/insertion-deletion mutations (INDELs). We also investigated the association of cerebrospinal fluid (CSF) protein concentration of our significant genes with PD progression using PPMI CSF proteome data. Among 83,623 SNPs/INDELs in EWAS, one SNP (rs201465075) on 1 q32.1 locus was significantly (P value\u2009=\u20094.03\u2009\u00d7\u200910-7) associated with left caudate DaTscan SBR, and 33 SNPs were suggestive. Among 36,845 SNPs in GWAS, one SNP (rs12450112) on 17 p.12 locus was significantly (P value\u2009=\u20091.34\u2009\u00d7\u200910-6) associated with right anterior putamen DaTscan SBR, and 39 SNPs were suggestive among which 8 SNPs were intergenic. We found that rs201465075 and rs12450112 are most likely related to IGFN1 and MAP2K4 genes. The protein level of MAP2K4 in the CSF was significantly associated with PD progression in the PPMI cohort; however, proteomic data were not available for the IGFN1 gene. We have shown that particular variants of IGFN1 and MAP2K4 genes may be associated with PD. Since DaTscan imaging could be positive in other Parkinsonian syndromes, caution should be taken when interpreting our results. Future experimental studies are also needed to verify these findings."
+   }
+  },
+  "PMID:36641522": {
+   "record_id": "PMID:36641522",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36641522/",
+   "retrieved_at": "2026-11-17T18:25:45.344007+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "36641522",
+    "title": "A genome-wide association study identifies distinct variants associated with pulmonary function among European and African ancestries from the UK Biobank.",
+    "journal": "Commun Biol",
+    "pubdate": "2023 Jan 14",
+    "sortpubdate": "2023-01-14",
+    "abstract": "Pulmonary function is an indicator of well-being, and pulmonary pathologies are the third major cause of death worldwide. We analysed the UK Biobank genome-wide association summary statistics of pulmonary function for Europeans and individuals of recent African descent to identify variants associated with the trait in the two ancestries. Here, we show 627 variants in Europeans and 3 in Africans associated with three pulmonary function parameters. In addition to the 110 variants in Europeans previously reported to be associated with phenotypes related to pulmonary function, we identify 279 novel loci, including an ISX intergenic variant rs369476290 on chromosome 22 in Africans. Remarkably, we find no shared variants among Africans and Europeans. Furthermore, enrichment analyses of variants separately for each ancestry background reveal significant enrichment for terms related to pulmonary phenotypes in Europeans but not Africans. Further analysis of studies of pulmonary phenotypes reveals that individuals of European background are disproportionally overrepresented in datasets compared to Africans, with the gap widening over the past five years. Our findings extend our understanding of the different variants that modify the pulmonary function in Africans and Europeans, a promising finding for future GWASs and medical studies."
+   }
+  },
+  "PMID:36467812": {
+   "record_id": "PMID:36467812",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36467812/",
+   "retrieved_at": "2026-11-17T18:25:45.344007+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "36467812",
+    "title": "Establishment and characterization of a new mantle cell lymphoma cell line with a NOTCH2 mutation, Arbo.",
+    "journal": "EJHaem",
+    "pubdate": "2022 Nov",
+    "sortpubdate": "2022-09-20",
+    "abstract": "Cell lines represent an essential tool used in preclinical research. Most hematologic malignancies have a wide array of cell lines representing their respective molecular and pathologic spectra. In mantle cell lymphoma (MCL), cell lines become specifically valuable in view of the heterogeneity of this disease. Unfortunately, the number of MCL cell lines that are available for the research community remains small, with only nine cell lines available for purchase through the American Type Culture Collection (ATCC). We have established a novel blastoid MCL cell line, isolated from the malignant pleural effusion of a 69-year-old male with refractory MCL. Arbo was fully characterized with cytogenetics, immunophenotyping, whole exome sequencing and drug sensitivity assays. One of the most notable mutations identified in Arbo (but not in normal tissue) was the missense mutation NOTCH2 R2400*, which has been proposed as a clinically significant mutation in MCL seen in 5% of cases. NOTCH2 R2400* results in a truncated Notch2 protein, leading to a more stable and active protein. Using pharmacologic inhibition of Notch2, we showed a dependence of Arbo on NOTCH2 signaling, as well as a link between CD23 expression on Arbo and NOTCH2 activity. Arbo represents a NOTCH2 mutated model that is useful in MCL as well as other lymphomas with such mutation. We plan to deposit Arbo at the ATCC to be available for the research community."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 25,
+  "n_claims_fully_verified": 25,
+  "n_uncited_claims": 0,
+  "n_citations": 60,
+  "n_citations_valid": 60,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 45,
+  "n_shown_values_in_text": 45,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 25,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

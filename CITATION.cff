@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "Hindsight (kg-gc): predicting which genotype-phenotype knowledge graph edges will be revised, using GNN-guided agents"
+type: software
+authors:
+  - alias: nishbb
+version: 0.1.0
+date-released: 2026-11-17
+license: MIT
+repository-code: "https://github.com/nishbb/hindsight-kg"
+keywords:
+  - knowledge graph
+  - graph neural network
+  - ClinVar
+  - variant interpretation
+  - LLM agents
+  - knowledge graph error detection

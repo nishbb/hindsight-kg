@@ -60,9 +60,9 @@ SOURCES: dict[str, Source] = {
         Source(
             "clinvar_latest",
             "ClinVar variant_summary",
-            "latest (Last-Modified 2026-11-16)",
-            "2026-11-16",
-            "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/variant_summary.txt.gz",
+            "2026-11 monthly archive (Last-Modified 2026-11-05)",
+            "2026-11-05",
+            "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/variant_summary_2026-11.txt.gz",
             "Public domain (NCBI)",
             "OUTCOME LABELS ONLY (never a feature)",
             leaky=True,

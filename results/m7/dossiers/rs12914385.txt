@@ -1,0 +1,57 @@
+VARIANT DOSSIER: rs12914385
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs12914385 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs12914385]
+- Earlier identifiers merged into rs12914385: rs59251142. [dbSNP build 157 rs12914385]
+- dbSNP records rs12914385 as variant type 'snv' on NC_000015.10 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs12914385]
+- Alternate allele 1: NC_000015.10:g.78606381C>A, a single-nucleotide variant (SNV) (C>A in VCF form). [dbSNP build 157 rs12914385]
+- Alternate allele 2: NC_000015.10:g.78606381C>G, a single-nucleotide variant (SNV) (C>G in VCF form). [dbSNP build 157 rs12914385]
+- Alternate allele 3: NC_000015.10:g.78606381C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs12914385]
+
+FUNCTION
+- For alternate allele 1 (C>A), Ensembl VEP predicts intron_variant in CHRNA3 (ENST00000326828.6:c.378-4117G>T), impact MODIFIER. [Ensembl VEP rs12914385]
+- For alternate allele 3 (C>T), Ensembl VEP predicts intron_variant in CHRNA3 (ENST00000326828.6:c.378-4117G>A), impact MODIFIER. [Ensembl VEP rs12914385]
+- For alternate allele 2 (C>G), Ensembl VEP predicts intron_variant in CHRNA3 (ENST00000326828.6:c.378-4117G>C), impact MODIFIER. [Ensembl VEP rs12914385]
+- Ensembl classifies the variant as 'SNV' with allele string C/A/G/T. [Ensembl VEP rs12914385]
+
+FREQUENCY
+- In gnomAD v2.1.1 genomes, alternate allele 1 (C>A) has an overall allele frequency of 0.000102. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0.000136, Other 0.00102. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>A) has an overall allele frequency of 2.69e-05 (4 of 148,526 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 2.48e-05, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 4.44e-05, South Asian 0, Middle Eastern 0, Amish 0, Remaining 0. [gnomAD v4.1]
+- Alternate allele 2 (C>G) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 15-78606381-C-G (alternate allele 2). [gnomAD v4.1]
+- In gnomAD v2.1.1 genomes, alternate allele 3 (C>T) has an overall allele frequency of 0.316. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 3: African/African American 0.189, Admixed American 0.253, Ashkenazi Jewish 0.379, East Asian 0.279, Finnish 0.378, Non-Finnish European 0.379, Other 0.357. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 3 (C>T) has an overall allele frequency of 0.311 (46,045 of 148,198 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 3: African/African American 0.185, Admixed American 0.257, Ashkenazi Jewish 0.414, East Asian 0.276, Finnish 0.342, Non-Finnish European 0.393, South Asian 0.238, Middle Eastern 0.418, Amish 0.429, Remaining 0.335. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 3 frequency ranges from 0.185 in African/African American to 0.429 in Amish, a large between-ancestry difference. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- The ClinVar 2026-11 release contains no record for rs12914385. [ClinVar 2026-11 release]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs12914385]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 28 association record(s) for rs12914385. [GWAS Catalog rs12914385]
+- Genome-wide significant association with chronic obstructive pulmonary disease (p = 3e-93, study GCST90476027, effect allele rs12914385-C). [GWAS Catalog GCST90476027; PMID:39024449]
+- Genome-wide significant association with Hypoxemia (p = 2e-21, study GCST90479761, effect allele rs12914385-C). [GWAS Catalog GCST90479761; PMID:39024449]
+- Genome-wide significant association with lung cancer (p = 1e-18, study GCST90711137, effect allele rs12914385-T). [GWAS Catalog GCST90711137; PMID:38970920]
+- Genome-wide significant association with FEV/FVC ratio (p = 6e-18, study GCST003264, effect allele rs12914385-T). [GWAS Catalog GCST003264; PMID:26634245]
+- Genome-wide significant association with response to bronchodilator (p = 1e-17, study GCST003262, effect allele rs12914385-T). [GWAS Catalog GCST003262; PMID:26634245]
+- Genome-wide significant association with emphysema pattern measurement (p = 2e-17, study GCST003761, effect allele rs12914385-T). [GWAS Catalog GCST003761; PMID:27669027]
+- rs12914385 is associated with 14 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs12914385]
+
+LITERATURE
+- LitVar2 links 136 PubMed articles to rs12914385. [LitVar2 rs12914385]
+- Linked article: "Investigating CHRNA5, CHRNA3, and CHRNB4 variants in the genetic landscape of substance use disorder in Jordan" (BMC Psychiatry, 2024). [PMID:38862938]
+- Linked article: "The Cumulative Effect of Gene-Gene Interactions Between GSTM1, CHRNA3, CHRNA5 and SOD3 Gene Polymorphisms Combined with Smoking on COPD Risk" (Int J Chron Obstruct Pulmon Dis, 2021). [PMID:34707353]
+- Linked article: "CHRNA5/CHRNA3 gene cluster is a risk factor for lumbar disc herniation: a case-control study" (J Orthop Surg Res, 2019). [PMID:31362771]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs12914385 in CHRNA3 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with chronic obstructive pulmonary disease. Confidence: high (22 genome-wide significant associations across 27 studies). [GWAS Catalog rs12914385; LitVar2 rs12914385]

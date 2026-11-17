@@ -1,0 +1,150 @@
+{
+ "as_of": "latest",
+ "variants": [
+  {
+   "rsid": "rs34712979",
+   "status": "ok",
+   "current": "rs34712979",
+   "n_claims": 32,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs34712979 in NPNT is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: high (43 genome-wide significant associations across 43 studies)."
+  },
+  {
+   "rsid": "rs10037493",
+   "status": "ok",
+   "current": "rs10037493",
+   "n_claims": 32,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs10037493 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with chronic obstructive pulmonary disease. Confidence: moderate (replication is limited)."
+  },
+  {
+   "rsid": "rs7753012",
+   "status": "ok",
+   "current": "rs7753012",
+   "n_claims": 36,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs7753012 in ADGRG6 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: high (20 genome-wide significant associations across 21 studies)."
+  },
+  {
+   "rsid": "rs6828540",
+   "status": "ok",
+   "current": "rs6828540",
+   "n_claims": 28,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs6828540 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: high (5 genome-wide significant associations across 6 studies)."
+  },
+  {
+   "rsid": "rs2165489",
+   "status": "ok",
+   "current": "rs2165489",
+   "n_claims": 23,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs2165489 in THSD4 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with chronic obstructive pulmonary disease. Confidence: moderate (replication is limited)."
+  },
+  {
+   "rsid": "rs12914385",
+   "status": "ok",
+   "current": "rs12914385",
+   "n_claims": 36,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs12914385 in CHRNA3 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with chronic obstructive pulmonary disease. Confidence: high (22 genome-wide significant associations across 27 studies)."
+  },
+  {
+   "rsid": "rs9391855",
+   "status": "ok",
+   "current": "rs9391855",
+   "n_claims": 28,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 1,
+   "bottom_line": "Bottom line: rs9391855 in PBX2 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with chronic obstructive pulmonary disease. Sources disagree on some points (see conflicts). Confidence: high (10 genome-wide significant associations across 10 studies)."
+  },
+  {
+   "rsid": "rs2001546",
+   "status": "ok",
+   "current": "rs2001546",
+   "n_claims": 22,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs2001546 in CDC123 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: moderate (replication is limited)."
+  },
+  {
+   "rsid": "rs2036527",
+   "status": "ok",
+   "current": "rs2036527",
+   "n_claims": 33,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 1,
+   "bottom_line": "Bottom line: rs2036527 in PSMA4 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with lung cancer. Confidence: high (15 genome-wide significant associations across 18 studies)."
+  },
+  {
+   "rsid": "rs62191107",
+   "status": "ok",
+   "current": "rs62191107",
+   "n_claims": 23,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs62191107 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with chronic obstructive pulmonary disease. Confidence: moderate (replication is limited)."
+  },
+  {
+   "rsid": "rs7162542",
+   "status": "ok",
+   "current": "rs7162542",
+   "n_claims": 37,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs7162542 in ADAMTSL3 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with body height. Confidence: high (37 genome-wide significant associations across 25 studies)."
+  },
+  {
+   "rsid": "rs2798641",
+   "status": "ok",
+   "current": "rs2798641",
+   "n_claims": 25,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs2798641 in ARMC2 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: high (7 genome-wide significant associations across 9 studies)."
+  }
+ ],
+ "haplotypes": []
+}

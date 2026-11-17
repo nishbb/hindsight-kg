@@ -1,0 +1,43 @@
+VARIANT DOSSIER: rs2001546
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs2001546 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs2001546]
+- dbSNP records rs2001546 as variant type 'snv' on NC_000010.11 (GRCh38) with 1 alternate allele. [dbSNP build 157 rs2001546]
+- Alternate allele 1: NC_000010.11:g.12243736A>T, a single-nucleotide variant (SNV) (A>T in VCF form). [dbSNP build 157 rs2001546]
+
+FUNCTION
+- For alternate allele 1 (A>T), Ensembl VEP predicts intron_variant in CDC123 (ENST00000281141.9:c.718-2413A>T), impact MODIFIER. [Ensembl VEP rs2001546]
+- Ensembl classifies the variant as 'SNV' with allele string A/T. [Ensembl VEP rs2001546]
+
+FREQUENCY
+- In gnomAD v2.1.1 genomes, alternate allele 1 (A>T) has an overall allele frequency of 0.42. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.221, Admixed American 0.535, Ashkenazi Jewish 0.528, East Asian 0.32, Finnish 0.505, Non-Finnish European 0.513, Other 0.495. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0.221 in African/African American to 0.535 in Admixed American, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (A>T) has an overall allele frequency of 0.431 (65,064 of 150,976 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.222, Admixed American 0.524, Ashkenazi Jewish 0.506, East Asian 0.337, Finnish 0.494, Non-Finnish European 0.524, South Asian 0.473, Middle Eastern 0.555, Amish 0.642, Remaining 0.468. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0.222 in African/African American to 0.642 in Amish, a large between-ancestry difference. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- The ClinVar 2026-11 release contains no record for rs2001546. [ClinVar 2026-11 release]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs2001546]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 4 association record(s) for rs2001546. [GWAS Catalog rs2001546]
+- Genome-wide significant association with FEV/FVC ratio (p = 1e-92, study GCST007080). [GWAS Catalog GCST007080; PMID:30595370]
+- Genome-wide significant association with chronic obstructive pulmonary disease (p = 7e-83, study GCST90244098, effect allele rs2001546-A). [GWAS Catalog GCST90244098; PMID:37069358]
+- rs2001546 is associated with 2 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs2001546]
+
+LITERATURE
+- LitVar2 links 6 PubMed articles to rs2001546. [LitVar2 rs2001546]
+- Linked article: "A genome-wide association study identifies distinct variants associated with pulmonary function among European and African ancestries from the UK Biobank" (Commun Biol, 2023). [PMID:36641522]
+- Linked article: "De novo discovery of traits co-occurring with chronic obstructive pulmonary disease" (Life Sci Alliance, 2022). [PMID:36574990]
+- Linked article: "Pancreatic islet chromatin accessibility and conformation reveals distal enhancer networks of type 2 diabetes risk" (Nat Commun, 2019). [PMID:31064983]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs2001546 in CDC123 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: moderate (replication is limited). [GWAS Catalog rs2001546; LitVar2 rs2001546]

@@ -1,0 +1,53 @@
+VARIANT DOSSIER: rs34712979
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs34712979 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs34712979]
+- Earlier identifiers merged into rs34712979: rs386480176. [dbSNP build 157 rs34712979]
+- dbSNP records rs34712979 as variant type 'snv' on NC_000004.12 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs34712979]
+- Alternate allele 1: NC_000004.12:g.105897896G>A, a single-nucleotide variant (SNV) (G>A in VCF form). [dbSNP build 157 rs34712979]
+- Alternate allele 2: NC_000004.12:g.105897896G>T, a single-nucleotide variant (SNV) (G>T in VCF form). [dbSNP build 157 rs34712979]
+
+FUNCTION
+- For alternate allele 1 (G>A), Ensembl VEP predicts splice_region_variant, splice_polypyrimidine_tract_variant, intron_variant in NPNT (ENST00000379987.7:c.72-5G>A), impact LOW. [Ensembl VEP rs34712979]
+- For alternate allele 2 (G>T), Ensembl VEP predicts splice_region_variant, splice_polypyrimidine_tract_variant, intron_variant in NPNT (ENST00000379987.7:c.72-5G>T), impact LOW. [Ensembl VEP rs34712979]
+- Ensembl classifies the variant as 'SNV' with allele string G/A/T. [Ensembl VEP rs34712979]
+
+FREQUENCY
+- In gnomAD v2.1.1 exomes, alternate allele 1 (G>A) has an overall allele frequency of 0.167. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.0374, Admixed American 0.0828, Ashkenazi Jewish 0.131, East Asian 0.000495, Finnish 0.253, Non-Finnish European 0.25, South Asian 0.0706, Other 0.176. [gnomAD v2.1.1 exomes]
+- Population differentiation flag (gnomAD v2.1.1 exomes): allele 1 frequency ranges from 0.000495 in East Asian to 0.253 in Finnish, a large between-ancestry difference. [gnomAD v2.1.1 exomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (G>A) has an overall allele frequency of 0.216 (343,673 of 1,593,794 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.04, Admixed American 0.0983, Ashkenazi Jewish 0.135, East Asian 0.000291, Finnish 0.255, Non-Finnish European 0.254, South Asian 0.0731, Middle Eastern 0.153, Amish 0.196, Remaining 0.189. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0.000291 in East Asian to 0.255 in Finnish, a large between-ancestry difference. [gnomAD v4.1]
+- Alternate allele 2 (G>T) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (G>T) has an overall allele frequency of 6.92e-07 (1 of 1,444,778 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 3.04e-05, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0, South Asian 0, Middle Eastern 0, Remaining 0. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- The ClinVar 2026-11 release contains no record for rs34712979. [ClinVar 2026-11 release]
+
+SOMATIC EVIDENCE
+- Ensembl VEP reports 1 co-located COSMIC somatic mutation record(s) at this position (COSV59751514). [Ensembl VEP rs34712979]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 43 association record(s) for rs34712979. [GWAS Catalog rs34712979]
+- Genome-wide significant association with FEV/FVC ratio (p = 4e-181, study GCST007080). [GWAS Catalog GCST007080; PMID:30595370]
+- Genome-wide significant association with chronic obstructive pulmonary disease (p = 6e-161, study GCST90244098, effect allele rs34712979-G). [GWAS Catalog GCST90244098; PMID:37069358]
+- Genome-wide significant association with forced expiratory volume (p = 2e-110, study GCST90705070). [GWAS Catalog GCST90705070; PMID:41565855]
+- Genome-wide significant association with peak expiratory flow (p = 2e-51, study GCST007430, effect allele rs34712979-A). [GWAS Catalog GCST007430; PMID:30804560]
+- Genome-wide significant association with blood protein amount (p = 6e-50, study GCST90089355, effect allele rs34712979-A). [GWAS Catalog GCST90089355; PMID:35078996]
+- Genome-wide significant association with 25-hydroxyvitamin D3 measurement (p = 4e-29, study GCST90590340, effect allele rs34712979-G). [GWAS Catalog GCST90590340; PMID:38484975]
+- rs34712979 is associated with 12 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs34712979]
+
+LITERATURE
+- LitVar2 links 40 PubMed articles to rs34712979. [LitVar2 rs34712979]
+- Linked article: "Characterization of a COPD-Associated NPNT Functional Splicing Genetic Variant in Human Lung Tissue via Long-Read Sequencing" (medRxiv, 2020). [PMID:33173926]
+- Linked article: "Overlap between COPD genetic association results and transcriptional quantitative trait loci" (HGG Adv, 2026). [PMID:40798880]
+- Linked article: "Proteomic biomarkers of emphysema-predominant and non-emphysema-predominant chronic obstructive pulmonary disease" (EBioMedicine, 2025). [PMID:40505416]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs34712979 in NPNT is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: high (43 genome-wide significant associations across 43 studies). [GWAS Catalog rs34712979; LitVar2 rs34712979]

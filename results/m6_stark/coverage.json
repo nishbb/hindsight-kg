@@ -1,0 +1,7 @@
+{
+  "edges_with_any_flagged_support": 1810,
+  "edges_with_clinvar_support_at_T": 5326,
+  "edges_with_trust_below_0.5": 958,
+  "note": "Trust covers only gene-disease edges with time-T ClinVar P/LP support; PrimeKG edges from other sources stay unscored.",
+  "primekg_disease_protein_edges": 80411
+}

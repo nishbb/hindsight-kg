@@ -1,0 +1,2450 @@
+{
+ "rsid_query": "rs2036527",
+ "rsid_current": "rs2036527",
+ "as_of": "latest",
+ "generated_at": "2026-11-17T18:44:53.288889+00:00",
+ "genes": {
+  "vep": [
+   "PSMA4"
+  ],
+  "dbsnp": [],
+  "clinvar": [],
+  "gwas": [
+   "CHRNA5",
+   "PSMA4"
+  ]
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000015.10:g.78559273G>A",
+   "spdi_deleted": "G",
+   "spdi_inserted": "A",
+   "chrom": "15",
+   "pos": 78559273,
+   "ref": "G",
+   "alt": "A",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "15-78559273-G-A",
+   "vep": {
+    "gene_symbol": "PSMA4",
+    "consequence_terms": [
+     "3_prime_UTR_variant"
+    ],
+    "hgvsc": "ENST00001117541.1:c.*568G>A",
+    "hgvsp": null,
+    "impact": "MODIFIER",
+    "mane_select": null
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "genomes",
+     "overall": 0.286758,
+     "populations": {
+      "afr": 0.214565,
+      "amr": 0.205674,
+      "asj": 0.317241,
+      "eas": 0.0314506,
+      "fin": 0.356855,
+      "nfe": 0.338915,
+      "oth": 0.321691
+     },
+     "an": 31354,
+     "differentiated": true
+    },
+    "gnomad_v4": {
+     "overall": 0.28760782663580897,
+     "ac": 43744,
+     "an": 152096,
+     "populations": {
+      "afr": 0.221490910844303,
+      "amr": 0.24028522831348947,
+      "asj": 0.3553314121037464,
+      "eas": 0.034270311898344244,
+      "fin": 0.32897727272727273,
+      "nfe": 0.34983226413983876,
+      "sas": 0.2251449875724938,
+      "mid": 0.40816326530612246,
+      "ami": 0.4067982456140351,
+      "remaining": 0.3056872037914692
+     },
+     "differentiated": true
+    }
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000015.10:g.78559273G>C",
+   "spdi_deleted": "G",
+   "spdi_inserted": "C",
+   "chrom": "15",
+   "pos": 78559273,
+   "ref": "G",
+   "alt": "C",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "15-78559273-G-C",
+   "vep": null,
+   "frequency": {
+    "gnomad_v2": null,
+    "gnomad_v4": null
+   }
+  },
+  {
+   "index": 3,
+   "dbsnp_allele_index": 3,
+   "hgvs_g": "NC_000015.10:g.78559273G>T",
+   "spdi_deleted": "G",
+   "spdi_inserted": "T",
+   "chrom": "15",
+   "pos": 78559273,
+   "ref": "G",
+   "alt": "T",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "15-78559273-G-T",
+   "vep": null,
+   "frequency": {
+    "gnomad_v2": null,
+    "gnomad_v4": null
+   }
+  }
+ ],
+ "clinvar": [],
+ "clinvar_release": "2026-11",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 18,
+  "n_associations_in_scope": 18,
+  "n_genome_wide_significant": 15,
+  "n_studies": 18,
+  "mapped_genes": [
+   "CHRNA5",
+   "PSMA4"
+  ],
+  "top_traits": [
+   {
+    "trait": "lung cancer",
+    "p_value": "8e-179",
+    "accession": "GCST90455518",
+    "pmid": "39366959"
+   },
+   {
+    "trait": "lung adenocarcinoma",
+    "p_value": "3e-82",
+    "accession": "GCST90455519",
+    "pmid": "39366959"
+   },
+   {
+    "trait": "chronic obstructive pulmonary disease",
+    "p_value": "3e-66",
+    "accession": "GCST90480254",
+    "pmid": "39024449"
+   },
+   {
+    "trait": "chronic bronchitis",
+    "p_value": "2e-44",
+    "accession": "GCST90480252",
+    "pmid": "39024449"
+   },
+   {
+    "trait": "chronic lung disease",
+    "p_value": "2e-43",
+    "accession": "GCST90479592",
+    "pmid": "39024449"
+   },
+   {
+    "trait": "cotinine measurement",
+    "p_value": "3e-28",
+    "accession": "GCST009970",
+    "pmid": "32157176"
+   }
+  ],
+  "n_distinct_traits_significant": 13,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 127,
+  "n_in_scope": 127,
+  "pmids_in_scope": [
+   "40755048",
+   "41579494",
+   "40831304",
+   "39930075",
+   "39974067",
+   "39616312",
+   "38455708",
+   "38190101",
+   "36860174",
+   "37359362",
+   "37082203",
+   "36574990",
+   "36493776",
+   "36335192",
+   "35482827",
+   "34313775",
+   "34226506",
+   "32157176",
+   "33801584",
+   "33322962",
+   "32958583",
+   "32594908",
+   "31821614",
+   "31541490",
+   "31628598",
+   "31740837",
+   "31358043",
+   "31086352",
+   "31096457",
+   "30940143",
+   "30894353",
+   "30871624",
+   "29942042",
+   "30804561",
+   "30705317",
+   "30518762",
+   "30142156",
+   "30016313",
+   "29955180",
+   "29779894",
+   "29682782",
+   "29685792",
+   "29621993",
+   "28637795",
+   "27208830",
+   "29504045",
+   "29378629",
+   "29329304",
+   "29227965",
+   "29203782",
+   "28938182",
+   "29061142",
+   "29030599",
+   "28884473",
+   "28604730",
+   "28461624",
+   "28584231",
+   "28443625",
+   "28410642",
+   "28122634",
+   "27712845",
+   "27694844",
+   "28479869",
+   "27663977",
+   "27409342",
+   "27166759",
+   "27393504",
+   "27322064",
+   "26917578",
+   "27294413",
+   "27015630",
+   "26948517",
+   "27015805",
+   "26826707",
+   "26833182",
+   "26981579",
+   "27482468",
+   "26634245",
+   "26600159",
+   "26440539",
+   "26374098",
+   "26270548",
+   "26151758",
+   "26044620",
+   "25819875",
+   "25533967",
+   "25375650",
+   "25326100",
+   "25310821",
+   "25282492",
+   "24733007",
+   "24952745",
+   "25036316",
+   "25025429",
+   "25010687",
+   "24920305",
+   "24682045",
+   "24569419",
+   "23990377",
+   "23942621",
+   "23595788",
+   "22945651",
+   "23818875",
+   "23521772",
+   "23361195",
+   "23221128",
+   "23264444",
+   "21808284",
+   "23232035",
+   "22495174",
+   "22241830",
+   "22832964",
+   "22446964",
+   "22685416",
+   "23056235",
+   "23094028",
+   "21946350",
+   "20700147",
+   "21625484",
+   "20700436",
+   "20554942",
+   "20624154",
+   "19706762",
+   "19247474",
+   "19029397",
+   "18593715",
+   "18759969"
+  ],
+  "top": [
+   "40755048",
+   "24733007",
+   "41579494"
+  ]
+ },
+ "conflicts": [
+  {
+   "type": "discordant_gene_assignment",
+   "strict": false,
+   "genes": {
+    "Ensembl VEP": [
+     "PSMA4"
+    ],
+    "GWAS Catalog": [
+     "CHRNA5",
+     "PSMA4"
+    ]
+   }
+  }
+ ],
+ "bottom_line": {
+  "category": "trait-associated common variant without an established monogenic disease role",
+  "confidence": "high",
+  "rationale": "15 genome-wide significant associations across 18 studies",
+  "text": "Bottom line: rs2036527 in PSMA4 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with lung cancer. Confidence: high (15 genome-wide significant associations across 18 studies)."
+ },
+ "notes": [],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs2036527 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs2036527",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs2036527",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs2036527 as variant type 'snv' on NC_000015.10 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs2036527",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs2036527",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs2036527",
+     "path": "seq_id",
+     "value": "NC_000015.10",
+     "label": "dbSNP build 157 rs2036527",
+     "mode": "eq",
+     "shown": "NC_000015.10",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000015.10:g.78559273G>A, a single-nucleotide variant (SNV) (G>A in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs2036527",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000015.10:g.78559273G>A",
+     "label": "dbSNP build 157 rs2036527",
+     "mode": "eq",
+     "shown": "NC_000015.10:g.78559273G>A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000015.10:g.78559273G>C, a single-nucleotide variant (SNV) (G>C in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs2036527",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000015.10:g.78559273G>C",
+     "label": "dbSNP build 157 rs2036527",
+     "mode": "eq",
+     "shown": "NC_000015.10:g.78559273G>C",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 3: NC_000015.10:g.78559273G>T, a single-nucleotide variant (SNV) (G>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs2036527",
+     "path": "alleles.3.hgvs",
+     "value": "NC_000015.10:g.78559273G>T",
+     "label": "dbSNP build 157 rs2036527",
+     "mode": "eq",
+     "shown": "NC_000015.10:g.78559273G>T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (G>A), Ensembl VEP predicts 3_prime_UTR_variant in PSMA4 (ENST00001117541.1:c.*568G>A), impact MODIFIER.",
+   "citations": [
+    {
+     "record_id": "VEP:rs2036527",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "3_prime_UTR_variant",
+     "label": "Ensembl VEP rs2036527",
+     "mode": "eq",
+     "shown": "3_prime_UTR_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs2036527",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "PSMA4",
+     "label": "Ensembl VEP rs2036527",
+     "mode": "eq",
+     "shown": "PSMA4",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs2036527",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00001117541.1:c.*568G>A",
+     "label": "Ensembl VEP rs2036527",
+     "mode": "eq",
+     "shown": "ENST00001117541.1:c.*568G>A",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs2036527",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODIFIER",
+     "label": "Ensembl VEP rs2036527",
+     "mode": "eq",
+     "shown": "MODIFIER",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string G/A.",
+   "citations": [
+    {
+     "record_id": "VEP:rs2036527",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs2036527",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs2036527",
+     "path": "allele_string",
+     "value": "G/A",
+     "label": "Ensembl VEP rs2036527",
+     "mode": "eq",
+     "shown": "G/A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 genomes, alternate allele 1 (G>A) has an overall allele frequency of 0.287.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs2036527",
+     "path": "hits.0.gnomad_genome.af.af",
+     "value": 0.286758,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.287",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.215, Admixed American 0.206, Ashkenazi Jewish 0.317, East Asian 0.0315, Finnish 0.357, Non-Finnish European 0.339, Other 0.322.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs2036527",
+     "path": "hits.0.gnomad_genome.af.af_afr",
+     "value": 0.214565,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.215",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs2036527",
+     "path": "hits.0.gnomad_genome.af.af_amr",
+     "value": 0.205674,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.206",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs2036527",
+     "path": "hits.0.gnomad_genome.af.af_asj",
+     "value": 0.317241,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.317",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs2036527",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.0314506,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0315",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs2036527",
+     "path": "hits.0.gnomad_genome.af.af_fin",
+     "value": 0.356855,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.357",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs2036527",
+     "path": "hits.0.gnomad_genome.af.af_nfe",
+     "value": 0.338915,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.339",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs2036527",
+     "path": "hits.0.gnomad_genome.af.af_oth",
+     "value": 0.321691,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.322",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0.0315 in East Asian to 0.357 in Finnish, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs2036527",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.0314506,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0315",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs2036527",
+     "path": "hits.0.gnomad_genome.af.af_fin",
+     "value": 0.356855,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.357",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (G>A) has an overall allele frequency of 0.288 (43,744 of 152,096 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-A",
+     "path": "",
+     "value": 0.28760782663580897,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.288",
+     "args": [
+      [
+       "variant.genome.ac"
+      ],
+      [
+       "variant.genome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.221, Admixed American 0.24, Ashkenazi Jewish 0.355, East Asian 0.0343, Finnish 0.329, Non-Finnish European 0.35, South Asian 0.225, Middle Eastern 0.408, Amish 0.407, Remaining 0.306.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-A",
+     "path": "",
+     "value": 0.221490910844303,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.221",
+     "args": [
+      [
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-A",
+     "path": "",
+     "value": 0.24028522831348947,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.24",
+     "args": [
+      [
+       "variant.genome.populations.1.ac"
+      ],
+      [
+       "variant.genome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-A",
+     "path": "",
+     "value": 0.3553314121037464,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.355",
+     "args": [
+      [
+       "variant.genome.populations.7.ac"
+      ],
+      [
+       "variant.genome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-A",
+     "path": "",
+     "value": 0.034270311898344244,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0343",
+     "args": [
+      [
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-A",
+     "path": "",
+     "value": 0.32897727272727273,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.329",
+     "args": [
+      [
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-A",
+     "path": "",
+     "value": 0.34983226413983876,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.35",
+     "args": [
+      [
+       "variant.genome.populations.9.ac"
+      ],
+      [
+       "variant.genome.populations.9.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-A",
+     "path": "",
+     "value": 0.2251449875724938,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.225",
+     "args": [
+      [
+       "variant.genome.populations.6.ac"
+      ],
+      [
+       "variant.genome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-A",
+     "path": "",
+     "value": 0.40816326530612246,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.408",
+     "args": [
+      [
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-A",
+     "path": "",
+     "value": 0.4067982456140351,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.407",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-A",
+     "path": "",
+     "value": 0.3056872037914692,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.306",
+     "args": [
+      [
+       "variant.genome.populations.0.ac"
+      ],
+      [
+       "variant.genome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0.0343 in East Asian to 0.408 in Middle Eastern, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-A",
+     "path": "",
+     "value": 0.034270311898344244,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0343",
+     "args": [
+      [
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-A",
+     "path": "",
+     "value": 0.40816326530612246,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.408",
+     "args": [
+      [
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 2 (G>C) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs2036527.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs2036527",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "gnomAD v4.1 has no record for 15-78559273-G-C (alternate allele 2).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-C",
+     "path": "variant",
+     "value": null,
+     "label": "gnomAD v4.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 3 (G>T) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs2036527.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs2036527",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "gnomAD v4.1 has no record for 15-78559273-G-T (alternate allele 3).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:15-78559273-G-T",
+     "path": "variant",
+     "value": null,
+     "label": "gnomAD v4.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "The ClinVar 2026-11 release contains no record for rs2036527.",
+   "citations": [
+    {
+     "record_id": "ClinVar:rs2036527@2026-11",
+     "path": "n_records",
+     "value": 0,
+     "label": "ClinVar 2026-11 release",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Somatic evidence",
+   "text": "No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant.",
+   "citations": [
+    {
+     "record_id": "VEP:rs2036527",
+     "path": "cosmic_ids",
+     "value": [],
+     "label": "Ensembl VEP rs2036527",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 18 association record(s) for rs2036527.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations.17.association_id",
+     "value": 19257,
+     "label": "GWAS Catalog rs2036527",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with lung cancer (p = 8e-179, study GCST90455518, effect allele rs2036527-A).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations.8.accession_id",
+     "value": "GCST90455518",
+     "label": "GWAS Catalog GCST90455518",
+     "mode": "eq",
+     "shown": "GCST90455518",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations.8.pvalue_exponent",
+     "value": -179,
+     "label": "GWAS Catalog GCST90455518",
+     "mode": "eq",
+     "shown": "8e-179",
+     "args": null
+    },
+    {
+     "record_id": "PMID:39366959",
+     "path": "pmid",
+     "value": "39366959",
+     "label": "PMID:39366959",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with lung adenocarcinoma (p = 3e-82, study GCST90455519, effect allele rs2036527-A).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations.7.accession_id",
+     "value": "GCST90455519",
+     "label": "GWAS Catalog GCST90455519",
+     "mode": "eq",
+     "shown": "GCST90455519",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations.7.pvalue_exponent",
+     "value": -82,
+     "label": "GWAS Catalog GCST90455519",
+     "mode": "eq",
+     "shown": "3e-82",
+     "args": null
+    },
+    {
+     "record_id": "PMID:39366959",
+     "path": "pmid",
+     "value": "39366959",
+     "label": "PMID:39366959",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with chronic obstructive pulmonary disease (p = 3e-66, study GCST90480254, effect allele rs2036527-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations.1.accession_id",
+     "value": "GCST90480254",
+     "label": "GWAS Catalog GCST90480254",
+     "mode": "eq",
+     "shown": "GCST90480254",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations.1.pvalue_exponent",
+     "value": -66,
+     "label": "GWAS Catalog GCST90480254",
+     "mode": "eq",
+     "shown": "3e-66",
+     "args": null
+    },
+    {
+     "record_id": "PMID:39024449",
+     "path": "pmid",
+     "value": "39024449",
+     "label": "PMID:39024449",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with chronic bronchitis (p = 2e-44, study GCST90480252, effect allele rs2036527-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations.2.accession_id",
+     "value": "GCST90480252",
+     "label": "GWAS Catalog GCST90480252",
+     "mode": "eq",
+     "shown": "GCST90480252",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations.2.pvalue_exponent",
+     "value": -44,
+     "label": "GWAS Catalog GCST90480252",
+     "mode": "eq",
+     "shown": "2e-44",
+     "args": null
+    },
+    {
+     "record_id": "PMID:39024449",
+     "path": "pmid",
+     "value": "39024449",
+     "label": "PMID:39024449",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with chronic lung disease (p = 2e-43, study GCST90479592, effect allele rs2036527-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations.3.accession_id",
+     "value": "GCST90479592",
+     "label": "GWAS Catalog GCST90479592",
+     "mode": "eq",
+     "shown": "GCST90479592",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations.3.pvalue_exponent",
+     "value": -43,
+     "label": "GWAS Catalog GCST90479592",
+     "mode": "eq",
+     "shown": "2e-43",
+     "args": null
+    },
+    {
+     "record_id": "PMID:39024449",
+     "path": "pmid",
+     "value": "39024449",
+     "label": "PMID:39024449",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with cotinine measurement (p = 3e-28, study GCST009970, effect allele rs2036527-A).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations.10.accession_id",
+     "value": "GCST009970",
+     "label": "GWAS Catalog GCST009970",
+     "mode": "eq",
+     "shown": "GCST009970",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations.10.pvalue_exponent",
+     "value": -28,
+     "label": "GWAS Catalog GCST009970",
+     "mode": "eq",
+     "shown": "3e-28",
+     "args": null
+    },
+    {
+     "record_id": "PMID:32157176",
+     "path": "pmid",
+     "value": "32157176",
+     "label": "PMID:32157176",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 127 PubMed articles to rs2036527.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs2036527",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs2036527",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Identification of rs2036527 as a cis-regulatory variant for CHRNA3 and CHRNA5 by allele-specific expression and implications for nicotine dependence and lung cancer\" (Am J Addict, 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:40755048",
+     "path": "title",
+     "value": "Identification of rs2036527 as a cis-regulatory variant for CHRNA3 and CHRNA5 by allele-specific expression and implications for nicotine dependence and lung cancer.",
+     "label": "PMID:40755048",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:40755048",
+     "path": "journal",
+     "value": "Am J Addict",
+     "label": "PMID:40755048",
+     "mode": "eq",
+     "shown": "Am J Addict",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Association of CHRNA5-A3-B4 SNP rs2036527 with smoking cessation therapy response in African-American smokers\" (Clin Pharmacol Ther, 2014).",
+   "citations": [
+    {
+     "record_id": "PMID:24733007",
+     "path": "title",
+     "value": "Association of CHRNA5-A3-B4 SNP rs2036527 with smoking cessation therapy response in African-American smokers.",
+     "label": "PMID:24733007",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:24733007",
+     "path": "journal",
+     "value": "Clin Pharmacol Ther",
+     "label": "PMID:24733007",
+     "mode": "eq",
+     "shown": "Clin Pharmacol Ther",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Genetic risk factors for pneumonia differ by patient subgroup\" (EBioMedicine, 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:41579494",
+     "path": "title",
+     "value": "Genetic risk factors for pneumonia differ by patient subgroup.",
+     "label": "PMID:41579494",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:41579494",
+     "path": "journal",
+     "value": "EBioMedicine",
+     "label": "PMID:41579494",
+     "mode": "eq",
+     "shown": "EBioMedicine",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Conflicts and caveats",
+   "text": "Gene assignment difference: sources name different genes for rs2036527 (Ensembl VEP: PSMA4; GWAS Catalog: CHRNA5, PSMA4).",
+   "citations": [
+    {
+     "record_id": "VEP:rs2036527",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": null,
+     "label": "Ensembl VEP rs2036527",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations.0.mapped_genes",
+     "value": null,
+     "label": "GWAS Catalog rs2036527",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "rs2036527 is associated with 13 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs2036527",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs2036527 in PSMA4 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with lung cancer. Confidence: high (15 genome-wide significant associations across 18 studies).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs2036527",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs2036527",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs2036527",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs2036527",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs2036527": {
+   "record_id": "dbSNP:rs2036527",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/2036527",
+   "retrieved_at": "2026-11-17T18:23:52.764518+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "2036527",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [],
+    "merged_into": [],
+    "citations": [
+     17373692,
+     18414406,
+     18519524,
+     18759969,
+     19029397,
+     19247474,
+     19443489,
+     19706762,
+     20554942,
+     20587604,
+     20624154,
+     20700147,
+     22241830,
+     22495174,
+     22832964,
+     22837378,
+     22945651,
+     23221128,
+     23942621,
+     24733007,
+     25036316,
+     26010901,
+     26044620,
+     26351737,
+     26948517,
+     26981579,
+     27166759,
+     27294413,
+     27335628,
+     27393504,
+     27694844,
+     28884473,
+     29504045,
+     29621993,
+     29942042,
+     33322962
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000015.10",
+    "alleles": [
+     {
+      "hgvs": "NC_000015.10:g.78559273=",
+      "position0": 78559272,
+      "deleted": "G",
+      "inserted": "G"
+     },
+     {
+      "hgvs": "NC_000015.10:g.78559273G>A",
+      "position0": 78559272,
+      "deleted": "G",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000015.10:g.78559273G>C",
+      "position0": 78559272,
+      "deleted": "G",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000015.10:g.78559273G>T",
+      "position0": 78559272,
+      "deleted": "G",
+      "inserted": "T"
+     }
+    ],
+    "genes": []
+   }
+  },
+  "VEP:rs2036527": {
+   "record_id": "VEP:rs2036527",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs2036527",
+   "retrieved_at": "2026-11-17T18:23:53.732607+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs2036527",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "15",
+    "start": 78559273,
+    "end": 78559273,
+    "allele_string": "G/A",
+    "variant_class": "SNV",
+    "most_severe_consequence": "3_prime_UTR_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "A",
+      "gene_symbol": "PSMA4",
+      "gene_id": "ENSG00000041357",
+      "transcript_id": "ENST00001117541",
+      "mane_select": null,
+      "consequence_terms": [
+       "3_prime_UTR_variant"
+      ],
+      "hgvsc": "ENST00001117541.1:c.*568G>A",
+      "hgvsp": null,
+      "impact": "MODIFIER",
+      "amino_acids": null,
+      "protein_start": null,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [],
+    "colocated_somatic": false
+   }
+  },
+  "gnomAD-v2.1.1:rs2036527": {
+   "record_id": "gnomAD-v2.1.1:rs2036527",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T18:23:53.826807+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr15:g.78851615G>A",
+      "_score": 17.140974,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 5.273
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "A",
+       "ref": "G",
+       "vartype": "snv"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.286758,
+        "af_afr": 0.214565,
+        "af_afr_female": 0.21222,
+        "af_afr_male": 0.216275,
+        "af_amr": 0.205674,
+        "af_amr_female": 0.216019,
+        "af_amr_male": 0.195853,
+        "af_asj": 0.317241,
+        "af_asj_female": 0.35,
+        "af_asj_male": 0.304762,
+        "af_eas": 0.0314506,
+        "af_eas_female": 0.0335821,
+        "af_eas_male": 0.0303327,
+        "af_female": 0.287944,
+        "af_fin": 0.356855,
+        "af_fin_female": 0.35846,
+        "af_fin_male": 0.355037,
+        "af_male": 0.285813,
+        "af_nfe": 0.338915,
+        "af_nfe_est": 0.326571,
+        "af_nfe_female": 0.329903,
+        "af_nfe_male": 0.346038,
+        "af_nfe_nwe": 0.337917,
+        "af_nfe_onf": 0.361423,
+        "af_nfe_seu": 0.5,
+        "af_oth": 0.321691,
+        "af_oth_female": 0.329181,
+        "af_oth_male": 0.313688
+       },
+       "alt": "A",
+       "an": {
+        "an": 31354,
+        "an_afr": 8692,
+        "an_afr_female": 3666,
+        "an_afr_male": 5026,
+        "an_amr": 846,
+        "an_amr_female": 412,
+        "an_amr_male": 434,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1558,
+        "an_eas_female": 536,
+        "an_eas_male": 1022,
+        "an_female": 13902,
+        "an_fin": 3472,
+        "an_fin_female": 1844,
+        "an_fin_male": 1628,
+        "an_male": 17452,
+        "an_nfe": 15408,
+        "an_nfe_est": 4584,
+        "an_nfe_female": 6802,
+        "an_nfe_male": 8606,
+        "an_nfe_nwe": 8582,
+        "an_nfe_onf": 2136,
+        "an_nfe_seu": 106,
+        "an_oth": 1088,
+        "an_oth_female": 562,
+        "an_oth_male": 526
+       },
+       "ref": "G"
+      },
+      "vcf": {
+       "alt": "A",
+       "position": "78851615",
+       "ref": "G"
+      }
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:15-78559273-G-A": {
+   "record_id": "gnomAD-v4.1:15-78559273-G-A",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T18:23:53.984563+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "15-78559273-G-A",
+     "rsids": [
+      "rs2036527"
+     ],
+     "exome": null,
+     "genome": {
+      "ac": 43744,
+      "an": 152096,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 645,
+        "an": 2110
+       },
+       {
+        "id": "amr",
+        "ac": 3673,
+        "an": 15286
+       },
+       {
+        "id": "fin",
+        "ac": 3474,
+        "an": 10560
+       },
+       {
+        "id": "ami",
+        "ac": 371,
+        "an": 912
+       },
+       {
+        "id": "eas",
+        "ac": 178,
+        "an": 5194
+       },
+       {
+        "id": "mid",
+        "ac": 120,
+        "an": 294
+       },
+       {
+        "id": "sas",
+        "ac": 1087,
+        "an": 4828
+       },
+       {
+        "id": "asj",
+        "ac": 1233,
+        "an": 3470
+       },
+       {
+        "id": "afr",
+        "ac": 9187,
+        "an": 41478
+       },
+       {
+        "id": "nfe",
+        "ac": 23776,
+        "an": 67964
+       }
+      ]
+     }
+    },
+    "errors": null
+   }
+  },
+  "gnomAD-v4.1:15-78559273-G-C": {
+   "record_id": "gnomAD-v4.1:15-78559273-G-C",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T18:23:54.973854+00:00",
+   "status": 200,
+   "data": {
+    "variant": null,
+    "errors": [
+     {
+      "message": "Variant not found"
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:15-78559273-G-T": {
+   "record_id": "gnomAD-v4.1:15-78559273-G-T",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T18:23:55.938940+00:00",
+   "status": 200,
+   "data": {
+    "variant": null,
+    "errors": [
+     {
+      "message": "Variant not found"
+     }
+    ]
+   }
+  },
+  "ClinVar:rs2036527@2026-11": {
+   "record_id": "ClinVar:rs2036527@2026-11",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2026-11",
+   "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
+   "retrieved_at": "2026-11-17T18:44:53.284171+00:00",
+   "status": 200,
+   "data": {
+    "rsid": "rs2036527",
+    "n_records": 0
+   }
+  },
+  "GWAS:rs2036527": {
+   "record_id": "GWAS:rs2036527",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T18:24:00.466727+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 228309316,
+      "accession_id": "GCST90480267",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-12,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.07051 unit decrease",
+      "risk_frequency": "0.6985",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005275",
+        "efo_trait": "lung disorder"
+       }
+      ],
+      "reported_trait": [
+       "Other diseases of lung (PheCode 510)"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228306043,
+      "accession_id": "GCST90480254",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3e-66,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -66,
+      "or_value": null,
+      "beta": "0.0999 unit decrease",
+      "risk_frequency": "0.7007",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005002",
+        "efo_trait": "chronic obstructive pulmonary disease"
+       }
+      ],
+      "reported_trait": [
+       "Chronic airway obstruction (PheCode 496)"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 1,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228305591,
+      "accession_id": "GCST90480252",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-44,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -44,
+      "or_value": null,
+      "beta": "0.1308 unit decrease",
+      "risk_frequency": "0.6984",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005607",
+        "efo_trait": "chronic bronchitis"
+       }
+      ],
+      "reported_trait": [
+       "Chronic bronchitis (PheCode 496.2)"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 2,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228169431,
+      "accession_id": "GCST90479592",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-43,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -43,
+      "or_value": null,
+      "beta": "0.1358 unit decrease",
+      "risk_frequency": "0.6885",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009910",
+        "efo_trait": "chronic lung disease"
+       },
+       {
+        "efo_id": "EFO_0007010",
+        "efo_trait": "drug use measurement"
+       }
+      ],
+      "reported_trait": [
+       "Takes medication for Chronic lung diseases including COPD, Emphysema and Bronchitis?"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 3,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228090043,
+      "accession_id": "GCST90475238",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 6e-19,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -19,
+      "or_value": null,
+      "beta": "0.09177 unit decrease",
+      "risk_frequency": "0.6645",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0006953",
+        "efo_trait": "family history of lung cancer"
+       }
+      ],
+      "reported_trait": [
+       "Biological Father:  Cancer, Lung"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 4,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 192905774,
+      "accession_id": "GCST90624805",
+      "pubmed_id": "40829600",
+      "first_author": "Betti MJ",
+      "p_value": 5e-07,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -7,
+      "or_value": "1.29",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005138",
+        "efo_trait": "lung carcinoma"
+       }
+      ],
+      "reported_trait": [
+       "Lung cancer in ever smokers"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 5,
+      "_pubdate": "2025-09-04"
+     },
+     {
+      "association_id": 165298663,
+      "accession_id": "GCST90565218",
+      "pubmed_id": "39192244",
+      "first_author": "Nogawa S",
+      "p_value": 2e-09,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "6.018 z score increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005276",
+        "efo_trait": "dental caries"
+       }
+      ],
+      "reported_trait": [
+       "Dental caries"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 6,
+      "_pubdate": "2024-08-27"
+     },
+     {
+      "association_id": 141943866,
+      "accession_id": "GCST90455519",
+      "pubmed_id": "39366959",
+      "first_author": "Gorman BR",
+      "p_value": 3e-82,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -82,
+      "or_value": "1.259",
+      "beta": "-",
+      "risk_frequency": "0.345",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005061",
+        "efo_trait": "lung adenocarcinoma"
+       }
+      ],
+      "reported_trait": [
+       "Lung adenocarcinoma (conditioned on cigarettes per day)"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 7,
+      "_pubdate": "2024-10-04"
+     },
+     {
+      "association_id": 141943538,
+      "accession_id": "GCST90455518",
+      "pubmed_id": "39366959",
+      "first_author": "Gorman BR",
+      "p_value": 8e-179,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -179,
+      "or_value": "1.257",
+      "beta": "-",
+      "risk_frequency": "0.348",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0008903",
+        "efo_trait": "lung cancer"
+       }
+      ],
+      "reported_trait": [
+       "Lung cancer"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 8,
+      "_pubdate": "2024-10-04"
+     },
+     {
+      "association_id": 61652698,
+      "accession_id": "GCST009965",
+      "pubmed_id": "32157176",
+      "first_author": "Buchwald J",
+      "p_value": 5e-27,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -27,
+      "or_value": null,
+      "beta": "0.223 unit increase",
+      "risk_frequency": "0.349",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007813",
+        "efo_trait": "cotinine measurement"
+       }
+      ],
+      "reported_trait": [
+       "Cotinine levels in current smokers"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 9,
+      "_pubdate": "2021-06-01"
+     },
+     {
+      "association_id": 61652425,
+      "accession_id": "GCST009970",
+      "pubmed_id": "32157176",
+      "first_author": "Buchwald J",
+      "p_value": 3e-28,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -28,
+      "or_value": null,
+      "beta": "0.224 unit increase",
+      "risk_frequency": "0.349",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007813",
+        "efo_trait": "cotinine measurement"
+       },
+       {
+        "efo_id": "EFO_0010707",
+        "efo_trait": "trans-3-hydroxycotinine measurement"
+       }
+      ],
+      "reported_trait": [
+       "Cotinine and 3'-hydroxycotinine levels in current smokers"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 10,
+      "_pubdate": "2021-06-01"
+     },
+     {
+      "association_id": 15998257,
+      "accession_id": "GCST003264",
+      "pubmed_id": "26634245",
+      "first_author": "Lutz SM",
+      "p_value": 6.999999999999999e-16,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -16,
+      "or_value": null,
+      "beta": "0.015 unit decrease",
+      "risk_frequency": "0.601",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004713",
+        "efo_trait": "FEV/FVC ratio"
+       },
+       {
+        "efo_id": "GO_0097366",
+        "efo_trait": "response to bronchodilator"
+       }
+      ],
+      "reported_trait": [
+       "Post bronchodilator FEV1/FVC ratio"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 11,
+      "_pubdate": "2015-12-03"
+     },
+     {
+      "association_id": 15994123,
+      "accession_id": "GCST003267",
+      "pubmed_id": "26634245",
+      "first_author": "Lutz SM",
+      "p_value": 4e-10,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "0.01665 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004713",
+        "efo_trait": "FEV/FVC ratio"
+       }
+      ],
+      "reported_trait": [
+       "Pre bronchodilator FEV1/FVC ratio"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 12,
+      "_pubdate": "2015-12-03"
+     },
+     {
+      "association_id": 15993626,
+      "accession_id": "GCST003266",
+      "pubmed_id": "26634245",
+      "first_author": "Lutz SM",
+      "p_value": 2e-09,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.08021 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004314",
+        "efo_trait": "forced expiratory volume"
+       }
+      ],
+      "reported_trait": [
+       "Pre bronchodilator FEV1"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 13,
+      "_pubdate": "2015-12-03"
+     },
+     {
+      "association_id": 15951850,
+      "accession_id": "GCST003265",
+      "pubmed_id": "26634245",
+      "first_author": "Lutz SM",
+      "p_value": 7e-07,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -7,
+      "or_value": null,
+      "beta": "0.012 unit decrease",
+      "risk_frequency": "0.504",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004713",
+        "efo_trait": "FEV/FVC ratio"
+       },
+       {
+        "efo_id": "GO_0097366",
+        "efo_trait": "response to bronchodilator"
+       }
+      ],
+      "reported_trait": [
+       "Post bronchodilator FEV1/FVC ratio in COPD"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 14,
+      "_pubdate": "2015-12-03"
+     },
+     {
+      "association_id": 15896814,
+      "accession_id": "GCST003262",
+      "pubmed_id": "26634245",
+      "first_author": "Lutz SM",
+      "p_value": 9.000000000000001e-15,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -15,
+      "or_value": null,
+      "beta": "0.071 unit decrease",
+      "risk_frequency": "0.6",
+      "efo_traits": [
+       {
+        "efo_id": "GO_0097366",
+        "efo_trait": "response to bronchodilator"
+       },
+       {
+        "efo_id": "EFO_0004314",
+        "efo_trait": "forced expiratory volume"
+       }
+      ],
+      "reported_trait": [
+       "Post bronchodilator FEV1"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 15,
+      "_pubdate": "2015-12-03"
+     },
+     {
+      "association_id": 22625,
+      "accession_id": "GCST001539",
+      "pubmed_id": "22832964",
+      "first_author": "David SP",
+      "p_value": 2e-08,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "0.04 unit increase",
+      "risk_frequency": "0.22",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004318",
+        "efo_trait": "smoking behavior"
+       }
+      ],
+      "reported_trait": [
+       "Smoking behavior"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 16,
+      "_pubdate": "2012-05-22"
+     },
+     {
+      "association_id": 19257,
+      "accession_id": "GCST001251",
+      "pubmed_id": "21946350",
+      "first_author": "Soler Artigas M",
+      "p_value": 7e-07,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -7,
+      "or_value": null,
+      "beta": "0.026 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004314",
+        "efo_trait": "forced expiratory volume"
+       },
+       {
+        "efo_id": "EFO_0003892",
+        "efo_trait": "pulmonary function measurement"
+       }
+      ],
+      "reported_trait": [
+       "Pulmonary function"
+      ],
+      "mapped_genes": [
+       "CHRNA5",
+       "PSMA4"
+      ],
+      "snp_effect_allele": [
+       "rs2036527-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 17,
+      "_pubdate": "2011-09-25"
+     }
+    ]
+   }
+  },
+  "PMID:39366959": {
+   "record_id": "PMID:39366959",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39366959/",
+   "retrieved_at": "2026-11-17T18:24:00.631595+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "39366959",
+    "title": "Multi-ancestry GWAS meta-analyses of lung cancer reveal susceptibility loci and elucidate smoking-independent genetic risk.",
+    "journal": "Nat Commun",
+    "pubdate": "2024 Oct 4",
+    "sortpubdate": "2024-10-04"
+   }
+  },
+  "PMID:39024449": {
+   "record_id": "PMID:39024449",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39024449/",
+   "retrieved_at": "2026-11-17T18:24:00.631595+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "39024449",
+    "title": "Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.",
+    "journal": "Science",
+    "pubdate": "2024 Jul 19",
+    "sortpubdate": "2024-07-19"
+   }
+  },
+  "PMID:32157176": {
+   "record_id": "PMID:32157176",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32157176/",
+   "retrieved_at": "2026-11-17T18:24:00.631595+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "32157176",
+    "title": "Genome-wide association meta-analysis of nicotine metabolism and cigarette consumption measures in smokers of European descent.",
+    "journal": "Mol Psychiatry",
+    "pubdate": "2021 Jun",
+    "sortpubdate": "2021-06-01"
+   }
+  },
+  "LitVar2:rs2036527": {
+   "record_id": "LitVar2:rs2036527",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs2036527%23%23/publications",
+   "retrieved_at": "2026-11-17T18:24:00.676323+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     26634245,
+     28122634,
+     25533967,
+     25326100,
+     38190101,
+     29061142,
+     25036316,
+     29685792,
+     23232035,
+     22241830,
+     27166759,
+     29504045,
+     34313775,
+     28461624,
+     24682045,
+     29378629,
+     30871624,
+     24569419,
+     30804561,
+     36335192,
+     37082203,
+     31358043,
+     29682782,
+     28637795,
+     25310821,
+     23990377,
+     27663977,
+     29955180,
+     32958583,
+     23818875,
+     27015805,
+     27208830,
+     31096457,
+     21625484,
+     21808284,
+     30705317,
+     23361195,
+     39974067,
+     23264444,
+     20554942,
+     29030599,
+     26917578,
+     35482827,
+     30142156,
+     26044620,
+     27294413,
+     26981579,
+     27322064,
+     39930075,
+     26600159,
+     25819875,
+     22685416,
+     29621993,
+     24920305,
+     31541490,
+     27694844,
+     37359362,
+     23595788,
+     23094028,
+     36860174,
+     36574990,
+     31086352,
+     30894353,
+     28410642,
+     20700436,
+     20624154,
+     29942042,
+     26833182,
+     18759969,
+     28584231,
+     31821614,
+     31628598,
+     39616312,
+     30016313,
+     28604730,
+     22832964,
+     29203782,
+     40831304,
+     34226506,
+     27712845,
+     26151758,
+     24733007,
+     26270548,
+     26440539,
+     27482468,
+     40755048,
+     23056235,
+     33801584,
+     19247474,
+     22945651,
+     22446964,
+     28479869,
+     23221128,
+     19706762,
+     19029397,
+     25025429,
+     29329304,
+     38455708,
+     25375650,
+     26948517,
+     31740837,
+     24952745,
+     18593715,
+     29779894,
+     25282492,
+     29227965,
+     27409342,
+     28938182,
+     22495174,
+     27015630,
+     36493776,
+     26374098,
+     33322962,
+     26826707,
+     32594908,
+     23942621,
+     27393504,
+     41579494,
+     28443625,
+     30518762,
+     23521772,
+     21946350,
+     30940143,
+     20700147,
+     32157176,
+     28884473,
+     25010687
+    ]
+   }
+  },
+  "PMID:40755048": {
+   "record_id": "PMID:40755048",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40755048/",
+   "retrieved_at": "2026-11-17T18:24:02.111200+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "40755048",
+    "title": "Identification of rs2036527 as a cis-regulatory variant for CHRNA3 and CHRNA5 by allele-specific expression and implications for nicotine dependence and lung cancer.",
+    "journal": "Am J Addict",
+    "pubdate": "2026 May",
+    "sortpubdate": "2026-05-01",
+    "abstract": "Numerous genome-wide association studies suggest that rs1051730 is significantly associated with nicotine dependence and further lung cancer in Caucasian. Since rs1051730 is a synonymous variant at CHRNA3 (cholinergic receptor nicotinic alpha 3 subunit), it might be hypothesized that the causal variant might be other SNP(s) in strong linkage disequilibrium (LD). LD analysis and functional genomics work, including chromosome conformation capture (3C), luciferase assay, and chromatin immunoprecipitation (ChIP), were performed. Allele-specific expression indicates an overexpression of C allele than T at rs1051730 in lung tissues, thus verifying the hypothesis. Through LD analysis for 1000 genomes project data, 17 genetic variants are identified in strong LD with rs1051730. 3C indicates that two restrictive segments, chr15:78845145-78852557 and chr15:78867861-78872762, display high interaction efficiency with CHRNA3 promoter and contain two SNPs in core haplotype, rs72740964 and rs2036527, respectively. Luciferase assay suggests that only rs2036527 can alter enhancer activity. Further 3C indicates that CHRNA5 (cholinergic receptor nicotinic alpha 5 subunit) is an additional target of the enhancer containing rs2036527, which is verified by expression quantitative trait locus analysis. By ChIP, the related transcription factor, FOXA2 (forkhead box A2), is identified and their interaction is evaluated. rs2036527 is the cis-regulatory variant for CHRNA3 and CHRNA5, which can further influence nicotine dependence. This is the first report to indicate that rs2036527 genotype might be a better marker to predict the probability of developing nicotine dependence and that FOXA2, CHRNA5, and CHRNA3 might be treatment targets for nicotine dependence."
+   }
+  },
+  "PMID:24733007": {
+   "record_id": "PMID:24733007",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24733007/",
+   "retrieved_at": "2026-11-17T18:24:02.111200+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "24733007",
+    "title": "Association of CHRNA5-A3-B4 SNP rs2036527 with smoking cessation therapy response in African-American smokers.",
+    "journal": "Clin Pharmacol Ther",
+    "pubdate": "2014 Aug",
+    "sortpubdate": "2014-08-01",
+    "abstract": "Associations between CHRNA5-A3-B4 variants and smoking behaviors exist; however, the association with smoking abstinence is less understood, particularly that among African Americans. In 1,295 African Americans enrolled in two clinical trials, we investigated the association between CHRNA5-A3-B4 and smoking abstinence. The rs2056527(A) allele was associated with lower abstinence with active pharmacotherapy (during treatment: odds ratio (OR) = 0.42, P < 0.001; end of treatment (EOT): OR = 0.55, P = 0.004), or with nicotine gum alone (during treatment: OR = 0.31, P < 0.001; EOT: OR = 0.51, P = 0.02), but not significantly with bupropion, although similar directions and magnitudes were observed (during treatment: OR = 0.54, P = 0.05; EOT: OR = 0.59, P = 0.08). In addition, the rs588765(T) allele was associated with abstinence with gum during treatment (OR = 2.31, P < 0.01). The SNP rs16969968 occurred at a low frequency and was not consistently associated with abstinence. CHRNA5-A3-B4 variants were not associated with tobacco consumption, and adjustments for smoking behaviors did not alter the associations with smoking abstinence. Together, our data suggest that among African Americans, CHRNA5-A3-B4 variants are not associated with baseline smoking but can influence smoking abstinence during active pharmacotherapy."
+   }
+  },
+  "PMID:41579494": {
+   "record_id": "PMID:41579494",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41579494/",
+   "retrieved_at": "2026-11-17T18:24:02.111200+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "41579494",
+    "title": "Genetic risk factors for pneumonia differ by patient subgroup.",
+    "journal": "EBioMedicine",
+    "pubdate": "2026 Feb",
+    "sortpubdate": "2026-02-01",
+    "abstract": "Pneumonia risk is influenced by demographics, chronic disease burden, lifestyle, and environmental factors. Despite previous genetic studies, the impact of host genetics on pneumonia, particularly within specific patient groups, remains unclear. We conducted genome-wide meta-analyses of pneumonia using data from FinnGen and Estonian biobank, analysing both the general population and patient subgroups based on age at first pneumonia diagnosis, recurrent pneumonia, and asthma status. Additionally, we investigated genetic correlations and causal relationships between pneumonia and other traits. Our study included a total of 110,881 pneumonia cases and 509,253 controls, with subgroup analyses focussing on children (9534 cases, 509,253 controls), working-age adults (53,203 cases, 509,253 controls), elderly individuals (48,144 cases, 509,253 controls), patients with recurrent pneumonia (10,151 cases, 509,253 controls), and patients with asthma (23,943 cases, 54,456 controls). We identified 12 loci including 4 replicated (PTGER4, HLA, MUC5AC, CHRNA5) and 8 novel associations (PTPN22, CRP, CHRNA2, EML6, RP11-541P9.3, TNFSF15, CTD-2028E8.2, HNF1A). Subgroup analysis of children (HLA region), working age adults (CRP, HLA region, MUC5AC), the elderly (CRP, MUC5B, RP11-532E4.3, CHRNA5), recurrent pneumonia (CRP, EML6, RP11-541P9.3, CHRNA2, MUC5AC, CHRNA5) and patients with asthma (CRP) demonstrated significant differences in genetic associations. Loci associated with pneumonia harbour genes mainly related to acute inflammation, T cell development, antigen presentation and lung health. Further, downstream analyses suggest that well-known pneumonia risk factors, such as obesity and smoking, may be causal. Genetics of immunology seem crucial to the development of pneumonia in early life, adulthood, and among patients with asthma, while genetics of nicotine dependency and lung health are more pronounced among the elderly and those suffering from recurrent pneumonia. A complete list of sources of funding is provided in the Acknowledgements section."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 33,
+  "n_claims_fully_verified": 33,
+  "n_uncited_claims": 0,
+  "n_citations": 72,
+  "n_citations_valid": 72,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 49,
+  "n_shown_values_in_text": 49,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 33,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

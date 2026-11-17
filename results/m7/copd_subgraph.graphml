@@ -1,0 +1,781 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d3" for="edge" attr.name="kind" attr.type="string" />
+  <key id="d2" for="node" attr.name="changed" attr.type="boolean" />
+  <key id="d1" for="node" attr.name="label" attr.type="string" />
+  <key id="d0" for="node" attr.name="kind" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="VCV6129">
+      <data key="d0">variant</data>
+      <data key="d1">c.334C&gt;T (p.Arg112Ter)</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="ZFPM2">
+      <data key="d0">gene</data>
+      <data key="d1">ZFPM2</data>
+    </node>
+    <node id="MONDO:0012431">
+      <data key="d0">disease</data>
+      <data key="d1">Diaphragmatic hernia 3</data>
+    </node>
+    <node id="VCV6131">
+      <data key="d0">variant</data>
+      <data key="d1">c.2527A&gt;G (p.Thr843Ala)</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="VCV8838">
+      <data key="d0">variant</data>
+      <data key="d1">c.800C&gt;T (p.Pro267Leu)</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="SCNN1B">
+      <data key="d0">gene</data>
+      <data key="d1">SCNN1B</data>
+    </node>
+    <node id="MONDO:0008887">
+      <data key="d0">disease</data>
+      <data key="d1">Bronchiectasis with or without</data>
+    </node>
+    <node id="VCV8839">
+      <data key="d0">variant</data>
+      <data key="d1">c.1543-2A&gt;G</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="VCV8840">
+      <data key="d0">variant</data>
+      <data key="d1">c.880G&gt;A (p.Gly294Ser)</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="VCV8841">
+      <data key="d0">variant</data>
+      <data key="d1">c.1615G&gt;A (p.Glu539Lys)</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="VCV8842">
+      <data key="d0">variant</data>
+      <data key="d1">c.1105C&gt;A (p.Pro369Thr)</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="VCV8843">
+      <data key="d0">variant</data>
+      <data key="d1">c.863A&gt;G (p.Asn288Ser)</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="VCV9268">
+      <data key="d0">variant</data>
+      <data key="d1">c.340G&gt;A (p.Val114Ile)</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="SCNN1A">
+      <data key="d0">gene</data>
+      <data key="d1">SCNN1A</data>
+    </node>
+    <node id="MONDO:0013087">
+      <data key="d0">disease</data>
+      <data key="d1">Bronchiectasis with or without</data>
+    </node>
+    <node id="VCV9270">
+      <data key="d0">variant</data>
+      <data key="d1">c.241C&gt;T (p.Arg81Cys)</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="VCV504974">
+      <data key="d0">variant</data>
+      <data key="d1">c.942del (p.Asn315fs)</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="MONDO:0018956">
+      <data key="d0">disease</data>
+      <data key="d1">Idiopathic bronchiectasis</data>
+    </node>
+    <node id="VCV633466">
+      <data key="d0">variant</data>
+      <data key="d1">c.1168A&gt;C (p.Lys390Gln)</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="rs2798641">
+      <data key="d0">variant</data>
+      <data key="d1">rs2798641</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="T:pulmonary function measurement">
+      <data key="d0">trait</data>
+      <data key="d1">pulmonary function measurement</data>
+    </node>
+    <node id="ARMC2">
+      <data key="d0">gene</data>
+      <data key="d1">ARMC2</data>
+    </node>
+    <node id="T:FEV/FEC ratio">
+      <data key="d0">trait</data>
+      <data key="d1">FEV/FEC ratio</data>
+    </node>
+    <node id="rs2571445">
+      <data key="d0">variant</data>
+      <data key="d1">rs2571445</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="T:chronic obstructive pulmonary disease">
+      <data key="d0">trait</data>
+      <data key="d1">chronic obstructive pulmonary </data>
+    </node>
+    <node id="TNS1">
+      <data key="d0">gene</data>
+      <data key="d1">TNS1</data>
+    </node>
+    <node id="T:smoking behaviour measurement">
+      <data key="d0">exposure</data>
+      <data key="d1">smoking behaviour measurement</data>
+    </node>
+    <node id="rs2036527">
+      <data key="d0">variant</data>
+      <data key="d1">rs2036527</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="T:smoking behavior">
+      <data key="d0">exposure</data>
+      <data key="d1">smoking behavior</data>
+    </node>
+    <node id="rs633185">
+      <data key="d0">variant</data>
+      <data key="d1">rs633185</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="ARHGAP42">
+      <data key="d0">gene</data>
+      <data key="d1">ARHGAP42</data>
+    </node>
+    <node id="T:smoking status measurement">
+      <data key="d0">exposure</data>
+      <data key="d1">smoking status measurement</data>
+    </node>
+    <node id="rs17486278">
+      <data key="d0">variant</data>
+      <data key="d1">rs17486278</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="CHRNA5">
+      <data key="d0">gene</data>
+      <data key="d1">CHRNA5</data>
+    </node>
+    <node id="T:emphysema pattern measurement">
+      <data key="d0">trait</data>
+      <data key="d1">emphysema pattern measurement</data>
+    </node>
+    <node id="T:pulmonary artery enlargement">
+      <data key="d0">trait</data>
+      <data key="d1">pulmonary artery enlargement</data>
+    </node>
+    <node id="T:diffusing capacity of the lung for carbon monoxide">
+      <data key="d0">trait</data>
+      <data key="d1">diffusing capacity of the lung</data>
+    </node>
+    <node id="rs9788721">
+      <data key="d0">variant</data>
+      <data key="d1">rs9788721</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="HYKK">
+      <data key="d0">gene</data>
+      <data key="d1">HYKK</data>
+    </node>
+    <node id="rs7162542">
+      <data key="d0">variant</data>
+      <data key="d1">rs7162542</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="ADAMTSL3">
+      <data key="d0">gene</data>
+      <data key="d1">ADAMTSL3</data>
+    </node>
+    <node id="rs3923564">
+      <data key="d0">variant</data>
+      <data key="d1">rs3923564</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="SFTPD">
+      <data key="d0">gene</data>
+      <data key="d1">SFTPD</data>
+    </node>
+    <node id="rs3741240">
+      <data key="d0">variant</data>
+      <data key="d1">rs3741240</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="SCGB1A1">
+      <data key="d0">gene</data>
+      <data key="d1">SCGB1A1</data>
+    </node>
+    <node id="rs12914385">
+      <data key="d0">variant</data>
+      <data key="d1">rs12914385</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="CHRNA3">
+      <data key="d0">gene</data>
+      <data key="d1">CHRNA3</data>
+    </node>
+    <node id="rs13141641">
+      <data key="d0">variant</data>
+      <data key="d1">rs13141641</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="T:emphysema imaging measurement">
+      <data key="d0">trait</data>
+      <data key="d1">emphysema imaging measurement</data>
+    </node>
+    <node id="rs2283847">
+      <data key="d0">variant</data>
+      <data key="d1">rs2283847</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="MN1">
+      <data key="d0">gene</data>
+      <data key="d1">MN1</data>
+    </node>
+    <node id="rs6828540">
+      <data key="d0">variant</data>
+      <data key="d1">rs6828540</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="rs34712979">
+      <data key="d0">variant</data>
+      <data key="d1">rs34712979</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="NPNT">
+      <data key="d0">gene</data>
+      <data key="d1">NPNT</data>
+    </node>
+    <node id="rs7753012">
+      <data key="d0">variant</data>
+      <data key="d1">rs7753012</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="ADGRG6">
+      <data key="d0">gene</data>
+      <data key="d1">ADGRG6</data>
+    </node>
+    <node id="rs12698403">
+      <data key="d0">variant</data>
+      <data key="d1">rs12698403</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="rs1990950">
+      <data key="d0">variant</data>
+      <data key="d1">rs1990950</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="ADAM19">
+      <data key="d0">gene</data>
+      <data key="d1">ADAM19</data>
+    </node>
+    <node id="rs11783093">
+      <data key="d0">variant</data>
+      <data key="d1">rs11783093</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="GULOP">
+      <data key="d0">gene</data>
+      <data key="d1">GULOP</data>
+    </node>
+    <node id="T:smoking initiation">
+      <data key="d0">exposure</data>
+      <data key="d1">smoking initiation</data>
+    </node>
+    <node id="rs2027761">
+      <data key="d0">variant</data>
+      <data key="d1">rs2027761</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="ARHGEF17">
+      <data key="d0">gene</data>
+      <data key="d1">ARHGEF17</data>
+    </node>
+    <node id="rs6501455">
+      <data key="d0">variant</data>
+      <data key="d1">rs6501455</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="rs2544536">
+      <data key="d0">variant</data>
+      <data key="d1">rs2544536</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="rs10059996">
+      <data key="d0">variant</data>
+      <data key="d1">rs10059996</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="rs79898473">
+      <data key="d0">variant</data>
+      <data key="d1">rs79898473</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="RASGEF1C">
+      <data key="d0">gene</data>
+      <data key="d1">RASGEF1C</data>
+    </node>
+    <node id="rs55884799">
+      <data key="d0">variant</data>
+      <data key="d1">rs55884799</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="KCNS3">
+      <data key="d0">gene</data>
+      <data key="d1">KCNS3</data>
+    </node>
+    <node id="rs879394">
+      <data key="d0">variant</data>
+      <data key="d1">rs879394</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="rs2284174">
+      <data key="d0">variant</data>
+      <data key="d1">rs2284174</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="rs17759204">
+      <data key="d0">variant</data>
+      <data key="d1">rs17759204</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="rs10037493">
+      <data key="d0">variant</data>
+      <data key="d1">rs10037493</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="HTR4">
+      <data key="d0">gene</data>
+      <data key="d1">HTR4</data>
+    </node>
+    <node id="rs17666332">
+      <data key="d0">variant</data>
+      <data key="d1">rs17666332</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="rs10857859">
+      <data key="d0">variant</data>
+      <data key="d1">rs10857859</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="DENND2D">
+      <data key="d0">gene</data>
+      <data key="d1">DENND2D</data>
+    </node>
+    <node id="rs2001546">
+      <data key="d0">variant</data>
+      <data key="d1">rs2001546</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="CDC123">
+      <data key="d0">gene</data>
+      <data key="d1">CDC123</data>
+    </node>
+    <node id="rs6809164">
+      <data key="d0">variant</data>
+      <data key="d1">rs6809164</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="CACNA1D">
+      <data key="d0">gene</data>
+      <data key="d1">CACNA1D</data>
+    </node>
+    <node id="rs79904209">
+      <data key="d0">variant</data>
+      <data key="d1">rs79904209</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="AC114956.3">
+      <data key="d0">gene</data>
+      <data key="d1">AC114956.3</data>
+    </node>
+    <node id="rs631126">
+      <data key="d0">variant</data>
+      <data key="d1">rs631126</data>
+      <data key="d2">False</data>
+    </node>
+    <node id="MTCL1">
+      <data key="d0">gene</data>
+      <data key="d1">MTCL1</data>
+    </node>
+    <node id="HP:0002089">
+      <data key="d0">phenotype</data>
+      <data key="d1">Pulmonary hypoplasia</data>
+    </node>
+    <node id="HP:0002094">
+      <data key="d0">phenotype</data>
+      <data key="d1">Dyspnea</data>
+    </node>
+    <node id="HP:0002097">
+      <data key="d0">phenotype</data>
+      <data key="d1">Emphysema</data>
+    </node>
+    <node id="HP:0002105">
+      <data key="d0">phenotype</data>
+      <data key="d1">Hemoptysis</data>
+    </node>
+    <node id="HP:0002092">
+      <data key="d0">phenotype</data>
+      <data key="d1">Pulmonary arterial hypertens</data>
+    </node>
+    <edge source="VCV6129" target="ZFPM2">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="VCV6129" target="MONDO:0012431">
+      <data key="d3">assertion</data>
+      <data key="d4">stable_pathogenic</data>
+    </edge>
+    <edge source="ZFPM2" target="VCV6131">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="ZFPM2" target="VCV633466">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="MONDO:0012431" target="VCV6131">
+      <data key="d3">assertion</data>
+      <data key="d4">stable_pathogenic</data>
+    </edge>
+    <edge source="MONDO:0012431" target="VCV633466">
+      <data key="d3">assertion</data>
+      <data key="d4">stable_vus</data>
+    </edge>
+    <edge source="VCV8838" target="SCNN1B">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="VCV8838" target="MONDO:0008887">
+      <data key="d3">assertion</data>
+      <data key="d4">stable_pathogenic</data>
+    </edge>
+    <edge source="SCNN1B" target="VCV8839">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="SCNN1B" target="VCV8840">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="SCNN1B" target="VCV8841">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="SCNN1B" target="VCV8842">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="SCNN1B" target="VCV8843">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="SCNN1B" target="HP:0002094">
+      <data key="d3">has_phenotype</data>
+    </edge>
+    <edge source="SCNN1B" target="HP:0002097">
+      <data key="d3">has_phenotype</data>
+    </edge>
+    <edge source="SCNN1B" target="HP:0002105">
+      <data key="d3">has_phenotype</data>
+    </edge>
+    <edge source="MONDO:0008887" target="VCV8839">
+      <data key="d3">assertion</data>
+      <data key="d4">stable_pathogenic</data>
+    </edge>
+    <edge source="MONDO:0008887" target="VCV8840">
+      <data key="d3">assertion</data>
+      <data key="d4">stable_vus</data>
+    </edge>
+    <edge source="MONDO:0008887" target="VCV8841">
+      <data key="d3">assertion</data>
+      <data key="d4">stable_pathogenic</data>
+    </edge>
+    <edge source="MONDO:0008887" target="VCV8842">
+      <data key="d3">assertion_changed</data>
+      <data key="d4">downgraded</data>
+    </edge>
+    <edge source="MONDO:0008887" target="VCV8843">
+      <data key="d3">assertion_changed</data>
+      <data key="d4">downgraded</data>
+    </edge>
+    <edge source="VCV9268" target="SCNN1A">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="VCV9268" target="MONDO:0013087">
+      <data key="d3">assertion_changed</data>
+      <data key="d4">downgraded</data>
+    </edge>
+    <edge source="SCNN1A" target="VCV9270">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="SCNN1A" target="VCV504974">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="SCNN1A" target="HP:0002094">
+      <data key="d3">has_phenotype</data>
+    </edge>
+    <edge source="SCNN1A" target="HP:0002097">
+      <data key="d3">has_phenotype</data>
+    </edge>
+    <edge source="SCNN1A" target="HP:0002105">
+      <data key="d3">has_phenotype</data>
+    </edge>
+    <edge source="MONDO:0013087" target="VCV9270">
+      <data key="d3">assertion</data>
+      <data key="d4">stable_pathogenic</data>
+    </edge>
+    <edge source="VCV504974" target="MONDO:0018956">
+      <data key="d3">assertion</data>
+      <data key="d4">stable_pathogenic</data>
+    </edge>
+    <edge source="rs2798641" target="T:pulmonary function measurement">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="rs2798641" target="ARMC2">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs2798641" target="T:FEV/FEC ratio">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:pulmonary function measurement" target="rs2571445">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs2571445">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs2036527">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs17486278">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs9788721">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs12914385">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs13141641">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs2283847">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs6828540">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs34712979">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs7753012">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs12698403">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs1990950">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs2027761">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs6501455">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs2544536">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs10059996">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs79898473">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs55884799">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs879394">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs17759204">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs17666332">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs10857859">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs2001546">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs6809164">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs79904209">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:FEV/FEC ratio" target="rs631126">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="rs2571445" target="T:chronic obstructive pulmonary disease">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="rs2571445" target="TNS1">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs2571445" target="T:smoking behaviour measurement">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:chronic obstructive pulmonary disease" target="rs633185">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:chronic obstructive pulmonary disease" target="rs17486278">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:chronic obstructive pulmonary disease" target="rs3923564">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:chronic obstructive pulmonary disease" target="rs3741240">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:chronic obstructive pulmonary disease" target="rs12914385">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:chronic obstructive pulmonary disease" target="rs13141641">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:chronic obstructive pulmonary disease" target="rs34712979">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:chronic obstructive pulmonary disease" target="rs2284174">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:chronic obstructive pulmonary disease" target="rs17759204">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:chronic obstructive pulmonary disease" target="rs10037493">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:smoking behaviour measurement" target="rs11783093">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="rs2036527" target="T:smoking behavior">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:smoking behavior" target="rs9788721">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:smoking behavior" target="rs7162542">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:smoking behavior" target="rs12914385">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:smoking behavior" target="rs13141641">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:smoking behavior" target="rs11783093">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="rs633185" target="ARHGAP42">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs633185" target="T:smoking status measurement">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:smoking status measurement" target="rs12914385">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:smoking status measurement" target="rs34712979">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:smoking status measurement" target="rs11783093">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="rs17486278" target="CHRNA5">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs17486278" target="T:emphysema pattern measurement">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="rs17486278" target="T:pulmonary artery enlargement">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="rs17486278" target="T:diffusing capacity of the lung for carbon monoxide">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:emphysema pattern measurement" target="rs9788721">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:emphysema pattern measurement" target="rs12914385">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="T:emphysema pattern measurement" target="rs13141641">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="rs9788721" target="HYKK">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs7162542" target="ADAMTSL3">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs3923564" target="SFTPD">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs3741240" target="SCGB1A1">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs12914385" target="CHRNA3">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs13141641" target="T:emphysema imaging measurement">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="rs2283847" target="MN1">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs34712979" target="NPNT">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs7753012" target="ADGRG6">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="ADGRG6" target="HP:0002089">
+      <data key="d3">has_phenotype</data>
+    </edge>
+    <edge source="rs1990950" target="ADAM19">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs11783093" target="GULOP">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs11783093" target="T:smoking initiation">
+      <data key="d3">gwas</data>
+    </edge>
+    <edge source="rs2027761" target="ARHGEF17">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs79898473" target="RASGEF1C">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs55884799" target="KCNS3">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs10037493" target="HTR4">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs10857859" target="DENND2D">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs2001546" target="CDC123">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs6809164" target="CACNA1D">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="CACNA1D" target="HP:0002092">
+      <data key="d3">has_phenotype</data>
+    </edge>
+    <edge source="rs79904209" target="AC114956.3">
+      <data key="d3">in_gene</data>
+    </edge>
+    <edge source="rs631126" target="MTCL1">
+      <data key="d3">in_gene</data>
+    </edge>
+  </graph>
+</graphml>

@@ -32,6 +32,7 @@ SINGLE_DIRECTIONS = {
         "cadd_phred": -1,
         "gnn_rgcn": -1,
         "gnn_hgt": -1,
+        "gnn_small": -1,
     },
     "upgrade": {
         "stars": +1,
@@ -41,6 +42,7 @@ SINGLE_DIRECTIONS = {
         "cadd_phred": +1,
         "gnn_rgcn": +1,
         "gnn_hgt": +1,
+        "gnn_small": +1,
     },
 }
 

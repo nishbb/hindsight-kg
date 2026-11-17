@@ -8,6 +8,12 @@ Running log of plans, decisions, failures and open issues. Newest milestone at t
 |---|---|---|---|---|
 | M0 | laptop (Apple M-series, 11 CPU, 36 GB RAM) | 0 | 0 | |
 | M1 | laptop | 0 | 0 | about 1 min CPU |
+| M2 | laptop | 0 | 0 | 22 s CPU |
+| M3 | laptop | 0 | 0 | R-GCN 17 min, HGT 42 min, evaluation about 40 min CPU |
+| M4 | laptop | 0 | 0 | network-bound; about 1 h for 300 dossiers with a cold cache |
+| M5 | laptop + NVIDIA NIM API | 0 | 0 | hosted LLM; tokens reported in results/m5 |
+| M6 part 1 | laptop | 0 | 0 | 18 runs x 2.4 min CPU |
+| M7 | laptop | 0 | 0 | a few minutes |
 
 No NVIDIA GPU is attached to this development machine. Everything up to M5 is designed to run on CPU; M6 (QLoRA G-Retriever) needs the Brev RTX 6000 class instance.
 
@@ -137,3 +143,24 @@ Limitations: the bottom line is rule-based; per-condition ClinVar classification
 * Conflict detection recall: 100 extra germline ClinVar variants whose aggregate classification is "Conflicting ..." (needed because expert-panel records essentially never carry the flag). Recall 1.0 both from the dossier's conflict list and when computed from individual submissions only. On the expert-panel set 29% of variants show submitter disagreement; these are real disagreements that the panel resolved, so they are reported as a disagreement rate, not as false alarms.
 * Caveat: citation validity and agreement are 1.0 by construction where the template system works, so these numbers mainly show that the verifier finds nothing broken. They are not a test of whether the evidence is complete or well chosen.
 * Bugs found by this run and fixed: a "no COSMIC record" sentence cited a field that is absent when Ensembl has no annotation for a very new rsID (3 variants); a transient Ensembl HTTP 500 aborted one dossier (now recorded as a processing note and the other sources continue).
+
+## Pinning the outcome release (2026-11-17)
+
+The first runs used `variant_summary.txt.gz` downloaded on 2026-11-16, which is NCBI's weekly update and is overwritten without being archived, so the labels could not be reproduced. All outcome labels now come from the archived monthly release `archive/variant_summary_2026-11.txt.gz` (Last-Modified 2026-11-05, md5 d7e0d7e581e220100fc84ca64fe953ba); the weekly file is kept in `data/raw/clinvar/weekly_2026-11-16/` only for the record. Label counts changed slightly (downgraded 4,171 to 4,170; stable VUS 71,307 to 71,361). The GNNs never see outcomes, so they were not retrained; every evaluation, the dossiers in latest mode, M5, M6 and M7 were regenerated. `scripts/download_data.py` pins every raw file by md5.
+
+Final H1 numbers on the pinned release (`results/m3/h1_main.csv`, `h1_deltas.csv`): downgrade, tabular GBM 0.837 versus +R-GCN 0.839 (delta +0.002, CI -0.000 to +0.005); upgrade, tabular 0.812 versus +R-GCN 0.882 (delta +0.070), tabular + neighbour counts 0.895 versus +R-GCN 0.899 (delta +0.004, CI +0.002 to +0.006, now significant but small).
+
+## M6. Does cleaning help? (part 1 done; part 2 not run)
+
+Plan and decisions:
+* **Prospective downstream task.** Train a gene-disease link predictor (R-GCN encoder, MLP decoder) on the time-T graph and test it on the 8,122 gene-disease pairs that have a germline P/LP ClinVar assertion in 2026-11 but none at T (diseases mapped through the same MONDO 2019 index). Negatives: 10 random (ClinVar gene, asserted disease) pairs per positive that are P/LP neither at T nor in 2026. Supervised training pairs are removed from the message graph each epoch.
+* **Cleaning arms** (3,908 edges each, the size of the GNN flag): `gnn_flag` (out-of-fold R-GCN conformal set is {B/LB}; time-T only), `gbm_prosp` (top risk under the GBM fitted on 2018 to 2020 revisions), `random` (control), `oracle` (the 4,170 edges actually downgraded; uses future labels, upper bound only), `downweight` (flagged edges kept in a separate message relation; pairs supported only by flagged edges stay positives at loss weight 0.3). 3 seeds each.
+* **Bug found and fixed:** the first `downweight` implementation also dropped flagged pairs from the training positives, so it was a second pruning arm. Fixed and all 18 runs regenerated.
+
+Results (`results/m6/cleaning_summary.csv`, `cleaning_deltas.csv`), AUROC mean over 3 seeds: original 0.911; gnn_flag 0.889 (delta -0.023); downweight 0.906 (-0.005); gbm_prosp 0.905 (-0.006); random 0.908 (-0.004); oracle 0.908 (-0.003). **No arm improves downstream prediction; H3 is not supported.** Even removing exactly the edges that were later downgraded does not help, which suggests that for gene-disease discovery a downgraded variant-level assertion still carries useful signal about the gene-disease pair (the gene is usually still disease-relevant even when one variant is not). The GNN flag hurts most because it removes 1,625 gene-disease training pairs entirely.
+
+Part 2 (STaRK-Prime graph-RAG with G-Retriever): **not run**. It needs a GPU for Llama-3.1-8B fine-tuning and none was attached. Preparation done (`scripts/m6_trust_transfer.py`): kg-gc trust can be transferred to only 5,326 of 80,411 PrimeKG disease-protein edges (6.6%), of which 958 have trust below 0.5. Any effect of trust-based pruning on STaRK-Prime is therefore limited to a small slice of the graph; we flag this as a reason to expect a small effect before spending GPU budget. Next step on the GPU instance: reproduce the G-Retriever baseline with PyG's `GRetriever` and QLoRA, then rerun with PCST edge cost increased by (1 - trust).
+
+## M7. COPD / emphysema case study (done except agent verdicts)
+
+See `docs/case_study_copd.md`. Seeds retrieved from the GWAS Catalog v2 API by trait-name search (3 MONDO terms, 1,234 associations, 562 lead loci). Only 12 time-T ClinVar edges qualify as COPD-related under the data rule; 3 were later downgraded (SCNN1A, SCNN1B bronchiectasis, all "no assertion criteria"), and all 3 had an "empty" conformal set at T. SERPINA1 drops out because its COPD GWAS support in the catalog is from 2024 (PMID 39024449), after T. The graph has no exposure entities; smoking-behaviour GWAS traits are the only exposure proxy.

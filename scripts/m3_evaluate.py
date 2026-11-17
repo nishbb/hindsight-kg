@@ -16,7 +16,6 @@ import pandas as pd
 from sklearn.inspection import permutation_importance
 
 from kggc.data.annotate import fetch_annotations
-from kggc.data.clinvar import consequence_from_name, load_variant_summary
 from kggc.eval.baselines import (
     SINGLE_DIRECTIONS,
     TASKS,
@@ -29,7 +28,6 @@ from kggc.eval.baselines import (
 from kggc.eval.features import (
     ALLOWED_TIME_T,
     CADD,
-    CONSEQ_ORDER,
     NEIGHBOR,
     TABULAR,
     attach_gnn,
@@ -37,52 +35,10 @@ from kggc.eval.features import (
     tabular_features,
 )
 from kggc.eval.metrics import auprc, auroc, bootstrap_ci, paired_bootstrap_delta
+from kggc.eval.prospective import PROSPECTIVE_COLS, prospective_training_table
 from kggc.graph.leakage import check_feature_columns
 from kggc.models.conformal import calibrate_by_fold, coverage_report
 from kggc.utils import PROC_DIR, RAW_DIR, RESULTS_DIR, seed_everything, write_json
-
-PROSPECTIVE_COLS = [
-    "stars",
-    "n_submitters",
-    "no_assertion_criteria",
-    "is_likely_pathogenic",
-    "gnomad_af",
-    "in_gnomad",
-    "log10_gnomad_af",
-] + [f"cons_{c}" for c in CONSEQ_ORDER]
-
-
-def prospective_training_table() -> pd.DataFrame | None:
-    """Revisions observed before T: class at 2018-01 versus class at 2020-01."""
-    cv = RAW_DIR / "clinvar"
-    p18, p20 = cv / "variant_summary_2018-01.txt.gz", cv / "variant_summary_2020-01.txt.gz"
-    if not (p18.exists() and p20.exists()):
-        return None
-    t = load_variant_summary(p20)
-    a2v = dict(zip(t["allele_id"], t["variation_id"].astype(int)))
-    s = load_variant_summary(p18, allele_to_variation=a2v)
-    s = s[
-        (s["origin_simple"] == "germline")
-        & s["clnsig_class"].isin(["PLP", "VUS"])
-        & (s["gene_id"] > 0)
-    ]
-    s = s.merge(
-        t[["variation_id", "clnsig_class"]].rename(columns={"clnsig_class": "cls_T"}),
-        on="variation_id",
-    )
-    lab = pd.Series(pd.NA, index=s.index, dtype="object")
-    a, b = s["clnsig_class"], s["cls_T"]
-    lab[(a == "PLP") & (b == "PLP")] = "stable_pathogenic"
-    lab[(a == "PLP") & b.isin(["VUS", "BLB", "CONFLICT"])] = "downgraded"
-    lab[(a == "VUS") & (b == "PLP")] = "upgraded"
-    lab[(a == "VUS") & (b == "VUS")] = "stable_vus"
-    s["label"] = lab
-    s = s[s["label"].notna()].copy()
-    s["consequence"] = [consequence_from_name(n, ty) for n, ty in zip(s["name"], s["type"])]
-    s["t_subclass"] = s["clnsig"]
-    s["last_eval_year"] = np.nan
-    ann = fetch_annotations(s["variation_id"].tolist())
-    return tabular_features(s, ann)
 
 
 def row(task, method, family, y, s, n_boot, seed=0):
@@ -110,9 +66,15 @@ def main() -> None:
     ap.add_argument("--tags", nargs="*", default=["rgcn", "hgt"])
     ap.add_argument("--alpha", type=float, default=0.1)
     ap.add_argument("--skip-prospective", action="store_true")
+    ap.add_argument(
+        "--only-scored",
+        action="store_true",
+        help="evaluate only edges that have a GNN score (subsampled runs)",
+    )
+    ap.add_argument("--out-suffix", default="")
     args = ap.parse_args()
     seed_everything(0)
-    out = RESULTS_DIR / "m3"
+    out = RESULTS_DIR / f"m3{args.out_suffix}"
     out.mkdir(parents=True, exist_ok=True)
 
     labels = pd.read_parquet(PROC_DIR / "labels.parquet")
@@ -185,6 +147,8 @@ def main() -> None:
     hg = hg[hg["entrez_id"].notna() & hg["gene_group"].notna()]
     gene_group = dict(zip(hg["entrez_id"].astype(int), hg["gene_group"].str.split("|").str[0]))
 
+    if args.only_scored and gnn_cols:
+        feat = feat[feat[gnn_cols].notna().all(axis=1)].reset_index(drop=True)
     for task in TASKS:
         d = task_frame(feat, task)
         for c in gnn_cols:
@@ -317,7 +281,7 @@ def main() -> None:
     pd.DataFrame(imp_rows).sort_values(["task", "auroc_drop"], ascending=[True, False]).to_csv(
         out / "feature_importance.csv", index=False
     )
-    feat.to_parquet(PROC_DIR / "edge_scores.parquet", index=False)
+    feat.to_parquet(PROC_DIR / f"edge_scores{args.out_suffix}.parquet", index=False)
     print(
         pd.DataFrame(rows)[["task", "method", "auroc", "auroc_lo", "auroc_hi", "auprc"]].to_string()
     )

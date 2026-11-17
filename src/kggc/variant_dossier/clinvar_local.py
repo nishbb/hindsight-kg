@@ -24,7 +24,11 @@ SNAPSHOTS = {
         "2020-01-02",
         "submission_summary_2020-01.txt.gz",
     ),
-    "2026-11": ("variant_summary.txt.gz", "2026-11-16", "submission_summary.txt.gz"),
+    "2026-11": (
+        "variant_summary_2026-11.txt.gz",
+        "2026-11-05",
+        "submission_summary_2026-11.txt.gz",
+    ),
 }
 LATEST = "2026-11"
 DB_PATH = PROC_DIR / "clinvar_local.sqlite"

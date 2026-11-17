@@ -6,10 +6,10 @@ single_gene,302761
 single_informative_condition,181406
 condition_maps_to_MONDO_at_T,160813
 present_in_latest,153842
-latest_class_in_scope,128330
-label_downgraded,4171
-label_stable_pathogenic,50721
+latest_class_in_scope,128384
+label_downgraded,4170
+label_stable_pathogenic,50722
 label_upgraded,2131
-label_stable_vus,71307
-vus_to_benign_not_labeled,5525
+label_stable_vus,71361
+vus_to_benign_not_labeled,5527
 rows_with_LastEvaluated_after_T_release(dropped),0

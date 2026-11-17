@@ -1,0 +1,3474 @@
+{
+ "rsid_query": "rs7162542",
+ "rsid_current": "rs7162542",
+ "as_of": "latest",
+ "generated_at": "2026-11-17T18:44:53.300293+00:00",
+ "genes": {
+  "vep": [
+   "ADAMTSL3"
+  ],
+  "dbsnp": [
+   "ADAMTSL3"
+  ],
+  "clinvar": [],
+  "gwas": [
+   "ADAMTSL3"
+  ]
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000015.10:g.83845538C>A",
+   "spdi_deleted": "C",
+   "spdi_inserted": "A",
+   "chrom": "15",
+   "pos": 83845538,
+   "ref": "C",
+   "alt": "A",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "15-83845538-C-A",
+   "vep": {
+    "gene_symbol": "ADAMTSL3",
+    "consequence_terms": [
+     "intron_variant"
+    ],
+    "hgvsc": "ENST00000286744.10:c.727+7323C>A",
+    "hgvsp": null,
+    "impact": "MODIFIER",
+    "mane_select": "NM_207517.3"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    },
+    "gnomad_v4": {
+     "overall": 6.57834146854895e-06,
+     "ac": 1,
+     "an": 152014,
+     "populations": {
+      "afr": 2.4160425223483932e-05,
+      "amr": 0.0,
+      "asj": 0.0,
+      "eas": 0.0,
+      "fin": 0.0,
+      "nfe": 0.0,
+      "sas": 0.0,
+      "mid": 0.0,
+      "ami": 0.0,
+      "remaining": 0.0
+     }
+    }
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000015.10:g.83845538C>G",
+   "spdi_deleted": "C",
+   "spdi_inserted": "G",
+   "chrom": "15",
+   "pos": 83845538,
+   "ref": "C",
+   "alt": "G",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "15-83845538-C-G",
+   "vep": {
+    "gene_symbol": "ADAMTSL3",
+    "consequence_terms": [
+     "intron_variant"
+    ],
+    "hgvsc": "ENST00000286744.10:c.727+7323C>G",
+    "hgvsp": null,
+    "impact": "MODIFIER",
+    "mane_select": "NM_207517.3"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "genomes",
+     "overall": 0.630264,
+     "populations": {
+      "afr": 0.742814,
+      "amr": 0.784198,
+      "asj": 0.634483,
+      "eas": 0.947436,
+      "fin": 0.531737,
+      "nfe": 0.550864,
+      "oth": 0.591912
+     },
+     "an": 31344,
+     "differentiated": true
+    },
+    "gnomad_v4": {
+     "overall": 0.6447389188478232,
+     "ac": 98039,
+     "an": 152060,
+     "populations": {
+      "afr": 0.7384659885262498,
+      "amr": 0.7193143156241821,
+      "asj": 0.6438040345821325,
+      "eas": 0.9404394757131843,
+      "fin": 0.538527234769406,
+      "nfe": 0.561183048852266,
+      "sas": 0.7,
+      "mid": 0.7142857142857143,
+      "ami": 0.5932017543859649,
+      "remaining": 0.644212523719165
+     },
+     "differentiated": true
+    }
+   }
+  },
+  {
+   "index": 3,
+   "dbsnp_allele_index": 3,
+   "hgvs_g": "NC_000015.10:g.83845538C>T",
+   "spdi_deleted": "C",
+   "spdi_inserted": "T",
+   "chrom": "15",
+   "pos": 83845538,
+   "ref": "C",
+   "alt": "T",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "15-83845538-C-T",
+   "vep": {
+    "gene_symbol": "ADAMTSL3",
+    "consequence_terms": [
+     "intron_variant"
+    ],
+    "hgvsc": "ENST00000286744.10:c.727+7323C>T",
+    "hgvsp": null,
+    "impact": "MODIFIER",
+    "mane_select": "NM_207517.3"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    },
+    "gnomad_v4": {
+     "overall": 6.57834146854895e-06,
+     "ac": 1,
+     "an": 152014,
+     "populations": {
+      "afr": 0.0,
+      "amr": 6.549646319098769e-05,
+      "asj": 0.0,
+      "eas": 0.0,
+      "fin": 0.0,
+      "nfe": 0.0,
+      "sas": 0.0,
+      "mid": 0.0,
+      "ami": 0.0,
+      "remaining": 0.0
+     }
+    }
+   }
+  }
+ ],
+ "clinvar": [],
+ "clinvar_release": "2026-11",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 38,
+  "n_associations_in_scope": 38,
+  "n_genome_wide_significant": 37,
+  "n_studies": 25,
+  "mapped_genes": [
+   "ADAMTSL3"
+  ],
+  "top_traits": [
+   {
+    "trait": "body height",
+    "p_value": "8e-55",
+    "accession": "GCST002647",
+    "pmid": "25282103"
+   },
+   {
+    "trait": "chronic obstructive pulmonary disease",
+    "p_value": "4e-54",
+    "accession": "GCST90244098",
+    "pmid": "37069358"
+   },
+   {
+    "trait": "forced expiratory volume",
+    "p_value": "3e-49",
+    "accession": "GCST90565844",
+    "pmid": "40374629"
+   },
+   {
+    "trait": "BMI-adjusted waist circumference",
+    "p_value": "3e-44",
+    "accession": "GCST012226",
+    "pmid": "34021172"
+   },
+   {
+    "trait": "body shape measurement",
+    "p_value": "2e-31",
+    "accession": "GCST90832992",
+    "pmid": "38640244"
+   },
+   {
+    "trait": "BMI-adjusted hip circumference",
+    "p_value": "1e-30",
+    "accession": "GCST012227",
+    "pmid": "34021172"
+   }
+  ],
+  "n_distinct_traits_significant": 11,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 24,
+  "n_in_scope": 24,
+  "pmids_in_scope": [
+   "37025349",
+   "36658113",
+   "36698947",
+   "36493776",
+   "36250789",
+   "31959851",
+   "31069276",
+   "31053729",
+   "30804561",
+   "30664634",
+   "30518762",
+   "29955180",
+   "29555990",
+   "29205154",
+   "28744006",
+   "28448500",
+   "28443625",
+   "28122634",
+   "27848971",
+   "27185397",
+   "26956984",
+   "25282103",
+   "23754948",
+   "20027299"
+  ],
+  "top": [
+   "37025349",
+   "36658113",
+   "36698947"
+  ]
+ },
+ "conflicts": [],
+ "bottom_line": {
+  "category": "trait-associated common variant without an established monogenic disease role",
+  "confidence": "high",
+  "rationale": "37 genome-wide significant associations across 25 studies",
+  "text": "Bottom line: rs7162542 in ADAMTSL3 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with body height. Confidence: high (37 genome-wide significant associations across 25 studies)."
+ },
+ "notes": [],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs7162542 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs7162542",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs7162542",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs7162542: rs58822844.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs7162542",
+     "path": "dbsnp1_merges.0",
+     "value": "58822844",
+     "label": "dbSNP build 157 rs7162542",
+     "mode": "eq",
+     "shown": "rs58822844",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs7162542 as variant type 'snv' on NC_000015.10 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs7162542",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs7162542",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs7162542",
+     "path": "seq_id",
+     "value": "NC_000015.10",
+     "label": "dbSNP build 157 rs7162542",
+     "mode": "eq",
+     "shown": "NC_000015.10",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000015.10:g.83845538C>A, a single-nucleotide variant (SNV) (C>A in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs7162542",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000015.10:g.83845538C>A",
+     "label": "dbSNP build 157 rs7162542",
+     "mode": "eq",
+     "shown": "NC_000015.10:g.83845538C>A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000015.10:g.83845538C>G, a single-nucleotide variant (SNV) (C>G in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs7162542",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000015.10:g.83845538C>G",
+     "label": "dbSNP build 157 rs7162542",
+     "mode": "eq",
+     "shown": "NC_000015.10:g.83845538C>G",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 3: NC_000015.10:g.83845538C>T, a single-nucleotide variant (SNV) (C>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs7162542",
+     "path": "alleles.3.hgvs",
+     "value": "NC_000015.10:g.83845538C>T",
+     "label": "dbSNP build 157 rs7162542",
+     "mode": "eq",
+     "shown": "NC_000015.10:g.83845538C>T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 3 (C>T), Ensembl VEP predicts intron_variant in ADAMTSL3 (ENST00000286744.10:c.727+7323C>T), impact MODIFIER.",
+   "citations": [
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "intron_variant",
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "intron_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "ADAMTSL3",
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "ADAMTSL3",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000286744.10:c.727+7323C>T",
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "ENST00000286744.10:c.727+7323C>T",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODIFIER",
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "MODIFIER",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 2 (C>G), Ensembl VEP predicts intron_variant in ADAMTSL3 (ENST00000286744.10:c.727+7323C>G), impact MODIFIER.",
+   "citations": [
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "transcript_consequences.1.consequence_terms.0",
+     "value": "intron_variant",
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "intron_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "transcript_consequences.1.gene_symbol",
+     "value": "ADAMTSL3",
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "ADAMTSL3",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "transcript_consequences.1.hgvsc",
+     "value": "ENST00000286744.10:c.727+7323C>G",
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "ENST00000286744.10:c.727+7323C>G",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "transcript_consequences.1.impact",
+     "value": "MODIFIER",
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "MODIFIER",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (C>A), Ensembl VEP predicts intron_variant in ADAMTSL3 (ENST00000286744.10:c.727+7323C>A), impact MODIFIER.",
+   "citations": [
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "transcript_consequences.2.consequence_terms.0",
+     "value": "intron_variant",
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "intron_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "transcript_consequences.2.gene_symbol",
+     "value": "ADAMTSL3",
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "ADAMTSL3",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "transcript_consequences.2.hgvsc",
+     "value": "ENST00000286744.10:c.727+7323C>A",
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "ENST00000286744.10:c.727+7323C>A",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "transcript_consequences.2.impact",
+     "value": "MODIFIER",
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "MODIFIER",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string C/A/G/T.",
+   "citations": [
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "allele_string",
+     "value": "C/A/G/T",
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "C/A/G/T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 1 (C>A) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs7162542",
+     "path": "hits.0._id",
+     "value": "chr15:g.84514290C>A",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>A) has an overall allele frequency of 6.58e-06 (1 of 152,014 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-A",
+     "path": "",
+     "value": 6.57834146854895e-06,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "6.58e-06",
+     "args": [
+      [
+       "variant.genome.ac"
+      ],
+      [
+       "variant.genome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 2.42e-05, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0, South Asian 0, Middle Eastern 0, Amish 0, Remaining 0.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-A",
+     "path": "",
+     "value": 2.4160425223483932e-05,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "2.42e-05",
+     "args": [
+      [
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.1.ac"
+      ],
+      [
+       "variant.genome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.7.ac"
+      ],
+      [
+       "variant.genome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.9.ac"
+      ],
+      [
+       "variant.genome.populations.9.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.6.ac"
+      ],
+      [
+       "variant.genome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.0.ac"
+      ],
+      [
+       "variant.genome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 genomes, alternate allele 2 (C>G) has an overall allele frequency of 0.63.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs7162542",
+     "path": "hits.1.gnomad_genome.af.af",
+     "value": 0.630264,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.63",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0.743, Admixed American 0.784, Ashkenazi Jewish 0.634, East Asian 0.947, Finnish 0.532, Non-Finnish European 0.551, Other 0.592.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs7162542",
+     "path": "hits.1.gnomad_genome.af.af_afr",
+     "value": 0.742814,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.743",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs7162542",
+     "path": "hits.1.gnomad_genome.af.af_amr",
+     "value": 0.784198,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.784",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs7162542",
+     "path": "hits.1.gnomad_genome.af.af_asj",
+     "value": 0.634483,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.634",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs7162542",
+     "path": "hits.1.gnomad_genome.af.af_eas",
+     "value": 0.947436,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.947",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs7162542",
+     "path": "hits.1.gnomad_genome.af.af_fin",
+     "value": 0.531737,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.532",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs7162542",
+     "path": "hits.1.gnomad_genome.af.af_nfe",
+     "value": 0.550864,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.551",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs7162542",
+     "path": "hits.1.gnomad_genome.af.af_oth",
+     "value": 0.591912,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.592",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v2.1.1 genomes): allele 2 frequency ranges from 0.532 in Finnish to 0.947 in East Asian, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs7162542",
+     "path": "hits.1.gnomad_genome.af.af_fin",
+     "value": 0.531737,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.532",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs7162542",
+     "path": "hits.1.gnomad_genome.af.af_eas",
+     "value": 0.947436,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.947",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (C>G) has an overall allele frequency of 0.645 (98,039 of 152,060 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-G",
+     "path": "",
+     "value": 0.6447389188478232,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.645",
+     "args": [
+      [
+       "variant.genome.ac"
+      ],
+      [
+       "variant.genome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0.738, Admixed American 0.719, Ashkenazi Jewish 0.644, East Asian 0.94, Finnish 0.539, Non-Finnish European 0.561, South Asian 0.7, Middle Eastern 0.714, Amish 0.593, Remaining 0.644.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-G",
+     "path": "",
+     "value": 0.7384659885262498,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.738",
+     "args": [
+      [
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-G",
+     "path": "",
+     "value": 0.7193143156241821,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.719",
+     "args": [
+      [
+       "variant.genome.populations.1.ac"
+      ],
+      [
+       "variant.genome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-G",
+     "path": "",
+     "value": 0.6438040345821325,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.644",
+     "args": [
+      [
+       "variant.genome.populations.7.ac"
+      ],
+      [
+       "variant.genome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-G",
+     "path": "",
+     "value": 0.9404394757131843,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.94",
+     "args": [
+      [
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-G",
+     "path": "",
+     "value": 0.538527234769406,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.539",
+     "args": [
+      [
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-G",
+     "path": "",
+     "value": 0.561183048852266,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.561",
+     "args": [
+      [
+       "variant.genome.populations.9.ac"
+      ],
+      [
+       "variant.genome.populations.9.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-G",
+     "path": "",
+     "value": 0.7,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.7",
+     "args": [
+      [
+       "variant.genome.populations.6.ac"
+      ],
+      [
+       "variant.genome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-G",
+     "path": "",
+     "value": 0.7142857142857143,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.714",
+     "args": [
+      [
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-G",
+     "path": "",
+     "value": 0.5932017543859649,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.593",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-G",
+     "path": "",
+     "value": 0.644212523719165,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.644",
+     "args": [
+      [
+       "variant.genome.populations.0.ac"
+      ],
+      [
+       "variant.genome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v4.1): allele 2 frequency ranges from 0.539 in Finnish to 0.94 in East Asian, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-G",
+     "path": "",
+     "value": 0.9404394757131843,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.94",
+     "args": [
+      [
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-G",
+     "path": "",
+     "value": 0.538527234769406,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.539",
+     "args": [
+      [
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 3 (C>T) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs7162542",
+     "path": "hits.2._id",
+     "value": "chr15:g.84514290C>T",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 3 (C>T) has an overall allele frequency of 6.58e-06 (1 of 152,014 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-T",
+     "path": "",
+     "value": 6.57834146854895e-06,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "6.58e-06",
+     "args": [
+      [
+       "variant.genome.ac"
+      ],
+      [
+       "variant.genome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 3: African/African American 0, Admixed American 6.55e-05, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0, South Asian 0, Middle Eastern 0, Amish 0, Remaining 0.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-T",
+     "path": "",
+     "value": 6.549646319098769e-05,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "6.55e-05",
+     "args": [
+      [
+       "variant.genome.populations.1.ac"
+      ],
+      [
+       "variant.genome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.7.ac"
+      ],
+      [
+       "variant.genome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.9.ac"
+      ],
+      [
+       "variant.genome.populations.9.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.6.ac"
+      ],
+      [
+       "variant.genome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:15-83845538-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.0.ac"
+      ],
+      [
+       "variant.genome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "The ClinVar 2026-11 release contains no record for rs7162542.",
+   "citations": [
+    {
+     "record_id": "ClinVar:rs7162542@2026-11",
+     "path": "n_records",
+     "value": 0,
+     "label": "ClinVar 2026-11 release",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Somatic evidence",
+   "text": "No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant.",
+   "citations": [
+    {
+     "record_id": "VEP:rs7162542",
+     "path": "cosmic_ids",
+     "value": [],
+     "label": "Ensembl VEP rs7162542",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 38 association record(s) for rs7162542.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations.37.association_id",
+     "value": 10079548,
+     "label": "GWAS Catalog rs7162542",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with body height (p = 8e-55, study GCST002647, effect allele rs7162542-C).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations.37.accession_id",
+     "value": "GCST002647",
+     "label": "GWAS Catalog GCST002647",
+     "mode": "eq",
+     "shown": "GCST002647",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations.37.pvalue_exponent",
+     "value": -55,
+     "label": "GWAS Catalog GCST002647",
+     "mode": "eq",
+     "shown": "8e-55",
+     "args": null
+    },
+    {
+     "record_id": "PMID:25282103",
+     "path": "pmid",
+     "value": "25282103",
+     "label": "PMID:25282103",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with chronic obstructive pulmonary disease (p = 4e-54, study GCST90244098, effect allele rs7162542-C).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations.8.accession_id",
+     "value": "GCST90244098",
+     "label": "GWAS Catalog GCST90244098",
+     "mode": "eq",
+     "shown": "GCST90244098",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations.8.pvalue_exponent",
+     "value": -54,
+     "label": "GWAS Catalog GCST90244098",
+     "mode": "eq",
+     "shown": "4e-54",
+     "args": null
+    },
+    {
+     "record_id": "PMID:37069358",
+     "path": "pmid",
+     "value": "37069358",
+     "label": "PMID:37069358",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with forced expiratory volume (p = 3e-49, study GCST90565844, effect allele rs7162542-C).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations.5.accession_id",
+     "value": "GCST90565844",
+     "label": "GWAS Catalog GCST90565844",
+     "mode": "eq",
+     "shown": "GCST90565844",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations.5.pvalue_exponent",
+     "value": -49,
+     "label": "GWAS Catalog GCST90565844",
+     "mode": "eq",
+     "shown": "3e-49",
+     "args": null
+    },
+    {
+     "record_id": "PMID:40374629",
+     "path": "pmid",
+     "value": "40374629",
+     "label": "PMID:40374629",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with BMI-adjusted waist circumference (p = 3e-44, study GCST012226, effect allele rs7162542-C).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations.14.accession_id",
+     "value": "GCST012226",
+     "label": "GWAS Catalog GCST012226",
+     "mode": "eq",
+     "shown": "GCST012226",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations.14.pvalue_exponent",
+     "value": -44,
+     "label": "GWAS Catalog GCST012226",
+     "mode": "eq",
+     "shown": "3e-44",
+     "args": null
+    },
+    {
+     "record_id": "PMID:34021172",
+     "path": "pmid",
+     "value": "34021172",
+     "label": "PMID:34021172",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with body shape measurement (p = 2e-31, study GCST90832992, effect allele rs7162542-C).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations.0.accession_id",
+     "value": "GCST90832992",
+     "label": "GWAS Catalog GCST90832992",
+     "mode": "eq",
+     "shown": "GCST90832992",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations.0.pvalue_exponent",
+     "value": -31,
+     "label": "GWAS Catalog GCST90832992",
+     "mode": "eq",
+     "shown": "2e-31",
+     "args": null
+    },
+    {
+     "record_id": "PMID:38640244",
+     "path": "pmid",
+     "value": "38640244",
+     "label": "PMID:38640244",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with BMI-adjusted hip circumference (p = 1e-30, study GCST012227, effect allele rs7162542-C).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations.10.accession_id",
+     "value": "GCST012227",
+     "label": "GWAS Catalog GCST012227",
+     "mode": "eq",
+     "shown": "GCST012227",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations.10.pvalue_exponent",
+     "value": -30,
+     "label": "GWAS Catalog GCST012227",
+     "mode": "eq",
+     "shown": "1e-30",
+     "args": null
+    },
+    {
+     "record_id": "PMID:34021172",
+     "path": "pmid",
+     "value": "34021172",
+     "label": "PMID:34021172",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 24 PubMed articles to rs7162542.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs7162542",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs7162542",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"The early life course-related traits with three psychiatric disorders: A two-sample Mendelian randomization study\" (Front Psychiatry, 2023).",
+   "citations": [
+    {
+     "record_id": "PMID:37025349",
+     "path": "title",
+     "value": "The early life course-related traits with three psychiatric disorders: A two-sample Mendelian randomization study.",
+     "label": "PMID:37025349",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:37025349",
+     "path": "journal",
+     "value": "Front Psychiatry",
+     "label": "PMID:37025349",
+     "mode": "eq",
+     "shown": "Front Psychiatry",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Large scale phenotype imputation and in vivo functional validation implicate ADAMTS14 as an adiposity gene\" (Nat Commun, 2023).",
+   "citations": [
+    {
+     "record_id": "PMID:36658113",
+     "path": "title",
+     "value": "Large scale phenotype imputation and in vivo functional validation implicate ADAMTS14 as an adiposity gene.",
+     "label": "PMID:36658113",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:36658113",
+     "path": "journal",
+     "value": "Nat Commun",
+     "label": "PMID:36658113",
+     "mode": "eq",
+     "shown": "Nat Commun",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Causal effect of central obesity on left ventricular structure and function in preserved EF population: A Mendelian randomization study\" (Front Cardiovasc Med, 2023).",
+   "citations": [
+    {
+     "record_id": "PMID:36698947",
+     "path": "title",
+     "value": "Causal effect of central obesity on left ventricular structure and function in preserved EF population: A Mendelian randomization study.",
+     "label": "PMID:36698947",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:36698947",
+     "path": "journal",
+     "value": "Front Cardiovasc Med",
+     "label": "PMID:36698947",
+     "mode": "eq",
+     "shown": "Front Cardiovasc Med",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "rs7162542 is associated with 11 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs7162542",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs7162542 in ADAMTSL3 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with body height. Confidence: high (37 genome-wide significant associations across 25 studies).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs7162542",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs7162542",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs7162542",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs7162542",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs7162542": {
+   "record_id": "dbSNP:rs7162542",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/7162542",
+   "retrieved_at": "2026-11-17T18:24:39.587282+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "7162542",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "58822844"
+    ],
+    "merged_into": [],
+    "citations": [],
+    "variant_type": "snv",
+    "seq_id": "NC_000015.10",
+    "alleles": [
+     {
+      "hgvs": "NC_000015.10:g.83845538=",
+      "position0": 83845537,
+      "deleted": "C",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000015.10:g.83845538C>A",
+      "position0": 83845537,
+      "deleted": "C",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000015.10:g.83845538C>G",
+      "position0": 83845537,
+      "deleted": "C",
+      "inserted": "G"
+     },
+     {
+      "hgvs": "NC_000015.10:g.83845538C>T",
+      "position0": 83845537,
+      "deleted": "C",
+      "inserted": "T"
+     }
+    ],
+    "genes": [
+     "ADAMTSL3"
+    ]
+   }
+  },
+  "VEP:rs7162542": {
+   "record_id": "VEP:rs7162542",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs7162542",
+   "retrieved_at": "2026-11-17T18:25:13.187006+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs7162542",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "15",
+    "start": 83845538,
+    "end": 83845538,
+    "allele_string": "C/A/G/T",
+    "variant_class": "SNV",
+    "most_severe_consequence": "intron_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "T",
+      "gene_symbol": "ADAMTSL3",
+      "gene_id": "ENSG00000156218",
+      "transcript_id": "ENST00000286744",
+      "mane_select": "NM_207517.3",
+      "consequence_terms": [
+       "intron_variant"
+      ],
+      "hgvsc": "ENST00000286744.10:c.727+7323C>T",
+      "hgvsp": null,
+      "impact": "MODIFIER",
+      "amino_acids": null,
+      "protein_start": null,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "G",
+      "gene_symbol": "ADAMTSL3",
+      "gene_id": "ENSG00000156218",
+      "transcript_id": "ENST00000286744",
+      "mane_select": "NM_207517.3",
+      "consequence_terms": [
+       "intron_variant"
+      ],
+      "hgvsc": "ENST00000286744.10:c.727+7323C>G",
+      "hgvsp": null,
+      "impact": "MODIFIER",
+      "amino_acids": null,
+      "protein_start": null,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "A",
+      "gene_symbol": "ADAMTSL3",
+      "gene_id": "ENSG00000156218",
+      "transcript_id": "ENST00000286744",
+      "mane_select": "NM_207517.3",
+      "consequence_terms": [
+       "intron_variant"
+      ],
+      "hgvsc": "ENST00000286744.10:c.727+7323C>A",
+      "hgvsp": null,
+      "impact": "MODIFIER",
+      "amino_acids": null,
+      "protein_start": null,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [],
+    "colocated_somatic": false
+   }
+  },
+  "gnomAD-v2.1.1:rs7162542": {
+   "record_id": "gnomAD-v2.1.1:rs7162542",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T18:25:13.283272+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr15:g.84514290C>A",
+      "_score": 17.14107,
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "A",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "vcf": {
+       "alt": "A",
+       "position": "84514290",
+       "ref": "C"
+      }
+     },
+     {
+      "_id": "chr15:g.84514290C>G",
+      "_score": 17.140963,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 4.282
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "G",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.630264,
+        "af_afr": 0.742814,
+        "af_afr_female": 0.734622,
+        "af_afr_male": 0.748806,
+        "af_amr": 0.784198,
+        "af_amr_female": 0.743961,
+        "af_amr_male": 0.822581,
+        "af_asj": 0.634483,
+        "af_asj_female": 0.6875,
+        "af_asj_male": 0.614286,
+        "af_eas": 0.947436,
+        "af_eas_female": 0.936803,
+        "af_eas_male": 0.953033,
+        "af_female": 0.616386,
+        "af_fin": 0.531737,
+        "af_fin_female": 0.529859,
+        "af_fin_male": 0.533867,
+        "af_male": 0.641326,
+        "af_nfe": 0.550864,
+        "af_nfe_est": 0.519886,
+        "af_nfe_female": 0.544906,
+        "af_nfe_male": 0.555568,
+        "af_nfe_nwe": 0.559557,
+        "af_nfe_onf": 0.583021,
+        "af_nfe_seu": 0.537736,
+        "af_oth": 0.591912,
+        "af_oth_female": 0.580071,
+        "af_oth_male": 0.604563
+       },
+       "alt": "G",
+       "an": {
+        "an": 31344,
+        "an_afr": 8698,
+        "an_afr_female": 3674,
+        "an_afr_male": 5024,
+        "an_amr": 848,
+        "an_amr_female": 414,
+        "an_amr_male": 434,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1560,
+        "an_eas_female": 538,
+        "an_eas_male": 1022,
+        "an_female": 13902,
+        "an_fin": 3466,
+        "an_fin_female": 1842,
+        "an_fin_male": 1624,
+        "an_male": 17442,
+        "an_nfe": 15394,
+        "an_nfe_est": 4576,
+        "an_nfe_female": 6792,
+        "an_nfe_male": 8602,
+        "an_nfe_nwe": 8580,
+        "an_nfe_onf": 2132,
+        "an_nfe_seu": 106,
+        "an_oth": 1088,
+        "an_oth_female": 562,
+        "an_oth_male": 526
+       },
+       "ref": "C"
+      },
+      "vcf": {
+       "alt": "G",
+       "position": "84514290",
+       "ref": "C"
+      }
+     },
+     {
+      "_id": "chr15:g.84514290C>T",
+      "_score": 17.140867,
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "T",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "vcf": {
+       "alt": "T",
+       "position": "84514290",
+       "ref": "C"
+      }
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:15-83845538-C-A": {
+   "record_id": "gnomAD-v4.1:15-83845538-C-A",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T18:25:13.379715+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "15-83845538-C-A",
+     "rsids": [
+      "rs7162542"
+     ],
+     "exome": null,
+     "genome": {
+      "ac": 1,
+      "an": 152014,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 0,
+        "an": 2092
+       },
+       {
+        "id": "amr",
+        "ac": 0,
+        "an": 15268
+       },
+       {
+        "id": "fin",
+        "ac": 0,
+        "an": 10546
+       },
+       {
+        "id": "ami",
+        "ac": 0,
+        "an": 912
+       },
+       {
+        "id": "eas",
+        "ac": 0,
+        "an": 5200
+       },
+       {
+        "id": "mid",
+        "ac": 0,
+        "an": 316
+       },
+       {
+        "id": "sas",
+        "ac": 0,
+        "an": 4828
+       },
+       {
+        "id": "asj",
+        "ac": 0,
+        "an": 3470
+       },
+       {
+        "id": "afr",
+        "ac": 1,
+        "an": 41390
+       },
+       {
+        "id": "nfe",
+        "ac": 0,
+        "an": 67992
+       }
+      ]
+     }
+    },
+    "errors": null
+   }
+  },
+  "gnomAD-v4.1:15-83845538-C-G": {
+   "record_id": "gnomAD-v4.1:15-83845538-C-G",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T18:25:14.394165+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "15-83845538-C-G",
+     "rsids": [
+      "rs7162542"
+     ],
+     "exome": null,
+     "genome": {
+      "ac": 98039,
+      "an": 152060,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 1358,
+        "an": 2108
+       },
+       {
+        "id": "amr",
+        "ac": 10994,
+        "an": 15284
+       },
+       {
+        "id": "fin",
+        "ac": 5675,
+        "an": 10538
+       },
+       {
+        "id": "ami",
+        "ac": 541,
+        "an": 912
+       },
+       {
+        "id": "eas",
+        "ac": 4879,
+        "an": 5188
+       },
+       {
+        "id": "mid",
+        "ac": 210,
+        "an": 294
+       },
+       {
+        "id": "sas",
+        "ac": 3374,
+        "an": 4820
+       },
+       {
+        "id": "asj",
+        "ac": 2234,
+        "an": 3470
+       },
+       {
+        "id": "afr",
+        "ac": 30636,
+        "an": 41486
+       },
+       {
+        "id": "nfe",
+        "ac": 38138,
+        "an": 67960
+       }
+      ]
+     }
+    },
+    "errors": null
+   }
+  },
+  "gnomAD-v4.1:15-83845538-C-T": {
+   "record_id": "gnomAD-v4.1:15-83845538-C-T",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T18:25:15.422995+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "15-83845538-C-T",
+     "rsids": [
+      "rs7162542"
+     ],
+     "exome": null,
+     "genome": {
+      "ac": 1,
+      "an": 152014,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 0,
+        "an": 2092
+       },
+       {
+        "id": "amr",
+        "ac": 1,
+        "an": 15268
+       },
+       {
+        "id": "fin",
+        "ac": 0,
+        "an": 10546
+       },
+       {
+        "id": "ami",
+        "ac": 0,
+        "an": 912
+       },
+       {
+        "id": "eas",
+        "ac": 0,
+        "an": 5200
+       },
+       {
+        "id": "mid",
+        "ac": 0,
+        "an": 316
+       },
+       {
+        "id": "sas",
+        "ac": 0,
+        "an": 4828
+       },
+       {
+        "id": "asj",
+        "ac": 0,
+        "an": 3470
+       },
+       {
+        "id": "afr",
+        "ac": 0,
+        "an": 41390
+       },
+       {
+        "id": "nfe",
+        "ac": 0,
+        "an": 67992
+       }
+      ]
+     }
+    },
+    "errors": null
+   }
+  },
+  "ClinVar:rs7162542@2026-11": {
+   "record_id": "ClinVar:rs7162542@2026-11",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2026-11",
+   "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
+   "retrieved_at": "2026-11-17T18:44:53.296077+00:00",
+   "status": 200,
+   "data": {
+    "rsid": "rs7162542",
+    "n_records": 0
+   }
+  },
+  "GWAS:rs7162542": {
+   "record_id": "GWAS:rs7162542",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T18:25:24.663217+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 217566558,
+      "accession_id": "GCST90832992",
+      "pubmed_id": "38640244",
+      "first_author": "Peruchet-Noray L",
+      "p_value": 2e-31,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -31,
+      "or_value": null,
+      "beta": "0.00830088 unit increase",
+      "risk_frequency": "0.443557",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0801227",
+        "efo_trait": "body shape measurement"
+       }
+      ],
+      "reported_trait": [
+       "Body shape phenotype PC4"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2024-04-19"
+     },
+     {
+      "association_id": 215102553,
+      "accession_id": "GCST90702456",
+      "pubmed_id": "41444482",
+      "first_author": "Shi W",
+      "p_value": 5e-27,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -27,
+      "or_value": null,
+      "beta": "7.33103E-4 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004302",
+        "efo_trait": "anthropometric measurement"
+       }
+      ],
+      "reported_trait": [
+       "Head width to leg length ratio"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 1,
+      "_pubdate": "2025-12-24"
+     },
+     {
+      "association_id": 215102272,
+      "accession_id": "GCST90702454",
+      "pubmed_id": "41444482",
+      "first_author": "Shi W",
+      "p_value": 4e-08,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "5.46824E-4 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004302",
+        "efo_trait": "anthropometric measurement"
+       }
+      ],
+      "reported_trait": [
+       "Head width to trunk length ratio"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 2,
+      "_pubdate": "2025-12-24"
+     },
+     {
+      "association_id": 215101939,
+      "accession_id": "GCST90702452",
+      "pubmed_id": "41444482",
+      "first_author": "Shi W",
+      "p_value": 8.999999999999999e-20,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -20,
+      "or_value": null,
+      "beta": "2.58321E-4 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004302",
+        "efo_trait": "anthropometric measurement"
+       }
+      ],
+      "reported_trait": [
+       "Head width to body height ratio"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 3,
+      "_pubdate": "2025-12-24"
+     },
+     {
+      "association_id": 215101823,
+      "accession_id": "GCST90702451",
+      "pubmed_id": "41444482",
+      "first_author": "Shi W",
+      "p_value": 2e-12,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "8.10463E-4 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004302",
+        "efo_trait": "anthropometric measurement"
+       }
+      ],
+      "reported_trait": [
+       "Head length to leg length ratio"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 4,
+      "_pubdate": "2025-12-24"
+     },
+     {
+      "association_id": 191370614,
+      "accession_id": "GCST90565844",
+      "pubmed_id": "40374629",
+      "first_author": "Schoeler T",
+      "p_value": 2.9999999999999996e-49,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -49,
+      "or_value": null,
+      "beta": "0.0252624 unit decrease",
+      "risk_frequency": "0.444685",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004314",
+        "efo_trait": "forced expiratory volume"
+       }
+      ],
+      "reported_trait": [
+       "Forced expiratory volume (baseline)"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 5,
+      "_pubdate": "2025-05-15"
+     },
+     {
+      "association_id": 119085368,
+      "accession_id": "GCST90301649",
+      "pubmed_id": "37280435",
+      "first_author": "Hawkes G",
+      "p_value": 1e-08,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "0.0119676 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Childhood body mass index"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 6,
+      "_pubdate": "2023-08-01"
+     },
+     {
+      "association_id": 106271420,
+      "accession_id": "GCST90270118",
+      "pubmed_id": "37277458",
+      "first_author": "Vosberg DE",
+      "p_value": 1e-22,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -22,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0021796",
+        "efo_trait": "sexual dimorphism measurement"
+       }
+      ],
+      "reported_trait": [
+       "Multi-trait sex score"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 7,
+      "_pubdate": "2023-06-05"
+     },
+     {
+      "association_id": 104932608,
+      "accession_id": "GCST90244098",
+      "pubmed_id": "37069358",
+      "first_author": "Cosentino J",
+      "p_value": 4e-54,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -54,
+      "or_value": null,
+      "beta": "0.0321634 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005002",
+        "efo_trait": "chronic obstructive pulmonary disease"
+       }
+      ],
+      "reported_trait": [
+       "Chronic obstructive pulmonary disease liability (machine learning-based score)"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 8,
+      "_pubdate": "2023-05-01"
+     },
+     {
+      "association_id": 96745789,
+      "accession_id": "GCST90095033",
+      "pubmed_id": "35399580",
+      "first_author": "Fernandez-Rhodes L",
+      "p_value": 9e-06,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -6,
+      "or_value": null,
+      "beta": "0.0296 unit decrease",
+      "risk_frequency": "0.2739",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0001253",
+        "efo_trait": "body height"
+       }
+      ],
+      "reported_trait": [
+       "Height"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 9,
+      "_pubdate": "2022-03-11"
+     },
+     {
+      "association_id": 90813668,
+      "accession_id": "GCST012227",
+      "pubmed_id": "34021172",
+      "first_author": "Christakoudi S",
+      "p_value": 1e-30,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -30,
+      "or_value": null,
+      "beta": "0.0355244 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0008039",
+        "efo_trait": "BMI-adjusted hip circumference"
+       }
+      ],
+      "reported_trait": [
+       "Hip circumference adjusted for BMI"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 10,
+      "_pubdate": "2021-05-21"
+     },
+     {
+      "association_id": 90644140,
+      "accession_id": "GCST012231",
+      "pubmed_id": "34021172",
+      "first_author": "Christakoudi S",
+      "p_value": 2e-19,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -19,
+      "or_value": null,
+      "beta": "0.0281245 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       }
+      ],
+      "reported_trait": [
+       "A body shape index"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 11,
+      "_pubdate": "2021-05-21"
+     },
+     {
+      "association_id": 90642245,
+      "accession_id": "GCST012230",
+      "pubmed_id": "34021172",
+      "first_author": "Christakoudi S",
+      "p_value": 4e-08,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "0.0172273 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007788",
+        "efo_trait": "BMI-adjusted waist-hip ratio"
+       }
+      ],
+      "reported_trait": [
+       "Waist-to-hip ratio adjusted for BMI"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 12,
+      "_pubdate": "2021-05-21"
+     },
+     {
+      "association_id": 90623491,
+      "accession_id": "GCST012228",
+      "pubmed_id": "34021172",
+      "first_author": "Christakoudi S",
+      "p_value": 2e-10,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "0.0201045 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007788",
+        "efo_trait": "BMI-adjusted waist-hip ratio"
+       }
+      ],
+      "reported_trait": [
+       "Waist-hip index"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 13,
+      "_pubdate": "2021-05-21"
+     },
+     {
+      "association_id": 90615392,
+      "accession_id": "GCST012226",
+      "pubmed_id": "34021172",
+      "first_author": "Christakoudi S",
+      "p_value": 2.9999999999999997e-44,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -44,
+      "or_value": null,
+      "beta": "0.0432839 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for body mass index"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 14,
+      "_pubdate": "2021-05-21"
+     },
+     {
+      "association_id": 63778413,
+      "accession_id": "GCST010989",
+      "pubmed_id": "32376654",
+      "first_author": "Richardson TG",
+      "p_value": 4e-11,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.00931445 unit increase",
+      "risk_frequency": "0.442849",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009819",
+        "efo_trait": "comparative body size at age 10, self-reported"
+       }
+      ],
+      "reported_trait": [
+       "Body size at age 10"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 15,
+      "_pubdate": "2020-05-06"
+     },
+     {
+      "association_id": 21794306,
+      "accession_id": "GCST004504",
+      "pubmed_id": "28443625",
+      "first_author": "Justice AE",
+      "p_value": 4e-11,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.0327 unit decrease",
+      "risk_frequency": "0.4275",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for BMI in non-smokers"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 16,
+      "_pubdate": "2017-04-26"
+     },
+     {
+      "association_id": 21794302,
+      "accession_id": "GCST004504",
+      "pubmed_id": "28443625",
+      "first_author": "Justice AE",
+      "p_value": 5e-24,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -24,
+      "or_value": null,
+      "beta": "0.0391 unit decrease",
+      "risk_frequency": "0.4275",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for BMI in non-smokers"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 17,
+      "_pubdate": "2017-04-26"
+     },
+     {
+      "association_id": 21794298,
+      "accession_id": "GCST004504",
+      "pubmed_id": "28443625",
+      "first_author": "Justice AE",
+      "p_value": 2e-16,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -16,
+      "or_value": null,
+      "beta": "0.0479 unit decrease",
+      "risk_frequency": "0.4275",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for BMI in non-smokers"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 18,
+      "_pubdate": "2017-04-26"
+     },
+     {
+      "association_id": 21792436,
+      "accession_id": "GCST004501",
+      "pubmed_id": "28443625",
+      "first_author": "Justice AE",
+      "p_value": 5e-12,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "0.4275",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       },
+       {
+        "efo_id": "EFO_0004318",
+        "efo_trait": "smoking behavior"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for BMI (joint analysis main effects and smoking interaction)"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 19,
+      "_pubdate": "2017-04-26"
+     },
+     {
+      "association_id": 21792432,
+      "accession_id": "GCST004501",
+      "pubmed_id": "28443625",
+      "first_author": "Justice AE",
+      "p_value": 2e-16,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -16,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "0.4275",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       },
+       {
+        "efo_id": "EFO_0004318",
+        "efo_trait": "smoking behavior"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for BMI (joint analysis main effects and smoking interaction)"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 20,
+      "_pubdate": "2017-04-26"
+     },
+     {
+      "association_id": 21792428,
+      "accession_id": "GCST004501",
+      "pubmed_id": "28443625",
+      "first_author": "Justice AE",
+      "p_value": 5.0000000000000005e-25,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -25,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "0.4275",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       },
+       {
+        "efo_id": "EFO_0004318",
+        "efo_trait": "smoking behavior"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for BMI (joint analysis main effects and smoking interaction)"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 21,
+      "_pubdate": "2017-04-26"
+     },
+     {
+      "association_id": 21791159,
+      "accession_id": "GCST004500",
+      "pubmed_id": "28443625",
+      "first_author": "Justice AE",
+      "p_value": 2e-23,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -23,
+      "or_value": null,
+      "beta": "0.0342 unit decrease",
+      "risk_frequency": "0.4275",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       },
+       {
+        "efo_id": "EFO_0004318",
+        "efo_trait": "smoking behavior"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for BMI (adjusted for smoking behaviour)"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 22,
+      "_pubdate": "2017-04-26"
+     },
+     {
+      "association_id": 21791017,
+      "accession_id": "GCST004500",
+      "pubmed_id": "28443625",
+      "first_author": "Justice AE",
+      "p_value": 1e-14,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -14,
+      "or_value": null,
+      "beta": "0.0381 unit decrease",
+      "risk_frequency": "0.4275",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       },
+       {
+        "efo_id": "EFO_0004318",
+        "efo_trait": "smoking behavior"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for BMI (adjusted for smoking behaviour)"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 23,
+      "_pubdate": "2017-04-26"
+     },
+     {
+      "association_id": 21790881,
+      "accession_id": "GCST004500",
+      "pubmed_id": "28443625",
+      "first_author": "Justice AE",
+      "p_value": 2e-12,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.0311 unit decrease",
+      "risk_frequency": "0.4275",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       },
+       {
+        "efo_id": "EFO_0004318",
+        "efo_trait": "smoking behavior"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for BMI (adjusted for smoking behaviour)"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 24,
+      "_pubdate": "2017-04-26"
+     },
+     {
+      "association_id": 21716503,
+      "accession_id": "GCST004563",
+      "pubmed_id": "28448500",
+      "first_author": "Graff M",
+      "p_value": 1e-25,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -25,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "0.5582",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       },
+       {
+        "efo_id": "EFO_0008002",
+        "efo_trait": "physical activity measurement"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for BMI (joint analysis main effects and physical activity interaction)"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 25,
+      "_pubdate": "2017-04-27"
+     },
+     {
+      "association_id": 21716274,
+      "accession_id": "GCST004563",
+      "pubmed_id": "28448500",
+      "first_author": "Graff M",
+      "p_value": 2e-14,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -14,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "0.5582",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       },
+       {
+        "efo_id": "EFO_0008002",
+        "efo_trait": "physical activity measurement"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for BMI (joint analysis main effects and physical activity interaction)"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 26,
+      "_pubdate": "2017-04-27"
+     },
+     {
+      "association_id": 21710939,
+      "accession_id": "GCST004564",
+      "pubmed_id": "28448500",
+      "first_author": "Graff M",
+      "p_value": 5e-24,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -24,
+      "or_value": null,
+      "beta": "0.0435 cm increase",
+      "risk_frequency": "0.5582",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for BMI in active individuals"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 27,
+      "_pubdate": "2017-04-27"
+     },
+     {
+      "association_id": 21710935,
+      "accession_id": "GCST004564",
+      "pubmed_id": "28448500",
+      "first_author": "Graff M",
+      "p_value": 2e-14,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -14,
+      "or_value": null,
+      "beta": "0.0421 cm increase",
+      "risk_frequency": "0.5576",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for BMI in active individuals"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 28,
+      "_pubdate": "2017-04-27"
+     },
+     {
+      "association_id": 21709103,
+      "accession_id": "GCST004562",
+      "pubmed_id": "28448500",
+      "first_author": "Graff M",
+      "p_value": 9e-27,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -27,
+      "or_value": null,
+      "beta": "0.0401 cm increase",
+      "risk_frequency": "0.5582",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for body mass index"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 29,
+      "_pubdate": "2017-04-27"
+     },
+     {
+      "association_id": 21708861,
+      "accession_id": "GCST004562",
+      "pubmed_id": "28448500",
+      "first_author": "Graff M",
+      "p_value": 8e-15,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -15,
+      "or_value": null,
+      "beta": "0.0381 cm increase",
+      "risk_frequency": "0.5582",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for body mass index"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 30,
+      "_pubdate": "2017-04-27"
+     },
+     {
+      "association_id": 19701840,
+      "accession_id": "GCST004067",
+      "pubmed_id": "25673412",
+      "first_author": "Shungin D",
+      "p_value": 1e-20,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -20,
+      "or_value": null,
+      "beta": "0.0426 unit decrease",
+      "risk_frequency": "0.4427",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0008039",
+        "efo_trait": "BMI-adjusted hip circumference"
+       }
+      ],
+      "reported_trait": [
+       "Hip circumference adjusted for BMI"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 31,
+      "_pubdate": "2015-02-12"
+     },
+     {
+      "association_id": 19701565,
+      "accession_id": "GCST004067",
+      "pubmed_id": "25673412",
+      "first_author": "Shungin D",
+      "p_value": 5e-14,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -14,
+      "or_value": null,
+      "beta": "0.0381 unit decrease",
+      "risk_frequency": "0.4427",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0008039",
+        "efo_trait": "BMI-adjusted hip circumference"
+       }
+      ],
+      "reported_trait": [
+       "Hip circumference adjusted for BMI"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 32,
+      "_pubdate": "2015-02-12"
+     },
+     {
+      "association_id": 19701304,
+      "accession_id": "GCST004067",
+      "pubmed_id": "25673412",
+      "first_author": "Shungin D",
+      "p_value": 2e-30,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -30,
+      "or_value": null,
+      "beta": "0.0408 unit decrease",
+      "risk_frequency": "0.4427",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0008039",
+        "efo_trait": "BMI-adjusted hip circumference"
+       }
+      ],
+      "reported_trait": [
+       "Hip circumference adjusted for BMI"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 33,
+      "_pubdate": "2015-02-12"
+     },
+     {
+      "association_id": 19253621,
+      "accession_id": "GCST004063",
+      "pubmed_id": "25673412",
+      "first_author": "Shungin D",
+      "p_value": 1e-17,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -17,
+      "or_value": null,
+      "beta": "0.0369 unit decrease",
+      "risk_frequency": "0.4437",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for body mass index"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 34,
+      "_pubdate": "2015-02-12"
+     },
+     {
+      "association_id": 19253582,
+      "accession_id": "GCST004063",
+      "pubmed_id": "25673412",
+      "first_author": "Shungin D",
+      "p_value": 1e-28,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -28,
+      "or_value": null,
+      "beta": "0.0379 unit decrease",
+      "risk_frequency": "0.4437",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for body mass index"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 35,
+      "_pubdate": "2015-02-12"
+     },
+     {
+      "association_id": 19253544,
+      "accession_id": "GCST004063",
+      "pubmed_id": "25673412",
+      "first_author": "Shungin D",
+      "p_value": 3e-16,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -16,
+      "or_value": null,
+      "beta": "0.0391 unit decrease",
+      "risk_frequency": "0.4437",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007789",
+        "efo_trait": "BMI-adjusted waist circumference"
+       }
+      ],
+      "reported_trait": [
+       "Waist circumference adjusted for body mass index"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 36,
+      "_pubdate": "2015-02-12"
+     },
+     {
+      "association_id": 10079548,
+      "accession_id": "GCST002647",
+      "pubmed_id": "25282103",
+      "first_author": "Wood AR",
+      "p_value": 8e-55,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -55,
+      "or_value": null,
+      "beta": "0.046 unit decrease",
+      "risk_frequency": "0.447",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0001253",
+        "efo_trait": "body height"
+       }
+      ],
+      "reported_trait": [
+       "Height"
+      ],
+      "mapped_genes": [
+       "ADAMTSL3"
+      ],
+      "snp_effect_allele": [
+       "rs7162542-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 37,
+      "_pubdate": "2014-11-01"
+     }
+    ]
+   }
+  },
+  "PMID:25282103": {
+   "record_id": "PMID:25282103",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25282103/",
+   "retrieved_at": "2026-11-17T18:25:25.052086+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "25282103",
+    "title": "Defining the role of common variation in the genomic and biological architecture of adult human height.",
+    "journal": "Nat Genet",
+    "pubdate": "2014 Nov",
+    "sortpubdate": "2014-11-01"
+   }
+  },
+  "PMID:37069358": {
+   "record_id": "PMID:37069358",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37069358/",
+   "retrieved_at": "2026-11-17T18:25:25.052086+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "37069358",
+    "title": "Inference of chronic obstructive pulmonary disease with deep learning on raw spirograms identifies new genetic loci and improves risk models.",
+    "journal": "Nat Genet",
+    "pubdate": "2023 May",
+    "sortpubdate": "2023-05-01"
+   }
+  },
+  "PMID:40374629": {
+   "record_id": "PMID:40374629",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40374629/",
+   "retrieved_at": "2026-11-17T18:25:25.052086+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "40374629",
+    "title": "Combining cross-sectional and longitudinal genomic approaches to identify determinants of cognitive and physical decline.",
+    "journal": "Nat Commun",
+    "pubdate": "2025 May 15",
+    "sortpubdate": "2025-05-15"
+   }
+  },
+  "PMID:34021172": {
+   "record_id": "PMID:34021172",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34021172/",
+   "retrieved_at": "2026-11-17T18:25:25.052086+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "34021172",
+    "title": "GWAS of allometric body-shape indices in UK Biobank identifies loci suggesting associations with morphogenesis, organogenesis, adrenal cell renewal and cancer.",
+    "journal": "Sci Rep",
+    "pubdate": "2021 May 21",
+    "sortpubdate": "2021-05-21"
+   }
+  },
+  "PMID:38640244": {
+   "record_id": "PMID:38640244",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38640244/",
+   "retrieved_at": "2026-11-17T18:25:25.052086+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "38640244",
+    "title": "Tissue-specific genetic variation suggests distinct molecular pathways between body shape phenotypes and colorectal cancer.",
+    "journal": "Sci Adv",
+    "pubdate": "2024 Apr 19",
+    "sortpubdate": "2024-04-19"
+   }
+  },
+  "LitVar2:rs7162542": {
+   "record_id": "LitVar2:rs7162542",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs7162542%23%23/publications",
+   "retrieved_at": "2026-11-17T18:25:25.097747+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     28122634,
+     27848971,
+     29555990,
+     31053729,
+     29205154,
+     20027299,
+     36250789,
+     31959851,
+     25282103,
+     26956984,
+     30664634,
+     36658113,
+     36698947,
+     23754948,
+     37025349,
+     28744006,
+     36493776,
+     30804561,
+     31069276,
+     28443625,
+     30518762,
+     29955180,
+     28448500,
+     27185397
+    ]
+   }
+  },
+  "PMID:37025349": {
+   "record_id": "PMID:37025349",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37025349/",
+   "retrieved_at": "2026-11-17T18:25:25.438570+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "37025349",
+    "title": "The early life course-related traits with three psychiatric disorders: A two-sample Mendelian randomization study.",
+    "journal": "Front Psychiatry",
+    "pubdate": "2023",
+    "sortpubdate": "2023-03-21",
+    "abstract": "Several studies have indicated a potential association between early life course-related traits and neurological and psychiatric disorders in adulthood, but the causal link remains unclear. Instrumental variables (IVs) that have been shown to be strongly associated with exposure were obtained from summary data of genome-wide association studies (GWASs). Four early life course-related traits [i.e., birthweight (BW), childhood body mass index (BMI), early body size, and age at first birth (AFB)] were used as exposure IVs to estimate their causal associations with three neurological and psychiatric diseases [i.e., Alzheimer's disease (AD), major depressive disorder (MDD), and attention-deficit hyperactivity disorder (ADHD)]. Four different statistical methods, i.e., inverse-variance weighting (IVW), MR-Egger (MRE), weighted median (WM), and weighted mode (Wm), were performed in our MR analysis. Sensitivity analysis was performed by using the leave-one-out method, and horizontal pleiotropy was assessed using the MR-PRESSO package. There was evidence suggesting that BW has a causal effect on AD (ORMR-PRESSO\u2009=\u20091.05, p\u2009=\u20091.14E-03), but this association was not confirmed via multivariable Mendelian randomization (MVMR) (ORMVMR\u2009=\u20090.97, 95% CI 0.92-1.02, p\u2009=\u20093.00E-01). A strong relationship was observed between childhood BMI and ADHD among both sexes; a 1-SD increase in BMI significantly predicted a 1.46-fold increase in the OR for ADHD (p\u2009=\u20099.13E-06). In addition, a similar relationship was found between early life body size and ADHD (ORMR-PRESSO\u2009=\u20091.47, p\u2009=\u20099.62E-05), and this effect was mainly driven by male participants (ORMR-PRESSO\u2009=\u20091.50, p\u2009=\u20091.28E-3). Earlier AFB could significantly predict a higher risk of MDD (ORMR-PRESSO\u2009=\u20091.19, p\u2009=\u20091.96E-10) and ADHD (ORMR-PRESSO\u2009=\u20091.45, p\u2009=\u20091.47E-15). No significant causal associations were observed between the remaining exposures and outcomes. Our results reveal the adverse effects of childhood obesity and preterm birth on the risk of ADHD later in life. The results of MVMR also show that lower BW may have no direct relationship with AD after adjusting for BMI. Furthermore, AFB may predict a higher risk of MDD."
+   }
+  },
+  "PMID:36658113": {
+   "record_id": "PMID:36658113",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36658113/",
+   "retrieved_at": "2026-11-17T18:25:25.438570+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "36658113",
+    "title": "Large scale phenotype imputation and in vivo functional validation implicate ADAMTS14 as an adiposity gene.",
+    "journal": "Nat Commun",
+    "pubdate": "2023 Jan 19",
+    "sortpubdate": "2023-01-19",
+    "abstract": "Obesity remains an unmet global health burden. Detrimental anatomical distribution of body fat is a major driver of obesity-mediated mortality risk and is demonstrably heritable. However, our understanding of the full genetic contribution to human adiposity is incomplete, as few studies measure adiposity directly. To address this, we impute whole-body imaging adiposity phenotypes in UK Biobank from the 4,366 directly measured participants onto the rest of the cohort, greatly increasing our discovery power. Using these imputed phenotypes in 392,535 participants yielded hundreds of genome-wide significant associations, six of which replicate in independent cohorts. The leading causal gene candidate, ADAMTS14, is further investigated in a mouse knockout model. Concordant with the human association data, the Adamts14-/- mice exhibit reduced adiposity and weight-gain under obesogenic conditions, alongside an improved metabolic rate and health. Thus, we show that phenotypic imputation at scale offers deeper biological insights into the genetics of human adiposity that could lead to therapeutic targets."
+   }
+  },
+  "PMID:36698947": {
+   "record_id": "PMID:36698947",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36698947/",
+   "retrieved_at": "2026-11-17T18:25:25.438570+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "36698947",
+    "title": "Causal effect of central obesity on left ventricular structure and function in preserved EF population: A Mendelian randomization study.",
+    "journal": "Front Cardiovasc Med",
+    "pubdate": "2022",
+    "sortpubdate": "2023-01-09",
+    "abstract": "Observational studies have shown that central obesity is associated with adverse cardiac structure and function. However, causal association between central obesity and left ventricular (LV) structure and function in preserved ejection fraction (EF) population is still uncertain. Genome-wide association studies summary data of waist circumference adjusted for body mass index (WCadjBMI) and waist-to-hip ratio adjusted for body mass index (WHRadjBMI) were selected as instrumental variables from the Genetic Investigation of Anthropometric Traits (GIANT) Consortium (n = 224,459). Outcome datasets for LV parameters including LV end-diastolic volume (LVEDV), LV end-systolic volume (LVESV), LV ejection fraction (LVEF), LV mass (LVM), and LV mass-to-end-diastolic volume ratio (LVMVR) were obtained from the participants without prevalent myocardial infarction or heart failure (LVEF \u2265 50%) in UK Biobank Cardiovascular Magnetic Resonance sub-study (n = 16,923). Two-sample Mendelian randomization (MR) was performed with the inverse-variance weighted (IVW) method as the primary estimate and with the weighted median and MR-Egger as the supplemental estimates. Sensitivity analysis was used to assess the heterogeneity and pleiotropic bias in the MR results. In the IVW analysis, every 1-standard deviation (SD) higher WHRadjBMI was significantly associated with higher LVMVR (\u03b2 = 0.4583; 95% confidence interval [CI]: 0.2921 to 0.6244; P = 6.418 \u00d7 10-8) and lower LVEDV (\u03b2 = -0.2395; 95% CI: -0.3984 to -0.0807; P = 0.0031) after Bonferroni adjustment. No heterogeneity and horizontal pleiotropy were detected in the analysis. No association of WCadjBMI was found with LVEF, LVEDV, LVESV, LVM, or LVMVR. Our findings provide evidence of significant causal association between WHRadjBMI and adverse changes in LV structure and function in preserved EF population."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 37,
+  "n_claims_fully_verified": 37,
+  "n_uncited_claims": 0,
+  "n_citations": 99,
+  "n_citations_valid": 99,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 80,
+  "n_shown_values_in_text": 80,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 37,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

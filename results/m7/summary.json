@@ -1,0 +1,312 @@
+{
+  "copd_edges_by_label": {
+    "downgraded": 3,
+    "stable_pathogenic": 7,
+    "stable_vus": 2
+  },
+  "copd_edges_by_rule": {
+    "MONDO COPD/emphysema subtree": 9,
+    "respiratory disease + COPD GWAS gene (pre-T)": 3
+  },
+  "dossiers": [
+    {
+      "bottom_line": "Bottom line: rs34712979 in NPNT is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: high (43 genome-wide significant associations across 43 studies).",
+      "citation_validity_rate": 1.0,
+      "claim_record_agreement_rate": 1.0,
+      "current": "rs34712979",
+      "n_claims": 32,
+      "n_conflicts": 0,
+      "n_uncited_claims": 0,
+      "rsid": "rs34712979",
+      "status": "ok",
+      "temporal_violations": 0
+    },
+    {
+      "bottom_line": "Bottom line: rs10037493 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with chronic obstructive pulmonary disease. Confidence: moderate (replication is limited).",
+      "citation_validity_rate": 1.0,
+      "claim_record_agreement_rate": 1.0,
+      "current": "rs10037493",
+      "n_claims": 32,
+      "n_conflicts": 0,
+      "n_uncited_claims": 0,
+      "rsid": "rs10037493",
+      "status": "ok",
+      "temporal_violations": 0
+    },
+    {
+      "bottom_line": "Bottom line: rs7753012 in ADGRG6 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: high (20 genome-wide significant associations across 21 studies).",
+      "citation_validity_rate": 1.0,
+      "claim_record_agreement_rate": 1.0,
+      "current": "rs7753012",
+      "n_claims": 36,
+      "n_conflicts": 0,
+      "n_uncited_claims": 0,
+      "rsid": "rs7753012",
+      "status": "ok",
+      "temporal_violations": 0
+    },
+    {
+      "bottom_line": "Bottom line: rs6828540 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: high (5 genome-wide significant associations across 6 studies).",
+      "citation_validity_rate": 1.0,
+      "claim_record_agreement_rate": 1.0,
+      "current": "rs6828540",
+      "n_claims": 28,
+      "n_conflicts": 0,
+      "n_uncited_claims": 0,
+      "rsid": "rs6828540",
+      "status": "ok",
+      "temporal_violations": 0
+    },
+    {
+      "bottom_line": "Bottom line: rs2165489 in THSD4 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with chronic obstructive pulmonary disease. Confidence: moderate (replication is limited).",
+      "citation_validity_rate": 1.0,
+      "claim_record_agreement_rate": 1.0,
+      "current": "rs2165489",
+      "n_claims": 23,
+      "n_conflicts": 0,
+      "n_uncited_claims": 0,
+      "rsid": "rs2165489",
+      "status": "ok",
+      "temporal_violations": 0
+    },
+    {
+      "bottom_line": "Bottom line: rs12914385 in CHRNA3 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with chronic obstructive pulmonary disease. Confidence: high (22 genome-wide significant associations across 27 studies).",
+      "citation_validity_rate": 1.0,
+      "claim_record_agreement_rate": 1.0,
+      "current": "rs12914385",
+      "n_claims": 36,
+      "n_conflicts": 0,
+      "n_uncited_claims": 0,
+      "rsid": "rs12914385",
+      "status": "ok",
+      "temporal_violations": 0
+    },
+    {
+      "bottom_line": "Bottom line: rs9391855 in PBX2 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with chronic obstructive pulmonary disease. Sources disagree on some points (see conflicts). Confidence: high (10 genome-wide significant associations across 10 studies).",
+      "citation_validity_rate": 1.0,
+      "claim_record_agreement_rate": 1.0,
+      "current": "rs9391855",
+      "n_claims": 28,
+      "n_conflicts": 1,
+      "n_uncited_claims": 0,
+      "rsid": "rs9391855",
+      "status": "ok",
+      "temporal_violations": 0
+    },
+    {
+      "bottom_line": "Bottom line: rs2001546 in CDC123 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: moderate (replication is limited).",
+      "citation_validity_rate": 1.0,
+      "claim_record_agreement_rate": 1.0,
+      "current": "rs2001546",
+      "n_claims": 22,
+      "n_conflicts": 0,
+      "n_uncited_claims": 0,
+      "rsid": "rs2001546",
+      "status": "ok",
+      "temporal_violations": 0
+    },
+    {
+      "bottom_line": "Bottom line: rs2036527 in PSMA4 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with lung cancer. Confidence: high (15 genome-wide significant associations across 18 studies).",
+      "citation_validity_rate": 1.0,
+      "claim_record_agreement_rate": 1.0,
+      "current": "rs2036527",
+      "n_claims": 33,
+      "n_conflicts": 1,
+      "n_uncited_claims": 0,
+      "rsid": "rs2036527",
+      "status": "ok",
+      "temporal_violations": 0
+    },
+    {
+      "bottom_line": "Bottom line: rs62191107 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with chronic obstructive pulmonary disease. Confidence: moderate (replication is limited).",
+      "citation_validity_rate": 1.0,
+      "claim_record_agreement_rate": 1.0,
+      "current": "rs62191107",
+      "n_claims": 23,
+      "n_conflicts": 0,
+      "n_uncited_claims": 0,
+      "rsid": "rs62191107",
+      "status": "ok",
+      "temporal_violations": 0
+    },
+    {
+      "bottom_line": "Bottom line: rs7162542 in ADAMTSL3 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with body height. Confidence: high (37 genome-wide significant associations across 25 studies).",
+      "citation_validity_rate": 1.0,
+      "claim_record_agreement_rate": 1.0,
+      "current": "rs7162542",
+      "n_claims": 37,
+      "n_conflicts": 0,
+      "n_uncited_claims": 0,
+      "rsid": "rs7162542",
+      "status": "ok",
+      "temporal_violations": 0
+    },
+    {
+      "bottom_line": "Bottom line: rs2798641 in ARMC2 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: high (7 genome-wide significant associations across 9 studies).",
+      "citation_validity_rate": 1.0,
+      "claim_record_agreement_rate": 1.0,
+      "current": "rs2798641",
+      "n_claims": 25,
+      "n_conflicts": 0,
+      "n_uncited_claims": 0,
+      "rsid": "rs2798641",
+      "status": "ok",
+      "temporal_violations": 0
+    }
+  ],
+  "gnn_set_by_label": {
+    "downgraded": {
+      "empty": 3,
+      "plp": 0
+    },
+    "stable_pathogenic": {
+      "empty": 4,
+      "plp": 3
+    },
+    "stable_vus": {
+      "empty": 2,
+      "plp": 0
+    }
+  },
+  "n_associations": 1234,
+  "n_copd_edges": 12,
+  "n_genome_wide_significant": 1002,
+  "n_lead_loci": 562,
+  "n_preT_gwas_genes": 220,
+  "subgraph": {
+    "edges": 115,
+    "kinds": {
+      "disease": 4,
+      "exposure": 4,
+      "gene": 26,
+      "phenotype": 5,
+      "trait": 7,
+      "variant": 46
+    },
+    "nodes": 92
+  },
+  "top_lead_snps": [
+    {
+      "accession": "GCST90244098",
+      "mapped_genes": "NPNT",
+      "p_display": "6e-161",
+      "rsid": "rs34712979",
+      "trait": "chronic obstructive pulmonary disease"
+    },
+    {
+      "accession": "GCST90244098",
+      "mapped_genes": "HTR4",
+      "p_display": "1e-117",
+      "rsid": "rs10037493",
+      "trait": "chronic obstructive pulmonary disease"
+    },
+    {
+      "accession": "GCST90244098",
+      "mapped_genes": "ADGRG6",
+      "p_display": "3e-110",
+      "rsid": "rs7753012",
+      "trait": "chronic obstructive pulmonary disease"
+    },
+    {
+      "accession": "GCST90244098",
+      "mapped_genes": "GUSBP5;KRT18P51",
+      "p_display": "7e-101",
+      "rsid": "rs6828540",
+      "trait": "chronic obstructive pulmonary disease"
+    },
+    {
+      "accession": "GCST90244098",
+      "mapped_genes": "THSD4",
+      "p_display": "2e-97",
+      "rsid": "rs2165489",
+      "trait": "chronic obstructive pulmonary disease"
+    },
+    {
+      "accession": "GCST90476027",
+      "mapped_genes": "CHRNA3",
+      "p_display": "3e-93",
+      "rsid": "rs12914385",
+      "trait": "chronic obstructive pulmonary disease"
+    },
+    {
+      "accession": "GCST90244098",
+      "mapped_genes": "AGER",
+      "p_display": "3e-83",
+      "rsid": "rs9391855",
+      "trait": "chronic obstructive pulmonary disease"
+    },
+    {
+      "accession": "GCST90244098",
+      "mapped_genes": "CDC123",
+      "p_display": "7e-83",
+      "rsid": "rs2001546",
+      "trait": "chronic obstructive pulmonary disease"
+    },
+    {
+      "accession": "GCST90480254",
+      "mapped_genes": "CHRNA5;PSMA4",
+      "p_display": "3e-66",
+      "rsid": "rs2036527",
+      "trait": "chronic obstructive pulmonary disease"
+    },
+    {
+      "accession": "GCST90244098",
+      "mapped_genes": "HDAC4;LINC01940",
+      "p_display": "1e-55",
+      "rsid": "rs62191107",
+      "trait": "chronic obstructive pulmonary disease"
+    },
+    {
+      "accession": "GCST90244098",
+      "mapped_genes": "ADAMTSL3",
+      "p_display": "4e-54",
+      "rsid": "rs7162542",
+      "trait": "chronic obstructive pulmonary disease"
+    },
+    {
+      "accession": "GCST90244098",
+      "mapped_genes": "ARMC2",
+      "p_display": "3e-51",
+      "rsid": "rs2798641",
+      "trait": "chronic obstructive pulmonary disease"
+    },
+    {
+      "accession": "GCST90244098",
+      "mapped_genes": "ADAM19",
+      "p_display": "2e-50",
+      "rsid": "rs1990950",
+      "trait": "chronic obstructive pulmonary disease"
+    },
+    {
+      "accession": "GCST90244098",
+      "mapped_genes": "CFDP1",
+      "p_display": "5e-48",
+      "rsid": "rs4888415",
+      "trait": "chronic obstructive pulmonary disease"
+    },
+    {
+      "accession": "GCST007611",
+      "mapped_genes": "ARHGAP42",
+      "p_display": "2e-47",
+      "rsid": "rs633185",
+      "trait": "chronic obstructive pulmonary disease"
+    }
+  ],
+  "traits": [
+    {
+      "efo_id": "MONDO_0005002",
+      "efo_trait": "chronic obstructive pulmonary disease",
+      "query": "chronic obstructive pulmonary disease"
+    },
+    {
+      "efo_id": "MONDO_0000923",
+      "efo_trait": "interstitial emphysema",
+      "query": "emphysema"
+    },
+    {
+      "efo_id": "MONDO_0004849",
+      "efo_trait": "pulmonary emphysema",
+      "query": "emphysema"
+    }
+  ]
+}

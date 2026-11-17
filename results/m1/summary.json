@@ -1,10 +1,10 @@
 {
   "T": "2020-01",
-  "downgrade_rate_among_PLP": 0.07598557166800263,
+  "downgrade_rate_among_PLP": 0.07596735407709684,
   "downgraded_to": {
     "BLB": 85,
-    "CONFLICT": 2461,
-    "VUS": 1625
+    "CONFLICT": 2459,
+    "VUS": 1626
   },
   "filter_steps": [
     [
@@ -37,15 +37,15 @@
     ],
     [
       "latest_class_in_scope",
-      128330
+      128384
     ],
     [
       "label_downgraded",
-      4171
+      4170
     ],
     [
       "label_stable_pathogenic",
-      50721
+      50722
     ],
     [
       "label_upgraded",
@@ -53,11 +53,11 @@
     ],
     [
       "label_stable_vus",
-      71307
+      71361
     ],
     [
       "vus_to_benign_not_labeled",
-      5525
+      5527
     ],
     [
       "rows_with_LastEvaluated_after_T_release(dropped)",
@@ -65,13 +65,13 @@
     ]
   ],
   "label_counts": {
-    "downgraded": 4171,
-    "stable_pathogenic": 50721,
-    "stable_vus": 71307,
+    "downgraded": 4170,
+    "stable_pathogenic": 50722,
+    "stable_vus": 71361,
     "upgraded": 2131
   },
-  "latest_release_last_modified": "2026-11-16",
+  "latest_release": "2026-11 monthly archive (2026-11-05)",
   "n_genes": 3951,
   "n_mondo_diseases": 4986,
-  "upgrade_rate_among_VUS": 0.02901767477327814
+  "upgrade_rate_among_VUS": 0.028996353344581723
 }

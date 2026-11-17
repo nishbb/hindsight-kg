@@ -1,0 +1,49 @@
+VARIANT DOSSIER: rs6828540
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs6828540 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs6828540]
+- dbSNP records rs6828540 as variant type 'snv' on NC_000004.12 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs6828540]
+- Alternate allele 1: NC_000004.12:g.144542079G>A, a single-nucleotide variant (SNV) (G>A in VCF form). [dbSNP build 157 rs6828540]
+- Alternate allele 2: NC_000004.12:g.144542079G>C, a single-nucleotide variant (SNV) (G>C in VCF form). [dbSNP build 157 rs6828540]
+
+FUNCTION
+- Ensembl VEP reports no transcript consequence; the most severe consequence is intergenic_variant. [Ensembl VEP rs6828540]
+- Ensembl classifies the variant as 'SNV' with allele string G/A/C. [Ensembl VEP rs6828540]
+
+FREQUENCY
+- In gnomAD v2.1.1 genomes, alternate allele 1 (G>A) has an overall allele frequency of 0.413. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.34, Admixed American 0.327, Ashkenazi Jewish 0.366, East Asian 0.289, Finnish 0.527, Non-Finnish European 0.444, Other 0.449. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0.289 in East Asian to 0.527 in Finnish, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (G>A) has an overall allele frequency of 0.392 (59,443 of 151,788 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.343, Admixed American 0.339, Ashkenazi Jewish 0.352, East Asian 0.302, Finnish 0.537, Non-Finnish European 0.413, South Asian 0.498, Middle Eastern 0.394, Amish 0.393, Remaining 0.356. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0.302 in East Asian to 0.537 in Finnish, a large between-ancestry difference. [gnomAD v4.1]
+- In gnomAD v2.1.1 genomes, alternate allele 2 (G>C) has an overall allele frequency of 0.00256. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0.000461, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0.00146, Non-Finnish European 0.00449, Other 0.00185. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (G>C) has an overall allele frequency of 0.00234 (356 of 151,864 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0.000483, Admixed American 0.000721, Ashkenazi Jewish 0, East Asian 0, Finnish 0.000761, Non-Finnish European 0.00459, South Asian 0, Middle Eastern 0, Amish 0.00329, Remaining 0.000947. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- The ClinVar 2026-11 release contains no record for rs6828540. [ClinVar 2026-11 release]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs6828540]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 6 association record(s) for rs6828540. [GWAS Catalog rs6828540]
+- Genome-wide significant association with FEV/FVC ratio (p = 1e-245, study GCST007080). [GWAS Catalog GCST007080; PMID:30595370]
+- Genome-wide significant association with chronic obstructive pulmonary disease (p = 7e-101, study GCST90244098, effect allele rs6828540-G). [GWAS Catalog GCST90244098; PMID:37069358]
+- Genome-wide significant association with response to bronchodilator (p = 7e-10, study GCST003262, effect allele rs6828540-A). [GWAS Catalog GCST003262; PMID:26634245]
+- rs6828540 is associated with 3 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs6828540]
+
+LITERATURE
+- LitVar2 links 8 PubMed articles to rs6828540. [LitVar2 rs6828540]
+- Linked article: "Eighty-eight variants highlight the role of T cell regulation and airway remodeling in asthma pathogenesis" (Nat Commun, 2020). [PMID:31959851]
+- Linked article: "Immune-mediated genetic pathways resulting in pulmonary function impairment increase lung cancer susceptibility" (Nat Commun, 2020). [PMID:31911640]
+- Linked article: "Genetic Pleiotropy between Nicotine Dependence and Respiratory Outcomes" (Sci Rep, 2017). [PMID:29203782]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs6828540 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with FEV/FVC ratio. Confidence: high (5 genome-wide significant associations across 6 studies). [GWAS Catalog rs6828540; LitVar2 rs6828540]

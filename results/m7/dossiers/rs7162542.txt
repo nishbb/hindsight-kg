@@ -1,0 +1,58 @@
+VARIANT DOSSIER: rs7162542
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs7162542 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs7162542]
+- Earlier identifiers merged into rs7162542: rs58822844. [dbSNP build 157 rs7162542]
+- dbSNP records rs7162542 as variant type 'snv' on NC_000015.10 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs7162542]
+- Alternate allele 1: NC_000015.10:g.83845538C>A, a single-nucleotide variant (SNV) (C>A in VCF form). [dbSNP build 157 rs7162542]
+- Alternate allele 2: NC_000015.10:g.83845538C>G, a single-nucleotide variant (SNV) (C>G in VCF form). [dbSNP build 157 rs7162542]
+- Alternate allele 3: NC_000015.10:g.83845538C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs7162542]
+
+FUNCTION
+- For alternate allele 3 (C>T), Ensembl VEP predicts intron_variant in ADAMTSL3 (ENST00000286744.10:c.727+7323C>T), impact MODIFIER. [Ensembl VEP rs7162542]
+- For alternate allele 2 (C>G), Ensembl VEP predicts intron_variant in ADAMTSL3 (ENST00000286744.10:c.727+7323C>G), impact MODIFIER. [Ensembl VEP rs7162542]
+- For alternate allele 1 (C>A), Ensembl VEP predicts intron_variant in ADAMTSL3 (ENST00000286744.10:c.727+7323C>A), impact MODIFIER. [Ensembl VEP rs7162542]
+- Ensembl classifies the variant as 'SNV' with allele string C/A/G/T. [Ensembl VEP rs7162542]
+
+FREQUENCY
+- Alternate allele 1 (C>A) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>A) has an overall allele frequency of 6.58e-06 (1 of 152,014 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 2.42e-05, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0, South Asian 0, Middle Eastern 0, Amish 0, Remaining 0. [gnomAD v4.1]
+- In gnomAD v2.1.1 genomes, alternate allele 2 (C>G) has an overall allele frequency of 0.63. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0.743, Admixed American 0.784, Ashkenazi Jewish 0.634, East Asian 0.947, Finnish 0.532, Non-Finnish European 0.551, Other 0.592. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 2 frequency ranges from 0.532 in Finnish to 0.947 in East Asian, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (C>G) has an overall allele frequency of 0.645 (98,039 of 152,060 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0.738, Admixed American 0.719, Ashkenazi Jewish 0.644, East Asian 0.94, Finnish 0.539, Non-Finnish European 0.561, South Asian 0.7, Middle Eastern 0.714, Amish 0.593, Remaining 0.644. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 2 frequency ranges from 0.539 in Finnish to 0.94 in East Asian, a large between-ancestry difference. [gnomAD v4.1]
+- Alternate allele 3 (C>T) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 3 (C>T) has an overall allele frequency of 6.58e-06 (1 of 152,014 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 3: African/African American 0, Admixed American 6.55e-05, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0, South Asian 0, Middle Eastern 0, Amish 0, Remaining 0. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- The ClinVar 2026-11 release contains no record for rs7162542. [ClinVar 2026-11 release]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs7162542]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 38 association record(s) for rs7162542. [GWAS Catalog rs7162542]
+- Genome-wide significant association with body height (p = 8e-55, study GCST002647, effect allele rs7162542-C). [GWAS Catalog GCST002647; PMID:25282103]
+- Genome-wide significant association with chronic obstructive pulmonary disease (p = 4e-54, study GCST90244098, effect allele rs7162542-C). [GWAS Catalog GCST90244098; PMID:37069358]
+- Genome-wide significant association with forced expiratory volume (p = 3e-49, study GCST90565844, effect allele rs7162542-C). [GWAS Catalog GCST90565844; PMID:40374629]
+- Genome-wide significant association with BMI-adjusted waist circumference (p = 3e-44, study GCST012226, effect allele rs7162542-C). [GWAS Catalog GCST012226; PMID:34021172]
+- Genome-wide significant association with body shape measurement (p = 2e-31, study GCST90832992, effect allele rs7162542-C). [GWAS Catalog GCST90832992; PMID:38640244]
+- Genome-wide significant association with BMI-adjusted hip circumference (p = 1e-30, study GCST012227, effect allele rs7162542-C). [GWAS Catalog GCST012227; PMID:34021172]
+- rs7162542 is associated with 11 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs7162542]
+
+LITERATURE
+- LitVar2 links 24 PubMed articles to rs7162542. [LitVar2 rs7162542]
+- Linked article: "The early life course-related traits with three psychiatric disorders: A two-sample Mendelian randomization study" (Front Psychiatry, 2023). [PMID:37025349]
+- Linked article: "Large scale phenotype imputation and in vivo functional validation implicate ADAMTS14 as an adiposity gene" (Nat Commun, 2023). [PMID:36658113]
+- Linked article: "Causal effect of central obesity on left ventricular structure and function in preserved EF population: A Mendelian randomization study" (Front Cardiovasc Med, 2023). [PMID:36698947]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs7162542 in ADAMTSL3 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with body height. Confidence: high (37 genome-wide significant associations across 25 studies). [GWAS Catalog rs7162542; LitVar2 rs7162542]

@@ -1,0 +1,44 @@
+VARIANT DOSSIER: rs2165489
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs2165489 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs2165489]
+- Earlier identifiers merged into rs2165489: rs3942318, rs4643269, rs61168771. [dbSNP build 157 rs2165489]
+- dbSNP records rs2165489 as variant type 'snv' on NC_000015.10 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs2165489]
+- Alternate allele 1: NC_000015.10:g.71381439C>G, a single-nucleotide variant (SNV) (C>G in VCF form). [dbSNP build 157 rs2165489]
+- Alternate allele 2: NC_000015.10:g.71381439C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs2165489]
+
+FUNCTION
+- For alternate allele 1 (C>G), Ensembl VEP predicts intron_variant in THSD4 (ENST00000261862.8:c.1016-30248C>G), impact MODIFIER. [Ensembl VEP rs2165489]
+- For alternate allele 2 (C>T), Ensembl VEP predicts intron_variant in THSD4 (ENST00000261862.8:c.1016-30248C>T), impact MODIFIER. [Ensembl VEP rs2165489]
+- Ensembl classifies the variant as 'SNV' with allele string C/G/T. [Ensembl VEP rs2165489]
+
+FREQUENCY
+- Alternate allele 1 (C>G) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 15-71381439-C-G (alternate allele 1). [gnomAD v4.1]
+- In gnomAD v2.1.1 genomes, alternate allele 2 (C>T) has an overall allele frequency of 0.21. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0.175, Admixed American 0.33, Ashkenazi Jewish 0.181, East Asian 0.116, Finnish 0.25, Non-Finnish European 0.223, Other 0.213. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 2 frequency ranges from 0.116 in East Asian to 0.33 in Admixed American, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (C>T) has an overall allele frequency of 0.211 (32,116 of 152,086 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0.172, Admixed American 0.269, Ashkenazi Jewish 0.168, East Asian 0.11, Finnish 0.248, Non-Finnish European 0.222, South Asian 0.274, Middle Eastern 0.257, Amish 0.206, Remaining 0.199. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- The ClinVar 2026-11 release contains no record for rs2165489. [ClinVar 2026-11 release]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs2165489]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 3 association record(s) for rs2165489. [GWAS Catalog rs2165489]
+- Genome-wide significant association with chronic obstructive pulmonary disease (p = 2e-97, study GCST90244098, effect allele rs2165489-C). [GWAS Catalog GCST90244098; PMID:37069358]
+- Genome-wide significant association with forced expiratory volume (p = 3e-33, study GCST90244092, effect allele rs2165489-T). [GWAS Catalog GCST90244092; PMID:36914875]
+- rs2165489 is associated with 2 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs2165489]
+
+LITERATURE
+- LitVar2 links 0 PubMed articles to rs2165489. [LitVar2 rs2165489]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs2165489 in THSD4 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with chronic obstructive pulmonary disease. Confidence: moderate (replication is limited). [GWAS Catalog rs2165489; LitVar2 rs2165489]

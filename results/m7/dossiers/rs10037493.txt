@@ -1,0 +1,53 @@
+VARIANT DOSSIER: rs10037493
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs10037493 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs10037493]
+- Earlier identifiers merged into rs10037493: rs61635342. [dbSNP build 157 rs10037493]
+- dbSNP records rs10037493 as variant type 'snv' on NC_000005.10 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs10037493]
+- Alternate allele 1: NC_000005.10:g.148475407C>A, a single-nucleotide variant (SNV) (C>A in VCF form). [dbSNP build 157 rs10037493]
+- Alternate allele 2: NC_000005.10:g.148475407C>G, a single-nucleotide variant (SNV) (C>G in VCF form). [dbSNP build 157 rs10037493]
+- Alternate allele 3: NC_000005.10:g.148475407C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs10037493]
+
+FUNCTION
+- For alternate allele 1 (C>A), Ensembl VEP predicts intron_variant, non_coding_transcript_variant in a transcript without a gene symbol (ENST00000771507.1:n.401+6390C>A), impact MODIFIER. [Ensembl VEP rs10037493]
+- For alternate allele 3 (C>T), Ensembl VEP predicts intron_variant, non_coding_transcript_variant in a transcript without a gene symbol (ENST00000771507.1:n.401+6390C>T), impact MODIFIER. [Ensembl VEP rs10037493]
+- For alternate allele 2 (C>G), Ensembl VEP predicts intron_variant, non_coding_transcript_variant in a transcript without a gene symbol (ENST00000771507.1:n.401+6390C>G), impact MODIFIER. [Ensembl VEP rs10037493]
+- Ensembl classifies the variant as 'SNV' with allele string C/A/G/T. [Ensembl VEP rs10037493]
+
+FREQUENCY
+- Alternate allele 1 (C>A) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 5-148475407-C-A (alternate allele 1). [gnomAD v4.1]
+- In gnomAD v2.1.1 genomes, alternate allele 2 (C>G) has an overall allele frequency of 6.38e-05. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0.00013, Other 0. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (C>G) has an overall allele frequency of 2.63e-05 (4 of 151,896 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 5.88e-05, South Asian 0, Middle Eastern 0, Amish 0, Remaining 0. [gnomAD v4.1]
+- In gnomAD v2.1.1 genomes, alternate allele 3 (C>T) has an overall allele frequency of 0.462. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 3: African/African American 0.483, Admixed American 0.636, Ashkenazi Jewish 0.459, East Asian 0.689, Finnish 0.405, Non-Finnish European 0.433, Other 0.44. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 3 frequency ranges from 0.405 in Finnish to 0.689 in East Asian, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 3 (C>T) has an overall allele frequency of 0.473 (71,880 of 151,950 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 3: African/African American 0.48, Admixed American 0.572, Ashkenazi Jewish 0.435, East Asian 0.715, Finnish 0.401, Non-Finnish European 0.441, South Asian 0.486, Middle Eastern 0.354, Amish 0.49, Remaining 0.45. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 3 frequency ranges from 0.354 in Middle Eastern to 0.715 in East Asian, a large between-ancestry difference. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- The ClinVar 2026-11 release contains no record for rs10037493. [ClinVar 2026-11 release]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs10037493]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 4 association record(s) for rs10037493. [GWAS Catalog rs10037493]
+- Genome-wide significant association with chronic obstructive pulmonary disease (p = 1e-117, study GCST90244098, effect allele rs10037493-C). [GWAS Catalog GCST90244098; PMID:37069358]
+- rs10037493 is associated with 1 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs10037493]
+
+LITERATURE
+- LitVar2 links 14 PubMed articles to rs10037493. [LitVar2 rs10037493]
+- Linked article: "ADAM19 and HTR4 variants and pulmonary function: Cohorts for Heart and Aging Research in Genomic Epidemiology (CHARGE) Consortium Targeted Sequencing Study" (Circ Cardiovasc Genet, 2014). [PMID:24951661]
+- Linked article: "HTR4 gene structure and altered expression in the developing lung" (Respir Res, 2013). [PMID:23890215]
+- Linked article: "Overlap between COPD genetic association results and transcriptional quantitative trait loci" (HGG Adv, 2026). [PMID:40798880]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs10037493 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with chronic obstructive pulmonary disease. Confidence: moderate (replication is limited). [GWAS Catalog rs10037493; LitVar2 rs10037493]

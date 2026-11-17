@@ -1,0 +1,53 @@
+VARIANT DOSSIER: rs2036527
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs2036527 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs2036527]
+- dbSNP records rs2036527 as variant type 'snv' on NC_000015.10 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs2036527]
+- Alternate allele 1: NC_000015.10:g.78559273G>A, a single-nucleotide variant (SNV) (G>A in VCF form). [dbSNP build 157 rs2036527]
+- Alternate allele 2: NC_000015.10:g.78559273G>C, a single-nucleotide variant (SNV) (G>C in VCF form). [dbSNP build 157 rs2036527]
+- Alternate allele 3: NC_000015.10:g.78559273G>T, a single-nucleotide variant (SNV) (G>T in VCF form). [dbSNP build 157 rs2036527]
+
+FUNCTION
+- For alternate allele 1 (G>A), Ensembl VEP predicts 3_prime_UTR_variant in PSMA4 (ENST00001117541.1:c.*568G>A), impact MODIFIER. [Ensembl VEP rs2036527]
+- Ensembl classifies the variant as 'SNV' with allele string G/A. [Ensembl VEP rs2036527]
+
+FREQUENCY
+- In gnomAD v2.1.1 genomes, alternate allele 1 (G>A) has an overall allele frequency of 0.287. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.215, Admixed American 0.206, Ashkenazi Jewish 0.317, East Asian 0.0315, Finnish 0.357, Non-Finnish European 0.339, Other 0.322. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0.0315 in East Asian to 0.357 in Finnish, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (G>A) has an overall allele frequency of 0.288 (43,744 of 152,096 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.221, Admixed American 0.24, Ashkenazi Jewish 0.355, East Asian 0.0343, Finnish 0.329, Non-Finnish European 0.35, South Asian 0.225, Middle Eastern 0.408, Amish 0.407, Remaining 0.306. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0.0343 in East Asian to 0.408 in Middle Eastern, a large between-ancestry difference. [gnomAD v4.1]
+- Alternate allele 2 (G>C) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs2036527. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 15-78559273-G-C (alternate allele 2). [gnomAD v4.1]
+- Alternate allele 3 (G>T) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs2036527. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 15-78559273-G-T (alternate allele 3). [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- The ClinVar 2026-11 release contains no record for rs2036527. [ClinVar 2026-11 release]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs2036527]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 18 association record(s) for rs2036527. [GWAS Catalog rs2036527]
+- Genome-wide significant association with lung cancer (p = 8e-179, study GCST90455518, effect allele rs2036527-A). [GWAS Catalog GCST90455518; PMID:39366959]
+- Genome-wide significant association with lung adenocarcinoma (p = 3e-82, study GCST90455519, effect allele rs2036527-A). [GWAS Catalog GCST90455519; PMID:39366959]
+- Genome-wide significant association with chronic obstructive pulmonary disease (p = 3e-66, study GCST90480254, effect allele rs2036527-G). [GWAS Catalog GCST90480254; PMID:39024449]
+- Genome-wide significant association with chronic bronchitis (p = 2e-44, study GCST90480252, effect allele rs2036527-G). [GWAS Catalog GCST90480252; PMID:39024449]
+- Genome-wide significant association with chronic lung disease (p = 2e-43, study GCST90479592, effect allele rs2036527-G). [GWAS Catalog GCST90479592; PMID:39024449]
+- Genome-wide significant association with cotinine measurement (p = 3e-28, study GCST009970, effect allele rs2036527-A). [GWAS Catalog GCST009970; PMID:32157176]
+- rs2036527 is associated with 13 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs2036527]
+
+LITERATURE
+- LitVar2 links 127 PubMed articles to rs2036527. [LitVar2 rs2036527]
+- Linked article: "Identification of rs2036527 as a cis-regulatory variant for CHRNA3 and CHRNA5 by allele-specific expression and implications for nicotine dependence and lung cancer" (Am J Addict, 2026). [PMID:40755048]
+- Linked article: "Association of CHRNA5-A3-B4 SNP rs2036527 with smoking cessation therapy response in African-American smokers" (Clin Pharmacol Ther, 2014). [PMID:24733007]
+- Linked article: "Genetic risk factors for pneumonia differ by patient subgroup" (EBioMedicine, 2026). [PMID:41579494]
+
+CONFLICTS AND CAVEATS
+- Gene assignment difference: sources name different genes for rs2036527 (Ensembl VEP: PSMA4; GWAS Catalog: CHRNA5, PSMA4). [Ensembl VEP rs2036527; GWAS Catalog rs2036527]
+
+BOTTOM LINE
+- Bottom line: rs2036527 in PSMA4 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with lung cancer. Confidence: high (15 genome-wide significant associations across 18 studies). [GWAS Catalog rs2036527; LitVar2 rs2036527]

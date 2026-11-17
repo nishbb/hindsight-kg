@@ -54,9 +54,9 @@ NEIGHBOR = [
     "disease_n_plp",
 ]
 
-GNN = ["gnn_rgcn", "gnn_hgt"]
+GNN = ["gnn_rgcn", "gnn_hgt", "gnn_small"]
 
-ALLOWED_TIME_T = set(TABULAR) | set(NEIGHBOR) | set(GNN) | {"gnn_rgcn_p_plp", "gnn_hgt_p_plp"}
+ALLOWED_TIME_T = set(TABULAR) | set(NEIGHBOR) | set(GNN) | {f"{g}_p_plp" for g in GNN}
 
 
 def tabular_features(labels: pd.DataFrame, ann: pd.DataFrame) -> pd.DataFrame:
