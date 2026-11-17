@@ -62,3 +62,27 @@ Decisions:
 * Guard: rows with LastEvaluated after T are dropped (0 found).
 
 Early signal worth noting: "no assertion criteria provided" P/LP records downgrade at 10.8% versus 7.6% overall, and missense P/LP records downgrade far more than truncating ones. Tabular baselines will be strong.
+
+## M2. Time-T knowledge graph (done)
+
+Plan: MONDO 2019 disease backbone, Hetionet 2017 molecular background, HPO 2019 gene-phenotype, ClinVar 2020-01 variant nodes and assertion edges (significance as edge type), GWAS Catalog 2019-12-16 variant-trait edges; save PyG `HeteroData`; leakage tests.
+
+Built (`scripts/m2_build_kg.py`, 22 s CPU; numbers in `results/m2/summary.json`):
+* 12 node types, 450,828 nodes: 353,600 variants (291,591 ClinVar, 62,009 GWAS-only), 21,008 genes, 21,838 diseases (MONDO), 14,586 phenotypes (HPO), 1,926 GWAS traits, plus GO terms, pathways, anatomy, compounds, symptoms.
+* 32 edge types, about 3.2M edges. Assertion edges at T: `assoc_plp` 90,390; `assoc_vus` 194,872; `assoc_blb` 74,216; `assoc_conflict` 33,239. GWAS variant-trait 89,603 (from 107,652 genome-wide significant rows added and published on or before T, of 166,103 raw rows).
+* Variant node features are intrinsic only: consequence parsed from the HGVS name and variant type. Nothing derived from later data.
+* Unlike the M1 label table, the graph keeps multi-condition variants (one assertion edge per mapped condition).
+
+Leakage protection (`src/kggc/graph/leakage.py`, `tests/test_m2_graph.py`):
+* every node type and edge type records its source key; the test fails if any source is unknown, flagged leaky, or released after T;
+* max ClinVar LastEvaluated, max GWAS date-added and max GWAS publication date in the built graph must be on or before T (observed: GWAS date added 2019-12-06);
+* the variant table must not contain any outcome column;
+* negative tests confirm the checker rejects PrimeKG, latest ClinVar, post-T dates and non-allow-listed feature columns.
+
+Decisions:
+* Hetionet side-effect edges (CcSE) and pharmacologic classes are skipped as irrelevant to genotype-phenotype reasoning.
+* 136 of 137 Hetionet diseases map to MONDO through `equivalentTo` DOID xrefs.
+* GWAS-only variants get an `in_gene` edge only when the catalog's MAPPED_GENE is a single gene (intergenic "A - B" mappings get none).
+* Hetionet itself includes GWAS Catalog and DisGeNET content, but only as of 2017, so it is time-safe.
+
+Open issue: `pyg-lib` has no wheel for this laptop's torch build, so `LinkNeighborLoader` (mini-batch neighbor sampling) cannot run here. M3 therefore has two code paths: neighbor-sampled mini-batches when `pyg-lib` or `torch-sparse` is present (the GPU instance), and full-batch training on CPU otherwise.

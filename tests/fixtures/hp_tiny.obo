@@ -1,0 +1,10 @@
+format-version: 1.2
+
+[Term]
+id: HP:0001250
+name: Seizure
+is_a: HP:0000001
+
+[Term]
+id: HP:0000001
+name: All

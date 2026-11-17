@@ -1,0 +1,6 @@
+id	name	kind
+Gene::101	GENEA	Gene
+Gene::102	GENEB	Gene
+Biological Process::GO:1	bp one	Biological Process
+Disease::DOID:999	dis two doid	Disease
+Disease::DOID:5	unmapped	Disease
