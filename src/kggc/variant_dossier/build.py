@@ -245,7 +245,21 @@ class DossierBuilder:
             notes.append("dbSNP returned no allele placements; allele-level sections are limited.")
 
         # ---------------- function (VEP)
-        vep = add(self.s.vep(current))
+        try:
+            vep = add(self.s.vep(current))
+        except RuntimeError as err:  # transient Ensembl outage: report it, keep the other sources
+            notes.append(f"Ensembl VEP request failed ({err}); function section omitted.")
+            vep = add(
+                {
+                    "record_id": f"VEP:{current}",
+                    "source": "Ensembl VEP",
+                    "source_version": "unavailable",
+                    "url": "",
+                    "retrieved_at": datetime.now(timezone.utc).isoformat(),
+                    "status": 0,
+                    "data": {},
+                }
+            )
         vl = f"Ensembl VEP {current}"
         vd = vep["data"]
         genes_vep: list[str] = []
@@ -984,11 +998,15 @@ class DossierBuilder:
         somatic["is_somatic_hotspot"] = (
             bool(strong & set(signals)) and "cosmic_colocated" in signals
         )
-        if not signals:
+        if not signals and "cosmic_ids" in vep["data"]:
             claim(
                 sec,
                 "No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant.",
                 [Citation(vep["record_id"], "cosmic_ids", [], vl)],
+            )
+        elif not signals:
+            notes.append(
+                "Ensembl VEP returned no annotation, so co-located COSMIC records could not be checked."
             )
 
     # ------------------------------------------------------------------ GWAS

@@ -87,7 +87,7 @@ Decisions:
 
 Open issue: `pyg-lib` has no wheel for this laptop's torch build, so `LinkNeighborLoader` (mini-batch neighbor sampling) cannot run here. M3 therefore has two code paths: neighbor-sampled mini-batches when `pyg-lib` or `torch-sparse` is present (the GPU instance), and full-batch training on CPU otherwise.
 
-## M3. GNN edge plausibility (R-GCN done; HGT running)
+## M3. GNN edge plausibility (done)
 
 Plan: link predictor for `(variant, assoc_plp, disease)`; out-of-sample score for every P/LP edge and VUS pair; split conformal; baselines; H1 test of GNN versus tabular.
 
@@ -109,9 +109,11 @@ Results (R-GCN; `results/m3/`):
 * **H1, upgrade** (2,131 of 73,438): GNN alone 0.819, equal to GBM tabular 0.820 without using outcome labels; tabular + GNN 0.881 (delta +0.061, CI 0.054 to 0.068); tabular + neighbour counts 0.894; adding GNN to that 0.896 (delta +0.002, CI -0.000 to +0.004, not significant). **Graph context helps for upgrades, but simple leave-one-out neighbour counts capture it as well as the GNN.**
 * Prospective GBM (fitted on 2018 to 2020 revisions): 0.816 downgrade, 0.746 upgrade.
 
-Failure: the first HGT run died when the previous session ended (no output). Restarted with a 24-epoch cap.
+Failure: the first HGT run died when the previous session ended (no output). Restarted with a 24-epoch cap (42 min CPU for 5 folds).
 
-## M4. Variant dossier (QIAGEN) (20-variant set done; broader evaluation running)
+HGT results: held-out P/LP vs B/LB AUROC 0.955 to 0.965, versus corrupted disease 0.857 to 0.877, and validation AUROC was still rising at the cap, so **HGT is undertrained here**; its lower H1 numbers (GNN alone 0.683 downgrade, 0.703 upgrade; +0.023 AUROC over tabular for upgrades, CI 0.017 to 0.029) should not be read as HGT being a worse architecture. A full HGT run needs the GPU instance. Conformal coverage for HGT: 0.905 (P/LP), 0.902 (B/LB). Combining both GNNs gives no gain over R-GCN alone.
+
+## M4. Variant dossier (QIAGEN) (done)
 
 Plan: per-rsID evidence gathering, reconciliation, cited plain text, automated verification, haplotype detection, CLI.
 
@@ -128,3 +130,10 @@ Results (`results/qiagen_20/`): 20 of 20 complete in both modes. Latest: 656 sen
 Bugs found by reading the output and fixed: ClinVar's placeholder "no classification for the single variant" was counted as a somatic signal (APOE was called a somatic mutation); GWAS p-values below 1e-308 printed as 0 (now built from mantissa and exponent); indel alleles failed to match ClinVar's left-aligned representation.
 
 Limitations: the bottom line is rule-based; per-condition ClinVar classifications are not separated (aggregate per allele); literature examples are chosen by title match and recency, not relevance ranking.
+
+### M4 broader evaluation (`results/m4_broad/summary.json`)
+
+* 200 variants named in the brief (100 ClinVar expert-panel, 100 GWAS lead SNPs from the 2019-12-16 release, seeded sample): 200 of 200 dossiers complete, 4,646 sentences, 11,507 citations, citation validity 1.0, claim-to-record agreement 1.0, no uncited sentence.
+* Conflict detection recall: 100 extra germline ClinVar variants whose aggregate classification is "Conflicting ..." (needed because expert-panel records essentially never carry the flag). Recall 1.0 both from the dossier's conflict list and when computed from individual submissions only. On the expert-panel set 29% of variants show submitter disagreement; these are real disagreements that the panel resolved, so they are reported as a disagreement rate, not as false alarms.
+* Caveat: citation validity and agreement are 1.0 by construction where the template system works, so these numbers mainly show that the verifier finds nothing broken. They are not a test of whether the evidence is complete or well chosen.
+* Bugs found by this run and fixed: a "no COSMIC record" sentence cited a field that is absent when Ensembl has no annotation for a very new rsID (3 variants); a transient Ensembl HTTP 500 aborted one dossier (now recorded as a processing note and the other sources continue).

@@ -73,7 +73,7 @@ def test_variant_never_receives_assertion_messages():
     static = {("variant", "in_gene", "gene"): data["variant", "in_gene", "gene"].edge_index}
     vg = torch.zeros(20, dtype=torch.long)
     msg = message_edge_dict(static, {"plp": data["variant", "assoc_plp", "disease"].edge_index}, vg)
-    for src, rel, dst in msg:
+    for _src, rel, dst in msg:
         if "assoc" in rel or "variant_for" in rel:
             assert dst != "variant"
 

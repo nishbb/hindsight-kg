@@ -1,0 +1,21 @@
+{
+  "alpha": 0.1,
+  "coverage_blb": 0.9019887894793576,
+  "coverage_plp": 0.9046465316959841,
+  "n_blb": 74216,
+  "n_plp": 90390,
+  "set_counts_plp_edges": {
+    "blb": 8592,
+    "both": 1839,
+    "empty": 27,
+    "plp": 79932
+  },
+  "set_counts_vus_edges": {
+    "blb": 75720,
+    "both": 5435,
+    "empty": 161,
+    "plp": 113556
+  },
+  "singleton_rate_blb": 0.9922119219575294,
+  "singleton_rate_plp": 0.979356123464985
+}

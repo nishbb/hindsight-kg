@@ -116,7 +116,7 @@ def main() -> None:
         "n_positives_with_ClinVar_conflicting_flag": int(len(pos)),
         "recall_dossier_conflict_list": float(pos["conflict_flagged"].mean()),
         "recall_from_submissions_only": float(pos["conflict_from_submissions"].mean()),
-        "false_alarm_rate_on_expert_panel_set_submissions_only": float(
+        "submitter_disagreement_rate_on_expert_panel_set": float(
             ok.loc[ok["set"] == "expert", "conflict_from_submissions"].mean()
         ),
     }

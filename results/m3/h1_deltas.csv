@@ -3,11 +3,27 @@ downgrade,GBM tabular,GBM tabular + GNN (rgcn),auroc,0.0017100616021785697,-0.00
 downgrade,GBM tabular,GBM tabular + GNN (rgcn),auprc,-0.002471058950957561,-0.007789980589676909,0.003291297068704817,0.368
 downgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (rgcn),auroc,-0.002260957293124033,-0.0035371461742720015,-0.0008686646965999148,0.0
 downgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (rgcn),auprc,-0.006223045687651085,-0.009847427718093693,-0.0027401275006327763,0.004
+downgrade,GBM tabular,GBM tabular + GNN (hgt),auroc,0.0007229460127659015,-0.0016405648836749413,0.0030691417413735086,0.58
+downgrade,GBM tabular,GBM tabular + GNN (hgt),auprc,0.002942990817354052,-0.002258657506500701,0.008516477791305209,0.268
+downgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (hgt),auroc,-0.0021918578074437978,-0.0037389474797159595,-0.0006741386072107257,0.008
+downgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (hgt),auprc,-0.0035952561315773512,-0.007408845938866397,0.0002502833831863189,0.072
 downgrade,GBM tabular,GBM tabular + neighbour counts,auroc,0.010510438990259274,0.006841958710844087,0.013819574764738371,0.0
 downgrade,GBM tabular,GBM tabular + neighbour counts,auprc,0.0275282368330384,0.018503385660126097,0.03573436353094216,0.0
+downgrade,GBM tabular,GBM tabular + GNN (all),auroc,0.0020876307212688294,-0.0004549242290118299,0.004896894808508381,0.128
+downgrade,GBM tabular,GBM tabular + GNN (all),auprc,-0.004338021898058042,-0.010218164313490437,0.0019337963388294226,0.2
+downgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (all),auroc,-0.0044962383262887595,-0.006139184302563263,-0.002795956876286416,0.0
+downgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (all),auprc,-0.009497768524170669,-0.013442854076996717,-0.005358189436752266,0.0
 upgrade,GBM tabular,GBM tabular + GNN (rgcn),auroc,0.061040865744017125,0.05435177095630748,0.0682136244950379,0.0
 upgrade,GBM tabular,GBM tabular + GNN (rgcn),auprc,0.03918848639979999,0.029268310170516586,0.04944042993204682,0.0
 upgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (rgcn),auroc,0.001833438203046489,-0.00020774689821939353,0.004249755291389508,0.092
 upgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (rgcn),auprc,0.0013506598100121447,-0.007403912214407439,0.009225759643406247,0.8
+upgrade,GBM tabular,GBM tabular + GNN (hgt),auroc,0.02313559593021397,0.017388931766653327,0.02880254919118703,0.0
+upgrade,GBM tabular,GBM tabular + GNN (hgt),auprc,-0.002653335732764439,-0.012285141809162467,0.00607070316963186,0.532
+upgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (hgt),auroc,-0.0023181007335864035,-0.003949801374703713,-0.0006122515194723707,0.012
+upgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (hgt),auprc,-0.005343823721603025,-0.012441890237062405,0.0010560317822699743,0.108
 upgrade,GBM tabular,GBM tabular + neighbour counts,auroc,0.07355698751692075,0.06468258523167386,0.08209529645500752,0.0
 upgrade,GBM tabular,GBM tabular + neighbour counts,auprc,0.06823594880116707,0.05424676775268103,0.08359398810039421,0.0
+upgrade,GBM tabular,GBM tabular + GNN (all),auroc,0.05953054905643684,0.052524954029712516,0.06710845069241687,0.0
+upgrade,GBM tabular,GBM tabular + GNN (all),auprc,0.030972782929516524,0.019434626099872714,0.041700391048787776,0.0
+upgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (all),auroc,-4.02848952529844e-05,-0.0022320758819357246,0.002407066665568977,0.98
+upgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (all),auprc,-0.002206699339238005,-0.011022099148137565,0.006203228365456217,0.58

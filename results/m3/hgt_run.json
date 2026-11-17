@@ -1,0 +1,24 @@
+{
+  "config": {
+    "device": "cpu",
+    "drop_edge_types": [],
+    "dropout": 0.2,
+    "encoder": "hgt",
+    "epochs": 24,
+    "eval_every": 4,
+    "folds": 5,
+    "heads": 2,
+    "hidden": 64,
+    "layers": 2,
+    "lr": 0.005,
+    "max_genes": null,
+    "patience": 3,
+    "seed": 0,
+    "sup_frac": 0.3,
+    "val_frac": 0.1,
+    "weight_decay": 1e-05
+  },
+  "device": "cpu",
+  "gpu_hours": 0.0,
+  "wall_seconds": 4978.246826171875
+}
