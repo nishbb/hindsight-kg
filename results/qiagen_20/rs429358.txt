@@ -1,0 +1,50 @@
+VARIANT DOSSIER: rs429358
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs429358 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs429358]
+- Earlier identifiers merged into rs429358: rs630496, rs61228756. [dbSNP build 157 rs429358]
+- dbSNP records rs429358 as variant type 'snv' on NC_000019.10 (GRCh38) with 1 alternate allele. [dbSNP build 157 rs429358]
+- Alternate allele 1: NC_000019.10:g.44908684T>C, a single-nucleotide variant (SNV) (T>C in VCF form). [dbSNP build 157 rs429358]
+
+FUNCTION
+- For alternate allele 1 (T>C), Ensembl VEP predicts missense_variant in APOE (ENST00000252486.9:c.388T>C; ENSP00000252486.3:p.Cys130Arg), impact MODERATE. [Ensembl VEP rs429358]
+- Ensembl classifies the variant as 'SNV' with allele string T/C. [Ensembl VEP rs429358]
+
+FREQUENCY
+- In gnomAD v2.1.1 exomes, alternate allele 1 (T>C) has an overall allele frequency of 0.138. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.224, Admixed American 0.103, Ashkenazi Jewish 0.115, East Asian 0.0874, Finnish 0.209, Non-Finnish European 0.15, South Asian 0.1, Other 0.131. [gnomAD v2.1.1 exomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (T>C) has an overall allele frequency of 0.149 (232,864 of 1,567,892 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.22, Admixed American 0.107, Ashkenazi Jewish 0.12, East Asian 0.0978, Finnish 0.192, Non-Finnish European 0.151, South Asian 0.101, Middle Eastern 0.0681, Amish 0.136, Remaining 0.138. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_000041.4(APOE):c.388T>C (p.Cys130Arg) (alternate allele 1) with germline classification 'Conflicting classifications of pathogenicity; other; risk factor' for: Alzheimer disease 2; Primary degenerative dementia of the Alzheimer type, presenile onset; Warfarin response; Alzheimer disease; and 3 more; review status 'criteria provided, conflicting classifications', 18 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000017864 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic, other; 2019-01: other; 2020-01: other, risk factor; 2026-11: Conflicting classifications of pathogenicity; other; risk factor. The classification changed over these releases. [ClinVar VCV000017864 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 5 'Uncertain significance', 3 'Pathogenic', 2 'risk factor', 2 'Likely pathogenic', 2 'Established risk allele', 1 'other', 1 'drug response', 1 'Likely risk allele', 1 'Likely benign', 1 'Benign'. [ClinVar VCV000017864 (2026-11 release)]
+- ClinVar lists NM_000041.4(APOE):c.388= (p.Cys130=) (an allele not matched to the dbSNP allele list) with germline classification 'no classification for the single variant' with no specific condition named; review status 'no classification for the single variant', 0 submitter(s), allele origin 'not applicable'. [ClinVar VCV000694742 (2026-11 release)]
+- No allele of rs429358 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000017864 (2026-11 release); ClinVar VCV000694742 (2026-11 release)]
+
+SOMATIC EVIDENCE
+- Ensembl VEP reports 1 co-located COSMIC somatic mutation record(s) at this position (COSV52985231). [Ensembl VEP rs429358]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 1429 association record(s) for rs429358. [GWAS Catalog rs429358]
+- Genome-wide significant association with c-reactive protein measurement (p = 2e-1953, study GCST009777, effect allele rs429358-T). [GWAS Catalog GCST009777; PMID:31900758]
+- Genome-wide significant association with tubulin-specific chaperone A measurement (p = 2e-1609, study GCST90249769, effect allele rs429358-T). [GWAS Catalog GCST90249769; PMID:34648354]
+- Genome-wide significant association with protein measurement (p = 2e-1534, study GCST90248673, effect allele rs429358-T). [GWAS Catalog GCST90248673; PMID:34648354]
+- Genome-wide significant association with leucine-rich repeat neuronal protein 1 measurement (p = 8e-1394, study GCST90248334, effect allele rs429358-T). [GWAS Catalog GCST90248334; PMID:34648354]
+- Genome-wide significant association with beta-amyloid 1-42 measurement (p = 2e-674, study GCST90726396, effect allele rs429358-C). [GWAS Catalog GCST90726396; PMID:42014397]
+- Genome-wide significant association with free cholesterol in small LDL measurement (p = 1e-582, study GCST90499635, effect allele rs429358-C). [GWAS Catalog GCST90499635; PMID:41044249]
+- rs429358 is associated with 399 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs429358; ClinVar VCV000017864 (2026-11 release); ClinVar VCV000694742 (2026-11 release)]
+
+LITERATURE
+- LitVar2 links 3956 PubMed articles to rs429358. [LitVar2 rs429358]
+- Linked article: "Associations Between APOE Polymorphisms, Neurological Symptoms, and Cognitive Assessments in Long COVID Patients: An Analysis of SNPs rs7412 and rs429358" (Mol Neurobiol, 2025). [PMID:41269415]
+- Linked article: "Common Variants rs429358 and rs7412 in APOE Gene Are Not Associated with POAG in a Saudi Cohort" (Biology (Basel), 2024). [PMID:38275738]
+- Linked article: "Apolipoprotein E (ApoE) ε4 Genotype (ApoE rs429358-ApoE rs7412 Polymorphisms) Is Not Associated with Long COVID Symptoms in Previously Hospitalized COVID-19 Survivors" (Genes (Basel), 2023). [PMID:37510324]
+
+CONFLICTS AND CAVEATS
+- Submitter conflict: ClinVar submissions for NM_000041.4(APOE):c.388T>C (p.Cys130Arg) disagree (5 pathogenic or likely pathogenic, 5 uncertain significance, 2 benign or likely benign); the aggregate classification is 'Conflicting classifications of pathogenicity; other; risk factor'. [ClinVar VCV000017864]
+
+BOTTOM LINE
+- Bottom line: rs429358 in APOE is best described as: low-penetrance risk allele, not a fully penetrant monogenic disease variant. Its strongest reported association is with c-reactive protein measurement. Sources disagree on some points (see conflicts). Confidence: high (1396 genome-wide significant associations across 1412 studies). [ClinVar VCV000017864 (2026-11 release); ClinVar VCV000694742 (2026-11 release); GWAS Catalog rs429358; LitVar2 rs429358]

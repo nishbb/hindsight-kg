@@ -1,0 +1,5431 @@
+{
+ "rsid_query": "rs1801133",
+ "rsid_current": "rs1801133",
+ "as_of": "latest",
+ "generated_at": "2026-11-17T02:13:55.844098+00:00",
+ "genes": {
+  "vep": [
+   "MTHFR"
+  ],
+  "dbsnp": [
+   "MTHFR"
+  ],
+  "clinvar": [
+   "MTHFR"
+  ],
+  "gwas": [
+   "MTHFR"
+  ]
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000001.11:g.11796321G>A",
+   "spdi_deleted": "G",
+   "spdi_inserted": "A",
+   "chrom": "1",
+   "pos": 11796321,
+   "ref": "G",
+   "alt": "A",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "1-11796321-G-A",
+   "vep": {
+    "gene_symbol": "MTHFR",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000376590.9:c.665C>T",
+    "hgvsp": "ENSP00000365775.3:p.Ala222Val",
+    "impact": "MODERATE",
+    "mane_select": "NM_005957.5"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "exomes",
+     "overall": 0.314859,
+     "populations": {
+      "afr": 0.107591,
+      "amr": 0.502717,
+      "asj": 0.456944,
+      "eas": 0.290475,
+      "fin": 0.230734,
+      "nfe": 0.339593,
+      "sas": 0.14512,
+      "oth": 0.329749
+     },
+     "an": 251468,
+     "differentiated": true
+    },
+    "gnomad_v4": {
+     "overall": 0.3182137576943525,
+     "ac": 513548,
+     "an": 1613846,
+     "populations": {
+      "afr": 0.10936708185527966,
+      "amr": 0.4777440650840224,
+      "asj": 0.4600391838940684,
+      "eas": 0.34843555000891424,
+      "fin": 0.23314580403187998,
+      "nfe": 0.33710243097050663,
+      "sas": 0.14887029839931493,
+      "mid": 0.2612999010227648,
+      "ami": 0.4835164835164835,
+      "remaining": 0.307229494031427
+     },
+     "differentiated": true
+    }
+   },
+   "civic": {
+    "id": 258,
+    "name": "A222V",
+    "gene": "MTHFR",
+    "n_molecular_profiles": 1,
+    "n_evidence_items": 3
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000001.11:g.11796321G>C",
+   "spdi_deleted": "G",
+   "spdi_inserted": "C",
+   "chrom": "1",
+   "pos": 11796321,
+   "ref": "G",
+   "alt": "C",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "1-11796321-G-C",
+   "vep": {
+    "gene_symbol": "MTHFR",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000376590.9:c.665C>G",
+    "hgvsp": "ENSP00000365775.3:p.Ala222Gly",
+    "impact": "MODERATE",
+    "mane_select": "NM_005957.5"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    },
+    "gnomad_v4": null
+   }
+  },
+  {
+   "index": 3,
+   "dbsnp_allele_index": 3,
+   "hgvs_g": "NC_000001.11:g.11796321G>T",
+   "spdi_deleted": "G",
+   "spdi_inserted": "T",
+   "chrom": "1",
+   "pos": 11796321,
+   "ref": "G",
+   "alt": "T",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "1-11796321-G-T",
+   "vep": null,
+   "frequency": {
+    "gnomad_v2": null,
+    "gnomad_v4": null
+   }
+  }
+ ],
+ "clinvar": [
+  {
+   "variation_id": "3520",
+   "allele_index": 1,
+   "name": "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+   "classification": "drug response",
+   "review_status": "reviewed by expert panel",
+   "conditions": [
+    "MTHFR THERMOLABILE POLYMORPHISM",
+    "Gastrointestinal stromal tumor",
+    "Neural tube defects, folate-sensitive",
+    "Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+    "methotrexate response - Toxicity",
+    "Thrombophilia due to thrombin defect",
+    "Stroke disorder",
+    "Schizophrenia"
+   ],
+   "origin": "germline;unknown",
+   "n_submitters": "25",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "drug response",
+     "review_status": "reviewed by expert panel",
+     "n_submitters": "8",
+     "last_evaluated": "Feb 28, 2017",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "drug response",
+     "review_status": "reviewed by expert panel",
+     "n_submitters": "8",
+     "last_evaluated": "Nov 22, 2018",
+     "release_date": "2019-01-03"
+    },
+    {
+     "snapshot": "2020-01",
+     "clnsig": "drug response",
+     "review_status": "reviewed by expert panel",
+     "n_submitters": "10",
+     "last_evaluated": "Jun 11, 2019",
+     "release_date": "2020-01-02"
+    },
+    {
+     "snapshot": "2026-11",
+     "clnsig": "drug response",
+     "review_status": "reviewed by expert panel",
+     "n_submitters": "25",
+     "last_evaluated": "Mar 24, 2021",
+     "release_date": "2026-11-16"
+    }
+   ],
+   "submission_classes": {
+    "Uncertain significance": 6,
+    "Benign": 9,
+    "other": 1,
+    "drug response": 1,
+    "Likely pathogenic": 1,
+    "Likely risk allele": 1,
+    "Pathogenic": 3,
+    "Likely benign": 2,
+    "association": 1
+   }
+  }
+ ],
+ "clinvar_release": "2026-11",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": [
+   "cosmic_colocated"
+  ]
+ },
+ "gwas": {
+  "n_associations_total": 50,
+  "n_associations_in_scope": 50,
+  "n_genome_wide_significant": 49,
+  "n_studies": 50,
+  "mapped_genes": [
+   "MTHFR"
+  ],
+  "top_traits": [
+   {
+    "trait": "homocysteine measurement",
+    "p_value": "1e-120",
+    "accession": "GCST90090974",
+    "pmid": "34707639"
+   },
+   {
+    "trait": "amount of folic acid",
+    "p_value": "1e-52",
+    "accession": "GCST90277443",
+    "pmid": "23754956"
+   },
+   {
+    "trait": "X-24337 measurement",
+    "p_value": "9e-43",
+    "accession": "GCST90140587",
+    "pmid": "35347128"
+   },
+   {
+    "trait": "glycine measurement",
+    "p_value": "1e-41",
+    "accession": "GCST90501110",
+    "pmid": "41044249"
+   },
+   {
+    "trait": "mean corpuscular hemoglobin",
+    "p_value": "3e-38",
+    "accession": "GCST90475442",
+    "pmid": "39024449"
+   },
+   {
+    "trait": "erythrocyte volume",
+    "p_value": "3e-31",
+    "accession": "GCST90475466",
+    "pmid": "39024449"
+   }
+  ],
+  "n_distinct_traits_significant": 21,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 8989,
+  "n_in_scope": 8987,
+  "pmids_in_scope": [
+   "42723529",
+   "41614676",
+   "41837469",
+   "42895318",
+   "42992622",
+   "42269452",
+   "42766070",
+   "42799590",
+   "42951177",
+   "42959401",
+   "42969500",
+   "42974495",
+   "42940174",
+   "42930904",
+   "42852313",
+   "42884134",
+   "42940045",
+   "42260034",
+   "42546423",
+   "42673811",
+   "42924326",
+   "42964683",
+   "42938320",
+   "42930520",
+   "42840159",
+   "42881810",
+   "42752660",
+   "42756288",
+   "42792438",
+   "42745328",
+   "42792745",
+   "42760941",
+   "42305577",
+   "42508575",
+   "42713553",
+   "42761979",
+   "42656509",
+   "43004456",
+   "43000460",
+   "42983636",
+   "42566580",
+   "42588145",
+   "42958102",
+   "42269400",
+   "42413940",
+   "42650079",
+   "42919376",
+   "42907676",
+   "42478874",
+   "42506456"
+  ],
+  "top": [
+   "42799590",
+   "42840159",
+   "42058361"
+  ]
+ },
+ "conflicts": [
+  {
+   "type": "conflicting_submitters",
+   "variation_id": "3520",
+   "classes": {
+    "VUS": 6,
+    "BLB": 11,
+    "OTHER": 4,
+    "PLP": 4
+   },
+   "aggregate_conflict": false
+  }
+ ],
+ "bottom_line": {
+  "category": "trait-associated common variant without an established monogenic disease role (ClinVar also records a drug-response annotation)",
+  "confidence": "high",
+  "rationale": "49 genome-wide significant associations across 50 studies",
+  "text": "Bottom line: rs1801133 in MTHFR is best described as: trait-associated common variant without an established monogenic disease role (ClinVar also records a drug-response annotation). Its strongest reported association is with homocysteine measurement. Sources disagree on some points (see conflicts). Confidence: high (49 genome-wide significant associations across 50 studies)."
+ },
+ "notes": [],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs1801133 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs1801133",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs1801133",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs1801133: rs4134713, rs59514310, rs386545618.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs1801133",
+     "path": "dbsnp1_merges.0",
+     "value": "4134713",
+     "label": "dbSNP build 157 rs1801133",
+     "mode": "eq",
+     "shown": "rs4134713",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs1801133",
+     "path": "dbsnp1_merges.1",
+     "value": "59514310",
+     "label": "dbSNP build 157 rs1801133",
+     "mode": "eq",
+     "shown": "rs59514310",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs1801133",
+     "path": "dbsnp1_merges.2",
+     "value": "386545618",
+     "label": "dbSNP build 157 rs1801133",
+     "mode": "eq",
+     "shown": "rs386545618",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs1801133 as variant type 'snv' on NC_000001.11 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs1801133",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs1801133",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs1801133",
+     "path": "seq_id",
+     "value": "NC_000001.11",
+     "label": "dbSNP build 157 rs1801133",
+     "mode": "eq",
+     "shown": "NC_000001.11",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000001.11:g.11796321G>A, a single-nucleotide variant (SNV) (G>A in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs1801133",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000001.11:g.11796321G>A",
+     "label": "dbSNP build 157 rs1801133",
+     "mode": "eq",
+     "shown": "NC_000001.11:g.11796321G>A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000001.11:g.11796321G>C, a single-nucleotide variant (SNV) (G>C in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs1801133",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000001.11:g.11796321G>C",
+     "label": "dbSNP build 157 rs1801133",
+     "mode": "eq",
+     "shown": "NC_000001.11:g.11796321G>C",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 3: NC_000001.11:g.11796321G>T, a single-nucleotide variant (SNV) (G>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs1801133",
+     "path": "alleles.3.hgvs",
+     "value": "NC_000001.11:g.11796321G>T",
+     "label": "dbSNP build 157 rs1801133",
+     "mode": "eq",
+     "shown": "NC_000001.11:g.11796321G>T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 2 (G>C), Ensembl VEP predicts missense_variant in MTHFR (ENST00000376590.9:c.665C>G; ENSP00000365775.3:p.Ala222Gly), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs1801133",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs1801133",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1801133",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "MTHFR",
+     "label": "Ensembl VEP rs1801133",
+     "mode": "eq",
+     "shown": "MTHFR",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1801133",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000376590.9:c.665C>G",
+     "label": "Ensembl VEP rs1801133",
+     "mode": "eq",
+     "shown": "ENST00000376590.9:c.665C>G",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1801133",
+     "path": "transcript_consequences.0.hgvsp",
+     "value": "ENSP00000365775.3:p.Ala222Gly",
+     "label": "Ensembl VEP rs1801133",
+     "mode": "eq",
+     "shown": "ENSP00000365775.3:p.Ala222Gly",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1801133",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs1801133",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (G>A), Ensembl VEP predicts missense_variant in MTHFR (ENST00000376590.9:c.665C>T; ENSP00000365775.3:p.Ala222Val), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs1801133",
+     "path": "transcript_consequences.1.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs1801133",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1801133",
+     "path": "transcript_consequences.1.gene_symbol",
+     "value": "MTHFR",
+     "label": "Ensembl VEP rs1801133",
+     "mode": "eq",
+     "shown": "MTHFR",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1801133",
+     "path": "transcript_consequences.1.hgvsc",
+     "value": "ENST00000376590.9:c.665C>T",
+     "label": "Ensembl VEP rs1801133",
+     "mode": "eq",
+     "shown": "ENST00000376590.9:c.665C>T",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1801133",
+     "path": "transcript_consequences.1.hgvsp",
+     "value": "ENSP00000365775.3:p.Ala222Val",
+     "label": "Ensembl VEP rs1801133",
+     "mode": "eq",
+     "shown": "ENSP00000365775.3:p.Ala222Val",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1801133",
+     "path": "transcript_consequences.1.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs1801133",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string G/A/C.",
+   "citations": [
+    {
+     "record_id": "VEP:rs1801133",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs1801133",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1801133",
+     "path": "allele_string",
+     "value": "G/A/C",
+     "label": "Ensembl VEP rs1801133",
+     "mode": "eq",
+     "shown": "G/A/C",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 exomes, alternate allele 1 (G>A) has an overall allele frequency of 0.315.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs1801133",
+     "path": "hits.1.gnomad_exome.af.af",
+     "value": 0.314859,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.315",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.108, Admixed American 0.503, Ashkenazi Jewish 0.457, East Asian 0.29, Finnish 0.231, Non-Finnish European 0.34, South Asian 0.145, Other 0.33.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs1801133",
+     "path": "hits.1.gnomad_exome.af.af_afr",
+     "value": 0.107591,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.108",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1801133",
+     "path": "hits.1.gnomad_exome.af.af_amr",
+     "value": 0.502717,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.503",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1801133",
+     "path": "hits.1.gnomad_exome.af.af_asj",
+     "value": 0.456944,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.457",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1801133",
+     "path": "hits.1.gnomad_exome.af.af_eas",
+     "value": 0.290475,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.29",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1801133",
+     "path": "hits.1.gnomad_exome.af.af_fin",
+     "value": 0.230734,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.231",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1801133",
+     "path": "hits.1.gnomad_exome.af.af_nfe",
+     "value": 0.339593,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.34",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1801133",
+     "path": "hits.1.gnomad_exome.af.af_sas",
+     "value": 0.14512,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.145",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1801133",
+     "path": "hits.1.gnomad_exome.af.af_oth",
+     "value": 0.329749,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.33",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v2.1.1 exomes): allele 1 frequency ranges from 0.108 in African/African American to 0.503 in Admixed American, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs1801133",
+     "path": "hits.1.gnomad_exome.af.af_afr",
+     "value": 0.107591,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.108",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1801133",
+     "path": "hits.1.gnomad_exome.af.af_amr",
+     "value": 0.502717,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.503",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (G>A) has an overall allele frequency of 0.318 (513,548 of 1,613,846 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-A",
+     "path": "",
+     "value": 0.3182137576943525,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.318",
+     "args": [
+      [
+       "variant.exome.ac",
+       "variant.genome.ac"
+      ],
+      [
+       "variant.exome.an",
+       "variant.genome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.109, Admixed American 0.478, Ashkenazi Jewish 0.46, East Asian 0.348, Finnish 0.233, Non-Finnish European 0.337, South Asian 0.149, Middle Eastern 0.261, Amish 0.484, Remaining 0.307.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-A",
+     "path": "",
+     "value": 0.10936708185527966,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.109",
+     "args": [
+      [
+       "variant.exome.populations.8.ac",
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.exome.populations.8.an",
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-A",
+     "path": "",
+     "value": 0.4777440650840224,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.478",
+     "args": [
+      [
+       "variant.exome.populations.1.ac",
+       "variant.genome.populations.1.ac"
+      ],
+      [
+       "variant.exome.populations.1.an",
+       "variant.genome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-A",
+     "path": "",
+     "value": 0.4600391838940684,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.46",
+     "args": [
+      [
+       "variant.exome.populations.6.ac",
+       "variant.genome.populations.7.ac"
+      ],
+      [
+       "variant.exome.populations.6.an",
+       "variant.genome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-A",
+     "path": "",
+     "value": 0.34843555000891424,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.348",
+     "args": [
+      [
+       "variant.exome.populations.7.ac",
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.exome.populations.7.an",
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-A",
+     "path": "",
+     "value": 0.23314580403187998,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.233",
+     "args": [
+      [
+       "variant.exome.populations.2.ac",
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.exome.populations.2.an",
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-A",
+     "path": "",
+     "value": 0.33710243097050663,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.337",
+     "args": [
+      [
+       "variant.exome.populations.4.ac",
+       "variant.genome.populations.9.ac"
+      ],
+      [
+       "variant.exome.populations.4.an",
+       "variant.genome.populations.9.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-A",
+     "path": "",
+     "value": 0.14887029839931493,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.149",
+     "args": [
+      [
+       "variant.exome.populations.5.ac",
+       "variant.genome.populations.6.ac"
+      ],
+      [
+       "variant.exome.populations.5.an",
+       "variant.genome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-A",
+     "path": "",
+     "value": 0.2612999010227648,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.261",
+     "args": [
+      [
+       "variant.exome.populations.3.ac",
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.exome.populations.3.an",
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-A",
+     "path": "",
+     "value": 0.4835164835164835,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.484",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-A",
+     "path": "",
+     "value": 0.307229494031427,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.307",
+     "args": [
+      [
+       "variant.exome.populations.0.ac",
+       "variant.genome.populations.0.ac"
+      ],
+      [
+       "variant.exome.populations.0.an",
+       "variant.genome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0.109 in African/African American to 0.484 in Amish, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-A",
+     "path": "",
+     "value": 0.10936708185527966,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.109",
+     "args": [
+      [
+       "variant.exome.populations.8.ac",
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.exome.populations.8.an",
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-A",
+     "path": "",
+     "value": 0.4835164835164835,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.484",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 2 (G>C) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs1801133",
+     "path": "hits.0._id",
+     "value": "chr1:g.11856378G>C",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "gnomAD v4.1 has no record for 1-11796321-G-C (alternate allele 2).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-C",
+     "path": "variant",
+     "value": null,
+     "label": "gnomAD v4.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 3 (G>T) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs1801133.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs1801133",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "gnomAD v4.1 has no record for 1-11796321-G-T (alternate allele 3).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:1-11796321-G-T",
+     "path": "variant",
+     "value": null,
+     "label": "gnomAD v4.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_005957.5(MTHFR):c.665C>T (p.Ala222Val) (alternate allele 1) with germline classification 'drug response' for: MTHFR THERMOLABILE POLYMORPHISM; Gastrointestinal stromal tumor; Neural tube defects, folate-sensitive; Homocystinuria due to methylene tetrahydrofolate reductase deficiency; and 4 more; review status 'reviewed by expert panel', 25 submitter(s), allele origin 'germline;unknown'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "eq",
+     "shown": "drug response",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "review_status",
+     "value": "reviewed by expert panel",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "eq",
+     "shown": "reviewed by expert panel",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "name",
+     "value": "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "eq",
+     "shown": "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "n_submitters",
+     "value": "25",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "eq",
+     "shown": "25",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "phenotype_list",
+     "value": "MTHFR THERMOLABILE POLYMORPHISM",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "contains",
+     "shown": "MTHFR THERMOLABILE POLYMORPHISM",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "phenotype_list",
+     "value": "Gastrointestinal stromal tumor",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Gastrointestinal stromal tumor",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "phenotype_list",
+     "value": "Neural tube defects, folate-sensitive",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Neural tube defects, folate-sensitive",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "phenotype_list",
+     "value": "Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "origin",
+     "value": "germline;unknown",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "eq",
+     "shown": "germline;unknown",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: drug response; 2019-01: drug response; 2020-01: drug response; 2026-11: drug response. The classification did not change over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "history.0.clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "eq",
+     "shown": "drug response",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "history.1.clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "eq",
+     "shown": "drug response",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "history.2.clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "eq",
+     "shown": "drug response",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "history.3.clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "eq",
+     "shown": "drug response",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 9 'Benign', 6 'Uncertain significance', 3 'Pathogenic', 2 'Likely benign', 1 'other', 1 'drug response', 1 'Likely pathogenic', 1 'Likely risk allele', 1 'association'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "",
+     "value": 9,
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "9",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Benign"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "",
+     "value": 6,
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "6",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Uncertain significance"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "",
+     "value": 3,
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "3",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Pathogenic"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "",
+     "value": 2,
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "2",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Likely benign"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "",
+     "value": 1,
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "1",
+     "args": [
+      "submissions",
+      "clnsig",
+      "other"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "",
+     "value": 1,
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "1",
+     "args": [
+      "submissions",
+      "clnsig",
+      "drug response"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "",
+     "value": 1,
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "1",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Likely pathogenic"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "",
+     "value": 1,
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "1",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Likely risk allele"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "",
+     "value": 1,
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "1",
+     "args": [
+      "submissions",
+      "clnsig",
+      "association"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Somatic evidence",
+   "text": "Ensembl VEP reports 1 co-located COSMIC somatic mutation record(s) at this position (COSV64876755).",
+   "citations": [
+    {
+     "record_id": "VEP:rs1801133",
+     "path": "cosmic_ids.0",
+     "value": "COSV64876755",
+     "label": "Ensembl VEP rs1801133",
+     "mode": "eq",
+     "shown": "COSV64876755",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Somatic evidence",
+   "text": "CIViC has a curated entry for MTHFR A222V (alternate allele 1) with 3 evidence item(s) across 1 molecular profile(s).",
+   "citations": [
+    {
+     "record_id": "CIViC:MTHFR:A222V",
+     "path": "variants.0.n_evidence_items",
+     "value": 3,
+     "label": "CIViC variant 258",
+     "mode": "eq",
+     "shown": "3",
+     "args": null
+    },
+    {
+     "record_id": "CIViC:MTHFR:A222V",
+     "path": "variants.0.n_molecular_profiles",
+     "value": 1,
+     "label": "CIViC variant 258",
+     "mode": "eq",
+     "shown": "1",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 50 association record(s) for rs1801133.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations.49.association_id",
+     "value": 14036,
+     "label": "GWAS Catalog rs1801133",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with homocysteine measurement (p = 1e-120, study GCST90090974, effect allele rs1801133-T).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations.35.accession_id",
+     "value": "GCST90090974",
+     "label": "GWAS Catalog GCST90090974",
+     "mode": "eq",
+     "shown": "GCST90090974",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations.35.pvalue_exponent",
+     "value": -120,
+     "label": "GWAS Catalog GCST90090974",
+     "mode": "eq",
+     "shown": "1e-120",
+     "args": null
+    },
+    {
+     "record_id": "PMID:34707639",
+     "path": "pmid",
+     "value": "34707639",
+     "label": "PMID:34707639",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with amount of folic acid (p = 1e-52, study GCST90277443, effect allele rs1801133-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations.28.accession_id",
+     "value": "GCST90277443",
+     "label": "GWAS Catalog GCST90277443",
+     "mode": "eq",
+     "shown": "GCST90277443",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations.28.pvalue_exponent",
+     "value": -52,
+     "label": "GWAS Catalog GCST90277443",
+     "mode": "eq",
+     "shown": "1e-52",
+     "args": null
+    },
+    {
+     "record_id": "PMID:23754956",
+     "path": "pmid",
+     "value": "23754956",
+     "label": "PMID:23754956",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with X-24337 measurement (p = 9e-43, study GCST90140587, effect allele rs1801133-A).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations.29.accession_id",
+     "value": "GCST90140587",
+     "label": "GWAS Catalog GCST90140587",
+     "mode": "eq",
+     "shown": "GCST90140587",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations.29.pvalue_exponent",
+     "value": -43,
+     "label": "GWAS Catalog GCST90140587",
+     "mode": "eq",
+     "shown": "9e-43",
+     "args": null
+    },
+    {
+     "record_id": "PMID:35347128",
+     "path": "pmid",
+     "value": "35347128",
+     "label": "PMID:35347128",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with glycine measurement (p = 1e-41, study GCST90501110, effect allele rs1801133-A).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations.16.accession_id",
+     "value": "GCST90501110",
+     "label": "GWAS Catalog GCST90501110",
+     "mode": "eq",
+     "shown": "GCST90501110",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations.16.pvalue_exponent",
+     "value": -41,
+     "label": "GWAS Catalog GCST90501110",
+     "mode": "eq",
+     "shown": "1e-41",
+     "args": null
+    },
+    {
+     "record_id": "PMID:41044249",
+     "path": "pmid",
+     "value": "41044249",
+     "label": "PMID:41044249",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with mean corpuscular hemoglobin (p = 3e-38, study GCST90475442, effect allele rs1801133-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations.5.accession_id",
+     "value": "GCST90475442",
+     "label": "GWAS Catalog GCST90475442",
+     "mode": "eq",
+     "shown": "GCST90475442",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations.5.pvalue_exponent",
+     "value": -38,
+     "label": "GWAS Catalog GCST90475442",
+     "mode": "eq",
+     "shown": "3e-38",
+     "args": null
+    },
+    {
+     "record_id": "PMID:39024449",
+     "path": "pmid",
+     "value": "39024449",
+     "label": "PMID:39024449",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with erythrocyte volume (p = 3e-31, study GCST90475466, effect allele rs1801133-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations.3.accession_id",
+     "value": "GCST90475466",
+     "label": "GWAS Catalog GCST90475466",
+     "mode": "eq",
+     "shown": "GCST90475466",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations.3.pvalue_exponent",
+     "value": -31,
+     "label": "GWAS Catalog GCST90475466",
+     "mode": "eq",
+     "shown": "3e-31",
+     "args": null
+    },
+    {
+     "record_id": "PMID:39024449",
+     "path": "pmid",
+     "value": "39024449",
+     "label": "PMID:39024449",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 8989 PubMed articles to rs1801133.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs1801133",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs1801133",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"The Impacts of MTHFR C677T Variant (rs1801133) on Cardiometabolic Profiles and Early Onset Coronary Artery Disease: A Case-Control Study\" (Genet Test Mol Biomarkers, 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:42799590",
+     "path": "title",
+     "value": "The Impacts of MTHFR C677T Variant (rs1801133) on Cardiometabolic Profiles and Early Onset Coronary Artery Disease: A Case-Control Study.",
+     "label": "PMID:42799590",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:42799590",
+     "path": "journal",
+     "value": "Genet Test Mol Biomarkers",
+     "label": "PMID:42799590",
+     "mode": "eq",
+     "shown": "Genet Test Mol Biomarkers",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"MTHFR (rs1801133) and SERPINE1/PAI-1 (-675 4G/5G) gene polymorphisms and their association with spontaneous abortion and missed pregnancy in an ethnic Uzbek population: a case-control study\" (Front Reprod Health, 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:42840159",
+     "path": "title",
+     "value": "MTHFR (rs1801133) and SERPINE1/PAI-1 (-675 4G/5G) gene polymorphisms and their association with spontaneous abortion and missed pregnancy in an ethnic Uzbek population: a case-control study.",
+     "label": "PMID:42840159",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:42840159",
+     "path": "journal",
+     "value": "Front Reprod Health",
+     "label": "PMID:42840159",
+     "mode": "eq",
+     "shown": "Front Reprod Health",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Allelic and Genotypic Distribution of rs1801133 in the Methylene Tetrahydrofolate Reductase (MTHFR) Gene Among Family Trios Affected by Nonsyndromic Cleft Lip and Palate\" (Cureus, 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:42058361",
+     "path": "title",
+     "value": "Allelic and Genotypic Distribution of rs1801133 in the Methylene Tetrahydrofolate Reductase (MTHFR) Gene Among Family Trios Affected by Nonsyndromic Cleft Lip and Palate.",
+     "label": "PMID:42058361",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:42058361",
+     "path": "journal",
+     "value": "Cureus",
+     "label": "PMID:42058361",
+     "mode": "eq",
+     "shown": "Cureus",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Conflicts and caveats",
+   "text": "Submitter conflict: ClinVar submissions for NM_005957.5(MTHFR):c.665C>T (p.Ala222Val) disagree (4 pathogenic or likely pathogenic, 6 uncertain significance, 11 benign or likely benign); the aggregate classification is 'drug response'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000003520",
+     "mode": "eq",
+     "shown": "drug response",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "submissions",
+     "value": null,
+     "label": "ClinVar VCV000003520",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "No allele of rs1801133 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "rs1801133 is associated with 21 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs1801133",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs1801133 in MTHFR is best described as: trait-associated common variant without an established monogenic disease role (ClinVar also records a drug-response annotation). Its strongest reported association is with homocysteine measurement. Sources disagree on some points (see conflicts). Confidence: high (49 genome-wide significant associations across 50 studies).",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000003520@2026-11",
+     "path": "clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000003520 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs1801133",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs1801133",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs1801133",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs1801133",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs1801133": {
+   "record_id": "dbSNP:rs1801133",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/1801133",
+   "retrieved_at": "2026-11-17T02:10:34.985189+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "1801133",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "4134713",
+     "59514310",
+     "386545618"
+    ],
+    "merged_into": [],
+    "citations": [
+     1522835,
+     7564788,
+     7647779,
+     7741859,
+     8542260,
+     8554053,
+     8554066,
+     8616944,
+     8771990,
+     8826441,
+     8837319,
+     8892013,
+     8903338,
+     8981967,
+     8994411,
+     9133512,
+     9192280,
+     9244205,
+     9341863,
+     9372726,
+     9453374,
+     9545406,
+     9737770,
+     9789068,
+     9798595,
+     9843036,
+     9863598,
+     10196703,
+     10323741,
+     10440833,
+     10732818,
+     10869114,
+     10930360,
+     11121176,
+     11140843,
+     11418485,
+     11781870,
+     11807890,
+     11863127,
+     11888585,
+     11929966,
+     12080391,
+     12095808,
+     12154064,
+     12165282,
+     12196644,
+     12221667,
+     12356947,
+     12383688,
+     12384649,
+     12384833,
+     12387655,
+     12400059,
+     12406076,
+     12428084,
+     12453860,
+     12529699,
+     12560871,
+     12796225,
+     12915598,
+     14647408,
+     14724163,
+     15051775,
+     15054400,
+     15103709,
+     15154859,
+     15173232,
+     15534175,
+     15565101,
+     15704130,
+     15729744,
+     15781665,
+     15806605,
+     15808177,
+     16013960,
+     16019535,
+     16172608,
+     16365871,
+     16402130,
+     16462575,
+     16463153,
+     16470725,
+     16501586,
+     16712703,
+     16800002,
+     16870553,
+     17035141,
+     17107626,
+     17115239,
+     17119116,
+     17180579,
+     17284634,
+     17301261,
+     17323057,
+     17350979,
+     17366837,
+     17436239,
+     17488658,
+     17512587,
+     17543893,
+     17659576,
+     17697348,
+     17712717,
+     17726486,
+     17898028,
+     17903296,
+     18098291,
+     18182569,
+     18191955,
+     18199722,
+     18203168,
+     18221821,
+     18230680,
+     18285546,
+     18339682,
+     18355300,
+     18454680,
+     18458567,
+     18513389,
+     18521744,
+     18538037,
+     18547414,
+     18583979,
+     18603647,
+     18661527,
+     18669903,
+     18672474,
+     18704422,
+     18708404,
+     18708408,
+     18715757,
+     18778477,
+     18787887,
+     18830263,
+     18830724,
+     18842806,
+     18922824,
+     18936436,
+     18987660,
+     18988738,
+     18992148,
+     19016697,
+     19048631,
+     19062539,
+     19064578,
+     19112534,
+     19131662,
+     19159907,
+     19190136,
+     19193698,
+     19263529,
+     19272686,
+     19303062,
+     19307503,
+     19330901,
+     19332210,
+     19336559,
+     19336565,
+     19376481,
+     19421414,
+     19427845,
+     19430483,
+     19442614,
+     19465420,
+     19493349,
+     19525478,
+     19538716,
+     19559392,
+     19587357,
+     19591822,
+     19593234,
+     19648163,
+     19657388,
+     19683694,
+     19693005,
+     19700502,
+     19706843,
+     19706844,
+     19737740,
+     19744961,
+     19746410,
+     19759169,
+     19776626,
+     19808787,
+     19822020,
+     19826048,
+     19841454,
+     19911060,
+     19930673,
+     19936946,
+     20003265,
+     20031128,
+     20031578,
+     20056627,
+     20065319,
+     20078877,
+     20099281,
+     20101025,
+     20106900,
+     20111745,
+     20154341,
+     20159343,
+     20177420,
+     20357209,
+     20417488,
+     20421849,
+     20472929,
+     20523222,
+     20534741,
+     20544798,
+     20549016,
+     20556870,
+     20565774,
+     20600216,
+     20638924,
+     20661822,
+     20664391,
+     20670920,
+     20692813,
+     20718043,
+     20813848,
+     20817226,
+     20847277,
+     20935060,
+     20946434,
+     20960050,
+     20962791,
+     20981351,
+     21036793,
+     21060006,
+     21072184,
+     21125565,
+     21146954,
+     21149552,
+     21178085,
+     21178087,
+     21204206,
+     21210953,
+     21211571,
+     21217836,
+     21219404,
+     21234904,
+     21254359,
+     21255267,
+     21274745,
+     21281325,
+     21282454,
+     21291465,
+     21302350,
+     21338559,
+     21343546,
+     21349258,
+     21362212,
+     21363880,
+     21422408,
+     21429654,
+     21441680,
+     21461582,
+     21467728,
+     21487324,
+     21504842,
+     21514219,
+     21533139,
+     21567207,
+     21597397,
+     21605004,
+     21610500,
+     21613384,
+     21615938,
+     21618410,
+     21644011,
+     21658613,
+     21663380,
+     21688148,
+     21708280,
+     21738487,
+     21747412,
+     21748308,
+     21765920,
+     21819229,
+     21819567,
+     21857382,
+     21857689,
+     21889590,
+     21894447,
+     21897271,
+     21919968,
+     21931346,
+     21935354,
+     21943240,
+     21960995,
+     21975197,
+     21981786,
+     22015309,
+     22021659,
+     22022190,
+     22024018,
+     22024213,
+     22039442,
+     22044028,
+     22045187,
+     22052259,
+     22065928,
+     22087200,
+     22103680,
+     22116453,
+     22143415,
+     22144047,
+     22175024,
+     22183302,
+     22234866,
+     22241680,
+     22277159,
+     22281051,
+     22283972,
+     22290307,
+     22303299,
+     22363213,
+     22371529,
+     22388795,
+     22403240,
+     22424391,
+     22479380,
+     22486600,
+     22495907,
+     22496743,
+     22540831,
+     22552919,
+     22579472,
+     22594584,
+     22606049,
+     22616673,
+     22648968,
+     22649255,
+     22649665,
+     22650965,
+     22655231,
+     22669161,
+     22701696,
+     22706675,
+     22707612,
+     22719222,
+     22747749,
+     22792358,
+     22798153,
+     22807109,
+     22833659,
+     22838948,
+     22839213,
+     22847291,
+     22856873,
+     22879966,
+     22890010,
+     22903727,
+     22911757,
+     22927710,
+     22933837,
+     22957669,
+     22982411,
+     22992668,
+     23036708,
+     23039238,
+     23049672,
+     23054000,
+     23072573,
+     23076983,
+     23089671,
+     23090267,
+     23107763,
+     23109900,
+     23130019,
+     23175176,
+     23186985,
+     23189085,
+     23217001,
+     23226040,
+     23227261,
+     23251581,
+     23274712,
+     23276522,
+     23294634,
+     23333443,
+     23353103,
+     23355348,
+     23401104,
+     23484733,
+     23488607,
+     23490201,
+     23497168,
+     23591986,
+     23648444,
+     23649653,
+     23656756,
+     23661361,
+     23687437,
+     23696881,
+     23759979,
+     23773402,
+     23775025,
+     23776350,
+     23829278,
+     23900311,
+     23916622,
+     23940529,
+     23946381,
+     23951366,
+     23955684,
+     23959649,
+     24014284,
+     24048206,
+     24063603,
+     24103477,
+     24118377,
+     24130171,
+     24136464,
+     24223580,
+     24241962,
+     24274352,
+     24276736,
+     24315498,
+     24340057,
+     24373005,
+     24379141,
+     24380661,
+     24447348,
+     24458267,
+     24472005,
+     24500500,
+     24507187,
+     24521996,
+     24524080,
+     24532086,
+     24613192,
+     24616178,
+     24637499,
+     24687778,
+     24725652,
+     24728915,
+     24801553,
+     24827988,
+     24853127,
+     24901479,
+     24908438,
+     24944790,
+     24959828,
+     24963371,
+     24967362,
+     24967710,
+     24968810,
+     24980946,
+     24990354,
+     24991206,
+     25007187,
+     25020710,
+     25039261,
+     25041994,
+     25052622,
+     25065700,
+     25075036,
+     25079255,
+     25107455,
+     25110414,
+     25110820,
+     25124382,
+     25132748,
+     25155309,
+     25177243,
+     25214541,
+     25218601,
+     25227144,
+     25266489,
+     25270516,
+     25293959,
+     25303299,
+     25303517,
+     25337902,
+     25359311,
+     25361584,
+     25430627,
+     25447701,
+     25525416,
+     25536437,
+     25566964,
+     25604861,
+     25618758,
+     25671679,
+     25691056,
+     25723397,
+     25729430,
+     25744938,
+     25745368,
+     25778468,
+     25793509,
+     25801500,
+     25819021,
+     25887915,
+     25928231,
+     25963333,
+     25980667,
+     25987236,
+     26014925,
+     26022245,
+     26091847,
+     26095803,
+     26111049,
+     26122021,
+     26161693,
+     26196053,
+     26242222,
+     26261166,
+     26303648,
+     26309343,
+     26314492,
+     26314858,
+     26322220,
+     26337056,
+     26354227,
+     26421712,
+     26446360,
+     26451011,
+     26540672,
+     26592644,
+     26599798,
+     26629414,
+     26675774,
+     26689687,
+     26690118,
+     26728177,
+     26791477,
+     26801900,
+     26857559,
+     26862484,
+     26872812,
+     26878010,
+     26889207,
+     26901752,
+     26914443,
+     26926881,
+     26967244,
+     26985771,
+     27015811,
+     27018927,
+     27097558,
+     27104192,
+     27217270,
+     27232852,
+     27233255,
+     27233804,
+     27237471,
+     27277665,
+     27342765,
+     27348238,
+     27386434,
+     27399166,
+     27404801,
+     27415837,
+     27427275,
+     27446285,
+     27452984,
+     27473058,
+     27489588,
+     27528366,
+     27533339,
+     27541142,
+     27583843,
+     27608007,
+     27616475,
+     27618021,
+     27636225,
+     27653456,
+     27676277,
+     27677362,
+     27690091,
+     27726107,
+     27730450,
+     27751863,
+     27755385,
+     27783031,
+     27790938,
+     27803768,
+     27808252,
+     27819322,
+     27824246,
+     27824919,
+     27827401,
+     27840191,
+     27860207,
+     27871254,
+     27996344,
+     28044213,
+     28046029,
+     28061365,
+     28086795,
+     28133617,
+     28192769,
+     28211809,
+     28215593,
+     28250422,
+     28253266,
+     28266606,
+     28283271,
+     28299500,
+     28317214,
+     28348449,
+     28363185,
+     28373541,
+     28398708,
+     28405167,
+     28409162,
+     28488549,
+     28500484,
+     28514598,
+     28572465,
+     28587068,
+     28591039,
+     28652652,
+     28691890,
+     28717179,
+     28745575,
+     28758112,
+     28798405,
+     28822116,
+     28889200,
+     28890888,
+     28927418,
+     28943344,
+     28956850,
+     28968218,
+     28969008,
+     28985766,
+     29039833,
+     29089462,
+     29125573,
+     29190926,
+     29193749,
+     29289372,
+     29299150,
+     29325775,
+     29331485,
+     29340069,
+     29340220,
+     29343135,
+     29348398,
+     29370017,
+     29392422,
+     29398535,
+     29407547,
+     29421402,
+     29439678,
+     29446255,
+     29544444,
+     29555401,
+     29566195,
+     29574679,
+     29589488,
+     29599316,
+     29600437,
+     29624150,
+     29627528,
+     29644956,
+     29662106,
+     29722849,
+     29732742,
+     29804062,
+     29845757,
+     29953918,
+     29967663,
+     29972410,
+     30001659,
+     30083112,
+     30084051,
+     30115070,
+     30120883,
+     30131971,
+     30139066,
+     30165906,
+     30182779,
+     30213564,
+     30214429,
+     30217759,
+     30237581,
+     30249004,
+     30295198,
+     30333252,
+     30337837,
+     30339177,
+     30362613,
+     30397262,
+     30409984,
+     30465841,
+     30466296,
+     30477909,
+     30542483,
+     30546311,
+     30571812,
+     30581350,
+     30587867,
+     30591868,
+     30592864,
+     30607769,
+     30612060,
+     30709423,
+     30781715,
+     30793520,
+     30796269,
+     30843750,
+     30851082,
+     30867013,
+     30884202,
+     30899306,
+     30917367,
+     31005971,
+     31033224,
+     31044529,
+     31090375,
+     31115963,
+     31145465,
+     31146742,
+     31184621,
+     31208817,
+     31231424,
+     31242814,
+     31282757,
+     31330573,
+     31354331,
+     31370354,
+     31395900,
+     31418317,
+     31443485,
+     31444033,
+     31470081,
+     31494266,
+     31507426,
+     31549463,
+     31601346,
+     31646966,
+     31661627,
+     31663297,
+     31663440,
+     31663447,
+     31694048,
+     31815282,
+     31817852,
+     31818908,
+     31832443,
+     31870219,
+     31920317,
+     31929371,
+     31962182,
+     32003411,
+     32010931,
+     32077136,
+     32098547,
+     32117640,
+     32124929,
+     32135505,
+     32162036,
+     32192442,
+     32197412,
+     32257953,
+     32264844,
+     32267380,
+     32295184,
+     32351067,
+     32410296,
+     32418960,
+     32426102,
+     32440179,
+     32460399,
+     32471241,
+     32498709,
+     32558492,
+     32572074,
+     32612964,
+     32625092,
+     32639550,
+     32682401,
+     32695297,
+     32727753,
+     32728337,
+     32775330,
+     32804129,
+     33013017,
+     33019481,
+     33035787,
+     33060392,
+     33096746,
+     33123371,
+     33147056,
+     33153024,
+     33170161,
+     33177615,
+     33195260,
+     33219596,
+     33219830,
+     33247557,
+     33262486,
+     33304912,
+     33357202,
+     33427622,
+     33455465,
+     33461193,
+     33507988,
+     33519226,
+     33574311,
+     33639682,
+     33679874,
+     33709025,
+     33727852,
+     33763108,
+     33772217,
+     33794950,
+     33841551,
+     33867713,
+     33907183,
+     33917487,
+     33924903,
+     33974709,
+     34032987,
+     34050449,
+     34065323,
+     34090432,
+     34093281,
+     34113268,
+     34126931,
+     34131278,
+     34137427,
+     34169999,
+     34177787,
+     34276231,
+     34289004,
+     34308116,
+     34331561,
+     34346513,
+     34346702,
+     34356593,
+     34371203,
+     34371949,
+     34418235,
+     34448443,
+     34453125,
+     34540891,
+     34580600,
+     34614057,
+     34616152,
+     34616421,
+     34640639,
+     34644732,
+     34701451,
+     34752683,
+     34817242,
+     34837895,
+     34847989,
+     34895107,
+     34899823,
+     34958284,
+     34975123,
+     34976820,
+     34979665,
+     34987987,
+     35001080,
+     35004279,
+     35158880,
+     35207533,
+     35214086,
+     35264229,
+     35284002,
+     35305471,
+     35332781,
+     35335935,
+     35346052,
+     35351696,
+     35360528,
+     35387194,
+     35393538,
+     35395775,
+     35456437,
+     35463099,
+     35499926,
+     35582139,
+     35633528,
+     35633991,
+     35666819,
+     35668704,
+     35673506,
+     35680906,
+     35685475,
+     35691911,
+     35700037,
+     35743738,
+     35758957,
+     35870951,
+     35912186,
+     35917096,
+     35938016,
+     35947209,
+     35956194,
+     35961941,
+     35999432,
+     36032496,
+     36126820,
+     36158751,
+     36160803,
+     36164570,
+     36169739,
+     36193932,
+     36232598,
+     36363550,
+     36364857,
+     36375523,
+     36479490,
+     36536332,
+     36776603,
+     36919686,
+     36980706,
+     37108492,
+     37256234,
+     37372997,
+     37564453,
+     37633908,
+     37845732
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000001.11",
+    "alleles": [
+     {
+      "hgvs": "NC_000001.11:g.11796321=",
+      "position0": 11796320,
+      "deleted": "G",
+      "inserted": "G"
+     },
+     {
+      "hgvs": "NC_000001.11:g.11796321G>A",
+      "position0": 11796320,
+      "deleted": "G",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000001.11:g.11796321G>C",
+      "position0": 11796320,
+      "deleted": "G",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000001.11:g.11796321G>T",
+      "position0": 11796320,
+      "deleted": "G",
+      "inserted": "T"
+     }
+    ],
+    "genes": [
+     "MTHFR"
+    ]
+   }
+  },
+  "VEP:rs1801133": {
+   "record_id": "VEP:rs1801133",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs1801133",
+   "retrieved_at": "2026-11-17T02:10:42.257058+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs1801133",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "1",
+    "start": 11796321,
+    "end": 11796321,
+    "allele_string": "G/A/C",
+    "variant_class": "SNV",
+    "most_severe_consequence": "missense_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "C",
+      "gene_symbol": "MTHFR",
+      "gene_id": "ENSG00000177000",
+      "transcript_id": "ENST00000376590",
+      "mane_select": "NM_005957.5",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000376590.9:c.665C>G",
+      "hgvsp": "ENSP00000365775.3:p.Ala222Gly",
+      "impact": "MODERATE",
+      "amino_acids": "A/G",
+      "protein_start": 222,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "A",
+      "gene_symbol": "MTHFR",
+      "gene_id": "ENSG00000177000",
+      "transcript_id": "ENST00000376590",
+      "mane_select": "NM_005957.5",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000376590.9:c.665C>T",
+      "hgvsp": "ENSP00000365775.3:p.Ala222Val",
+      "impact": "MODERATE",
+      "amino_acids": "A/V",
+      "protein_start": 222,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [
+     "COSV64876755"
+    ],
+    "colocated_somatic": true
+   }
+  },
+  "gnomAD-v2.1.1:rs1801133": {
+   "record_id": "gnomAD-v2.1.1:rs1801133",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:10:42.361708+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr1:g.11856378G>C",
+      "_score": 16.629953,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 23.6
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "C",
+       "ref": "G",
+       "vartype": "snv"
+      },
+      "vcf": {
+       "alt": "C",
+       "position": "11856378",
+       "ref": "G"
+      }
+     },
+     {
+      "_id": "chr1:g.11856378G>A",
+      "_score": 16.629953,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 25.0
+      },
+      "civic": {
+       "_license": "http://bit.ly/2FqS871",
+       "feature": {
+        "deprecated": false,
+        "flagged": false,
+        "id": 3672,
+        "link": "/features/3672",
+        "name": "MTHFR"
+       },
+       "id": 258,
+       "molecularProfiles": {
+        "evidenceItems": [
+         {
+          "description": "Patients with the wild type (C/C) MTHFR gene are 2.91 times (95% CI: [1.23, 6.89]) more likely to have a positive response to neoadjuvant CRT and  3.25 times more likely not to experience relapse (95% CI: [1.37, 7.72]) than patients with the heterozygous  MTHFR [rs1801133 (C>T)] mutation or  the homzygous (T/T).",
+          "disease": {
+           "diseaseAliases": [
+            "Carcinoma Of Rectum",
+            "Carcinoma Of The Rectum",
+            "Malignant Neoplasm Of Rectum",
+            "Malignant Rectal Tumor",
+            "Malignant Rectum Tumor",
+            "Malignant Tumor Of Rectum",
+            "Rectal Cancer"
+           ],
+           "diseaseUrl": "https://www.disease-ontology.org/?id=DOID:1993",
+           "displayName": "Rectum Cancer",
+           "doid": "1993",
+           "id": 579,
+           "link": "/diseases/579",
+           "myDiseaseInfo": {
+            "doDef": "A colorectal cancer that is located_in the rectum.",
+            "icd10": "C20",
+            "mesh": "D012004",
+            "mondoId": "MONDO:0006519",
+            "ncit": [
+             "C7418",
+             "C9382"
+            ]
+           },
+           "name": "Rectum Cancer"
+          },
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "B",
+          "evidenceRating": 4,
+          "evidenceType": "PREDICTIVE",
+          "flagged": false,
+          "id": 1757,
+          "molecularProfile": {
+           "id": 254
+          },
+          "name": "EID1757",
+          "significance": "SENSITIVITYRESPONSE",
+          "source": {
+           "abstract": "An important determinant of the pathogenesis and prognosis of various diseases is inherited genetic variation. Single-nucleotide polymorphisms (SNPs), variations at a single base position, have been identified in both protein-coding and noncoding DNA sequences, but the vast majority of millions of those variants are far from being functionally understood. Here we show that a common variant in the gene MTHFR [rs1801133 (C>T)] not only influences response to neoadjuvant chemoradiotherapy in patients with rectal cancer, but it also influences recurrence of the disease itself. More specifically, patients with the homozygous ancestral (wild type) genotype (C/C) were 2.91 times more likely (291% increased benefit) to respond to neoadjuvant chemoradiotherapy {95% CI: [1.23, 6.89]; P=0.0150} and 3.25 times more likely (325% increased benefit) not to experience recurrence of the disease {95% CI: [1.37, 7.72]; P=0.0079} than patients with either the heterozygous (C/T) or the homozygous mutation (T/T) genotype. These results identify MTHFR as an important genetic marker and open up new, pharmacogenomic strategies in the treatment and management of rectal cancer.",
+           "authorString": "Jason B Nikas, Janet T Lee, Elizabeth D Maring, Jill Washechek-Aletto, Donna Felmlee-Devine, Ruth A Johnson, Thomas C Smyrk, Patrick S Tawadros, Lisa A Boardman, Clifford J Steer",
+           "citation": "Nikas et al., 2015",
+           "citationId": "26693073",
+           "id": 1221,
+           "journal": "Am J Cancer Res",
+           "link": "/sources/1221",
+           "name": "PubMed: Nikas et al., 2015",
+           "openAccess": true,
+           "pmcId": "PMC4656744",
+           "publicationDate": "2015",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/26693073",
+           "title": "A common variant in MTHFR influences response to chemoradiotherapy and recurrence of rectal cancer."
+          },
+          "therapies": [
+           {
+            "deprecated": false,
+            "id": 420,
+            "link": "/therapies/420",
+            "name": "Fluorouracil"
+           }
+          ],
+          "variantOrigin": "COMMON_GERMLINE"
+         },
+         {
+          "description": "The MTHFR C667T variant was associated with significantly lower relapse-free survival and overall survival in stomach cancer patients treated with 5-Fluorouracil-based therapies. 116 Chinese patients with histologically confirmed gastric cancer were used in this study, and all patients had radical surgery before treatment.",
+          "disease": {
+           "diseaseAliases": [
+            "Gastric Cancer",
+            "Gastric Neoplasm"
+           ],
+           "diseaseUrl": "https://www.disease-ontology.org/?id=DOID:10534",
+           "displayName": "Stomach Cancer",
+           "doid": "10534",
+           "id": 21,
+           "link": "/diseases/21",
+           "myDiseaseInfo": {
+            "doDef": "A gastrointestinal system cancer that is located_in the stomach.",
+            "icd10": "[\"C16\", \"C16.2\", \"C16.5\", \"C16.6\"]",
+            "mesh": "D013274",
+            "mondoId": "MONDO:0001056",
+            "ncit": [
+             "C3387",
+             "C9331"
+            ]
+           },
+           "name": "Stomach Cancer"
+          },
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "B",
+          "evidenceRating": 3,
+          "evidenceType": "PREDICTIVE",
+          "flagged": false,
+          "id": 669,
+          "molecularProfile": {
+           "id": 254
+          },
+          "name": "EID669",
+          "significance": "SENSITIVITYRESPONSE",
+          "source": {
+           "abstract": "The aim of this study was to investigate the association of the thymidylate synthase (TS) and methylenetetrahydrofolate reductase (MTHFR) polymorphisms with the clinical outcomes of gastric cancer patients treated with 5-FU-based adjuvant chemotherapy.One-hundred and sixteen patients with gastric cancer were treated with 5-FU-based adjuvant chemotherapy. The TS (a 28-bp tandem repeat polymorphism in the TS enhancer region (TSER) and a 6 bp deletion/insertion polymorphism in the 3'-untranslated region) and MTHFR C677T polymorphisms were determined in blood samples from those patients using PCR and PCR-LDR (ligation detection reaction) method, respectively.The overall survival (OS) in patients with the TS ins6/ins6 genotype was significantly shorter than those in patients with the del6/del6 (P = 0.017) and ins6/del6 (P = 0.022) genotype. The relapse-free survival (RFS) and OS in patients with the MTHFR C/C genotype were significantly worse than those in patients with the T/T or C/T genotype (P = 0.043 and 0.040, respectively). Cox multivariate analysis also showed that patients with the TS ins6/ins6 genotype have worse OS than patients with the T/T or C/T genotype (HR = 2.437, P = 0.041), and the MTHFR C/C genotype was associated with shorter RFS (HR = 1.723, P = 0.031) and OS (HR = 1.681, P = 0.056). No significant association was found between the TSER polymorphism and the clinical outcomes (P > 0.05).The polymorphisms of TS 3'-UTR ins6/del6 and MTHFR C677T appear to be potential prognostic factors in gastric cancer patients treated with 5-FU-based adjuvant chemotherapy, which may allow identification of gastric cancer patients who will benefit from 5-FU chemotherapy.",
+           "authorString": "Zhao-Hui Huang, Dong Hua, Li-Hua Li",
+           "citation": "Huang et al., 2009",
+           "citationId": "18704422",
+           "id": 424,
+           "journal": "Cancer Chemother Pharmacol",
+           "link": "/sources/424",
+           "name": "PubMed: Huang et al., 2009",
+           "openAccess": false,
+           "publicationDate": "2009-4",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/18704422",
+           "title": "The polymorphisms of TS and MTHFR predict survival of gastric cancer patients treated with fluorouracil-based adjuvant chemotherapy in Chinese population."
+          },
+          "therapies": [
+           {
+            "deprecated": false,
+            "id": 420,
+            "link": "/therapies/420",
+            "name": "Fluorouracil"
+           }
+          ],
+          "variantOrigin": "COMMON_GERMLINE"
+         },
+         {
+          "description": "Study of 1817 PCa cases and 2026 cancer free controls to clarify the association of (MTHFR)c.677C>T (and c.1298A>C ) of pancreatic cancer risk in a population of Han Chinese in Shanghai. Results indicated a lower risk for the heterozygous CT genotype and homozygous TT genotype carriers of (MTHFR)c.677C>T which had a significantly lower risk of developing pancreatic cancer compared with the wild-type CC genotype.",
+          "disease": {
+           "diseaseAliases": [
+            "Ca Body Of Pancreas",
+            "Ca Head Of Pancreas",
+            "Ca Tail Of Pancreas",
+            "Malignant Neoplasm Of Body Of Pancreas",
+            "Malignant Neoplasm Of Head Of Pancreas",
+            "Malignant Neoplasm Of Tail Of Pancreas",
+            "Pancreas Neoplasm",
+            "Pancreatic Neoplasm",
+            "Pancreatic Tumor"
+           ],
+           "diseaseUrl": "https://www.disease-ontology.org/?id=DOID:1793",
+           "displayName": "Pancreatic Cancer",
+           "doid": "1793",
+           "id": 556,
+           "link": "/diseases/556",
+           "myDiseaseInfo": {
+            "doDef": "An endocrine gland cancer located_in the pancreas.",
+            "icd10": "[\"C25.0\", \"C25.1\", \"C25.2\"]",
+            "mesh": "D010190",
+            "mondoId": "MONDO:0009831",
+            "ncit": [
+             "C3305"
+            ]
+           },
+           "name": "Pancreatic Cancer"
+          },
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "B",
+          "evidenceRating": 4,
+          "evidenceType": "PREDISPOSING",
+          "flagged": false,
+          "id": 1756,
+          "molecularProfile": {
+           "id": 254
+          },
+          "name": "EID1756",
+          "significance": "PROTECTIVENESS",
+          "source": {
+           "abstract": "Methylenetetrahydrofolate reductase (MTHFR) c.677C>T and c.1298A>C variants were known to be associated with prostate cancer (PCa) risk with conflicting results, because of MTHFR and nutrient status interaction in the prostate development. In this large-scale, hospital-based, case-control study of 1817 PCa cases and 2026 cancer-free controls, we aimed to clarify the association between these two MTHFR variants and PCa risk in Shanghai and to explore the underlying molecular mechanisms. We found that both the heterozygous CT (adjusted OR\u2009=\u20090.78, 95% CI: 0.67-0.92) and the homozygous TT genotypes (adjusted OR\u2009=\u20090.68, 95% CI: 0.55-0.83) of c.677C>T were associated with a significantly decreased risk of PCa compared with homozygous wild-type CC genotype, respectively, using multivariate logistic regression. Furthermore, we confirmed that MTHFR c.677T allele was related to an increased serum homocysteine level in the Han Chinese population in Shanghai. In the cultured PCa cell lines, we observed that MTHFR c.677T could elevate the cellular homocysteine level and cause DNA damage, thus increasing cell apoptosis and finally inhibiting cell proliferation. In conclusion, MTHFR c.677T was a protective factor of PCa risk in ethnic Han Chinese males by inducing DNA damage and cell apoptosis.",
+           "authorString": "Jun-Long Wu, Shu-Xian Zhou, Rui Zhao, Xuan Zhang, Kun Chang, Cheng-Yuan Gu, Hua-Lei Gan, Bo Dai, Yao Zhu, Hai-Liang Zhang, Guo-Hai Shi, Yuan-Yuan Qu, Jian-Yuan Zhao, Ding-Wei Ye",
+           "citation": "Wu et al., 2016",
+           "citationId": "27819322",
+           "id": 1218,
+           "journal": "Sci Rep",
+           "link": "/sources/1218",
+           "name": "PubMed: Wu et al., 2016",
+           "openAccess": true,
+           "pmcId": "PMC5098242",
+           "publicationDate": "2016-11-7",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/27819322",
+           "title": "MTHFR c.677C>T Inhibits Cell Proliferation and Decreases Prostate Cancer Susceptibility in the Han Chinese Population in Shanghai."
+          },
+          "variantOrigin": "COMMON_GERMLINE"
+         }
+        ],
+        "id": 254,
+        "molecularProfileAliases": [
+         "RS1801133",
+         "C677T",
+         "ALA222VAL"
+        ],
+        "molecularProfileScore": 55.0,
+        "name": "MTHFR A222V",
+        "variants": [
+         {
+          "id": 258,
+          "link": "/variants/258",
+          "name": "A222V"
+         }
+        ]
+       },
+       "name": "A222V"
+      },
+      "cosmic": {
+       "_license": "http://bit.ly/2VMkY7R",
+       "alt": "T",
+       "chrom": "1",
+       "cosmic_id": "COSM146404",
+       "hg19": {
+        "end": 11856378,
+        "start": 11856378
+       },
+       "mut_freq": 33.33,
+       "mut_nt": "C>T",
+       "ref": "C",
+       "tumor_site": "stomach"
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "A",
+       "ref": "G",
+       "vartype": "snv"
+      },
+      "gnomad_exome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.314859,
+        "af_afr": 0.107591,
+        "af_afr_female": 0.107944,
+        "af_afr_male": 0.107016,
+        "af_amr": 0.502717,
+        "af_amr_female": 0.505279,
+        "af_amr_male": 0.499092,
+        "af_asj": 0.456944,
+        "af_asj_female": 0.456531,
+        "af_asj_male": 0.457336,
+        "af_eas": 0.290475,
+        "af_eas_female": 0.290094,
+        "af_eas_jpn": 0.322368,
+        "af_eas_kor": 0.437664,
+        "af_eas_male": 0.290867,
+        "af_eas_oea": 0.251179,
+        "af_female": 0.322277,
+        "af_fin": 0.230734,
+        "af_fin_female": 0.226957,
+        "af_fin_male": 0.234209,
+        "af_male": 0.308551,
+        "af_nfe": 0.339593,
+        "af_nfe_bgr": 0.353713,
+        "af_nfe_est": 0.334711,
+        "af_nfe_female": 0.332243,
+        "af_nfe_male": 0.345388,
+        "af_nfe_nwe": 0.335797,
+        "af_nfe_onf": 0.340422,
+        "af_nfe_seu": 0.452356,
+        "af_nfe_swe": 0.293717,
+        "af_oth": 0.329749,
+        "af_oth_female": 0.324795,
+        "af_oth_male": 0.334268,
+        "af_sas": 0.14512,
+        "af_sas_female": 0.133086,
+        "af_sas_male": 0.149055
+       },
+       "alt": "A",
+       "an": {
+        "an": 251468,
+        "an_afr": 16256,
+        "an_afr_female": 10070,
+        "an_afr_male": 6186,
+        "an_amr": 34592,
+        "an_amr_female": 20270,
+        "an_amr_male": 14322,
+        "an_asj": 10080,
+        "an_asj_female": 4900,
+        "an_asj_male": 5180,
+        "an_eas": 18394,
+        "an_eas_female": 9328,
+        "an_eas_jpn": 152,
+        "an_eas_kor": 3818,
+        "an_eas_male": 9066,
+        "an_eas_oea": 14424,
+        "an_female": 115562,
+        "an_fin": 21644,
+        "an_fin_female": 10372,
+        "an_fin_male": 11272,
+        "an_male": 135906,
+        "an_nfe": 113748,
+        "an_nfe_bgr": 2666,
+        "an_nfe_est": 242,
+        "an_nfe_female": 50150,
+        "an_nfe_male": 63598,
+        "an_nfe_nwe": 42216,
+        "an_nfe_onf": 30988,
+        "an_nfe_seu": 11502,
+        "an_nfe_swe": 26134,
+        "an_oth": 6138,
+        "an_oth_female": 2928,
+        "an_oth_male": 3210,
+        "an_sas": 30616,
+        "an_sas_female": 7544,
+        "an_sas_male": 23072
+       },
+       "ref": "G"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.257281,
+        "af_afr": 0.110741,
+        "af_afr_female": 0.112228,
+        "af_afr_male": 0.109654,
+        "af_amr": 0.46934,
+        "af_amr_female": 0.468599,
+        "af_amr_male": 0.470046,
+        "af_asj": 0.462069,
+        "af_asj_female": 0.5125,
+        "af_asj_male": 0.442857,
+        "af_eas": 0.288387,
+        "af_eas_female": 0.260377,
+        "af_eas_male": 0.302941,
+        "af_female": 0.260588,
+        "af_fin": 0.231855,
+        "af_fin_female": 0.231853,
+        "af_fin_male": 0.231857,
+        "af_male": 0.254647,
+        "af_nfe": 0.325977,
+        "af_nfe_est": 0.291539,
+        "af_nfe_female": 0.3323,
+        "af_nfe_male": 0.320988,
+        "af_nfe_nwe": 0.337809,
+        "af_nfe_onf": 0.350564,
+        "af_nfe_seu": 0.358491,
+        "af_oth": 0.278189,
+        "af_oth_female": 0.273214,
+        "af_oth_male": 0.283525
+       },
+       "alt": "A",
+       "an": {
+        "an": 31316,
+        "an_afr": 8714,
+        "an_afr_female": 3680,
+        "an_afr_male": 5034,
+        "an_amr": 848,
+        "an_amr_female": 414,
+        "an_amr_male": 434,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1550,
+        "an_eas_female": 530,
+        "an_eas_male": 1020,
+        "an_female": 13884,
+        "an_fin": 3472,
+        "an_fin_female": 1846,
+        "an_fin_male": 1626,
+        "an_male": 17432,
+        "an_nfe": 15360,
+        "an_nfe_est": 4562,
+        "an_nfe_female": 6774,
+        "an_nfe_male": 8586,
+        "an_nfe_nwe": 8564,
+        "an_nfe_onf": 2128,
+        "an_nfe_seu": 106,
+        "an_oth": 1082,
+        "an_oth_female": 560,
+        "an_oth_male": 522
+       },
+       "ref": "G"
+      },
+      "vcf": {
+       "alt": "A",
+       "position": "11856378",
+       "ref": "G"
+      }
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:1-11796321-G-A": {
+   "record_id": "gnomAD-v4.1:1-11796321-G-A",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:10:42.478500+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "1-11796321-G-A",
+     "rsids": [
+      "rs1801133"
+     ],
+     "exome": {
+      "ac": 471698,
+      "an": 1461758,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 18572,
+        "an": 60386
+       },
+       {
+        "id": "amr",
+        "ac": 21885,
+        "an": 44724
+       },
+       {
+        "id": "fin",
+        "ac": 12425,
+        "an": 53398
+       },
+       {
+        "id": "mid",
+        "ac": 1499,
+        "an": 5768
+       },
+       {
+        "id": "nfe",
+        "ac": 374815,
+        "an": 1111916
+       },
+       {
+        "id": "sas",
+        "ac": 12847,
+        "an": 86258
+       },
+       {
+        "id": "asj",
+        "ac": 12021,
+        "an": 26134
+       },
+       {
+        "id": "eas",
+        "ac": 14074,
+        "an": 39698
+       },
+       {
+        "id": "afr",
+        "ac": 3560,
+        "an": 33476
+       }
+      ]
+     },
+     "genome": {
+      "ac": 41850,
+      "an": 152088,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 628,
+        "an": 2108
+       },
+       {
+        "id": "amr",
+        "ac": 6772,
+        "an": 15260
+       },
+       {
+        "id": "fin",
+        "ac": 2494,
+        "an": 10592
+       },
+       {
+        "id": "ami",
+        "ac": 440,
+        "an": 910
+       },
+       {
+        "id": "eas",
+        "ac": 1561,
+        "an": 5174
+       },
+       {
+        "id": "mid",
+        "ac": 85,
+        "an": 294
+       },
+       {
+        "id": "sas",
+        "ac": 713,
+        "an": 4828
+       },
+       {
+        "id": "asj",
+        "ac": 1598,
+        "an": 3470
+       },
+       {
+        "id": "afr",
+        "ac": 4641,
+        "an": 41510
+       },
+       {
+        "id": "nfe",
+        "ac": 22918,
+        "an": 67942
+       }
+      ]
+     }
+    },
+    "errors": null
+   }
+  },
+  "gnomAD-v4.1:1-11796321-G-C": {
+   "record_id": "gnomAD-v4.1:1-11796321-G-C",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:10:43.433503+00:00",
+   "status": 200,
+   "data": {
+    "variant": null,
+    "errors": [
+     {
+      "message": "Variant not found"
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:1-11796321-G-T": {
+   "record_id": "gnomAD-v4.1:1-11796321-G-T",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:10:44.433331+00:00",
+   "status": 200,
+   "data": {
+    "variant": null,
+    "errors": [
+     {
+      "message": "Variant not found"
+     }
+    ]
+   }
+  },
+  "ClinVar:VCV000003520@2026-11": {
+   "record_id": "ClinVar:VCV000003520@2026-11",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3520/",
+   "retrieved_at": "2026-11-17T02:13:55.497281+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "18559",
+    "type": "single nucleotide variant",
+    "name": "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+    "gene_symbol": "MTHFR",
+    "clnsig": "drug response",
+    "last_evaluated": "Mar 24, 2021",
+    "rcv": "RCV000003697|RCV000153516|RCV000144921|RCV000259890|RCV000428048|RCV001030751|RCV001847567|RCV004584309|RCV005419857|RCV006707576|RCV007091491",
+    "phenotype_list": "MTHFR THERMOLABILE POLYMORPHISM|not provided|Gastrointestinal stromal tumor|Neural tube defects, folate-sensitive|not specified|Homocystinuria due to methylene tetrahydrofolate reductase deficiency|methotrexate response - Toxicity|See cases|Thrombophilia due to thrombin defect|Stroke disorder|Schizophrenia;Thrombophilia due to thrombin defect;Neural tube defects, folate-sensitive;Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+    "origin": "germline;unknown",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "1",
+    "start": "11796321",
+    "ref": "na",
+    "alt": "na",
+    "review_status": "reviewed by expert panel",
+    "n_submitters": "25",
+    "variation_id": "3520",
+    "ref_vcf": "G",
+    "alt_vcf": "A",
+    "pos_vcf": "11796321",
+    "somatic_clinical_impact": "-",
+    "oncogenicity": "-",
+    "rsid": "rs1801133",
+    "submissions": [
+     {
+      "variation_id": "3520",
+      "clnsig": "Uncertain significance",
+      "date_last_evaluated": "Jan 01, 2024",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:9",
+      "submitter": "CeGaT Center for Human Genetics Tuebingen",
+      "scv": "SCV001147149.39",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Dec 07, 2019",
+      "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Natera, Inc.",
+      "scv": "SCV001463167.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Benign",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0036341:Schizophrenia;C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency;C1866558:Neural tube defects, folate-sensitive;C3160733:Thrombophilia due to thrombin defect",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Juno Genomics, Hangzhou Juno Genomics, Inc",
+      "scv": "SCV008100467.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Uncertain significance",
+      "date_last_evaluated": "Dec 30, 2017",
+      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "curation",
+      "origin_counts": "unknown:na",
+      "submitter": "Department of Genetics, Sultan Qaboos University Hospital",
+      "scv": "SCV000891532.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "other",
+      "date_last_evaluated": "Jan 13, 2017",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:244",
+      "submitter": "Eurofins Ntd Llc (ga)",
+      "scv": "SCV000203040.8",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Benign",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "CN169374:not specified",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
+      "scv": "SCV001549379.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Nov 26, 2024",
+      "reported_phenotype": "CN169374:not specified",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Blueprint Genetics",
+      "scv": "SCV007918130.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "drug response",
+      "date_last_evaluated": "Mar 24, 2021",
+      "reported_phenotype": "C0568062:methotrexate response - Toxicity",
+      "review_status": "reviewed by expert panel",
+      "collection_method": "curation",
+      "origin_counts": "germline:na",
+      "submitter": "ClinPGx",
+      "scv": "SCV002031239.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Likely pathogenic",
+      "date_last_evaluated": "Jun 20, 2025",
+      "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Variantyx, Inc.",
+      "scv": "SCV007593630.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Likely risk allele",
+      "date_last_evaluated": "Jun 08, 2026",
+      "reported_phenotype": "C0038454:Stroke disorder",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "case-control",
+      "origin_counts": "germline:189",
+      "submitter": "Department of Clinical Medical Laboratory, The Second Hospital of Lanzhou University",
+      "scv": "SCV007601567.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Sep 29, 2023",
+      "reported_phenotype": "C1856059:MTHFR THERMOLABILE POLYMORPHISM",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "OMIM",
+      "scv": "SCV000023860.7",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 17, 2019",
+      "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Centre for Mendelian Genomics, University Medical Centre Ljubljana",
+      "scv": "SCV001366606.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Feb 04, 2026",
+      "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
+      "scv": "SCV001733273.6",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C1856059:MTHFR THERMOLABILE POLYMORPHISM",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "FirmaLab, FirmaLab",
+      "scv": "SCV000106043.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Dec 16, 2019",
+      "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Myriad Genetics, Inc.",
+      "scv": "SCV001194043.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Likely benign",
+      "date_last_evaluated": "May 28, 2019",
+      "reported_phenotype": "C1866558:Neural tube defects, folate-sensitive",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Mendelics",
+      "scv": "SCV001135171.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Uncertain significance",
+      "date_last_evaluated": "Jan 06, 2022",
+      "reported_phenotype": "na:See cases",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:1",
+      "submitter": "Centre of Medical Genetics, University Hospital Muenster",
+      "scv": "SCV002506425.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Uncertain significance",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0238198:Gastrointestinal stromal tumor",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "case-control",
+      "origin_counts": "germline:76",
+      "submitter": "Department of Pharmacy and Biotechnology, University of Bologna",
+      "scv": "SCV000187678.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Likely benign",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C1866558:Neural tube defects, folate-sensitive",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "reference population",
+      "origin_counts": "unknown:na",
+      "submitter": "iDNA Genomics",
+      "scv": "SCV002538647.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Uncertain significance",
+      "date_last_evaluated": "Apr 23, 2020",
+      "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
+      "origin_counts": "germline:na",
+      "submitter": "Neurology Department, Peking University First Hospital",
+      "scv": "SCV001423141.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Apr 25, 2016",
+      "reported_phenotype": "CN169374:not specified",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "GeneDx",
+      "scv": "SCV000519504.4",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Uncertain significance",
+      "date_last_evaluated": "Jul 16, 2025",
+      "reported_phenotype": "C1866558:Neural tube defects, folate-sensitive",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "3billion",
+      "scv": "SCV005904943.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Benign",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "CN169374:not specified",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Genome Diagnostics Laboratory, University Medical Center Utrecht",
+      "scv": "SCV001930296.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Benign",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "CN169374:not specified",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Clinical Genetics, Academic Medical Center",
+      "scv": "SCV001917884.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "association",
+      "date_last_evaluated": "Nov 22, 2024",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "ARUP Laboratories, Molecular Genetics and Genomics, ARUP Laboratories",
+      "scv": "SCV000884146.8",
+      "snapshot": "2026-11"
+     }
+    ],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "drug response",
+      "review_status": "reviewed by expert panel",
+      "n_submitters": "8",
+      "last_evaluated": "Feb 28, 2017",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "drug response",
+      "review_status": "reviewed by expert panel",
+      "n_submitters": "8",
+      "last_evaluated": "Nov 22, 2018",
+      "release_date": "2019-01-03"
+     },
+     {
+      "snapshot": "2020-01",
+      "clnsig": "drug response",
+      "review_status": "reviewed by expert panel",
+      "n_submitters": "10",
+      "last_evaluated": "Jun 11, 2019",
+      "release_date": "2020-01-02"
+     },
+     {
+      "snapshot": "2026-11",
+      "clnsig": "drug response",
+      "review_status": "reviewed by expert panel",
+      "n_submitters": "25",
+      "last_evaluated": "Mar 24, 2021",
+      "release_date": "2026-11-16"
+     }
+    ]
+   }
+  },
+  "CIViC:MTHFR:A222V": {
+   "record_id": "CIViC:MTHFR:A222V",
+   "source": "CIViC",
+   "source_version": "CIViC GraphQL API",
+   "url": "https://civicdb.org/api/graphql",
+   "retrieved_at": "2026-11-17T02:10:44.727796+00:00",
+   "status": 200,
+   "data": {
+    "variants": [
+     {
+      "id": 258,
+      "name": "A222V",
+      "gene": "MTHFR",
+      "n_molecular_profiles": 1,
+      "n_evidence_items": 3
+     }
+    ]
+   }
+  },
+  "CIViC:MTHFR:A222G": {
+   "record_id": "CIViC:MTHFR:A222G",
+   "source": "CIViC",
+   "source_version": "CIViC GraphQL API",
+   "url": "https://civicdb.org/api/graphql",
+   "retrieved_at": "2026-11-17T02:10:45.549879+00:00",
+   "status": 200,
+   "data": {
+    "variants": []
+   }
+  },
+  "GWAS:rs1801133": {
+   "record_id": "GWAS:rs1801133",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:10:50.036322+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 228365407,
+      "accession_id": "GCST90475474",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 7e-22,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -22,
+      "or_value": null,
+      "beta": "0.02741 unit decrease",
+      "risk_frequency": "0.6604",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003460",
+        "efo_trait": "erythrocyte volume"
+       }
+      ],
+      "reported_trait": [
+       "mean corpuscular volume (MCV, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228342631,
+      "accession_id": "GCST90475470",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-30,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -30,
+      "or_value": null,
+      "beta": "0.03226 unit decrease",
+      "risk_frequency": "0.6604",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003460",
+        "efo_trait": "erythrocyte volume"
+       }
+      ],
+      "reported_trait": [
+       "mean corpuscular volume (MCV, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 1,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228327841,
+      "accession_id": "GCST90475446",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-34,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -34,
+      "or_value": null,
+      "beta": "0.03547 unit decrease",
+      "risk_frequency": "0.6604",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004527",
+        "efo_trait": "mean corpuscular hemoglobin"
+       }
+      ],
+      "reported_trait": [
+       "mean corpuscular hemoglobin (MCH, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 2,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228317027,
+      "accession_id": "GCST90475466",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3.0000000000000003e-31,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -31,
+      "or_value": null,
+      "beta": "0.03281 unit decrease",
+      "risk_frequency": "0.6604",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003460",
+        "efo_trait": "erythrocyte volume"
+       }
+      ],
+      "reported_trait": [
+       "mean corpuscular volume (MCV, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 3,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228305916,
+      "accession_id": "GCST90479963",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3e-11,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.2882 unit decrease",
+      "risk_frequency": "0.7091",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0001860",
+        "efo_trait": "folic acid deficiency anemia"
+       }
+      ],
+      "reported_trait": [
+       "Folate-deficiency anemia (PheCode 281.13)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 4,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228302513,
+      "accession_id": "GCST90475442",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3e-38,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -38,
+      "or_value": null,
+      "beta": "0.03699 unit decrease",
+      "risk_frequency": "0.6604",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004527",
+        "efo_trait": "mean corpuscular hemoglobin"
+       }
+      ],
+      "reported_trait": [
+       "mean corpuscular hemoglobin (MCH, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 5,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228266603,
+      "accession_id": "GCST90475450",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-24,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -24,
+      "or_value": null,
+      "beta": "0.02976 unit decrease",
+      "risk_frequency": "0.6604",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004527",
+        "efo_trait": "mean corpuscular hemoglobin"
+       }
+      ],
+      "reported_trait": [
+       "mean corpuscular hemoglobin (MCH, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 6,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228241554,
+      "accession_id": "GCST90479677",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 8e-16,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -16,
+      "or_value": null,
+      "beta": "0.027 unit decrease",
+      "risk_frequency": "0.7014",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003460",
+        "efo_trait": "erythrocyte volume"
+       }
+      ],
+      "reported_trait": [
+       "mean corpuscular volume (MCV, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 7,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228237443,
+      "accession_id": "GCST90479676",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 7e-20,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -20,
+      "or_value": null,
+      "beta": "0.03102 unit decrease",
+      "risk_frequency": "0.7014",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003460",
+        "efo_trait": "erythrocyte volume"
+       }
+      ],
+      "reported_trait": [
+       "mean corpuscular volume (MCV, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 8,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228233416,
+      "accession_id": "GCST90479675",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-20,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -20,
+      "or_value": null,
+      "beta": "0.03126 unit decrease",
+      "risk_frequency": "0.7015",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003460",
+        "efo_trait": "erythrocyte volume"
+       }
+      ],
+      "reported_trait": [
+       "mean corpuscular volume (MCV, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 9,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228229153,
+      "accession_id": "GCST90479674",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 9.000000000000001e-17,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -17,
+      "or_value": null,
+      "beta": "0.02785 unit decrease",
+      "risk_frequency": "0.7014",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004527",
+        "efo_trait": "mean corpuscular hemoglobin"
+       }
+      ],
+      "reported_trait": [
+       "mean corpuscular hemoglobin (MCH, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 10,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228223658,
+      "accession_id": "GCST90479673",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-21,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -21,
+      "or_value": null,
+      "beta": "0.03325 unit decrease",
+      "risk_frequency": "0.7014",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004527",
+        "efo_trait": "mean corpuscular hemoglobin"
+       }
+      ],
+      "reported_trait": [
+       "mean corpuscular hemoglobin (MCH, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 11,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228215847,
+      "accession_id": "GCST90479672",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-24,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -24,
+      "or_value": null,
+      "beta": "0.03511 unit decrease",
+      "risk_frequency": "0.7014",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004527",
+        "efo_trait": "mean corpuscular hemoglobin"
+       }
+      ],
+      "reported_trait": [
+       "mean corpuscular hemoglobin (MCH, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 12,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 227729658,
+      "accession_id": "GCST91000632",
+      "pubmed_id": "42706308",
+      "first_author": "Fujimoto R",
+      "p_value": 5e-09,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -9,
+      "or_value": "0.93",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005301",
+        "efo_trait": "multiple sclerosis"
+       }
+      ],
+      "reported_trait": [
+       "Multiple sclerosis"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 13,
+      "_pubdate": "2026-09-01"
+     },
+     {
+      "association_id": 227728966,
+      "accession_id": "GCST91000630",
+      "pubmed_id": "42706308",
+      "first_author": "Fujimoto R",
+      "p_value": 1e-09,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -9,
+      "or_value": "0.93",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005301",
+        "efo_trait": "multiple sclerosis"
+       }
+      ],
+      "reported_trait": [
+       "Multiple sclerosis"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 14,
+      "_pubdate": "2026-09-01"
+     },
+     {
+      "association_id": 222845103,
+      "accession_id": "GCST90448609",
+      "pubmed_id": "39414775",
+      "first_author": "Jacobs BM",
+      "p_value": 8e-38,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -38,
+      "or_value": null,
+      "beta": "0.172 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_1001015",
+        "efo_trait": "amount of folic acid"
+       }
+      ],
+      "reported_trait": [
+       "Folate levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 15,
+      "_pubdate": "2024-10-16"
+     },
+     {
+      "association_id": 215461927,
+      "accession_id": "GCST90501110",
+      "pubmed_id": "41044249",
+      "first_author": "Zoodsma M",
+      "p_value": 1e-41,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -41,
+      "or_value": null,
+      "beta": "0.03 mmol/L increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009767",
+        "efo_trait": "glycine measurement"
+       }
+      ],
+      "reported_trait": [
+       "Glycine levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 16,
+      "_pubdate": "2025-10-01"
+     },
+     {
+      "association_id": 191866367,
+      "accession_id": "GCST90662900",
+      "pubmed_id": "40436827",
+      "first_author": "Jee YH",
+      "p_value": 1e-12,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.0133 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004570",
+        "efo_trait": "bilirubin measurement"
+       }
+      ],
+      "reported_trait": [
+       "Total bilirubin levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 17,
+      "_pubdate": "2025-05-28"
+     },
+     {
+      "association_id": 188078232,
+      "accession_id": "GCST90468088",
+      "pubmed_id": "39789286",
+      "first_author": "Loya H",
+      "p_value": 5.0000000000000004e-30,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -30,
+      "or_value": null,
+      "beta": "0.022952639 unit increase",
+      "risk_frequency": "0.3352177",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0010701",
+        "efo_trait": "mean reticulocyte volume"
+       }
+      ],
+      "reported_trait": [
+       "Mean reticulocyte volume (UKB data field 30260)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 18,
+      "_pubdate": "2025-02-01"
+     },
+     {
+      "association_id": 165104411,
+      "accession_id": "GCST90503747",
+      "pubmed_id": "38711861",
+      "first_author": "Abar L",
+      "p_value": 3.0000000000000004e-09,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.02367 unit decrease",
+      "risk_frequency": "0.671384",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009767",
+        "efo_trait": "glycine measurement"
+       }
+      ],
+      "reported_trait": [
+       "Glycine levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 19,
+      "_pubdate": "2024-05-06"
+     },
+     {
+      "association_id": 162649876,
+      "accession_id": "GCST90449057",
+      "pubmed_id": "39537608",
+      "first_author": "Koskeridis F",
+      "p_value": 7e-24,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -24,
+      "or_value": null,
+      "beta": "0.018055383 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0006336",
+        "efo_trait": "diastolic blood pressure"
+       }
+      ],
+      "reported_trait": [
+       "Diastolic blood pressure (MTAG)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 20,
+      "_pubdate": "2024-11-13"
+     },
+     {
+      "association_id": 162643997,
+      "accession_id": "GCST90449056",
+      "pubmed_id": "39537608",
+      "first_author": "Koskeridis F",
+      "p_value": 5.000000000000001e-15,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -15,
+      "or_value": null,
+      "beta": "0.014128549 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0006335",
+        "efo_trait": "systolic blood pressure"
+       }
+      ],
+      "reported_trait": [
+       "Systolic blood pressure (MTAG)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 21,
+      "_pubdate": "2024-11-13"
+     },
+     {
+      "association_id": 134087602,
+      "accession_id": "GCST90429184",
+      "pubmed_id": "38626723",
+      "first_author": "Jeon S",
+      "p_value": 2e-21,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -21,
+      "or_value": null,
+      "beta": "0.296488 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004578",
+        "efo_trait": "homocysteine measurement"
+       }
+      ],
+      "reported_trait": [
+       "Homocysteine levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 22,
+      "_pubdate": "2024-01-02"
+     },
+     {
+      "association_id": 134073515,
+      "accession_id": "GCST90335165",
+      "pubmed_id": "39048560",
+      "first_author": "Pozarickij A",
+      "p_value": 4e-11,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.3621 unit increase",
+      "risk_frequency": "0.56",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0006336",
+        "efo_trait": "diastolic blood pressure"
+       }
+      ],
+      "reported_trait": [
+       "Diastolic blood pressure (BMI adjusted)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 23,
+      "_pubdate": "2024-07-24"
+     },
+     {
+      "association_id": 134073157,
+      "accession_id": "GCST90335164",
+      "pubmed_id": "39048560",
+      "first_author": "Pozarickij A",
+      "p_value": 2e-12,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.3986 unit increase",
+      "risk_frequency": "0.56",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0006336",
+        "efo_trait": "diastolic blood pressure"
+       }
+      ],
+      "reported_trait": [
+       "Diastolic blood pressure (BMI unadjusted)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 24,
+      "_pubdate": "2024-07-24"
+     },
+     {
+      "association_id": 129422187,
+      "accession_id": "GCST90319530",
+      "pubmed_id": "37479695",
+      "first_author": "Cheng S",
+      "p_value": 6e-69,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -69,
+      "or_value": null,
+      "beta": "0.26 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004578",
+        "efo_trait": "homocysteine measurement"
+       }
+      ],
+      "reported_trait": [
+       "Homocysteine levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 25,
+      "_pubdate": "2023-07-21"
+     },
+     {
+      "association_id": 129422134,
+      "accession_id": "GCST90319528",
+      "pubmed_id": "37479695",
+      "first_author": "Cheng S",
+      "p_value": 6e-14,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -14,
+      "or_value": null,
+      "beta": "0.12 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_1001015",
+        "efo_trait": "amount of folic acid"
+       }
+      ],
+      "reported_trait": [
+       "Vitamin B9 levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 26,
+      "_pubdate": "2023-07-21"
+     },
+     {
+      "association_id": 119911569,
+      "accession_id": "GCST90200629",
+      "pubmed_id": "36635386",
+      "first_author": "Chen Y",
+      "p_value": 7.000000000000001e-32,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -32,
+      "or_value": null,
+      "beta": "0.190416 unit decrease",
+      "risk_frequency": "0.34098",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0800875",
+        "efo_trait": "X-24337 measurement"
+       }
+      ],
+      "reported_trait": [
+       "X-24337 levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 27,
+      "_pubdate": "2023-01-01"
+     },
+     {
+      "association_id": 106202453,
+      "accession_id": "GCST90277443",
+      "pubmed_id": "23754956",
+      "first_author": "Grarup N",
+      "p_value": 1e-52,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -52,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "0.668",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_1001015",
+        "efo_trait": "amount of folic acid"
+       }
+      ],
+      "reported_trait": [
+       "Serum folate levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 28,
+      "_pubdate": "2013-06-01"
+     },
+     {
+      "association_id": 101172576,
+      "accession_id": "GCST90140587",
+      "pubmed_id": "35347128",
+      "first_author": "Yin X",
+      "p_value": 9e-43,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -43,
+      "or_value": null,
+      "beta": "0.3 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0800875",
+        "efo_trait": "X-24337 measurement"
+       }
+      ],
+      "reported_trait": [
+       "X-24337 levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 29,
+      "_pubdate": "2022-03-28"
+     },
+     {
+      "association_id": 100318743,
+      "accession_id": "GCST90134364",
+      "pubmed_id": "35888728",
+      "first_author": "Konig E",
+      "p_value": 3.0000000000000004e-08,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "0.113 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009774",
+        "efo_trait": "serine measurement"
+       }
+      ],
+      "reported_trait": [
+       "Serine levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 30,
+      "_pubdate": "2022-06-29"
+     },
+     {
+      "association_id": 97985979,
+      "accession_id": "GCST90100220",
+      "pubmed_id": "35710981",
+      "first_author": "Liu H",
+      "p_value": 3.0000000000000004e-08,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "5.572 z score decrease",
+      "risk_frequency": "0.3333",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003747",
+        "efo_trait": "glomerular filtration rate"
+       }
+      ],
+      "reported_trait": [
+       "Estimated glomerular filtration rate (creatinine)"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 31,
+      "_pubdate": "2022-07-01"
+     },
+     {
+      "association_id": 97055757,
+      "accession_id": "GCST90103799",
+      "pubmed_id": "35512355",
+      "first_author": "Jung S",
+      "p_value": 3.0000000000000004e-08,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -8,
+      "or_value": "0.81",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005124",
+        "efo_trait": "leprosy"
+       }
+      ],
+      "reported_trait": [
+       "Leprosy"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 32,
+      "_pubdate": "2022-11-10"
+     },
+     {
+      "association_id": 96222525,
+      "accession_id": "GCST90092820",
+      "pubmed_id": "35213538",
+      "first_author": "Richardson TG",
+      "p_value": 2e-08,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "0.0231927 unit decrease",
+      "risk_frequency": "0.662601",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009767",
+        "efo_trait": "glycine measurement"
+       }
+      ],
+      "reported_trait": [
+       "Glycine levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 33,
+      "_pubdate": "2022-02-25"
+     },
+     {
+      "association_id": 95034963,
+      "accession_id": "GCST90095131",
+      "pubmed_id": "34910505",
+      "first_author": "van der Meer D",
+      "p_value": 2e-08,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "5.59 z score increase",
+      "risk_frequency": "0.36",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004840",
+        "efo_trait": "cortical thickness"
+       }
+      ],
+      "reported_trait": [
+       "Vertex-wise cortical thickness"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 34,
+      "_pubdate": "2021-12-17"
+     },
+     {
+      "association_id": 93405495,
+      "accession_id": "GCST90090974",
+      "pubmed_id": "34707639",
+      "first_author": "Liu T",
+      "p_value": 1e-120,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -120,
+      "or_value": null,
+      "beta": "0.45 \u03bcmol/l increase",
+      "risk_frequency": "0.58",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004578",
+        "efo_trait": "homocysteine measurement"
+       }
+      ],
+      "reported_trait": [
+       "Homocysteine levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 35,
+      "_pubdate": "2021-10-11"
+     },
+     {
+      "association_id": 91265729,
+      "accession_id": "GCST90026598",
+      "pubmed_id": "34050765",
+      "first_author": "Zhang L",
+      "p_value": 9e-08,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "0.07 unit increase",
+      "risk_frequency": "0.34",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004704",
+        "efo_trait": "age at menopause"
+       }
+      ],
+      "reported_trait": [
+       "Age at menopause"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 36,
+      "_pubdate": "2021-08-18"
+     },
+     {
+      "association_id": 91265341,
+      "accession_id": "GCST90026597",
+      "pubmed_id": "34050765",
+      "first_author": "Zhang L",
+      "p_value": 3.0000000000000004e-08,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "0.08 unit increase",
+      "risk_frequency": "0.34",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004704",
+        "efo_trait": "age at menopause"
+       }
+      ],
+      "reported_trait": [
+       "Age at menopause"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 37,
+      "_pubdate": "2021-08-18"
+     },
+     {
+      "association_id": 90736897,
+      "accession_id": "GCST90020026",
+      "pubmed_id": "34021172",
+      "first_author": "Christakoudi S",
+      "p_value": 8e-09,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.0177964 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0008039",
+        "efo_trait": "BMI-adjusted hip circumference"
+       }
+      ],
+      "reported_trait": [
+       "Hip index"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 38,
+      "_pubdate": "2021-05-21"
+     },
+     {
+      "association_id": 80663137,
+      "accession_id": "GCST012368",
+      "pubmed_id": "33907183",
+      "first_author": "Guo S",
+      "p_value": 4e-15,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -15,
+      "or_value": "1.346",
+      "beta": "-",
+      "risk_frequency": "0.45",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005090",
+        "efo_trait": "schizophrenia"
+       }
+      ],
+      "reported_trait": [
+       "Early-onset schizophrenia"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 39,
+      "_pubdate": "2021-04-27"
+     },
+     {
+      "association_id": 64411303,
+      "accession_id": "GCST90002396",
+      "pubmed_id": "32888494",
+      "first_author": "Vuckovic D",
+      "p_value": 1e-12,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.018249054 unit increase",
+      "risk_frequency": "0.33642",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0010701",
+        "efo_trait": "mean reticulocyte volume"
+       }
+      ],
+      "reported_trait": [
+       "Mean reticulocyte volume"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 40,
+      "_pubdate": "2020-09-03"
+     },
+     {
+      "association_id": 55598986,
+      "accession_id": "GCST009597",
+      "pubmed_id": "31604244",
+      "first_author": "International Multiple Sclerosis Genetics Consortium",
+      "p_value": 2e-15,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -15,
+      "or_value": "1.107052",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005301",
+        "efo_trait": "multiple sclerosis"
+       }
+      ],
+      "reported_trait": [
+       "Multiple sclerosis"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 41,
+      "_pubdate": "2019-09-27"
+     },
+     {
+      "association_id": 49910257,
+      "accession_id": "GCST009171",
+      "pubmed_id": "23696881",
+      "first_author": "Wood AR",
+      "p_value": 2e-11,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004578",
+        "efo_trait": "homocysteine measurement"
+       }
+      ],
+      "reported_trait": [
+       "Homocysteine levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 42,
+      "_pubdate": "2013-05-16"
+     },
+     {
+      "association_id": 36456822,
+      "accession_id": "GCST007074",
+      "pubmed_id": "30595370",
+      "first_author": "Kichaev G",
+      "p_value": 1e-23,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -23,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009188",
+        "efo_trait": "red cell distribution width"
+       }
+      ],
+      "reported_trait": [
+       "Red cell distribution width"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 43,
+      "_pubdate": "2019-01-03"
+     },
+     {
+      "association_id": 35667363,
+      "accession_id": "GCST007578",
+      "pubmed_id": "30339177",
+      "first_author": "Shane B",
+      "p_value": 1e-19,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -19,
+      "or_value": null,
+      "beta": "0.03087 \u03bcmol/L increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004578",
+        "efo_trait": "homocysteine measurement"
+       }
+      ],
+      "reported_trait": [
+       "Plasma homocysteine levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 44,
+      "_pubdate": "2018-12-01"
+     },
+     {
+      "association_id": 35667348,
+      "accession_id": "GCST007579",
+      "pubmed_id": "30339177",
+      "first_author": "Shane B",
+      "p_value": 3e-11,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.04932 nmol/L decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_1001015",
+        "efo_trait": "amount of folic acid"
+       }
+      ],
+      "reported_trait": [
+       "Serum folate levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 45,
+      "_pubdate": "2018-12-01"
+     },
+     {
+      "association_id": 33551150,
+      "accession_id": "GCST006137",
+      "pubmed_id": "29953918",
+      "first_author": "Deng C",
+      "p_value": 4e-19,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -19,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_1001015",
+        "efo_trait": "amount of folic acid"
+       }
+      ],
+      "reported_trait": [
+       "Serum folate levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 46,
+      "_pubdate": "2018-10-20"
+     },
+     {
+      "association_id": 27289252,
+      "accession_id": "GCST006054",
+      "pubmed_id": "28373541",
+      "first_author": "Yang J",
+      "p_value": 6.000000000000001e-09,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "0.333",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009105",
+        "efo_trait": "high altitude adaptation"
+       }
+      ],
+      "reported_trait": [
+       "High altitude adaptation"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 47,
+      "_pubdate": "2017-04-18"
+     },
+     {
+      "association_id": 34417,
+      "accession_id": "GCST002087",
+      "pubmed_id": "23824729",
+      "first_author": "van Meurs JB",
+      "p_value": 4e-104,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -104,
+      "or_value": null,
+      "beta": "0.1583 unit increase",
+      "risk_frequency": "0.34",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004578",
+        "efo_trait": "homocysteine measurement"
+       }
+      ],
+      "reported_trait": [
+       "Homocysteine levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 48,
+      "_pubdate": "2013-09-01"
+     },
+     {
+      "association_id": 14036,
+      "accession_id": "GCST000367",
+      "pubmed_id": "20031578",
+      "first_author": "Pare G",
+      "p_value": 8e-35,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -35,
+      "or_value": null,
+      "beta": "0.05 unit increase",
+      "risk_frequency": "0.33",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004578",
+        "efo_trait": "homocysteine measurement"
+       }
+      ],
+      "reported_trait": [
+       "Homocysteine levels"
+      ],
+      "mapped_genes": [
+       "MTHFR"
+      ],
+      "snp_effect_allele": [
+       "rs1801133-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 49,
+      "_pubdate": "2009-04-01"
+     }
+    ]
+   }
+  },
+  "PMID:34707639": {
+   "record_id": "PMID:34707639",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34707639/",
+   "retrieved_at": "2026-11-17T02:10:50.331974+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "34707639",
+    "title": "Exome-Wide Association Study Identifies East Asian-Specific Missense Variant MTHFR C136T Influencing Homocysteine Levels in Chinese Populations RH: ExWAS of tHCY in a Chinese Population.",
+    "journal": "Front Genet",
+    "pubdate": "2021",
+    "sortpubdate": "2021-10-11"
+   }
+  },
+  "PMID:23754956": {
+   "record_id": "PMID:23754956",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23754956/",
+   "retrieved_at": "2026-11-17T02:10:50.331974+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "23754956",
+    "title": "Genetic architecture of vitamin B12 and folate levels uncovered applying deeply sequenced large datasets.",
+    "journal": "PLoS Genet",
+    "pubdate": "2013 Jun",
+    "sortpubdate": "2013-06-01"
+   }
+  },
+  "PMID:35347128": {
+   "record_id": "PMID:35347128",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35347128/",
+   "retrieved_at": "2026-11-17T02:10:50.331974+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "35347128",
+    "title": "Genome-wide association studies of metabolites in Finnish men identify disease-relevant loci.",
+    "journal": "Nat Commun",
+    "pubdate": "2022 Mar 28",
+    "sortpubdate": "2022-03-28"
+   }
+  },
+  "PMID:41044249": {
+   "record_id": "PMID:41044249",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41044249/",
+   "retrieved_at": "2026-11-17T02:10:50.331974+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "41044249",
+    "title": "A genetic map of human metabolism across the allele frequency spectrum.",
+    "journal": "Nat Genet",
+    "pubdate": "2025 Oct",
+    "sortpubdate": "2025-10-01"
+   }
+  },
+  "PMID:39024449": {
+   "record_id": "PMID:39024449",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39024449/",
+   "retrieved_at": "2026-11-17T02:10:50.331974+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "39024449",
+    "title": "Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.",
+    "journal": "Science",
+    "pubdate": "2024 Jul 19",
+    "sortpubdate": "2024-07-19"
+   }
+  },
+  "LitVar2:rs1801133": {
+   "record_id": "LitVar2:rs1801133",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs1801133%23%23/publications",
+   "retrieved_at": "2026-11-17T02:10:50.458784+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     34144260,
+     28082187,
+     36536332,
+     19398669,
+     35979279,
+     11337744,
+     29130768,
+     28377107,
+     34308116,
+     10911766,
+     18317335,
+     25722905,
+     29786139,
+     14581802,
+     19005482,
+     32145452,
+     18612269,
+     25690156,
+     17334320,
+     21823541,
+     40894523,
+     37355582,
+     19759169,
+     35651649,
+     19857476,
+     31293513,
+     36569162,
+     12877902,
+     15794259,
+     16580699,
+     23429214,
+     28508256,
+     15564899,
+     25264227,
+     22872164,
+     39682152,
+     12615788,
+     35225709,
+     16941173,
+     35094650,
+     31817852,
+     29851773,
+     36831356,
+     33489023,
+     21921926,
+     23363719,
+     36470918,
+     33128585,
+     21987465,
+     21987466
+    ],
+    "n_pmids": 8989
+   }
+  },
+  "PMID:42799590": {
+   "record_id": "PMID:42799590",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42799590/",
+   "retrieved_at": "2026-11-17T02:12:00.975433+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "42799590",
+    "title": "The Impacts of MTHFR C677T Variant (rs1801133) on Cardiometabolic Profiles and Early Onset Coronary Artery Disease: A Case-Control Study.",
+    "journal": "Genet Test Mol Biomarkers",
+    "pubdate": "2026 Nov",
+    "sortpubdate": "2026-11-01",
+    "abstract": "The MTHFR C677T polymorphism (rs1801133) is a well-documented genetic variant in cardiovascular research, yet its mechanistic role in early onset coronary artery disease (EOCAD) remains poorly characterized in East Asian populations. This study aimed to explore whether rs1801133 modulates EOCAD risk by altering proatherogenic cardiometabolic traits in the Chinese Han population. This rigorous case-control study enrolled 128 patients with angiographically confirmed EOCAD and 100 age- and sex-matched controls with nonobstructive coronary arteries. Standard enzymatic assays were used to detect blood lipid profiles and one-carbon metabolic markers. We constructed prediction models integrating conventional cardiometabolic risk factors with rs1801133. Model incremental performance was evaluated via integrated discrimination improvement (IDI) and net reclassification improvement (NRI), with 1000 bootstrap replicates for internal validation. The rs1801133 T allele was significantly associated with higher EOCAD susceptibility. Compared with CC carriers, TT genotype individuals exhibited adverse cardiometabolic profiles, including elevated low-density lipoprotein cholesterol (LDL-C) (3.22 \u00b1 0.48 vs. 2.83 \u00b1 0.85 mmol/L, p < 0.05), systolic blood pressure (145.25 \u00b1 25.28 vs. 133.03 \u00b1 19.89 mmHg, p = 0.01), diastolic blood pressure (90.31 \u00b1 15.56 vs. 85.68 \u00b1 13.19 mmHg, p = 0.04), and homocysteine (16.98 \u00b1 9.48 vs. 12.67 \u00b1 4.47 \u03bcmol/L, p < 0.05). Receiver operating characteristic (ROC) analysis identified LDL-C as the dominant EOCAD predictor, and logistic regression confirmed rs1801133 as an independent risk factor. Adding rs1801133 to the base model significantly improved IDI (0.022, p = 0.012) and NRI (0.291, p = 0.040). Bootstrap validation with minimal model optimism (0.034-0.036) verified favorable internal stability. rs1801133 is a functional genetic determinant of EOCAD in the Chinese Han population. The TT genotype defines a high-risk subgroup aggravated by combined dyslipidemia and hyperhomocysteinemia. rs1801133 yielded significant incremental discrimination and reclassification value over traditional risk factors. These findings support personalized EOCAD risk stratification, highlighting intensive LDL-C management for T allele carriers as a promising early intervention strategy."
+   }
+  },
+  "PMID:42840159": {
+   "record_id": "PMID:42840159",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42840159/",
+   "retrieved_at": "2026-11-17T02:12:00.975433+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "42840159",
+    "title": "MTHFR (rs1801133) and SERPINE1/PAI-1 (-675 4G/5G) gene polymorphisms and their association with spontaneous abortion and missed pregnancy in an ethnic Uzbek population: a case-control study.",
+    "journal": "Front Reprod Health",
+    "pubdate": "2026",
+    "sortpubdate": "2026-09-22",
+    "abstract": "Spontaneous abortion and missed (non-developing) pregnancy are common early reproductive losses in which disturbed folate metabolism and inherited thrombophilia are implicated. Variants of methylenetetrahydrofolate reductase (MTHFR) and of the plasminogen activator inhibitor-1 gene (SERPINE1/PAI-1) may increase this risk, but data from Central Asian populations are scarce. We assessed the association of MTHFR rs1801133 (c.665C>T; p.Ala222Val, classically C677T) and the SERPINE1/PAI-1 -675 4G/5G promoter insertion/deletion polymorphism (rs1799889) with early pregnancy loss in a case-control study of ethnic Uzbek women. Eighty-one women with a history of spontaneous abortion (n\u2009=\u200940) or missed pregnancy (n\u2009=\u200941) and 83 women with a physiologically progressing pregnancy were genotyped. In controls, both loci conformed to Hardy-Weinberg equilibrium. The MTHFR Val allele (40.1% vs. 20.5%) and the Val/Val genotype (22.2% vs. 3.6%) were significantly more frequent in cases, the mutant homozygote conferring an approximately sevenfold increase in odds (OR 7.6, 95% CI 2.5-23.3; p\u2009<\u20090.01), whereas the Ala/Ala genotype was associated with lower odds of loss (OR 0.4). Similarly, the PAI-1 4G allele (46.9% vs. 30.1%) and the 4G/4G genotype (25.9% vs. 6.0%) were over-represented in cases (4G/4G: OR 5.5, 95% CI 2.1-14.2; p\u2009<\u20090.01). Associations were strongest in women with spontaneous abortion. Exploratory ROC analysis indicated moderate, high-specificity discrimination, greatest for the mutant homozygous genotypes (MTHFR Val/Val AUC 0.69; PAI-1 4G/4G AUC up to 0.73). In ethnic Uzbek women, the MTHFR Val/Val and PAI-1 4G/4G genotypes were associated with spontaneous abortion and missed pregnancy; given the case-control design, these are associations requiring confirmation in larger studies."
+   }
+  },
+  "PMID:42058361": {
+   "record_id": "PMID:42058361",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42058361/",
+   "retrieved_at": "2026-11-17T02:12:00.975433+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "42058361",
+    "title": "Allelic and Genotypic Distribution of rs1801133 in the Methylene Tetrahydrofolate Reductase (MTHFR) Gene Among Family Trios Affected by Nonsyndromic Cleft Lip and Palate.",
+    "journal": "Cureus",
+    "pubdate": "2026 Mar",
+    "sortpubdate": "2026-03-29",
+    "abstract": "Cleft lips and/or palates are common congenital anomalies with different prevalence across different populations and geographic regions. The present study analyzed the allelic and genotypic frequencies of the MTHFR rs1801133 polymorphism in familial cleft lip and/or palate trios. This retrospective genetic family-based study was carried out in a population-specific background using samples collected from the data bank of 4,000 patient records from a high-volume craniofacial hospital. Forty familial case-parent trios (n = 120 subjects, 40 unaffected fathers, 40 unaffected mothers, and 40 affected children) were selected. Genomic DNA was extracted from peripheral blood samples, and genotyping of the MTHFR rs1801133 polymorphism was carried out using the polymerase chain reaction-restriction fragment length polymorphism method. Allelic and genotypic frequencies were calculated using IBM Corp. Released 2020. IBM SPSS Statistics for Windows, Version 26. Armonk, NY: IBM Corp., with descriptive statistical analyses applied. Hardy-Weinberg equilibrium and the transmission disequilibrium test were performed using PLINK 1.9 (Purcell Lab, Harvard Medical School). The CC genotype was found to be the most common in all three groups (72.5% of fathers, 85.0% of mothers, and 90.0% of affected children), according to the genotype distribution of the MTHFR rs1801133 polymorphism among the 40 case-parent trios. The CT genotype was observed in 27.5% of fathers, 15.0% of mothers, and 10.0% of affected children. The C allele was observed more commonly in mothers (92.5%), fathers (86.25%), and affected children (95.0%). The T allele was observed in 13.75% of fathers, 7.5% of mothers, and 5.0% of affected children. Transmission disequilibrium test analysis showed no statistically significant preferential transmission of the T allele (OR = 0.4, p = 0.1088), indicating no association. This study contributes to global data on ethnic variation, helping researchers compare populations and design more accurate, population-specific genetic studies."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 39,
+  "n_claims_fully_verified": 39,
+  "n_uncited_claims": 0,
+  "n_citations": 108,
+  "n_citations_valid": 108,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 85,
+  "n_shown_values_in_text": 85,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 39,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

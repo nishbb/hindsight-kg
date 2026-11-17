@@ -1,0 +1,6265 @@
+{
+ "rsid_query": "rs334",
+ "rsid_current": "rs334",
+ "as_of": "2020-01-01",
+ "generated_at": "2026-11-17T02:14:00.450829+00:00",
+ "genes": {
+  "vep": [
+   "HBB"
+  ],
+  "dbsnp": [
+   "HBB"
+  ],
+  "clinvar": [
+   "HBB"
+  ],
+  "gwas": [
+   "HBB"
+  ]
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000011.10:g.5227002T>A",
+   "spdi_deleted": "T",
+   "spdi_inserted": "A",
+   "chrom": "11",
+   "pos": 5227002,
+   "ref": "T",
+   "alt": "A",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "11-5227002-T-A",
+   "vep": {
+    "gene_symbol": "HBB",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000335295.4:c.20A>T",
+    "hgvsp": "ENSP00000333994.3:p.Glu7Val",
+    "impact": "MODERATE",
+    "mane_select": "NM_000518.5"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "exomes",
+     "overall": 0.00347958,
+     "populations": {
+      "afr": 0.046998,
+      "amr": 0.00216951,
+      "asj": 0.0,
+      "eas": 0.0,
+      "fin": 0.0,
+      "nfe": 5.28495e-05,
+      "sas": 0.000620591,
+      "oth": 0.00163026
+     },
+     "an": 251180,
+     "differentiated": true
+    }
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000011.10:g.5227002T>C",
+   "spdi_deleted": "T",
+   "spdi_inserted": "C",
+   "chrom": "11",
+   "pos": 5227002,
+   "ref": "T",
+   "alt": "C",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "11-5227002-T-C",
+   "vep": {
+    "gene_symbol": "HBB",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000335295.4:c.20A>G",
+    "hgvsp": "ENSP00000333994.3:p.Glu7Gly",
+    "impact": "MODERATE",
+    "mane_select": "NM_000518.5"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    }
+   }
+  },
+  {
+   "index": 3,
+   "dbsnp_allele_index": 3,
+   "hgvs_g": "NC_000011.10:g.5227002T>G",
+   "spdi_deleted": "T",
+   "spdi_inserted": "G",
+   "chrom": "11",
+   "pos": 5227002,
+   "ref": "T",
+   "alt": "G",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "11-5227002-T-G",
+   "vep": {
+    "gene_symbol": "HBB",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000335295.4:c.20A>C",
+    "hgvsp": "ENSP00000333994.3:p.Glu7Ala",
+    "impact": "MODERATE",
+    "mane_select": "NM_000518.5"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    }
+   }
+  }
+ ],
+ "clinvar": [
+  {
+   "variation_id": "15175",
+   "allele_index": 3,
+   "name": "NM_000518.4(HBB):c.20A>C (p.Glu7Ala)",
+   "classification": "other",
+   "review_status": "no assertion criteria provided",
+   "conditions": [
+    "HEMOGLOBIN G (MAKASSAR)"
+   ],
+   "origin": "germline",
+   "n_submitters": "1",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "other",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "1",
+     "last_evaluated": "Feb 27, 2017",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "other",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "1",
+     "last_evaluated": "Dec 12, 2017",
+     "release_date": "2019-01-03"
+    }
+   ],
+   "submission_classes": {}
+  },
+  {
+   "variation_id": "15333",
+   "allele_index": 1,
+   "name": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+   "classification": "Pathogenic",
+   "review_status": "no interpretation for the single variant",
+   "conditions": [
+    "Beta-thalassemia, dominant inclusion body type",
+    "Fetal hemoglobin quantitative trait locus 1",
+    "HEMOGLOBIN JAMAICA PLAIN",
+    "HEMOGLOBIN S",
+    "HEMOGLOBIN S (ANTILLES)",
+    "HEMOGLOBIN S (CAMEROON)",
+    "HEMOGLOBIN S (PROVIDENCE)",
+    "HEMOGLOBIN S (TRAVIS)",
+    "HEMOGLOBIN ZIGUINCHOR",
+    "Hb SS disease",
+    "Heinz body anemia",
+    "Inborn genetic diseases",
+    "Malaria, resistance to",
+    "Sickle cell-Hemoglobin O Arab disease",
+    "Susceptibility to malaria",
+    "beta Thalassemia"
+   ],
+   "origin": "germline;maternal;paternal;unknown",
+   "n_submitters": "13",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "Pathogenic, other, protective",
+     "review_status": "no assertion for the individual variant",
+     "n_submitters": "9",
+     "last_evaluated": "Dec 11, 2017",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "Pathogenic",
+     "review_status": "no interpretation for the single variant",
+     "n_submitters": "13",
+     "last_evaluated": "Sep 16, 2018",
+     "release_date": "2019-01-03"
+    }
+   ],
+   "submission_classes": {}
+  }
+ ],
+ "clinvar_release": "2019-01",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 134,
+  "n_associations_in_scope": 19,
+  "n_genome_wide_significant": 18,
+  "n_studies": 16,
+  "mapped_genes": [
+   "HBB"
+  ],
+  "top_traits": [
+   {
+    "trait": "malaria",
+    "p_value": "4e-69",
+    "accession": "GCST010725",
+    "pmid": "31844061"
+   },
+   {
+    "trait": "HbA1c measurement",
+    "p_value": "3e-39",
+    "accession": "GCST008398",
+    "pmid": "31213470"
+   },
+   {
+    "trait": "mean corpuscular hemoglobin concentration",
+    "p_value": "8e-26",
+    "accession": "GCST008038",
+    "pmid": "31217584"
+   },
+   {
+    "trait": "erythrocyte volume",
+    "p_value": "1e-22",
+    "accession": "GCST004335",
+    "pmid": "28453575"
+   },
+   {
+    "trait": "basophil count",
+    "p_value": "5e-20",
+    "accession": "GCST008337",
+    "pmid": "31080455"
+   },
+   {
+    "trait": "red cell distribution width",
+    "p_value": "2e-17",
+    "accession": "GCST009032",
+    "pmid": "31675503"
+   }
+  ],
+  "n_distinct_traits_significant": 10,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 597,
+  "n_in_scope": 262,
+  "pmids_in_scope": [
+   "31591742",
+   "31619404",
+   "32019385",
+   "32124638",
+   "32172616",
+   "31869403",
+   "31844061",
+   "31286593",
+   "31429114",
+   "31760954",
+   "31504742",
+   "31731617",
+   "31675503",
+   "31749708",
+   "31589614",
+   "31591409",
+   "31126755",
+   "31431453",
+   "31451441",
+   "31557427",
+   "31546720",
+   "31515488",
+   "31511532",
+   "31509757",
+   "31517041",
+   "31213470",
+   "31451708",
+   "31358043",
+   "31350437",
+   "31384675",
+   "31324802",
+   "30972754",
+   "31028976",
+   "31603010",
+   "31724442",
+   "31238981",
+   "31217584",
+   "32190157",
+   "31394941",
+   "31411089",
+   "31080455",
+   "31041352",
+   "30890703",
+   "31190580",
+   "30290004",
+   "30456907",
+   "30937429",
+   "31039620",
+   "31205626",
+   "33015364"
+  ],
+  "top": [
+   "32124638",
+   "31603010",
+   "31190580"
+  ]
+ },
+ "conflicts": [
+  {
+   "type": "allele_specific_classification",
+   "classes": {
+    "3": "OTHER",
+    "1": "PLP"
+   }
+  },
+  {
+   "type": "classification_changed_over_time",
+   "variation_id": "15333",
+   "history": [
+    [
+     "2018-01",
+     "Pathogenic, other, protective"
+    ],
+    [
+     "2019-01",
+     "Pathogenic"
+    ]
+   ]
+  }
+ ],
+ "bottom_line": {
+  "category": "germline disease variant",
+  "confidence": "moderate",
+  "rationale": "pathogenic assertion with limited review or with conflicting submissions",
+  "text": "Bottom line: rs334 in HBB is best described as: germline disease variant. ClinVar links it to Beta-thalassemia, dominant inclusion body type. Sources disagree on some points (see conflicts). Confidence: moderate (pathogenic assertion with limited review or with conflicting submissions)."
+ },
+ "notes": [
+  "CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'."
+ ],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs334 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs334",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs334",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs334: rs3168321, rs34315575, rs77121243.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs334",
+     "path": "dbsnp1_merges.0",
+     "value": "3168321",
+     "label": "dbSNP build 157 rs334",
+     "mode": "eq",
+     "shown": "rs3168321",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs334",
+     "path": "dbsnp1_merges.1",
+     "value": "34315575",
+     "label": "dbSNP build 157 rs334",
+     "mode": "eq",
+     "shown": "rs34315575",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs334",
+     "path": "dbsnp1_merges.2",
+     "value": "77121243",
+     "label": "dbSNP build 157 rs334",
+     "mode": "eq",
+     "shown": "rs77121243",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs334 as variant type 'snv' on NC_000011.10 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs334",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs334",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs334",
+     "path": "seq_id",
+     "value": "NC_000011.10",
+     "label": "dbSNP build 157 rs334",
+     "mode": "eq",
+     "shown": "NC_000011.10",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000011.10:g.5227002T>A, a single-nucleotide variant (SNV) (T>A in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs334",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000011.10:g.5227002T>A",
+     "label": "dbSNP build 157 rs334",
+     "mode": "eq",
+     "shown": "NC_000011.10:g.5227002T>A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000011.10:g.5227002T>C, a single-nucleotide variant (SNV) (T>C in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs334",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000011.10:g.5227002T>C",
+     "label": "dbSNP build 157 rs334",
+     "mode": "eq",
+     "shown": "NC_000011.10:g.5227002T>C",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 3: NC_000011.10:g.5227002T>G, a single-nucleotide variant (SNV) (T>G in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs334",
+     "path": "alleles.3.hgvs",
+     "value": "NC_000011.10:g.5227002T>G",
+     "label": "dbSNP build 157 rs334",
+     "mode": "eq",
+     "shown": "NC_000011.10:g.5227002T>G",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 3 (T>G), Ensembl VEP predicts missense_variant in HBB (ENST00000335295.4:c.20A>C; ENSP00000333994.3:p.Glu7Ala), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "HBB",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "HBB",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000335295.4:c.20A>C",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "ENST00000335295.4:c.20A>C",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.0.hgvsp",
+     "value": "ENSP00000333994.3:p.Glu7Ala",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "ENSP00000333994.3:p.Glu7Ala",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 2 (T>C), Ensembl VEP predicts missense_variant in HBB (ENST00000335295.4:c.20A>G; ENSP00000333994.3:p.Glu7Gly), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.1.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.1.gene_symbol",
+     "value": "HBB",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "HBB",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.1.hgvsc",
+     "value": "ENST00000335295.4:c.20A>G",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "ENST00000335295.4:c.20A>G",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.1.hgvsp",
+     "value": "ENSP00000333994.3:p.Glu7Gly",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "ENSP00000333994.3:p.Glu7Gly",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.1.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (T>A), Ensembl VEP predicts missense_variant in HBB (ENST00000335295.4:c.20A>T; ENSP00000333994.3:p.Glu7Val), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.2.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.2.gene_symbol",
+     "value": "HBB",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "HBB",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.2.hgvsc",
+     "value": "ENST00000335295.4:c.20A>T",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "ENST00000335295.4:c.20A>T",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.2.hgvsp",
+     "value": "ENSP00000333994.3:p.Glu7Val",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "ENSP00000333994.3:p.Glu7Val",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs334",
+     "path": "transcript_consequences.2.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string T/A/C/G.",
+   "citations": [
+    {
+     "record_id": "VEP:rs334",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs334",
+     "path": "allele_string",
+     "value": "T/A/C/G",
+     "label": "Ensembl VEP rs334",
+     "mode": "eq",
+     "shown": "T/A/C/G",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 exomes, alternate allele 1 (T>A) has an overall allele frequency of 0.00348.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs334",
+     "path": "hits.0.gnomad_exome.af.af",
+     "value": 0.00347958,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.00348",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.047, Admixed American 0.00217, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 5.28e-05, South Asian 0.000621, Other 0.00163.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs334",
+     "path": "hits.0.gnomad_exome.af.af_afr",
+     "value": 0.046998,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.047",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs334",
+     "path": "hits.0.gnomad_exome.af.af_amr",
+     "value": 0.00216951,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.00217",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs334",
+     "path": "hits.0.gnomad_exome.af.af_asj",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs334",
+     "path": "hits.0.gnomad_exome.af.af_eas",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs334",
+     "path": "hits.0.gnomad_exome.af.af_fin",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs334",
+     "path": "hits.0.gnomad_exome.af.af_nfe",
+     "value": 5.28495e-05,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "5.28e-05",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs334",
+     "path": "hits.0.gnomad_exome.af.af_sas",
+     "value": 0.000620591,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.000621",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs334",
+     "path": "hits.0.gnomad_exome.af.af_oth",
+     "value": 0.00163026,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.00163",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v2.1.1 exomes): allele 1 frequency ranges from 0 in Ashkenazi Jewish to 0.047 in African/African American, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs334",
+     "path": "hits.0.gnomad_exome.af.af_asj",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs334",
+     "path": "hits.0.gnomad_exome.af.af_afr",
+     "value": 0.046998,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.047",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 2 (T>C) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs334",
+     "path": "hits.1._id",
+     "value": "chr11:g.5248232T>C",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 3 (T>G) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs334",
+     "path": "hits.2._id",
+     "value": "chr11:g.5248232T>G",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_000518.4(HBB):c.20A>C (p.Glu7Ala) (alternate allele 3) with germline classification 'other' for: HEMOGLOBIN G (MAKASSAR); review status 'no assertion criteria provided', 1 submitter(s), allele origin 'germline'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000015175@2019-01",
+     "path": "clnsig",
+     "value": "other",
+     "label": "ClinVar VCV000015175 (2019-01 release)",
+     "mode": "eq",
+     "shown": "other",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015175@2019-01",
+     "path": "review_status",
+     "value": "no assertion criteria provided",
+     "label": "ClinVar VCV000015175 (2019-01 release)",
+     "mode": "eq",
+     "shown": "no assertion criteria provided",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015175@2019-01",
+     "path": "name",
+     "value": "NM_000518.4(HBB):c.20A>C (p.Glu7Ala)",
+     "label": "ClinVar VCV000015175 (2019-01 release)",
+     "mode": "eq",
+     "shown": "NM_000518.4(HBB):c.20A>C (p.Glu7Ala)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015175@2019-01",
+     "path": "n_submitters",
+     "value": "1",
+     "label": "ClinVar VCV000015175 (2019-01 release)",
+     "mode": "eq",
+     "shown": "1",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015175@2019-01",
+     "path": "phenotype_list",
+     "value": "HEMOGLOBIN G (MAKASSAR)",
+     "label": "ClinVar VCV000015175 (2019-01 release)",
+     "mode": "contains",
+     "shown": "HEMOGLOBIN G (MAKASSAR)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015175@2019-01",
+     "path": "origin",
+     "value": "germline",
+     "label": "ClinVar VCV000015175 (2019-01 release)",
+     "mode": "eq",
+     "shown": "germline",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: other; 2019-01: other. The classification did not change over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000015175@2019-01",
+     "path": "history.0.clnsig",
+     "value": "other",
+     "label": "ClinVar VCV000015175 (2019-01 release)",
+     "mode": "eq",
+     "shown": "other",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015175@2019-01",
+     "path": "history.1.clnsig",
+     "value": "other",
+     "label": "ClinVar VCV000015175 (2019-01 release)",
+     "mode": "eq",
+     "shown": "other",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_000518.5(HBB):c.20A>T (p.Glu7Val) (alternate allele 1) with germline classification 'Pathogenic' for: Beta-thalassemia, dominant inclusion body type; Fetal hemoglobin quantitative trait locus 1; HEMOGLOBIN JAMAICA PLAIN; HEMOGLOBIN S; and 12 more; review status 'no interpretation for the single variant', 13 submitter(s), allele origin 'germline;maternal;paternal;unknown'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000015333@2019-01",
+     "path": "clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000015333 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015333@2019-01",
+     "path": "review_status",
+     "value": "no interpretation for the single variant",
+     "label": "ClinVar VCV000015333 (2019-01 release)",
+     "mode": "eq",
+     "shown": "no interpretation for the single variant",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015333@2019-01",
+     "path": "name",
+     "value": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+     "label": "ClinVar VCV000015333 (2019-01 release)",
+     "mode": "eq",
+     "shown": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015333@2019-01",
+     "path": "n_submitters",
+     "value": "13",
+     "label": "ClinVar VCV000015333 (2019-01 release)",
+     "mode": "eq",
+     "shown": "13",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015333@2019-01",
+     "path": "phenotype_list",
+     "value": "Beta-thalassemia, dominant inclusion body type",
+     "label": "ClinVar VCV000015333 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Beta-thalassemia, dominant inclusion body type",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015333@2019-01",
+     "path": "phenotype_list",
+     "value": "Fetal hemoglobin quantitative trait locus 1",
+     "label": "ClinVar VCV000015333 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Fetal hemoglobin quantitative trait locus 1",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015333@2019-01",
+     "path": "phenotype_list",
+     "value": "HEMOGLOBIN JAMAICA PLAIN",
+     "label": "ClinVar VCV000015333 (2019-01 release)",
+     "mode": "contains",
+     "shown": "HEMOGLOBIN JAMAICA PLAIN",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015333@2019-01",
+     "path": "phenotype_list",
+     "value": "HEMOGLOBIN S",
+     "label": "ClinVar VCV000015333 (2019-01 release)",
+     "mode": "contains",
+     "shown": "HEMOGLOBIN S",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015333@2019-01",
+     "path": "origin",
+     "value": "germline;maternal;paternal;unknown",
+     "label": "ClinVar VCV000015333 (2019-01 release)",
+     "mode": "eq",
+     "shown": "germline;maternal;paternal;unknown",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic, other, protective; 2019-01: Pathogenic. The classification changed over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000015333@2019-01",
+     "path": "history.0.clnsig",
+     "value": "Pathogenic, other, protective",
+     "label": "ClinVar VCV000015333 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Pathogenic, other, protective",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015333@2019-01",
+     "path": "history.1.clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000015333 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 134 association record(s) for rs334. Of these, 19 were published on or before 2020-01-01.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs334",
+     "path": "associations.133.association_id",
+     "value": 17373539,
+     "label": "GWAS Catalog rs334",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with malaria (p = 4e-69, study GCST010725).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs334",
+     "path": "associations.116.accession_id",
+     "value": "GCST010725",
+     "label": "GWAS Catalog GCST010725",
+     "mode": "eq",
+     "shown": "GCST010725",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs334",
+     "path": "associations.116.pvalue_exponent",
+     "value": -69,
+     "label": "GWAS Catalog GCST010725",
+     "mode": "eq",
+     "shown": "4e-69",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31844061",
+     "path": "pmid",
+     "value": "31844061",
+     "label": "PMID:31844061",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with HbA1c measurement (p = 3e-39, study GCST008398, effect allele rs334-A).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs334",
+     "path": "associations.125.accession_id",
+     "value": "GCST008398",
+     "label": "GWAS Catalog GCST008398",
+     "mode": "eq",
+     "shown": "GCST008398",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs334",
+     "path": "associations.125.pvalue_exponent",
+     "value": -39,
+     "label": "GWAS Catalog GCST008398",
+     "mode": "eq",
+     "shown": "3e-39",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31213470",
+     "path": "pmid",
+     "value": "31213470",
+     "label": "PMID:31213470",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with mean corpuscular hemoglobin concentration (p = 8e-26, study GCST008038).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs334",
+     "path": "associations.126.accession_id",
+     "value": "GCST008038",
+     "label": "GWAS Catalog GCST008038",
+     "mode": "eq",
+     "shown": "GCST008038",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs334",
+     "path": "associations.126.pvalue_exponent",
+     "value": -26,
+     "label": "GWAS Catalog GCST008038",
+     "mode": "eq",
+     "shown": "8e-26",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31217584",
+     "path": "pmid",
+     "value": "31217584",
+     "label": "PMID:31217584",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with erythrocyte volume (p = 1e-22, study GCST004335, effect allele rs334-T).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs334",
+     "path": "associations.108.accession_id",
+     "value": "GCST004335",
+     "label": "GWAS Catalog GCST004335",
+     "mode": "eq",
+     "shown": "GCST004335",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs334",
+     "path": "associations.108.pvalue_exponent",
+     "value": -22,
+     "label": "GWAS Catalog GCST004335",
+     "mode": "eq",
+     "shown": "1e-22",
+     "args": null
+    },
+    {
+     "record_id": "PMID:28453575",
+     "path": "pmid",
+     "value": "28453575",
+     "label": "PMID:28453575",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with basophil count (p = 5e-20, study GCST008337).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs334",
+     "path": "associations.128.accession_id",
+     "value": "GCST008337",
+     "label": "GWAS Catalog GCST008337",
+     "mode": "eq",
+     "shown": "GCST008337",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs334",
+     "path": "associations.128.pvalue_exponent",
+     "value": -20,
+     "label": "GWAS Catalog GCST008337",
+     "mode": "eq",
+     "shown": "5e-20",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31080455",
+     "path": "pmid",
+     "value": "31080455",
+     "label": "PMID:31080455",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with red cell distribution width (p = 2e-17, study GCST009032, effect allele rs334-T).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs334",
+     "path": "associations.119.accession_id",
+     "value": "GCST009032",
+     "label": "GWAS Catalog GCST009032",
+     "mode": "eq",
+     "shown": "GCST009032",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs334",
+     "path": "associations.119.pvalue_exponent",
+     "value": -17,
+     "label": "GWAS Catalog GCST009032",
+     "mode": "eq",
+     "shown": "2e-17",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31675503",
+     "path": "pmid",
+     "value": "31675503",
+     "label": "PMID:31675503",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 597 PubMed articles to rs334; 262 of the 597 with a PubMed date were published on or before 2020-01-01.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs334",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs334",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Hb Rush (HBB: c.304G>C): A Rare Variant Hemoglobin Mimicking the Hb S (HBB: c.20A>T) Variant on High Performance Liquid Chromatography\" (Hemoglobin, 2020).",
+   "citations": [
+    {
+     "record_id": "PMID:32124638",
+     "path": "title",
+     "value": "Hb Rush (HBB: c.304G>C): A Rare Variant Hemoglobin Mimicking the Hb S (HBB: c.20A>T) Variant on High Performance Liquid Chromatography.",
+     "label": "PMID:32124638",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:32124638",
+     "path": "journal",
+     "value": "Hemoglobin",
+     "label": "PMID:32124638",
+     "mode": "eq",
+     "shown": "Hemoglobin",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Genetic Background of \u03b2-Thalassemia in Northeast Algeria with Assessment of the Thalassemia Severity Score and Description of a new \u03b2(0)-Thalassemia Frameshift Mutation (HBB: c.374dup; p.Pro126Thrfs*15)\" (Hemoglobin, 2019).",
+   "citations": [
+    {
+     "record_id": "PMID:31603010",
+     "path": "title",
+     "value": "Genetic Background of \u03b2-Thalassemia in Northeast Algeria with Assessment of the Thalassemia Severity Score and Description of a new \u03b2(0)-Thalassemia Frameshift Mutation (HBB: c.374dup; p.Pro126Thrfs*15).",
+     "label": "PMID:31603010",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31603010",
+     "path": "journal",
+     "value": "Hemoglobin",
+     "label": "PMID:31603010",
+     "mode": "eq",
+     "shown": "Hemoglobin",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Compound Heterozygote of Hb S (HBB: c.20A>T)/Hb Westdale (HBB: c.380_396delTGCAGGCTGCCTATCAG): Report of Four Cases from Odisha State, India\" (Hemoglobin, 2019).",
+   "citations": [
+    {
+     "record_id": "PMID:31190580",
+     "path": "title",
+     "value": "Compound Heterozygote of Hb S (HBB: c.20A>T)/Hb Westdale (HBB: c.380_396delTGCAGGCTGCCTATCAG): Report of Four Cases from Odisha State, India.",
+     "label": "PMID:31190580",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31190580",
+     "path": "journal",
+     "value": "Hemoglobin",
+     "label": "PMID:31190580",
+     "mode": "eq",
+     "shown": "Hemoglobin",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Conflicts and caveats",
+   "text": "Allele-specific interpretation: the alternate alleles of rs334 carry different ClinVar classifications (allele 1: Pathogenic; allele 3: other), so the rsID alone does not determine clinical meaning.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000015175@2019-01",
+     "path": "clnsig",
+     "value": "other",
+     "label": "ClinVar VCV000015175",
+     "mode": "eq",
+     "shown": "other",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015333@2019-01",
+     "path": "clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000015333",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs334 in HBB is best described as: germline disease variant. ClinVar links it to Beta-thalassemia, dominant inclusion body type. Sources disagree on some points (see conflicts). Confidence: moderate (pathogenic assertion with limited review or with conflicting submissions).",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000015175@2019-01",
+     "path": "clnsig",
+     "value": "other",
+     "label": "ClinVar VCV000015175 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000015333@2019-01",
+     "path": "clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000015333 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs334",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs334",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs334",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs334",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs334": {
+   "record_id": "dbSNP:rs334",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/334",
+   "retrieved_at": "2026-11-17T01:55:31.370812+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "334",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "3168321",
+     "34315575",
+     "77121243"
+    ],
+    "merged_into": [],
+    "citations": [
+     81926,
+     893143,
+     909565,
+     1225575,
+     1301203,
+     1376298,
+     1634360,
+     1986365,
+     2189492,
+     2296310,
+     2579336,
+     2891298,
+     2893541,
+     2898142,
+     2898460,
+     2930724,
+     3048433,
+     3191036,
+     3354556,
+     3467311,
+     3690667,
+     3752087,
+     3821796,
+     4232783,
+     5069596,
+     5490239,
+     5509617,
+     5658717,
+     5928902,
+     6166632,
+     6268660,
+     6272289,
+     6280057,
+     6285354,
+     6583683,
+     6584911,
+     7993409,
+     8199597,
+     8462981,
+     9166865,
+     9834244,
+     9859938,
+     10203101,
+     11741197,
+     11830454,
+     11880644,
+     12403489,
+     13066514,
+     13115700,
+     13369537,
+     13464827,
+     13852872,
+     13943409,
+     15182055,
+     15395398,
+     15470216,
+     16001361,
+     17287491,
+     17668374,
+     17688704,
+     18048408,
+     18192399,
+     18829352,
+     19039607,
+     19145247,
+     19223928,
+     19281305,
+     19465909,
+     20128890,
+     20226094,
+     20305663,
+     20552021,
+     20556870,
+     20585394,
+     21529713,
+     21867552,
+     21992066,
+     22075726,
+     22615793,
+     22905743,
+     22947458,
+     22957039,
+     23144702,
+     23316245,
+     24592274,
+     24626632,
+     24934404,
+     25741868,
+     25805752,
+     26215182,
+     26314886,
+     26744416,
+     27022141,
+     27185208,
+     27219052,
+     27236921,
+     27351925,
+     28067620,
+     28541483,
+     28912365,
+     29526279,
+     31080455,
+     31213470,
+     31448710,
+     31675503,
+     31941490,
+     32641076,
+     33357513,
+     33399855,
+     33857205,
+     34090531,
+     35811813,
+     35934714,
+     36061173
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000011.10",
+    "alleles": [
+     {
+      "hgvs": "NC_000011.10:g.5227002=",
+      "position0": 5227001,
+      "deleted": "T",
+      "inserted": "T"
+     },
+     {
+      "hgvs": "NC_000011.10:g.5227002T>A",
+      "position0": 5227001,
+      "deleted": "T",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000011.10:g.5227002T>C",
+      "position0": 5227001,
+      "deleted": "T",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000011.10:g.5227002T>G",
+      "position0": 5227001,
+      "deleted": "T",
+      "inserted": "G"
+     }
+    ],
+    "genes": [
+     "HBB"
+    ]
+   }
+  },
+  "VEP:rs334": {
+   "record_id": "VEP:rs334",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs334",
+   "retrieved_at": "2026-11-17T01:55:34.873570+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs334",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "11",
+    "start": 5227002,
+    "end": 5227002,
+    "allele_string": "T/A/C/G",
+    "variant_class": "SNV",
+    "most_severe_consequence": "missense_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "G",
+      "gene_symbol": "HBB",
+      "gene_id": "ENSG00000244734",
+      "transcript_id": "ENST00000335295",
+      "mane_select": "NM_000518.5",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000335295.4:c.20A>C",
+      "hgvsp": "ENSP00000333994.3:p.Glu7Ala",
+      "impact": "MODERATE",
+      "amino_acids": "E/A",
+      "protein_start": 7,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "C",
+      "gene_symbol": "HBB",
+      "gene_id": "ENSG00000244734",
+      "transcript_id": "ENST00000335295",
+      "mane_select": "NM_000518.5",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000335295.4:c.20A>G",
+      "hgvsp": "ENSP00000333994.3:p.Glu7Gly",
+      "impact": "MODERATE",
+      "amino_acids": "E/G",
+      "protein_start": 7,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "A",
+      "gene_symbol": "HBB",
+      "gene_id": "ENSG00000244734",
+      "transcript_id": "ENST00000335295",
+      "mane_select": "NM_000518.5",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000335295.4:c.20A>T",
+      "hgvsp": "ENSP00000333994.3:p.Glu7Val",
+      "impact": "MODERATE",
+      "amino_acids": "E/V",
+      "protein_start": 7,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [],
+    "colocated_somatic": false
+   }
+  },
+  "gnomAD-v2.1.1:rs334": {
+   "record_id": "gnomAD-v2.1.1:rs334",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T01:55:35.281533+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr11:g.5248232T>A",
+      "_score": 17.141106,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 7.277
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "A",
+       "ref": "T",
+       "vartype": "snv"
+      },
+      "gnomad_exome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.00347958,
+        "af_afr": 0.046998,
+        "af_afr_female": 0.0448858,
+        "af_afr_male": 0.0504365,
+        "af_amr": 0.00216951,
+        "af_amr_female": 0.00246792,
+        "af_amr_male": 0.00174703,
+        "af_asj": 0.0,
+        "af_asj_female": 0.0,
+        "af_asj_male": 0.0,
+        "af_eas": 0.0,
+        "af_eas_female": 0.0,
+        "af_eas_jpn": 0.0,
+        "af_eas_kor": 0.0,
+        "af_eas_male": 0.0,
+        "af_eas_oea": 0.0,
+        "af_female": 0.00444394,
+        "af_fin": 0.0,
+        "af_fin_female": 0.0,
+        "af_fin_male": 0.0,
+        "af_male": 0.00265946,
+        "af_nfe": 5.28495e-05,
+        "af_nfe_bgr": 0.0,
+        "af_nfe_est": 0.0,
+        "af_nfe_female": 1.99728e-05,
+        "af_nfe_male": 7.87873e-05,
+        "af_nfe_nwe": 4.7515e-05,
+        "af_nfe_onf": 6.46914e-05,
+        "af_nfe_seu": 0.000174216,
+        "af_nfe_swe": 0.0,
+        "af_oth": 0.00163026,
+        "af_oth_female": 0.00205198,
+        "af_oth_male": 0.00124611,
+        "af_sas": 0.000620591,
+        "af_sas_female": 0.000530223,
+        "af_sas_male": 0.000650139
+       },
+       "alt": "A",
+       "an": {
+        "an": 251180,
+        "an_afr": 16256,
+        "an_afr_female": 10070,
+        "an_afr_male": 6186,
+        "an_amr": 34570,
+        "an_amr_female": 20260,
+        "an_amr_male": 14310,
+        "an_asj": 10070,
+        "an_asj_female": 4894,
+        "an_asj_male": 5176,
+        "an_eas": 18362,
+        "an_eas_female": 9310,
+        "an_eas_jpn": 152,
+        "an_eas_kor": 3786,
+        "an_eas_male": 9052,
+        "an_eas_oea": 14424,
+        "an_female": 115438,
+        "an_fin": 21642,
+        "an_fin_female": 10368,
+        "an_fin_male": 11274,
+        "an_male": 135742,
+        "an_nfe": 113530,
+        "an_nfe_bgr": 2670,
+        "an_nfe_est": 242,
+        "an_nfe_female": 50068,
+        "an_nfe_male": 63462,
+        "an_nfe_nwe": 42092,
+        "an_nfe_onf": 30916,
+        "an_nfe_seu": 11480,
+        "an_nfe_swe": 26130,
+        "an_oth": 6134,
+        "an_oth_female": 2924,
+        "an_oth_male": 3210,
+        "an_sas": 30616,
+        "an_sas_female": 7544,
+        "an_sas_male": 23072
+       },
+       "ref": "T"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.0115287,
+        "af_afr": 0.0409968,
+        "af_afr_female": 0.0427327,
+        "af_afr_male": 0.0397298,
+        "af_amr": 0.00117925,
+        "af_amr_female": 0.00241546,
+        "af_amr_male": 0.0,
+        "af_asj": 0.0,
+        "af_asj_female": 0.0,
+        "af_asj_male": 0.0,
+        "af_eas": 0.0,
+        "af_eas_female": 0.0,
+        "af_eas_male": 0.0,
+        "af_female": 0.0114893,
+        "af_fin": 0.0,
+        "af_fin_female": 0.0,
+        "af_fin_male": 0.0,
+        "af_male": 0.01156,
+        "af_nfe": 0.000129618,
+        "af_nfe_est": 0.0,
+        "af_nfe_female": 0.0,
+        "af_nfe_male": 0.000232072,
+        "af_nfe_nwe": 0.000116333,
+        "af_nfe_onf": 0.000468165,
+        "af_nfe_seu": 0.0,
+        "af_oth": 0.00183824,
+        "af_oth_female": 0.00355872,
+        "af_oth_male": 0.0
+       },
+       "alt": "A",
+       "an": {
+        "an": 31400,
+        "an_afr": 8708,
+        "an_afr_female": 3674,
+        "an_afr_male": 5034,
+        "an_amr": 848,
+        "an_amr_female": 414,
+        "an_amr_male": 434,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1560,
+        "an_eas_female": 538,
+        "an_eas_male": 1022,
+        "an_female": 13926,
+        "an_fin": 3476,
+        "an_fin_female": 1846,
+        "an_fin_male": 1630,
+        "an_male": 17474,
+        "an_nfe": 15430,
+        "an_nfe_est": 4592,
+        "an_nfe_female": 6812,
+        "an_nfe_male": 8618,
+        "an_nfe_nwe": 8596,
+        "an_nfe_onf": 2136,
+        "an_nfe_seu": 106,
+        "an_oth": 1088,
+        "an_oth_female": 562,
+        "an_oth_male": 526
+       },
+       "ref": "T"
+      },
+      "vcf": {
+       "alt": "A",
+       "position": "5248232",
+       "ref": "T"
+      }
+     },
+     {
+      "_id": "chr11:g.5248232T>C",
+      "_score": 17.140963,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 2.689
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "C",
+       "ref": "T",
+       "vartype": "snv"
+      },
+      "vcf": {
+       "alt": "C",
+       "position": "5248232",
+       "ref": "T"
+      }
+     },
+     {
+      "_id": "chr11:g.5248232T>G",
+      "_score": 17.140778,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 0.066
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "G",
+       "ref": "T",
+       "vartype": "snv"
+      },
+      "vcf": {
+       "alt": "G",
+       "position": "5248232",
+       "ref": "T"
+      }
+     }
+    ]
+   }
+  },
+  "ClinVar:VCV000015175@2019-01": {
+   "record_id": "ClinVar:VCV000015175@2019-01",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2019-01 (2019-01-03)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/15175/",
+   "retrieved_at": "2026-11-17T02:14:00.107449+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "30214",
+    "type": "single nucleotide variant",
+    "name": "NM_000518.4(HBB):c.20A>C (p.Glu7Ala)",
+    "gene_symbol": "HBB",
+    "clnsig": "other",
+    "last_evaluated": "Dec 12, 2017",
+    "rcv": "RCV000016352",
+    "phenotype_list": "HEMOGLOBIN G (MAKASSAR)",
+    "origin": "germline",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "11",
+    "start": "5227002",
+    "ref": "T",
+    "alt": "G",
+    "review_status": "no assertion criteria provided",
+    "n_submitters": "1",
+    "variation_id": "15175",
+    "ref_vcf": "",
+    "alt_vcf": "",
+    "pos_vcf": "",
+    "somatic_clinical_impact": "",
+    "oncogenicity": "",
+    "rsid": "rs334",
+    "submissions": [],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "other",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "1",
+      "last_evaluated": "Feb 27, 2017",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "other",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "1",
+      "last_evaluated": "Dec 12, 2017",
+      "release_date": "2019-01-03"
+     }
+    ]
+   }
+  },
+  "ClinVar:VCV000015333@2019-01": {
+   "record_id": "ClinVar:VCV000015333@2019-01",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2019-01 (2019-01-03)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/15333/",
+   "retrieved_at": "2026-11-17T02:14:00.107508+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "30372",
+    "type": "single nucleotide variant",
+    "name": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+    "gene_symbol": "HBB",
+    "clnsig": "Pathogenic",
+    "last_evaluated": "Sep 16, 2018",
+    "rcv": "RCV000477892;RCV000477892;RCV000723337;RCV000016879;RCV000016573;RCV000016576;RCV000016877;RCV000016579;RCV000016580;RCV000016286;RCV000030905;RCV000016574;RCV000477892;RCV000477892;RCV000623118;RCV000016575;RCV000016577;RCV000477892;RCV000477892;RCV000576548;RCV000224000;RCV000506033",
+    "phenotype_list": "Beta-thalassemia, dominant inclusion body type;Fetal hemoglobin quantitative trait locus 1;Fetal hemoglobin quantitative trait locus 1;HEMOGLOBIN JAMAICA PLAIN;HEMOGLOBIN S;HEMOGLOBIN S (ANTILLES);HEMOGLOBIN S (CAMEROON);HEMOGLOBIN S (PROVIDENCE);HEMOGLOBIN S (TRAVIS);HEMOGLOBIN ZIGUINCHOR;HEMOGLOBIN ZIGUINCHOR;Hb SS disease;Hb SS disease;Heinz body anemia;Inborn genetic diseases;Malaria, resistance to;Sickle cell-Hemoglobin O Arab disease;Susceptibility to malaria;beta Thalassemia;beta Thalassemia;not provided;not specified",
+    "origin": "germline;maternal;paternal;unknown",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "11",
+    "start": "5227002",
+    "ref": "T",
+    "alt": "A",
+    "review_status": "no interpretation for the single variant",
+    "n_submitters": "13",
+    "variation_id": "15333",
+    "ref_vcf": "",
+    "alt_vcf": "",
+    "pos_vcf": "",
+    "somatic_clinical_impact": "",
+    "oncogenicity": "",
+    "rsid": "rs334",
+    "submissions": [],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "Pathogenic, other, protective",
+      "review_status": "no assertion for the individual variant",
+      "n_submitters": "9",
+      "last_evaluated": "Dec 11, 2017",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "Pathogenic",
+      "review_status": "no interpretation for the single variant",
+      "n_submitters": "13",
+      "last_evaluated": "Sep 16, 2018",
+      "release_date": "2019-01-03"
+     }
+    ]
+   }
+  },
+  "GWAS:rs334": {
+   "record_id": "GWAS:rs334",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T01:55:49.450125+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 228393675,
+      "accession_id": "GCST90476378",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 9e-19,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -19,
+      "or_value": null,
+      "beta": "0.3967 unit decrease",
+      "risk_frequency": "0.9467",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005393",
+        "efo_trait": "gout"
+       }
+      ],
+      "reported_trait": [
+       "Gout (PheCode 274.1)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228392682,
+      "accession_id": "GCST90476301",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2.9999999999999998e-36,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -36,
+      "or_value": null,
+      "beta": "0.1372 unit increase",
+      "risk_frequency": "0.9464",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004309",
+        "efo_trait": "platelet count"
+       }
+      ],
+      "reported_trait": [
+       "platelet count (minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 1,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228381405,
+      "accession_id": "GCST90480126",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-17,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -17,
+      "or_value": null,
+      "beta": "0.268 unit decrease",
+      "risk_frequency": "0.9621",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0024633",
+        "efo_trait": "hypertensive nephropathy"
+       }
+      ],
+      "reported_trait": [
+       "Hypertensive chronic kidney disease (PheCode 401.22)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 2,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228380275,
+      "accession_id": "GCST90476298",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-36,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -36,
+      "or_value": null,
+      "beta": "0.1376 unit increase",
+      "risk_frequency": "0.9463",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004309",
+        "efo_trait": "platelet count"
+       }
+      ],
+      "reported_trait": [
+       "platelet count (mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 3,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228373913,
+      "accession_id": "GCST90480398",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-11,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.362 unit increase",
+      "risk_frequency": "0.9615",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0006678",
+        "efo_trait": "bladder calculus"
+       }
+      ],
+      "reported_trait": [
+       "Urinary calculus (PheCode 594)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 4,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228370982,
+      "accession_id": "GCST90480393",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-13,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.3762 unit increase",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0002907",
+        "efo_trait": "microscopic hematuria"
+       }
+      ],
+      "reported_trait": [
+       "Microscopic hematuria (PheCode 593.2)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 5,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228368095,
+      "accession_id": "GCST90480380",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-19,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -19,
+      "or_value": null,
+      "beta": "0.2237 unit decrease",
+      "risk_frequency": "0.9618",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0001106",
+        "efo_trait": "kidney failure"
+       }
+      ],
+      "reported_trait": [
+       "Renal failure (PheCode 585)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 6,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228367208,
+      "accession_id": "GCST90480379",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-25,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -25,
+      "or_value": null,
+      "beta": "0.2806 unit decrease",
+      "risk_frequency": "0.9619",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005300",
+        "efo_trait": "chronic kidney disease"
+       }
+      ],
+      "reported_trait": [
+       "Chronic renal failure [CKD] (PheCode 585.3)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 7,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228367171,
+      "accession_id": "GCST90476396",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-37,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -37,
+      "or_value": null,
+      "beta": "0.1369 unit decrease",
+      "risk_frequency": "0.9464",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009282",
+        "efo_trait": "sodium measurement"
+       }
+      ],
+      "reported_trait": [
+       "sodium (minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 8,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228366588,
+      "accession_id": "GCST90480377",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 9e-31,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -31,
+      "or_value": null,
+      "beta": "0.3578 unit decrease",
+      "risk_frequency": "0.9618",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005300",
+        "efo_trait": "chronic kidney disease"
+       }
+      ],
+      "reported_trait": [
+       "Chronic Kidney Disease, Stage III (PheCode 585.33)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 9,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228362577,
+      "accession_id": "GCST90476394",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-88,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -88,
+      "or_value": null,
+      "beta": "0.2169 unit decrease",
+      "risk_frequency": "0.9464",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009282",
+        "efo_trait": "sodium measurement"
+       }
+      ],
+      "reported_trait": [
+       "Sodium (mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 10,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228362263,
+      "accession_id": "GCST90476392",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-68,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -68,
+      "or_value": null,
+      "beta": "0.1844 unit decrease",
+      "risk_frequency": "0.9465",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009282",
+        "efo_trait": "sodium measurement"
+       }
+      ],
+      "reported_trait": [
+       "sodium (maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 11,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228361475,
+      "accession_id": "GCST90475778",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-323,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -323,
+      "or_value": null,
+      "beta": "2.241 unit decrease",
+      "risk_frequency": "0.9482",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0003689",
+        "efo_trait": "familial hemolytic anemia"
+       }
+      ],
+      "reported_trait": [
+       "Hereditary hemolytic anemias (PheCode 282)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 12,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228359244,
+      "accession_id": "GCST90476381",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-17,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -17,
+      "or_value": null,
+      "beta": "0.4348 unit decrease",
+      "risk_frequency": "0.9467",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005393",
+        "efo_trait": "gout"
+       },
+       {
+        "efo_id": "EFO_0007010",
+        "efo_trait": "drug use measurement"
+       }
+      ],
+      "reported_trait": [
+       "Takes medication for gout?"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 13,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228357600,
+      "accession_id": "GCST90476295",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-26,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -26,
+      "or_value": null,
+      "beta": "0.1159 unit increase",
+      "risk_frequency": "0.9464",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004309",
+        "efo_trait": "platelet count"
+       }
+      ],
+      "reported_trait": [
+       "platelet count (maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 14,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228355949,
+      "accession_id": "GCST90475734",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-27,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -27,
+      "or_value": null,
+      "beta": "0.3327 unit decrease",
+      "risk_frequency": "0.9466",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005393",
+        "efo_trait": "gout"
+       }
+      ],
+      "reported_trait": [
+       "Gout (PheCode 274.1)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 15,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228354113,
+      "accession_id": "GCST90475730",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-27,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -27,
+      "or_value": null,
+      "beta": "0.3283 unit decrease",
+      "risk_frequency": "0.9466",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0022208",
+        "efo_trait": "crystal arthropathy"
+       },
+       {
+        "efo_id": "MONDO_0005393",
+        "efo_trait": "gout"
+       }
+      ],
+      "reported_trait": [
+       "Gout and other crystal arthrop (PheCode 274)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 16,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228349058,
+      "accession_id": "GCST90475537",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-51,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -51,
+      "or_value": null,
+      "beta": "0.2316 unit decrease",
+      "risk_frequency": "0.9472",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004833",
+        "efo_trait": "neutrophil count"
+       }
+      ],
+      "reported_trait": [
+       "neutrophil (fraction, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 17,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228346826,
+      "accession_id": "GCST90480689",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3e-22,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -22,
+      "or_value": null,
+      "beta": "0.4163 unit decrease",
+      "risk_frequency": "0.9626",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005393",
+        "efo_trait": "gout"
+       }
+      ],
+      "reported_trait": [
+       "Gout (PheCode 274.1)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 18,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228346211,
+      "accession_id": "GCST90475534",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-26,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -26,
+      "or_value": null,
+      "beta": "0.1738 unit decrease",
+      "risk_frequency": "0.9472",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004833",
+        "efo_trait": "neutrophil count"
+       }
+      ],
+      "reported_trait": [
+       "neutrophil (fraction, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 19,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228346193,
+      "accession_id": "GCST90480652",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3.0000000000000003e-31,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -31,
+      "or_value": null,
+      "beta": "0.1401 unit increase",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004309",
+        "efo_trait": "platelet count"
+       }
+      ],
+      "reported_trait": [
+       "platelet count (minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 20,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228346167,
+      "accession_id": "GCST90480688",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 5.999999999999999e-20,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -20,
+      "or_value": null,
+      "beta": "0.4477 unit decrease",
+      "risk_frequency": "0.9626",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005393",
+        "efo_trait": "gout"
+       },
+       {
+        "efo_id": "EFO_0007010",
+        "efo_trait": "drug use measurement"
+       }
+      ],
+      "reported_trait": [
+       "Takes medication for gout?"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 21,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228339841,
+      "accession_id": "GCST90475926",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-14,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -14,
+      "or_value": null,
+      "beta": "0.2471 unit decrease",
+      "risk_frequency": "0.9469",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0024633",
+        "efo_trait": "hypertensive nephropathy"
+       }
+      ],
+      "reported_trait": [
+       "Hypertensive chronic kidney disease (PheCode 401.22)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 22,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228335212,
+      "accession_id": "GCST90476127",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 8e-26,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -26,
+      "or_value": null,
+      "beta": "0.335 unit decrease",
+      "risk_frequency": "0.9466",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005300",
+        "efo_trait": "chronic kidney disease"
+       }
+      ],
+      "reported_trait": [
+       "Chronic Kidney Disease, Stage III (PheCode 585.33)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 23,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228335162,
+      "accession_id": "GCST90480651",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 6.0000000000000005e-30,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -30,
+      "or_value": null,
+      "beta": "0.139 unit increase",
+      "risk_frequency": "0.9613",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004309",
+        "efo_trait": "platelet count"
+       }
+      ],
+      "reported_trait": [
+       "platelet count (mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 24,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228333775,
+      "accession_id": "GCST90476122",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-22,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -22,
+      "or_value": null,
+      "beta": "0.2656 unit decrease",
+      "risk_frequency": "0.9467",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005300",
+        "efo_trait": "chronic kidney disease"
+       }
+      ],
+      "reported_trait": [
+       "Chronic renal failure [CKD] (PheCode 585.3)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 25,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228332042,
+      "accession_id": "GCST90476117",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-17,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -17,
+      "or_value": null,
+      "beta": "0.2124 unit decrease",
+      "risk_frequency": "0.9465",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0001106",
+        "efo_trait": "kidney failure"
+       }
+      ],
+      "reported_trait": [
+       "Renal failure (PheCode 585)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 26,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228325274,
+      "accession_id": "GCST90475791",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-11,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.3237 unit decrease",
+      "risk_frequency": "0.9467",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0002280",
+        "efo_trait": "anemia"
+       },
+       {
+        "efo_id": "MONDO_0005300",
+        "efo_trait": "chronic kidney disease"
+       }
+      ],
+      "reported_trait": [
+       "Anemia in chronic kidney disease (PheCode 285.21)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 27,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228324359,
+      "accession_id": "GCST90480650",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 7e-22,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -22,
+      "or_value": null,
+      "beta": "0.1158 unit increase",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004309",
+        "efo_trait": "platelet count"
+       }
+      ],
+      "reported_trait": [
+       "platelet count (maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 28,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228310394,
+      "accession_id": "GCST90479881",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 6e-14,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -14,
+      "or_value": null,
+      "beta": "0.2693 unit decrease",
+      "risk_frequency": "0.9618",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004997",
+        "efo_trait": "type 2 diabetes nephropathy"
+       }
+      ],
+      "reported_trait": [
+       "Type 2 diabetes with renal manifestations (PheCode 250.22)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 29,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228309173,
+      "accession_id": "GCST90479934",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-31,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -31,
+      "or_value": null,
+      "beta": "0.3479 unit decrease",
+      "risk_frequency": "0.9618",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0022208",
+        "efo_trait": "crystal arthropathy"
+       },
+       {
+        "efo_id": "MONDO_0005393",
+        "efo_trait": "gout"
+       }
+      ],
+      "reported_trait": [
+       "Gout and other crystal arthrop (PheCode 274)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 30,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228307926,
+      "accession_id": "GCST90479971",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-13,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.3381 unit decrease",
+      "risk_frequency": "0.9618",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0002280",
+        "efo_trait": "anemia"
+       },
+       {
+        "efo_id": "MONDO_0005300",
+        "efo_trait": "chronic kidney disease"
+       }
+      ],
+      "reported_trait": [
+       "Anemia in chronic kidney disease (PheCode 285.21)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 31,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228307512,
+      "accession_id": "GCST90479931",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-31,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -31,
+      "or_value": null,
+      "beta": "0.3534 unit decrease",
+      "risk_frequency": "0.9618",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005393",
+        "efo_trait": "gout"
+       }
+      ],
+      "reported_trait": [
+       "Gout (PheCode 274.1)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 32,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228286464,
+      "accession_id": "GCST90475437",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-49,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -49,
+      "or_value": null,
+      "beta": "0.2095 unit increase",
+      "risk_frequency": "0.9456",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "lymphocyte (fraction, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 33,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228278697,
+      "accession_id": "GCST90475434",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 8e-83,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -83,
+      "or_value": null,
+      "beta": "0.2546 unit increase",
+      "risk_frequency": "0.9456",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "lymphocyte (fraction, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 34,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228277704,
+      "accession_id": "GCST90476141",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-11,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.3517 unit increase",
+      "risk_frequency": "0.9462",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0002907",
+        "efo_trait": "microscopic hematuria"
+       }
+      ],
+      "reported_trait": [
+       "Microscopic hematuria (PheCode 593.2)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 35,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228277549,
+      "accession_id": "GCST90475669",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-12,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.2586 unit decrease",
+      "risk_frequency": "0.9466",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004997",
+        "efo_trait": "type 2 diabetes nephropathy"
+       }
+      ],
+      "reported_trait": [
+       "Type 2 diabetes with renal manifestations (PheCode 250.22)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 36,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228271838,
+      "accession_id": "GCST90475431",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 5e-80,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -80,
+      "or_value": null,
+      "beta": "0.2415 unit increase",
+      "risk_frequency": "0.9456",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "lymphocyte (fraction, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 37,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228267111,
+      "accession_id": "GCST90475428",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-52,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -52,
+      "or_value": null,
+      "beta": "0.2061 unit increase",
+      "risk_frequency": "0.9458",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "lymphocyte (absolute count, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 38,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228259984,
+      "accession_id": "GCST90475425",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 5e-66,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -66,
+      "or_value": null,
+      "beta": "0.23 unit increase",
+      "risk_frequency": "0.9457",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "lymphocyte (absolute count, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 39,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228258447,
+      "accession_id": "GCST90475540",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3e-51,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -51,
+      "or_value": null,
+      "beta": "0.2245 unit decrease",
+      "risk_frequency": "0.9472",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004833",
+        "efo_trait": "neutrophil count"
+       }
+      ],
+      "reported_trait": [
+       "neutrophil (fraction, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 40,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228256201,
+      "accession_id": "GCST90475422",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-53,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -53,
+      "or_value": null,
+      "beta": "0.206 unit increase",
+      "risk_frequency": "0.9457",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "lymphocyte (absolute count, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 41,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228241249,
+      "accession_id": "GCST90479526",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-18,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -18,
+      "or_value": null,
+      "beta": "0.09313 unit increase",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0005265",
+        "efo_trait": "blood urea nitrogen amount"
+       }
+      ],
+      "reported_trait": [
+       "Blood urea nitrogen (BUN, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 42,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228239494,
+      "accession_id": "GCST90479525",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3.0000000000000002e-18,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -18,
+      "or_value": null,
+      "beta": "0.09728 unit increase",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0005265",
+        "efo_trait": "blood urea nitrogen amount"
+       }
+      ],
+      "reported_trait": [
+       "Blood urea nitrogen (BUN, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 43,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228237399,
+      "accession_id": "GCST90479524",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-12,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.0794 unit increase",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0005265",
+        "efo_trait": "blood urea nitrogen amount"
+       }
+      ],
+      "reported_trait": [
+       "Blood urea nitrogen (BUN, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 44,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228212363,
+      "accession_id": "GCST90480704",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-33,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -33,
+      "or_value": null,
+      "beta": "0.1333 unit decrease",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009282",
+        "efo_trait": "sodium measurement"
+       }
+      ],
+      "reported_trait": [
+       "sodium (minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 45,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228210624,
+      "accession_id": "GCST90480703",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 8e-78,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -78,
+      "or_value": null,
+      "beta": "0.2141 unit decrease",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009282",
+        "efo_trait": "sodium measurement"
+       }
+      ],
+      "reported_trait": [
+       "Sodium (mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 46,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228210580,
+      "accession_id": "GCST90479633",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 7e-13,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.0882 unit increase",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004612",
+        "efo_trait": "high density lipoprotein cholesterol measurement"
+       }
+      ],
+      "reported_trait": [
+       "high density lipoprotein cholesterol (HDLC, minimm, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 47,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228208529,
+      "accession_id": "GCST90480702",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-63,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -63,
+      "or_value": null,
+      "beta": "0.1837 unit decrease",
+      "risk_frequency": "0.9615",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009282",
+        "efo_trait": "sodium measurement"
+       }
+      ],
+      "reported_trait": [
+       "sodium (maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 48,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228204873,
+      "accession_id": "GCST90479632",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-13,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.09059 unit increase",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004612",
+        "efo_trait": "high density lipoprotein cholesterol measurement"
+       }
+      ],
+      "reported_trait": [
+       "high density lipoprotein cholesterol (HDLC, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 49,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228201371,
+      "accession_id": "GCST90479668",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 6.0000000000000005e-46,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -46,
+      "or_value": null,
+      "beta": "0.2099 unit increase",
+      "risk_frequency": "0.9611",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "lymphocyte (fraction, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 50,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228199094,
+      "accession_id": "GCST90479631",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-12,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.08531 unit increase",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004612",
+        "efo_trait": "high density lipoprotein cholesterol measurement"
+       }
+      ],
+      "reported_trait": [
+       "high density lipoprotein cholesterol (HDLC, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 51,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228198856,
+      "accession_id": "GCST90479667",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 8.999999999999999e-72,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -72,
+      "or_value": null,
+      "beta": "0.2565 unit increase",
+      "risk_frequency": "0.9611",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "lymphocyte (fraction, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 52,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228197350,
+      "accession_id": "GCST90479713",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-26,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -26,
+      "or_value": null,
+      "beta": "0.1796 unit decrease",
+      "risk_frequency": "0.9639",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004833",
+        "efo_trait": "neutrophil count"
+       }
+      ],
+      "reported_trait": [
+       "neutrophil (fraction, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 53,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228195355,
+      "accession_id": "GCST90480138",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-12,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.3798 unit decrease",
+      "risk_frequency": "0.9617",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0004598",
+        "efo_trait": "acute cor pulmonale"
+       }
+      ],
+      "reported_trait": [
+       "Acute pulmonary heart disease (PheCode 415.1)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 54,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228194638,
+      "accession_id": "GCST90480137",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 9e-12,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.373 unit decrease",
+      "risk_frequency": "0.9617",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_1001408",
+        "efo_trait": "Pulmonary Infarction"
+       },
+       {
+        "efo_id": "MONDO_0005279",
+        "efo_trait": "pulmonary embolism"
+       }
+      ],
+      "reported_trait": [
+       "Pulmonary embolism and infarction, acute (PheCode 415.11)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 55,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228194471,
+      "accession_id": "GCST90479630",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 8e-76,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -76,
+      "or_value": null,
+      "beta": "0.1883 unit increase",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004348",
+        "efo_trait": "hematocrit"
+       }
+      ],
+      "reported_trait": [
+       "hematocrit (minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 56,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228193725,
+      "accession_id": "GCST90479666",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-68,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -68,
+      "or_value": null,
+      "beta": "0.2435 unit increase",
+      "risk_frequency": "0.9611",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "lymphocyte (fraction, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 57,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228191476,
+      "accession_id": "GCST90479629",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-103,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -103,
+      "or_value": null,
+      "beta": "0.2308 unit increase",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004348",
+        "efo_trait": "hematocrit"
+       }
+      ],
+      "reported_trait": [
+       "hematocrit (mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 58,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228190126,
+      "accession_id": "GCST90479665",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-51,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -51,
+      "or_value": null,
+      "beta": "0.208 unit increase",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "lymphocyte (absolute count, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 59,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228188684,
+      "accession_id": "GCST90479714",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 5e-48,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -48,
+      "or_value": null,
+      "beta": "0.2403 unit decrease",
+      "risk_frequency": "0.9639",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004833",
+        "efo_trait": "neutrophil count"
+       }
+      ],
+      "reported_trait": [
+       "neutrophil (fraction, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 60,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228186921,
+      "accession_id": "GCST90479628",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2.9999999999999997e-118,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -118,
+      "or_value": null,
+      "beta": "0.2615 unit increase",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004348",
+        "efo_trait": "hematocrit"
+       }
+      ],
+      "reported_trait": [
+       "hematocrit (maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 61,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228186495,
+      "accession_id": "GCST90479664",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-61,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -61,
+      "or_value": null,
+      "beta": "0.2302 unit increase",
+      "risk_frequency": "0.9613",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "lymphocyte (absolute count, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 62,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228182653,
+      "accession_id": "GCST90479600",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-23,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -23,
+      "or_value": null,
+      "beta": "0.1196 unit increase",
+      "risk_frequency": "0.9616",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003747",
+        "efo_trait": "glomerular filtration rate"
+       }
+      ],
+      "reported_trait": [
+       "estimated glomerular filtration rate (eGFR, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 63,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228182148,
+      "accession_id": "GCST90479663",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2.9999999999999996e-49,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -49,
+      "or_value": null,
+      "beta": "0.2043 unit increase",
+      "risk_frequency": "0.9613",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "lymphocyte (absolute count, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 64,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228180078,
+      "accession_id": "GCST90479563",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-39,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -39,
+      "or_value": null,
+      "beta": "0.142 unit decrease",
+      "risk_frequency": "0.9615",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050096",
+        "efo_trait": "serum creatinine amount"
+       }
+      ],
+      "reported_trait": [
+       "creatinine (minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 65,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228177994,
+      "accession_id": "GCST90479599",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 7.000000000000001e-31,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -31,
+      "or_value": null,
+      "beta": "0.1405 unit increase",
+      "risk_frequency": "0.9616",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003747",
+        "efo_trait": "glomerular filtration rate"
+       }
+      ],
+      "reported_trait": [
+       "estimated glomerular filtration rate (eGFR, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 66,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228176113,
+      "accession_id": "GCST90479502",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-73,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -73,
+      "or_value": null,
+      "beta": "0.2356 unit increase",
+      "risk_frequency": "0.9615",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004541",
+        "efo_trait": "HbA1c measurement"
+       }
+      ],
+      "reported_trait": [
+       "Hemoglobin A1c (HbA1c, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 67,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228175814,
+      "accession_id": "GCST90479715",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-46,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -46,
+      "or_value": null,
+      "beta": "0.2319 unit decrease",
+      "risk_frequency": "0.9639",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004833",
+        "efo_trait": "neutrophil count"
+       }
+      ],
+      "reported_trait": [
+       "neutrophil (fraction, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 68,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228174451,
+      "accession_id": "GCST90479562",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-37,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -37,
+      "or_value": null,
+      "beta": "0.1315 unit decrease",
+      "risk_frequency": "0.9616",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050096",
+        "efo_trait": "serum creatinine amount"
+       }
+      ],
+      "reported_trait": [
+       "creatinine (mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 69,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228171848,
+      "accession_id": "GCST90479598",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-31,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -31,
+      "or_value": null,
+      "beta": "0.1426 unit increase",
+      "risk_frequency": "0.9616",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003747",
+        "efo_trait": "glomerular filtration rate"
+       }
+      ],
+      "reported_trait": [
+       "estimated glomerular filtration rate (eGFR, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 70,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228171630,
+      "accession_id": "GCST90479541",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3.0000000000000002e-25,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -25,
+      "or_value": null,
+      "beta": "0.1156 unit decrease",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_1000959",
+        "efo_trait": "amount of chloride"
+       }
+      ],
+      "reported_trait": [
+       "chloride  (minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 71,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228171106,
+      "accession_id": "GCST90479501",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-55,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -55,
+      "or_value": null,
+      "beta": "0.2069 unit increase",
+      "risk_frequency": "0.9616",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004541",
+        "efo_trait": "HbA1c measurement"
+       }
+      ],
+      "reported_trait": [
+       "Hemoglobin A1c (HbA1c, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 72,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228170927,
+      "accession_id": "GCST90479540",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-52,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -52,
+      "or_value": null,
+      "beta": "0.1753 unit decrease",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_1000959",
+        "efo_trait": "amount of chloride"
+       }
+      ],
+      "reported_trait": [
+       "chloride  (mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 73,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228170648,
+      "accession_id": "GCST90479561",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-28,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -28,
+      "or_value": null,
+      "beta": "0.1093 unit decrease",
+      "risk_frequency": "0.9616",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050096",
+        "efo_trait": "serum creatinine amount"
+       }
+      ],
+      "reported_trait": [
+       "creatinine (maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 74,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228169640,
+      "accession_id": "GCST90479539",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-49,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -49,
+      "or_value": null,
+      "beta": "0.1677 unit decrease",
+      "risk_frequency": "0.9614",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_1000959",
+        "efo_trait": "amount of chloride"
+       }
+      ],
+      "reported_trait": [
+       "chloride  (maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 75,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228168591,
+      "accession_id": "GCST90479500",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 8e-43,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -43,
+      "or_value": null,
+      "beta": "0.1778 unit increase",
+      "risk_frequency": "0.9616",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004541",
+        "efo_trait": "HbA1c measurement"
+       }
+      ],
+      "reported_trait": [
+       "Hemoglobin A1c (HbA1c, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 76,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228146201,
+      "accession_id": "GCST90475355",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-14,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -14,
+      "or_value": null,
+      "beta": "0.08613 unit increase",
+      "risk_frequency": "0.9464",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004612",
+        "efo_trait": "high density lipoprotein cholesterol measurement"
+       }
+      ],
+      "reported_trait": [
+       "high density lipoprotein cholesterol (HDLC, minimm, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 77,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228135672,
+      "accession_id": "GCST90475167",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-20,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -20,
+      "or_value": null,
+      "beta": "0.09315 unit increase",
+      "risk_frequency": "0.9464",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0005265",
+        "efo_trait": "blood urea nitrogen amount"
+       }
+      ],
+      "reported_trait": [
+       "Blood urea nitrogen (BUN, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 78,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228130889,
+      "accession_id": "GCST90475164",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-19,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -19,
+      "or_value": null,
+      "beta": "0.09632 unit increase",
+      "risk_frequency": "0.9464",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0005265",
+        "efo_trait": "blood urea nitrogen amount"
+       }
+      ],
+      "reported_trait": [
+       "Blood urea nitrogen (BUN, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 79,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228126930,
+      "accession_id": "GCST90475161",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3.0000000000000003e-13,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.07876 unit increase",
+      "risk_frequency": "0.9464",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0005265",
+        "efo_trait": "blood urea nitrogen amount"
+       }
+      ],
+      "reported_trait": [
+       "Blood urea nitrogen (BUN, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 80,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228122128,
+      "accession_id": "GCST90475351",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3.0000000000000002e-15,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -15,
+      "or_value": null,
+      "beta": "0.08832 unit increase",
+      "risk_frequency": "0.9464",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004612",
+        "efo_trait": "high density lipoprotein cholesterol measurement"
+       }
+      ],
+      "reported_trait": [
+       "high density lipoprotein cholesterol (HDLC, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 81,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228113945,
+      "accession_id": "GCST90475296",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 6.000000000000001e-13,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.08947 unit decrease",
+      "risk_frequency": "0.946",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004842",
+        "efo_trait": "eosinophil count"
+       }
+      ],
+      "reported_trait": [
+       "eosinophil (fraction, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 82,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228103448,
+      "accession_id": "GCST90475347",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-13,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.08315 unit increase",
+      "risk_frequency": "0.9464",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004612",
+        "efo_trait": "high density lipoprotein cholesterol measurement"
+       }
+      ],
+      "reported_trait": [
+       "high density lipoprotein cholesterol (HDLC, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 83,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228096836,
+      "accession_id": "GCST90475343",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 5.9999999999999994e-80,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -80,
+      "or_value": null,
+      "beta": "0.1853 unit increase",
+      "risk_frequency": "0.9464",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004348",
+        "efo_trait": "hematocrit"
+       }
+      ],
+      "reported_trait": [
+       "hematocrit (minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 84,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228089461,
+      "accession_id": "GCST90475340",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-113,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -113,
+      "or_value": null,
+      "beta": "0.2276 unit increase",
+      "risk_frequency": "0.9464",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004348",
+        "efo_trait": "hematocrit"
+       }
+      ],
+      "reported_trait": [
+       "hematocrit (mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 85,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228078432,
+      "accession_id": "GCST90475231",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 9e-40,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -40,
+      "or_value": null,
+      "beta": "0.1352 unit decrease",
+      "risk_frequency": "0.9465",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050096",
+        "efo_trait": "serum creatinine amount"
+       }
+      ],
+      "reported_trait": [
+       "creatinine (minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 86,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228077538,
+      "accession_id": "GCST90475337",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 9e-131,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -131,
+      "or_value": null,
+      "beta": "0.2578 unit increase",
+      "risk_frequency": "0.9464",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004348",
+        "efo_trait": "hematocrit"
+       }
+      ],
+      "reported_trait": [
+       "hematocrit (maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 87,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228073065,
+      "accession_id": "GCST90475284",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4.9999999999999997e-23,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -23,
+      "or_value": null,
+      "beta": "0.1155 unit increase",
+      "risk_frequency": "0.9463",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003747",
+        "efo_trait": "glomerular filtration rate"
+       }
+      ],
+      "reported_trait": [
+       "estimated glomerular filtration rate (eGFR, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 88,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228067534,
+      "accession_id": "GCST90475096",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 9e-85,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -85,
+      "or_value": null,
+      "beta": "0.2399 unit increase",
+      "risk_frequency": "0.9461",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004541",
+        "efo_trait": "HbA1c measurement"
+       }
+      ],
+      "reported_trait": [
+       "Hemoglobin A1c (HbA1c, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 89,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228063677,
+      "accession_id": "GCST90475228",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 8.999999999999999e-39,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -39,
+      "or_value": null,
+      "beta": "0.1261 unit decrease",
+      "risk_frequency": "0.9465",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050096",
+        "efo_trait": "serum creatinine amount"
+       }
+      ],
+      "reported_trait": [
+       "creatinine (mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 90,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228051638,
+      "accession_id": "GCST90475225",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 5e-28,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -28,
+      "or_value": null,
+      "beta": "0.1039 unit decrease",
+      "risk_frequency": "0.9465",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050096",
+        "efo_trait": "serum creatinine amount"
+       }
+      ],
+      "reported_trait": [
+       "creatinine (maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 91,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228051243,
+      "accession_id": "GCST90475196",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 9e-29,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -29,
+      "or_value": null,
+      "beta": "0.1208 unit decrease",
+      "risk_frequency": "0.9465",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_1000959",
+        "efo_trait": "amount of chloride"
+       }
+      ],
+      "reported_trait": [
+       "chloride  (minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 92,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228048215,
+      "accession_id": "GCST90475093",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2.9999999999999996e-65,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -65,
+      "or_value": null,
+      "beta": "0.2108 unit increase",
+      "risk_frequency": "0.9462",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004541",
+        "efo_trait": "HbA1c measurement"
+       }
+      ],
+      "reported_trait": [
+       "Hemoglobin A1c (HbA1c, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 93,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228047756,
+      "accession_id": "GCST90475279",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-31,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -31,
+      "or_value": null,
+      "beta": "0.1376 unit increase",
+      "risk_frequency": "0.9463",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003747",
+        "efo_trait": "glomerular filtration rate"
+       }
+      ],
+      "reported_trait": [
+       "estimated glomerular filtration rate (eGFR, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 94,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228046414,
+      "accession_id": "GCST90475299",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-12,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.08914 unit decrease",
+      "risk_frequency": "0.946",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004842",
+        "efo_trait": "eosinophil count"
+       }
+      ],
+      "reported_trait": [
+       "eosinophil (fraction, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 95,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228046064,
+      "accession_id": "GCST90475193",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-59,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -59,
+      "or_value": null,
+      "beta": "0.1785 unit decrease",
+      "risk_frequency": "0.9465",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_1000959",
+        "efo_trait": "amount of chloride"
+       }
+      ],
+      "reported_trait": [
+       "chloride  (mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 96,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228043286,
+      "accession_id": "GCST90475191",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-54,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -54,
+      "or_value": null,
+      "beta": "0.1703 unit decrease",
+      "risk_frequency": "0.9465",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_1000959",
+        "efo_trait": "amount of chloride"
+       }
+      ],
+      "reported_trait": [
+       "chloride  (maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 97,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228039460,
+      "accession_id": "GCST90475090",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-49,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -49,
+      "or_value": null,
+      "beta": "0.1813 unit increase",
+      "risk_frequency": "0.9462",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004541",
+        "efo_trait": "HbA1c measurement"
+       }
+      ],
+      "reported_trait": [
+       "Hemoglobin A1c (HbA1c, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 98,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 165398249,
+      "accession_id": "GCST90094969",
+      "pubmed_id": "34951656",
+      "first_author": "Downie CG",
+      "p_value": 2e-24,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -24,
+      "or_value": null,
+      "beta": "0.8168 unit decrease",
+      "risk_frequency": "0.0117",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004541",
+        "efo_trait": "HbA1c measurement"
+       }
+      ],
+      "reported_trait": [
+       "Glycated haemoglobin HbA1c levels adjusted for BMI"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 99,
+      "_pubdate": "2022-03-01"
+     },
+     {
+      "association_id": 165398207,
+      "accession_id": "GCST90094968",
+      "pubmed_id": "34951656",
+      "first_author": "Downie CG",
+      "p_value": 5e-13,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.4658 unit decrease",
+      "risk_frequency": "0.0557",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004541",
+        "efo_trait": "HbA1c measurement"
+       }
+      ],
+      "reported_trait": [
+       "Glycated haemoglobin HbA1c levels adjusted for BMI"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 100,
+      "_pubdate": "2022-03-01"
+     },
+     {
+      "association_id": 165398083,
+      "accession_id": "GCST90094966",
+      "pubmed_id": "34951656",
+      "first_author": "Downie CG",
+      "p_value": 2e-33,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -33,
+      "or_value": null,
+      "beta": "0.601 unit decrease",
+      "risk_frequency": "0.0351",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004541",
+        "efo_trait": "HbA1c measurement"
+       }
+      ],
+      "reported_trait": [
+       "Glycated haemoglobin HbA1c levels adjusted for BMI"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 101,
+      "_pubdate": "2022-03-01"
+     },
+     {
+      "association_id": 143058576,
+      "accession_id": "GCST90446237",
+      "pubmed_id": "39444160",
+      "first_author": "Halligan NLN",
+      "p_value": 5e-19,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -19,
+      "or_value": "2.76",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005249",
+        "efo_trait": "pneumonia"
+       }
+      ],
+      "reported_trait": [
+       "Pneumonia"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 102,
+      "_pubdate": "2025-01-09"
+     },
+     {
+      "association_id": 119588811,
+      "accession_id": "GCST90029164",
+      "pubmed_id": "34376796",
+      "first_author": "Sun Q",
+      "p_value": 4.9999999999999994e-36,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -36,
+      "or_value": null,
+      "beta": "0.42 umol/L decrease",
+      "risk_frequency": "0.0634",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009282",
+        "efo_trait": "sodium measurement"
+       }
+      ],
+      "reported_trait": [
+       "Urinary sodium levels"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 103,
+      "_pubdate": "2022-02-01"
+     },
+     {
+      "association_id": 119588782,
+      "accession_id": "GCST90029161",
+      "pubmed_id": "34376796",
+      "first_author": "Sun Q",
+      "p_value": 3e-32,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -32,
+      "or_value": null,
+      "beta": "0.39 umol/L decrease",
+      "risk_frequency": "0.0634",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009283",
+        "efo_trait": "potassium measurement"
+       }
+      ],
+      "reported_trait": [
+       "Urinary potassium levels"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 104,
+      "_pubdate": "2022-02-01"
+     },
+     {
+      "association_id": 119588747,
+      "accession_id": "GCST90029158",
+      "pubmed_id": "34376796",
+      "first_author": "Sun Q",
+      "p_value": 3e-38,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -38,
+      "or_value": null,
+      "beta": "0.43 umol/L decrease",
+      "risk_frequency": "0.0634",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050096",
+        "efo_trait": "serum creatinine amount"
+       }
+      ],
+      "reported_trait": [
+       "Urinary creatinine levels"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 105,
+      "_pubdate": "2022-02-01"
+     },
+     {
+      "association_id": 101948917,
+      "accession_id": "GCST90101727",
+      "pubmed_id": "34925446",
+      "first_author": "Soremekun O",
+      "p_value": 2e-19,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -19,
+      "or_value": null,
+      "beta": "0.244267 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "Lymphocyte count"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 106,
+      "_pubdate": "2021-12-02"
+     },
+     {
+      "association_id": 101419559,
+      "accession_id": "GCST90178276",
+      "pubmed_id": "35995766",
+      "first_author": "Tahir UA",
+      "p_value": 4e-11,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.480959 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004725",
+        "efo_trait": "metabolite measurement"
+       }
+      ],
+      "reported_trait": [
+       "Metabolite peak levels (QI7019)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 107,
+      "_pubdate": "2022-08-22"
+     },
+     {
+      "association_id": 98156400,
+      "accession_id": "GCST004335",
+      "pubmed_id": "28453575",
+      "first_author": "Hodonsky CJ",
+      "p_value": 1e-22,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -22,
+      "or_value": null,
+      "beta": "3.46 fL increase",
+      "risk_frequency": "0.99",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003460",
+        "efo_trait": "erythrocyte volume"
+       }
+      ],
+      "reported_trait": [
+       "Mean corpuscular volume"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 108,
+      "_pubdate": "2017-04-28"
+     },
+     {
+      "association_id": 97982613,
+      "accession_id": "GCST90100220",
+      "pubmed_id": "35710981",
+      "first_author": "Liu H",
+      "p_value": 1e-16,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -16,
+      "or_value": null,
+      "beta": "8.27 z score decrease",
+      "risk_frequency": "0.0237",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003747",
+        "efo_trait": "glomerular filtration rate"
+       }
+      ],
+      "reported_trait": [
+       "Estimated glomerular filtration rate (creatinine)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 109,
+      "_pubdate": "2022-07-01"
+     },
+     {
+      "association_id": 94366022,
+      "accession_id": "GCST90094657",
+      "pubmed_id": "34582791",
+      "first_author": "Mikhaylova AV",
+      "p_value": 3.0000000000000003e-13,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.1737 cell/L decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "Lymphocyte count"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 110,
+      "_pubdate": "2021-10-07"
+     },
+     {
+      "association_id": 88931747,
+      "accession_id": "GCST012130",
+      "pubmed_id": "34014839",
+      "first_author": "Page GP",
+      "p_value": 4e-10,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "8.2 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009473",
+        "efo_trait": "hemolysis"
+       }
+      ],
+      "reported_trait": [
+       "hemolysis of donated blood (osmotic)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 111,
+      "_pubdate": "2021-07-01"
+     },
+     {
+      "association_id": 62872684,
+      "accession_id": "GCST010736",
+      "pubmed_id": "32600054",
+      "first_author": "Qian H",
+      "p_value": 8e-11,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.53 unit increase",
+      "risk_frequency": "0.01",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007778",
+        "efo_trait": "urinary albumin to creatinine ratio"
+       }
+      ],
+      "reported_trait": [
+       "Urinary albumin-to-creatinine ratio"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 112,
+      "_pubdate": "2020-08-01"
+     },
+     {
+      "association_id": 62491971,
+      "accession_id": "GCST90002320",
+      "pubmed_id": "32888493",
+      "first_author": "Chen MH",
+      "p_value": 5.0000000000000005e-17,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -17,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "0.997505",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "Lymphocyte count"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 113,
+      "_pubdate": "2020-09-03"
+     },
+     {
+      "association_id": 62489754,
+      "accession_id": "GCST90002326",
+      "pubmed_id": "32888493",
+      "first_author": "Chen MH",
+      "p_value": 1e-18,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -18,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "0.997575",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004528",
+        "efo_trait": "mean corpuscular hemoglobin concentration"
+       }
+      ],
+      "reported_trait": [
+       "Mean corpuscular hemoglobin"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 114,
+      "_pubdate": "2020-09-03"
+     },
+     {
+      "association_id": 62422091,
+      "accession_id": "GCST90002315",
+      "pubmed_id": "32888493",
+      "first_author": "Chen MH",
+      "p_value": 1e-19,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -19,
+      "or_value": null,
+      "beta": "0.244267 SD units increase",
+      "risk_frequency": "0.93645",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004587",
+        "efo_trait": "lymphocyte count"
+       }
+      ],
+      "reported_trait": [
+       "Lymphocyte count"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 115,
+      "_pubdate": "2020-09-03"
+     },
+     {
+      "association_id": 61962618,
+      "accession_id": "GCST010725",
+      "pubmed_id": "31844061",
+      "first_author": "Malaria Genomic Epidemiology Network",
+      "p_value": 4e-69,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -69,
+      "or_value": null,
+      "beta": "1.572 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005136",
+        "efo_trait": "malaria"
+       }
+      ],
+      "reported_trait": [
+       "Malaria"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 116,
+      "_pubdate": "2019-12-16"
+     },
+     {
+      "association_id": 61962368,
+      "accession_id": "GCST010725",
+      "pubmed_id": "31844061",
+      "first_author": "Malaria Genomic Epidemiology Network",
+      "p_value": 2e-67,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -67,
+      "or_value": null,
+      "beta": "1.385 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005136",
+        "efo_trait": "malaria"
+       }
+      ],
+      "reported_trait": [
+       "Malaria"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 117,
+      "_pubdate": "2019-12-16"
+     },
+     {
+      "association_id": 61962163,
+      "accession_id": "GCST010725",
+      "pubmed_id": "31844061",
+      "first_author": "Malaria Genomic Epidemiology Network",
+      "p_value": 1e-55,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -55,
+      "or_value": null,
+      "beta": "1.106 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005136",
+        "efo_trait": "malaria"
+       }
+      ],
+      "reported_trait": [
+       "Malaria"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 118,
+      "_pubdate": "2019-12-16"
+     },
+     {
+      "association_id": 52487927,
+      "accession_id": "GCST009032",
+      "pubmed_id": "31675503",
+      "first_author": "Gurdasani D",
+      "p_value": 2e-17,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -17,
+      "or_value": null,
+      "beta": "0.5795535 unit decrease",
+      "risk_frequency": "0.923",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009188",
+        "efo_trait": "red cell distribution width"
+       }
+      ],
+      "reported_trait": [
+       "Red cell distribution width"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 119,
+      "_pubdate": "2019-10-31"
+     },
+     {
+      "association_id": 47885679,
+      "accession_id": "GCST008972",
+      "pubmed_id": "31578528",
+      "first_author": "Tin A",
+      "p_value": 5.000000000000001e-15,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -15,
+      "or_value": null,
+      "beta": "0.2438 mg/dL increase",
+      "risk_frequency": "0.0616",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004531",
+        "efo_trait": "urate measurement"
+       }
+      ],
+      "reported_trait": [
+       "Urate levels"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 120,
+      "_pubdate": "2019-10-01"
+     },
+     {
+      "association_id": 47792475,
+      "accession_id": "GCST008793",
+      "pubmed_id": "31511532",
+      "first_author": "Teumer A",
+      "p_value": 6.000000000000001e-08,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007778",
+        "efo_trait": "urinary albumin to creatinine ratio"
+       }
+      ],
+      "reported_trait": [
+       "Urinary albumin-to-creatinine ratio"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 121,
+      "_pubdate": "2019-09-11"
+     },
+     {
+      "association_id": 47759816,
+      "accession_id": "GCST008745",
+      "pubmed_id": "31451708",
+      "first_author": "Hellwege JN",
+      "p_value": 3.0000000000000004e-08,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "1.957 unit decrease",
+      "risk_frequency": "0.056",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003747",
+        "efo_trait": "glomerular filtration rate"
+       }
+      ],
+      "reported_trait": [
+       "Estimated glomerular filtration rate in non-diabetics"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 122,
+      "_pubdate": "2019-08-26"
+     },
+     {
+      "association_id": 47759441,
+      "accession_id": "GCST008746",
+      "pubmed_id": "31451708",
+      "first_author": "Hellwege JN",
+      "p_value": 7e-13,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "3.793 unit decrease",
+      "risk_frequency": "0.059",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003747",
+        "efo_trait": "glomerular filtration rate"
+       }
+      ],
+      "reported_trait": [
+       "Estimated glomerular filtration rate in diabetes"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 123,
+      "_pubdate": "2019-08-26"
+     },
+     {
+      "association_id": 47469668,
+      "accession_id": "GCST008338",
+      "pubmed_id": "31080455",
+      "first_author": "Fatumo S",
+      "p_value": 1e-12,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0005090",
+        "efo_trait": "basophil count"
+       },
+       {
+        "efo_id": "EFO_0004842",
+        "efo_trait": "eosinophil count"
+       },
+       {
+        "efo_id": "EFO_0004305",
+        "efo_trait": "erythrocyte count"
+       },
+       {
+        "efo_id": "OBA_VT0000217",
+        "efo_trait": "leukocyte quantity"
+       },
+       {
+        "efo_id": "EFO_0004528",
+        "efo_trait": "mean corpuscular hemoglobin concentration"
+       },
+       {
+        "efo_id": "OBA_0003460",
+        "efo_trait": "erythrocyte volume"
+       },
+       {
+        "efo_id": "OBA_0003277",
+        "efo_trait": "platelet volume"
+       },
+       {
+        "efo_id": "EFO_0005091",
+        "efo_trait": "monocyte count"
+       },
+       {
+        "efo_id": "EFO_0004833",
+        "efo_trait": "neutrophil count"
+       },
+       {
+        "efo_id": "EFO_0004309",
+        "efo_trait": "platelet count"
+       }
+      ],
+      "reported_trait": [
+       "Blood cell traits (multivariate analysis)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 124,
+      "_pubdate": "2019-04-26"
+     },
+     {
+      "association_id": 47420665,
+      "accession_id": "GCST008398",
+      "pubmed_id": "31213470",
+      "first_author": "Moon JY",
+      "p_value": 2.9999999999999996e-39,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -39,
+      "or_value": null,
+      "beta": "0.305 % decrease",
+      "risk_frequency": "0.013",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004541",
+        "efo_trait": "HbA1c measurement"
+       }
+      ],
+      "reported_trait": [
+       "Glycated hemoglobin levels"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 125,
+      "_pubdate": "2019-09-01"
+     },
+     {
+      "association_id": 47265008,
+      "accession_id": "GCST008038",
+      "pubmed_id": "31217584",
+      "first_author": "Wojcik GL",
+      "p_value": 8e-26,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -26,
+      "or_value": null,
+      "beta": "0.4404093 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004528",
+        "efo_trait": "mean corpuscular hemoglobin concentration"
+       }
+      ],
+      "reported_trait": [
+       "Mean corpuscular hemoglobin concentration"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 126,
+      "_pubdate": "2019-06-01"
+     },
+     {
+      "association_id": 47263578,
+      "accession_id": "GCST008034",
+      "pubmed_id": "31217584",
+      "first_author": "Wojcik GL",
+      "p_value": 8e-27,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -27,
+      "or_value": null,
+      "beta": "0.8169163 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004541",
+        "efo_trait": "HbA1c measurement"
+       }
+      ],
+      "reported_trait": [
+       "Hemoglobin A1c levels"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 127,
+      "_pubdate": "2019-06-01"
+     },
+     {
+      "association_id": 46304178,
+      "accession_id": "GCST008337",
+      "pubmed_id": "31080455",
+      "first_author": "Fatumo S",
+      "p_value": 5e-20,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -20,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0005090",
+        "efo_trait": "basophil count"
+       },
+       {
+        "efo_id": "EFO_0004842",
+        "efo_trait": "eosinophil count"
+       },
+       {
+        "efo_id": "EFO_0004305",
+        "efo_trait": "erythrocyte count"
+       },
+       {
+        "efo_id": "OBA_VT0000217",
+        "efo_trait": "leukocyte quantity"
+       },
+       {
+        "efo_id": "EFO_0004528",
+        "efo_trait": "mean corpuscular hemoglobin concentration"
+       },
+       {
+        "efo_id": "OBA_0003460",
+        "efo_trait": "erythrocyte volume"
+       },
+       {
+        "efo_id": "OBA_0003277",
+        "efo_trait": "platelet volume"
+       },
+       {
+        "efo_id": "EFO_0005091",
+        "efo_trait": "monocyte count"
+       },
+       {
+        "efo_id": "EFO_0004833",
+        "efo_trait": "neutrophil count"
+       },
+       {
+        "efo_id": "EFO_0004309",
+        "efo_trait": "platelet count"
+       }
+      ],
+      "reported_trait": [
+       "Blood cell traits (multivariate analysis)"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 128,
+      "_pubdate": "2019-04-26"
+     },
+     {
+      "association_id": 46300157,
+      "accession_id": "GCST008333",
+      "pubmed_id": "31080455",
+      "first_author": "Fatumo S",
+      "p_value": 6e-17,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -17,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009188",
+        "efo_trait": "red cell distribution width"
+       }
+      ],
+      "reported_trait": [
+       "Red cell distribution width"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 129,
+      "_pubdate": "2019-04-26"
+     },
+     {
+      "association_id": 27454202,
+      "accession_id": "GCST005356",
+      "pubmed_id": "29381699",
+      "first_author": "Ravenhall M",
+      "p_value": 9e-13,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -13,
+      "or_value": "7.633588",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005136",
+        "efo_trait": "malaria"
+       }
+      ],
+      "reported_trait": [
+       "Severe malaria"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 130,
+      "_pubdate": "2018-01-30"
+     },
+     {
+      "association_id": 21482950,
+      "accession_id": "GCST004330",
+      "pubmed_id": "28453575",
+      "first_author": "Hodonsky CJ",
+      "p_value": 1e-10,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "1.32 % increase",
+      "risk_frequency": "0.99",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004348",
+        "efo_trait": "hematocrit"
+       }
+      ],
+      "reported_trait": [
+       "Hematocrit"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 131,
+      "_pubdate": "2017-04-28"
+     },
+     {
+      "association_id": 17501547,
+      "accession_id": "GCST003774",
+      "pubmed_id": "27650483",
+      "first_author": "Kramer HJ",
+      "p_value": 3e-10,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "0.5 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007778",
+        "efo_trait": "urinary albumin to creatinine ratio"
+       }
+      ],
+      "reported_trait": [
+       "Urinary albumin-to-creatinine ratio"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 132,
+      "_pubdate": "2017-03-01"
+     },
+     {
+      "association_id": 17373539,
+      "accession_id": "GCST003774",
+      "pubmed_id": "27650483",
+      "first_author": "Kramer HJ",
+      "p_value": 8e-12,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.44 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007778",
+        "efo_trait": "urinary albumin to creatinine ratio"
+       }
+      ],
+      "reported_trait": [
+       "Urinary albumin-to-creatinine ratio"
+      ],
+      "mapped_genes": [
+       "HBB"
+      ],
+      "snp_effect_allele": [
+       "rs334-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 133,
+      "_pubdate": "2017-03-01"
+     }
+    ]
+   }
+  },
+  "PMID:31844061": {
+   "record_id": "PMID:31844061",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31844061/",
+   "retrieved_at": "2026-11-17T01:55:49.954738+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31844061",
+    "title": "Insights into malaria susceptibility using genome-wide data on 17,000 individuals from Africa, Asia and Oceania.",
+    "journal": "Nat Commun",
+    "pubdate": "2019 Dec 16",
+    "sortpubdate": "2019-12-16"
+   }
+  },
+  "PMID:31213470": {
+   "record_id": "PMID:31213470",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31213470/",
+   "retrieved_at": "2026-11-17T01:55:49.954738+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31213470",
+    "title": "A Genome-Wide Association Study Identifies Blood Disorder-Related Variants Influencing Hemoglobin A(1c) With Implications for Glycemic Status in U.S. Hispanics/Latinos.",
+    "journal": "Diabetes Care",
+    "pubdate": "2019 Sep",
+    "sortpubdate": "2019-09-01"
+   }
+  },
+  "PMID:31217584": {
+   "record_id": "PMID:31217584",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31217584/",
+   "retrieved_at": "2026-11-17T01:55:49.954738+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31217584",
+    "title": "Genetic analyses of diverse populations improves discovery for complex traits.",
+    "journal": "Nature",
+    "pubdate": "2019 Jun",
+    "sortpubdate": "2019-06-01"
+   }
+  },
+  "PMID:28453575": {
+   "record_id": "PMID:28453575",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28453575/",
+   "retrieved_at": "2026-11-17T01:55:49.954738+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "28453575",
+    "title": "Genome-wide association study of red blood cell traits in Hispanics/Latinos: The Hispanic Community Health Study/Study of Latinos.",
+    "journal": "PLoS Genet",
+    "pubdate": "2017 Apr",
+    "sortpubdate": "2017-04-28"
+   }
+  },
+  "PMID:31080455": {
+   "record_id": "PMID:31080455",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31080455/",
+   "retrieved_at": "2026-11-17T01:55:49.954738+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31080455",
+    "title": "Complimentary Methods for Multivariate Genome-Wide Association Study Identify New Susceptibility Genes for Blood Cell Traits.",
+    "journal": "Front Genet",
+    "pubdate": "2019",
+    "sortpubdate": "2019-04-26"
+   }
+  },
+  "PMID:31675503": {
+   "record_id": "PMID:31675503",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31675503/",
+   "retrieved_at": "2026-11-17T01:55:49.954738+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31675503",
+    "title": "Uganda Genome Resource Enables Insights into Population History and Genomic Discovery in Africa.",
+    "journal": "Cell",
+    "pubdate": "2019 Oct 31",
+    "sortpubdate": "2019-10-31"
+   }
+  },
+  "LitVar2:rs334": {
+   "record_id": "LitVar2:rs334",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs334%23%23/publications",
+   "retrieved_at": "2026-11-17T01:55:50.122338+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     33593344,
+     35964929,
+     38238208,
+     27250692,
+     24934404,
+     27117574,
+     32722950,
+     31080455,
+     32405513,
+     37154826,
+     37892108,
+     38979599,
+     18829352,
+     39358504,
+     20226094,
+     37113902,
+     38002735,
+     34353203,
+     32641076,
+     39086133,
+     26445879,
+     27185208,
+     2224185,
+     18974781,
+     36646975,
+     39258178,
+     33816645,
+     35647563,
+     30290004,
+     23806041,
+     27535451,
+     26372199,
+     25671784,
+     25919592,
+     29212778,
+     35676275,
+     35995766,
+     40390775,
+     41332858,
+     29745276,
+     34939005,
+     42991740,
+     33116287,
+     17688704,
+     31039620,
+     26314886,
+     33622152,
+     26984585,
+     34828427,
+     28569743
+    ],
+    "n_pmids": 597
+   }
+  },
+  "PMID:32124638": {
+   "record_id": "PMID:32124638",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32124638/",
+   "retrieved_at": "2026-11-17T01:55:53.508354+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "32124638",
+    "title": "Hb Rush (HBB: c.304G>C): A Rare Variant Hemoglobin Mimicking the Hb S (HBB: c.20A>T) Variant on High Performance Liquid Chromatography.",
+    "journal": "Hemoglobin",
+    "pubdate": "2020 Jan",
+    "sortpubdate": "2020-01-01",
+    "abstract": "High performance liquid chromatography (HPLC) is a useful and rapid tool in the evaluation of hemoglobin (Hb) disorders that include thalassemia and various hemoglobinopathies. Most of the techniques or programs used in automated testing platforms are customized to identify the common variants seen in that particular region. At times, variant Hbs may be identified which are not commonly seen in the local population. This may cause diagnostic dilemma and may require further studies for definitive characterization. We present a patient with Hb Rush (HBB: c.304G>C), a rare unstable Hb variant eluting in the Hb S (HBB: c.20A>T) window on HPLC."
+   }
+  },
+  "PMID:31603010": {
+   "record_id": "PMID:31603010",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31603010/",
+   "retrieved_at": "2026-11-17T01:55:53.508354+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31603010",
+    "title": "Genetic Background of \u03b2-Thalassemia in Northeast Algeria with Assessment of the Thalassemia Severity Score and Description of a new \u03b2(0)-Thalassemia Frameshift Mutation (HBB: c.374dup; p.Pro126Thrfs*15).",
+    "journal": "Hemoglobin",
+    "pubdate": "2019 Jul-Sep",
+    "sortpubdate": "2019-07-01",
+    "abstract": "\u03b2-Thalassemia (\u03b2-thal) is a genetic disorder representing a major health problem in Algeria. Our first objective was to determine the allelic frequencies and molecular spectrum of \u03b2-thal mutations in patients with major hemoglobinopathies [\u03b2-thal major (\u03b2-TM) and sickle cell disease] in three provinces of northeast Algeria. Our second objective was to assess if the clinical management of \u03b2-TM patients depended on their region of origin. Our last objective was to assess a population originating from Maghreb, the reliability of the thalassemia severity score (TSS) for patients with homozygous \u03b2-thal. Sanger HBB gene sequencing was performed on 59 patients with sickle cell disease and 60 with \u03b2-TM. For the latter patients, the genetic modifiers of the TSS were genotyped: \u03b1-thalassemia (\u03b1-thal) deletions and four Hb F-inducing polymorphisms (XmnI, rs1427407 and rs10189857 for BCL11A and rs9399137 for HMIP). Eleven different \u03b2-thal mutations were found but two of them (HBB: c.118C>T and HBB: c.93-21G>A) accounted for about 70.0% of the \u03b2-thal alleles. A relatively high proportion of Hb S (HBB: c.20A>T)/\u03b2-thal genotypes (27.0%) was found in our sickle cell disease cohort where a new frameshift \u03b20-thal mutation (HBB: c.374dup; p.Pro126Thrfs*15) was identified. No difference was found in the three provinces. Of the 60 \u03b2-TM patients, those with a high or very high TSS were significantly younger at the age of first transfusion, thus assessing the reliability of this scoring system in a Maghrebin cohort. Trends for a lower age of splenectomy and high ferritin levels were also detected for the higher TSS categories."
+   }
+  },
+  "PMID:31190580": {
+   "record_id": "PMID:31190580",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31190580/",
+   "retrieved_at": "2026-11-17T01:55:53.508354+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31190580",
+    "title": "Compound Heterozygote of Hb S (HBB: c.20A>T)/Hb Westdale (HBB: c.380_396delTGCAGGCTGCCTATCAG): Report of Four Cases from Odisha State, India.",
+    "journal": "Hemoglobin",
+    "pubdate": "2019 Mar",
+    "sortpubdate": "2019-03-01",
+    "abstract": "We report four cases of compound heterozygotes for Hb S (HBB: c.20A>T) and a rare \u03b20-thalassemia (\u03b20-thal) mutation, Hb Westdale (HBB: c.380_396delTGCAGGCTGCCTATCAG), characterized by a 17\u2009bp deletion between codons 126 to 131 in exon 3 of the \u03b2-globin gene of human hemoglobin (Hb) confirmed by direct \u03b2-globin gene sequencing. All four cases were from four unrelated families belonging to the Agharia caste, an endogamous ethnic community of the Sundargarh and Jharsuguda districts of Odisha State, India. Detailed observations indicated that all four cases of Hb S/Hb Westdale were clinically severe. On family screening, six family members were found to be heterozygous for Hb Westdale and were asymptomatic. Deletional \u03b1-thalassemia (\u03b1-thal) and XmnI polymorphism were studied for all the Hb Westdale cases. The Hb S/Hb Westdale cases had an early median age at onset of symptoms and presentation, more requirement of blood transfusions, splenomegaly and hepatomegaly and were found to be clinically more severe when compared with the Hb S-\u03b2-thal with IVS-I-5 (G>C) (HBB: c.92\u2009+\u20095G>C) cases. Overall, the findings indicate that this rare and hitherto unreported compound heterozygosity of Hb S/Hb Westdale is a clinically significant hemoglobinopathy and its finding in a large endogamous community of Odisha State, India will have important implication in the epidemiology and understanding of the clinical spectrum of sickle cell disease in Indian context and prenatal diagnosis."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 32,
+  "n_claims_fully_verified": 32,
+  "n_uncited_claims": 0,
+  "n_citations": 90,
+  "n_citations_valid": 90,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 72,
+  "n_shown_values_in_text": 72,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 32,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

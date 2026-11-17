@@ -1,0 +1,62 @@
+VARIANT DOSSIER: rs1426654
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs1426654 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs1426654]
+- Earlier identifiers merged into rs1426654: rs52802038, rs58147390. [dbSNP build 157 rs1426654]
+- dbSNP records rs1426654 as variant type 'snv' on NC_000015.10 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs1426654]
+- Alternate allele 1: NC_000015.10:g.48134287A>C, a single-nucleotide variant (SNV) (A>C in VCF form). [dbSNP build 157 rs1426654]
+- Alternate allele 2: NC_000015.10:g.48134287A>G, a single-nucleotide variant (SNV) (A>G in VCF form). [dbSNP build 157 rs1426654]
+- Alternate allele 3: NC_000015.10:g.48134287A>T, a single-nucleotide variant (SNV) (A>T in VCF form). [dbSNP build 157 rs1426654]
+
+FUNCTION
+- For alternate allele 3 (A>T), Ensembl VEP predicts missense_variant in SLC24A5 (ENST00000341459.8:c.331A>T; ENSP00000341550.3:p.Thr111Ser), impact MODERATE. [Ensembl VEP rs1426654]
+- For alternate allele 2 (A>G), Ensembl VEP predicts missense_variant in SLC24A5 (ENST00000341459.8:c.331A>G; ENSP00000341550.3:p.Thr111Ala), impact MODERATE. [Ensembl VEP rs1426654]
+- Ensembl classifies the variant as 'SNV' with allele string A/G/T. [Ensembl VEP rs1426654]
+
+FREQUENCY
+- Alternate allele 1 (A>C) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs1426654. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 15-48134287-A-C (alternate allele 1). [gnomAD v4.1]
+- In gnomAD v2.1.1 exomes, alternate allele 2 (A>G) has an overall allele frequency of 0.23. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0.811, Admixed American 0.521, Ashkenazi Jewish 0.00437, East Asian 0.993, Finnish 0.0124, Non-Finnish European 0.00347, South Asian 0.225, Other 0.121. [gnomAD v2.1.1 exomes]
+- Population differentiation flag (gnomAD v2.1.1 exomes): allele 2 frequency ranges from 0.00347 in Non-Finnish European to 0.993 in East Asian, a large between-ancestry difference. [gnomAD v2.1.1 exomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (A>G) has an overall allele frequency of 0.101 (163,198 of 1,613,472 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0.812, Admixed American 0.457, Ashkenazi Jewish 0.00368, East Asian 0.993, Finnish 0.0116, Non-Finnish European 0.00214, South Asian 0.197, Middle Eastern 0.0328, Amish 0, Remaining 0.143. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 2 frequency ranges from 0 in Amish to 0.993 in East Asian, a large between-ancestry difference. [gnomAD v4.1]
+- Alternate allele 3 (A>T) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 3 (A>T) has an overall allele frequency of 3.42e-06 (5 of 1,461,420 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 3: African/African American 2.99e-05, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 1.8e-06, South Asian 0, Middle Eastern 0, Remaining 3.31e-05. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_205850.3(SLC24A5):c.331= (p.Thr111=) (an allele not matched to the dbSNP allele list) with germline classification 'association' for: Skin/hair/eye pigmentation, variation in, 4; review status 'no assertion criteria provided', 1 submitter(s), allele origin 'germline'. [ClinVar VCV000001487 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: association; 2019-01: association; 2020-01: association; 2026-11: association. The classification did not change over these releases. [ClinVar VCV000001487 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 1 'association'. [ClinVar VCV000001487 (2026-11 release)]
+- ClinVar lists NM_205850.3(SLC24A5):c.331A>G (p.Thr111Ala) (alternate allele 2) with germline classification 'Benign' with no specific condition named; review status 'criteria provided, multiple submitters, no conflicts', 4 submitter(s), allele origin 'germline'. [ClinVar VCV000263273 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Benign; 2019-01: Benign; 2020-01: Benign; 2026-11: Benign. The classification did not change over these releases. [ClinVar VCV000263273 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 4 'Benign'. [ClinVar VCV000263273 (2026-11 release)]
+- No allele of rs1426654 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000001487 (2026-11 release); ClinVar VCV000263273 (2026-11 release)]
+
+SOMATIC EVIDENCE
+- Ensembl VEP reports 1 co-located COSMIC somatic mutation record(s) at this position (COSV58316055). [Ensembl VEP rs1426654]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 46 association record(s) for rs1426654. [GWAS Catalog rs1426654]
+- Genome-wide significant association with eye colour measurement (p = 4e-150, study GCST007451). [GWAS Catalog GCST007451; PMID:30664655]
+- Genome-wide significant association with skin pigmentation (p = 2e-130, study GCST007452). [GWAS Catalog GCST007452; PMID:30664655]
+- Genome-wide significant association with benign neoplasm of eye (p = 4e-49, study GCST90479849, effect allele rs1426654-A). [GWAS Catalog GCST90479849; PMID:39024449]
+- Genome-wide significant association with actinic keratosis (p = 8e-37, study GCST90480468, effect allele rs1426654-A). [GWAS Catalog GCST90480468; PMID:39024449]
+- Genome-wide significant association with eye color (p = 3e-26, study GCST012219, effect allele rs1426654-G). [GWAS Catalog GCST012219; PMID:33692100]
+- Genome-wide significant association with skin cancer (p = 7e-24, study GCST90475575, effect allele rs1426654-A). [GWAS Catalog GCST90475575; PMID:39024449]
+- rs1426654 is associated with 14 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs1426654; ClinVar VCV000001487 (2026-11 release); ClinVar VCV000263273 (2026-11 release)]
+
+LITERATURE
+- LitVar2 links 234 PubMed articles to rs1426654. [LitVar2 rs1426654]
+- Linked article: "A study of a single variant allele (rs1426654) of the pigmentation-related gene SLC24A5 in Greek subjects" (Exp Dermatol, 2009). [PMID:18637132]
+- Linked article: "Simultaneous Genotyping of Three Nonsynonymous SNVs, rs1042602, rs1426654, and rs16891982 Involved in Skin Pigmentation by Fluorescent Probe-Based Melting Curve Analysis" (Hum Mutat, 2025). [PMID:40741336]
+- Linked article: "Molecular characterization of SLC24A5 variants and evaluation of Nitisinone treatment efficacy in a zebrafish model of OCA6" (Pigment Cell Melanoma Res, 2020). [PMID:32274888]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs1426654 in SLC24A5 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with eye colour measurement. Confidence: high (38 genome-wide significant associations across 45 studies). [ClinVar VCV000001487 (2026-11 release); ClinVar VCV000263273 (2026-11 release); GWAS Catalog rs1426654; LitVar2 rs1426654]

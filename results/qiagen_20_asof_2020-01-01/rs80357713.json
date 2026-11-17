@@ -1,0 +1,975 @@
+{
+ "rsid_query": "rs80357713",
+ "rsid_current": "rs80357783",
+ "as_of": "2020-01-01",
+ "generated_at": "2026-11-17T02:14:04.287713+00:00",
+ "genes": {
+  "vep": [
+   "BRCA1"
+  ],
+  "dbsnp": [
+   "BRCA1",
+   "NBR2"
+  ],
+  "clinvar": [
+   "BRCA1"
+  ],
+  "gwas": []
+ },
+ "variant_type": "delins",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000017.11:g.43124031dup",
+   "spdi_deleted": "T",
+   "spdi_inserted": "TT",
+   "chrom": "17",
+   "pos": 43124031,
+   "ref": "T",
+   "alt": "TT",
+   "type": "insertion or duplication",
+   "gnomad_v4_id": "17-43124031-T-TT",
+   "vep": {
+    "gene_symbol": "BRCA1",
+    "consequence_terms": [
+     "frameshift_variant"
+    ],
+    "hgvsc": "ENST00000357654.9:c.66dup",
+    "hgvsp": "ENSP00000350283.3:p.Glu23ArgfsTer18",
+    "impact": "HIGH",
+    "mane_select": "NM_007294.4"
+   },
+   "frequency": {
+    "gnomad_v2": null
+   }
+  }
+ ],
+ "clinvar": [
+  {
+   "variation_id": "37691",
+   "allele_index": 1,
+   "name": "NM_007294.3(BRCA1):c.66dupA (p.Glu23Argfs)",
+   "classification": "Pathogenic",
+   "review_status": "reviewed by expert panel",
+   "conditions": [
+    "Breast-ovarian cancer, familial 1",
+    "Hereditary breast and ovarian cancer syndrome",
+    "Hereditary cancer-predisposing syndrome",
+    "Neoplasm of the breast"
+   ],
+   "origin": "germline;unknown",
+   "n_submitters": "16",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "Pathogenic",
+     "review_status": "reviewed by expert panel",
+     "n_submitters": "13",
+     "last_evaluated": "Aug 08, 2017",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "Pathogenic",
+     "review_status": "reviewed by expert panel",
+     "n_submitters": "16",
+     "last_evaluated": "Jul 02, 2018",
+     "release_date": "2019-01-03"
+    }
+   ],
+   "submission_classes": {}
+  }
+ ],
+ "clinvar_release": "2019-01",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 0,
+  "n_associations_in_scope": 0,
+  "n_genome_wide_significant": 0,
+  "n_studies": 0,
+  "mapped_genes": [],
+  "top_traits": [],
+  "n_distinct_traits_significant": 0,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 72,
+  "n_in_scope": 42,
+  "pmids_in_scope": [
+   "31511888",
+   "31658756",
+   "30787465",
+   "31454914",
+   "30702160",
+   "31141992",
+   "30982232",
+   "30263092",
+   "35693198",
+   "29907814",
+   "29899868",
+   "29785135",
+   "29854292",
+   "29338072",
+   "29346284",
+   "28392550",
+   "30051098",
+   "28569743",
+   "28961279",
+   "28279176",
+   "27068824",
+   "28152038",
+   "28127413",
+   "27641504",
+   "27533253",
+   "28947987",
+   "27060149",
+   "26848529",
+   "29263802",
+   "26564481",
+   "26543556",
+   "25256238",
+   "26295337",
+   "26221963",
+   "26315209",
+   "25948282",
+   "27081505",
+   "24950059",
+   "23636849",
+   "22923021",
+   "23961350",
+   "19656415"
+  ],
+  "top": [
+   "31454914",
+   "30702160",
+   "31141992"
+  ]
+ },
+ "conflicts": [],
+ "bottom_line": {
+  "category": "germline disease variant",
+  "confidence": "high",
+  "rationale": "multi-submitter or expert-reviewed ClinVar assertion without submitter conflict",
+  "text": "Bottom line: rs80357783 in BRCA1 is best described as: germline disease variant. ClinVar links it to Breast-ovarian cancer, familial 1. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict)."
+ },
+ "notes": [
+  "CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'."
+ ],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs80357713 is a retired dbSNP identifier that was merged into rs80357783; all evidence below is for rs80357783.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs80357713",
+     "path": "merged_into.0",
+     "value": "80357783",
+     "label": "dbSNP rs80357713",
+     "mode": "eq",
+     "shown": "rs80357783",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs80357783: rs77944974, rs80357713, rs386626651.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs80357783",
+     "path": "dbsnp1_merges.0",
+     "value": "77944974",
+     "label": "dbSNP build 157 rs80357783",
+     "mode": "eq",
+     "shown": "rs77944974",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs80357783",
+     "path": "dbsnp1_merges.1",
+     "value": "80357713",
+     "label": "dbSNP build 157 rs80357783",
+     "mode": "eq",
+     "shown": "rs80357713",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs80357783",
+     "path": "dbsnp1_merges.2",
+     "value": "386626651",
+     "label": "dbSNP build 157 rs80357783",
+     "mode": "eq",
+     "shown": "rs386626651",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs80357783 as variant type 'delins' on NC_000017.11 (GRCh38) with 1 alternate allele.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs80357783",
+     "path": "variant_type",
+     "value": "delins",
+     "label": "dbSNP build 157 rs80357783",
+     "mode": "eq",
+     "shown": "delins",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs80357783",
+     "path": "seq_id",
+     "value": "NC_000017.11",
+     "label": "dbSNP build 157 rs80357783",
+     "mode": "eq",
+     "shown": "NC_000017.11",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000017.11:g.43124031dup, a insertion or duplication (T>TT in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs80357783",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000017.11:g.43124031dup",
+     "label": "dbSNP build 157 rs80357783",
+     "mode": "eq",
+     "shown": "NC_000017.11:g.43124031dup",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (T>TT), Ensembl VEP predicts frameshift_variant in BRCA1 (ENST00000357654.9:c.66dup; ENSP00000350283.3:p.Glu23ArgfsTer18), impact HIGH.",
+   "citations": [
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "frameshift_variant",
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "frameshift_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "BRCA1",
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "BRCA1",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000357654.9:c.66dup",
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "ENST00000357654.9:c.66dup",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "transcript_consequences.0.hgvsp",
+     "value": "ENSP00000350283.3:p.Glu23ArgfsTer18",
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "ENSP00000350283.3:p.Glu23ArgfsTer18",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "transcript_consequences.0.impact",
+     "value": "HIGH",
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "HIGH",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'indel' with allele string -/T.",
+   "citations": [
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "variant_class",
+     "value": "indel",
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "indel",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "allele_string",
+     "value": "-/T",
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "-/T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 1 (T>TT) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs80357783.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs80357783",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_007294.3(BRCA1):c.66dupA (p.Glu23Argfs) (alternate allele 1) with germline classification 'Pathogenic' for: Breast-ovarian cancer, familial 1; Hereditary breast and ovarian cancer syndrome; Hereditary cancer-predisposing syndrome; Neoplasm of the breast; review status 'reviewed by expert panel', 16 submitter(s), allele origin 'germline;unknown'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000037691@2019-01",
+     "path": "clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000037691 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2019-01",
+     "path": "review_status",
+     "value": "reviewed by expert panel",
+     "label": "ClinVar VCV000037691 (2019-01 release)",
+     "mode": "eq",
+     "shown": "reviewed by expert panel",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2019-01",
+     "path": "name",
+     "value": "NM_007294.3(BRCA1):c.66dupA (p.Glu23Argfs)",
+     "label": "ClinVar VCV000037691 (2019-01 release)",
+     "mode": "eq",
+     "shown": "NM_007294.3(BRCA1):c.66dupA (p.Glu23Argfs)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2019-01",
+     "path": "n_submitters",
+     "value": "16",
+     "label": "ClinVar VCV000037691 (2019-01 release)",
+     "mode": "eq",
+     "shown": "16",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2019-01",
+     "path": "phenotype_list",
+     "value": "Breast-ovarian cancer, familial 1",
+     "label": "ClinVar VCV000037691 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Breast-ovarian cancer, familial 1",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2019-01",
+     "path": "phenotype_list",
+     "value": "Hereditary breast and ovarian cancer syndrome",
+     "label": "ClinVar VCV000037691 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Hereditary breast and ovarian cancer syndrome",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2019-01",
+     "path": "phenotype_list",
+     "value": "Hereditary cancer-predisposing syndrome",
+     "label": "ClinVar VCV000037691 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Hereditary cancer-predisposing syndrome",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2019-01",
+     "path": "phenotype_list",
+     "value": "Neoplasm of the breast",
+     "label": "ClinVar VCV000037691 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Neoplasm of the breast",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2019-01",
+     "path": "origin",
+     "value": "germline;unknown",
+     "label": "ClinVar VCV000037691 (2019-01 release)",
+     "mode": "eq",
+     "shown": "germline;unknown",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic; 2019-01: Pathogenic. The classification did not change over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000037691@2019-01",
+     "path": "history.0.clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000037691 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2019-01",
+     "path": "history.1.clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000037691 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists no association for rs80357783.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs80357783",
+     "path": "associations",
+     "value": [],
+     "label": "GWAS Catalog rs80357783",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 72 PubMed articles to rs80357783; 42 of the 72 with a PubMed date were published on or before 2020-01-01.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs80357783",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs80357783",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"A Multi-Center Study of BRCA1 and BRCA2 Germline Mutations in Mexican-Mestizo Breast Cancer Families Reveals Mutations Unreported in Latin American Population\" (Cancers (Basel), 2019).",
+   "citations": [
+    {
+     "record_id": "PMID:31454914",
+     "path": "title",
+     "value": "A Multi-Center Study of BRCA1 and BRCA2 Germline Mutations in Mexican-Mestizo Breast Cancer Families Reveals Mutations Unreported in Latin American Population.",
+     "label": "PMID:31454914",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31454914",
+     "path": "journal",
+     "value": "Cancers (Basel)",
+     "label": "PMID:31454914",
+     "mode": "eq",
+     "shown": "Cancers (Basel)",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Germline variation in BRCA1/2 is highly ethnic-specific: Evidence from over 30,000 Chinese hereditary breast and ovarian cancer patients\" (Int J Cancer, 2019).",
+   "citations": [
+    {
+     "record_id": "PMID:30702160",
+     "path": "title",
+     "value": "Germline variation in BRCA1/2 is highly ethnic-specific: Evidence from over 30,000 Chinese hereditary breast and ovarian cancer patients.",
+     "label": "PMID:30702160",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:30702160",
+     "path": "journal",
+     "value": "Int J Cancer",
+     "label": "PMID:30702160",
+     "mode": "eq",
+     "shown": "Int J Cancer",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Estrogen Receptor Status Oppositely Modifies Breast Cancer Prognosis in BRCA1/BRCA2 Mutation Carriers Versus Non-Carriers\" (Cancers (Basel), 2019).",
+   "citations": [
+    {
+     "record_id": "PMID:31141992",
+     "path": "title",
+     "value": "Estrogen Receptor Status Oppositely Modifies Breast Cancer Prognosis in BRCA1/BRCA2 Mutation Carriers Versus Non-Carriers.",
+     "label": "PMID:31141992",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31141992",
+     "path": "journal",
+     "value": "Cancers (Basel)",
+     "label": "PMID:31141992",
+     "mode": "eq",
+     "shown": "Cancers (Basel)",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs80357783 in BRCA1 is best described as: germline disease variant. ClinVar links it to Breast-ovarian cancer, familial 1. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict).",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000037691@2019-01",
+     "path": "clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000037691 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs80357783",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs80357783",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs80357783",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs80357783",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs80357713": {
+   "record_id": "dbSNP:rs80357713",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 136",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/80357713",
+   "retrieved_at": "2026-11-17T02:09:31.646300+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "80357713",
+    "last_update_build_id": "136",
+    "dbsnp1_merges": [
+     "77944974"
+    ],
+    "merged_into": [
+     "80357783"
+    ],
+    "citations": []
+   }
+  },
+  "dbSNP:rs80357783": {
+   "record_id": "dbSNP:rs80357783",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/80357783",
+   "retrieved_at": "2026-11-17T02:09:32.142645+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "80357783",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "77944974",
+     "80357713",
+     "386626651"
+    ],
+    "merged_into": [],
+    "citations": [
+     7550349,
+     7611277,
+     7837387,
+     7894492,
+     8531968,
+     8533757,
+     8595420,
+     8642955,
+     8651293,
+     8764110,
+     8807330,
+     9042909,
+     9145676,
+     9921907,
+     10739756,
+     11179017,
+     11352856,
+     11896106,
+     12473589,
+     15024741,
+     15383404,
+     15617999,
+     15994883,
+     16168118,
+     16683254,
+     16941470,
+     16998791,
+     17307836,
+     17688236,
+     18034184,
+     18594935,
+     18627636,
+     19147582,
+     19329713,
+     19906413,
+     20104584,
+     20301425,
+     20651350,
+     20711688,
+     20950396,
+     21203900,
+     21324516,
+     21503673,
+     21559243,
+     21643751,
+     22006311,
+     22009639,
+     22274685,
+     22430266,
+     22516946,
+     22535016,
+     22703879,
+     22763381,
+     23086583,
+     23199084,
+     23233716,
+     23531862,
+     23683081,
+     23788959,
+     23855721,
+     23867111,
+     23941904,
+     24033266,
+     24764757,
+     25741868,
+     26295337,
+     26467025,
+     26845104,
+     27257965,
+     33643918,
+     35393538,
+     35693198
+    ],
+    "variant_type": "delins",
+    "seq_id": "NC_000017.11",
+    "alleles": [
+     {
+      "hgvs": "NC_000017.11:g.43124031=",
+      "position0": 43124030,
+      "deleted": "T",
+      "inserted": "T"
+     },
+     {
+      "hgvs": "NC_000017.11:g.43124031dup",
+      "position0": 43124030,
+      "deleted": "T",
+      "inserted": "TT"
+     }
+    ],
+    "genes": [
+     "BRCA1",
+     "NBR2"
+    ]
+   }
+  },
+  "VEP:rs80357783": {
+   "record_id": "VEP:rs80357783",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs80357783",
+   "retrieved_at": "2026-11-17T02:09:33.034624+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs80357783",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "17",
+    "start": 43124032,
+    "end": 43124031,
+    "allele_string": "-/T",
+    "variant_class": "indel",
+    "most_severe_consequence": "frameshift_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "T",
+      "gene_symbol": "BRCA1",
+      "gene_id": "ENSG00000012048",
+      "transcript_id": "ENST00000357654",
+      "mane_select": "NM_007294.4",
+      "consequence_terms": [
+       "frameshift_variant"
+      ],
+      "hgvsc": "ENST00000357654.9:c.66dup",
+      "hgvsp": "ENSP00000350283.3:p.Glu23ArgfsTer18",
+      "impact": "HIGH",
+      "amino_acids": "L/LX",
+      "protein_start": 22,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [],
+    "colocated_somatic": false
+   }
+  },
+  "gnomAD-v2.1.1:rs80357783": {
+   "record_id": "gnomAD-v2.1.1:rs80357783",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:09:33.515331+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr17:g.41276048dup",
+      "_score": 17.140837,
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "TT",
+       "ref": "T",
+       "vartype": "delins"
+      }
+     }
+    ]
+   }
+  },
+  "ClinVar:VCV000037691@2019-01": {
+   "record_id": "ClinVar:VCV000037691@2019-01",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2019-01 (2019-01-03)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/37691/",
+   "retrieved_at": "2026-11-17T02:14:04.162921+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "46247",
+    "type": "duplication",
+    "name": "NM_007294.3(BRCA1):c.66dupA (p.Glu23Argfs)",
+    "gene_symbol": "BRCA1",
+    "clnsig": "Pathogenic",
+    "last_evaluated": "Jul 02, 2018",
+    "rcv": "RCV000031272;RCV000049087;RCV000163427;RCV000240681;RCV000478017",
+    "phenotype_list": "Breast-ovarian cancer, familial 1;Hereditary breast and ovarian cancer syndrome;Hereditary cancer-predisposing syndrome;Neoplasm of the breast;not provided",
+    "origin": "germline;unknown",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "17",
+    "start": "43124031",
+    "ref": "T",
+    "alt": "TT",
+    "review_status": "reviewed by expert panel",
+    "n_submitters": "16",
+    "variation_id": "37691",
+    "ref_vcf": "",
+    "alt_vcf": "",
+    "pos_vcf": "",
+    "somatic_clinical_impact": "",
+    "oncogenicity": "",
+    "rsid": "rs80357783",
+    "submissions": [],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "Pathogenic",
+      "review_status": "reviewed by expert panel",
+      "n_submitters": "13",
+      "last_evaluated": "Aug 08, 2017",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "Pathogenic",
+      "review_status": "reviewed by expert panel",
+      "n_submitters": "16",
+      "last_evaluated": "Jul 02, 2018",
+      "release_date": "2019-01-03"
+     }
+    ]
+   }
+  },
+  "GWAS:rs80357783": {
+   "record_id": "GWAS:rs80357783",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:09:34.312258+00:00",
+   "status": 200,
+   "data": {
+    "associations": []
+   }
+  },
+  "LitVar2:rs80357783": {
+   "record_id": "LitVar2:rs80357783",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs80357783%23%23/publications",
+   "retrieved_at": "2026-11-17T02:09:34.371696+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     26564481,
+     34413315,
+     31658756,
+     32824581,
+     23961350,
+     32211327,
+     28279176,
+     30787465,
+     26221963,
+     34097676,
+     22923021,
+     35693198,
+     28569743,
+     33643918,
+     26848529,
+     28947987,
+     39061909,
+     27068824,
+     30051098,
+     27641504,
+     27081505,
+     35464868,
+     33754277,
+     26295337,
+     37400873,
+     24950059,
+     25256238,
+     35986351,
+     29785135,
+     37445679,
+     30263092,
+     36922933,
+     28127413,
+     27060149,
+     38398132,
+     41327099,
+     29263802,
+     39300540,
+     31454914,
+     26543556,
+     27533253,
+     35216584,
+     26315209,
+     35409996,
+     31511888,
+     30702160,
+     29854292,
+     36439508,
+     29338072,
+     30982232
+    ],
+    "n_pmids": 72
+   }
+  },
+  "PMID:31454914": {
+   "record_id": "PMID:31454914",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31454914/",
+   "retrieved_at": "2026-11-17T02:09:35.113768+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31454914",
+    "title": "A Multi-Center Study of BRCA1 and BRCA2 Germline Mutations in Mexican-Mestizo Breast Cancer Families Reveals Mutations Unreported in Latin American Population.",
+    "journal": "Cancers (Basel)",
+    "pubdate": "2019 Aug 26",
+    "sortpubdate": "2019-08-26",
+    "abstract": "The presence of germline and somatic deleterious mutations in the BRCA1 and BRCA2 genes has important clinical consequences for breast cancer (BC) patients. Analysis of the mutational status in BRCA genes is not yet common in public Latin American institutions; thus, our objective was to implement high-performance technology with highly reliable results with the possibility of analyzing several patients simultaneously, therefore reducing cost and work time. A prospective cohort of 252 unrelated sporadic breast cancer patients from the Mexican-mestizo population were analyzed using next generation sequencing (NGS) based on ion semiconductor sequencing. We found 28 pathogenic mutations (25 in BRCA1 and 13 in BRCA2), 11 of which had not been reported previously in Hispanic or Latin American populations. A total of 38 patients were positive for a pathogenic mutation representing 15% of our Mexican women cohort with breast cancer; 25 for BRCA1; and 13 for BRCA2. Our results revealed that there are mutations not analyzed by mutations panels, and our findings support the suitability of massive sequencing approaches in the public institutions of developing countries. Hence, BRCA screening should be offered to patients with breast cancer regardless of their family history of cancer in order to identify unaffected family carriers."
+   }
+  },
+  "PMID:30702160": {
+   "record_id": "PMID:30702160",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30702160/",
+   "retrieved_at": "2026-11-17T02:09:35.113768+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "30702160",
+    "title": "Germline variation in BRCA1/2 is highly ethnic-specific: Evidence from over 30,000 Chinese hereditary breast and ovarian cancer patients.",
+    "journal": "Int J Cancer",
+    "pubdate": "2019 Aug 15",
+    "sortpubdate": "2019-08-15",
+    "abstract": "BRCA1 and BRCA2 play essential roles in maintaining the genome stability. Pathogenic germline mutations in these two genes disrupt their function, lead to genome instability and increase the risk of developing breast and ovarian cancers. BRCA mutations have been extensively screened in Caucasian populations, and the resulting information are used globally as the standard reference in clinical diagnosis, treatment and prevention of BRCA-related cancers. Recent studies suggest that BRCA mutations can be ethnic-specific, raising the question whether a Caucasian-based BRCA mutation information can be used as a universal standard worldwide, or whether an ethnicity-based BRCA mutation information system need to be developed for the corresponding ethnic populations. In this study, we used Chinese population as a model to test ethnicity-specific BRCA mutations considering that China has one of the latest numbers of breast cancer patients therefore BRCA mutation carriers. Through comprehensive data mining, standardization and annotation, we collected 1,088 distinct BRCA variants derived from over 30,000 Chinese individuals, one of the largest BRCA data set from a non-Caucasian population covering nearly all known BRCA variants in the Chinese population (https://dbBRCA-Chinese.fhs.umac.mo). Using this data, we performed multi-layered analyses to determine the similarities and differences of BRCA variation between Chinese and non-Chinese ethnic populations. The results show the substantial differences of BRCA data between Chinese and non-Chinese ethnicities. Our study indicates that the current Caucasian population-based BRCA data is not adequate to represent the BRCA status in non-Caucasian populations. Therefore, ethnic-based BRCA standards need to be established to serve for the non-Caucasian populations."
+   }
+  },
+  "PMID:31141992": {
+   "record_id": "PMID:31141992",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31141992/",
+   "retrieved_at": "2026-11-17T02:09:35.113768+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31141992",
+    "title": "Estrogen Receptor Status Oppositely Modifies Breast Cancer Prognosis in BRCA1/BRCA2 Mutation Carriers Versus Non-Carriers.",
+    "journal": "Cancers (Basel)",
+    "pubdate": "2019 May 28",
+    "sortpubdate": "2019-05-28",
+    "abstract": "Breast cancer (BC) prognosis in BRCA1 and BRCA2 mutation carriers has been reported contradictorily, and the significance of variables influencing prognosis in sporadic BC is not established in BC patients with hereditary BRCA1/BRCA2 mutations. In this retrospective cohort study, we analyzed the effect of clinicopathological characteristics on BC prognosis (disease-free survival [DFS] and disease-specific survival [DSS]) in hereditary BRCA1/BRCA2 mutation carriers. We enrolled 234 BRCA1/BRCA2 mutation carriers and 899 non-carriers, of whom 191 carriers and 680 non-carriers, with complete data, were available for survival analyses. We found that patients with ER-positive tumors developed disease recurrence 2.3-times more likely when they carried a BRCA1/BRCA2 mutation (23/60; 38.3% ER-positive carriers vs. 74/445; 16.6% ER-positive non-carriers; p < 0.001). ER-positive mutation carriers also had a 3.4-times higher risk of death due to BC compared with ER-positive non-carriers (13/60; 21.7% vs. 28/445; 6.3%; p < 0.001). Moreover, prognosis in ER-negative BRCA1/BRCA2 mutation carriers was comparable with that in ER-positive non-carriers. Our study demonstrates that ER-positivity worsens BC prognosis in BRCA1/BRCA2 mutation carriers, while prognosis for carriers with ER-negative tumors (including early-onset) is significantly better and comparable with that in ER-positive, older BC non-carriers. These observations indicate that BRCA1/BRCA2 mutation carriers with ER-positive BC represent high-risk patients."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 15,
+  "n_claims_fully_verified": 15,
+  "n_uncited_claims": 0,
+  "n_citations": 37,
+  "n_citations_valid": 37,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 28,
+  "n_shown_values_in_text": 28,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 15,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

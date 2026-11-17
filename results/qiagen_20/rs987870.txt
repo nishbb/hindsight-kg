@@ -1,0 +1,50 @@
+VARIANT DOSSIER: rs987870
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs987870 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs987870]
+- Earlier identifiers merged into rs987870: rs6942110, rs16868585, rs58890955, rs115505532, rs117930534. [dbSNP build 157 rs987870]
+- dbSNP records rs987870 as variant type 'snv' on NC_000006.12 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs987870]
+- Alternate allele 1: NC_000006.12:g.33075103A>C, a single-nucleotide variant (SNV) (A>C in VCF form). [dbSNP build 157 rs987870]
+- Alternate allele 2: NC_000006.12:g.33075103A>G, a single-nucleotide variant (SNV) (A>G in VCF form). [dbSNP build 157 rs987870]
+- Alternate allele 3: NC_000006.12:g.33075103A>T, a single-nucleotide variant (SNV) (A>T in VCF form). [dbSNP build 157 rs987870]
+
+FUNCTION
+- For alternate allele 2 (A>G), Ensembl VEP predicts upstream_gene_variant in HLA-DPA1, impact MODIFIER. [Ensembl VEP rs987870]
+- Ensembl classifies the variant as 'SNV' with allele string A/G. [Ensembl VEP rs987870]
+
+FREQUENCY
+- Alternate allele 1 (A>C) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs987870. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 6-33075103-A-C (alternate allele 1). [gnomAD v4.1]
+- In gnomAD v2.1.1 genomes, alternate allele 2 (A>G) has an overall allele frequency of 0.179. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0.327, Admixed American 0.147, Ashkenazi Jewish 0.159, East Asian 0.0834, Finnish 0.0818, Non-Finnish European 0.131, Other 0.159. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 2 frequency ranges from 0.0818 in Finnish to 0.327 in African/African American, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (A>G) has an overall allele frequency of 0.193 (29,362 of 152,136 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0.322, Admixed American 0.186, Ashkenazi Jewish 0.152, East Asian 0.102, Finnish 0.0738, Non-Finnish European 0.141, South Asian 0.247, Middle Eastern 0.167, Amish 0.107, Remaining 0.203. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 2 frequency ranges from 0.0738 in Finnish to 0.322 in African/African American, a large between-ancestry difference. [gnomAD v4.1]
+- Alternate allele 3 (A>T) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs987870. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 6-33075103-A-T (alternate allele 3). [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- The ClinVar 2026-11 release contains no record for rs987870. [ClinVar 2026-11 release]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs987870]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 2 association record(s) for rs987870. [GWAS Catalog rs987870]
+- Genome-wide significant association with systemic sclerosis (p = 2e-20, study GCST001156). [GWAS Catalog GCST001156; PMID:21779181]
+- Genome-wide significant association with asthma (p = 2e-10, study GCST001172, effect allele rs987870-C). [GWAS Catalog GCST001172; PMID:21814517]
+- rs987870 is associated with 2 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs987870]
+
+LITERATURE
+- LitVar2 links 84 PubMed articles to rs987870. [LitVar2 rs987870]
+- Linked article: "Relationship between HLA-DPA1 genetic polymorphism and anembryonic pregnancy" (Mol Genet Genomic Med, 2020). [PMID:31785132]
+- Linked article: "Genetic Variations on Chromosome 6p21 Are Associated with Asthma Risk and Disease Severity: A Case-Control Study from Pakistan" (Genes (Basel), 2024). [PMID:39766875]
+- Linked article: "A population-based study of precision health assessments using multi-omics network-derived biological functional modules" (Cell Rep Med, 2022). [PMID:36493776]
+
+CONFLICTS AND CAVEATS
+- Gene assignment difference: sources name different genes for rs987870 (Ensembl VEP: HLA-DPA1; GWAS Catalog: HLA-DPA1, HLA-DPB1). [Ensembl VEP rs987870; GWAS Catalog rs987870]
+
+BOTTOM LINE
+- Bottom line: rs987870 in HLA-DPA1 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with systemic sclerosis. Confidence: moderate (replication is limited). [GWAS Catalog rs987870; LitVar2 rs987870]

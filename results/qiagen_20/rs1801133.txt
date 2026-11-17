@@ -1,0 +1,59 @@
+VARIANT DOSSIER: rs1801133
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs1801133 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs1801133]
+- Earlier identifiers merged into rs1801133: rs4134713, rs59514310, rs386545618. [dbSNP build 157 rs1801133]
+- dbSNP records rs1801133 as variant type 'snv' on NC_000001.11 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs1801133]
+- Alternate allele 1: NC_000001.11:g.11796321G>A, a single-nucleotide variant (SNV) (G>A in VCF form). [dbSNP build 157 rs1801133]
+- Alternate allele 2: NC_000001.11:g.11796321G>C, a single-nucleotide variant (SNV) (G>C in VCF form). [dbSNP build 157 rs1801133]
+- Alternate allele 3: NC_000001.11:g.11796321G>T, a single-nucleotide variant (SNV) (G>T in VCF form). [dbSNP build 157 rs1801133]
+
+FUNCTION
+- For alternate allele 2 (G>C), Ensembl VEP predicts missense_variant in MTHFR (ENST00000376590.9:c.665C>G; ENSP00000365775.3:p.Ala222Gly), impact MODERATE. [Ensembl VEP rs1801133]
+- For alternate allele 1 (G>A), Ensembl VEP predicts missense_variant in MTHFR (ENST00000376590.9:c.665C>T; ENSP00000365775.3:p.Ala222Val), impact MODERATE. [Ensembl VEP rs1801133]
+- Ensembl classifies the variant as 'SNV' with allele string G/A/C. [Ensembl VEP rs1801133]
+
+FREQUENCY
+- In gnomAD v2.1.1 exomes, alternate allele 1 (G>A) has an overall allele frequency of 0.315. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.108, Admixed American 0.503, Ashkenazi Jewish 0.457, East Asian 0.29, Finnish 0.231, Non-Finnish European 0.34, South Asian 0.145, Other 0.33. [gnomAD v2.1.1 exomes]
+- Population differentiation flag (gnomAD v2.1.1 exomes): allele 1 frequency ranges from 0.108 in African/African American to 0.503 in Admixed American, a large between-ancestry difference. [gnomAD v2.1.1 exomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (G>A) has an overall allele frequency of 0.318 (513,548 of 1,613,846 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.109, Admixed American 0.478, Ashkenazi Jewish 0.46, East Asian 0.348, Finnish 0.233, Non-Finnish European 0.337, South Asian 0.149, Middle Eastern 0.261, Amish 0.484, Remaining 0.307. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0.109 in African/African American to 0.484 in Amish, a large between-ancestry difference. [gnomAD v4.1]
+- Alternate allele 2 (G>C) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 1-11796321-G-C (alternate allele 2). [gnomAD v4.1]
+- Alternate allele 3 (G>T) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs1801133. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 1-11796321-G-T (alternate allele 3). [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_005957.5(MTHFR):c.665C>T (p.Ala222Val) (alternate allele 1) with germline classification 'drug response' for: MTHFR THERMOLABILE POLYMORPHISM; Gastrointestinal stromal tumor; Neural tube defects, folate-sensitive; Homocystinuria due to methylene tetrahydrofolate reductase deficiency; and 4 more; review status 'reviewed by expert panel', 25 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000003520 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: drug response; 2019-01: drug response; 2020-01: drug response; 2026-11: drug response. The classification did not change over these releases. [ClinVar VCV000003520 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 9 'Benign', 6 'Uncertain significance', 3 'Pathogenic', 2 'Likely benign', 1 'other', 1 'drug response', 1 'Likely pathogenic', 1 'Likely risk allele', 1 'association'. [ClinVar VCV000003520 (2026-11 release)]
+- No allele of rs1801133 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000003520 (2026-11 release)]
+
+SOMATIC EVIDENCE
+- Ensembl VEP reports 1 co-located COSMIC somatic mutation record(s) at this position (COSV64876755). [Ensembl VEP rs1801133]
+- CIViC has a curated entry for MTHFR A222V (alternate allele 1) with 3 evidence item(s) across 1 molecular profile(s). [CIViC variant 258]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 50 association record(s) for rs1801133. [GWAS Catalog rs1801133]
+- Genome-wide significant association with homocysteine measurement (p = 1e-120, study GCST90090974, effect allele rs1801133-T). [GWAS Catalog GCST90090974; PMID:34707639]
+- Genome-wide significant association with amount of folic acid (p = 1e-52, study GCST90277443, effect allele rs1801133-G). [GWAS Catalog GCST90277443; PMID:23754956]
+- Genome-wide significant association with X-24337 measurement (p = 9e-43, study GCST90140587, effect allele rs1801133-A). [GWAS Catalog GCST90140587; PMID:35347128]
+- Genome-wide significant association with glycine measurement (p = 1e-41, study GCST90501110, effect allele rs1801133-A). [GWAS Catalog GCST90501110; PMID:41044249]
+- Genome-wide significant association with mean corpuscular hemoglobin (p = 3e-38, study GCST90475442, effect allele rs1801133-G). [GWAS Catalog GCST90475442; PMID:39024449]
+- Genome-wide significant association with erythrocyte volume (p = 3e-31, study GCST90475466, effect allele rs1801133-G). [GWAS Catalog GCST90475466; PMID:39024449]
+- rs1801133 is associated with 21 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs1801133; ClinVar VCV000003520 (2026-11 release)]
+
+LITERATURE
+- LitVar2 links 8989 PubMed articles to rs1801133. [LitVar2 rs1801133]
+- Linked article: "The Impacts of MTHFR C677T Variant (rs1801133) on Cardiometabolic Profiles and Early Onset Coronary Artery Disease: A Case-Control Study" (Genet Test Mol Biomarkers, 2026). [PMID:42799590]
+- Linked article: "MTHFR (rs1801133) and SERPINE1/PAI-1 (-675 4G/5G) gene polymorphisms and their association with spontaneous abortion and missed pregnancy in an ethnic Uzbek population: a case-control study" (Front Reprod Health, 2026). [PMID:42840159]
+- Linked article: "Allelic and Genotypic Distribution of rs1801133 in the Methylene Tetrahydrofolate Reductase (MTHFR) Gene Among Family Trios Affected by Nonsyndromic Cleft Lip and Palate" (Cureus, 2026). [PMID:42058361]
+
+CONFLICTS AND CAVEATS
+- Submitter conflict: ClinVar submissions for NM_005957.5(MTHFR):c.665C>T (p.Ala222Val) disagree (4 pathogenic or likely pathogenic, 6 uncertain significance, 11 benign or likely benign); the aggregate classification is 'drug response'. [ClinVar VCV000003520]
+
+BOTTOM LINE
+- Bottom line: rs1801133 in MTHFR is best described as: trait-associated common variant without an established monogenic disease role (ClinVar also records a drug-response annotation). Its strongest reported association is with homocysteine measurement. Sources disagree on some points (see conflicts). Confidence: high (49 genome-wide significant associations across 50 studies). [ClinVar VCV000003520 (2026-11 release); GWAS Catalog rs1801133; LitVar2 rs1801133]

@@ -1,0 +1,40 @@
+VARIANT DOSSIER: rs1799963
+Evidence as of: 2020-01-01. Generated 2026-11-17.
+
+IDENTITY
+- rs1799963 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs1799963]
+- dbSNP records rs1799963 as variant type 'snv' on NC_000011.10 (GRCh38) with 1 alternate allele. [dbSNP build 157 rs1799963]
+- Alternate allele 1: NC_000011.10:g.46739505G>A, a single-nucleotide variant (SNV) (G>A in VCF form). [dbSNP build 157 rs1799963]
+
+FUNCTION
+- For alternate allele 1 (G>A), Ensembl VEP predicts 3_prime_UTR_variant in F2 (ENST00000311907.10:c.*97G>A), impact MODIFIER. [Ensembl VEP rs1799963]
+- Ensembl classifies the variant as 'SNV' with allele string G/A. [Ensembl VEP rs1799963]
+
+FREQUENCY
+- In gnomAD v2.1.1 genomes, alternate allele 1 (G>A) has an overall allele frequency of 0.00844. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.00275, Admixed American 0.0177, Ashkenazi Jewish 0.0138, East Asian 0, Finnish 0.0046, Non-Finnish European 0.0124, Other 0.0129. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0 in East Asian to 0.0177 in Admixed American, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_000506.4(F2):c.*97G>A (alternate allele 1) with germline classification 'Pathogenic' for: Ischemic stroke, susceptibility to; Pregnancy loss, recurrent, susceptibility to, 2; Prothrombin deficiency, congenital; Venous thrombosis; review status 'criteria provided, multiple submitters, no conflicts', 3 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000013310 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic, risk factor; 2019-01: Pathogenic. The classification changed over these releases. [ClinVar VCV000013310 (2019-01 release)]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 40 association record(s) for rs1799963. Of these, 5 were published on or before 2020-01-01. [GWAS Catalog rs1799963]
+- Genome-wide significant association with venous thromboembolism (p = 1e-59, study GCST009097, effect allele rs1799963-A). [GWAS Catalog GCST009097; PMID:31676865]
+- Genome-wide significant association with abnormal thrombosis (p = 1e-24, study GCST003390, effect allele rs1799963-A). [GWAS Catalog GCST003390; PMID:26908601]
+
+LITERATURE
+- LitVar2 links 3743 PubMed articles to rs1799963; 2486 of the 3742 with a PubMed date were published on or before 2020-01-01. [LitVar2 rs1799963]
+- Linked article: "Recurrent coronary syndromes in a patient with isolated very-high lipoprotein (a) and the prothrombin genetic variant rs1799963 (G20210A): a case report" (Eur Heart J Case Rep, 2019). [PMID:31020261]
+- Linked article: "Polymorphisms of F2, PROC, PROZ, and F13A1 Genes are Associated With Recurrent Spontaneous Abortion in Chinese Han Women" (Clin Appl Thromb Hemost, 2018). [PMID:29363996]
+- Linked article: "Prevalence of F5 1691G>A, F2 20210G>A, and MTHFR 677C>T polymorphisms in Bosnian women with pregnancy loss" (Bosn J Basic Med Sci, 2017). [PMID:28488549]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs1799963 in F2 is best described as: germline disease variant. ClinVar links it to Ischemic stroke, susceptibility to. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict). [ClinVar VCV000013310 (2019-01 release); GWAS Catalog rs1799963; LitVar2 rs1799963]
+
+PROCESSING NOTES (not evidence)
+- CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'.

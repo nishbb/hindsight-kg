@@ -1,0 +1,2326 @@
+{
+ "rsid_query": "rs28934578",
+ "rsid_current": "rs28934578",
+ "as_of": "2020-01-01",
+ "generated_at": "2026-11-17T02:14:02.513078+00:00",
+ "genes": {
+  "vep": [
+   "TP53"
+  ],
+  "dbsnp": [
+   "TP53"
+  ],
+  "clinvar": [
+   "TP53"
+  ],
+  "gwas": []
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000017.11:g.7675088C>A",
+   "spdi_deleted": "C",
+   "spdi_inserted": "A",
+   "chrom": "17",
+   "pos": 7675088,
+   "ref": "C",
+   "alt": "A",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "17-7675088-C-A",
+   "vep": {
+    "gene_symbol": "TP53",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000269305.9:c.524G>T",
+    "hgvsp": "ENSP00000269305.4:p.Arg175Leu",
+    "impact": "MODERATE",
+    "mane_select": "NM_000546.6"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    }
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000017.11:g.7675088C>G",
+   "spdi_deleted": "C",
+   "spdi_inserted": "G",
+   "chrom": "17",
+   "pos": 7675088,
+   "ref": "C",
+   "alt": "G",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "17-7675088-C-G",
+   "vep": {
+    "gene_symbol": "TP53",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000269305.9:c.524G>C",
+    "hgvsp": "ENSP00000269305.4:p.Arg175Pro",
+    "impact": "MODERATE",
+    "mane_select": "NM_000546.6"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    }
+   }
+  },
+  {
+   "index": 3,
+   "dbsnp_allele_index": 3,
+   "hgvs_g": "NC_000017.11:g.7675088C>T",
+   "spdi_deleted": "C",
+   "spdi_inserted": "T",
+   "chrom": "17",
+   "pos": 7675088,
+   "ref": "C",
+   "alt": "T",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "17-7675088-C-T",
+   "vep": {
+    "gene_symbol": "TP53",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000269305.9:c.524G>A",
+    "hgvsp": "ENSP00000269305.4:p.Arg175His",
+    "impact": "MODERATE",
+    "mane_select": "NM_000546.6"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "exomes",
+     "overall": 3.97969e-06,
+     "populations": {
+      "afr": 0.0,
+      "amr": 0.0,
+      "asj": 0.0,
+      "eas": 0.0,
+      "fin": 0.0,
+      "nfe": 8.80282e-06,
+      "sas": 0.0,
+      "oth": 0.0
+     },
+     "an": 251276
+    }
+   }
+  }
+ ],
+ "clinvar": [
+  {
+   "variation_id": "12374",
+   "allele_index": 3,
+   "name": "NM_000546.5(TP53):c.524G>A (p.Arg175His)",
+   "classification": "Pathogenic",
+   "review_status": "criteria provided, multiple submitters, no conflicts",
+   "conditions": [
+    "Hereditary cancer-predisposing syndrome",
+    "Li-Fraumeni syndrome",
+    "Li-Fraumeni syndrome 1",
+    "Malignant tumor of esophagus",
+    "Neoplasm",
+    "Neoplasm of the breast"
+   ],
+   "origin": "germline;somatic;unknown",
+   "n_submitters": "11",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "Pathogenic/Likely pathogenic",
+     "review_status": "criteria provided, multiple submitters, no conflicts",
+     "n_submitters": "8",
+     "last_evaluated": "Aug 24, 2017",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "Pathogenic",
+     "review_status": "criteria provided, multiple submitters, no conflicts",
+     "n_submitters": "11",
+     "last_evaluated": "Jun 29, 2018",
+     "release_date": "2019-01-03"
+    }
+   ],
+   "submission_classes": {}
+  },
+  {
+   "variation_id": "182963",
+   "allele_index": 1,
+   "name": "NM_000546.5(TP53):c.524G>T (p.Arg175Leu)",
+   "classification": "Likely pathogenic",
+   "review_status": "criteria provided, single submitter",
+   "conditions": [
+    "Hereditary cancer-predisposing syndrome"
+   ],
+   "origin": "germline",
+   "n_submitters": "1",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "Likely pathogenic",
+     "review_status": "criteria provided, single submitter",
+     "n_submitters": "1",
+     "last_evaluated": "Apr 28, 2015",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "Likely pathogenic",
+     "review_status": "criteria provided, single submitter",
+     "n_submitters": "1",
+     "last_evaluated": "Apr 28, 2015",
+     "release_date": "2019-01-03"
+    }
+   ],
+   "submission_classes": {}
+  }
+ ],
+ "clinvar_release": "2019-01",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 0,
+  "n_associations_in_scope": 0,
+  "n_genome_wide_significant": 0,
+  "n_studies": 0,
+  "mapped_genes": [],
+  "top_traits": [],
+  "n_distinct_traits_significant": 0,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 3092,
+  "n_in_scope": 1487,
+  "pmids_in_scope": [
+   "31073076",
+   "31552911",
+   "31628423",
+   "31952783",
+   "32118206",
+   "32508039",
+   "34532721",
+   "31976328",
+   "31877751",
+   "31860648",
+   "31862972",
+   "31856217",
+   "31852795",
+   "31861340",
+   "31861395",
+   "31772025",
+   "31888289",
+   "31836712",
+   "31835684",
+   "31817996",
+   "31817935",
+   "31804490",
+   "31817278",
+   "31792264",
+   "30780130",
+   "31637877",
+   "31768066",
+   "31896242",
+   "31795192",
+   "31775759",
+   "31775766",
+   "31799437",
+   "31771620",
+   "31772163",
+   "31867204",
+   "31765373",
+   "31766318",
+   "31819616",
+   "31745186",
+   "31717504",
+   "31699974",
+   "31700061",
+   "31781598",
+   "31538203",
+   "31682636",
+   "31350822",
+   "31397499",
+   "31442744",
+   "31672976",
+   "31749782"
+  ],
+  "top": [
+   "31628423",
+   "31877751",
+   "31792264"
+  ]
+ },
+ "conflicts": [
+  {
+   "type": "classification_changed_over_time",
+   "variation_id": "12374",
+   "history": [
+    [
+     "2018-01",
+     "Pathogenic/Likely pathogenic"
+    ],
+    [
+     "2019-01",
+     "Pathogenic"
+    ]
+   ]
+  }
+ ],
+ "bottom_line": {
+  "category": "germline disease variant",
+  "confidence": "high",
+  "rationale": "multi-submitter or expert-reviewed ClinVar assertion without submitter conflict",
+  "text": "Bottom line: rs28934578 in TP53 is best described as: germline disease variant. ClinVar links it to Hereditary cancer-predisposing syndrome. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict)."
+ },
+ "notes": [
+  "CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'."
+ ],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs28934578 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs28934578",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs28934578",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs28934578 as variant type 'snv' on NC_000017.11 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs28934578",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs28934578",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs28934578",
+     "path": "seq_id",
+     "value": "NC_000017.11",
+     "label": "dbSNP build 157 rs28934578",
+     "mode": "eq",
+     "shown": "NC_000017.11",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000017.11:g.7675088C>A, a single-nucleotide variant (SNV) (C>A in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs28934578",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000017.11:g.7675088C>A",
+     "label": "dbSNP build 157 rs28934578",
+     "mode": "eq",
+     "shown": "NC_000017.11:g.7675088C>A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000017.11:g.7675088C>G, a single-nucleotide variant (SNV) (C>G in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs28934578",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000017.11:g.7675088C>G",
+     "label": "dbSNP build 157 rs28934578",
+     "mode": "eq",
+     "shown": "NC_000017.11:g.7675088C>G",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 3: NC_000017.11:g.7675088C>T, a single-nucleotide variant (SNV) (C>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs28934578",
+     "path": "alleles.3.hgvs",
+     "value": "NC_000017.11:g.7675088C>T",
+     "label": "dbSNP build 157 rs28934578",
+     "mode": "eq",
+     "shown": "NC_000017.11:g.7675088C>T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 2 (C>G), Ensembl VEP predicts missense_variant in TP53 (ENST00000269305.9:c.524G>C; ENSP00000269305.4:p.Arg175Pro), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "TP53",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "TP53",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000269305.9:c.524G>C",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "ENST00000269305.9:c.524G>C",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.0.hgvsp",
+     "value": "ENSP00000269305.4:p.Arg175Pro",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "ENSP00000269305.4:p.Arg175Pro",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 3 (C>T), Ensembl VEP predicts missense_variant in TP53 (ENST00000269305.9:c.524G>A; ENSP00000269305.4:p.Arg175His), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.1.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.1.gene_symbol",
+     "value": "TP53",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "TP53",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.1.hgvsc",
+     "value": "ENST00000269305.9:c.524G>A",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "ENST00000269305.9:c.524G>A",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.1.hgvsp",
+     "value": "ENSP00000269305.4:p.Arg175His",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "ENSP00000269305.4:p.Arg175His",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.1.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (C>A), Ensembl VEP predicts missense_variant in TP53 (ENST00000269305.9:c.524G>T; ENSP00000269305.4:p.Arg175Leu), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.2.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.2.gene_symbol",
+     "value": "TP53",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "TP53",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.2.hgvsc",
+     "value": "ENST00000269305.9:c.524G>T",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "ENST00000269305.9:c.524G>T",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.2.hgvsp",
+     "value": "ENSP00000269305.4:p.Arg175Leu",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "ENSP00000269305.4:p.Arg175Leu",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "transcript_consequences.2.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string C/A/G/T.",
+   "citations": [
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs28934578",
+     "path": "allele_string",
+     "value": "C/A/G/T",
+     "label": "Ensembl VEP rs28934578",
+     "mode": "eq",
+     "shown": "C/A/G/T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 1 (C>A) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs28934578",
+     "path": "hits.1._id",
+     "value": "chr17:g.7578406C>A",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 2 (C>G) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs28934578",
+     "path": "hits.0._id",
+     "value": "chr17:g.7578406C>G",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 exomes, alternate allele 3 (C>T) has an overall allele frequency of 3.98e-06.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs28934578",
+     "path": "hits.2.gnomad_exome.af.af",
+     "value": 3.97969e-06,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "3.98e-06",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 3: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 8.8e-06, South Asian 0, Other 0.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs28934578",
+     "path": "hits.2.gnomad_exome.af.af_afr",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs28934578",
+     "path": "hits.2.gnomad_exome.af.af_amr",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs28934578",
+     "path": "hits.2.gnomad_exome.af.af_asj",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs28934578",
+     "path": "hits.2.gnomad_exome.af.af_eas",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs28934578",
+     "path": "hits.2.gnomad_exome.af.af_fin",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs28934578",
+     "path": "hits.2.gnomad_exome.af.af_nfe",
+     "value": 8.80282e-06,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "8.8e-06",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs28934578",
+     "path": "hits.2.gnomad_exome.af.af_sas",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs28934578",
+     "path": "hits.2.gnomad_exome.af.af_oth",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_000546.5(TP53):c.524G>A (p.Arg175His) (alternate allele 3) with germline classification 'Pathogenic' for: Hereditary cancer-predisposing syndrome; Li-Fraumeni syndrome; Li-Fraumeni syndrome 1; Malignant tumor of esophagus; and 2 more; review status 'criteria provided, multiple submitters, no conflicts', 11 submitter(s), allele origin 'germline;somatic;unknown'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000012374@2019-01",
+     "path": "clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000012374 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000012374@2019-01",
+     "path": "review_status",
+     "value": "criteria provided, multiple submitters, no conflicts",
+     "label": "ClinVar VCV000012374 (2019-01 release)",
+     "mode": "eq",
+     "shown": "criteria provided, multiple submitters, no conflicts",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000012374@2019-01",
+     "path": "name",
+     "value": "NM_000546.5(TP53):c.524G>A (p.Arg175His)",
+     "label": "ClinVar VCV000012374 (2019-01 release)",
+     "mode": "eq",
+     "shown": "NM_000546.5(TP53):c.524G>A (p.Arg175His)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000012374@2019-01",
+     "path": "n_submitters",
+     "value": "11",
+     "label": "ClinVar VCV000012374 (2019-01 release)",
+     "mode": "eq",
+     "shown": "11",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000012374@2019-01",
+     "path": "phenotype_list",
+     "value": "Hereditary cancer-predisposing syndrome",
+     "label": "ClinVar VCV000012374 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Hereditary cancer-predisposing syndrome",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000012374@2019-01",
+     "path": "phenotype_list",
+     "value": "Li-Fraumeni syndrome",
+     "label": "ClinVar VCV000012374 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Li-Fraumeni syndrome",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000012374@2019-01",
+     "path": "phenotype_list",
+     "value": "Li-Fraumeni syndrome 1",
+     "label": "ClinVar VCV000012374 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Li-Fraumeni syndrome 1",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000012374@2019-01",
+     "path": "phenotype_list",
+     "value": "Malignant tumor of esophagus",
+     "label": "ClinVar VCV000012374 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Malignant tumor of esophagus",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000012374@2019-01",
+     "path": "origin",
+     "value": "germline;somatic;unknown",
+     "label": "ClinVar VCV000012374 (2019-01 release)",
+     "mode": "eq",
+     "shown": "germline;somatic;unknown",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic/Likely pathogenic; 2019-01: Pathogenic. The classification changed over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000012374@2019-01",
+     "path": "history.0.clnsig",
+     "value": "Pathogenic/Likely pathogenic",
+     "label": "ClinVar VCV000012374 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Pathogenic/Likely pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000012374@2019-01",
+     "path": "history.1.clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000012374 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_000546.5(TP53):c.524G>T (p.Arg175Leu) (alternate allele 1) with germline classification 'Likely pathogenic' for: Hereditary cancer-predisposing syndrome; review status 'criteria provided, single submitter', 1 submitter(s), allele origin 'germline'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000182963@2019-01",
+     "path": "clnsig",
+     "value": "Likely pathogenic",
+     "label": "ClinVar VCV000182963 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Likely pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000182963@2019-01",
+     "path": "review_status",
+     "value": "criteria provided, single submitter",
+     "label": "ClinVar VCV000182963 (2019-01 release)",
+     "mode": "eq",
+     "shown": "criteria provided, single submitter",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000182963@2019-01",
+     "path": "name",
+     "value": "NM_000546.5(TP53):c.524G>T (p.Arg175Leu)",
+     "label": "ClinVar VCV000182963 (2019-01 release)",
+     "mode": "eq",
+     "shown": "NM_000546.5(TP53):c.524G>T (p.Arg175Leu)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000182963@2019-01",
+     "path": "n_submitters",
+     "value": "1",
+     "label": "ClinVar VCV000182963 (2019-01 release)",
+     "mode": "eq",
+     "shown": "1",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000182963@2019-01",
+     "path": "phenotype_list",
+     "value": "Hereditary cancer-predisposing syndrome",
+     "label": "ClinVar VCV000182963 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Hereditary cancer-predisposing syndrome",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000182963@2019-01",
+     "path": "origin",
+     "value": "germline",
+     "label": "ClinVar VCV000182963 (2019-01 release)",
+     "mode": "eq",
+     "shown": "germline",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: Likely pathogenic; 2019-01: Likely pathogenic. The classification did not change over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000182963@2019-01",
+     "path": "history.0.clnsig",
+     "value": "Likely pathogenic",
+     "label": "ClinVar VCV000182963 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Likely pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000182963@2019-01",
+     "path": "history.1.clnsig",
+     "value": "Likely pathogenic",
+     "label": "ClinVar VCV000182963 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Likely pathogenic",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists no association for rs28934578.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs28934578",
+     "path": "associations",
+     "value": [],
+     "label": "GWAS Catalog rs28934578",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 3092 PubMed articles to rs28934578; 1487 of the 3091 with a PubMed date were published on or before 2020-01-01.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs28934578",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs28934578",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Clinical significance of TP53 variants as possible secondary findings in tumor-only next-generation sequencing\" (J Hum Genet, 2020).",
+   "citations": [
+    {
+     "record_id": "PMID:31628423",
+     "path": "title",
+     "value": "Clinical significance of TP53 variants as possible secondary findings in tumor-only next-generation sequencing.",
+     "label": "PMID:31628423",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31628423",
+     "path": "journal",
+     "value": "J Hum Genet",
+     "label": "PMID:31628423",
+     "mode": "eq",
+     "shown": "J Hum Genet",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Identification and Characterization of a New Platinum-Induced TP53 Mutation in MDAH Ovarian Cancer Cells\" (Cells, 2019).",
+   "citations": [
+    {
+     "record_id": "PMID:31877751",
+     "path": "title",
+     "value": "Identification and Characterization of a New Platinum-Induced TP53 Mutation in MDAH Ovarian Cancer Cells.",
+     "label": "PMID:31877751",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31877751",
+     "path": "journal",
+     "value": "Cells",
+     "label": "PMID:31877751",
+     "mode": "eq",
+     "shown": "Cells",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Assessment of TP53 lesions for p53 system functionality and drug resistance in multiple myeloma using an isogenic cell line model\" (Sci Rep, 2019).",
+   "citations": [
+    {
+     "record_id": "PMID:31792264",
+     "path": "title",
+     "value": "Assessment of TP53 lesions for p53 system functionality and drug resistance in multiple myeloma using an isogenic cell line model.",
+     "label": "PMID:31792264",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31792264",
+     "path": "journal",
+     "value": "Sci Rep",
+     "label": "PMID:31792264",
+     "mode": "eq",
+     "shown": "Sci Rep",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs28934578 in TP53 is best described as: germline disease variant. ClinVar links it to Hereditary cancer-predisposing syndrome. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict).",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000012374@2019-01",
+     "path": "clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000012374 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000182963@2019-01",
+     "path": "clnsig",
+     "value": "Likely pathogenic",
+     "label": "ClinVar VCV000182963 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs28934578",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs28934578",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs28934578",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs28934578",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs28934578": {
+   "record_id": "dbSNP:rs28934578",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/28934578",
+   "retrieved_at": "2026-11-17T02:04:48.340077+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "28934578",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [],
+    "merged_into": [],
+    "citations": [
+     8649785,
+     9047394,
+     11101847,
+     15977174,
+     16401470,
+     16489069,
+     17606709,
+     18391940,
+     18511570,
+     19881536,
+     20128691,
+     20689556,
+     21305319,
+     21343334,
+     21761402,
+     22233476,
+     22698404,
+     23161690,
+     23792586,
+     24573247,
+     24929325,
+     25105660,
+     25157968,
+     26900293,
+     32000721,
+     33076847,
+     34203389,
+     34239995,
+     35393538,
+     36077746,
+     37304756
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000017.11",
+    "alleles": [
+     {
+      "hgvs": "NC_000017.11:g.7675088=",
+      "position0": 7675087,
+      "deleted": "C",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000017.11:g.7675088C>A",
+      "position0": 7675087,
+      "deleted": "C",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000017.11:g.7675088C>G",
+      "position0": 7675087,
+      "deleted": "C",
+      "inserted": "G"
+     },
+     {
+      "hgvs": "NC_000017.11:g.7675088C>T",
+      "position0": 7675087,
+      "deleted": "C",
+      "inserted": "T"
+     }
+    ],
+    "genes": [
+     "TP53"
+    ]
+   }
+  },
+  "VEP:rs28934578": {
+   "record_id": "VEP:rs28934578",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs28934578",
+   "retrieved_at": "2026-11-17T02:04:54.047241+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs28934578",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "17",
+    "start": 7675088,
+    "end": 7675088,
+    "allele_string": "C/A/G/T",
+    "variant_class": "SNV",
+    "most_severe_consequence": "missense_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "G",
+      "gene_symbol": "TP53",
+      "gene_id": "ENSG00000141510",
+      "transcript_id": "ENST00000269305",
+      "mane_select": "NM_000546.6",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000269305.9:c.524G>C",
+      "hgvsp": "ENSP00000269305.4:p.Arg175Pro",
+      "impact": "MODERATE",
+      "amino_acids": "R/P",
+      "protein_start": 175,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "T",
+      "gene_symbol": "TP53",
+      "gene_id": "ENSG00000141510",
+      "transcript_id": "ENST00000269305",
+      "mane_select": "NM_000546.6",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000269305.9:c.524G>A",
+      "hgvsp": "ENSP00000269305.4:p.Arg175His",
+      "impact": "MODERATE",
+      "amino_acids": "R/H",
+      "protein_start": 175,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "A",
+      "gene_symbol": "TP53",
+      "gene_id": "ENSG00000141510",
+      "transcript_id": "ENST00000269305",
+      "mane_select": "NM_000546.6",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000269305.9:c.524G>T",
+      "hgvsp": "ENSP00000269305.4:p.Arg175Leu",
+      "impact": "MODERATE",
+      "amino_acids": "R/L",
+      "protein_start": 175,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [
+     "COSV52661038",
+     "COSV52677601",
+     "COSV52731306",
+     "COSV53801286"
+    ],
+    "colocated_somatic": true
+   }
+  },
+  "gnomAD-v2.1.1:rs28934578": {
+   "record_id": "gnomAD-v2.1.1:rs28934578",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:04:54.160370+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr17:g.7578406C>G",
+      "_score": 17.140974,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 35
+      },
+      "cosmic": {
+       "_license": "http://bit.ly/2VMkY7R",
+       "alt": "C",
+       "chrom": "17",
+       "cosmic_id": "COSM45416",
+       "hg19": {
+        "end": 7578406,
+        "start": 7578406
+       },
+       "mut_freq": 0.02,
+       "mut_nt": "G>C",
+       "ref": "G",
+       "tumor_site": "central_nervous_system"
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "G",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "vcf": {
+       "alt": "G",
+       "position": "7578406",
+       "ref": "C"
+      }
+     },
+     {
+      "_id": "chr17:g.7578406C>A",
+      "_score": 17.140839,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 35
+      },
+      "cosmic": {
+       "_license": "http://bit.ly/2VMkY7R",
+       "alt": "T",
+       "chrom": "17",
+       "cosmic_id": "COSM10718",
+       "hg19": {
+        "end": 7578406,
+        "start": 7578406
+       },
+       "mut_freq": 0.02,
+       "mut_nt": "G>T",
+       "ref": "G",
+       "tumor_site": "central_nervous_system"
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "A",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "vcf": {
+       "alt": "A",
+       "position": "7578406",
+       "ref": "C"
+      }
+     },
+     {
+      "_id": "chr17:g.7578406C>T",
+      "_score": 17.140837,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 25.1
+      },
+      "civic": {
+       "_license": "http://bit.ly/2FqS871",
+       "feature": {
+        "deprecated": false,
+        "flagged": false,
+        "id": 45,
+        "link": "/features/45",
+        "name": "TP53"
+       },
+       "id": 116,
+       "molecularProfiles": {
+        "evidenceItems": [
+         {
+          "description": "Breast cancer patients who harbor R175H mutation have worse overall survival than those with wild type TP53, but have better prognosis than those with R248W mutation.",
+          "disease": {
+           "diseaseAliases": [
+            "Breast Tumor",
+            "Malignant Neoplasm Of Breast",
+            "Malignant Tumor Of The Breast",
+            "Mammary Cancer",
+            "Mammary Tumor",
+            "Primary Breast Cancer"
+           ],
+           "diseaseUrl": "https://www.disease-ontology.org/?id=DOID:1612",
+           "displayName": "Breast Cancer",
+           "doid": "1612",
+           "id": 22,
+           "link": "/diseases/22",
+           "myDiseaseInfo": {
+            "doDef": "An organ system cancer that originates in the mammary gland.",
+            "icd10": "C50",
+            "mesh": "D001943",
+            "mondoId": "MONDO:0007254",
+            "ncit": [
+             "C9335"
+            ]
+           },
+           "name": "Breast Cancer"
+          },
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "B",
+          "evidenceRating": 3,
+          "evidenceType": "PROGNOSTIC",
+          "flagged": false,
+          "id": 389,
+          "molecularProfile": {
+           "id": 116
+          },
+          "name": "EID389",
+          "significance": "POOR_OUTCOME",
+          "source": {
+           "abstract": "To investigate the clinical value of somatic TP53 mutations in breast cancer, we assembled clinical and molecular data on 1,794 women with primary breast cancer with long-term follow-up and whose tumor has been screened for mutation in exons 5 to 8 of TP53 by gene sequencing. TP53 mutations were more frequent in tumors of ductal and medullar types, aggressive phenotype (high grade, large size, node positive cases, and low hormone receptor content) and in women <60 years old. TP53 mutations within exons 5 to 8 conferred an elevated risk of breast cancer-specific death of 2.27 (relative risk >10 years; P < 0.0001) compared with patients with no such mutation. The prognostic value of TP53 mutation was independent of tumor size, node status, and hormone receptor content, confirming and reconciling previous findings in smaller series. Moreover, an interaction between TP53 mutation and progesterone receptor (PR) status was revealed, TP53 mutation combined with the absence of progesterone receptor being associated with the worst prognosis. Whereas previous studies have emphasized the fact that missense mutations in the DNA-binding motifs have a worse prognosis than missense mutations outside these motifs, we show that non-missense mutations have prognostic value similar to missense mutations in DNA-binding motifs. Nonetheless, specific missense mutants (codon 179 and R248W) seem to be associated with an even worse prognosis. These results, obtained on the largest series analyzed thus far, show that TP53 mutations identified by gene sequencing have an independent prognostic value in breast cancer and could have potential uses in clinical practice.",
+           "authorString": "Magali Olivier, Anita Langer\u00f8d, Patrizia Carrieri, Jonas Bergh, Sigrid Klaar, Jorunn Eyfjord, Charles Theillet, Carmen Rodriguez, Rosette Lidereau, Ivan Bi\u00e8che, Jennifer Varley, Yves Bignon, Nancy Uhrhammer, Robert Winqvist, Arja Jukkola-Vuorinen, Dieter Niederacher, Shunsuke Kato, Chikashi Ishioka, Pierre Hainaut, Anne-Lise B\u00f8rresen-Dale",
+           "citation": "Olivier et al., 2006",
+           "citationId": "16489069",
+           "id": 233,
+           "journal": "Clin Cancer Res",
+           "link": "/sources/233",
+           "name": "PubMed: Olivier et al., 2006",
+           "openAccess": false,
+           "publicationDate": "2006-2-15",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/16489069",
+           "title": "The clinical value of somatic TP53 gene mutations in 1,794 patients with breast cancer."
+          },
+          "variantOrigin": "SOMATIC"
+         },
+         {
+          "description": "In a study of 25 patients with advanced gastric cancer, mutations in TP53 were identified in 32% of primary tumors. TP53 mutations were associated with an improved response to preoperative treatment of a modified EAP protocol (combination of doxorubicin, etoposide and cisplatin). Patients with mutations in TP53 had an increased median survival compared to patients with wildtype TP53 (18.5mo vs. 10.2mo, P=0.044).",
+          "disease": {
+           "diseaseAliases": [
+            "Cancer Of The Stomach",
+            "Carcinoma Of Stomach",
+            "Gastric Carcinoma"
+           ],
+           "diseaseUrl": "https://www.disease-ontology.org/?id=DOID:5517",
+           "displayName": "Stomach Carcinoma",
+           "doid": "5517",
+           "id": 1322,
+           "link": "/diseases/1322",
+           "myDiseaseInfo": {
+            "doDef": "A stomach cancer that is located_in the gastric fundus.",
+            "icd10": "C16.1",
+            "mondoId": "MONDO:0004950"
+           },
+           "name": "Stomach Carcinoma"
+          },
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "C",
+          "evidenceType": "PREDICTIVE",
+          "flagged": false,
+          "id": 2310,
+          "molecularProfile": {
+           "id": 116
+          },
+          "name": "EID2310",
+          "significance": "SENSITIVITYRESPONSE",
+          "source": {
+           "abstract": "To evaluate the usefulness of molecular markers in predicting histopathological and clinical response to preoperative high dose chemotherapy (HDCT) and survival of patients with advanced gastric cancer.In a phase II trial, 25 patients with metastatic gastric cancer received preoperative tandem HDCT consisting of etoposide, cisplatin, and mitomycin, followed by autologous bone marrow transplantation to achieve surgical resectability. Samples before and after treatment, from normal and tumour tissue, were characterised histopathologically, and both p53 and BAX expression was analysed by immunohistochemistry. Pretreatment formalin fixed, paraffin wax embedded samples from normal and tumour tissue were microdissected, and the extracted DNA was preamplified using improved primer extension preamplification polymerase chain reaction. Detection of microsatellite instability (MSI) or loss of heterozygosity (LOH) was performed using markers for p53, BAX, BAT25, BAT26, D2S123, D17S250, and APC. Exons 5-9 of the p53 gene were sequenced directly on ABI 373.Four parameters were significantly associated with response to chemotherapy and prolonged overall survival: positive p53 immunostaining, positive p53 mutation status before chemotherapy, strong histological regression induced by preoperative HDCT, and surgical treatment. Patients's sex or age, tumour location or stage, lymph node status, Lauren classification, MSI, or LOH did not influence duration of survival significantly in this high risk population.Positive p53 immunostaining and p53 mutation status in pretreatment tumour biopsies might be useful molecular predictors of response and prognosis in patients with advanced gastric cancer treated by preoperative HDCT.",
+           "authorString": "F Bataille, P R\u00fcmmele, W Dietmaier, D Gaag, F Klebl, A Reichle, P Wild, F Hofst\u00e4dter, A Hartmann",
+           "citation": "Bataille et al., 2003",
+           "citationId": "14514923",
+           "id": 1557,
+           "journal": "Mol Pathol",
+           "link": "/sources/1557",
+           "name": "PubMed: Bataille et al., 2003",
+           "openAccess": true,
+           "pmcId": "PMC1187340",
+           "publicationDate": "2003-10",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/14514923",
+           "title": "Alterations in p53 predict response to preoperative high dose chemotherapy in patients with gastric cancer."
+          },
+          "therapies": [
+           {
+            "deprecated": false,
+            "id": 468,
+            "link": "/therapies/468",
+            "name": "EAP Protocol"
+           }
+          ],
+          "variantOrigin": "SOMATIC"
+         },
+         {
+          "description": "Subset of 58 cancer cell lines with unaltered TP53 is sensitive to MDM2 Inhibitor AMGMDS3. None of 115 cancer cell lines with TP53 mutation and absence of WT allele are sensitive to MDM2 Inhibitor. TP53 R175H loss of function mutation is present in 4 cell lines and all are insensitive to MDM2 Inhibitor AMGMDS3.",
+          "disease": {
+           "diseaseAliases": [
+            "Malignant Neoplasm",
+            "Malignant Tumor",
+            "Primary Cancer"
+           ],
+           "diseaseUrl": "https://www.disease-ontology.org/?id=DOID:162",
+           "displayName": "Cancer",
+           "doid": "162",
+           "id": 216,
+           "link": "/diseases/216",
+           "myDiseaseInfo": {
+            "doDef": "A cancer that is classified based on the organ it starts in.",
+            "mesh": "D009371",
+            "mondoId": "MONDO:0004992"
+           },
+           "name": "Cancer"
+          },
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "D",
+          "evidenceRating": 4,
+          "evidenceType": "PREDICTIVE",
+          "flagged": false,
+          "id": 4880,
+          "molecularProfile": {
+           "id": 116
+          },
+          "name": "EID4880",
+          "significance": "RESISTANCE",
+          "source": {
+           "abstract": "Previous reports have provided evidence that p53 mutation is a strong negative predictor of response to MDM2 inhibitors. However, this correlation is not absolute, as many p53Mutant cell lines have been reported to respond to MDM2 inhibition, while many p53WT cell lines have been shown not to respond. To better understand the nature of these exceptions, we screened a panel of 260 cell lines and noted similar discrepancies. However, upon extensive curation of this panel, these apparent exceptions could be eliminated, revealing a perfect correlation between p53 mutational status and MDM2 inhibitor responsiveness. It has been suggested that the MDM2-amplified subset of p53WT tumors might be particularly sensitive to MDM2 inhibition. To facilitate clinical testing of this hypothesis, we identified a rationally derived copy number cutoff for assignment of functionally relevant MDM2 amplification. Applying this cutoff resulted in a pan-cancer MDM2 amplification rate far lower than previously published.",
+           "authorString": "Anne Y Saiki, Sean Caenepeel, Elissa Cosgrove, Cheng Su, Michael Boedigheimer, Jonathan D Oliner",
+           "citation": "Saiki et al., 2015",
+           "citationId": "25730903",
+           "id": 1696,
+           "journal": "Oncotarget",
+           "link": "/sources/1696",
+           "name": "PubMed: Saiki et al., 2015",
+           "openAccess": true,
+           "pmcId": "PMC4480710",
+           "publicationDate": "2015-4-10",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/25730903",
+           "title": "Identifying the determinants of response to MDM2 inhibition."
+          },
+          "therapies": [
+           {
+            "deprecated": false,
+            "id": 20623,
+            "link": "/therapies/20623",
+            "name": "MDM2 Inhibitor AMGMDS3"
+           }
+          ],
+          "variantOrigin": "SOMATIC"
+         },
+         {
+          "description": "Breast tumors in a mouse model with R172H mutation (homologous to human R175H) are more responsive to doxorubicin than breast tumors with wild type TP53.",
+          "disease": {
+           "diseaseAliases": [
+            "Breast Tumor",
+            "Malignant Neoplasm Of Breast",
+            "Malignant Tumor Of The Breast",
+            "Mammary Cancer",
+            "Mammary Tumor",
+            "Primary Breast Cancer"
+           ],
+           "diseaseUrl": "https://www.disease-ontology.org/?id=DOID:1612",
+           "displayName": "Breast Cancer",
+           "doid": "1612",
+           "id": 22,
+           "link": "/diseases/22",
+           "myDiseaseInfo": {
+            "doDef": "An organ system cancer that originates in the mammary gland.",
+            "icd10": "C50",
+            "mesh": "D001943",
+            "mondoId": "MONDO:0007254",
+            "ncit": [
+             "C9335"
+            ]
+           },
+           "name": "Breast Cancer"
+          },
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "D",
+          "evidenceRating": 3,
+          "evidenceType": "PREDICTIVE",
+          "flagged": false,
+          "id": 319,
+          "molecularProfile": {
+           "id": 116
+          },
+          "name": "EID319",
+          "significance": "SENSITIVITYRESPONSE",
+          "source": {
+           "abstract": "Studies on the role of TP53 mutation in breast cancer response to chemotherapy are conflicting. Here, we show that, contrary to dogma, MMTV-Wnt1 mammary tumors with mutant p53 exhibited a superior clinical response compared to tumors with wild-type p53. Doxorubicin-treated p53 mutant tumors failed to arrest proliferation, leading to abnormal mitoses and cell death, whereas p53 wild-type tumors arrested, avoiding mitotic catastrophe. Senescent tumor cells persisted, secreting senescence-associated cytokines exhibiting autocrine/paracrine activity and mitogenic potential. Wild-type p53 still mediated arrest and inhibited drug response even in the context of heterozygous p53 point mutations or absence of p21. Thus, we show that wild-type p53 activity hinders chemotherapy response and demonstrate the need to reassess the paradigm for p53 in cancer therapy.",
+           "authorString": "James G Jackson, Vinod Pant, Qin Li, Leslie L Chang, Alfonso Quint\u00e1s-Cardama, Daniel Garza, Omid Tavana, Peirong Yang, Taghi Manshouri, Yi Li, Adel K El-Naggar, Guillermina Lozano",
+           "citation": "Jackson et al., 2012",
+           "citationId": "22698404",
+           "id": 199,
+           "journal": "Cancer Cell",
+           "link": "/sources/199",
+           "name": "PubMed: Jackson et al., 2012",
+           "openAccess": true,
+           "pmcId": "PMC3376352",
+           "publicationDate": "2012-6-12",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/22698404",
+           "title": "p53-mediated senescence impairs the apoptotic response to chemotherapy and clinical outcome in breast cancer."
+          },
+          "therapies": [
+           {
+            "deprecated": false,
+            "id": 68,
+            "link": "/therapies/68",
+            "name": "Doxorubicin"
+           }
+          ],
+          "variantOrigin": "SOMATIC"
+         },
+         {
+          "description": "A reporter assay in FASAY yeast strain using the ADE2 gene under control of a p53 response element was performed, with colony color (white vs red) as readout for p53 transactivation activity, where wt p53 resulted in ADE2 transcription and white colonies, and empty vector in red colonies. Wildtype and R175H mutant p53 were co-transfected, with mutant at a higher concentration. Co-transfection of R175H mutant p53 inhibited p53 transcriptional activity, indicating a dominant negative effect. Authors state that DN effects are physiologically relevant since p53 mutants frequently accumulate at high concentration in cancer cells. Authors also showed that intact tetramerization domain was required for DN effect, suggesting crucial role for tetramer formation in DN effect.",
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "D",
+          "evidenceRating": 3,
+          "evidenceType": "FUNCTIONAL",
+          "flagged": false,
+          "id": 7112,
+          "molecularProfile": {
+           "id": 116
+          },
+          "name": "EID7112",
+          "significance": "GAIN_OF_FUNCTION",
+          "source": {
+           "abstract": "The tumor suppression activity of p53 is frequently impaired in cancers even when a wild-type copy of the gene is still present, suggesting that a dominant-negative effect is exerted by some of p53 mutants and isoforms. p63 and p73, which are related to p53, have also been reported to be subjected to a similar loss of function, suggesting that a dominant-negative interplay might happen between p53, p63 and p73. However, to which extent p53 hotspot mutants and isoforms of p53, p63 and p73 are able to interfere with the tumor suppressive activity of their siblings as well as the underlying mechanisms remain undeciphered. Using yeast, we showed that a dominant-negative effect is widely spread within the p53/p63/p73 family as all p53 loss-of-function hotspot mutants and several of the isoforms of p53 and p73 tested exhibit a dominant-negative potential. In addition, we found that this dominant-negative effect over p53 wild-type is based on tetramer poisoning through the formation of inactive hetero-tetramers and does not rely on a prion-like mechanism contrary to what has been previously suggested. We also showed that mutant p53-R175H gains the ability to inhibit p63 and p73 activity by a mechanism that is only partially based on tetramerization.",
+           "authorString": "Olivier Billant, Alice L\u00e9on, Solenn Le Guellec, Ga\u00eblle Friocourt, Marc Blondel, C\u00e9cile Voisset",
+           "citation": "Billant et al., 2016",
+           "citationId": "27589690",
+           "id": 2757,
+           "journal": "Oncotarget",
+           "link": "/sources/2757",
+           "name": "PubMed: Billant et al., 2016",
+           "openAccess": true,
+           "pmcId": "PMC5342497",
+           "publicationDate": "2016-10-25",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/27589690",
+           "title": "The dominant-negative interplay between p53, p63 and p73: A family affair."
+          },
+          "variantOrigin": "UNKNOWN"
+         },
+         {
+          "description": "A preclinical study was testing the neomorphic effects of TP53-R175H mutation.  Multiple human endometrial cancer KLE cell lines were categorized into different groups: Untransfected cells, Vector (vector control), and R175H transfected cells. According to the Matrigel invasion and in vitro migration assays results, the KLE R175H cells were shown to have a significant 2-fold and 3-fold increase (compared to the UT and Vector controls) for cancer cell invasion and migration respectively. According to the results, the TP53-R175H variant was shown to induce the activation of the EGFR/PI3K/AKT pathway and contributes to invasive and migration phenotype for endometrial cancer.",
+          "disease": {
+           "diseaseAliases": [
+            "Endometrial Ca",
+            "Endometrial Neoplasm",
+            "Malignant Endometrial Neoplasm",
+            "Malignant Neoplasm Of Endometrium",
+            "Neoplasm Of Endometrium",
+            "Primary Malignant Neoplasm Of Endometrium",
+            "Tumor Of Endometrium"
+           ],
+           "diseaseUrl": "https://www.disease-ontology.org/?id=DOID:1380",
+           "displayName": "Endometrial Cancer",
+           "doid": "1380",
+           "id": 108,
+           "link": "/diseases/108",
+           "myDiseaseInfo": {
+            "doDef": "A uterine cancer that is located_in tissues lining the uterus.",
+            "icd10": "C54.1",
+            "mesh": "D016889",
+            "mondoId": "MONDO:0011962",
+            "ncit": [
+             "C27815",
+             "C3012"
+            ]
+           },
+           "name": "Endometrial Cancer"
+          },
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "D",
+          "evidenceRating": 2,
+          "evidenceType": "ONCOGENIC",
+          "flagged": false,
+          "id": 7429,
+          "molecularProfile": {
+           "id": 116
+          },
+          "name": "EID7429",
+          "significance": "ONCOGENICITY",
+          "source": {
+           "abstract": "p53 is the most commonly mutated tumor suppressor gene in human cancers. In addition to the loss of tumor suppression function and exertion of dominant-negative effects over the remaining wild-type protein, several p53 mutants can gain novel oncogenic functions (gain-of-function, GOF) that actively regulate cancer development and progression. In human endometrial cancer, p53 mutation is more often associated with aggressive nonendometrioid cancer. However, it was unknown if p53 mutants contributed to endometrial cancer progression through the GOF properties.To clarify the relationship between expression of p53 GOF mutation (p53-R175H) and invasive potential of human endometrial cancer KLE cells, we tested the consequences of up-regulation and down-regulation of p53-R175H in KLE cells by inducing p53-R175H expression vector or suppressing the p53 gene with short hairpin RNA.We found that forced over-expression of p53-R175H significantly promoted cell migration and invasion, and induced activation of the epidermal growth factor receptor (EGFR)/phosphatidylinositol 3-kinase (PI3K)/AKT pathway. Conversely, suppression of p53-R175H with short hairpin RNA significantly inhibited cell migration and invasion, and resulted in attenuation of EGFR/PI3K/AKT pathway.These findings show for the first time that elevated expression of p53-R175H mutant may exert gain-of-function activity to activate the EGFR/PI3K/AKT pathway and thus may contribute to the invasive phenotype in endometrial cancer.",
+           "authorString": "Peixin Dong, Zhujie Xu, Nan Jia, Dajin Li, Youji Feng",
+           "citation": "Dong et al., 2009",
+           "citationId": "19917135",
+           "id": 2931,
+           "journal": "Mol Cancer",
+           "link": "/sources/2931",
+           "name": "PubMed: Dong et al., 2009",
+           "openAccess": true,
+           "pmcId": "PMC2779797",
+           "publicationDate": "2009-11-16",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/19917135",
+           "title": "Elevated expression of p53 gain-of-function mutation R175H in endometrial cancer cells can increase the invasive phenotypes by activation of the EGFR/PI3K/AKT pathway."
+          },
+          "variantOrigin": "SOMATIC"
+         },
+         {
+          "description": "The R175H mutation was used to create isogenic AML cell lines using MOLM13 and K526 lines. R175H/- cells showed resistance to chemotherapeutic agents and failure to induce p21, indicating disruption of p53 function. ChIP assays demonstrated reduced p53 occupation across the genome for most p53 variants tested, including R175H. RNAseq studies determined that a novel gene expression program was not induced in R175H cells at baseline or with DNA damage induced p53 signal activation, and that the signature of gene expression was most similar to that of p53 loss, indicating that R175H mutation does not induce a neomophic p53 function.",
+          "evidenceDirection": "DOES_NOT_SUPPORT",
+          "evidenceLevel": "D",
+          "evidenceRating": 4,
+          "evidenceType": "FUNCTIONAL",
+          "flagged": false,
+          "id": 7526,
+          "molecularProfile": {
+           "id": 116
+          },
+          "name": "EID7526",
+          "significance": "NEOMORPHIC",
+          "source": {
+           "abstract": "TP53, which encodes the tumor suppressor p53, is the most frequently mutated gene in human cancer. The selective pressures shaping its mutational spectrum, dominated by missense mutations, are enigmatic, and neomorphic gain-of-function (GOF) activities have been implicated. We used CRISPR-Cas9 to generate isogenic human leukemia cell lines of the most common TP53 missense mutations. Functional, DNA-binding, and transcriptional analyses revealed loss of function but no GOF effects. Comprehensive mutational scanning of p53 single-amino acid variants demonstrated that missense variants in the DNA-binding domain exert a dominant-negative effect (DNE). In mice, the DNE of p53 missense variants confers a selective advantage to hematopoietic cells on DNA damage. Analysis of clinical outcomes in patients with acute myeloid leukemia showed no evidence of GOF for TP53 missense mutations. Thus, a DNE is the primary unit of selection for TP53 missense mutations in myeloid malignancies.",
+           "authorString": "Steffen Boettcher, Peter G Miller, Rohan Sharma, Marie McConkey, Matthew Leventhal, Andrei V Krivtsov, Andrew O Giacomelli, Waihay Wong, Jesi Kim, Sherry Chao, Kari J Kurppa, Xiaoping Yang, Kirsten Milenkowic, Federica Piccioni, David E Root, Frank G R\u00fccker, Yael Flamand, Donna Neuberg, R Coleman Lindsley, Pasi A J\u00e4nne, William C Hahn, Tyler Jacks, Hartmut D\u00f6hner, Scott A Armstrong, Benjamin L Ebert",
+           "citation": "Boettcher et al., 2019",
+           "citationId": "31395785",
+           "id": 2992,
+           "journal": "Science",
+           "link": "/sources/2992",
+           "name": "PubMed: Boettcher et al., 2019",
+           "openAccess": true,
+           "pmcId": "PMC7327437",
+           "publicationDate": "2019-8-9",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/31395785",
+           "title": "A dominant-negative effect drives selection of TP53 missense mutations in myeloid malignancies."
+          },
+          "variantOrigin": "UNKNOWN"
+         },
+         {
+          "description": "Human mutant R175H p53 was stably transfected into the murine fibroblast (10)3 and human osteosarcoma SAOS-2 cell lines, which lack endogenous p53 expression, resulting in viable cells. In contrast, permanent expression of wildtype p53 did not result in viable (10)3 or SAOS-2 cells. Injection of parental (10)3 cells in nude mice resulted in 0 tumors in 10 inoculated mice, and 0 of 9 inoculations for three vector control cell lines resulted in tumors. In contrast, three R175H (10)3 cell lines were established and resulted in 3/3, 3/3 and 1/3 tumors after inoculation.\nSAOS-2 cells with R175H gained ability to form colonies in soft agar over controls, but did not show tumorigenicity in mice. The authors conclude these results suggest tumorigenic GOF in R175H p53 over cells with no p53.",
+          "disease": {
+           "diseaseAliases": [
+            "Malignant Neoplasm",
+            "Malignant Tumor",
+            "Primary Cancer"
+           ],
+           "diseaseUrl": "https://www.disease-ontology.org/?id=DOID:162",
+           "displayName": "Cancer",
+           "doid": "162",
+           "id": 216,
+           "link": "/diseases/216",
+           "myDiseaseInfo": {
+            "doDef": "A cancer that is classified based on the organ it starts in.",
+            "mesh": "D009371",
+            "mondoId": "MONDO:0004992"
+           },
+           "name": "Cancer"
+          },
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "D",
+          "evidenceRating": 4,
+          "evidenceType": "ONCOGENIC",
+          "flagged": false,
+          "id": 7119,
+          "molecularProfile": {
+           "id": 116
+          },
+          "name": "EID7119",
+          "significance": "ONCOGENICITY",
+          "source": {
+           "abstract": "We report that the expression of murine or human mutant p53 proteins in cells with no endogenous p53 proteins confers new or additional phenotypes upon these cells. Mutant p53 proteins expressed in cell lines lacking p53 resulted in either enhanced tumorigenic potential in nude mice ((10)3 cells) or enhanced plating efficiency in agar cell culture (human SAOS-2 cells). Also, mutant human p53 alleles, unlike the wild-type p53 protein, could also enhance the expression of a test gene regulated by the multi-drug resistance enhancer-promoter element. These data demonstrate a gain of function associated with p53 mutations in addition to the loss of function shown previously to be associated with mutations in this tumour suppressor gene.",
+           "authorString": "D Dittmer, S Pati, G Zambetti, S Chu, A K Teresky, M Moore, C Finlay, A J Levine",
+           "citation": "Dittmer et al., 1993",
+           "citationId": "8099841",
+           "id": 2758,
+           "journal": "Nat Genet",
+           "link": "/sources/2758",
+           "name": "PubMed: Dittmer et al., 1993",
+           "openAccess": false,
+           "publicationDate": "1993-5",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/8099841",
+           "title": "Gain of function mutations in p53."
+          },
+          "variantOrigin": "UNKNOWN"
+         },
+         {
+          "description": "Subset of 58 cancer cell lines with unaltered TP53 is sensitive to MDM2 inhibitor AMGMDS3. None of 115 cancer cell lines with TP53 mutation and absence of WT allele are sensitive to MDM2 inhibitor. TP53 R175H loss of function mutation is present in 4 cell lines that are insensitive to MDM2 inhibitor AMGMDS3, including the cholangiocarcinoma cell line HuCCT1 (IC50 >50.0uM).",
+          "disease": {
+           "diseaseAliases": [
+            "Intrahepatic Bile Duct Carcinoma",
+            "Peripheral Cholangiocarcinoma"
+           ],
+           "diseaseUrl": "https://www.disease-ontology.org/?id=DOID:4928",
+           "displayName": "Intrahepatic Cholangiocarcinoma",
+           "doid": "4928",
+           "id": 1165,
+           "link": "/diseases/1165",
+           "myDiseaseInfo": {
+            "doDef": "A cholangiocarcinoma that arises from the intrahepatic bile duct epithelium in any site of the intrahepatic biliary tree.",
+            "icd10": "C22.1",
+            "mesh": "D018281",
+            "mondoId": "MONDO:0003210",
+            "ncit": [
+             "C35417"
+            ]
+           },
+           "name": "Intrahepatic Cholangiocarcinoma"
+          },
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "D",
+          "evidenceRating": 4,
+          "evidenceType": "PREDICTIVE",
+          "flagged": false,
+          "id": 10075,
+          "molecularProfile": {
+           "id": 116
+          },
+          "name": "EID10075",
+          "significance": "RESISTANCE",
+          "source": {
+           "abstract": "Previous reports have provided evidence that p53 mutation is a strong negative predictor of response to MDM2 inhibitors. However, this correlation is not absolute, as many p53Mutant cell lines have been reported to respond to MDM2 inhibition, while many p53WT cell lines have been shown not to respond. To better understand the nature of these exceptions, we screened a panel of 260 cell lines and noted similar discrepancies. However, upon extensive curation of this panel, these apparent exceptions could be eliminated, revealing a perfect correlation between p53 mutational status and MDM2 inhibitor responsiveness. It has been suggested that the MDM2-amplified subset of p53WT tumors might be particularly sensitive to MDM2 inhibition. To facilitate clinical testing of this hypothesis, we identified a rationally derived copy number cutoff for assignment of functionally relevant MDM2 amplification. Applying this cutoff resulted in a pan-cancer MDM2 amplification rate far lower than previously published.",
+           "authorString": "Anne Y Saiki, Sean Caenepeel, Elissa Cosgrove, Cheng Su, Michael Boedigheimer, Jonathan D Oliner",
+           "citation": "Saiki et al., 2015",
+           "citationId": "25730903",
+           "id": 1696,
+           "journal": "Oncotarget",
+           "link": "/sources/1696",
+           "name": "PubMed: Saiki et al., 2015",
+           "openAccess": true,
+           "pmcId": "PMC4480710",
+           "publicationDate": "2015-4-10",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/25730903",
+           "title": "Identifying the determinants of response to MDM2 inhibition."
+          },
+          "therapies": [
+           {
+            "deprecated": false,
+            "id": 20623,
+            "link": "/therapies/20623",
+            "name": "MDM2 Inhibitor AMGMDS3"
+           }
+          ],
+          "variantOrigin": "SOMATIC"
+         },
+         {
+          "description": "Subset of 58 cancer cell lines with unaltered TP53 is sensitive to MDM2 inhibitor AMGMDS3. None of 115 cancer cell lines with TP53 mutation and absence of WT allele are sensitive to MDM2 inhibitor. TP53 R175H loss of function mutation is present in 4 cell lines that are insensitive to MDM2 inhibitor AMGMDS3, including the pharyngeal squamous cell carcinoma cell line Detroit562 (IC50 >50.0uM).",
+          "disease": {
+           "diseaseUrl": "https://www.disease-ontology.org/?id=DOID:0050921",
+           "displayName": "Pharynx Squamous Cell Carcinoma",
+           "doid": "0050921",
+           "id": 76,
+           "link": "/diseases/76",
+           "myDiseaseInfo": {
+            "doDef": "A pharynx cancer that has_material_basis_in squamous cells.",
+            "mondoId": "MONDO:0000536"
+           },
+           "name": "Pharynx Squamous Cell Carcinoma"
+          },
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "D",
+          "evidenceRating": 4,
+          "evidenceType": "PREDICTIVE",
+          "flagged": false,
+          "id": 10074,
+          "molecularProfile": {
+           "id": 116
+          },
+          "name": "EID10074",
+          "significance": "RESISTANCE",
+          "source": {
+           "abstract": "Previous reports have provided evidence that p53 mutation is a strong negative predictor of response to MDM2 inhibitors. However, this correlation is not absolute, as many p53Mutant cell lines have been reported to respond to MDM2 inhibition, while many p53WT cell lines have been shown not to respond. To better understand the nature of these exceptions, we screened a panel of 260 cell lines and noted similar discrepancies. However, upon extensive curation of this panel, these apparent exceptions could be eliminated, revealing a perfect correlation between p53 mutational status and MDM2 inhibitor responsiveness. It has been suggested that the MDM2-amplified subset of p53WT tumors might be particularly sensitive to MDM2 inhibition. To facilitate clinical testing of this hypothesis, we identified a rationally derived copy number cutoff for assignment of functionally relevant MDM2 amplification. Applying this cutoff resulted in a pan-cancer MDM2 amplification rate far lower than previously published.",
+           "authorString": "Anne Y Saiki, Sean Caenepeel, Elissa Cosgrove, Cheng Su, Michael Boedigheimer, Jonathan D Oliner",
+           "citation": "Saiki et al., 2015",
+           "citationId": "25730903",
+           "id": 1696,
+           "journal": "Oncotarget",
+           "link": "/sources/1696",
+           "name": "PubMed: Saiki et al., 2015",
+           "openAccess": true,
+           "pmcId": "PMC4480710",
+           "publicationDate": "2015-4-10",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/25730903",
+           "title": "Identifying the determinants of response to MDM2 inhibition."
+          },
+          "therapies": [
+           {
+            "deprecated": false,
+            "id": 20623,
+            "link": "/therapies/20623",
+            "name": "MDM2 Inhibitor AMGMDS3"
+           }
+          ],
+          "variantOrigin": "SOMATIC"
+         },
+         {
+          "description": "A subset of 58 cancer cell lines with unaltered TP53 are sensitive to MDM2 inhibitor AMGMDS3. None of 115 cancer cell lines with TP53 mutation and absence of WT allele are sensitive to MDM2 inhibitor. TP53 R175H loss of function mutation is present in 4 cell lines that are insensitive to MDM2 inhibitor AMGMDS3, including the endometrium adenocarcinoma cell line KLE (IC50 >50.0uM).",
+          "disease": {
+           "diseaseAliases": [
+            "Adenocarcinoma Of Endometrium",
+            "Adenocarcinoma Of The Endometrium",
+            "Adenocarcinoma Of Uterus",
+            "Endometrial Adenoacanthoma",
+            "Endometrial Endometrioid Adenocarcinoma",
+            "Endometrial Endometrioid Adenocarcinoma With Squamous Differentiation",
+            "Endometrioid Adenoma Or Carcinoma",
+            "Endometrioid Adenomas And Carcinomas",
+            "Endometrioid Carcinoma Of Endometrium"
+           ],
+           "diseaseUrl": "https://www.disease-ontology.org/?id=DOID:2870",
+           "displayName": "Endometrial Adenocarcinoma",
+           "doid": "2870",
+           "id": 666,
+           "link": "/diseases/666",
+           "myDiseaseInfo": {
+            "doDef": "An endometrial carcinoma that derives_from epithelial cells of glandular origin.",
+            "mondoId": "MONDO:0005461",
+            "ncit": [
+             "C6287",
+             "C6290",
+             "C7359"
+            ]
+           },
+           "name": "Endometrial Adenocarcinoma"
+          },
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "D",
+          "evidenceRating": 4,
+          "evidenceType": "PREDICTIVE",
+          "flagged": false,
+          "id": 10076,
+          "molecularProfile": {
+           "id": 116
+          },
+          "name": "EID10076",
+          "significance": "RESISTANCE",
+          "source": {
+           "abstract": "Previous reports have provided evidence that p53 mutation is a strong negative predictor of response to MDM2 inhibitors. However, this correlation is not absolute, as many p53Mutant cell lines have been reported to respond to MDM2 inhibition, while many p53WT cell lines have been shown not to respond. To better understand the nature of these exceptions, we screened a panel of 260 cell lines and noted similar discrepancies. However, upon extensive curation of this panel, these apparent exceptions could be eliminated, revealing a perfect correlation between p53 mutational status and MDM2 inhibitor responsiveness. It has been suggested that the MDM2-amplified subset of p53WT tumors might be particularly sensitive to MDM2 inhibition. To facilitate clinical testing of this hypothesis, we identified a rationally derived copy number cutoff for assignment of functionally relevant MDM2 amplification. Applying this cutoff resulted in a pan-cancer MDM2 amplification rate far lower than previously published.",
+           "authorString": "Anne Y Saiki, Sean Caenepeel, Elissa Cosgrove, Cheng Su, Michael Boedigheimer, Jonathan D Oliner",
+           "citation": "Saiki et al., 2015",
+           "citationId": "25730903",
+           "id": 1696,
+           "journal": "Oncotarget",
+           "link": "/sources/1696",
+           "name": "PubMed: Saiki et al., 2015",
+           "openAccess": true,
+           "pmcId": "PMC4480710",
+           "publicationDate": "2015-4-10",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/25730903",
+           "title": "Identifying the determinants of response to MDM2 inhibition."
+          },
+          "therapies": [
+           {
+            "deprecated": false,
+            "id": 20623,
+            "link": "/therapies/20623",
+            "name": "MDM2 Inhibitor AMGMDS3"
+           }
+          ],
+          "variantOrigin": "SOMATIC"
+         },
+         {
+          "description": "Yeast strain yIG397 was cultured to express both wild-type (WT) and mutant R175H originally identified in anaplastic astrocytoma. Should the mutant be dominant-negative (DN), TP53 will not bind and transactivate the ADE2 protein, resulting in red/pink colonies. If the mutant is recessive, then WT function is not blocked and ADE2 protein is expressed through TP53 transactivation, resulting in white colonies. Western blot analysis showed that yeast lysates showed expression of both WT and mutant alleles. Yeast expressing p53 variant and WT p53 produced red/pink colonies, demonstrating that R175H displays transdominance. Authors reported that all of the DN mutants affected the amino acids essential to the upkeep of DNA binding surfaces according to crystallographic structure.",
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "D",
+          "evidenceRating": 3,
+          "evidenceType": "FUNCTIONAL",
+          "flagged": false,
+          "id": 10527,
+          "molecularProfile": {
+           "id": 116
+          },
+          "name": "EID10527",
+          "significance": "DOMINANT_NEGATIVE",
+          "source": {
+           "abstract": "Previous experiments have suggested that some mutant forms of p53 are able to inactivate the endogenous wild-type p53 protein in a dominant-negative fashion. However, it remains unknown whether tumors with such dominant-negative (transdominant) p53 mutants have a biological significance that is different from that of recessive p53 mutants. In this study, we examined the dominant-negative potential of various p53 mutants using a yeast-based assay in which both wild-type and mutant p53 were efficiently expressed. We tested a total of 106 p53 mutants, which were identified in brain tumors, glioblastoma multiforme-derived cell lines, breast cancers, or premalignant lesions and squamous cell carcinomas of oral epithelium or were otherwise created by mutagenesis. In agreement with the previous studies, our results demonstrated that transdominant mutations affected amino acid residues that are essential for the stabilization of the DNA-binding surface in the p53 core domain and for the direct interaction of p53 with its DNA-binding sequence. Among 40 patients with sporadic glioblastomas, the average age at diagnosis was significantly younger in the patients with tumors harboring dominant-negative mutations (30.4 +/- 14.7 years, n = 7) than it was in those with recessive mutations (55.2 +/- 18.6 years, n = 9, P < 0.012) and in those without mutations (54.7 +/- 17.1 years, n = 24, P < 0.003). Our data suggest that dominant-negative p53 mutants accelerate development and/or growth of glioblastoma anlagen.",
+           "authorString": "M Marutani, H Tonoki, M Tada, M Takahashi, H Kashiwazaki, Y Hida, J Hamada, M Asaka, T Moriuchi",
+           "citation": "Marutani et al., 1999",
+           "citationId": "10519380",
+           "id": 4356,
+           "journal": "Cancer Res",
+           "link": "/sources/4356",
+           "name": "PubMed: Marutani et al., 1999",
+           "openAccess": false,
+           "publicationDate": "1999-10-1",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/10519380",
+           "title": "Dominant-negative mutations of the tumor suppressor p53 relating to early onset of glioblastoma multiforme."
+          },
+          "variantOrigin": "SOMATIC"
+         },
+         {
+          "description": "A reporter assay in FASAY yeast strain using the ADE2 gene under control of the p-21 or RGC p53 response elements was performed to assay p53 hotspot mutation R175H transcriptional activity, with colony color (white vs red) as readout for the assay, where wt p53 resulted in ADE2 transcription and white colonies, and empty vector in red colonies. transfection with p53 R175H resulted in red colonies, indicating LOF (hypomorphic effects) for transcriptional activity at the two p53 response elements.",
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "D",
+          "evidenceRating": 3,
+          "evidenceType": "FUNCTIONAL",
+          "flagged": false,
+          "id": 7106,
+          "molecularProfile": {
+           "id": 116
+          },
+          "name": "EID7106",
+          "significance": "LOSS_OF_FUNCTION",
+          "source": {
+           "abstract": "The tumor suppression activity of p53 is frequently impaired in cancers even when a wild-type copy of the gene is still present, suggesting that a dominant-negative effect is exerted by some of p53 mutants and isoforms. p63 and p73, which are related to p53, have also been reported to be subjected to a similar loss of function, suggesting that a dominant-negative interplay might happen between p53, p63 and p73. However, to which extent p53 hotspot mutants and isoforms of p53, p63 and p73 are able to interfere with the tumor suppressive activity of their siblings as well as the underlying mechanisms remain undeciphered. Using yeast, we showed that a dominant-negative effect is widely spread within the p53/p63/p73 family as all p53 loss-of-function hotspot mutants and several of the isoforms of p53 and p73 tested exhibit a dominant-negative potential. In addition, we found that this dominant-negative effect over p53 wild-type is based on tetramer poisoning through the formation of inactive hetero-tetramers and does not rely on a prion-like mechanism contrary to what has been previously suggested. We also showed that mutant p53-R175H gains the ability to inhibit p63 and p73 activity by a mechanism that is only partially based on tetramerization.",
+           "authorString": "Olivier Billant, Alice L\u00e9on, Solenn Le Guellec, Ga\u00eblle Friocourt, Marc Blondel, C\u00e9cile Voisset",
+           "citation": "Billant et al., 2016",
+           "citationId": "27589690",
+           "id": 2757,
+           "journal": "Oncotarget",
+           "link": "/sources/2757",
+           "name": "PubMed: Billant et al., 2016",
+           "openAccess": true,
+           "pmcId": "PMC5342497",
+           "publicationDate": "2016-10-25",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/27589690",
+           "title": "The dominant-negative interplay between p53, p63 and p73: A family affair."
+          },
+          "variantOrigin": "UNKNOWN"
+         },
+         {
+          "description": "Several preclinical studies were testing the gain of function mechanisms of the TP53-R175H variant. Under the presence of the wild-type TP53 and mutant TP53 genes, there is a dominant-negative (antimorph) effect that inhibits various TP53 activities.  TP53-R175H mutation and wild-type TP53 being co-expressed showed decreased expression of p53-induced genes p21, MDM2, and PIG3. Through CHiP, the TP53-R175H mutation was shown to reduce the binding between TP53 and promoters for p21 (53% reduction), MDM2 (15% reduction), and PIG3 (83% reduction). The coexpression of TP53 and TP53+R175H mutation reduced the wild-type TP53 function of suppressing cell proliferation. The results suggest that the presence of TP53+R175H mutation induces a dominant-negative effect inhibiting wild-type TP53 functions.",
+          "evidenceDirection": "SUPPORTS",
+          "evidenceLevel": "D",
+          "evidenceRating": 4,
+          "evidenceType": "FUNCTIONAL",
+          "flagged": false,
+          "id": 7432,
+          "molecularProfile": {
+           "id": 116
+          },
+          "name": "EID7432",
+          "significance": "GAIN_OF_FUNCTION",
+          "source": {
+           "abstract": "Mutation of the p53 tumor suppressor gene is the most common genetic alteration in human cancer. A majority of these mutations are missense mutations in the DNA-binding domain. As a result, the mutated p53 gene encodes a full-length protein incapable of transactivating its target genes. In addition to this loss of function, mutant p53 can have a dominant negative effect over wild-type p53 and/or gain of function activity independently of the wild-type protein. To better understand the nature of the tumorigenic activity of mutant p53, we have investigated the mechanism by which mutant p53 can exert a dominant negative effect. We have established several stable cell lines capable of inducibly expressing a p53 mutant alone, wild-type p53 alone, or both proteins concurrently. In this context, we have used chromatin immunoprecipitation to determine the ability of wild-type p53 to bind to its endogenous target genes in the presence of various p53 mutants. We have found that p53 missense mutants markedly reduce the binding of wild-type p53 to the p53 responsive element in the target genes of p21, MDM2, and PIG3. These findings correlate with the reduced ability of wild-type p53 in inducing these and other endogenous target genes and growth suppression in the presence of mutant p53. We also showed that mutant p53 suppresses the ability of wild-type p53 in inducing cell cycle arrest. This highlights the sensitivity and utility of the dual inducible expression system because in previous studies, p53-mediated cell cycle arrest is not affected by transiently overexpressed p53 mutants. Together, our data showed that mutant p53 exerts its dominant negative activity by abrogating the DNA binding, and subsequently the growth suppression, functions of wild-type p53.",
+           "authorString": "Amy Willis, Eun Joo Jung, Therese Wakefield, Xinbin Chen",
+           "citation": "Willis et al., 2004",
+           "citationId": "14743206",
+           "id": 2933,
+           "journal": "Oncogene",
+           "link": "/sources/2933",
+           "name": "PubMed: Willis et al., 2004",
+           "openAccess": false,
+           "publicationDate": "2004-3-25",
+           "retracted": false,
+           "sourceType": "PUBMED",
+           "sourceUrl": "http://www.ncbi.nlm.nih.gov/pubmed/14743206",
+           "title": "Mutant p53 exerts a dominant negative effect by preventing wild-type p53 from binding to the promoter of its target genes."
+          },
+          "variantOrigin": "SOMATIC"
+         }
+        ],
+        "id": 116,
+        "molecularProfileAliases": [
+         "ARG175HIS",
+         "RS28934578",
+         "R43H",
+         "R136H"
+        ],
+        "molecularProfileScore": 25.0,
+        "name": "TP53 R175H",
+        "variants": [
+         {
+          "id": 116,
+          "link": "/variants/116",
+          "name": "R175H"
+         }
+        ]
+       },
+       "name": "R175H"
+      },
+      "cosmic": {
+       "_license": "http://bit.ly/2VMkY7R",
+       "alt": "A",
+       "chrom": "17",
+       "cosmic_id": "COSM10648",
+       "hg19": {
+        "end": 7578406,
+        "start": 7578406
+       },
+       "mut_freq": 1.23,
+       "mut_nt": "G>A",
+       "ref": "G",
+       "tumor_site": "central_nervous_system"
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "T",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "gnomad_exome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 3.97969e-06,
+        "af_afr": 0.0,
+        "af_afr_female": 0.0,
+        "af_afr_male": 0.0,
+        "af_amr": 0.0,
+        "af_amr_female": 0.0,
+        "af_amr_male": 0.0,
+        "af_asj": 0.0,
+        "af_asj_female": 0.0,
+        "af_asj_male": 0.0,
+        "af_eas": 0.0,
+        "af_eas_female": 0.0,
+        "af_eas_jpn": 0.0,
+        "af_eas_kor": 0.0,
+        "af_eas_male": 0.0,
+        "af_eas_oea": 0.0,
+        "af_female": 0.0,
+        "af_fin": 0.0,
+        "af_fin_female": 0.0,
+        "af_fin_male": 0.0,
+        "af_male": 7.36204e-06,
+        "af_nfe": 8.80282e-06,
+        "af_nfe_bgr": 0.0,
+        "af_nfe_est": 0.0,
+        "af_nfe_female": 0.0,
+        "af_nfe_male": 1.57401e-05,
+        "af_nfe_nwe": 2.37564e-05,
+        "af_nfe_onf": 0.0,
+        "af_nfe_seu": 0.0,
+        "af_nfe_swe": 0.0,
+        "af_oth": 0.0,
+        "af_oth_female": 0.0,
+        "af_oth_male": 0.0,
+        "af_sas": 0.0,
+        "af_sas_female": 0.0,
+        "af_sas_male": 0.0
+       },
+       "alt": "T",
+       "an": {
+        "an": 251276,
+        "an_afr": 16244,
+        "an_afr_female": 10058,
+        "an_afr_male": 6186,
+        "an_amr": 34584,
+        "an_amr_female": 20262,
+        "an_amr_male": 14322,
+        "an_asj": 10072,
+        "an_asj_female": 4896,
+        "an_asj_male": 5176,
+        "an_eas": 18392,
+        "an_eas_female": 9328,
+        "an_eas_jpn": 152,
+        "an_eas_kor": 3818,
+        "an_eas_male": 9064,
+        "an_eas_oea": 14422,
+        "an_female": 115444,
+        "an_fin": 21634,
+        "an_fin_female": 10362,
+        "an_fin_male": 11272,
+        "an_male": 135832,
+        "an_nfe": 113600,
+        "an_nfe_bgr": 2666,
+        "an_nfe_est": 240,
+        "an_nfe_female": 50068,
+        "an_nfe_male": 63532,
+        "an_nfe_nwe": 42094,
+        "an_nfe_onf": 30962,
+        "an_nfe_seu": 11504,
+        "an_nfe_swe": 26134,
+        "an_oth": 6136,
+        "an_oth_female": 2926,
+        "an_oth_male": 3210,
+        "an_sas": 30614,
+        "an_sas_female": 7544,
+        "an_sas_male": 23070
+       },
+       "ref": "C"
+      },
+      "vcf": {
+       "alt": "T",
+       "position": "7578406",
+       "ref": "C"
+      }
+     }
+    ]
+   }
+  },
+  "ClinVar:VCV000012374@2019-01": {
+   "record_id": "ClinVar:VCV000012374@2019-01",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2019-01 (2019-01-03)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/12374/",
+   "retrieved_at": "2026-11-17T02:14:02.185165+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "27413",
+    "type": "single nucleotide variant",
+    "name": "NM_000546.5(TP53):c.524G>A (p.Arg175His)",
+    "gene_symbol": "TP53",
+    "clnsig": "Pathogenic",
+    "last_evaluated": "Jun 29, 2018",
+    "rcv": "RCV000131301;RCV000204931;RCV000013173;RCV000239398;RCV000421746;RCV000428918;RCV000213054",
+    "phenotype_list": "Hereditary cancer-predisposing syndrome;Li-Fraumeni syndrome;Li-Fraumeni syndrome 1;Malignant tumor of esophagus;Neoplasm;Neoplasm of the breast;not provided",
+    "origin": "germline;somatic;unknown",
+    "origin_simple": "germline/somatic",
+    "assembly": "GRCh38",
+    "chrom": "17",
+    "start": "7675088",
+    "ref": "C",
+    "alt": "T",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "n_submitters": "11",
+    "variation_id": "12374",
+    "ref_vcf": "",
+    "alt_vcf": "",
+    "pos_vcf": "",
+    "somatic_clinical_impact": "",
+    "oncogenicity": "",
+    "rsid": "rs28934578",
+    "submissions": [],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "Pathogenic/Likely pathogenic",
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "n_submitters": "8",
+      "last_evaluated": "Aug 24, 2017",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "Pathogenic",
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "n_submitters": "11",
+      "last_evaluated": "Jun 29, 2018",
+      "release_date": "2019-01-03"
+     }
+    ]
+   }
+  },
+  "ClinVar:VCV000182963@2019-01": {
+   "record_id": "ClinVar:VCV000182963@2019-01",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2019-01 (2019-01-03)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/182963/",
+   "retrieved_at": "2026-11-17T02:14:02.185249+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "181010",
+    "type": "single nucleotide variant",
+    "name": "NM_000546.5(TP53):c.524G>T (p.Arg175Leu)",
+    "gene_symbol": "TP53",
+    "clnsig": "Likely pathogenic",
+    "last_evaluated": "Apr 28, 2015",
+    "rcv": "RCV000161065",
+    "phenotype_list": "Hereditary cancer-predisposing syndrome",
+    "origin": "germline",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "17",
+    "start": "7675088",
+    "ref": "C",
+    "alt": "A",
+    "review_status": "criteria provided, single submitter",
+    "n_submitters": "1",
+    "variation_id": "182963",
+    "ref_vcf": "",
+    "alt_vcf": "",
+    "pos_vcf": "",
+    "somatic_clinical_impact": "",
+    "oncogenicity": "",
+    "rsid": "rs28934578",
+    "submissions": [],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "Likely pathogenic",
+      "review_status": "criteria provided, single submitter",
+      "n_submitters": "1",
+      "last_evaluated": "Apr 28, 2015",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "Likely pathogenic",
+      "review_status": "criteria provided, single submitter",
+      "n_submitters": "1",
+      "last_evaluated": "Apr 28, 2015",
+      "release_date": "2019-01-03"
+     }
+    ]
+   }
+  },
+  "GWAS:rs28934578": {
+   "record_id": "GWAS:rs28934578",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:04:58.709821+00:00",
+   "status": 200,
+   "data": {
+    "associations": []
+   }
+  },
+  "LitVar2:rs28934578": {
+   "record_id": "LitVar2:rs28934578",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs28934578%23%23/publications",
+   "retrieved_at": "2026-11-17T02:04:58.778416+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     33251333,
+     41213958,
+     29843463,
+     33546249,
+     37593097,
+     40001547,
+     38969365,
+     38756376,
+     37216282,
+     25010205,
+     37257253,
+     31350822,
+     26566695,
+     32350249,
+     36700202,
+     38731819,
+     27459628,
+     39755818,
+     26853422,
+     33210422,
+     25837623,
+     36216888,
+     34201655,
+     34848827,
+     36831298,
+     36044867,
+     26796102,
+     26501191,
+     34439241,
+     33546313,
+     40108111,
+     18202704,
+     35610705,
+     31653970,
+     19857493,
+     27066457,
+     38781019,
+     29507676,
+     26943582,
+     36831331,
+     39682148,
+     22208613,
+     32039016,
+     27918441,
+     26599530,
+     24256616,
+     29343849,
+     32792685,
+     25944179,
+     39682165
+    ],
+    "n_pmids": 3092
+   }
+  },
+  "PMID:31628423": {
+   "record_id": "PMID:31628423",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31628423/",
+   "retrieved_at": "2026-11-17T02:05:13.149830+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31628423",
+    "title": "Clinical significance of TP53 variants as possible secondary findings in tumor-only next-generation sequencing.",
+    "journal": "J Hum Genet",
+    "pubdate": "2020 Jan",
+    "sortpubdate": "2020-01-01",
+    "abstract": "In tumor-only next-generation sequencing (NGS), identified variants have the potential to be secondary findings (SFs), but they require verification through additional germline testing. In the present study, 194 patients with advanced cancer who underwent tumor-only NGS between April 2015 and March 2018 were enrolled, and the incidences of possible and true SFs were evaluated. Among them, 120 patients (61.9%) harbored at least one possible SF. TP53 was the most frequent gene in which 97 variants were found in 91 patients (49.5%). Nine patients provided informed consent to undergo additional germline testing, and a total of 14 variants (BRCA1, n\u2009=\u20091; BRCA2, n\u2009=\u20092; PTEN, n\u2009=\u20092; RB1, n\u2009=\u20091; SMAD4, n\u2009=\u20091; STK11, n\u2009=\u20091; TP53, n\u2009=\u20096) were analyzed. Three variants (BRCA1, n\u2009=\u20091; BRCA2, n\u2009=\u20092) were confirmed to be SFs, whereas TP53 variants were confirmed to be somatic variants. To confirm the low prevalence of SFs in TP53, we analyzed 24 patients with TP53 variants who underwent a paired tumor-normal NGS assay. As expected, all TP53 variants were confirmed to be somatic variants. A total of 30 patients were tested for germline variants in TP53, but none of them resulted in true SFs, suggesting the low prevalence of SFs in this gene. Therefore, the significance of additional germline testing for TP53 variants appears to be relatively low in daily clinical practice using a tumor-only NGS assay, unless patients have any relevant medical or family history."
+   }
+  },
+  "PMID:31877751": {
+   "record_id": "PMID:31877751",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31877751/",
+   "retrieved_at": "2026-11-17T02:05:13.149830+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31877751",
+    "title": "Identification and Characterization of a New Platinum-Induced TP53 Mutation in MDAH Ovarian Cancer Cells.",
+    "journal": "Cells",
+    "pubdate": "2019 Dec 21",
+    "sortpubdate": "2019-12-21",
+    "abstract": "Platinum-based chemotherapy is the therapy of choice for epithelial ovarian cancer (EOC). Acquired resistance to platinum (PT) is a frequent event that leads to disease progression and predicts poor prognosis. To understand possible mechanisms underlying acquired PT-resistance, we have recently generated and characterized three PT-resistant isogenic EOC cell lines. Here, we more deeply characterize several PT-resistant clones derived from MDAH-2774 cells. We show that, in these cells, the increased PT resistance was accompanied by the presence of a subpopulation of multinucleated giant cells. This phenotype was likely due to an altered progression through the M phase of the cell cycle and accompanied by the deregulated expression of genes involved in M phase progression known to be target of mutant TP53. Interestingly, we found that PT-resistant MDAH cells acquired in the TP53 gene a novel secondary mutation (i.e., S185G) that accompanied the R273H typical of MDAH cells. The double p53S185G/R273H mutant increases the resistance to PT in a TP53 null EOC cellular model. Overall, we show how the selective pressure of PT is able to induce additional mutation in an already mutant TP53 gene in EOC and how this event could contribute to the acquisition of novel cellular phenotypes."
+   }
+  },
+  "PMID:31792264": {
+   "record_id": "PMID:31792264",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31792264/",
+   "retrieved_at": "2026-11-17T02:05:13.149830+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31792264",
+    "title": "Assessment of TP53 lesions for p53 system functionality and drug resistance in multiple myeloma using an isogenic cell line model.",
+    "journal": "Sci Rep",
+    "pubdate": "2019 Dec 2",
+    "sortpubdate": "2019-12-02",
+    "abstract": "Recent advances in molecular diagnostics have shown that lesions affecting both copies of the gene for tumor suppressor protein 53 (TP53) count among the most powerful predictors for high-risk disease in multiple myeloma (MM). However, the functional relevance and potential therapeutic implications of single hits to TP53 remain less well understood. Here, we have for the first time approximated the different constellations of mono- and bi-allelic TP53 lesions observed in MM patients within the frame of a single MM cell line model and assessed their potential to disrupt p53 system functionality and to impart drug resistance. Both types of common first hit: point mutation with expression of mutant p53 protein or complete loss of contribution from one of two wildtype alleles strongly impaired p53 system functionality and increased resistance to melphalan. Second hits abolished remaining p53 activity and increased resistance to genotoxic drugs even further. These results fit well with the clinical drive to TP53 single- and double-hit disease in MM patients, provide a rationale for the most commonly observed double-hit constellation (del17p+ TP53 point mutation), and underscore the potential increases in MM cell malignancy associated with any type of initial TP53 lesion."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 23,
+  "n_claims_fully_verified": 23,
+  "n_uncited_claims": 0,
+  "n_citations": 65,
+  "n_citations_valid": 65,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 53,
+  "n_shown_values_in_text": 53,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 23,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

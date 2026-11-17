@@ -1,0 +1,857 @@
+{
+ "rsid_query": "rs9807334",
+ "rsid_current": "rs9807334",
+ "as_of": "2020-01-01",
+ "generated_at": "2026-11-17T02:13:58.683463+00:00",
+ "genes": {
+  "vep": [],
+  "dbsnp": [
+   "LOC107985152"
+  ],
+  "clinvar": [],
+  "gwas": [
+   "ELAC1",
+   "SMAD4"
+  ]
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000018.10:g.50997791G>A",
+   "spdi_deleted": "G",
+   "spdi_inserted": "A",
+   "chrom": "18",
+   "pos": 50997791,
+   "ref": "G",
+   "alt": "A",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "18-50997791-G-A",
+   "vep": {
+    "gene_symbol": null,
+    "consequence_terms": [
+     "intron_variant",
+     "non_coding_transcript_variant"
+    ],
+    "hgvsc": "ENST00000797254.1:n.163-23280C>T",
+    "hgvsp": null,
+    "impact": "MODIFIER",
+    "mane_select": null
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "genomes",
+     "overall": 0.0775038,
+     "populations": {
+      "afr": 0.0181317,
+      "amr": 0.0283019,
+      "asj": 0.0344828,
+      "eas": 0.0,
+      "fin": 0.0953341,
+      "nfe": 0.116442,
+      "oth": 0.104779
+     },
+     "an": 31392,
+     "differentiated": true
+    }
+   }
+  }
+ ],
+ "clinvar": [],
+ "clinvar_release": "2019-01",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 2,
+  "n_associations_in_scope": 2,
+  "n_genome_wide_significant": 0,
+  "n_studies": 2,
+  "mapped_genes": [
+   "ELAC1",
+   "SMAD4"
+  ],
+  "top_traits": [],
+  "n_distinct_traits_significant": 0,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 7,
+  "n_in_scope": 6,
+  "pmids_in_scope": [
+   "30195777",
+   "29522453",
+   "25819875",
+   "25616667",
+   "24782526",
+   "22610502"
+  ],
+  "top": [
+   "30195777",
+   "29522453",
+   "25819875"
+  ]
+ },
+ "conflicts": [],
+ "bottom_line": {
+  "category": "variant with little curated evidence",
+  "confidence": "low",
+  "rationale": "no pathogenic assertion and no genome-wide significant association were retrieved",
+  "text": "Bottom line: rs9807334 is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved)."
+ },
+ "notes": [
+  "CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'."
+ ],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs9807334 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs9807334",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs9807334",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs9807334: rs12709744, rs57931500.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs9807334",
+     "path": "dbsnp1_merges.0",
+     "value": "12709744",
+     "label": "dbSNP build 157 rs9807334",
+     "mode": "eq",
+     "shown": "rs12709744",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs9807334",
+     "path": "dbsnp1_merges.1",
+     "value": "57931500",
+     "label": "dbSNP build 157 rs9807334",
+     "mode": "eq",
+     "shown": "rs57931500",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs9807334 as variant type 'snv' on NC_000018.10 (GRCh38) with 1 alternate allele.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs9807334",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs9807334",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs9807334",
+     "path": "seq_id",
+     "value": "NC_000018.10",
+     "label": "dbSNP build 157 rs9807334",
+     "mode": "eq",
+     "shown": "NC_000018.10",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000018.10:g.50997791G>A, a single-nucleotide variant (SNV) (G>A in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs9807334",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000018.10:g.50997791G>A",
+     "label": "dbSNP build 157 rs9807334",
+     "mode": "eq",
+     "shown": "NC_000018.10:g.50997791G>A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (G>A), Ensembl VEP predicts intron_variant, non_coding_transcript_variant in a transcript without a gene symbol (ENST00000797254.1:n.163-23280C>T), impact MODIFIER.",
+   "citations": [
+    {
+     "record_id": "VEP:rs9807334",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "intron_variant",
+     "label": "Ensembl VEP rs9807334",
+     "mode": "eq",
+     "shown": "intron_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs9807334",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": null,
+     "label": "Ensembl VEP rs9807334",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs9807334",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000797254.1:n.163-23280C>T",
+     "label": "Ensembl VEP rs9807334",
+     "mode": "eq",
+     "shown": "ENST00000797254.1:n.163-23280C>T",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs9807334",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODIFIER",
+     "label": "Ensembl VEP rs9807334",
+     "mode": "eq",
+     "shown": "MODIFIER",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string G/A.",
+   "citations": [
+    {
+     "record_id": "VEP:rs9807334",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs9807334",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs9807334",
+     "path": "allele_string",
+     "value": "G/A",
+     "label": "Ensembl VEP rs9807334",
+     "mode": "eq",
+     "shown": "G/A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 genomes, alternate allele 1 (G>A) has an overall allele frequency of 0.0775.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs9807334",
+     "path": "hits.0.gnomad_genome.af.af",
+     "value": 0.0775038,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0775",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.0181, Admixed American 0.0283, Ashkenazi Jewish 0.0345, East Asian 0, Finnish 0.0953, Non-Finnish European 0.116, Other 0.105.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs9807334",
+     "path": "hits.0.gnomad_genome.af.af_afr",
+     "value": 0.0181317,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0181",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs9807334",
+     "path": "hits.0.gnomad_genome.af.af_amr",
+     "value": 0.0283019,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0283",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs9807334",
+     "path": "hits.0.gnomad_genome.af.af_asj",
+     "value": 0.0344828,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0345",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs9807334",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs9807334",
+     "path": "hits.0.gnomad_genome.af.af_fin",
+     "value": 0.0953341,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0953",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs9807334",
+     "path": "hits.0.gnomad_genome.af.af_nfe",
+     "value": 0.116442,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.116",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs9807334",
+     "path": "hits.0.gnomad_genome.af.af_oth",
+     "value": 0.104779,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.105",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0 in East Asian to 0.116 in Non-Finnish European, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs9807334",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs9807334",
+     "path": "hits.0.gnomad_genome.af.af_nfe",
+     "value": 0.116442,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.116",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "The ClinVar 2019-01 release contains no record for rs9807334.",
+   "citations": [
+    {
+     "record_id": "ClinVar:rs9807334@2019-01",
+     "path": "n_records",
+     "value": 0,
+     "label": "ClinVar 2019-01 release",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 2 association record(s) for rs9807334. Of these, 2 were published on or before 2020-01-01.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs9807334",
+     "path": "associations.1.association_id",
+     "value": 22099,
+     "label": "GWAS Catalog rs9807334",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 7 PubMed articles to rs9807334; 6 of the 7 with a PubMed date were published on or before 2020-01-01.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs9807334",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs9807334",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Integrative Analysis of lncRNAs in Th17 Cell Lineage to Discover New Potential Biomarkers and Therapeutic Targets in Autoimmune Diseases\" (Mol Ther Nucleic Acids, 2018).",
+   "citations": [
+    {
+     "record_id": "PMID:30195777",
+     "path": "title",
+     "value": "Integrative Analysis of lncRNAs in Th17 Cell Lineage to Discover New Potential Biomarkers and Therapeutic Targets in Autoimmune Diseases.",
+     "label": "PMID:30195777",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:30195777",
+     "path": "journal",
+     "value": "Mol Ther Nucleic Acids",
+     "label": "PMID:30195777",
+     "mode": "eq",
+     "shown": "Mol Ther Nucleic Acids",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Genetic Determinants of Antibody Levels in Cerebrospinal Fluid in Multiple Sclerosis: Possible Links to Endogenous Retroviruses\" (Int J Mol Sci, 2018).",
+   "citations": [
+    {
+     "record_id": "PMID:29522453",
+     "path": "title",
+     "value": "Genetic Determinants of Antibody Levels in Cerebrospinal Fluid in Multiple Sclerosis: Possible Links to Endogenous Retroviruses.",
+     "label": "PMID:29522453",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:29522453",
+     "path": "journal",
+     "value": "Int J Mol Sci",
+     "label": "PMID:29522453",
+     "mode": "eq",
+     "shown": "Int J Mol Sci",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Re-annotation of presumed noncoding disease/trait-associated genetic variants by integrative analyses\" (Sci Rep, 2015).",
+   "citations": [
+    {
+     "record_id": "PMID:25819875",
+     "path": "title",
+     "value": "Re-annotation of presumed noncoding disease/trait-associated genetic variants by integrative analyses.",
+     "label": "PMID:25819875",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:25819875",
+     "path": "journal",
+     "value": "Sci Rep",
+     "label": "PMID:25819875",
+     "mode": "eq",
+     "shown": "Sci Rep",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs9807334 is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs9807334",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs9807334",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs9807334",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs9807334",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs9807334": {
+   "record_id": "dbSNP:rs9807334",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/9807334",
+   "retrieved_at": "2026-11-17T01:57:03.105718+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "9807334",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "12709744",
+     "57931500"
+    ],
+    "merged_into": [],
+    "citations": [
+     22610502,
+     25616667
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000018.10",
+    "alleles": [
+     {
+      "hgvs": "NC_000018.10:g.50997791=",
+      "position0": 50997790,
+      "deleted": "G",
+      "inserted": "G"
+     },
+     {
+      "hgvs": "NC_000018.10:g.50997791G>A",
+      "position0": 50997790,
+      "deleted": "G",
+      "inserted": "A"
+     }
+    ],
+    "genes": [
+     "LOC107985152"
+    ]
+   }
+  },
+  "VEP:rs9807334": {
+   "record_id": "VEP:rs9807334",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs9807334",
+   "retrieved_at": "2026-11-17T01:57:10.449250+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs9807334",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "18",
+    "start": 50997791,
+    "end": 50997791,
+    "allele_string": "G/A",
+    "variant_class": "SNV",
+    "most_severe_consequence": "intron_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "A",
+      "gene_symbol": null,
+      "gene_id": "ENSG00000289868",
+      "transcript_id": "ENST00000797254",
+      "mane_select": null,
+      "consequence_terms": [
+       "intron_variant",
+       "non_coding_transcript_variant"
+      ],
+      "hgvsc": "ENST00000797254.1:n.163-23280C>T",
+      "hgvsp": null,
+      "impact": "MODIFIER",
+      "amino_acids": null,
+      "protein_start": null,
+      "biotype": "lncRNA"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [],
+    "colocated_somatic": false
+   }
+  },
+  "gnomAD-v2.1.1:rs9807334": {
+   "record_id": "gnomAD-v2.1.1:rs9807334",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T01:57:10.837189+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr18:g.48524161G>A",
+      "_score": 17.14107,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 2.415
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "A",
+       "ref": "G",
+       "vartype": "snv"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.0775038,
+        "af_afr": 0.0181317,
+        "af_afr_female": 0.0179445,
+        "af_afr_male": 0.0182685,
+        "af_amr": 0.0283019,
+        "af_amr_female": 0.0289855,
+        "af_amr_male": 0.0276498,
+        "af_asj": 0.0344828,
+        "af_asj_female": 0.05,
+        "af_asj_male": 0.0285714,
+        "af_eas": 0.0,
+        "af_eas_female": 0.0,
+        "af_eas_male": 0.0,
+        "af_female": 0.0797414,
+        "af_fin": 0.0953341,
+        "af_fin_female": 0.100325,
+        "af_fin_male": 0.0896806,
+        "af_male": 0.0757212,
+        "af_nfe": 0.116442,
+        "af_nfe_est": 0.157436,
+        "af_nfe_female": 0.114638,
+        "af_nfe_male": 0.117865,
+        "af_nfe_nwe": 0.103861,
+        "af_nfe_onf": 0.0820056,
+        "af_nfe_seu": 0.0566038,
+        "af_oth": 0.104779,
+        "af_oth_female": 0.1121,
+        "af_oth_male": 0.0969582
+       },
+       "alt": "A",
+       "an": {
+        "an": 31392,
+        "an_afr": 8714,
+        "an_afr_female": 3678,
+        "an_afr_male": 5036,
+        "an_amr": 848,
+        "an_amr_female": 414,
+        "an_amr_male": 434,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1556,
+        "an_eas_female": 538,
+        "an_eas_male": 1018,
+        "an_female": 13920,
+        "an_fin": 3472,
+        "an_fin_female": 1844,
+        "an_fin_male": 1628,
+        "an_male": 17472,
+        "an_nfe": 15424,
+        "an_nfe_est": 4586,
+        "an_nfe_female": 6804,
+        "an_nfe_male": 8620,
+        "an_nfe_nwe": 8598,
+        "an_nfe_onf": 2134,
+        "an_nfe_seu": 106,
+        "an_oth": 1088,
+        "an_oth_female": 562,
+        "an_oth_male": 526
+       },
+       "ref": "G"
+      },
+      "vcf": {
+       "alt": "A",
+       "position": "48524161",
+       "ref": "G"
+      }
+     }
+    ]
+   }
+  },
+  "ClinVar:rs9807334@2019-01": {
+   "record_id": "ClinVar:rs9807334@2019-01",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2019-01",
+   "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
+   "retrieved_at": "2026-11-17T02:13:58.413949+00:00",
+   "status": 200,
+   "data": {
+    "rsid": "rs9807334",
+    "n_records": 0
+   }
+  },
+  "GWAS:rs9807334": {
+   "record_id": "GWAS:rs9807334",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T01:57:12.096402+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 10082677,
+      "accession_id": "GCST002758",
+      "pubmed_id": "25616667",
+      "first_author": "Goris A",
+      "p_value": 8e-07,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -7,
+      "or_value": "1.52",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0005206",
+        "efo_trait": "oligoclonal band measurement"
+       }
+      ],
+      "reported_trait": [
+       "Oligoclonal band status in multiple sclerosis"
+      ],
+      "mapped_genes": [
+       "ELAC1",
+       "SMAD4"
+      ],
+      "snp_effect_allele": [
+       "rs9807334-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2015-03-01"
+     },
+     {
+      "association_id": 22099,
+      "accession_id": "GCST001538",
+      "pubmed_id": "22610502",
+      "first_author": "Kennedy RB",
+      "p_value": 2e-07,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -7,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004873",
+        "efo_trait": "cytokine measurement"
+       },
+       {
+        "efo_id": "EFO_0004645",
+        "efo_trait": "response to vaccine"
+       }
+      ],
+      "reported_trait": [
+       "Immune reponse to smallpox (secreted IFN-alpha)"
+      ],
+      "mapped_genes": [
+       "ELAC1",
+       "SMAD4"
+      ],
+      "snp_effect_allele": [
+       "rs9807334-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 1,
+      "_pubdate": "2012-09-01"
+     }
+    ]
+   }
+  },
+  "LitVar2:rs9807334": {
+   "record_id": "LitVar2:rs9807334",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs9807334%23%23/publications",
+   "retrieved_at": "2026-11-17T01:57:12.426519+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     30195777,
+     25819875,
+     22610502,
+     29522453,
+     25616667,
+     32594908,
+     24782526
+    ],
+    "n_pmids": 7
+   }
+  },
+  "PMID:30195777": {
+   "record_id": "PMID:30195777",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30195777/",
+   "retrieved_at": "2026-11-17T01:57:12.569059+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "30195777",
+    "title": "Integrative Analysis of lncRNAs in Th17 Cell Lineage to Discover New Potential Biomarkers and Therapeutic Targets in Autoimmune Diseases.",
+    "journal": "Mol Ther Nucleic Acids",
+    "pubdate": "2018 Sep 7",
+    "sortpubdate": "2018-09-07",
+    "abstract": "Th17 cells play a critical role in the pathogenesis of autoimmune diseases, including multiple sclerosis, rheumatoid arthritis, systemic lupus erythematosus, Sjogren's syndrome, and inflammatory bowel disease. Despite the extensive investigation into this T\u00a0cell lineage, little is understood regarding the\u00a0role of Th17 lineage-specific lncRNAs (long non-coding RNAs) > 200 nt. lncRNAs may influence disease through a variety of mechanisms; their expression could be regulated by SNPs. lncRNAs can also affect the expression of neighboring genes or complementary miRNAs, and their expression may have lineage-specific patterns. In the system biology study presented here, the effective lncRNAs from different criteria were predicted for each autoimmune disease, and we then evaluated their expression levels in 50 MS patients compared to 25 controls using qRT-PCR. We identified changes in the expression levels of AL450992.2, AC009948.5, and RP11-98D18.3 as potential peripheral blood mononuclear cell (PBMC) biomarkers for MS among our studied lncRNAs in which co-expression analysis of AL450992.2 had the most AUCs, and the relationship to RORC was also assessed. We propose that the recurrently deregulated lncRNAs identified in this report could provide a valuable resource for studies aimed at delineating the relationship between functional lncRNAs and autoimmune disorders."
+   }
+  },
+  "PMID:29522453": {
+   "record_id": "PMID:29522453",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29522453/",
+   "retrieved_at": "2026-11-17T01:57:12.569059+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "29522453",
+    "title": "Genetic Determinants of Antibody Levels in Cerebrospinal Fluid in Multiple Sclerosis: Possible Links to Endogenous Retroviruses.",
+    "journal": "Int J Mol Sci",
+    "pubdate": "2018 Mar 9",
+    "sortpubdate": "2018-03-09",
+    "abstract": "The pathogenesis of multiple sclerosis (MS) has not been clarified. In addition to environmental factors; genetic determinants have been implicated in the pathogenesis of MS. Furthermore, endogenous retroviruses (ERV) might play a role in MS. The presence of oligoclonal immunoglobulin in cerebrospinal fluid (CSF) is a typical feature of MS. Recently, genetic polymorphisms in loci on human chromosomes 6, 14 and 18 have been identified as major determinants of CSF antibody levels in MS. The functional relevance of these single nucleotide polymorphisms (SNPs) remains unclear and none of them is located in an open reading frame. In previous studies, we identified ERV sequences in the vicinity of MS associated SNPs. Here, we describe the identification of ERV sequences in the neighborhood of SNPs associated with CSF antibody levels. All of the identified SNPs are located in the vicinity of ERV sequences. One of these sequences has very high homology to a sequence derived from the so-called MS-associated retrovirus (MSRV). Another cluster of three ERV sequences from the immunoglobulin heavy chain locus has retained the typical organization of retroviral genomes. These observations might shed new light on a possible association between ERVs and MS pathogenesis."
+   }
+  },
+  "PMID:25819875": {
+   "record_id": "PMID:25819875",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25819875/",
+   "retrieved_at": "2026-11-17T01:57:12.569059+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "25819875",
+    "title": "Re-annotation of presumed noncoding disease/trait-associated genetic variants by integrative analyses.",
+    "journal": "Sci Rep",
+    "pubdate": "2015 Mar 30",
+    "sortpubdate": "2015-03-30",
+    "abstract": "Using RefSeq annotations, most disease/trait-associated genetic variants identified by genome-wide association studies (GWAS) appear to be located within intronic or intergenic regions, which makes it difficult to interpret their functions. We reassessed GWAS-Associated single-nucleotide polymorphisms (herein termed as GASs) for their potential functionalities using integrative approaches. 8834 of 9184 RefSeq \"noncoding\" GASs were reassessed to have potential regulatory functionalities. As examples, 3 variants (rs3130320, rs3806932 and rs6890853) were shown to have regulatory properties in HepG2, A549 and 293T cells. Except rs3130320 as a known expression quantitative trait loci (eQTL), rs3806932 and rs6890853 were not reported as eQTLs in previous reports. 1999 of 9184 \"noncoding\" GASs were re-annotated to the promoters or intragenic regions using Ensembl, UCSC and AceView gene annotations but they were not annotated into corresponding regions in RefSeq database. Moreover, these GAS-harboring genes were broadly expressed across different tissues and a portion of them was expressed in a tissue-specific manner, suggesting that they could be functional. Collectively, our study demonstrates the benefits of using integrative analyses to interpret genetic variants and may help to predict or explain disease susceptibility more accurately and comprehensively."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 16,
+  "n_claims_fully_verified": 16,
+  "n_uncited_claims": 0,
+  "n_citations": 33,
+  "n_citations_valid": 33,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 23,
+  "n_shown_values_in_text": 23,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 16,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

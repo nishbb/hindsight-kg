@@ -1,0 +1,45 @@
+VARIANT DOSSIER: rs28934578
+Evidence as of: 2020-01-01. Generated 2026-11-17.
+
+IDENTITY
+- rs28934578 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs28934578]
+- dbSNP records rs28934578 as variant type 'snv' on NC_000017.11 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs28934578]
+- Alternate allele 1: NC_000017.11:g.7675088C>A, a single-nucleotide variant (SNV) (C>A in VCF form). [dbSNP build 157 rs28934578]
+- Alternate allele 2: NC_000017.11:g.7675088C>G, a single-nucleotide variant (SNV) (C>G in VCF form). [dbSNP build 157 rs28934578]
+- Alternate allele 3: NC_000017.11:g.7675088C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs28934578]
+
+FUNCTION
+- For alternate allele 2 (C>G), Ensembl VEP predicts missense_variant in TP53 (ENST00000269305.9:c.524G>C; ENSP00000269305.4:p.Arg175Pro), impact MODERATE. [Ensembl VEP rs28934578]
+- For alternate allele 3 (C>T), Ensembl VEP predicts missense_variant in TP53 (ENST00000269305.9:c.524G>A; ENSP00000269305.4:p.Arg175His), impact MODERATE. [Ensembl VEP rs28934578]
+- For alternate allele 1 (C>A), Ensembl VEP predicts missense_variant in TP53 (ENST00000269305.9:c.524G>T; ENSP00000269305.4:p.Arg175Leu), impact MODERATE. [Ensembl VEP rs28934578]
+- Ensembl classifies the variant as 'SNV' with allele string C/A/G/T. [Ensembl VEP rs28934578]
+
+FREQUENCY
+- Alternate allele 1 (C>A) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- Alternate allele 2 (C>G) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- In gnomAD v2.1.1 exomes, alternate allele 3 (C>T) has an overall allele frequency of 3.98e-06. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 3: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 8.8e-06, South Asian 0, Other 0. [gnomAD v2.1.1 exomes]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_000546.5(TP53):c.524G>A (p.Arg175His) (alternate allele 3) with germline classification 'Pathogenic' for: Hereditary cancer-predisposing syndrome; Li-Fraumeni syndrome; Li-Fraumeni syndrome 1; Malignant tumor of esophagus; and 2 more; review status 'criteria provided, multiple submitters, no conflicts', 11 submitter(s), allele origin 'germline;somatic;unknown'. [ClinVar VCV000012374 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic/Likely pathogenic; 2019-01: Pathogenic. The classification changed over these releases. [ClinVar VCV000012374 (2019-01 release)]
+- ClinVar lists NM_000546.5(TP53):c.524G>T (p.Arg175Leu) (alternate allele 1) with germline classification 'Likely pathogenic' for: Hereditary cancer-predisposing syndrome; review status 'criteria provided, single submitter', 1 submitter(s), allele origin 'germline'. [ClinVar VCV000182963 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Likely pathogenic; 2019-01: Likely pathogenic. The classification did not change over these releases. [ClinVar VCV000182963 (2019-01 release)]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists no association for rs28934578. [GWAS Catalog rs28934578]
+
+LITERATURE
+- LitVar2 links 3092 PubMed articles to rs28934578; 1487 of the 3091 with a PubMed date were published on or before 2020-01-01. [LitVar2 rs28934578]
+- Linked article: "Clinical significance of TP53 variants as possible secondary findings in tumor-only next-generation sequencing" (J Hum Genet, 2020). [PMID:31628423]
+- Linked article: "Identification and Characterization of a New Platinum-Induced TP53 Mutation in MDAH Ovarian Cancer Cells" (Cells, 2019). [PMID:31877751]
+- Linked article: "Assessment of TP53 lesions for p53 system functionality and drug resistance in multiple myeloma using an isogenic cell line model" (Sci Rep, 2019). [PMID:31792264]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs28934578 in TP53 is best described as: germline disease variant. ClinVar links it to Hereditary cancer-predisposing syndrome. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict). [ClinVar VCV000012374 (2019-01 release); ClinVar VCV000182963 (2019-01 release); GWAS Catalog rs28934578; LitVar2 rs28934578]
+
+PROCESSING NOTES (not evidence)
+- CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'.

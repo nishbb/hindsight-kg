@@ -1,0 +1,1629 @@
+{
+ "rsid_query": "rs987870",
+ "rsid_current": "rs987870",
+ "as_of": "latest",
+ "generated_at": "2026-11-17T02:13:54.229378+00:00",
+ "genes": {
+  "vep": [
+   "HLA-DPA1"
+  ],
+  "dbsnp": [
+   "HLA-DPA1",
+   "HLA-DPB1"
+  ],
+  "clinvar": [],
+  "gwas": [
+   "HLA-DPA1",
+   "HLA-DPB1"
+  ]
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000006.12:g.33075103A>C",
+   "spdi_deleted": "A",
+   "spdi_inserted": "C",
+   "chrom": "6",
+   "pos": 33075103,
+   "ref": "A",
+   "alt": "C",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "6-33075103-A-C",
+   "vep": null,
+   "frequency": {
+    "gnomad_v2": null,
+    "gnomad_v4": null
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000006.12:g.33075103A>G",
+   "spdi_deleted": "A",
+   "spdi_inserted": "G",
+   "chrom": "6",
+   "pos": 33075103,
+   "ref": "A",
+   "alt": "G",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "6-33075103-A-G",
+   "vep": {
+    "gene_symbol": "HLA-DPA1",
+    "consequence_terms": [
+     "upstream_gene_variant"
+    ],
+    "hgvsc": null,
+    "hgvsp": null,
+    "impact": "MODIFIER",
+    "mane_select": "NM_033554.4"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "genomes",
+     "overall": 0.179348,
+     "populations": {
+      "afr": 0.326817,
+      "amr": 0.146572,
+      "asj": 0.158621,
+      "eas": 0.0834403,
+      "fin": 0.0817501,
+      "nfe": 0.131442,
+      "oth": 0.159007
+     },
+     "an": 31358,
+     "differentiated": true
+    },
+    "gnomad_v4": {
+     "overall": 0.19299836987958144,
+     "ac": 29362,
+     "an": 152136,
+     "populations": {
+      "afr": 0.3217387109224238,
+      "amr": 0.1856526288255297,
+      "asj": 0.15196078431372548,
+      "eas": 0.10208413739868777,
+      "fin": 0.07380143450358626,
+      "nfe": 0.14090802164196659,
+      "sas": 0.24688279301745636,
+      "mid": 0.16666666666666666,
+      "ami": 0.10659340659340659,
+      "remaining": 0.2033175355450237
+     },
+     "differentiated": true
+    }
+   }
+  },
+  {
+   "index": 3,
+   "dbsnp_allele_index": 3,
+   "hgvs_g": "NC_000006.12:g.33075103A>T",
+   "spdi_deleted": "A",
+   "spdi_inserted": "T",
+   "chrom": "6",
+   "pos": 33075103,
+   "ref": "A",
+   "alt": "T",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "6-33075103-A-T",
+   "vep": null,
+   "frequency": {
+    "gnomad_v2": null,
+    "gnomad_v4": null
+   }
+  }
+ ],
+ "clinvar": [],
+ "clinvar_release": "2026-11",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 2,
+  "n_associations_in_scope": 2,
+  "n_genome_wide_significant": 2,
+  "n_studies": 2,
+  "mapped_genes": [
+   "HLA-DPA1",
+   "HLA-DPB1"
+  ],
+  "top_traits": [
+   {
+    "trait": "systemic sclerosis",
+    "p_value": "2e-20",
+    "accession": "GCST001156",
+    "pmid": "21779181"
+   },
+   {
+    "trait": "asthma",
+    "p_value": "2e-10",
+    "accession": "GCST001172",
+    "pmid": "21814517"
+   }
+  ],
+  "n_distinct_traits_significant": 2,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 84,
+  "n_in_scope": 84,
+  "pmids_in_scope": [
+   "39766875",
+   "36493776",
+   "36467812",
+   "35922517",
+   "35800769",
+   "33193367",
+   "31785132",
+   "31361310",
+   "31358043",
+   "31022184",
+   "30661310",
+   "30795559",
+   "30704471",
+   "30552067",
+   "30596705",
+   "30541564",
+   "30518762",
+   "30507971",
+   "30378292",
+   "30046115",
+   "29955180",
+   "29751569",
+   "29685792",
+   "29459708",
+   "29378629",
+   "29083406",
+   "29079728",
+   "28619073",
+   "28598986",
+   "28029757",
+   "28410642",
+   "27998952",
+   "28122634",
+   "27439200",
+   "27848966",
+   "27663977",
+   "27313329",
+   "27618581",
+   "27582244",
+   "27548383",
+   "27182965",
+   "27322064",
+   "27109064",
+   "26888867",
+   "26006746",
+   "26600159",
+   "26231221",
+   "26119467",
+   "26374098",
+   "25819875"
+  ],
+  "top": [
+   "31785132",
+   "39766875",
+   "36493776"
+  ]
+ },
+ "conflicts": [
+  {
+   "type": "discordant_gene_assignment",
+   "strict": false,
+   "genes": {
+    "Ensembl VEP": [
+     "HLA-DPA1"
+    ],
+    "GWAS Catalog": [
+     "HLA-DPA1",
+     "HLA-DPB1"
+    ]
+   }
+  }
+ ],
+ "bottom_line": {
+  "category": "trait-associated common variant without an established monogenic disease role",
+  "confidence": "moderate",
+  "rationale": "replication is limited",
+  "text": "Bottom line: rs987870 in HLA-DPA1 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with systemic sclerosis. Confidence: moderate (replication is limited)."
+ },
+ "notes": [],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs987870 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs987870",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs987870",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs987870: rs6942110, rs16868585, rs58890955, rs115505532, rs117930534.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs987870",
+     "path": "dbsnp1_merges.0",
+     "value": "6942110",
+     "label": "dbSNP build 157 rs987870",
+     "mode": "eq",
+     "shown": "rs6942110",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs987870",
+     "path": "dbsnp1_merges.1",
+     "value": "16868585",
+     "label": "dbSNP build 157 rs987870",
+     "mode": "eq",
+     "shown": "rs16868585",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs987870",
+     "path": "dbsnp1_merges.2",
+     "value": "58890955",
+     "label": "dbSNP build 157 rs987870",
+     "mode": "eq",
+     "shown": "rs58890955",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs987870",
+     "path": "dbsnp1_merges.3",
+     "value": "115505532",
+     "label": "dbSNP build 157 rs987870",
+     "mode": "eq",
+     "shown": "rs115505532",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs987870",
+     "path": "dbsnp1_merges.4",
+     "value": "117930534",
+     "label": "dbSNP build 157 rs987870",
+     "mode": "eq",
+     "shown": "rs117930534",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs987870 as variant type 'snv' on NC_000006.12 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs987870",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs987870",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs987870",
+     "path": "seq_id",
+     "value": "NC_000006.12",
+     "label": "dbSNP build 157 rs987870",
+     "mode": "eq",
+     "shown": "NC_000006.12",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000006.12:g.33075103A>C, a single-nucleotide variant (SNV) (A>C in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs987870",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000006.12:g.33075103A>C",
+     "label": "dbSNP build 157 rs987870",
+     "mode": "eq",
+     "shown": "NC_000006.12:g.33075103A>C",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000006.12:g.33075103A>G, a single-nucleotide variant (SNV) (A>G in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs987870",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000006.12:g.33075103A>G",
+     "label": "dbSNP build 157 rs987870",
+     "mode": "eq",
+     "shown": "NC_000006.12:g.33075103A>G",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 3: NC_000006.12:g.33075103A>T, a single-nucleotide variant (SNV) (A>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs987870",
+     "path": "alleles.3.hgvs",
+     "value": "NC_000006.12:g.33075103A>T",
+     "label": "dbSNP build 157 rs987870",
+     "mode": "eq",
+     "shown": "NC_000006.12:g.33075103A>T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 2 (A>G), Ensembl VEP predicts upstream_gene_variant in HLA-DPA1, impact MODIFIER.",
+   "citations": [
+    {
+     "record_id": "VEP:rs987870",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "upstream_gene_variant",
+     "label": "Ensembl VEP rs987870",
+     "mode": "eq",
+     "shown": "upstream_gene_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs987870",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "HLA-DPA1",
+     "label": "Ensembl VEP rs987870",
+     "mode": "eq",
+     "shown": "HLA-DPA1",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs987870",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODIFIER",
+     "label": "Ensembl VEP rs987870",
+     "mode": "eq",
+     "shown": "MODIFIER",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string A/G.",
+   "citations": [
+    {
+     "record_id": "VEP:rs987870",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs987870",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs987870",
+     "path": "allele_string",
+     "value": "A/G",
+     "label": "Ensembl VEP rs987870",
+     "mode": "eq",
+     "shown": "A/G",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 1 (A>C) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs987870.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs987870",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "gnomAD v4.1 has no record for 6-33075103-A-C (alternate allele 1).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-C",
+     "path": "variant",
+     "value": null,
+     "label": "gnomAD v4.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 genomes, alternate allele 2 (A>G) has an overall allele frequency of 0.179.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs987870",
+     "path": "hits.0.gnomad_genome.af.af",
+     "value": 0.179348,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.179",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0.327, Admixed American 0.147, Ashkenazi Jewish 0.159, East Asian 0.0834, Finnish 0.0818, Non-Finnish European 0.131, Other 0.159.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs987870",
+     "path": "hits.0.gnomad_genome.af.af_afr",
+     "value": 0.326817,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.327",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs987870",
+     "path": "hits.0.gnomad_genome.af.af_amr",
+     "value": 0.146572,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.147",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs987870",
+     "path": "hits.0.gnomad_genome.af.af_asj",
+     "value": 0.158621,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.159",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs987870",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.0834403,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0834",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs987870",
+     "path": "hits.0.gnomad_genome.af.af_fin",
+     "value": 0.0817501,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0818",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs987870",
+     "path": "hits.0.gnomad_genome.af.af_nfe",
+     "value": 0.131442,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.131",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs987870",
+     "path": "hits.0.gnomad_genome.af.af_oth",
+     "value": 0.159007,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.159",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v2.1.1 genomes): allele 2 frequency ranges from 0.0818 in Finnish to 0.327 in African/African American, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs987870",
+     "path": "hits.0.gnomad_genome.af.af_fin",
+     "value": 0.0817501,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0818",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs987870",
+     "path": "hits.0.gnomad_genome.af.af_afr",
+     "value": 0.326817,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.327",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (A>G) has an overall allele frequency of 0.193 (29,362 of 152,136 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-G",
+     "path": "",
+     "value": 0.19299836987958144,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.193",
+     "args": [
+      [
+       "variant.genome.ac"
+      ],
+      [
+       "variant.genome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0.322, Admixed American 0.186, Ashkenazi Jewish 0.152, East Asian 0.102, Finnish 0.0738, Non-Finnish European 0.141, South Asian 0.247, Middle Eastern 0.167, Amish 0.107, Remaining 0.203.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-G",
+     "path": "",
+     "value": 0.3217387109224238,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.322",
+     "args": [
+      [
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-G",
+     "path": "",
+     "value": 0.1856526288255297,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.186",
+     "args": [
+      [
+       "variant.genome.populations.1.ac"
+      ],
+      [
+       "variant.genome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-G",
+     "path": "",
+     "value": 0.15196078431372548,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.152",
+     "args": [
+      [
+       "variant.genome.populations.7.ac"
+      ],
+      [
+       "variant.genome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-G",
+     "path": "",
+     "value": 0.10208413739868777,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.102",
+     "args": [
+      [
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-G",
+     "path": "",
+     "value": 0.07380143450358626,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0738",
+     "args": [
+      [
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-G",
+     "path": "",
+     "value": 0.14090802164196659,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.141",
+     "args": [
+      [
+       "variant.genome.populations.9.ac"
+      ],
+      [
+       "variant.genome.populations.9.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-G",
+     "path": "",
+     "value": 0.24688279301745636,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.247",
+     "args": [
+      [
+       "variant.genome.populations.6.ac"
+      ],
+      [
+       "variant.genome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-G",
+     "path": "",
+     "value": 0.16666666666666666,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.167",
+     "args": [
+      [
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-G",
+     "path": "",
+     "value": 0.10659340659340659,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.107",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-G",
+     "path": "",
+     "value": 0.2033175355450237,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.203",
+     "args": [
+      [
+       "variant.genome.populations.0.ac"
+      ],
+      [
+       "variant.genome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v4.1): allele 2 frequency ranges from 0.0738 in Finnish to 0.322 in African/African American, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-G",
+     "path": "",
+     "value": 0.3217387109224238,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.322",
+     "args": [
+      [
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-G",
+     "path": "",
+     "value": 0.07380143450358626,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0738",
+     "args": [
+      [
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 3 (A>T) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs987870.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs987870",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "gnomAD v4.1 has no record for 6-33075103-A-T (alternate allele 3).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:6-33075103-A-T",
+     "path": "variant",
+     "value": null,
+     "label": "gnomAD v4.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "The ClinVar 2026-11 release contains no record for rs987870.",
+   "citations": [
+    {
+     "record_id": "ClinVar:rs987870@2026-11",
+     "path": "n_records",
+     "value": 0,
+     "label": "ClinVar 2026-11 release",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Somatic evidence",
+   "text": "No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant.",
+   "citations": [
+    {
+     "record_id": "VEP:rs987870",
+     "path": "cosmic_ids",
+     "value": [],
+     "label": "Ensembl VEP rs987870",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 2 association record(s) for rs987870.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs987870",
+     "path": "associations.1.association_id",
+     "value": 18712,
+     "label": "GWAS Catalog rs987870",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with systemic sclerosis (p = 2e-20, study GCST001156).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs987870",
+     "path": "associations.1.accession_id",
+     "value": "GCST001156",
+     "label": "GWAS Catalog GCST001156",
+     "mode": "eq",
+     "shown": "GCST001156",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs987870",
+     "path": "associations.1.pvalue_exponent",
+     "value": -20,
+     "label": "GWAS Catalog GCST001156",
+     "mode": "eq",
+     "shown": "2e-20",
+     "args": null
+    },
+    {
+     "record_id": "PMID:21779181",
+     "path": "pmid",
+     "value": "21779181",
+     "label": "PMID:21779181",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with asthma (p = 2e-10, study GCST001172, effect allele rs987870-C).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs987870",
+     "path": "associations.0.accession_id",
+     "value": "GCST001172",
+     "label": "GWAS Catalog GCST001172",
+     "mode": "eq",
+     "shown": "GCST001172",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs987870",
+     "path": "associations.0.pvalue_exponent",
+     "value": -10,
+     "label": "GWAS Catalog GCST001172",
+     "mode": "eq",
+     "shown": "2e-10",
+     "args": null
+    },
+    {
+     "record_id": "PMID:21814517",
+     "path": "pmid",
+     "value": "21814517",
+     "label": "PMID:21814517",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 84 PubMed articles to rs987870.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs987870",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs987870",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Relationship between HLA-DPA1 genetic polymorphism and anembryonic pregnancy\" (Mol Genet Genomic Med, 2020).",
+   "citations": [
+    {
+     "record_id": "PMID:31785132",
+     "path": "title",
+     "value": "Relationship between HLA-DPA1 genetic polymorphism and anembryonic pregnancy.",
+     "label": "PMID:31785132",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31785132",
+     "path": "journal",
+     "value": "Mol Genet Genomic Med",
+     "label": "PMID:31785132",
+     "mode": "eq",
+     "shown": "Mol Genet Genomic Med",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Genetic Variations on Chromosome 6p21 Are Associated with Asthma Risk and Disease Severity: A Case-Control Study from Pakistan\" (Genes (Basel), 2024).",
+   "citations": [
+    {
+     "record_id": "PMID:39766875",
+     "path": "title",
+     "value": "Genetic Variations on Chromosome 6p21 Are Associated with Asthma Risk and Disease Severity: A Case-Control Study from Pakistan.",
+     "label": "PMID:39766875",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:39766875",
+     "path": "journal",
+     "value": "Genes (Basel)",
+     "label": "PMID:39766875",
+     "mode": "eq",
+     "shown": "Genes (Basel)",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"A population-based study of precision health assessments using multi-omics network-derived biological functional modules\" (Cell Rep Med, 2022).",
+   "citations": [
+    {
+     "record_id": "PMID:36493776",
+     "path": "title",
+     "value": "A population-based study of precision health assessments using multi-omics network-derived biological functional modules.",
+     "label": "PMID:36493776",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:36493776",
+     "path": "journal",
+     "value": "Cell Rep Med",
+     "label": "PMID:36493776",
+     "mode": "eq",
+     "shown": "Cell Rep Med",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Conflicts and caveats",
+   "text": "Gene assignment difference: sources name different genes for rs987870 (Ensembl VEP: HLA-DPA1; GWAS Catalog: HLA-DPA1, HLA-DPB1).",
+   "citations": [
+    {
+     "record_id": "VEP:rs987870",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": null,
+     "label": "Ensembl VEP rs987870",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs987870",
+     "path": "associations.0.mapped_genes",
+     "value": null,
+     "label": "GWAS Catalog rs987870",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "rs987870 is associated with 2 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs987870",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs987870",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs987870 in HLA-DPA1 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with systemic sclerosis. Confidence: moderate (replication is limited).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs987870",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs987870",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs987870",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs987870",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs987870": {
+   "record_id": "dbSNP:rs987870",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/987870",
+   "retrieved_at": "2026-11-17T02:00:11.175006+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "987870",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "6942110",
+     "16868585",
+     "58890955",
+     "115505532",
+     "117930534"
+    ],
+    "merged_into": [],
+    "citations": [
+     21779181,
+     21814517,
+     23755072,
+     23886662,
+     27313329
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000006.12",
+    "alleles": [
+     {
+      "hgvs": "NC_000006.12:g.33075103=",
+      "position0": 33075102,
+      "deleted": "A",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000006.12:g.33075103A>C",
+      "position0": 33075102,
+      "deleted": "A",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000006.12:g.33075103A>G",
+      "position0": 33075102,
+      "deleted": "A",
+      "inserted": "G"
+     },
+     {
+      "hgvs": "NC_000006.12:g.33075103A>T",
+      "position0": 33075102,
+      "deleted": "A",
+      "inserted": "T"
+     }
+    ],
+    "genes": [
+     "HLA-DPA1",
+     "HLA-DPB1"
+    ]
+   }
+  },
+  "VEP:rs987870": {
+   "record_id": "VEP:rs987870",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs987870",
+   "retrieved_at": "2026-11-17T02:00:12.781841+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs987870",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "6",
+    "start": 33075103,
+    "end": 33075103,
+    "allele_string": "A/G",
+    "variant_class": "SNV",
+    "most_severe_consequence": "upstream_gene_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "G",
+      "gene_symbol": "HLA-DPA1",
+      "gene_id": "ENSG00000231389",
+      "transcript_id": "ENST00000692443",
+      "mane_select": "NM_033554.4",
+      "consequence_terms": [
+       "upstream_gene_variant"
+      ],
+      "hgvsc": null,
+      "hgvsp": null,
+      "impact": "MODIFIER",
+      "amino_acids": null,
+      "protein_start": null,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [],
+    "colocated_somatic": false
+   }
+  },
+  "gnomAD-v2.1.1:rs987870": {
+   "record_id": "gnomAD-v2.1.1:rs987870",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:00:12.874472+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr6:g.33042880A>G",
+      "_score": 17.141106,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 7.074
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "G",
+       "ref": "A",
+       "vartype": "snv"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.179348,
+        "af_afr": 0.326817,
+        "af_afr_female": 0.325803,
+        "af_afr_male": 0.327559,
+        "af_amr": 0.146572,
+        "af_amr_female": 0.142512,
+        "af_amr_male": 0.150463,
+        "af_asj": 0.158621,
+        "af_asj_female": 0.1,
+        "af_asj_male": 0.180952,
+        "af_eas": 0.0834403,
+        "af_eas_female": 0.0910781,
+        "af_eas_male": 0.0794118,
+        "af_female": 0.174098,
+        "af_fin": 0.0817501,
+        "af_fin_female": 0.0790899,
+        "af_fin_male": 0.0847666,
+        "af_male": 0.183532,
+        "af_nfe": 0.131442,
+        "af_nfe_est": 0.0953732,
+        "af_nfe_female": 0.127503,
+        "af_nfe_male": 0.134548,
+        "af_nfe_nwe": 0.14795,
+        "af_nfe_onf": 0.141987,
+        "af_nfe_seu": 0.141509,
+        "af_oth": 0.159007,
+        "af_oth_female": 0.170819,
+        "af_oth_male": 0.146388
+       },
+       "alt": "G",
+       "an": {
+        "an": 31358,
+        "an_afr": 8696,
+        "an_afr_female": 3674,
+        "an_afr_male": 5022,
+        "an_amr": 846,
+        "an_amr_female": 414,
+        "an_amr_male": 432,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1558,
+        "an_eas_female": 538,
+        "an_eas_male": 1020,
+        "an_female": 13906,
+        "an_fin": 3474,
+        "an_fin_female": 1846,
+        "an_fin_male": 1628,
+        "an_male": 17452,
+        "an_nfe": 15406,
+        "an_nfe_est": 4582,
+        "an_nfe_female": 6792,
+        "an_nfe_male": 8614,
+        "an_nfe_nwe": 8584,
+        "an_nfe_onf": 2134,
+        "an_nfe_seu": 106,
+        "an_oth": 1088,
+        "an_oth_female": 562,
+        "an_oth_male": 526
+       },
+       "ref": "A"
+      },
+      "vcf": {
+       "alt": "G",
+       "position": "33042880",
+       "ref": "A"
+      }
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:6-33075103-A-C": {
+   "record_id": "gnomAD-v4.1:6-33075103-A-C",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:00:12.947445+00:00",
+   "status": 200,
+   "data": {
+    "variant": null,
+    "errors": [
+     {
+      "message": "Variant not found"
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:6-33075103-A-G": {
+   "record_id": "gnomAD-v4.1:6-33075103-A-G",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:00:14.144986+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "6-33075103-A-G",
+     "rsids": [
+      "rs987870"
+     ],
+     "exome": null,
+     "genome": {
+      "ac": 29362,
+      "an": 152136,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 429,
+        "an": 2110
+       },
+       {
+        "id": "amr",
+        "ac": 2839,
+        "an": 15292
+       },
+       {
+        "id": "fin",
+        "ac": 782,
+        "an": 10596
+       },
+       {
+        "id": "ami",
+        "ac": 97,
+        "an": 910
+       },
+       {
+        "id": "eas",
+        "ac": 529,
+        "an": 5182
+       },
+       {
+        "id": "mid",
+        "ac": 49,
+        "an": 294
+       },
+       {
+        "id": "sas",
+        "ac": 1188,
+        "an": 4812
+       },
+       {
+        "id": "asj",
+        "ac": 527,
+        "an": 3468
+       },
+       {
+        "id": "afr",
+        "ac": 13338,
+        "an": 41456
+       },
+       {
+        "id": "nfe",
+        "ac": 9584,
+        "an": 68016
+       }
+      ]
+     }
+    },
+    "errors": null
+   }
+  },
+  "gnomAD-v4.1:6-33075103-A-T": {
+   "record_id": "gnomAD-v4.1:6-33075103-A-T",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:00:15.005033+00:00",
+   "status": 200,
+   "data": {
+    "variant": null,
+    "errors": [
+     {
+      "message": "Variant not found"
+     }
+    ]
+   }
+  },
+  "ClinVar:rs987870@2026-11": {
+   "record_id": "ClinVar:rs987870@2026-11",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2026-11",
+   "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
+   "retrieved_at": "2026-11-17T02:13:54.223945+00:00",
+   "status": 200,
+   "data": {
+    "rsid": "rs987870",
+    "n_records": 0
+   }
+  },
+  "GWAS:rs987870": {
+   "record_id": "GWAS:rs987870",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:00:15.698071+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 18849,
+      "accession_id": "GCST001172",
+      "pubmed_id": "21814517",
+      "first_author": "Noguchi E",
+      "p_value": 2e-10,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -10,
+      "or_value": "1.4",
+      "beta": "-",
+      "risk_frequency": "0.14",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0004979",
+        "efo_trait": "asthma"
+       }
+      ],
+      "reported_trait": [
+       "Asthma"
+      ],
+      "mapped_genes": [
+       "HLA-DPA1",
+       "HLA-DPB1"
+      ],
+      "snp_effect_allele": [
+       "rs987870-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2011-07-01"
+     },
+     {
+      "association_id": 18712,
+      "accession_id": "GCST001156",
+      "pubmed_id": "21779181",
+      "first_author": "Gorlova O",
+      "p_value": 2e-20,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -20,
+      "or_value": "2.09",
+      "beta": "-",
+      "risk_frequency": "0.15",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005100",
+        "efo_trait": "systemic sclerosis"
+       }
+      ],
+      "reported_trait": [
+       "Systemic sclerosis"
+      ],
+      "mapped_genes": [
+       "HLA-DPA1",
+       "HLA-DPB1"
+      ],
+      "snp_effect_allele": [
+       "rs987870-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 1,
+      "_pubdate": "2011-07-01"
+     }
+    ]
+   }
+  },
+  "PMID:21779181": {
+   "record_id": "PMID:21779181",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21779181/",
+   "retrieved_at": "2026-11-17T02:00:16.132870+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "21779181",
+    "title": "Identification of novel genetic markers associated with clinical phenotypes of systemic sclerosis through a genome-wide association strategy.",
+    "journal": "PLoS Genet",
+    "pubdate": "2011 Jul",
+    "sortpubdate": "2011-07-01"
+   }
+  },
+  "PMID:21814517": {
+   "record_id": "PMID:21814517",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21814517/",
+   "retrieved_at": "2026-11-17T02:00:16.132870+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "21814517",
+    "title": "Genome-wide association study identifies HLA-DP as a susceptibility gene for pediatric asthma in Asian populations.",
+    "journal": "PLoS Genet",
+    "pubdate": "2011 Jul",
+    "sortpubdate": "2011-07-01"
+   }
+  },
+  "LitVar2:rs987870": {
+   "record_id": "LitVar2:rs987870",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs987870%23%23/publications",
+   "retrieved_at": "2026-11-17T02:00:16.185863+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     30552067,
+     28122634,
+     22694930,
+     29685792,
+     24973356,
+     23637549,
+     29378629,
+     35922517,
+     31358043,
+     27439200,
+     30596705,
+     36467812,
+     31022184,
+     27663977,
+     29955180,
+     17940599,
+     25087609,
+     24784026,
+     26888867,
+     31785132,
+     29079728,
+     27313329,
+     19851445,
+     30661310,
+     35800769,
+     27109064,
+     28598986,
+     27322064,
+     24274136,
+     24223962,
+     26006746,
+     24937182,
+     27548383,
+     26600159,
+     25819875,
+     27998952,
+     22685416,
+     21779181,
+     21814517,
+     29459708,
+     30541564,
+     23028483,
+     27848966,
+     21829388,
+     29083406,
+     21949713,
+     28410642,
+     29751569,
+     27618581,
+     31361310
+    ],
+    "n_pmids": 84
+   }
+  },
+  "PMID:31785132": {
+   "record_id": "PMID:31785132",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31785132/",
+   "retrieved_at": "2026-11-17T02:00:18.299854+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31785132",
+    "title": "Relationship between HLA-DPA1 genetic polymorphism and anembryonic pregnancy.",
+    "journal": "Mol Genet Genomic Med",
+    "pubdate": "2020 Jan",
+    "sortpubdate": "2020-01-01",
+    "abstract": "Human leukocyte antigen (HLA)-DP is an HLA class II molecule. Overexpression of HLA class II molecules in placental trophoblast cells may induce pregnancy loss. However, the association between HLA-DP and pregnancy loss remains unclear. HLA-DPA1 is an HLA-DP peptide chain. The objective of this study was to assess the association between HLA-DPA1 genetic polymorphism and anembryonic pregnancy, a type of early pregnancy loss, in the Chinese population. A case-control study was designed to compare the frequencies of HLA-DPA1 gene polymorphisms in an anembryonic pregnancy group and a control group. Sixty-eight cases and 122 controls were recruited. Statistical analysis was performed to assess the correlation between single-nucleotide polymorphisms (SNPs) and anembryonic pregnancy susceptibility. MassARRAY high-throughput DNA analysis was used to analyze 19 HLA-DPA1 SNPs. To explore how HLA-DPA1 polymorphism could affect anembryonic pregnancy, HLA-DPA1 serum levels were analyzed by ELISA. Homozygous typing of rs1431403 (CC and TT) significantly increased the risk of anembryonic pregnancy in the case group (ORCC \u00a0=\u00a03.13, 95% CI: 1.50-6.53; ORTT \u00a0=\u00a02.96, 95% CI: 1.31-6.66; ORCC+TT \u00a0=\u00a03.06, 95% CI: 1.62-5.78). In samples with high HLA-DPA1 levels (\u22651,500\u00a0pg/ml), the homozygous rs1431403 genotypes (nCC \u00a0=\u00a021, 43.8%; nTT \u00a0=\u00a020, 57.1%) were observed more frequently than were heterozygous genotypes. HLA-DPA1 rs1431403 may be a risk factor for anembryonic pregnancy in the Chinese population. Homozygous rs1431403 genotypes (CC and TT) may increase the risk of anembryonic pregnancy by aberrantly increasing the HLA-DPA1 levels."
+   }
+  },
+  "PMID:39766875": {
+   "record_id": "PMID:39766875",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39766875/",
+   "retrieved_at": "2026-11-17T02:00:18.299854+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "39766875",
+    "title": "Genetic Variations on Chromosome 6p21 Are Associated with Asthma Risk and Disease Severity: A Case-Control Study from Pakistan.",
+    "journal": "Genes (Basel)",
+    "pubdate": "2024 Dec 17",
+    "sortpubdate": "2024-12-17",
+    "abstract": "Genetic factors play a role in asthma severity. However, low- and middle-income countries have minimal contribution to genomic asthma research. The current study investigates the influence of an important genetic asthma region (6p21) on severe asthma in a cohort of asthmatics in Pakistan. In this case-control study, mild to severe asthmatic patients (n = 255) and controls (n = 260) were enrolled from Lahore, Pakistan. Blood samples were collected, and genomic DNA was extracted for the genotyping of 11 single nucleotide polymorphisms located in the 6p21 region. Severe asthma was defined based on the defined daily dose of inhaled corticosteroids equivalent to 200 mcg of beclomethasone dipropionate (as per the global initiative for asthma guidelines). An additive genetic model was followed to find the associations between these variants and the outcome. Univariate and multivariate logistic regression, adjusted for confounders, was performed. Odds ratio (OR), 95% confidence interval (95% CI), p-value, and q-values after FDR adjustment were estimated. The genetic variants rs3025028, rs987870, and rs3025039 showed strong associations with the incidence of asthma with odds ratios of 1.58, 1.62, and 2.70 (95% CI = 1.16-2.16, 1.15-2.30, and 1.40-5.39, respectively). Further stratification analysis to study the risk of severe asthma also revealed markedly significant associations for rs3025020 and rs1799964 (OR = 2.28 and 2.99; 95% CI = 1.39-3.86 and 1.75-5.33, respectively). However, the SNPs rs2070600, rs987870, and rs3025039 also showed a significant relationship with the severity (OR = 2.34, 1.75, and 2.72; 95% CI = 1.02-5.97, 1.07-2.98, and 1.11-7.71, respectively), but FDR-adjusted q-values were insignificant (0.10, 0.07, and 0.07, respectively). The 6p21 region variants rs3025028, rs987870, and rs3025039 are associated with the incidence, whereas rs3025020 and rs1799964 are associated with the risk of more severe asthma in the Pakistani population."
+   }
+  },
+  "PMID:36493776": {
+   "record_id": "PMID:36493776",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36493776/",
+   "retrieved_at": "2026-11-17T02:00:18.299854+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "36493776",
+    "title": "A population-based study of precision health assessments using multi-omics network-derived biological functional modules.",
+    "journal": "Cell Rep Med",
+    "pubdate": "2022 Dec 20",
+    "sortpubdate": "2022-12-20",
+    "abstract": "Recent technological advances in multi-omics and bioinformatics provide an opportunity to develop precision health assessments, which require big data and relevant bioinformatic methods. Here we collect multi-omics data from 4,277 individuals. We calculate the correlations between pairwise features from cross-sectional data and then generate 11 biological functional modules (BFMs) in males and 12 BFMs in females using a community detection algorithm. Using the features in the BFM associated with cardiometabolic health, carotid plaques can be predicted accurately in an independent dataset. We developed a model by comparing individual data with the health baseline in BFMs to assess health status (BFM-ash). Then we apply the model to chronic patients and modify the BFM-ash model to assess the effects of consuming grape seed extract as a dietary supplement. Finally, anomalous BFMs are identified for each subject. Our BFMs and BFM-ash model have huge prospects for application in precision health assessment."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 30,
+  "n_claims_fully_verified": 30,
+  "n_uncited_claims": 0,
+  "n_citations": 64,
+  "n_citations_valid": 64,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 45,
+  "n_shown_values_in_text": 45,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 30,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

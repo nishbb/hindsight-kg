@@ -1,0 +1,3115 @@
+{
+ "rsid_query": "rs3827760",
+ "rsid_current": "rs3827760",
+ "as_of": "latest",
+ "generated_at": "2026-11-17T02:13:54.491727+00:00",
+ "genes": {
+  "vep": [
+   "EDAR"
+  ],
+  "dbsnp": [
+   "RANBP2",
+   "EDAR"
+  ],
+  "clinvar": [
+   "EDAR"
+  ],
+  "gwas": [
+   "EDAR"
+  ]
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000002.12:g.108897145A>C",
+   "spdi_deleted": "A",
+   "spdi_inserted": "C",
+   "chrom": "2",
+   "pos": 108897145,
+   "ref": "A",
+   "alt": "C",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "2-108897145-A-C",
+   "vep": {
+    "gene_symbol": "EDAR",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000258443.7:c.1109T>G",
+    "hgvsp": "ENSP00000258443.2:p.Val370Gly",
+    "impact": "MODERATE",
+    "mane_select": "NM_022336.4"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    },
+    "gnomad_v4": null
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000002.12:g.108897145A>G",
+   "spdi_deleted": "A",
+   "spdi_inserted": "G",
+   "chrom": "2",
+   "pos": 108897145,
+   "ref": "A",
+   "alt": "G",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "2-108897145-A-G",
+   "vep": {
+    "gene_symbol": "EDAR",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000258443.7:c.1109T>C",
+    "hgvsp": "ENSP00000258443.2:p.Val370Ala",
+    "impact": "MODERATE",
+    "mane_select": "NM_022336.4"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "exomes",
+     "overall": 0.151906,
+     "populations": {
+      "afr": 0.0113452,
+      "amr": 0.511039,
+      "asj": 0.0188566,
+      "eas": 0.919121,
+      "fin": 0.0541952,
+      "nfe": 0.00801219,
+      "sas": 0.00903141,
+      "oth": 0.0951597
+     },
+     "an": 248720,
+     "differentiated": true
+    },
+    "gnomad_v4": {
+     "overall": 0.049501435093615695,
+     "ac": 79887,
+     "an": 1613832,
+     "populations": {
+      "afr": 0.011011865084655379,
+      "amr": 0.4293570642935706,
+      "asj": 0.01722740170247264,
+      "eas": 0.8450936663693132,
+      "fin": 0.05553466215369186,
+      "nfe": 0.005317760557555542,
+      "sas": 0.009772702316899088,
+      "mid": 0.008413064995051138,
+      "ami": 0.0,
+      "remaining": 0.06612165232137715
+     },
+     "differentiated": true
+    }
+   }
+  }
+ ],
+ "clinvar": [
+  {
+   "variation_id": "5858",
+   "allele_index": 2,
+   "name": "NM_022336.4(EDAR):c.1109T>C (p.Val370Ala)",
+   "classification": "Benign",
+   "review_status": "criteria provided, multiple submitters, no conflicts",
+   "conditions": [
+    "Hair morphology 1, hair thickness",
+    "Hypohidrotic ectodermal dysplasia",
+    "Non-syndromic oligodontia",
+    "Autosomal recessive hypohidrotic ectodermal dysplasia syndrome",
+    "Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant",
+    "Ectodermal dysplasia 10B, hypohidrotic/hair/tooth type, autosomal recessive"
+   ],
+   "origin": "germline;inherited",
+   "n_submitters": "10",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "Benign, association",
+     "review_status": "criteria provided, multiple submitters, no conflicts",
+     "n_submitters": "4",
+     "last_evaluated": "Aug 04, 2016",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "Benign",
+     "review_status": "criteria provided, multiple submitters, no conflicts",
+     "n_submitters": "4",
+     "last_evaluated": "Aug 04, 2016",
+     "release_date": "2019-01-03"
+    },
+    {
+     "snapshot": "2020-01",
+     "clnsig": "Benign",
+     "review_status": "criteria provided, multiple submitters, no conflicts",
+     "n_submitters": "4",
+     "last_evaluated": "Aug 04, 2016",
+     "release_date": "2020-01-02"
+    },
+    {
+     "snapshot": "2026-11",
+     "clnsig": "Benign",
+     "review_status": "criteria provided, multiple submitters, no conflicts",
+     "n_submitters": "10",
+     "last_evaluated": "Jan 26, 2026",
+     "release_date": "2026-11-16"
+    }
+   ],
+   "submission_classes": {
+    "Benign": 9,
+    "association": 1,
+    "Pathogenic": 1
+   }
+  }
+ ],
+ "clinvar_release": "2026-11",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": [
+   "cosmic_colocated"
+  ]
+ },
+ "gwas": {
+  "n_associations_total": 22,
+  "n_associations_in_scope": 22,
+  "n_genome_wide_significant": 19,
+  "n_studies": 21,
+  "mapped_genes": [
+   "EDAR"
+  ],
+  "top_traits": [
+   {
+    "trait": "strand of hair shape",
+    "p_value": "3e-119",
+    "accession": "GCST003474",
+    "pmid": "26926045"
+   },
+   {
+    "trait": "balding measurement",
+    "p_value": "4e-16",
+    "accession": "GCST007020",
+    "pmid": "30573740"
+   },
+   {
+    "trait": "hair morphology",
+    "p_value": "5e-16",
+    "accession": "GCST006468",
+    "pmid": "27487801"
+   },
+   {
+    "trait": "synophrys measurement",
+    "p_value": "2e-15",
+    "accession": "GCST003996",
+    "pmid": "27182965"
+   },
+   {
+    "trait": "androgenetic alopecia",
+    "p_value": "1e-14",
+    "accession": "GCST90043616",
+    "pmid": "34737426"
+   },
+   {
+    "trait": "facial morphology",
+    "p_value": "2e-13",
+    "accession": "GCST90128425",
+    "pmid": "35393595"
+   }
+  ],
+  "n_distinct_traits_significant": 14,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 184,
+  "n_in_scope": 184,
+  "pmids_in_scope": [
+   "42790059",
+   "42710936",
+   "42378135",
+   "41274390",
+   "41662354",
+   "41490113",
+   "42687664",
+   "40465848",
+   "40475634",
+   "40365427",
+   "39841178",
+   "39672157",
+   "39434517",
+   "39433440",
+   "39685785",
+   "39289776",
+   "39202681",
+   "39873006",
+   "38883821",
+   "38448908",
+   "38273256",
+   "38169761",
+   "38283315",
+   "38023809",
+   "37603728",
+   "36401782",
+   "36804570",
+   "37459304",
+   "37430358",
+   "37513507",
+   "37465192",
+   "37359019",
+   "36982827",
+   "36869755",
+   "36832485",
+   "36629115",
+   "36493776",
+   "36582804",
+   "36161951",
+   "36143186",
+   "36035146",
+   "36012178",
+   "35874492",
+   "35416313",
+   "35561686",
+   "35618720",
+   "35508651",
+   "34718708",
+   "35176104",
+   "34940850"
+  ],
+  "top": [
+   "42378135",
+   "42687664",
+   "39434517"
+  ]
+ },
+ "conflicts": [
+  {
+   "type": "conflicting_submitters",
+   "variation_id": "5858",
+   "classes": {
+    "BLB": 9,
+    "OTHER": 1,
+    "PLP": 1
+   },
+   "aggregate_conflict": false
+  },
+  {
+   "type": "classification_changed_over_time",
+   "variation_id": "5858",
+   "history": [
+    [
+     "2018-01",
+     "Benign, association"
+    ],
+    [
+     "2019-01",
+     "Benign"
+    ],
+    [
+     "2020-01",
+     "Benign"
+    ],
+    [
+     "2026-11",
+     "Benign"
+    ]
+   ]
+  }
+ ],
+ "bottom_line": {
+  "category": "trait-associated common variant without an established monogenic disease role",
+  "confidence": "high",
+  "rationale": "19 genome-wide significant associations across 21 studies",
+  "text": "Bottom line: rs3827760 in EDAR is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with strand of hair shape. Sources disagree on some points (see conflicts). Confidence: high (19 genome-wide significant associations across 21 studies)."
+ },
+ "notes": [],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs3827760 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs3827760",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs3827760",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs3827760: rs52811957, rs60688169.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs3827760",
+     "path": "dbsnp1_merges.0",
+     "value": "52811957",
+     "label": "dbSNP build 157 rs3827760",
+     "mode": "eq",
+     "shown": "rs52811957",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs3827760",
+     "path": "dbsnp1_merges.1",
+     "value": "60688169",
+     "label": "dbSNP build 157 rs3827760",
+     "mode": "eq",
+     "shown": "rs60688169",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs3827760 as variant type 'snv' on NC_000002.12 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs3827760",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs3827760",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs3827760",
+     "path": "seq_id",
+     "value": "NC_000002.12",
+     "label": "dbSNP build 157 rs3827760",
+     "mode": "eq",
+     "shown": "NC_000002.12",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000002.12:g.108897145A>C, a single-nucleotide variant (SNV) (A>C in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs3827760",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000002.12:g.108897145A>C",
+     "label": "dbSNP build 157 rs3827760",
+     "mode": "eq",
+     "shown": "NC_000002.12:g.108897145A>C",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000002.12:g.108897145A>G, a single-nucleotide variant (SNV) (A>G in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs3827760",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000002.12:g.108897145A>G",
+     "label": "dbSNP build 157 rs3827760",
+     "mode": "eq",
+     "shown": "NC_000002.12:g.108897145A>G",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (A>C), Ensembl VEP predicts missense_variant in EDAR (ENST00000258443.7:c.1109T>G; ENSP00000258443.2:p.Val370Gly), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs3827760",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs3827760",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs3827760",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "EDAR",
+     "label": "Ensembl VEP rs3827760",
+     "mode": "eq",
+     "shown": "EDAR",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs3827760",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000258443.7:c.1109T>G",
+     "label": "Ensembl VEP rs3827760",
+     "mode": "eq",
+     "shown": "ENST00000258443.7:c.1109T>G",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs3827760",
+     "path": "transcript_consequences.0.hgvsp",
+     "value": "ENSP00000258443.2:p.Val370Gly",
+     "label": "Ensembl VEP rs3827760",
+     "mode": "eq",
+     "shown": "ENSP00000258443.2:p.Val370Gly",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs3827760",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs3827760",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 2 (A>G), Ensembl VEP predicts missense_variant in EDAR (ENST00000258443.7:c.1109T>C; ENSP00000258443.2:p.Val370Ala), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs3827760",
+     "path": "transcript_consequences.1.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs3827760",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs3827760",
+     "path": "transcript_consequences.1.gene_symbol",
+     "value": "EDAR",
+     "label": "Ensembl VEP rs3827760",
+     "mode": "eq",
+     "shown": "EDAR",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs3827760",
+     "path": "transcript_consequences.1.hgvsc",
+     "value": "ENST00000258443.7:c.1109T>C",
+     "label": "Ensembl VEP rs3827760",
+     "mode": "eq",
+     "shown": "ENST00000258443.7:c.1109T>C",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs3827760",
+     "path": "transcript_consequences.1.hgvsp",
+     "value": "ENSP00000258443.2:p.Val370Ala",
+     "label": "Ensembl VEP rs3827760",
+     "mode": "eq",
+     "shown": "ENSP00000258443.2:p.Val370Ala",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs3827760",
+     "path": "transcript_consequences.1.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs3827760",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string A/C/G.",
+   "citations": [
+    {
+     "record_id": "VEP:rs3827760",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs3827760",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs3827760",
+     "path": "allele_string",
+     "value": "A/C/G",
+     "label": "Ensembl VEP rs3827760",
+     "mode": "eq",
+     "shown": "A/C/G",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 1 (A>C) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs3827760",
+     "path": "hits.1._id",
+     "value": "chr2:g.109513601A>C",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "gnomAD v4.1 has no record for 2-108897145-A-C (alternate allele 1).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:2-108897145-A-C",
+     "path": "variant",
+     "value": null,
+     "label": "gnomAD v4.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 exomes, alternate allele 2 (A>G) has an overall allele frequency of 0.152.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs3827760",
+     "path": "hits.0.gnomad_exome.af.af",
+     "value": 0.151906,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.152",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0.0113, Admixed American 0.511, Ashkenazi Jewish 0.0189, East Asian 0.919, Finnish 0.0542, Non-Finnish European 0.00801, South Asian 0.00903, Other 0.0952.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs3827760",
+     "path": "hits.0.gnomad_exome.af.af_afr",
+     "value": 0.0113452,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.0113",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs3827760",
+     "path": "hits.0.gnomad_exome.af.af_amr",
+     "value": 0.511039,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.511",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs3827760",
+     "path": "hits.0.gnomad_exome.af.af_asj",
+     "value": 0.0188566,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.0189",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs3827760",
+     "path": "hits.0.gnomad_exome.af.af_eas",
+     "value": 0.919121,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.919",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs3827760",
+     "path": "hits.0.gnomad_exome.af.af_fin",
+     "value": 0.0541952,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.0542",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs3827760",
+     "path": "hits.0.gnomad_exome.af.af_nfe",
+     "value": 0.00801219,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.00801",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs3827760",
+     "path": "hits.0.gnomad_exome.af.af_sas",
+     "value": 0.00903141,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.00903",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs3827760",
+     "path": "hits.0.gnomad_exome.af.af_oth",
+     "value": 0.0951597,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.0952",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v2.1.1 exomes): allele 2 frequency ranges from 0.00801 in Non-Finnish European to 0.919 in East Asian, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs3827760",
+     "path": "hits.0.gnomad_exome.af.af_nfe",
+     "value": 0.00801219,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.00801",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs3827760",
+     "path": "hits.0.gnomad_exome.af.af_eas",
+     "value": 0.919121,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.919",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (A>G) has an overall allele frequency of 0.0495 (79,887 of 1,613,832 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:2-108897145-A-G",
+     "path": "",
+     "value": 0.049501435093615695,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0495",
+     "args": [
+      [
+       "variant.exome.ac",
+       "variant.genome.ac"
+      ],
+      [
+       "variant.exome.an",
+       "variant.genome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0.011, Admixed American 0.429, Ashkenazi Jewish 0.0172, East Asian 0.845, Finnish 0.0555, Non-Finnish European 0.00532, South Asian 0.00977, Middle Eastern 0.00841, Amish 0, Remaining 0.0661.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:2-108897145-A-G",
+     "path": "",
+     "value": 0.011011865084655379,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.011",
+     "args": [
+      [
+       "variant.exome.populations.8.ac",
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.exome.populations.8.an",
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-108897145-A-G",
+     "path": "",
+     "value": 0.4293570642935706,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.429",
+     "args": [
+      [
+       "variant.exome.populations.1.ac",
+       "variant.genome.populations.1.ac"
+      ],
+      [
+       "variant.exome.populations.1.an",
+       "variant.genome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-108897145-A-G",
+     "path": "",
+     "value": 0.01722740170247264,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0172",
+     "args": [
+      [
+       "variant.exome.populations.6.ac",
+       "variant.genome.populations.7.ac"
+      ],
+      [
+       "variant.exome.populations.6.an",
+       "variant.genome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-108897145-A-G",
+     "path": "",
+     "value": 0.8450936663693132,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.845",
+     "args": [
+      [
+       "variant.exome.populations.7.ac",
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.exome.populations.7.an",
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-108897145-A-G",
+     "path": "",
+     "value": 0.05553466215369186,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0555",
+     "args": [
+      [
+       "variant.exome.populations.2.ac",
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.exome.populations.2.an",
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-108897145-A-G",
+     "path": "",
+     "value": 0.005317760557555542,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.00532",
+     "args": [
+      [
+       "variant.exome.populations.4.ac",
+       "variant.genome.populations.9.ac"
+      ],
+      [
+       "variant.exome.populations.4.an",
+       "variant.genome.populations.9.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-108897145-A-G",
+     "path": "",
+     "value": 0.009772702316899088,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.00977",
+     "args": [
+      [
+       "variant.exome.populations.5.ac",
+       "variant.genome.populations.6.ac"
+      ],
+      [
+       "variant.exome.populations.5.an",
+       "variant.genome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-108897145-A-G",
+     "path": "",
+     "value": 0.008413064995051138,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.00841",
+     "args": [
+      [
+       "variant.exome.populations.3.ac",
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.exome.populations.3.an",
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-108897145-A-G",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-108897145-A-G",
+     "path": "",
+     "value": 0.06612165232137715,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0661",
+     "args": [
+      [
+       "variant.exome.populations.0.ac",
+       "variant.genome.populations.0.ac"
+      ],
+      [
+       "variant.exome.populations.0.an",
+       "variant.genome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v4.1): allele 2 frequency ranges from 0 in Amish to 0.845 in East Asian, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:2-108897145-A-G",
+     "path": "",
+     "value": 0.8450936663693132,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.845",
+     "args": [
+      [
+       "variant.exome.populations.7.ac",
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.exome.populations.7.an",
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-108897145-A-G",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_022336.4(EDAR):c.1109T>C (p.Val370Ala) (alternate allele 2) with germline classification 'Benign' for: Hair morphology 1, hair thickness; Hypohidrotic ectodermal dysplasia; Non-syndromic oligodontia; Autosomal recessive hypohidrotic ectodermal dysplasia syndrome; and 2 more; review status 'criteria provided, multiple submitters, no conflicts', 10 submitter(s), allele origin 'germline;inherited'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Benign",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "review_status",
+     "value": "criteria provided, multiple submitters, no conflicts",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "eq",
+     "shown": "criteria provided, multiple submitters, no conflicts",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "name",
+     "value": "NM_022336.4(EDAR):c.1109T>C (p.Val370Ala)",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "eq",
+     "shown": "NM_022336.4(EDAR):c.1109T>C (p.Val370Ala)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "n_submitters",
+     "value": "10",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "eq",
+     "shown": "10",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "phenotype_list",
+     "value": "Hair morphology 1, hair thickness",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Hair morphology 1, hair thickness",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "phenotype_list",
+     "value": "Hypohidrotic ectodermal dysplasia",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Hypohidrotic ectodermal dysplasia",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "phenotype_list",
+     "value": "Non-syndromic oligodontia",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Non-syndromic oligodontia",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "phenotype_list",
+     "value": "Autosomal recessive hypohidrotic ectodermal dysplasia syndrome",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Autosomal recessive hypohidrotic ectodermal dysplasia syndrome",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "origin",
+     "value": "germline;inherited",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "eq",
+     "shown": "germline;inherited",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: Benign, association; 2019-01: Benign; 2020-01: Benign; 2026-11: Benign. The classification changed over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "history.0.clnsig",
+     "value": "Benign, association",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Benign, association",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "history.1.clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Benign",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "history.2.clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Benign",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "history.3.clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Benign",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 9 'Benign', 1 'association', 1 'Pathogenic'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "",
+     "value": 9,
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "9",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Benign"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "",
+     "value": 1,
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "1",
+     "args": [
+      "submissions",
+      "clnsig",
+      "association"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "",
+     "value": 1,
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "1",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Pathogenic"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Somatic evidence",
+   "text": "Ensembl VEP reports 1 co-located COSMIC somatic mutation record(s) at this position (COSV51500022).",
+   "citations": [
+    {
+     "record_id": "VEP:rs3827760",
+     "path": "cosmic_ids.0",
+     "value": "COSV51500022",
+     "label": "Ensembl VEP rs3827760",
+     "mode": "eq",
+     "shown": "COSV51500022",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 22 association record(s) for rs3827760.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations.21.association_id",
+     "value": 14973835,
+     "label": "GWAS Catalog rs3827760",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with strand of hair shape (p = 3e-119, study GCST003474).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations.16.accession_id",
+     "value": "GCST003474",
+     "label": "GWAS Catalog GCST003474",
+     "mode": "eq",
+     "shown": "GCST003474",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations.16.pvalue_exponent",
+     "value": -119,
+     "label": "GWAS Catalog GCST003474",
+     "mode": "eq",
+     "shown": "3e-119",
+     "args": null
+    },
+    {
+     "record_id": "PMID:26926045",
+     "path": "pmid",
+     "value": "26926045",
+     "label": "PMID:26926045",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with balding measurement (p = 4e-16, study GCST007020, effect allele rs3827760-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations.5.accession_id",
+     "value": "GCST007020",
+     "label": "GWAS Catalog GCST007020",
+     "mode": "eq",
+     "shown": "GCST007020",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations.5.pvalue_exponent",
+     "value": -16,
+     "label": "GWAS Catalog GCST007020",
+     "mode": "eq",
+     "shown": "4e-16",
+     "args": null
+    },
+    {
+     "record_id": "PMID:30573740",
+     "path": "pmid",
+     "value": "30573740",
+     "label": "PMID:30573740",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with hair morphology (p = 5e-16, study GCST006468, effect allele rs3827760-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations.8.accession_id",
+     "value": "GCST006468",
+     "label": "GWAS Catalog GCST006468",
+     "mode": "eq",
+     "shown": "GCST006468",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations.8.pvalue_exponent",
+     "value": -16,
+     "label": "GWAS Catalog GCST006468",
+     "mode": "eq",
+     "shown": "5e-16",
+     "args": null
+    },
+    {
+     "record_id": "PMID:27487801",
+     "path": "pmid",
+     "value": "27487801",
+     "label": "PMID:27487801",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with synophrys measurement (p = 2e-15, study GCST003996).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations.12.accession_id",
+     "value": "GCST003996",
+     "label": "GWAS Catalog GCST003996",
+     "mode": "eq",
+     "shown": "GCST003996",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations.12.pvalue_exponent",
+     "value": -15,
+     "label": "GWAS Catalog GCST003996",
+     "mode": "eq",
+     "shown": "2e-15",
+     "args": null
+    },
+    {
+     "record_id": "PMID:27182965",
+     "path": "pmid",
+     "value": "27182965",
+     "label": "PMID:27182965",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with androgenetic alopecia (p = 1e-14, study GCST90043616, effect allele rs3827760-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations.3.accession_id",
+     "value": "GCST90043616",
+     "label": "GWAS Catalog GCST90043616",
+     "mode": "eq",
+     "shown": "GCST90043616",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations.3.pvalue_exponent",
+     "value": -14,
+     "label": "GWAS Catalog GCST90043616",
+     "mode": "eq",
+     "shown": "1e-14",
+     "args": null
+    },
+    {
+     "record_id": "PMID:34737426",
+     "path": "pmid",
+     "value": "34737426",
+     "label": "PMID:34737426",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with facial morphology (p = 2e-13, study GCST90128425).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations.1.accession_id",
+     "value": "GCST90128425",
+     "label": "GWAS Catalog GCST90128425",
+     "mode": "eq",
+     "shown": "GCST90128425",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations.1.pvalue_exponent",
+     "value": -13,
+     "label": "GWAS Catalog GCST90128425",
+     "mode": "eq",
+     "shown": "2e-13",
+     "args": null
+    },
+    {
+     "record_id": "PMID:35393595",
+     "path": "pmid",
+     "value": "35393595",
+     "label": "PMID:35393595",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 184 PubMed articles to rs3827760.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs3827760",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs3827760",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Association between genetic ancestry and EDAR rs3827760 genotypes in Latin American populations\" (Biomedica, 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:42378135",
+     "path": "title",
+     "value": "Association between genetic ancestry and EDAR rs3827760 genotypes in Latin American populations.",
+     "label": "PMID:42378135",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:42378135",
+     "path": "journal",
+     "value": "Biomedica",
+     "label": "PMID:42378135",
+     "mode": "eq",
+     "shown": "Biomedica",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Contrasting signals of selection at the EDAR gene in global and Latin American populations\" (J Genet, 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:42687664",
+     "path": "title",
+     "value": "Contrasting signals of selection at the EDAR gene in global and Latin American populations.",
+     "label": "PMID:42687664",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:42687664",
+     "path": "journal",
+     "value": "J Genet",
+     "label": "PMID:42687664",
+     "mode": "eq",
+     "shown": "J Genet",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Questioning the evolutionary adaptation hypothesis of EDARV370A in breast milk composition\" (Acta Paediatr, 2025).",
+   "citations": [
+    {
+     "record_id": "PMID:39434517",
+     "path": "title",
+     "value": "Questioning the evolutionary adaptation hypothesis of EDARV370A in breast milk composition.",
+     "label": "PMID:39434517",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:39434517",
+     "path": "journal",
+     "value": "Acta Paediatr",
+     "label": "PMID:39434517",
+     "mode": "eq",
+     "shown": "Acta Paediatr",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Conflicts and caveats",
+   "text": "Submitter conflict: ClinVar submissions for NM_022336.4(EDAR):c.1109T>C (p.Val370Ala) disagree (1 pathogenic or likely pathogenic, 9 benign or likely benign); the aggregate classification is 'Benign'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000005858",
+     "mode": "eq",
+     "shown": "Benign",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "submissions",
+     "value": null,
+     "label": "ClinVar VCV000005858",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "No allele of rs3827760 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "rs3827760 is associated with 14 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs3827760",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs3827760 in EDAR is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with strand of hair shape. Sources disagree on some points (see conflicts). Confidence: high (19 genome-wide significant associations across 21 studies).",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000005858@2026-11",
+     "path": "clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000005858 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs3827760",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs3827760",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs3827760",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs3827760",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs3827760": {
+   "record_id": "dbSNP:rs3827760",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/3827760",
+   "retrieved_at": "2026-11-17T02:03:12.051571+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "3827760",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "52811957",
+     "60688169"
+    ],
+    "merged_into": [],
+    "citations": [
+     16255080,
+     18065779,
+     18561327,
+     18704500,
+     18817904,
+     19737746,
+     19804850,
+     20807397,
+     21589938,
+     21976407,
+     22749789,
+     25741868,
+     25887915,
+     26595274,
+     26926045,
+     27135931,
+     27193062,
+     27487801,
+     29895819,
+     31025105,
+     32499598,
+     33664401,
+     34691999,
+     35176104
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000002.12",
+    "alleles": [
+     {
+      "hgvs": "NC_000002.12:g.108897145=",
+      "position0": 108897144,
+      "deleted": "A",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000002.12:g.108897145A>C",
+      "position0": 108897144,
+      "deleted": "A",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000002.12:g.108897145A>G",
+      "position0": 108897144,
+      "deleted": "A",
+      "inserted": "G"
+     }
+    ],
+    "genes": [
+     "RANBP2",
+     "EDAR"
+    ]
+   }
+  },
+  "VEP:rs3827760": {
+   "record_id": "VEP:rs3827760",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs3827760",
+   "retrieved_at": "2026-11-17T02:03:15.280540+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs3827760",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "2",
+    "start": 108897145,
+    "end": 108897145,
+    "allele_string": "A/C/G",
+    "variant_class": "SNV",
+    "most_severe_consequence": "missense_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "C",
+      "gene_symbol": "EDAR",
+      "gene_id": "ENSG00000135960",
+      "transcript_id": "ENST00000258443",
+      "mane_select": "NM_022336.4",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000258443.7:c.1109T>G",
+      "hgvsp": "ENSP00000258443.2:p.Val370Gly",
+      "impact": "MODERATE",
+      "amino_acids": "V/G",
+      "protein_start": 370,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "G",
+      "gene_symbol": "EDAR",
+      "gene_id": "ENSG00000135960",
+      "transcript_id": "ENST00000258443",
+      "mane_select": "NM_022336.4",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000258443.7:c.1109T>C",
+      "hgvsp": "ENSP00000258443.2:p.Val370Ala",
+      "impact": "MODERATE",
+      "amino_acids": "V/A",
+      "protein_start": 370,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [
+     "COSV51500022"
+    ],
+    "colocated_somatic": true
+   }
+  },
+  "gnomAD-v2.1.1:rs3827760": {
+   "record_id": "gnomAD-v2.1.1:rs3827760",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:03:15.711341+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr2:g.109513601A>G",
+      "_score": 17.140972,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 19.61
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "G",
+       "ref": "A",
+       "vartype": "snv"
+      },
+      "gnomad_exome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.151906,
+        "af_afr": 0.0113452,
+        "af_afr_female": 0.012462,
+        "af_afr_male": 0.0095593,
+        "af_amr": 0.511039,
+        "af_amr_female": 0.5225,
+        "af_amr_male": 0.494822,
+        "af_asj": 0.0188566,
+        "af_asj_female": 0.0187629,
+        "af_asj_male": 0.0189453,
+        "af_eas": 0.919121,
+        "af_eas_female": 0.919181,
+        "af_eas_jpn": 0.787671,
+        "af_eas_kor": 0.89759,
+        "af_eas_male": 0.919059,
+        "af_eas_oea": 0.926176,
+        "af_female": 0.181176,
+        "af_fin": 0.0541952,
+        "af_fin_female": 0.056209,
+        "af_fin_male": 0.0523421,
+        "af_male": 0.12714,
+        "af_nfe": 0.00801219,
+        "af_nfe_bgr": 0.0112867,
+        "af_nfe_est": 0.0172414,
+        "af_nfe_female": 0.00844829,
+        "af_nfe_male": 0.00767067,
+        "af_nfe_nwe": 0.00529139,
+        "af_nfe_onf": 0.00807305,
+        "af_nfe_seu": 0.00378588,
+        "af_nfe_swe": 0.0136409,
+        "af_oth": 0.0951597,
+        "af_oth_female": 0.0968078,
+        "af_oth_male": 0.0936717,
+        "af_sas": 0.00903141,
+        "af_sas_female": 0.00891669,
+        "af_sas_male": 0.00906882
+       },
+       "alt": "G",
+       "an": {
+        "an": 248720,
+        "an_afr": 16042,
+        "an_afr_female": 9870,
+        "an_afr_male": 6172,
+        "an_amr": 34514,
+        "an_amr_female": 20222,
+        "an_amr_male": 14292,
+        "an_asj": 9970,
+        "an_asj_female": 4850,
+        "an_asj_male": 5120,
+        "an_eas": 18336,
+        "an_eas_female": 9280,
+        "an_eas_jpn": 146,
+        "an_eas_kor": 3818,
+        "an_eas_male": 9056,
+        "an_eas_oea": 14372,
+        "an_female": 113994,
+        "an_fin": 21644,
+        "an_fin_female": 10372,
+        "an_fin_male": 11272,
+        "an_male": 134726,
+        "an_nfe": 111580,
+        "an_nfe_bgr": 2658,
+        "an_nfe_est": 232,
+        "an_nfe_female": 49004,
+        "an_nfe_male": 62576,
+        "an_nfe_nwe": 41010,
+        "an_nfe_onf": 30224,
+        "an_nfe_seu": 11358,
+        "an_nfe_swe": 26098,
+        "an_oth": 6074,
+        "an_oth_female": 2882,
+        "an_oth_male": 3192,
+        "an_sas": 30560,
+        "an_sas_female": 7514,
+        "an_sas_male": 23046
+       },
+       "ref": "A"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.075886,
+        "af_afr": 0.0130914,
+        "af_afr_female": 0.0136091,
+        "af_afr_male": 0.0127135,
+        "af_amr": 0.425532,
+        "af_amr_female": 0.424757,
+        "af_amr_male": 0.426267,
+        "af_asj": 0.0103448,
+        "af_asj_female": 0.0125,
+        "af_asj_male": 0.00952381,
+        "af_eas": 0.940798,
+        "af_eas_female": 0.936803,
+        "af_eas_male": 0.942913,
+        "af_female": 0.0689333,
+        "af_fin": 0.0544041,
+        "af_fin_female": 0.0590466,
+        "af_fin_male": 0.04914,
+        "af_male": 0.0814246,
+        "af_nfe": 0.0114152,
+        "af_nfe_est": 0.0251092,
+        "af_nfe_female": 0.0123529,
+        "af_nfe_male": 0.0106753,
+        "af_nfe_nwe": 0.00488713,
+        "af_nfe_onf": 0.00888681,
+        "af_nfe_seu": 0.0,
+        "af_oth": 0.0709024,
+        "af_oth_female": 0.0640569,
+        "af_oth_male": 0.0782443
+       },
+       "alt": "G",
+       "an": {
+        "an": 31376,
+        "an_afr": 8708,
+        "an_afr_female": 3674,
+        "an_afr_male": 5034,
+        "an_amr": 846,
+        "an_amr_female": 412,
+        "an_amr_male": 434,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1554,
+        "an_eas_female": 538,
+        "an_eas_male": 1016,
+        "an_female": 13912,
+        "an_fin": 3474,
+        "an_fin_female": 1846,
+        "an_fin_male": 1628,
+        "an_male": 17464,
+        "an_nfe": 15418,
+        "an_nfe_est": 4580,
+        "an_nfe_female": 6800,
+        "an_nfe_male": 8618,
+        "an_nfe_nwe": 8594,
+        "an_nfe_onf": 2138,
+        "an_nfe_seu": 106,
+        "an_oth": 1086,
+        "an_oth_female": 562,
+        "an_oth_male": 524
+       },
+       "ref": "A"
+      },
+      "vcf": {
+       "alt": "G",
+       "position": "109513601",
+       "ref": "A"
+      }
+     },
+     {
+      "_id": "chr2:g.109513601A>C",
+      "_score": 17.140825,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 23.5
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "C",
+       "ref": "A",
+       "vartype": "snv"
+      },
+      "vcf": {
+       "alt": "C",
+       "position": "109513601",
+       "ref": "A"
+      }
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:2-108897145-A-C": {
+   "record_id": "gnomAD-v4.1:2-108897145-A-C",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:03:15.796928+00:00",
+   "status": 200,
+   "data": {
+    "variant": null,
+    "errors": [
+     {
+      "message": "Variant not found"
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:2-108897145-A-G": {
+   "record_id": "gnomAD-v4.1:2-108897145-A-G",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:03:17.023418+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "2-108897145-A-G",
+     "rsids": [
+      "rs3827760"
+     ],
+     "exome": {
+      "ac": 69266,
+      "an": 1461676,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 3976,
+        "an": 60392
+       },
+       {
+        "id": "amr",
+        "ac": 21587,
+        "an": 44722
+       },
+       {
+        "id": "fin",
+        "ac": 2976,
+        "an": 53210
+       },
+       {
+        "id": "mid",
+        "ac": 50,
+        "an": 5768
+       },
+       {
+        "id": "nfe",
+        "ac": 5804,
+        "an": 1112010
+       },
+       {
+        "id": "sas",
+        "ac": 810,
+        "an": 86258
+       },
+       {
+        "id": "asj",
+        "ac": 448,
+        "an": 26136
+       },
+       {
+        "id": "eas",
+        "ac": 33343,
+        "an": 39700
+       },
+       {
+        "id": "afr",
+        "ac": 272,
+        "an": 33480
+       }
+      ]
+     },
+     "genome": {
+      "ac": 10621,
+      "an": 152156,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 157,
+        "an": 2114
+       },
+       {
+        "id": "amr",
+        "ac": 4177,
+        "an": 15284
+       },
+       {
+        "id": "fin",
+        "ac": 568,
+        "an": 10606
+       },
+       {
+        "id": "ami",
+        "ac": 0,
+        "an": 910
+       },
+       {
+        "id": "eas",
+        "ac": 4551,
+        "an": 5140
+       },
+       {
+        "id": "mid",
+        "ac": 1,
+        "an": 294
+       },
+       {
+        "id": "sas",
+        "ac": 80,
+        "an": 4812
+       },
+       {
+        "id": "asj",
+        "ac": 62,
+        "an": 3468
+       },
+       {
+        "id": "afr",
+        "ac": 554,
+        "an": 41530
+       },
+       {
+        "id": "nfe",
+        "ac": 471,
+        "an": 67998
+       }
+      ]
+     }
+    },
+    "errors": null
+   }
+  },
+  "ClinVar:VCV000005858@2026-11": {
+   "record_id": "ClinVar:VCV000005858@2026-11",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/5858/",
+   "retrieved_at": "2026-11-17T02:13:54.483266+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "20897",
+    "type": "single nucleotide variant",
+    "name": "NM_022336.4(EDAR):c.1109T>C (p.Val370Ala)",
+    "gene_symbol": "EDAR",
+    "clnsig": "Benign",
+    "last_evaluated": "Jan 26, 2026",
+    "rcv": "RCV000006216|RCV000174399|RCV001133945|RCV001261884|RCV001523395|RCV001659684|RCV001659685|RCV001723544|RCV005394125",
+    "phenotype_list": "Hair morphology 1, hair thickness|not specified|Hypohidrotic ectodermal dysplasia|Non-syndromic oligodontia|Autosomal recessive hypohidrotic ectodermal dysplasia syndrome;Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant|Ectodermal dysplasia 10B, hypohidrotic/hair/tooth type, autosomal recessive|Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant|not provided|Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant;Ectodermal dysplasia 10B, hypohidrotic/hair/tooth type, autosomal recessive",
+    "origin": "germline;inherited",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "2",
+    "start": "108897145",
+    "ref": "na",
+    "alt": "na",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "n_submitters": "10",
+    "variation_id": "5858",
+    "ref_vcf": "A",
+    "alt_vcf": "G",
+    "pos_vcf": "108897145",
+    "somatic_clinical_impact": "-",
+    "oncogenicity": "-",
+    "rsid": "rs3827760",
+    "submissions": [
+     {
+      "variation_id": "5858",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Jul 30, 2021",
+      "reported_phenotype": "C3888065:Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Genome-Nilou Lab",
+      "scv": "SCV001875910.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "5858",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Apr 24, 2023",
+      "reported_phenotype": "C3887494:Ectodermal dysplasia 10B, hypohidrotic/hair/tooth type, autosomal recessive;C3888065:Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "research",
+      "origin_counts": "germline:na",
+      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
+      "scv": "SCV006053923.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "5858",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Jan 16, 2018",
+      "reported_phenotype": "C5848103:Hypohidrotic ectodermal dysplasia",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Illumina Laboratory Services, Illumina",
+      "scv": "SCV001293661.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "5858",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Jan 26, 2026",
+      "reported_phenotype": "C0406702:Autosomal recessive hypohidrotic ectodermal dysplasia syndrome;C3888065:Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
+      "scv": "SCV001733091.6",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "5858",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Jul 30, 2021",
+      "reported_phenotype": "C3887494:Ectodermal dysplasia 10B, hypohidrotic/hair/tooth type, autosomal recessive",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Genome-Nilou Lab",
+      "scv": "SCV001875912.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "5858",
+      "clnsig": "Benign",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "not provided",
+      "origin_counts": "germline:na",
+      "submitter": "Breakthrough Genomics, Breakthrough Genomics",
+      "scv": "SCV005239435.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "5858",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Oct 14, 2014",
+      "reported_phenotype": "CN169374:not specified",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Eurofins Ntd Llc (ga)",
+      "scv": "SCV000225691.6",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "5858",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Mar 03, 2015",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "GeneDx",
+      "scv": "SCV001950535.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "5858",
+      "clnsig": "Benign",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "CN169374:not specified",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "PreventionGenetics, part of Exact Sciences",
+      "scv": "SCV000314028.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "5858",
+      "clnsig": "association",
+      "date_last_evaluated": "Aug 04, 2016",
+      "reported_phenotype": "C4016871:Hair morphology 1, hair thickness",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "OMIM",
+      "scv": "SCV000026398.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "5858",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Apr 27, 2020",
+      "reported_phenotype": "na:Non-syndromic oligodontia",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "inherited:na",
+      "submitter": "Department of Prosthodontics, Peking University School and Hospital of Stomatology",
+      "scv": "SCV001365407.1",
+      "snapshot": "2026-11"
+     }
+    ],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "Benign, association",
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "n_submitters": "4",
+      "last_evaluated": "Aug 04, 2016",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "Benign",
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "n_submitters": "4",
+      "last_evaluated": "Aug 04, 2016",
+      "release_date": "2019-01-03"
+     },
+     {
+      "snapshot": "2020-01",
+      "clnsig": "Benign",
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "n_submitters": "4",
+      "last_evaluated": "Aug 04, 2016",
+      "release_date": "2020-01-02"
+     },
+     {
+      "snapshot": "2026-11",
+      "clnsig": "Benign",
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "n_submitters": "10",
+      "last_evaluated": "Jan 26, 2026",
+      "release_date": "2026-11-16"
+     }
+    ]
+   }
+  },
+  "CIViC:EDAR:V370G": {
+   "record_id": "CIViC:EDAR:V370G",
+   "source": "CIViC",
+   "source_version": "CIViC GraphQL API",
+   "url": "https://civicdb.org/api/graphql",
+   "retrieved_at": "2026-11-17T02:03:17.525154+00:00",
+   "status": 200,
+   "data": {
+    "variants": []
+   }
+  },
+  "CIViC:EDAR:V370A": {
+   "record_id": "CIViC:EDAR:V370A",
+   "source": "CIViC",
+   "source_version": "CIViC GraphQL API",
+   "url": "https://civicdb.org/api/graphql",
+   "retrieved_at": "2026-11-17T02:03:17.621363+00:00",
+   "status": 200,
+   "data": {
+    "variants": []
+   }
+  },
+  "GWAS:rs3827760": {
+   "record_id": "GWAS:rs3827760",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:03:21.636833+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 221085636,
+      "accession_id": "GCST90860253",
+      "pubmed_id": "42097137",
+      "first_author": "Koprulu M",
+      "p_value": 2e-12,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.324613 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2052063",
+        "efo_trait": "amount of desmoglein-4 (human) in blood"
+       }
+      ],
+      "reported_trait": [
+       "Circulating DSG4 levels"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2026-05-28"
+     },
+     {
+      "association_id": 192895554,
+      "accession_id": "GCST90128425",
+      "pubmed_id": "35393595",
+      "first_author": "Zhang M",
+      "p_value": 2e-13,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004743",
+        "efo_trait": "facial morphology"
+       }
+      ],
+      "reported_trait": [
+       "Facial appearance"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 1,
+      "_pubdate": "2022-04-01"
+     },
+     {
+      "association_id": 93453741,
+      "accession_id": "GCST90026488",
+      "pubmed_id": "34265127",
+      "first_author": "Inoue Y",
+      "p_value": 1e-16,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -16,
+      "or_value": "2.917",
+      "beta": "-",
+      "risk_frequency": "0.207",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003493",
+        "efo_trait": "strand of hair shape"
+       }
+      ],
+      "reported_trait": [
+       "Curly vs straight hair"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 2,
+      "_pubdate": "2021-12-01"
+     },
+     {
+      "association_id": 93427159,
+      "accession_id": "GCST90043616",
+      "pubmed_id": "34737426",
+      "first_author": "Jiang L",
+      "p_value": 1e-14,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -14,
+      "or_value": null,
+      "beta": "0.41 unit increase",
+      "risk_frequency": "0.003677",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005339",
+        "efo_trait": "androgenetic alopecia"
+       }
+      ],
+      "reported_trait": [
+       "Hair/balding pattern: Pattern 1 (UKB data field 2395_1)"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 3,
+      "_pubdate": "2021-11-01"
+     },
+     {
+      "association_id": 62872664,
+      "accession_id": "GCST010736",
+      "pubmed_id": "32600054",
+      "first_author": "Qian H",
+      "p_value": 2e-07,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -7,
+      "or_value": null,
+      "beta": "0.097 unit increase",
+      "risk_frequency": "0.29",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007778",
+        "efo_trait": "urinary albumin to creatinine ratio"
+       }
+      ],
+      "reported_trait": [
+       "Urinary albumin-to-creatinine ratio"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 4,
+      "_pubdate": "2020-08-01"
+     },
+     {
+      "association_id": 36056584,
+      "accession_id": "GCST007020",
+      "pubmed_id": "30573740",
+      "first_author": "Yap CX",
+      "p_value": 4e-16,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -16,
+      "or_value": null,
+      "beta": "0.191261 unit decrease",
+      "risk_frequency": "0.00420305",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007825",
+        "efo_trait": "balding measurement"
+       }
+      ],
+      "reported_trait": [
+       "Male-pattern baldness"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 5,
+      "_pubdate": "2018-12-20"
+     },
+     {
+      "association_id": 36041893,
+      "accession_id": "GCST007038",
+      "pubmed_id": "30595370",
+      "first_author": "Kichaev G",
+      "p_value": 5e-14,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -14,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007825",
+        "efo_trait": "balding measurement"
+       }
+      ],
+      "reported_trait": [
+       "Balding type 1"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 6,
+      "_pubdate": "2019-01-03"
+     },
+     {
+      "association_id": 35113884,
+      "accession_id": "GCST006468",
+      "pubmed_id": "27487801",
+      "first_author": "Wu S",
+      "p_value": 2e-12,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0005038",
+        "efo_trait": "hair morphology"
+       }
+      ],
+      "reported_trait": [
+       "Straight vs curly hair"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 7,
+      "_pubdate": "2016-11-01"
+     },
+     {
+      "association_id": 35113705,
+      "accession_id": "GCST006468",
+      "pubmed_id": "27487801",
+      "first_author": "Wu S",
+      "p_value": 5e-16,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -16,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0005038",
+        "efo_trait": "hair morphology"
+       }
+      ],
+      "reported_trait": [
+       "Straight vs curly hair"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 8,
+      "_pubdate": "2016-11-01"
+     },
+     {
+      "association_id": 31658821,
+      "accession_id": "GCST006093",
+      "pubmed_id": "29895819",
+      "first_author": "Endo C",
+      "p_value": 2e-09,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -9,
+      "or_value": "1.4084507",
+      "beta": "-",
+      "risk_frequency": "0.8",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050112",
+        "efo_trait": "facial hair thickness"
+       }
+      ],
+      "reported_trait": [
+       "Thick vs thin eyebrows"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 9,
+      "_pubdate": "2018-06-12"
+     },
+     {
+      "association_id": 27184492,
+      "accession_id": "GCST005193",
+      "pubmed_id": "29198719",
+      "first_author": "Shaffer JR",
+      "p_value": 7.000000000000001e-10,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007667",
+        "efo_trait": "lobe attachment"
+       }
+      ],
+      "reported_trait": [
+       "Lobe attachment (rater scored)"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 10,
+      "_pubdate": "2017-12-07"
+     },
+     {
+      "association_id": 19567668,
+      "accession_id": "GCST003983",
+      "pubmed_id": "27182965",
+      "first_author": "Pickrell JK",
+      "p_value": 1e-08,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -8,
+      "or_value": "2.2371366",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005339",
+        "efo_trait": "androgenetic alopecia"
+       }
+      ],
+      "reported_trait": [
+       "Male-pattern baldness"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 11,
+      "_pubdate": "2016-07-01"
+     },
+     {
+      "association_id": 19567317,
+      "accession_id": "GCST003996",
+      "pubmed_id": "27182965",
+      "first_author": "Pickrell JK",
+      "p_value": 2e-15,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -15,
+      "or_value": null,
+      "beta": "0.165 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007906",
+        "efo_trait": "synophrys measurement"
+       }
+      ],
+      "reported_trait": [
+       "Monobrow"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 12,
+      "_pubdate": "2016-07-01"
+     },
+     {
+      "association_id": 17333920,
+      "accession_id": "GCST003636",
+      "pubmed_id": "27193062",
+      "first_author": "Adhikari K",
+      "p_value": 4e-10,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "0.0076 NR decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050101",
+        "efo_trait": "chin morphology trait"
+       },
+       {
+        "efo_id": "OBA_VT0003769",
+        "efo_trait": "lip morphology trait"
+       }
+      ],
+      "reported_trait": [
+       "lower facial morphology traits (quantitative measurement)"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 13,
+      "_pubdate": "2016-05-19"
+     },
+     {
+      "association_id": 16544277,
+      "accession_id": "GCST003477",
+      "pubmed_id": "26926045",
+      "first_author": "Adhikari K",
+      "p_value": 1e-07,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -7,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050112",
+        "efo_trait": "facial hair thickness"
+       }
+      ],
+      "reported_trait": [
+       "Monobrow thickness"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 14,
+      "_pubdate": "2016-03-01"
+     },
+     {
+      "association_id": 16544102,
+      "accession_id": "GCST003476",
+      "pubmed_id": "26926045",
+      "first_author": "Adhikari K",
+      "p_value": 1e-07,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -7,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050112",
+        "efo_trait": "facial hair thickness"
+       }
+      ],
+      "reported_trait": [
+       "Eyebrow thickness"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 15,
+      "_pubdate": "2016-03-01"
+     },
+     {
+      "association_id": 16543771,
+      "accession_id": "GCST003474",
+      "pubmed_id": "26926045",
+      "first_author": "Adhikari K",
+      "p_value": 3e-119,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -119,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003493",
+        "efo_trait": "strand of hair shape"
+       }
+      ],
+      "reported_trait": [
+       "Scalp hair shape"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 16,
+      "_pubdate": "2016-03-01"
+     },
+     {
+      "association_id": 15011978,
+      "accession_id": "GCST002994",
+      "pubmed_id": "26105758",
+      "first_author": "Adhikari K",
+      "p_value": 1e-10,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "0.108 unit decrease",
+      "risk_frequency": "0.40",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007665",
+        "efo_trait": "ear protrusion"
+       }
+      ],
+      "reported_trait": [
+       "Ear protrusion"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 17,
+      "_pubdate": "2015-06-24"
+     },
+     {
+      "association_id": 14974280,
+      "accession_id": "GCST003001",
+      "pubmed_id": "26105758",
+      "first_author": "Adhikari K",
+      "p_value": 1e-11,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "0.4",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007664",
+        "efo_trait": "outer ear morphology trait"
+       }
+      ],
+      "reported_trait": [
+       "Ear morphology"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 18,
+      "_pubdate": "2015-06-24"
+     },
+     {
+      "association_id": 14974057,
+      "accession_id": "GCST002997",
+      "pubmed_id": "26105758",
+      "first_author": "Adhikari K",
+      "p_value": 1e-12,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.103 unit decrease",
+      "risk_frequency": "0.4",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007670",
+        "efo_trait": "helix rolling"
+       }
+      ],
+      "reported_trait": [
+       "Helix rolling"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 19,
+      "_pubdate": "2015-06-24"
+     },
+     {
+      "association_id": 14973961,
+      "accession_id": "GCST002998",
+      "pubmed_id": "26105758",
+      "first_author": "Adhikari K",
+      "p_value": 2e-09,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.066 unit decrease",
+      "risk_frequency": "0.4",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007667",
+        "efo_trait": "lobe attachment"
+       }
+      ],
+      "reported_trait": [
+       "Lobe attachment"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 20,
+      "_pubdate": "2015-06-24"
+     },
+     {
+      "association_id": 14973835,
+      "accession_id": "GCST002999",
+      "pubmed_id": "26105758",
+      "first_author": "Adhikari K",
+      "p_value": 1e-12,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.117 unit decrease",
+      "risk_frequency": "0.4",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007666",
+        "efo_trait": "lobe size"
+       }
+      ],
+      "reported_trait": [
+       "Lobe size"
+      ],
+      "mapped_genes": [
+       "EDAR"
+      ],
+      "snp_effect_allele": [
+       "rs3827760-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 21,
+      "_pubdate": "2015-06-24"
+     }
+    ]
+   }
+  },
+  "PMID:26926045": {
+   "record_id": "PMID:26926045",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26926045/",
+   "retrieved_at": "2026-11-17T02:03:21.871743+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "26926045",
+    "title": "A genome-wide association scan in admixed Latin Americans identifies loci influencing facial and scalp hair features.",
+    "journal": "Nat Commun",
+    "pubdate": "2016 Mar 1",
+    "sortpubdate": "2016-03-01"
+   }
+  },
+  "PMID:30573740": {
+   "record_id": "PMID:30573740",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30573740/",
+   "retrieved_at": "2026-11-17T02:03:21.871743+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "30573740",
+    "title": "Dissection of genetic variation and evidence for pleiotropy in male pattern baldness.",
+    "journal": "Nat Commun",
+    "pubdate": "2018 Dec 20",
+    "sortpubdate": "2018-12-20"
+   }
+  },
+  "PMID:27487801": {
+   "record_id": "PMID:27487801",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27487801/",
+   "retrieved_at": "2026-11-17T02:03:21.871743+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "27487801",
+    "title": "Genome-wide scans reveal variants at EDAR predominantly affecting hair straightness in Han Chinese and Uyghur populations.",
+    "journal": "Hum Genet",
+    "pubdate": "2016 Nov",
+    "sortpubdate": "2016-11-01"
+   }
+  },
+  "PMID:27182965": {
+   "record_id": "PMID:27182965",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27182965/",
+   "retrieved_at": "2026-11-17T02:03:21.871743+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "27182965",
+    "title": "Detection and interpretation of shared genetic influences on 42 human traits.",
+    "journal": "Nat Genet",
+    "pubdate": "2016 Jul",
+    "sortpubdate": "2016-07-01"
+   }
+  },
+  "PMID:34737426": {
+   "record_id": "PMID:34737426",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34737426/",
+   "retrieved_at": "2026-11-17T02:03:21.871743+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "34737426",
+    "title": "A generalized linear mixed model association tool for biobank-scale data.",
+    "journal": "Nat Genet",
+    "pubdate": "2021 Nov",
+    "sortpubdate": "2021-11-01"
+   }
+  },
+  "PMID:35393595": {
+   "record_id": "PMID:35393595",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35393595/",
+   "retrieved_at": "2026-11-17T02:03:21.871743+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "35393595",
+    "title": "Genetic variants underlying differences in facial morphology in East Asian and European populations.",
+    "journal": "Nat Genet",
+    "pubdate": "2022 Apr",
+    "sortpubdate": "2022-04-01"
+   }
+  },
+  "LitVar2:rs3827760": {
+   "record_id": "LitVar2:rs3827760",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs3827760%23%23/publications",
+   "retrieved_at": "2026-11-17T02:03:21.926245+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     26970628,
+     31763980,
+     31924237,
+     32455695,
+     41274390,
+     24219164,
+     32076829,
+     30894629,
+     36982827,
+     21668907,
+     33825328,
+     25446961,
+     38283315,
+     26738743,
+     27487801,
+     29343290,
+     27456059,
+     28164156,
+     23848512,
+     32375366,
+     36035146,
+     36143186,
+     37430358,
+     26986070,
+     17943131,
+     22749789,
+     32801379,
+     32425573,
+     25567848,
+     37465192,
+     28749934,
+     25668207,
+     34616433,
+     32511092,
+     29564022,
+     36401782,
+     31494266,
+     36869755,
+     30118524,
+     36629115,
+     38023809,
+     32697988,
+     31518343,
+     29895819,
+     28569743,
+     36012178,
+     25383060,
+     29846678,
+     29974678,
+     39685785
+    ],
+    "n_pmids": 184
+   }
+  },
+  "PMID:42378135": {
+   "record_id": "PMID:42378135",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42378135/",
+   "retrieved_at": "2026-11-17T02:03:23.686387+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "42378135",
+    "title": "Association between genetic ancestry and EDAR rs3827760 genotypes in Latin American populations.",
+    "journal": "Biomedica",
+    "pubdate": "2026 Jun 1",
+    "sortpubdate": "2026-06-01",
+    "abstract": "Introduction. The EDAR (ectodysplasin A receptor) gene is associated with the development of ectodermal structures. The rs3827760 variant is highly frequent in East Asian and Native American populations, and this study analyzes its relationship with genetic ancestry proportions in a Latin American population sample. Objective. To analyze how genetic ancestry proportions influence the distribution of single nucleotide polymorphism (SNP) rs3827760 genotypes of the EDAR gene in Latin American populations. Materials and methods. Genetic ancestry proportions were estimated using a panel of 446 ancestry-informative SNPs, applying the STRUCTURE program and univariate and multivariate logistic regression models. Results. Native American ancestry proportions showed a significant positive association with the prevalence of rs3827760 GG genotypes, while European ancestry showed a negative association. Conclusion. Native American and European genetic ancestry proportions influence the distribution of SNP rs3827760 genotypes of the EDAR gene in Latin American populations."
+   }
+  },
+  "PMID:42687664": {
+   "record_id": "PMID:42687664",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42687664/",
+   "retrieved_at": "2026-11-17T02:03:23.686387+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "42687664",
+    "title": "Contrasting signals of selection at the EDAR gene in global and Latin American populations.",
+    "journal": "J Genet",
+    "pubdate": "2026",
+    "sortpubdate": "2026-01-01",
+    "abstract": "The EDAR gene is a classic target of positive selection in humans, mainly through the nonsynonymous variant rs3827760 (EDARV370A) associated with ectodermal traits. Using high-resolution data from the 1000 Genomes Project, we combined sliding-window F_ST, BayeScan, and extended haplotype homozygosity (EHH) analyses to examine global and Latin American patterns of differentiation. Globally, a strong signal of positive selection was confirmed at EDAR, dominated by the rs3827760 haplotype background and its extended linkage disequilibrium structure. In contrast, within Latin America, differentiation reflected admixture-driven haplotype persistence rather than contemporary selection. A genome-wide FST scan comparing individuals from the upper and lower quartiles of Native American ancestry showed that EDAR lies among the most highly differentiated regions in this contrast, consistent with ancestry-driven haplotype structure rather than post-admixture adaptive evolution. These results indicate that EDAR retains its evolutionary signature globally but not within recently admixed populations, where demographic history rather than selection shapes its genetic landscape."
+   }
+  },
+  "PMID:39434517": {
+   "record_id": "PMID:39434517",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39434517/",
+   "retrieved_at": "2026-11-17T02:03:23.686387+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "39434517",
+    "title": "Questioning the evolutionary adaptation hypothesis of EDARV370A in breast milk composition.",
+    "journal": "Acta Paediatr",
+    "pubdate": "2025 Jan",
+    "sortpubdate": "2025-01-01",
+    "abstract": ""
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 35,
+  "n_claims_fully_verified": 35,
+  "n_uncited_claims": 0,
+  "n_citations": 96,
+  "n_citations_valid": 96,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 75,
+  "n_shown_values_in_text": 75,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 35,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

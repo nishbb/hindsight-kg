@@ -1,0 +1,1525 @@
+{
+ "rsid_query": "rs17004038",
+ "rsid_current": "rs17004038",
+ "as_of": "latest",
+ "generated_at": "2026-11-17T02:13:54.953439+00:00",
+ "genes": {
+  "vep": [
+   "MIF"
+  ],
+  "dbsnp": [
+   "MIF",
+   "MIF-AS1"
+  ],
+  "clinvar": [],
+  "gwas": []
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000022.11:g.23894404C>A",
+   "spdi_deleted": "C",
+   "spdi_inserted": "A",
+   "chrom": "22",
+   "pos": 23894404,
+   "ref": "C",
+   "alt": "A",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "22-23894404-C-A",
+   "vep": {
+    "gene_symbol": "MIF",
+    "consequence_terms": [
+     "5_prime_UTR_variant"
+    ],
+    "hgvsc": "ENST00000215754.8:c.-71C>A",
+    "hgvsp": null,
+    "impact": "MODIFIER",
+    "mane_select": "NM_002415.2"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "genomes",
+     "overall": 0.00137074,
+     "populations": {
+      "afr": 0.0,
+      "amr": 0.0,
+      "asj": 0.0,
+      "eas": 0.0275641,
+      "fin": 0.0,
+      "nfe": 0.0,
+      "oth": 0.0
+     },
+     "an": 31370,
+     "differentiated": true
+    },
+    "gnomad_v4": {
+     "overall": 0.0007893265509718583,
+     "ac": 1008,
+     "an": 1277038,
+     "populations": {
+      "afr": 8.766803039158386e-05,
+      "amr": 3.4812880765883375e-05,
+      "asj": 0.0,
+      "eas": 0.021323254945875326,
+      "fin": 0.0,
+      "nfe": 7.96682160237821e-06,
+      "sas": 0.0002161746691326592,
+      "mid": 0.0,
+      "ami": 0.0,
+      "remaining": 0.0011923843778099221
+     },
+     "differentiated": true
+    }
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000022.11:g.23894404C>T",
+   "spdi_deleted": "C",
+   "spdi_inserted": "T",
+   "chrom": "22",
+   "pos": 23894404,
+   "ref": "C",
+   "alt": "T",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "22-23894404-C-T",
+   "vep": null,
+   "frequency": {
+    "gnomad_v2": null,
+    "gnomad_v4": {
+     "overall": 1.7782456539676217e-06,
+     "ac": 2,
+     "an": 1124704,
+     "populations": {
+      "afr": 0.0,
+      "amr": 0.0,
+      "asj": 0.0,
+      "eas": 0.0,
+      "fin": 0.0,
+      "nfe": 2.467241204901915e-06,
+      "sas": 0.0,
+      "mid": 0.0,
+      "remaining": 0.0
+     }
+    }
+   }
+  }
+ ],
+ "clinvar": [],
+ "clinvar_release": "2026-11",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": [
+   "cosmic_colocated"
+  ]
+ },
+ "gwas": {
+  "n_associations_total": 0,
+  "n_associations_in_scope": 0,
+  "n_genome_wide_significant": 0,
+  "n_studies": 0,
+  "mapped_genes": [],
+  "top_traits": [],
+  "n_distinct_traits_significant": 0,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 7,
+  "n_in_scope": 7,
+  "pmids_in_scope": [
+   "38267013",
+   "35324982",
+   "32272438",
+   "27625398",
+   "22451332",
+   "21533266",
+   "20061373"
+  ],
+  "top": [
+   "38267013",
+   "35324982",
+   "32272438"
+  ]
+ },
+ "conflicts": [],
+ "bottom_line": {
+  "category": "variant with little curated evidence",
+  "confidence": "low",
+  "rationale": "no pathogenic assertion and no genome-wide significant association were retrieved",
+  "text": "Bottom line: rs17004038 in MIF is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved)."
+ },
+ "notes": [],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs17004038 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs17004038",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs17004038",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs17004038 as variant type 'snv' on NC_000022.11 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs17004038",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs17004038",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs17004038",
+     "path": "seq_id",
+     "value": "NC_000022.11",
+     "label": "dbSNP build 157 rs17004038",
+     "mode": "eq",
+     "shown": "NC_000022.11",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000022.11:g.23894404C>A, a single-nucleotide variant (SNV) (C>A in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs17004038",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000022.11:g.23894404C>A",
+     "label": "dbSNP build 157 rs17004038",
+     "mode": "eq",
+     "shown": "NC_000022.11:g.23894404C>A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000022.11:g.23894404C>T, a single-nucleotide variant (SNV) (C>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs17004038",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000022.11:g.23894404C>T",
+     "label": "dbSNP build 157 rs17004038",
+     "mode": "eq",
+     "shown": "NC_000022.11:g.23894404C>T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (C>A), Ensembl VEP predicts 5_prime_UTR_variant in MIF (ENST00000215754.8:c.-71C>A), impact MODIFIER.",
+   "citations": [
+    {
+     "record_id": "VEP:rs17004038",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "5_prime_UTR_variant",
+     "label": "Ensembl VEP rs17004038",
+     "mode": "eq",
+     "shown": "5_prime_UTR_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17004038",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "MIF",
+     "label": "Ensembl VEP rs17004038",
+     "mode": "eq",
+     "shown": "MIF",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17004038",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000215754.8:c.-71C>A",
+     "label": "Ensembl VEP rs17004038",
+     "mode": "eq",
+     "shown": "ENST00000215754.8:c.-71C>A",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17004038",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODIFIER",
+     "label": "Ensembl VEP rs17004038",
+     "mode": "eq",
+     "shown": "MODIFIER",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string C/A.",
+   "citations": [
+    {
+     "record_id": "VEP:rs17004038",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs17004038",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17004038",
+     "path": "allele_string",
+     "value": "C/A",
+     "label": "Ensembl VEP rs17004038",
+     "mode": "eq",
+     "shown": "C/A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 genomes, alternate allele 1 (C>A) has an overall allele frequency of 0.00137.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af",
+     "value": 0.00137074,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.00137",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0.0276, Finnish 0, Non-Finnish European 0, Other 0.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_afr",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_amr",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_asj",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.0275641,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0276",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_fin",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_nfe",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_oth",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0 in African/African American to 0.0276 in East Asian, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_afr",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.0275641,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0276",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>A) has an overall allele frequency of 0.000789 (1,008 of 1,277,038 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 0.0007893265509718583,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.000789",
+     "args": [
+      [
+       "variant.exome.ac",
+       "variant.genome.ac"
+      ],
+      [
+       "variant.exome.an",
+       "variant.genome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 8.77e-05, Admixed American 3.48e-05, Ashkenazi Jewish 0, East Asian 0.0213, Finnish 0, Non-Finnish European 7.97e-06, South Asian 0.000216, Middle Eastern 0, Amish 0, Remaining 0.00119.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 8.766803039158386e-05,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "8.77e-05",
+     "args": [
+      [
+       "variant.exome.populations.8.ac",
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.exome.populations.8.an",
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 3.4812880765883375e-05,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "3.48e-05",
+     "args": [
+      [
+       "variant.exome.populations.1.ac",
+       "variant.genome.populations.1.ac"
+      ],
+      [
+       "variant.exome.populations.1.an",
+       "variant.genome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.6.ac",
+       "variant.genome.populations.7.ac"
+      ],
+      [
+       "variant.exome.populations.6.an",
+       "variant.genome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 0.021323254945875326,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0213",
+     "args": [
+      [
+       "variant.exome.populations.7.ac",
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.exome.populations.7.an",
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.2.ac",
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.exome.populations.2.an",
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 7.96682160237821e-06,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "7.97e-06",
+     "args": [
+      [
+       "variant.exome.populations.4.ac",
+       "variant.genome.populations.9.ac"
+      ],
+      [
+       "variant.exome.populations.4.an",
+       "variant.genome.populations.9.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 0.0002161746691326592,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.000216",
+     "args": [
+      [
+       "variant.exome.populations.5.ac",
+       "variant.genome.populations.6.ac"
+      ],
+      [
+       "variant.exome.populations.5.an",
+       "variant.genome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.3.ac",
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.exome.populations.3.an",
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 0.0011923843778099221,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.00119",
+     "args": [
+      [
+       "variant.exome.populations.0.ac",
+       "variant.genome.populations.0.ac"
+      ],
+      [
+       "variant.exome.populations.0.an",
+       "variant.genome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0 in Ashkenazi Jewish to 0.0213 in East Asian, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.6.ac",
+       "variant.genome.populations.7.ac"
+      ],
+      [
+       "variant.exome.populations.6.an",
+       "variant.genome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 0.021323254945875326,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0213",
+     "args": [
+      [
+       "variant.exome.populations.7.ac",
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.exome.populations.7.an",
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.2.ac",
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.exome.populations.2.an",
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.3.ac",
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.exome.populations.3.an",
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 2 (C>T) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs17004038.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (C>T) has an overall allele frequency of 1.78e-06 (2 of 1,124,704 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-T",
+     "path": "",
+     "value": 1.7782456539676217e-06,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "1.78e-06",
+     "args": [
+      [
+       "variant.exome.ac"
+      ],
+      [
+       "variant.exome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 2.47e-06, South Asian 0, Middle Eastern 0, Remaining 0.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.8.ac"
+      ],
+      [
+       "variant.exome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.1.ac"
+      ],
+      [
+       "variant.exome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.6.ac"
+      ],
+      [
+       "variant.exome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.7.ac"
+      ],
+      [
+       "variant.exome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.2.ac"
+      ],
+      [
+       "variant.exome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-T",
+     "path": "",
+     "value": 2.467241204901915e-06,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "2.47e-06",
+     "args": [
+      [
+       "variant.exome.populations.4.ac"
+      ],
+      [
+       "variant.exome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.5.ac"
+      ],
+      [
+       "variant.exome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.3.ac"
+      ],
+      [
+       "variant.exome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:22-23894404-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.0.ac"
+      ],
+      [
+       "variant.exome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "The ClinVar 2026-11 release contains no record for rs17004038.",
+   "citations": [
+    {
+     "record_id": "ClinVar:rs17004038@2026-11",
+     "path": "n_records",
+     "value": 0,
+     "label": "ClinVar 2026-11 release",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Somatic evidence",
+   "text": "Ensembl VEP reports 1 co-located COSMIC somatic mutation record(s) at this position (COSV53159253).",
+   "citations": [
+    {
+     "record_id": "VEP:rs17004038",
+     "path": "cosmic_ids.0",
+     "value": "COSV53159253",
+     "label": "Ensembl VEP rs17004038",
+     "mode": "eq",
+     "shown": "COSV53159253",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists no association for rs17004038.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs17004038",
+     "path": "associations",
+     "value": [],
+     "label": "GWAS Catalog rs17004038",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 7 PubMed articles to rs17004038.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs17004038",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs17004038",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Association study of a single nucleotide polymorphism in the hypoxia response element of the macrophage migration inhibitory factor gene promoter with suicide completers in the Japanese population\" (Neuropsychopharmacol Rep, 2024).",
+   "citations": [
+    {
+     "record_id": "PMID:38267013",
+     "path": "title",
+     "value": "Association study of a single nucleotide polymorphism in the hypoxia response element of the macrophage migration inhibitory factor gene promoter with suicide completers in the Japanese population.",
+     "label": "PMID:38267013",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:38267013",
+     "path": "journal",
+     "value": "Neuropsychopharmacol Rep",
+     "label": "PMID:38267013",
+     "mode": "eq",
+     "shown": "Neuropsychopharmacol Rep",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Polymorphisms in the hypoxia inducible factor binding site of the macrophage migration inhibitory factor gene promoter in schizophrenia\" (PLoS One, 2022).",
+   "citations": [
+    {
+     "record_id": "PMID:35324982",
+     "path": "title",
+     "value": "Polymorphisms in the hypoxia inducible factor binding site of the macrophage migration inhibitory factor gene promoter in schizophrenia.",
+     "label": "PMID:35324982",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:35324982",
+     "path": "journal",
+     "value": "PLoS One",
+     "label": "PMID:35324982",
+     "mode": "eq",
+     "shown": "PLoS One",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Epigenetic activation of O-linked \u03b2-N-acetylglucosamine transferase overrides the differentiation blockage in acute leukemia\" (EBioMedicine, 2020).",
+   "citations": [
+    {
+     "record_id": "PMID:32272438",
+     "path": "title",
+     "value": "Epigenetic activation of O-linked \u03b2-N-acetylglucosamine transferase overrides the differentiation blockage in acute leukemia.",
+     "label": "PMID:32272438",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:32272438",
+     "path": "journal",
+     "value": "EBioMedicine",
+     "label": "PMID:32272438",
+     "mode": "eq",
+     "shown": "EBioMedicine",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs17004038 in MIF is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs17004038",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs17004038",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs17004038",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs17004038",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs17004038": {
+   "record_id": "dbSNP:rs17004038",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/17004038",
+   "retrieved_at": "2026-11-17T02:05:26.014974+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "17004038",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [],
+    "merged_into": [],
+    "citations": [
+     20061373,
+     27625398
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000022.11",
+    "alleles": [
+     {
+      "hgvs": "NC_000022.11:g.23894404=",
+      "position0": 23894403,
+      "deleted": "C",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000022.11:g.23894404C>A",
+      "position0": 23894403,
+      "deleted": "C",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000022.11:g.23894404C>T",
+      "position0": 23894403,
+      "deleted": "C",
+      "inserted": "T"
+     }
+    ],
+    "genes": [
+     "MIF",
+     "MIF-AS1"
+    ]
+   }
+  },
+  "VEP:rs17004038": {
+   "record_id": "VEP:rs17004038",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs17004038",
+   "retrieved_at": "2026-11-17T02:05:27.422874+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs17004038",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "22",
+    "start": 23894404,
+    "end": 23894404,
+    "allele_string": "C/A",
+    "variant_class": "SNV",
+    "most_severe_consequence": "5_prime_UTR_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "A",
+      "gene_symbol": "MIF",
+      "gene_id": "ENSG00000240972",
+      "transcript_id": "ENST00000215754",
+      "mane_select": "NM_002415.2",
+      "consequence_terms": [
+       "5_prime_UTR_variant"
+      ],
+      "hgvsc": "ENST00000215754.8:c.-71C>A",
+      "hgvsp": null,
+      "impact": "MODIFIER",
+      "amino_acids": null,
+      "protein_start": null,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [
+     "COSV53159253"
+    ],
+    "colocated_somatic": true
+   }
+  },
+  "gnomAD-v2.1.1:rs17004038": {
+   "record_id": "gnomAD-v2.1.1:rs17004038",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:05:27.524212+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr22:g.24236591C>A",
+      "_score": 17.140947,
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "A",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.00137074,
+        "af_afr": 0.0,
+        "af_afr_female": 0.0,
+        "af_afr_male": 0.0,
+        "af_amr": 0.0,
+        "af_amr_female": 0.0,
+        "af_amr_male": 0.0,
+        "af_asj": 0.0,
+        "af_asj_female": 0.0,
+        "af_asj_male": 0.0,
+        "af_eas": 0.0275641,
+        "af_eas_female": 0.0408922,
+        "af_eas_male": 0.0205479,
+        "af_female": 0.00158137,
+        "af_fin": 0.0,
+        "af_fin_female": 0.0,
+        "af_fin_male": 0.0,
+        "af_male": 0.00120289,
+        "af_nfe": 0.0,
+        "af_nfe_est": 0.0,
+        "af_nfe_female": 0.0,
+        "af_nfe_male": 0.0,
+        "af_nfe_nwe": 0.0,
+        "af_nfe_onf": 0.0,
+        "af_nfe_seu": 0.0,
+        "af_oth": 0.0,
+        "af_oth_female": 0.0,
+        "af_oth_male": 0.0
+       },
+       "alt": "A",
+       "an": {
+        "an": 31370,
+        "an_afr": 8694,
+        "an_afr_female": 3674,
+        "an_afr_male": 5020,
+        "an_amr": 848,
+        "an_amr_female": 414,
+        "an_amr_male": 434,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1560,
+        "an_eas_female": 538,
+        "an_eas_male": 1022,
+        "an_female": 13912,
+        "an_fin": 3476,
+        "an_fin_female": 1846,
+        "an_fin_male": 1630,
+        "an_male": 17458,
+        "an_nfe": 15416,
+        "an_nfe_est": 4580,
+        "an_nfe_female": 6800,
+        "an_nfe_male": 8616,
+        "an_nfe_nwe": 8592,
+        "an_nfe_onf": 2138,
+        "an_nfe_seu": 106,
+        "an_oth": 1086,
+        "an_oth_female": 560,
+        "an_oth_male": 526
+       },
+       "ref": "C"
+      },
+      "vcf": {
+       "alt": "A",
+       "position": "24236591",
+       "ref": "C"
+      }
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:22-23894404-C-A": {
+   "record_id": "gnomAD-v4.1:22-23894404-C-A",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:05:27.637314+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "22-23894404-C-A",
+     "rsids": [
+      "rs17004038"
+     ],
+     "exome": {
+      "ac": 882,
+      "an": 1124700,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 61,
+        "an": 49044
+       },
+       {
+        "id": "amr",
+        "ac": 0,
+        "an": 42144
+       },
+       {
+        "id": "fin",
+        "ac": 0,
+        "an": 51064
+       },
+       {
+        "id": "mid",
+        "ac": 0,
+        "an": 5130
+       },
+       {
+        "id": "nfe",
+        "ac": 5,
+        "an": 810618
+       },
+       {
+        "id": "sas",
+        "ac": 14,
+        "an": 78434
+       },
+       {
+        "id": "asj",
+        "ac": 0,
+        "an": 23722
+       },
+       {
+        "id": "eas",
+        "ac": 801,
+        "an": 37682
+       },
+       {
+        "id": "afr",
+        "ac": 1,
+        "an": 26862
+       }
+      ]
+     },
+     "genome": {
+      "ac": 126,
+      "an": 152338,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 0,
+        "an": 2114
+       },
+       {
+        "id": "amr",
+        "ac": 2,
+        "an": 15306
+       },
+       {
+        "id": "fin",
+        "ac": 0,
+        "an": 10626
+       },
+       {
+        "id": "ami",
+        "ac": 0,
+        "an": 912
+       },
+       {
+        "id": "eas",
+        "ac": 113,
+        "an": 5182
+       },
+       {
+        "id": "mid",
+        "ac": 0,
+        "an": 292
+       },
+       {
+        "id": "sas",
+        "ac": 4,
+        "an": 4832
+       },
+       {
+        "id": "asj",
+        "ac": 0,
+        "an": 3470
+       },
+       {
+        "id": "afr",
+        "ac": 5,
+        "an": 41578
+       },
+       {
+        "id": "nfe",
+        "ac": 2,
+        "an": 68026
+       }
+      ]
+     }
+    },
+    "errors": null
+   }
+  },
+  "gnomAD-v4.1:22-23894404-C-T": {
+   "record_id": "gnomAD-v4.1:22-23894404-C-T",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:05:28.628651+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "22-23894404-C-T",
+     "rsids": [],
+     "exome": {
+      "ac": 2,
+      "an": 1124704,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 0,
+        "an": 49044
+       },
+       {
+        "id": "amr",
+        "ac": 0,
+        "an": 42144
+       },
+       {
+        "id": "fin",
+        "ac": 0,
+        "an": 51064
+       },
+       {
+        "id": "mid",
+        "ac": 0,
+        "an": 5130
+       },
+       {
+        "id": "nfe",
+        "ac": 2,
+        "an": 810622
+       },
+       {
+        "id": "sas",
+        "ac": 0,
+        "an": 78434
+       },
+       {
+        "id": "asj",
+        "ac": 0,
+        "an": 23722
+       },
+       {
+        "id": "eas",
+        "ac": 0,
+        "an": 37682
+       },
+       {
+        "id": "afr",
+        "ac": 0,
+        "an": 26862
+       }
+      ]
+     },
+     "genome": null
+    },
+    "errors": null
+   }
+  },
+  "ClinVar:rs17004038@2026-11": {
+   "record_id": "ClinVar:rs17004038@2026-11",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2026-11",
+   "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
+   "retrieved_at": "2026-11-17T02:13:54.948109+00:00",
+   "status": 200,
+   "data": {
+    "rsid": "rs17004038",
+    "n_records": 0
+   }
+  },
+  "GWAS:rs17004038": {
+   "record_id": "GWAS:rs17004038",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:05:29.207359+00:00",
+   "status": 200,
+   "data": {
+    "associations": []
+   }
+  },
+  "LitVar2:rs17004038": {
+   "record_id": "LitVar2:rs17004038",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs17004038%23%23/publications",
+   "retrieved_at": "2026-11-17T02:05:29.258492+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     22451332,
+     38267013,
+     21533266,
+     35324982,
+     32272438,
+     27625398,
+     20061373
+    ],
+    "n_pmids": 7
+   }
+  },
+  "PMID:38267013": {
+   "record_id": "PMID:38267013",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38267013/",
+   "retrieved_at": "2026-11-17T02:05:29.401555+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "38267013",
+    "title": "Association study of a single nucleotide polymorphism in the hypoxia response element of the macrophage migration inhibitory factor gene promoter with suicide completers in the Japanese population.",
+    "journal": "Neuropsychopharmacol Rep",
+    "pubdate": "2024 Mar",
+    "sortpubdate": "2024-03-01",
+    "abstract": "More than 800\u2009000 people die by suicide annually. The heritability of suicide is 30%-50%. We focused on the hypoxia response element (HRE), which promotes the expression of macrophage migration inhibitory factor (MIF) via the hypoxia-inducible factor (HIF) pathway, important in neurogenesis and neuroprotection. We examined a genetic polymorphism of rs17004038, a single-nucleotide polymorphism (SNP), in suicide completers and controls. The study population included 1336 suicide completers and 814 unrelated healthy controls. All participants were Japanese. We obtained peripheral blood, extracted DNA, and genotyped the patients for SNP rs17004038 (C\u2009>\u2009A). No significant differences were observed between the two groups in either the allele or genotype analyses. Subgroup analyses by sex, age (<40 or \u226540), and suicide method (violent or nonviolent suicide) were performed with similar results. No association was observed between SNP rs17004038 and suicide completion. Although it is challenging to collect a large number of samples from suicide completers, further MIF-related genetic studies, including those of rs17004038, are necessary with larger sample sizes."
+   }
+  },
+  "PMID:35324982": {
+   "record_id": "PMID:35324982",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35324982/",
+   "retrieved_at": "2026-11-17T02:05:29.401555+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "35324982",
+    "title": "Polymorphisms in the hypoxia inducible factor binding site of the macrophage migration inhibitory factor gene promoter in schizophrenia.",
+    "journal": "PLoS One",
+    "pubdate": "2022",
+    "sortpubdate": "2022-03-24",
+    "abstract": "Macrophage migration inhibitory factor (MIF) is a multifunctional cytokine that promotes neurogenesis and neuroprotection. MIF is predominantly expressed in astrocytes in the brain. The serum MIF level and microsatellites/single nucleotide polymorphisms (SNPs) in the MIF gene promoter region are known to be associated with schizophrenia (SCZ). Interestingly, previous studies reported that hypoxia, an environmental risk factor for SCZ, induced MIF expression through binding of the hypoxia inducible factor (HIF)-1 to the hypoxia response element (HRE) in the MIF promoter. We investigated the involvement of MIF in SCZ while focusing on the HIF pathway. First, we conducted an association study of the SNP rs17004038 (C>A) in the HRE of the MIF promoter between 1758 patients with SCZ and 1507 controls. Next, we investigated the effect of hypoxia on MIF expression in primary cultured astrocytes derived from neonatal mice forebrain. SNP rs17004038 was significantly associated with SCZ (p = 0.0424, odds ratio = 1.445), indicating that this SNP in the HRE of the MIF promoter was a genetic risk factor for SCZ. Hypoxia induced MIF mRNA expression and MIF protein production and increased HIF-1 binding to the MIF promoter, while the activity of the MIF promoter was suppressed by mutations in the HRE and by deletion of the HRE in astrocytes. These results suggest that SNP rs17004038 in the HRE of the MIF promoter was significantly associated with SCZ and may be involved in the pathophysiology of SCZ via suppression of hypoxia and HIF pathway-induced MIF expression."
+   }
+  },
+  "PMID:32272438": {
+   "record_id": "PMID:32272438",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32272438/",
+   "retrieved_at": "2026-11-17T02:05:29.401555+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "32272438",
+    "title": "Epigenetic activation of O-linked \u03b2-N-acetylglucosamine transferase overrides the differentiation blockage in acute leukemia.",
+    "journal": "EBioMedicine",
+    "pubdate": "2020 Apr",
+    "sortpubdate": "2020-04-01",
+    "abstract": "Overriding the differentiation blockage in acute myeloid leukemia (AML) is the most successful mode-of-action in leukemia therapy - now curing the vast majority of patients with acute promyelocytic leukemia (APL) using all-trans retinoic acid (ATRA)-based regimens. Similar approaches in other leukemia subtypes, such as IDH1/2-mutated AML, are under active investigation. We herein present successful release of the differentiation blockage upon treatment with the natural (-)-\u03949-Tetrahydrocannabinol isomer dronabinol in vitro and in vivo. Cellular maturation and differentiation were followed in two patients employing whole genome methylation profiling, proteome analyses, NGS deep sequencing and multispectral imaging flow cytometry. For functional studies lentiviral OGT knock-down in vitro and ex vivo cell models were created to evaluate proliferative, apoptotic and differentiating effects of OGT in acute leukemia. In here, we provide molecular evidence that dronbinol is capable to override the differentiation blockage of acute leukemia blasts at the state of the leukemia-initiating clone. We further identify the O-linked \u03b2-N-acetyl glucosamine (O-GlcNAc) transferase (OGT) to be crucial in this process. OGT is a master regulator enzyme adding O-GlcNAc to serine or threonine residues in a multitude of target proteins. Aberrant O-GlcNAc modification is implicated in pathologies of metabolic, neurodegenerative and autoimme diseases as well as cancers. We provide evidence that dronabinol induces transcription of OGT via epigenetic hypomethylation of the transcription start site (TSS). A lentiviral OGT-knock out approach proves the central role of OGT exerting antileukemic efficacy via a dual-mechanism of action: High concentrations of dronabinol result in induction of apoptosis, whereas lower concentrations drive cellular maturation. Most intriguingly, overriding of the differentiation blockage of acute leukemia blasts is validated in vivo following two patients treated with dronabinol. In conclusion, we provide evidence for overcoming the differentiation blockage in acute leukemia in subentities beyond promyelocytic and IDH1/2-mutated leukemia and thereby identify O-GlcNAcylation as a novel (drugable) field for future leukemia research. Unrestricted grant support by the IZKF Program of the Medical Faculty T\u00fcbingen (MMS) and Brigitte Schlieben-Lange Program as well as the Margarete von Wrangell Program of the Ministry of Science, Research and the Arts, Baden-W\u00fcrttemberg, Germany (KKS) and Athene Program of the excellence initiative University of T\u00fcbingen (KKS)."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 23,
+  "n_claims_fully_verified": 23,
+  "n_uncited_claims": 0,
+  "n_citations": 60,
+  "n_citations_valid": 60,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 50,
+  "n_shown_values_in_text": 50,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 23,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

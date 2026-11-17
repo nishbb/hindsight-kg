@@ -1,0 +1,55 @@
+VARIANT DOSSIER: rs28934578
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs28934578 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs28934578]
+- dbSNP records rs28934578 as variant type 'snv' on NC_000017.11 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs28934578]
+- Alternate allele 1: NC_000017.11:g.7675088C>A, a single-nucleotide variant (SNV) (C>A in VCF form). [dbSNP build 157 rs28934578]
+- Alternate allele 2: NC_000017.11:g.7675088C>G, a single-nucleotide variant (SNV) (C>G in VCF form). [dbSNP build 157 rs28934578]
+- Alternate allele 3: NC_000017.11:g.7675088C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs28934578]
+
+FUNCTION
+- For alternate allele 2 (C>G), Ensembl VEP predicts missense_variant in TP53 (ENST00000269305.9:c.524G>C; ENSP00000269305.4:p.Arg175Pro), impact MODERATE. [Ensembl VEP rs28934578]
+- For alternate allele 3 (C>T), Ensembl VEP predicts missense_variant in TP53 (ENST00000269305.9:c.524G>A; ENSP00000269305.4:p.Arg175His), impact MODERATE. [Ensembl VEP rs28934578]
+- For alternate allele 1 (C>A), Ensembl VEP predicts missense_variant in TP53 (ENST00000269305.9:c.524G>T; ENSP00000269305.4:p.Arg175Leu), impact MODERATE. [Ensembl VEP rs28934578]
+- Ensembl classifies the variant as 'SNV' with allele string C/A/G/T. [Ensembl VEP rs28934578]
+
+FREQUENCY
+- Alternate allele 1 (C>A) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 17-7675088-C-A (alternate allele 1). [gnomAD v4.1]
+- Alternate allele 2 (C>G) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (C>G) has an overall allele frequency of 6.84e-07 (1 of 1,461,878 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 8.99e-07, South Asian 0, Middle Eastern 0, Remaining 0. [gnomAD v4.1]
+- In gnomAD v2.1.1 exomes, alternate allele 3 (C>T) has an overall allele frequency of 3.98e-06. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 3: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 8.8e-06, South Asian 0, Other 0. [gnomAD v2.1.1 exomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 3 (C>T) has an overall allele frequency of 4.34e-06 (7 of 1,614,062 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 3: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 5.93e-06, South Asian 0, Middle Eastern 0, Amish 0, Remaining 0. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_000546.6(TP53):c.524G>A (p.Arg175His) (alternate allele 3) with germline classification 'Pathogenic' for: Li-Fraumeni syndrome 1; Hereditary cancer-predisposing syndrome; Li-Fraumeni syndrome; Malignant tumor of esophagus; and 17 more; review status 'reviewed by expert panel', 40 submitter(s), allele origin 'germline;maternal;somatic;unknown'. [ClinVar VCV000012374 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic/Likely pathogenic; 2019-01: Pathogenic; 2020-01: Pathogenic; 2026-11: Pathogenic. The classification changed over these releases. [ClinVar VCV000012374 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 41 'Pathogenic', 7 without a germline classification, 2 'Likely pathogenic'. [ClinVar VCV000012374 (2026-11 release)]
+- ClinVar lists NM_000546.6(TP53):c.524G>T (p.Arg175Leu) (alternate allele 1) with germline classification 'Likely pathogenic' for: Hereditary cancer-predisposing syndrome; Li-Fraumeni syndrome; Li-Fraumeni syndrome 1; review status 'reviewed by expert panel', 6 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000182963 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Likely pathogenic; 2019-01: Likely pathogenic; 2020-01: Conflicting interpretations of pathogenicity; 2026-11: Likely pathogenic. The classification changed over these releases. [ClinVar VCV000182963 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 5 'Likely pathogenic', 2 'Pathogenic'. [ClinVar VCV000182963 (2026-11 release)]
+
+SOMATIC EVIDENCE
+- Ensembl VEP reports 4 co-located COSMIC somatic mutation record(s) at this position (COSV52661038, COSV52677601, COSV52731306, COSV53801286). [Ensembl VEP rs28934578]
+- ClinVar gives NM_000546.6(TP53):c.524G>A (p.Arg175His) a somatic oncogenicity classification of 'Oncogenic'. [ClinVar VCV000012374 (2026-11 release)]
+- ClinVar gives NM_000546.6(TP53):c.524G>A (p.Arg175His) a somatic clinical impact classification of 'Tier I - Strong'. [ClinVar VCV000012374 (2026-11 release)]
+- CIViC has a curated entry for TP53 R175H (alternate allele 3) with 13 evidence item(s) across 2 molecular profile(s). [CIViC variant 116]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists no association for rs28934578. [GWAS Catalog rs28934578]
+
+LITERATURE
+- LitVar2 links 3092 PubMed articles to rs28934578. [LitVar2 rs28934578]
+- Linked article: "Context-Dependent TP53 Mutation Gain-of-Function Is Correlated With Its Contribution to Genomic Instability" (Laryngoscope Investig Otolaryngol, 2026). [PMID:42889601]
+- Linked article: "Precision prime editing of TP53 mutations for functional tumor suppression in colorectal cancer" (Biochem Biophys Res Commun, 2026). [PMID:42470832]
+- Linked article: "Independent somatic TP53 mutations in blood and tumor mimicking Li-Fraumeni syndrome in a 94-year-old man" (NPJ Precis Oncol, 2026). [PMID:42260076]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs28934578 in TP53 is best described as: recurrent somatic cancer hotspot that also carries germline pathogenic assertions. ClinVar links it to Li-Fraumeni syndrome 1. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict). [ClinVar VCV000012374 (2026-11 release); ClinVar VCV000182963 (2026-11 release); GWAS Catalog rs28934578; LitVar2 rs28934578]

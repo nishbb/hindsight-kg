@@ -1,0 +1,3144 @@
+{
+ "rsid_query": "rs1426654",
+ "rsid_current": "rs1426654",
+ "as_of": "2020-01-01",
+ "generated_at": "2026-11-17T02:14:04.614111+00:00",
+ "genes": {
+  "vep": [
+   "SLC24A5"
+  ],
+  "dbsnp": [
+   "MYEF2",
+   "SLC24A5"
+  ],
+  "clinvar": [
+   "SLC24A5"
+  ],
+  "gwas": [
+   "SLC24A5"
+  ]
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000015.10:g.48134287A>C",
+   "spdi_deleted": "A",
+   "spdi_inserted": "C",
+   "chrom": "15",
+   "pos": 48134287,
+   "ref": "A",
+   "alt": "C",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "15-48134287-A-C",
+   "vep": null,
+   "frequency": {
+    "gnomad_v2": null
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000015.10:g.48134287A>G",
+   "spdi_deleted": "A",
+   "spdi_inserted": "G",
+   "chrom": "15",
+   "pos": 48134287,
+   "ref": "A",
+   "alt": "G",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "15-48134287-A-G",
+   "vep": {
+    "gene_symbol": "SLC24A5",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000341459.8:c.331A>G",
+    "hgvsp": "ENSP00000341550.3:p.Thr111Ala",
+    "impact": "MODERATE",
+    "mane_select": "NM_205850.3"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "exomes",
+     "overall": 0.229958,
+     "populations": {
+      "afr": 0.810961,
+      "amr": 0.521126,
+      "asj": 0.00436681,
+      "eas": 0.993038,
+      "fin": 0.0124272,
+      "nfe": 0.00346807,
+      "sas": 0.225101,
+      "oth": 0.121494
+     },
+     "an": 251246,
+     "differentiated": true
+    }
+   }
+  },
+  {
+   "index": 3,
+   "dbsnp_allele_index": 3,
+   "hgvs_g": "NC_000015.10:g.48134287A>T",
+   "spdi_deleted": "A",
+   "spdi_inserted": "T",
+   "chrom": "15",
+   "pos": 48134287,
+   "ref": "A",
+   "alt": "T",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "15-48134287-A-T",
+   "vep": {
+    "gene_symbol": "SLC24A5",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000341459.8:c.331A>T",
+    "hgvsp": "ENSP00000341550.3:p.Thr111Ser",
+    "impact": "MODERATE",
+    "mane_select": "NM_205850.3"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    }
+   }
+  }
+ ],
+ "clinvar": [
+  {
+   "variation_id": "1487",
+   "allele_index": null,
+   "name": "NM_205850.2(SLC24A5):c.331A= (p.Thr111=)",
+   "classification": "association",
+   "review_status": "no assertion criteria provided",
+   "conditions": [
+    "Skin/hair/eye pigmentation, variation in, 4"
+   ],
+   "origin": "germline",
+   "n_submitters": "1",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "association",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "1",
+     "last_evaluated": "May 18, 2015",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "association",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "1",
+     "last_evaluated": "Feb 13, 2018",
+     "release_date": "2019-01-03"
+    }
+   ],
+   "submission_classes": {}
+  },
+  {
+   "variation_id": "263273",
+   "allele_index": 2,
+   "name": "NM_205850.2(SLC24A5):c.331A>G (p.Thr111Ala)",
+   "classification": "Benign",
+   "review_status": "criteria provided, single submitter",
+   "conditions": [],
+   "origin": "germline",
+   "n_submitters": "1",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "Benign",
+     "review_status": "criteria provided, single submitter",
+     "n_submitters": "1",
+     "last_evaluated": "-",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "Benign",
+     "review_status": "criteria provided, single submitter",
+     "n_submitters": "1",
+     "last_evaluated": "-",
+     "release_date": "2019-01-03"
+    }
+   ],
+   "submission_classes": {}
+  }
+ ],
+ "clinvar_release": "2019-01",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 46,
+  "n_associations_in_scope": 15,
+  "n_genome_wide_significant": 11,
+  "n_studies": 14,
+  "mapped_genes": [
+   "SLC24A5"
+  ],
+  "top_traits": [
+   {
+    "trait": "eye colour measurement",
+    "p_value": "4e-150",
+    "accession": "GCST007451",
+    "pmid": "30664655"
+   },
+   {
+    "trait": "skin pigmentation",
+    "p_value": "2e-130",
+    "accession": "GCST007452",
+    "pmid": "30664655"
+   },
+   {
+    "trait": "strand of hair color",
+    "p_value": "1e-18",
+    "accession": "GCST007454",
+    "pmid": "30664655"
+   }
+  ],
+  "n_distinct_traits_significant": 3,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 234,
+  "n_in_scope": 158,
+  "pmids_in_scope": [
+   "31844061",
+   "31719606",
+   "31762634",
+   "30952160",
+   "31315583",
+   "31238981",
+   "30980179",
+   "30627966",
+   "30895295",
+   "30890703",
+   "31184205",
+   "30713341",
+   "30704471",
+   "30664655",
+   "30621578",
+   "30530665",
+   "30531825",
+   "30514953",
+   "30497413",
+   "30397125",
+   "30415837",
+   "30281213",
+   "30205563",
+   "29974678",
+   "30099804",
+   "30127404",
+   "29846678",
+   "29897334",
+   "29897937",
+   "29739929",
+   "29720671",
+   "29662168",
+   "29226381",
+   "29457793",
+   "29564022",
+   "29459739",
+   "29391530",
+   "29382937",
+   "29378629",
+   "29343290",
+   "29315301",
+   "28984396",
+   "29195075",
+   "29025994",
+   "29126384",
+   "29109912",
+   "28719003",
+   "28749934",
+   "28729732",
+   "28692664"
+  ],
+  "top": [
+   "18637132",
+   "25801600",
+   "24244186"
+  ]
+ },
+ "conflicts": [],
+ "bottom_line": {
+  "category": "trait-associated common variant without an established monogenic disease role",
+  "confidence": "high",
+  "rationale": "11 genome-wide significant associations across 14 studies",
+  "text": "Bottom line: rs1426654 in SLC24A5 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with eye colour measurement. Confidence: high (11 genome-wide significant associations across 14 studies)."
+ },
+ "notes": [
+  "CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'."
+ ],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs1426654 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs1426654",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs1426654",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs1426654: rs52802038, rs58147390.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs1426654",
+     "path": "dbsnp1_merges.0",
+     "value": "52802038",
+     "label": "dbSNP build 157 rs1426654",
+     "mode": "eq",
+     "shown": "rs52802038",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs1426654",
+     "path": "dbsnp1_merges.1",
+     "value": "58147390",
+     "label": "dbSNP build 157 rs1426654",
+     "mode": "eq",
+     "shown": "rs58147390",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs1426654 as variant type 'snv' on NC_000015.10 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs1426654",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs1426654",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs1426654",
+     "path": "seq_id",
+     "value": "NC_000015.10",
+     "label": "dbSNP build 157 rs1426654",
+     "mode": "eq",
+     "shown": "NC_000015.10",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000015.10:g.48134287A>C, a single-nucleotide variant (SNV) (A>C in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs1426654",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000015.10:g.48134287A>C",
+     "label": "dbSNP build 157 rs1426654",
+     "mode": "eq",
+     "shown": "NC_000015.10:g.48134287A>C",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000015.10:g.48134287A>G, a single-nucleotide variant (SNV) (A>G in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs1426654",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000015.10:g.48134287A>G",
+     "label": "dbSNP build 157 rs1426654",
+     "mode": "eq",
+     "shown": "NC_000015.10:g.48134287A>G",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 3: NC_000015.10:g.48134287A>T, a single-nucleotide variant (SNV) (A>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs1426654",
+     "path": "alleles.3.hgvs",
+     "value": "NC_000015.10:g.48134287A>T",
+     "label": "dbSNP build 157 rs1426654",
+     "mode": "eq",
+     "shown": "NC_000015.10:g.48134287A>T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 3 (A>T), Ensembl VEP predicts missense_variant in SLC24A5 (ENST00000341459.8:c.331A>T; ENSP00000341550.3:p.Thr111Ser), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs1426654",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs1426654",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1426654",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "SLC24A5",
+     "label": "Ensembl VEP rs1426654",
+     "mode": "eq",
+     "shown": "SLC24A5",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1426654",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000341459.8:c.331A>T",
+     "label": "Ensembl VEP rs1426654",
+     "mode": "eq",
+     "shown": "ENST00000341459.8:c.331A>T",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1426654",
+     "path": "transcript_consequences.0.hgvsp",
+     "value": "ENSP00000341550.3:p.Thr111Ser",
+     "label": "Ensembl VEP rs1426654",
+     "mode": "eq",
+     "shown": "ENSP00000341550.3:p.Thr111Ser",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1426654",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs1426654",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 2 (A>G), Ensembl VEP predicts missense_variant in SLC24A5 (ENST00000341459.8:c.331A>G; ENSP00000341550.3:p.Thr111Ala), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs1426654",
+     "path": "transcript_consequences.1.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs1426654",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1426654",
+     "path": "transcript_consequences.1.gene_symbol",
+     "value": "SLC24A5",
+     "label": "Ensembl VEP rs1426654",
+     "mode": "eq",
+     "shown": "SLC24A5",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1426654",
+     "path": "transcript_consequences.1.hgvsc",
+     "value": "ENST00000341459.8:c.331A>G",
+     "label": "Ensembl VEP rs1426654",
+     "mode": "eq",
+     "shown": "ENST00000341459.8:c.331A>G",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1426654",
+     "path": "transcript_consequences.1.hgvsp",
+     "value": "ENSP00000341550.3:p.Thr111Ala",
+     "label": "Ensembl VEP rs1426654",
+     "mode": "eq",
+     "shown": "ENSP00000341550.3:p.Thr111Ala",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1426654",
+     "path": "transcript_consequences.1.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs1426654",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string A/G/T.",
+   "citations": [
+    {
+     "record_id": "VEP:rs1426654",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs1426654",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs1426654",
+     "path": "allele_string",
+     "value": "A/G/T",
+     "label": "Ensembl VEP rs1426654",
+     "mode": "eq",
+     "shown": "A/G/T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 1 (A>C) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs1426654.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs1426654",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 exomes, alternate allele 2 (A>G) has an overall allele frequency of 0.23.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs1426654",
+     "path": "hits.1.gnomad_exome.af.af",
+     "value": 0.229958,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.23",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0.811, Admixed American 0.521, Ashkenazi Jewish 0.00437, East Asian 0.993, Finnish 0.0124, Non-Finnish European 0.00347, South Asian 0.225, Other 0.121.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs1426654",
+     "path": "hits.1.gnomad_exome.af.af_afr",
+     "value": 0.810961,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.811",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1426654",
+     "path": "hits.1.gnomad_exome.af.af_amr",
+     "value": 0.521126,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.521",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1426654",
+     "path": "hits.1.gnomad_exome.af.af_asj",
+     "value": 0.00436681,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.00437",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1426654",
+     "path": "hits.1.gnomad_exome.af.af_eas",
+     "value": 0.993038,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.993",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1426654",
+     "path": "hits.1.gnomad_exome.af.af_fin",
+     "value": 0.0124272,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.0124",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1426654",
+     "path": "hits.1.gnomad_exome.af.af_nfe",
+     "value": 0.00346807,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.00347",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1426654",
+     "path": "hits.1.gnomad_exome.af.af_sas",
+     "value": 0.225101,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.225",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1426654",
+     "path": "hits.1.gnomad_exome.af.af_oth",
+     "value": 0.121494,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.121",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v2.1.1 exomes): allele 2 frequency ranges from 0.00347 in Non-Finnish European to 0.993 in East Asian, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs1426654",
+     "path": "hits.1.gnomad_exome.af.af_nfe",
+     "value": 0.00346807,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.00347",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs1426654",
+     "path": "hits.1.gnomad_exome.af.af_eas",
+     "value": 0.993038,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.993",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 3 (A>T) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs1426654",
+     "path": "hits.0._id",
+     "value": "chr15:g.48426484A>T",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_205850.2(SLC24A5):c.331A= (p.Thr111=) (an allele not matched to the dbSNP allele list) with germline classification 'association' for: Skin/hair/eye pigmentation, variation in, 4; review status 'no assertion criteria provided', 1 submitter(s), allele origin 'germline'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000001487@2019-01",
+     "path": "clnsig",
+     "value": "association",
+     "label": "ClinVar VCV000001487 (2019-01 release)",
+     "mode": "eq",
+     "shown": "association",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000001487@2019-01",
+     "path": "review_status",
+     "value": "no assertion criteria provided",
+     "label": "ClinVar VCV000001487 (2019-01 release)",
+     "mode": "eq",
+     "shown": "no assertion criteria provided",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000001487@2019-01",
+     "path": "name",
+     "value": "NM_205850.2(SLC24A5):c.331A= (p.Thr111=)",
+     "label": "ClinVar VCV000001487 (2019-01 release)",
+     "mode": "eq",
+     "shown": "NM_205850.2(SLC24A5):c.331A= (p.Thr111=)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000001487@2019-01",
+     "path": "n_submitters",
+     "value": "1",
+     "label": "ClinVar VCV000001487 (2019-01 release)",
+     "mode": "eq",
+     "shown": "1",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000001487@2019-01",
+     "path": "phenotype_list",
+     "value": "Skin/hair/eye pigmentation, variation in, 4",
+     "label": "ClinVar VCV000001487 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Skin/hair/eye pigmentation, variation in, 4",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000001487@2019-01",
+     "path": "origin",
+     "value": "germline",
+     "label": "ClinVar VCV000001487 (2019-01 release)",
+     "mode": "eq",
+     "shown": "germline",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: association; 2019-01: association. The classification did not change over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000001487@2019-01",
+     "path": "history.0.clnsig",
+     "value": "association",
+     "label": "ClinVar VCV000001487 (2019-01 release)",
+     "mode": "eq",
+     "shown": "association",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000001487@2019-01",
+     "path": "history.1.clnsig",
+     "value": "association",
+     "label": "ClinVar VCV000001487 (2019-01 release)",
+     "mode": "eq",
+     "shown": "association",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_205850.2(SLC24A5):c.331A>G (p.Thr111Ala) (alternate allele 2) with germline classification 'Benign' with no specific condition named; review status 'criteria provided, single submitter', 1 submitter(s), allele origin 'germline'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000263273@2019-01",
+     "path": "clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000263273 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Benign",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000263273@2019-01",
+     "path": "review_status",
+     "value": "criteria provided, single submitter",
+     "label": "ClinVar VCV000263273 (2019-01 release)",
+     "mode": "eq",
+     "shown": "criteria provided, single submitter",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000263273@2019-01",
+     "path": "name",
+     "value": "NM_205850.2(SLC24A5):c.331A>G (p.Thr111Ala)",
+     "label": "ClinVar VCV000263273 (2019-01 release)",
+     "mode": "eq",
+     "shown": "NM_205850.2(SLC24A5):c.331A>G (p.Thr111Ala)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000263273@2019-01",
+     "path": "n_submitters",
+     "value": "1",
+     "label": "ClinVar VCV000263273 (2019-01 release)",
+     "mode": "eq",
+     "shown": "1",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000263273@2019-01",
+     "path": "origin",
+     "value": "germline",
+     "label": "ClinVar VCV000263273 (2019-01 release)",
+     "mode": "eq",
+     "shown": "germline",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: Benign; 2019-01: Benign. The classification did not change over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000263273@2019-01",
+     "path": "history.0.clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000263273 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Benign",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000263273@2019-01",
+     "path": "history.1.clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000263273 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Benign",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 46 association record(s) for rs1426654. Of these, 15 were published on or before 2020-01-01.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs1426654",
+     "path": "associations.45.association_id",
+     "value": 44346,
+     "label": "GWAS Catalog rs1426654",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with eye colour measurement (p = 4e-150, study GCST007451).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs1426654",
+     "path": "associations.36.accession_id",
+     "value": "GCST007451",
+     "label": "GWAS Catalog GCST007451",
+     "mode": "eq",
+     "shown": "GCST007451",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs1426654",
+     "path": "associations.36.pvalue_exponent",
+     "value": -150,
+     "label": "GWAS Catalog GCST007451",
+     "mode": "eq",
+     "shown": "4e-150",
+     "args": null
+    },
+    {
+     "record_id": "PMID:30664655",
+     "path": "pmid",
+     "value": "30664655",
+     "label": "PMID:30664655",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with skin pigmentation (p = 2e-130, study GCST007452).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs1426654",
+     "path": "associations.41.accession_id",
+     "value": "GCST007452",
+     "label": "GWAS Catalog GCST007452",
+     "mode": "eq",
+     "shown": "GCST007452",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs1426654",
+     "path": "associations.41.pvalue_exponent",
+     "value": -130,
+     "label": "GWAS Catalog GCST007452",
+     "mode": "eq",
+     "shown": "2e-130",
+     "args": null
+    },
+    {
+     "record_id": "PMID:30664655",
+     "path": "pmid",
+     "value": "30664655",
+     "label": "PMID:30664655",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with strand of hair color (p = 1e-18, study GCST007454).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs1426654",
+     "path": "associations.38.accession_id",
+     "value": "GCST007454",
+     "label": "GWAS Catalog GCST007454",
+     "mode": "eq",
+     "shown": "GCST007454",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs1426654",
+     "path": "associations.38.pvalue_exponent",
+     "value": -18,
+     "label": "GWAS Catalog GCST007454",
+     "mode": "eq",
+     "shown": "1e-18",
+     "args": null
+    },
+    {
+     "record_id": "PMID:30664655",
+     "path": "pmid",
+     "value": "30664655",
+     "label": "PMID:30664655",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 234 PubMed articles to rs1426654; 158 of the 234 with a PubMed date were published on or before 2020-01-01.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs1426654",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs1426654",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"A study of a single variant allele (rs1426654) of the pigmentation-related gene SLC24A5 in Greek subjects\" (Exp Dermatol, 2009).",
+   "citations": [
+    {
+     "record_id": "PMID:18637132",
+     "path": "title",
+     "value": "A study of a single variant allele (rs1426654) of the pigmentation-related gene SLC24A5 in Greek subjects.",
+     "label": "PMID:18637132",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:18637132",
+     "path": "journal",
+     "value": "Exp Dermatol",
+     "label": "PMID:18637132",
+     "mode": "eq",
+     "shown": "Exp Dermatol",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"SLC24A5 and ASIP as phenotypic predictors in Brazilian population for forensic purposes\" (Leg Med (Tokyo), 2015).",
+   "citations": [
+    {
+     "record_id": "PMID:25801600",
+     "path": "title",
+     "value": "SLC24A5 and ASIP as phenotypic predictors in Brazilian population for forensic purposes.",
+     "label": "PMID:25801600",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:25801600",
+     "path": "journal",
+     "value": "Leg Med (Tokyo)",
+     "label": "PMID:25801600",
+     "mode": "eq",
+     "shown": "Leg Med (Tokyo)",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"The light skin allele of SLC24A5 in South Asians and Europeans shares identity by descent\" (PLoS Genet, 2013).",
+   "citations": [
+    {
+     "record_id": "PMID:24244186",
+     "path": "title",
+     "value": "The light skin allele of SLC24A5 in South Asians and Europeans shares identity by descent.",
+     "label": "PMID:24244186",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:24244186",
+     "path": "journal",
+     "value": "PLoS Genet",
+     "label": "PMID:24244186",
+     "mode": "eq",
+     "shown": "PLoS Genet",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "No allele of rs1426654 has a pathogenic or likely pathogenic germline classification in the ClinVar 2019-01 release.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000001487@2019-01",
+     "path": "clnsig",
+     "value": "association",
+     "label": "ClinVar VCV000001487 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000263273@2019-01",
+     "path": "clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000263273 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "rs1426654 is associated with 3 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs1426654",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs1426654",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000001487@2019-01",
+     "path": "clnsig",
+     "value": "association",
+     "label": "ClinVar VCV000001487 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000263273@2019-01",
+     "path": "clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000263273 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs1426654 in SLC24A5 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with eye colour measurement. Confidence: high (11 genome-wide significant associations across 14 studies).",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000001487@2019-01",
+     "path": "clnsig",
+     "value": "association",
+     "label": "ClinVar VCV000001487 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000263273@2019-01",
+     "path": "clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000263273 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs1426654",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs1426654",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs1426654",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs1426654",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs1426654": {
+   "record_id": "dbSNP:rs1426654",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/1426654",
+   "retrieved_at": "2026-11-17T02:09:35.521040+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "1426654",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "52802038",
+     "58147390"
+    ],
+    "merged_into": [],
+    "citations": [
+     16255080,
+     16357253,
+     17557415,
+     17999355,
+     18248681,
+     18282109,
+     18637132,
+     19384953,
+     19440451,
+     19503611,
+     19737746,
+     19884608,
+     19944766,
+     20158590,
+     20393453,
+     20691427,
+     21445957,
+     21498954,
+     21589938,
+     21611176,
+     21807602,
+     21976407,
+     22073278,
+     23071798,
+     23110848,
+     23118974,
+     23224873,
+     23771755,
+     24048645,
+     24473444,
+     24809478,
+     25133637,
+     25370040,
+     25741868,
+     25801600,
+     26395555,
+     26690364,
+     26753840,
+     26918427,
+     26921301,
+     26926045,
+     26938746,
+     27135931,
+     27274049,
+     27502179,
+     27866970,
+     28300201,
+     28984396,
+     29897937,
+     30099804,
+     30895295,
+     31150552,
+     31315583,
+     32169032,
+     33167923,
+     33318654,
+     33600456,
+     33692100,
+     34068188,
+     35176104,
+     35197637,
+     35578825,
+     35712076,
+     37628655
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000015.10",
+    "alleles": [
+     {
+      "hgvs": "NC_000015.10:g.48134287=",
+      "position0": 48134286,
+      "deleted": "A",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000015.10:g.48134287A>C",
+      "position0": 48134286,
+      "deleted": "A",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000015.10:g.48134287A>G",
+      "position0": 48134286,
+      "deleted": "A",
+      "inserted": "G"
+     },
+     {
+      "hgvs": "NC_000015.10:g.48134287A>T",
+      "position0": 48134286,
+      "deleted": "A",
+      "inserted": "T"
+     }
+    ],
+    "genes": [
+     "MYEF2",
+     "SLC24A5"
+    ]
+   }
+  },
+  "VEP:rs1426654": {
+   "record_id": "VEP:rs1426654",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs1426654",
+   "retrieved_at": "2026-11-17T02:09:43.043379+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs1426654",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "15",
+    "start": 48134287,
+    "end": 48134287,
+    "allele_string": "A/G/T",
+    "variant_class": "SNV",
+    "most_severe_consequence": "missense_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "T",
+      "gene_symbol": "SLC24A5",
+      "gene_id": "ENSG00000188467",
+      "transcript_id": "ENST00000341459",
+      "mane_select": "NM_205850.3",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000341459.8:c.331A>T",
+      "hgvsp": "ENSP00000341550.3:p.Thr111Ser",
+      "impact": "MODERATE",
+      "amino_acids": "T/S",
+      "protein_start": 111,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "G",
+      "gene_symbol": "SLC24A5",
+      "gene_id": "ENSG00000188467",
+      "transcript_id": "ENST00000341459",
+      "mane_select": "NM_205850.3",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000341459.8:c.331A>G",
+      "hgvsp": "ENSP00000341550.3:p.Thr111Ala",
+      "impact": "MODERATE",
+      "amino_acids": "T/A",
+      "protein_start": 111,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [
+     "COSV58316055"
+    ],
+    "colocated_somatic": true
+   }
+  },
+  "gnomAD-v2.1.1:rs1426654": {
+   "record_id": "gnomAD-v2.1.1:rs1426654",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:09:43.169530+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr15:g.48426484A>T",
+      "_score": 17.140974,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 23.2
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "T",
+       "ref": "A",
+       "vartype": "snv"
+      },
+      "vcf": {
+       "alt": "T",
+       "position": "48426484",
+       "ref": "A"
+      }
+     },
+     {
+      "_id": "chr15:g.48426484A>G",
+      "_score": 17.140963,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 11.03
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "G",
+       "ref": "A",
+       "vartype": "snv"
+      },
+      "gnomad_exome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.229958,
+        "af_afr": 0.810961,
+        "af_afr_female": 0.808587,
+        "af_afr_male": 0.814827,
+        "af_amr": 0.521126,
+        "af_amr_female": 0.533284,
+        "af_amr_male": 0.503915,
+        "af_asj": 0.00436681,
+        "af_asj_female": 0.00428746,
+        "af_asj_male": 0.00444187,
+        "af_eas": 0.993038,
+        "af_eas_female": 0.993884,
+        "af_eas_jpn": 0.993421,
+        "af_eas_kor": 0.995016,
+        "af_eas_male": 0.992169,
+        "af_eas_oea": 0.992511,
+        "af_female": 0.269522,
+        "af_fin": 0.0124272,
+        "af_fin_female": 0.0122445,
+        "af_fin_male": 0.0125954,
+        "af_male": 0.196316,
+        "af_nfe": 0.00346807,
+        "af_nfe_bgr": 0.011994,
+        "af_nfe_est": 0.00826446,
+        "af_nfe_female": 0.00371332,
+        "af_nfe_male": 0.00327466,
+        "af_nfe_nwe": 0.00187497,
+        "af_nfe_onf": 0.00462125,
+        "af_nfe_seu": 0.00391577,
+        "af_nfe_swe": 0.0035594,
+        "af_oth": 0.121494,
+        "af_oth_female": 0.123803,
+        "af_oth_male": 0.119389,
+        "af_sas": 0.225101,
+        "af_sas_female": 0.294936,
+        "af_sas_male": 0.202255
+       },
+       "alt": "G",
+       "an": {
+        "an": 251246,
+        "an_afr": 16240,
+        "an_afr_female": 10062,
+        "an_afr_male": 6178,
+        "an_amr": 34554,
+        "an_amr_female": 20250,
+        "an_amr_male": 14304,
+        "an_asj": 10076,
+        "an_asj_female": 4898,
+        "an_asj_male": 5178,
+        "an_eas": 18386,
+        "an_eas_female": 9320,
+        "an_eas_jpn": 152,
+        "an_eas_kor": 3812,
+        "an_eas_male": 9066,
+        "an_eas_oea": 14422,
+        "an_female": 115460,
+        "an_fin": 21646,
+        "an_fin_female": 10372,
+        "an_fin_male": 11274,
+        "an_male": 135786,
+        "an_nfe": 113608,
+        "an_nfe_bgr": 2668,
+        "an_nfe_est": 242,
+        "an_nfe_female": 50090,
+        "an_nfe_male": 63518,
+        "an_nfe_nwe": 42134,
+        "an_nfe_onf": 30944,
+        "an_nfe_seu": 11492,
+        "an_nfe_swe": 26128,
+        "an_oth": 6132,
+        "an_oth_female": 2924,
+        "an_oth_male": 3208,
+        "an_sas": 30604,
+        "an_sas_female": 7544,
+        "an_sas_male": 23060
+       },
+       "ref": "A"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.291098,
+        "af_afr": 0.804718,
+        "af_afr_female": 0.806056,
+        "af_afr_male": 0.803742,
+        "af_amr": 0.423168,
+        "af_amr_female": 0.402913,
+        "af_amr_male": 0.442396,
+        "af_asj": 0.00344828,
+        "af_asj_female": 0.0,
+        "af_asj_male": 0.0047619,
+        "af_eas": 0.993573,
+        "af_eas_female": 0.992537,
+        "af_eas_male": 0.994118,
+        "af_female": 0.270249,
+        "af_fin": 0.0143843,
+        "af_fin_female": 0.0130011,
+        "af_fin_male": 0.0159509,
+        "af_male": 0.307697,
+        "af_nfe": 0.00473411,
+        "af_nfe_est": 0.00522648,
+        "af_nfe_female": 0.00338136,
+        "af_nfe_male": 0.00580181,
+        "af_nfe_nwe": 0.00419287,
+        "af_nfe_onf": 0.00561798,
+        "af_nfe_seu": 0.00943396,
+        "af_oth": 0.100368,
+        "af_oth_female": 0.101786,
+        "af_oth_male": 0.0988593
+       },
+       "alt": "G",
+       "an": {
+        "an": 31364,
+        "an_afr": 8690,
+        "an_afr_female": 3666,
+        "an_afr_male": 5024,
+        "an_amr": 846,
+        "an_amr_female": 412,
+        "an_amr_male": 434,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1556,
+        "an_eas_female": 536,
+        "an_eas_male": 1020,
+        "an_female": 13902,
+        "an_fin": 3476,
+        "an_fin_female": 1846,
+        "an_fin_male": 1630,
+        "an_male": 17462,
+        "an_nfe": 15420,
+        "an_nfe_est": 4592,
+        "an_nfe_female": 6802,
+        "an_nfe_male": 8618,
+        "an_nfe_nwe": 8586,
+        "an_nfe_onf": 2136,
+        "an_nfe_seu": 106,
+        "an_oth": 1086,
+        "an_oth_female": 560,
+        "an_oth_male": 526
+       },
+       "ref": "A"
+      },
+      "vcf": {
+       "alt": "G",
+       "position": "48426484",
+       "ref": "A"
+      }
+     }
+    ]
+   }
+  },
+  "ClinVar:VCV000001487@2019-01": {
+   "record_id": "ClinVar:VCV000001487@2019-01",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2019-01 (2019-01-03)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/1487/",
+   "retrieved_at": "2026-11-17T02:14:04.295776+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "16526",
+    "type": "single nucleotide variant",
+    "name": "NM_205850.2(SLC24A5):c.331A= (p.Thr111=)",
+    "gene_symbol": "SLC24A5",
+    "clnsig": "association",
+    "last_evaluated": "Feb 13, 2018",
+    "rcv": "RCV000001552",
+    "phenotype_list": "Skin/hair/eye pigmentation, variation in, 4",
+    "origin": "germline",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "15",
+    "start": "48134287",
+    "ref": "A",
+    "alt": "A",
+    "review_status": "no assertion criteria provided",
+    "n_submitters": "1",
+    "variation_id": "1487",
+    "ref_vcf": "",
+    "alt_vcf": "",
+    "pos_vcf": "",
+    "somatic_clinical_impact": "",
+    "oncogenicity": "",
+    "rsid": "rs1426654",
+    "submissions": [],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "association",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "1",
+      "last_evaluated": "May 18, 2015",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "association",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "1",
+      "last_evaluated": "Feb 13, 2018",
+      "release_date": "2019-01-03"
+     }
+    ]
+   }
+  },
+  "ClinVar:VCV000263273@2019-01": {
+   "record_id": "ClinVar:VCV000263273@2019-01",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2019-01 (2019-01-03)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/263273/",
+   "retrieved_at": "2026-11-17T02:14:04.296063+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "255247",
+    "type": "single nucleotide variant",
+    "name": "NM_205850.2(SLC24A5):c.331A>G (p.Thr111Ala)",
+    "gene_symbol": "SLC24A5",
+    "clnsig": "Benign",
+    "last_evaluated": "-",
+    "rcv": "RCV000250857",
+    "phenotype_list": "not specified",
+    "origin": "germline",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "15",
+    "start": "48134287",
+    "ref": "A",
+    "alt": "G",
+    "review_status": "criteria provided, single submitter",
+    "n_submitters": "1",
+    "variation_id": "263273",
+    "ref_vcf": "",
+    "alt_vcf": "",
+    "pos_vcf": "",
+    "somatic_clinical_impact": "",
+    "oncogenicity": "",
+    "rsid": "rs1426654",
+    "submissions": [],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "Benign",
+      "review_status": "criteria provided, single submitter",
+      "n_submitters": "1",
+      "last_evaluated": "-",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "Benign",
+      "review_status": "criteria provided, single submitter",
+      "n_submitters": "1",
+      "last_evaluated": "-",
+      "release_date": "2019-01-03"
+     }
+    ]
+   }
+  },
+  "GWAS:rs1426654": {
+   "record_id": "GWAS:rs1426654",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:09:49.918741+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 228374104,
+      "accession_id": "GCST90480067",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3e-12,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.0778 unit decrease",
+      "risk_frequency": "0.804",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005338",
+        "efo_trait": "open-angle glaucoma"
+       }
+      ],
+      "reported_trait": [
+       "Open-angle glaucoma (PheCode 365.1)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228371705,
+      "accession_id": "GCST90480066",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-12,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.1103 unit decrease",
+      "risk_frequency": "0.8031",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005338",
+        "efo_trait": "open-angle glaucoma"
+       }
+      ],
+      "reported_trait": [
+       "Primary open angle glaucoma (PheCode 365.11)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 1,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228370478,
+      "accession_id": "GCST90480069",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 9.000000000000001e-17,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -17,
+      "or_value": null,
+      "beta": "0.08564 unit decrease",
+      "risk_frequency": "0.8032",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005041",
+        "efo_trait": "glaucoma"
+       }
+      ],
+      "reported_trait": [
+       "Glaucoma"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 2,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228319159,
+      "accession_id": "GCST90480470",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 5.0000000000000005e-22,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -22,
+      "or_value": null,
+      "beta": "0.1769 unit increase",
+      "risk_frequency": "0.7918",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005093",
+        "efo_trait": "skin disorder"
+       }
+      ],
+      "reported_trait": [
+       "Degenerative skin conditions and other dermatoses (PheCode 702)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 3,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228317291,
+      "accession_id": "GCST90480468",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 8e-37,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -37,
+      "or_value": null,
+      "beta": "0.4497 unit increase",
+      "risk_frequency": "0.7988",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005173",
+        "efo_trait": "actinic keratosis"
+       }
+      ],
+      "reported_trait": [
+       "Actinic keratosis (PheCode 702.1)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 4,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228304087,
+      "accession_id": "GCST90479798",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 6e-22,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -22,
+      "or_value": null,
+      "beta": "0.2966 unit increase",
+      "risk_frequency": "0.8052",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0002898",
+        "efo_trait": "skin cancer"
+       }
+      ],
+      "reported_trait": [
+       "Skin cancer"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 5,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228302458,
+      "accession_id": "GCST90479797",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3.0000000000000002e-18,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -18,
+      "or_value": null,
+      "beta": "0.2979 unit increase",
+      "risk_frequency": "0.8042",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0002898",
+        "efo_trait": "skin cancer"
+       }
+      ],
+      "reported_trait": [
+       "Other non-epithelial cancer of skin (PheCode 172.2)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 6,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228300537,
+      "accession_id": "GCST90479850",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-39,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -39,
+      "or_value": null,
+      "beta": "0.4428 unit increase",
+      "risk_frequency": "0.8081",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0021454",
+        "efo_trait": "benign neoplasm of eye"
+       }
+      ],
+      "reported_trait": [
+       "Benign neoplasm of eye (PheCode 224)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 7,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228300160,
+      "accession_id": "GCST90479849",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-49,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -49,
+      "or_value": null,
+      "beta": "0.5519 unit increase",
+      "risk_frequency": "0.8079",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0021454",
+        "efo_trait": "benign neoplasm of eye"
+       }
+      ],
+      "reported_trait": [
+       "Benign neoplasm of eye, uveal (PheCode 224.1)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 8,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228298581,
+      "accession_id": "GCST90479794",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-14,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -14,
+      "or_value": null,
+      "beta": "0.3549 unit increase",
+      "risk_frequency": "0.8053",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005012",
+        "efo_trait": "cutaneous melanoma"
+       }
+      ],
+      "reported_trait": [
+       "Melanomas of skin, dx or hx (PheCode 172.1)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 9,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228284751,
+      "accession_id": "GCST90476204",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 9e-23,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -23,
+      "or_value": null,
+      "beta": "0.4451 unit increase",
+      "risk_frequency": "0.9958",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005173",
+        "efo_trait": "actinic keratosis"
+       }
+      ],
+      "reported_trait": [
+       "Actinic keratosis (PheCode 702.1)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 10,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228282686,
+      "accession_id": "GCST90476203",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-25,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -25,
+      "or_value": null,
+      "beta": "0.4904 unit increase",
+      "risk_frequency": "0.6513",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005173",
+        "efo_trait": "actinic keratosis"
+       }
+      ],
+      "reported_trait": [
+       "Actinic keratosis (PheCode 702.1)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 11,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228281569,
+      "accession_id": "GCST90476202",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3e-14,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -14,
+      "or_value": null,
+      "beta": "0.2907 unit increase",
+      "risk_frequency": "0.9959",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005093",
+        "efo_trait": "skin disorder"
+       }
+      ],
+      "reported_trait": [
+       "Degenerative skin conditions and other dermatoses (PheCode 702)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 12,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228275747,
+      "accession_id": "GCST90475868",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-11,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.0815 unit decrease",
+      "risk_frequency": "0.1983",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005041",
+        "efo_trait": "glaucoma"
+       }
+      ],
+      "reported_trait": [
+       "Glaucoma"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 13,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228265286,
+      "accession_id": "GCST90475627",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-24,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -24,
+      "or_value": null,
+      "beta": "0.5882 unit increase",
+      "risk_frequency": "0.6538",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0021454",
+        "efo_trait": "benign neoplasm of eye"
+       }
+      ],
+      "reported_trait": [
+       "Benign neoplasm of eye, uveal (PheCode 224.1)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 14,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228265265,
+      "accession_id": "GCST90475580",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-19,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -19,
+      "or_value": null,
+      "beta": "0.4954 unit increase",
+      "risk_frequency": "0.9958",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0002898",
+        "efo_trait": "skin cancer"
+       }
+      ],
+      "reported_trait": [
+       "Other non-epithelial cancer of skin (PheCode 172.2)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 15,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228264712,
+      "accession_id": "GCST90475625",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-18,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -18,
+      "or_value": null,
+      "beta": "0.4345 unit increase",
+      "risk_frequency": "0.1976",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0021454",
+        "efo_trait": "benign neoplasm of eye"
+       }
+      ],
+      "reported_trait": [
+       "Benign neoplasm of eye (PheCode 224)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 16,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228262370,
+      "accession_id": "GCST90475577",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 5e-16,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -16,
+      "or_value": null,
+      "beta": "0.5821 unit increase",
+      "risk_frequency": "0.9958",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005012",
+        "efo_trait": "cutaneous melanoma"
+       }
+      ],
+      "reported_trait": [
+       "Melanomas of skin, dx or hx (PheCode 172.1)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 17,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228260804,
+      "accession_id": "GCST90475575",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 7e-24,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -24,
+      "or_value": null,
+      "beta": "0.5014 unit increase",
+      "risk_frequency": "0.9958",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0002898",
+        "efo_trait": "skin cancer"
+       }
+      ],
+      "reported_trait": [
+       "Skin cancer"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 18,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 227716315,
+      "accession_id": "GCST90992812",
+      "pubmed_id": "42786167",
+      "first_author": "Trofimova O",
+      "p_value": 9.000000000000001e-09,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.245184 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004731",
+        "efo_trait": "eye measurement"
+       }
+      ],
+      "reported_trait": [
+       "Retinal age gap"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 19,
+      "_pubdate": "2026-08-26"
+     },
+     {
+      "association_id": 119264415,
+      "accession_id": "GCST90302926",
+      "pubmed_id": "37156940",
+      "first_author": "Li Q",
+      "p_value": 2e-10,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004743",
+        "efo_trait": "facial morphology"
+       }
+      ],
+      "reported_trait": [
+       "Facial morphology (D527)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 20,
+      "_pubdate": "2023-05-08"
+     },
+     {
+      "association_id": 95937934,
+      "accession_id": "GCST90100219",
+      "pubmed_id": "34570997",
+      "first_author": "Wang F",
+      "p_value": 5e-10,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "0.24 unit increase",
+      "risk_frequency": "0.03",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0002095",
+        "efo_trait": "skin pigmentation"
+       }
+      ],
+      "reported_trait": [
+       "Skin pigmentation"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 21,
+      "_pubdate": "2022-04-01"
+     },
+     {
+      "association_id": 95284549,
+      "accession_id": "GCST012219",
+      "pubmed_id": "33692100",
+      "first_author": "Simcoe M",
+      "p_value": 3e-26,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -26,
+      "or_value": null,
+      "beta": "0.684 unit increase",
+      "risk_frequency": "0.102",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0003949",
+        "efo_trait": "eye color"
+       }
+      ],
+      "reported_trait": [
+       "Eye color"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 22,
+      "_pubdate": "2021-03-10"
+     },
+     {
+      "association_id": 93414340,
+      "accession_id": "GCST90041840",
+      "pubmed_id": "34737426",
+      "first_author": "Jiang L",
+      "p_value": 2e-10,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "0.98 unit increase",
+      "risk_frequency": "0.001229",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0002313",
+        "efo_trait": "strand of hair color"
+       }
+      ],
+      "reported_trait": [
+       "Hair colour (natural, before greying): Black (UKB data field 1747_5)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 23,
+      "_pubdate": "2021-11-01"
+     },
+     {
+      "association_id": 93414110,
+      "accession_id": "GCST90041839",
+      "pubmed_id": "34737426",
+      "first_author": "Jiang L",
+      "p_value": 3.0000000000000004e-09,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.36 unit increase",
+      "risk_frequency": "0.001086",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0002313",
+        "efo_trait": "strand of hair color"
+       }
+      ],
+      "reported_trait": [
+       "Hair colour (natural, before greying): Dark brown (UKB data field 1747_4)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 24,
+      "_pubdate": "2021-11-01"
+     },
+     {
+      "association_id": 93413248,
+      "accession_id": "GCST90041836",
+      "pubmed_id": "34737426",
+      "first_author": "Jiang L",
+      "p_value": 3.0000000000000004e-09,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.58 unit decrease",
+      "risk_frequency": "0.001373",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0002313",
+        "efo_trait": "strand of hair color"
+       }
+      ],
+      "reported_trait": [
+       "Hair colour (natural, before greying): Blonde (UKB data field 1747_1)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 25,
+      "_pubdate": "2021-11-01"
+     },
+     {
+      "association_id": 91294789,
+      "accession_id": "GCST90026570",
+      "pubmed_id": "33547071",
+      "first_author": "Bonfante B",
+      "p_value": 3e-06,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -6,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0003769",
+        "efo_trait": "lip morphology trait"
+       }
+      ],
+      "reported_trait": [
+       "Facial morphology (lower lip thickness 2)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 26,
+      "_pubdate": "2021-02-05"
+     },
+     {
+      "association_id": 91294758,
+      "accession_id": "GCST90026568",
+      "pubmed_id": "33547071",
+      "first_author": "Bonfante B",
+      "p_value": 3e-06,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -6,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0003769",
+        "efo_trait": "lip morphology trait"
+       }
+      ],
+      "reported_trait": [
+       "Facial morphology (lower lip thickness 1)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 27,
+      "_pubdate": "2021-02-05"
+     },
+     {
+      "association_id": 91294716,
+      "accession_id": "GCST90026564",
+      "pubmed_id": "33547071",
+      "first_author": "Bonfante B",
+      "p_value": 4e-06,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -6,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0003769",
+        "efo_trait": "lip morphology trait"
+       }
+      ],
+      "reported_trait": [
+       "Facial morphology (lip thickness 1)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 28,
+      "_pubdate": "2021-02-05"
+     },
+     {
+      "association_id": 91294639,
+      "accession_id": "GCST90026560",
+      "pubmed_id": "33547071",
+      "first_author": "Bonfante B",
+      "p_value": 7e-08,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0002233",
+        "efo_trait": "nose morphology trait"
+       }
+      ],
+      "reported_trait": [
+       "Facial morphology (columella inclination)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 29,
+      "_pubdate": "2021-02-05"
+     },
+     {
+      "association_id": 91294561,
+      "accession_id": "GCST90026556",
+      "pubmed_id": "33547071",
+      "first_author": "Bonfante B",
+      "p_value": 2e-08,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0002233",
+        "efo_trait": "nose morphology trait"
+       }
+      ],
+      "reported_trait": [
+       "Facial morphology (nose roundness 3)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 30,
+      "_pubdate": "2021-02-05"
+     },
+     {
+      "association_id": 47687928,
+      "accession_id": "GCST008518",
+      "pubmed_id": "31315583",
+      "first_author": "Lona-Durazo F",
+      "p_value": 3e-07,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -7,
+      "or_value": null,
+      "beta": "0.259952 unit increase",
+      "risk_frequency": "0.288485",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0002095",
+        "efo_trait": "skin pigmentation"
+       }
+      ],
+      "reported_trait": [
+       "Skin pigmentation"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 31,
+      "_pubdate": "2019-07-17"
+     },
+     {
+      "association_id": 47462287,
+      "accession_id": "GCST008519",
+      "pubmed_id": "31315583",
+      "first_author": "Lona-Durazo F",
+      "p_value": 5.999999999999999e-39,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -39,
+      "or_value": null,
+      "beta": "0.403 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0002095",
+        "efo_trait": "skin pigmentation"
+       }
+      ],
+      "reported_trait": [
+       "Skin pigmentation"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 32,
+      "_pubdate": "2019-07-17"
+     },
+     {
+      "association_id": 41452461,
+      "accession_id": "GCST007739",
+      "pubmed_id": "30895295",
+      "first_author": "Jonnalagadda M",
+      "p_value": 2.9999999999999996e-39,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -39,
+      "or_value": null,
+      "beta": "0.704742 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0002095",
+        "efo_trait": "skin pigmentation"
+       }
+      ],
+      "reported_trait": [
+       "Skin reflectance (Melanin index)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 33,
+      "_pubdate": "2019-04-01"
+     },
+     {
+      "association_id": 41451502,
+      "accession_id": "GCST007741",
+      "pubmed_id": "30895295",
+      "first_author": "Jonnalagadda M",
+      "p_value": 8e-09,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.594 unit decrease",
+      "risk_frequency": "0.15",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009764",
+        "efo_trait": "eye colour measurement"
+       }
+      ],
+      "reported_trait": [
+       "Iris color (b* coordinate)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 34,
+      "_pubdate": "2019-04-01"
+     },
+     {
+      "association_id": 41451247,
+      "accession_id": "GCST007740",
+      "pubmed_id": "30895295",
+      "first_author": "Jonnalagadda M",
+      "p_value": 2e-06,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -6,
+      "or_value": null,
+      "beta": "0.49289 unit decrease",
+      "risk_frequency": "0.14976",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009764",
+        "efo_trait": "eye colour measurement"
+       }
+      ],
+      "reported_trait": [
+       "Iris color (a* coordinate)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 35,
+      "_pubdate": "2019-04-01"
+     },
+     {
+      "association_id": 37790451,
+      "accession_id": "GCST007451",
+      "pubmed_id": "30664655",
+      "first_author": "Adhikari K",
+      "p_value": 4e-150,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -150,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009764",
+        "efo_trait": "eye colour measurement"
+       },
+       {
+        "efo_id": "OBA_0002313",
+        "efo_trait": "strand of hair color"
+       },
+       {
+        "efo_id": "OBA_VT0002095",
+        "efo_trait": "skin pigmentation"
+       }
+      ],
+      "reported_trait": [
+       "Skin, hair and eye pigmentation (multivariate analysis)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 36,
+      "_pubdate": "2019-01-21"
+     },
+     {
+      "association_id": 37790323,
+      "accession_id": "GCST007455",
+      "pubmed_id": "30664655",
+      "first_author": "Adhikari K",
+      "p_value": 8e-50,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -50,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009764",
+        "efo_trait": "eye colour measurement"
+       }
+      ],
+      "reported_trait": [
+       "Eye color (brightness)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 37,
+      "_pubdate": "2019-01-21"
+     },
+     {
+      "association_id": 37790290,
+      "accession_id": "GCST007454",
+      "pubmed_id": "30664655",
+      "first_author": "Adhikari K",
+      "p_value": 1e-18,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -18,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0002313",
+        "efo_trait": "strand of hair color"
+       }
+      ],
+      "reported_trait": [
+       "Hair color"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 38,
+      "_pubdate": "2019-01-21"
+     },
+     {
+      "association_id": 37790253,
+      "accession_id": "GCST007453",
+      "pubmed_id": "30664655",
+      "first_author": "Adhikari K",
+      "p_value": 1e-26,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -26,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009764",
+        "efo_trait": "eye colour measurement"
+       }
+      ],
+      "reported_trait": [
+       "Eye color"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 39,
+      "_pubdate": "2019-01-21"
+     },
+     {
+      "association_id": 37790214,
+      "accession_id": "GCST007457",
+      "pubmed_id": "30664655",
+      "first_author": "Adhikari K",
+      "p_value": 6e-45,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -45,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009764",
+        "efo_trait": "eye colour measurement"
+       }
+      ],
+      "reported_trait": [
+       "Eye color (saturation)"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 40,
+      "_pubdate": "2019-01-21"
+     },
+     {
+      "association_id": 37790106,
+      "accession_id": "GCST007452",
+      "pubmed_id": "30664655",
+      "first_author": "Adhikari K",
+      "p_value": 2e-130,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -130,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0002095",
+        "efo_trait": "skin pigmentation"
+       }
+      ],
+      "reported_trait": [
+       "Skin pigmentation"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 41,
+      "_pubdate": "2019-01-21"
+     },
+     {
+      "association_id": 27275252,
+      "accession_id": "GCST005188",
+      "pubmed_id": "29195075",
+      "first_author": "Martin AR",
+      "p_value": 1e-08,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "3.58 unit decrease",
+      "risk_frequency": "0.40",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0002095",
+        "efo_trait": "skin pigmentation"
+       }
+      ],
+      "reported_trait": [
+       "Skin pigmentation"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 42,
+      "_pubdate": "2017-11-30"
+     },
+     {
+      "association_id": 16544585,
+      "accession_id": "GCST003479",
+      "pubmed_id": "26926045",
+      "first_author": "Adhikari K",
+      "p_value": 1e-18,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -18,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0002313",
+        "efo_trait": "strand of hair color"
+       }
+      ],
+      "reported_trait": [
+       "Hair color"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 43,
+      "_pubdate": "2016-03-01"
+     },
+     {
+      "association_id": 10066321,
+      "accession_id": "GCST002571",
+      "pubmed_id": "25133637",
+      "first_author": "Scannell Bryan M",
+      "p_value": 4e-07,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -7,
+      "or_value": null,
+      "beta": "0.484 kg/m2 increase",
+      "risk_frequency": "0.511",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 44,
+      "_pubdate": "2014-08-18"
+     },
+     {
+      "association_id": 44346,
+      "accession_id": "GCST002571",
+      "pubmed_id": "25133637",
+      "first_author": "Scannell Bryan M",
+      "p_value": 8e-07,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -7,
+      "or_value": null,
+      "beta": "0.325 kg/m2 increase",
+      "risk_frequency": "0.51",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index"
+      ],
+      "mapped_genes": [
+       "SLC24A5"
+      ],
+      "snp_effect_allele": [
+       "rs1426654-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 45,
+      "_pubdate": "2014-08-18"
+     }
+    ]
+   }
+  },
+  "PMID:30664655": {
+   "record_id": "PMID:30664655",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30664655/",
+   "retrieved_at": "2026-11-17T02:09:50.116574+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "30664655",
+    "title": "A GWAS in Latin Americans highlights the convergent evolution of lighter skin pigmentation in Eurasia.",
+    "journal": "Nat Commun",
+    "pubdate": "2019 Jan 21",
+    "sortpubdate": "2019-01-21"
+   }
+  },
+  "LitVar2:rs1426654": {
+   "record_id": "LitVar2:rs1426654",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs1426654%23%23/publications",
+   "retrieved_at": "2026-11-17T02:09:50.181767+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     37294081,
+     25423363,
+     24048645,
+     24809478,
+     26918427,
+     36643868,
+     24219164,
+     24436253,
+     32333855,
+     32076829,
+     28228131,
+     23224873,
+     21668907,
+     41858092,
+     33930288,
+     40663601,
+     33167923,
+     37919796,
+     23071798,
+     29343290,
+     28164156,
+     34626111,
+     19884608,
+     34108994,
+     25093188,
+     25133637,
+     23325253,
+     29378629,
+     32169032,
+     24739399,
+     21498954,
+     28984396,
+     35712076,
+     37156940,
+     30980179,
+     26986070,
+     25307738,
+     29720671,
+     26744415,
+     27502179,
+     30530665,
+     22235241,
+     25058410,
+     23771755,
+     28749934,
+     25668207,
+     25333361,
+     34863217,
+     29564022,
+     29897334
+    ],
+    "n_pmids": 234
+   }
+  },
+  "PMID:18637132": {
+   "record_id": "PMID:18637132",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18637132/",
+   "retrieved_at": "2026-11-17T02:09:51.957008+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "18637132",
+    "title": "A study of a single variant allele (rs1426654) of the pigmentation-related gene SLC24A5 in Greek subjects.",
+    "journal": "Exp Dermatol",
+    "pubdate": "2009 Feb",
+    "sortpubdate": "2009-02-01",
+    "abstract": "The SLC24A5 gene, the human orthologue of the zebrafish golden gene, has been shown to play a key role in human pigmentation. In this study, we investigate the prevalence of the variant allele rs1426654 in a selected sample of Greek subjects. Allele-specific polymerase chain reaction was performed in peripheral blood samples from 158 attendants of a dermatology outpatient service. The results were correlated with pigmentary traits and MC1R genotype. The vast majority of subjects (99%) were homozygous for the Thr(111) allele. Only two subjects from the control group (1.26%) were heterozygous for the alanine and threonine allele. Both of these Thr(111)/Ala(111) heterozygotes carried a single polymorphism of MC1R (one with the V92M variant and another with the V60L variant). Following reports of the rs1426654 polymorphism reaching fixation in the European population, our study of Greek subjects showed a prevalence of the Thr(111) allele, even among subjects with darker skin pigmentation or phototype."
+   }
+  },
+  "PMID:25801600": {
+   "record_id": "PMID:25801600",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25801600/",
+   "retrieved_at": "2026-11-17T02:09:51.957008+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "25801600",
+    "title": "SLC24A5 and ASIP as phenotypic predictors in Brazilian population for forensic purposes.",
+    "journal": "Leg Med (Tokyo)",
+    "pubdate": "2015 Jul",
+    "sortpubdate": "2015-07-01",
+    "abstract": "Pigmentation is a variable and complex trait in humans and it is determined by the interaction of environmental factors, age, disease, hormones, exposure to ultraviolet radiation and genetic factors, including pigmentation genes. Many polymorphisms of these genes have been associated with phenotypic diversity of skin, eyes and hair color in homogeneous populations. Phenotype prediction from biological samples using genetic information has benefited forensic area in some countries, leading some criminal investigations. Herein, we evaluated the association between polymorphisms in the genes SLC24A5 (rs1426654) and ASIP (rs6058017) with skin, eyes and hair colors, in 483 healthy individuals from Brazilian population for attainable use in forensic practice. The volunteers answered a questionnaire where they self-reported their skin, eye and hair colors. The polymorphic homozygous genotype of rs1426654\u2217A and rs6058017\u2217A in SLC24A5 and ASIP respectively, showed strongest association with fairer skin (OR 47.8; CI 14.1-161.6 and OR 8.6; CI 2.5-29.8); SLC24A5 alone showed associations with blue eyes (OR 20.7; CI 1.2-346.3) and blond hair (OR 26.6; CI 1.5-460.9). Our data showed that polymorphic genotypes (AA), in both genes, are correlated with characteristics of light pigmentation, while the ancestral genotype (GG) is related to darker traits, corroborating with previous studies in European and African populations. These associations show that specific molecular information of an individual may be useful to access some phenotypic features in an attempt to help forensic investigations, not only on crime scene samples but also in cases of face reconstructions in unknown bodies."
+   }
+  },
+  "PMID:24244186": {
+   "record_id": "PMID:24244186",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24244186/",
+   "retrieved_at": "2026-11-17T02:09:51.957008+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "24244186",
+    "title": "The light skin allele of SLC24A5 in South Asians and Europeans shares identity by descent.",
+    "journal": "PLoS Genet",
+    "pubdate": "2013 Nov",
+    "sortpubdate": "2013-11-01",
+    "abstract": "Skin pigmentation is one of the most variable phenotypic traits in humans. A non-synonymous substitution (rs1426654) in the third exon of SLC24A5 accounts for lighter skin in Europeans but not in East Asians. A previous genome-wide association study carried out in a heterogeneous sample of UK immigrants of South Asian descent suggested that this gene also contributes significantly to skin pigmentation variation among South Asians. In the present study, we have quantitatively assessed skin pigmentation for a largely homogeneous cohort of 1228 individuals from the Southern region of the Indian subcontinent. Our data confirm significant association of rs1426654 SNP with skin pigmentation, explaining about 27% of total phenotypic variation in the cohort studied. Our extensive survey of the polymorphism in 1573 individuals from 54 ethnic populations across the Indian subcontinent reveals wide presence of the derived-A allele, although the frequencies vary substantially among populations. We also show that the geospatial pattern of this allele is complex, but most importantly, reflects strong influence of language, geography and demographic history of the populations. Sequencing 11.74 kb of SLC24A5 in 95 individuals worldwide reveals that the rs1426654-A alleles in South Asian and West Eurasian populations are monophyletic and occur on the background of a common haplotype that is characterized by low genetic diversity. We date the coalescence of the light skin associated allele at 22-28 KYA. Both our sequence and genome-wide genotype data confirm that this gene has been a target for positive selection among Europeans. However, the latter also shows additional evidence of selection in populations of the Middle East, Central Asia, Pakistan and North India but not in South India."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 29,
+  "n_claims_fully_verified": 29,
+  "n_uncited_claims": 0,
+  "n_citations": 74,
+  "n_citations_valid": 74,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 54,
+  "n_shown_values_in_text": 54,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 29,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

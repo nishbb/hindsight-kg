@@ -1,0 +1,1745 @@
+{
+ "rsid_query": "rs113993960",
+ "rsid_current": "rs113993960",
+ "as_of": "2020-01-01",
+ "generated_at": "2026-11-17T02:14:01.843780+00:00",
+ "genes": {
+  "vep": [
+   "CFTR"
+  ],
+  "dbsnp": [
+   "CFTR",
+   "CFTR-AS1"
+  ],
+  "clinvar": [
+   "CFTR"
+  ],
+  "gwas": []
+ },
+ "variant_type": "delins",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000007.14:g.117559592_117559594del",
+   "spdi_deleted": "TCTT",
+   "spdi_inserted": "T",
+   "chrom": "7",
+   "pos": 117559591,
+   "ref": "TCTT",
+   "alt": "T",
+   "type": "deletion",
+   "gnomad_v4_id": "7-117559591-TCTT-T",
+   "vep": {
+    "gene_symbol": "CFTR",
+    "consequence_terms": [
+     "inframe_deletion"
+    ],
+    "hgvsc": "ENST00000003084.11:c.1521_1523del",
+    "hgvsp": "ENSP00000003084.6:p.Phe508del",
+    "impact": "MODERATE",
+    "mane_select": "NM_000492.4"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    }
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000007.14:g.117559592_117559594dup",
+   "spdi_deleted": "TCTT",
+   "spdi_inserted": "TCTTCTT",
+   "chrom": "7",
+   "pos": 117559591,
+   "ref": "T",
+   "alt": "TCTT",
+   "type": "insertion or duplication",
+   "gnomad_v4_id": "7-117559591-T-TCTT",
+   "vep": {
+    "gene_symbol": "CFTR",
+    "consequence_terms": [
+     "inframe_insertion"
+    ],
+    "hgvsc": "ENST00000003084.11:c.1523_1524insCTT",
+    "hgvsp": "ENSP00000003084.6:p.Phe508dup",
+    "impact": "MODERATE",
+    "mane_select": "NM_000492.4"
+   },
+   "frequency": {
+    "gnomad_v2": null
+   }
+  }
+ ],
+ "clinvar": [
+  {
+   "variation_id": "7105",
+   "allele_index": 1,
+   "name": "NM_000492.3(CFTR):c.1521_1523delCTT (p.Phe508delPhe)",
+   "classification": "Pathogenic",
+   "review_status": "practice guideline",
+   "conditions": [
+    "Bronchiectasis with or without elevated sweat chloride 1, modifier of",
+    "Cystic fibrosis",
+    "Duodenal stenosis",
+    "Hereditary pancreatitis",
+    "Inborn genetic diseases",
+    "Recurrent pancreatitis",
+    "ivacaftor / lumacaftor response - Efficacy",
+    "ivacaftor response - Efficacy"
+   ],
+   "origin": "germline;maternal;paternal;unknown",
+   "n_submitters": "20",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "Pathogenic",
+     "review_status": "practice guideline",
+     "n_submitters": "17",
+     "last_evaluated": "Aug 22, 2017",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "Pathogenic",
+     "review_status": "practice guideline",
+     "n_submitters": "20",
+     "last_evaluated": "Nov 22, 2018",
+     "release_date": "2019-01-03"
+    }
+   ],
+   "submission_classes": {}
+  }
+ ],
+ "clinvar_release": "2019-01",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 22,
+  "n_associations_in_scope": 0,
+  "n_genome_wide_significant": 0,
+  "n_studies": 0,
+  "mapped_genes": [],
+  "top_traits": [],
+  "n_distinct_traits_significant": 0,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 6425,
+  "n_in_scope": 3353,
+  "pmids_in_scope": [
+   "30642785",
+   "31176670",
+   "31182369",
+   "31298435",
+   "31327670",
+   "31344706",
+   "31570318",
+   "31626570",
+   "31654605",
+   "31712131",
+   "31727452",
+   "31732698",
+   "31828483",
+   "32026723",
+   "32088877",
+   "32265602",
+   "32382247",
+   "33055353",
+   "33163960",
+   "34541464",
+   "31892318",
+   "32082621",
+   "31966908",
+   "31864360",
+   "31877800",
+   "32851332",
+   "31861540",
+   "31871773",
+   "31921811",
+   "31842871",
+   "31697075",
+   "31729878",
+   "31831857",
+   "31822584",
+   "31819107",
+   "31655261",
+   "31817059",
+   "31511888",
+   "31657788",
+   "31189070",
+   "31198082",
+   "31300517",
+   "31596601",
+   "31600091",
+   "31634902",
+   "31659727",
+   "31727592",
+   "31784874",
+   "31823853",
+   "31844782"
+  ],
+  "top": [
+   "31298435",
+   "31732698",
+   "31697075"
+  ]
+ },
+ "conflicts": [],
+ "bottom_line": {
+  "category": "germline disease variant",
+  "confidence": "high",
+  "rationale": "multi-submitter or expert-reviewed ClinVar assertion without submitter conflict",
+  "text": "Bottom line: rs113993960 in CFTR is best described as: germline disease variant. ClinVar links it to Bronchiectasis with or without elevated sweat chloride 1, modifier of. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict)."
+ },
+ "notes": [
+  "CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'."
+ ],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs113993960 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs113993960",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs113993960",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs113993960: rs199826652.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs113993960",
+     "path": "dbsnp1_merges.0",
+     "value": "199826652",
+     "label": "dbSNP build 157 rs113993960",
+     "mode": "eq",
+     "shown": "rs199826652",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs113993960 as variant type 'delins' on NC_000007.14 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs113993960",
+     "path": "variant_type",
+     "value": "delins",
+     "label": "dbSNP build 157 rs113993960",
+     "mode": "eq",
+     "shown": "delins",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs113993960",
+     "path": "seq_id",
+     "value": "NC_000007.14",
+     "label": "dbSNP build 157 rs113993960",
+     "mode": "eq",
+     "shown": "NC_000007.14",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000007.14:g.117559592_117559594del, a deletion (TCTT>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs113993960",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000007.14:g.117559592_117559594del",
+     "label": "dbSNP build 157 rs113993960",
+     "mode": "eq",
+     "shown": "NC_000007.14:g.117559592_117559594del",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000007.14:g.117559592_117559594dup, a insertion or duplication (T>TCTT in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs113993960",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000007.14:g.117559592_117559594dup",
+     "label": "dbSNP build 157 rs113993960",
+     "mode": "eq",
+     "shown": "NC_000007.14:g.117559592_117559594dup",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (TCTT>T), Ensembl VEP predicts inframe_deletion in CFTR (ENST00000003084.11:c.1521_1523del; ENSP00000003084.6:p.Phe508del), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "inframe_deletion",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "inframe_deletion",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "CFTR",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "CFTR",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000003084.11:c.1521_1523del",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "ENST00000003084.11:c.1521_1523del",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.0.hgvsp",
+     "value": "ENSP00000003084.6:p.Phe508del",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "ENSP00000003084.6:p.Phe508del",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 2 (T>TCTT), Ensembl VEP predicts inframe_insertion in CFTR (ENST00000003084.11:c.1523_1524insCTT; ENSP00000003084.6:p.Phe508dup), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.1.consequence_terms.0",
+     "value": "inframe_insertion",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "inframe_insertion",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.1.gene_symbol",
+     "value": "CFTR",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "CFTR",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.1.hgvsc",
+     "value": "ENST00000003084.11:c.1523_1524insCTT",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "ENST00000003084.11:c.1523_1524insCTT",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.1.hgvsp",
+     "value": "ENSP00000003084.6:p.Phe508dup",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "ENSP00000003084.6:p.Phe508dup",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.1.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'indel' with allele string TCTT/T/TCTTCTT.",
+   "citations": [
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "variant_class",
+     "value": "indel",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "indel",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "allele_string",
+     "value": "TCTT/T/TCTTCTT",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "TCTT/T/TCTTCTT",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 1 (TCTT>T) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs113993960",
+     "path": "hits.1._id",
+     "value": "chr7:g.117199646_117199648del",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 2 (T>TCTT) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs113993960.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs113993960",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_000492.3(CFTR):c.1521_1523delCTT (p.Phe508delPhe) (alternate allele 1) with germline classification 'Pathogenic' for: Bronchiectasis with or without elevated sweat chloride 1, modifier of; Cystic fibrosis; Duodenal stenosis; Hereditary pancreatitis; and 4 more; review status 'practice guideline', 20 submitter(s), allele origin 'germline;maternal;paternal;unknown'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000007105@2019-01",
+     "path": "clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000007105 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2019-01",
+     "path": "review_status",
+     "value": "practice guideline",
+     "label": "ClinVar VCV000007105 (2019-01 release)",
+     "mode": "eq",
+     "shown": "practice guideline",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2019-01",
+     "path": "name",
+     "value": "NM_000492.3(CFTR):c.1521_1523delCTT (p.Phe508delPhe)",
+     "label": "ClinVar VCV000007105 (2019-01 release)",
+     "mode": "eq",
+     "shown": "NM_000492.3(CFTR):c.1521_1523delCTT (p.Phe508delPhe)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2019-01",
+     "path": "n_submitters",
+     "value": "20",
+     "label": "ClinVar VCV000007105 (2019-01 release)",
+     "mode": "eq",
+     "shown": "20",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2019-01",
+     "path": "phenotype_list",
+     "value": "Bronchiectasis with or without elevated sweat chloride 1, modifier of",
+     "label": "ClinVar VCV000007105 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Bronchiectasis with or without elevated sweat chloride 1, modifier of",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2019-01",
+     "path": "phenotype_list",
+     "value": "Cystic fibrosis",
+     "label": "ClinVar VCV000007105 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Cystic fibrosis",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2019-01",
+     "path": "phenotype_list",
+     "value": "Duodenal stenosis",
+     "label": "ClinVar VCV000007105 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Duodenal stenosis",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2019-01",
+     "path": "phenotype_list",
+     "value": "Hereditary pancreatitis",
+     "label": "ClinVar VCV000007105 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Hereditary pancreatitis",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2019-01",
+     "path": "origin",
+     "value": "germline;maternal;paternal;unknown",
+     "label": "ClinVar VCV000007105 (2019-01 release)",
+     "mode": "eq",
+     "shown": "germline;maternal;paternal;unknown",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic; 2019-01: Pathogenic. The classification did not change over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000007105@2019-01",
+     "path": "history.0.clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000007105 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2019-01",
+     "path": "history.1.clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000007105 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 22 association record(s) for rs113993960. Of these, 0 were published on or before 2020-01-01.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations.21.association_id",
+     "value": 218945145,
+     "label": "GWAS Catalog rs113993960",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 6425 PubMed articles to rs113993960; 3353 of the 6423 with a PubMed date were published on or before 2020-01-01.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs113993960",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs113993960",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"F508del disturbs the dynamics of the nucleotide binding domains of CFTR before and after ATP hydrolysis\" (Proteins, 2020).",
+   "citations": [
+    {
+     "record_id": "PMID:31298435",
+     "path": "title",
+     "value": "F508del disturbs the dynamics of the nucleotide binding domains of CFTR before and after ATP hydrolysis.",
+     "label": "PMID:31298435",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31298435",
+     "path": "journal",
+     "value": "Proteins",
+     "label": "PMID:31298435",
+     "mode": "eq",
+     "shown": "Proteins",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Biological Characterization of F508delCFTR Protein Processing by the CFTR Corrector ABBV-2222/GLPG2222\" (J Pharmacol Exp Ther, 2020).",
+   "citations": [
+    {
+     "record_id": "PMID:31732698",
+     "path": "title",
+     "value": "Biological Characterization of F508delCFTR Protein Processing by the CFTR Corrector ABBV-2222/GLPG2222.",
+     "label": "PMID:31732698",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31732698",
+     "path": "journal",
+     "value": "J Pharmacol Exp Ther",
+     "label": "PMID:31732698",
+     "mode": "eq",
+     "shown": "J Pharmacol Exp Ther",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Computational Analysis of Energy Landscapes Reveals Dynamic Features That Contribute to Binding of Inhibitors to CFTR-Associated Ligand\" (J Phys Chem B, 2019).",
+   "citations": [
+    {
+     "record_id": "PMID:31697075",
+     "path": "title",
+     "value": "Computational Analysis of Energy Landscapes Reveals Dynamic Features That Contribute to Binding of Inhibitors to CFTR-Associated Ligand.",
+     "label": "PMID:31697075",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31697075",
+     "path": "journal",
+     "value": "J Phys Chem B",
+     "label": "PMID:31697075",
+     "mode": "eq",
+     "shown": "J Phys Chem B",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs113993960 in CFTR is best described as: germline disease variant. ClinVar links it to Bronchiectasis with or without elevated sweat chloride 1, modifier of. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict).",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000007105@2019-01",
+     "path": "clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000007105 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs113993960",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs113993960",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs113993960",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs113993960": {
+   "record_id": "dbSNP:rs113993960",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/113993960",
+   "retrieved_at": "2026-11-17T02:03:24.290298+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "113993960",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "199826652"
+    ],
+    "merged_into": [],
+    "citations": [
+     1370875,
+     1377276,
+     1381146,
+     1384321,
+     1536179,
+     1673094,
+     1756602,
+     1937486,
+     1997384,
+     2210767,
+     2220803,
+     2236053,
+     2300168,
+     2475911,
+     2570460,
+     7509564,
+     7537148,
+     9135274,
+     9439669,
+     11280952,
+     15141088,
+     15246977,
+     15367919,
+     15371902,
+     15948195,
+     17206681,
+     17413420,
+     17692578,
+     18507830,
+     19774621,
+     19846789,
+     20595578,
+     20705837,
+     21416780,
+     21602569,
+     21825083,
+     21976485,
+     22293084,
+     22383668,
+     22942289,
+     22981120,
+     22992668,
+     23757202,
+     23974870,
+     24033266,
+     24559724,
+     24973281,
+     25741868,
+     25981758,
+     26968770,
+     27214033,
+     27298017
+    ],
+    "variant_type": "delins",
+    "seq_id": "NC_000007.14",
+    "alleles": [
+     {
+      "hgvs": "NC_000007.14:g.117559591_117559594=",
+      "position0": 117559590,
+      "deleted": "TCTT",
+      "inserted": "TCTT"
+     },
+     {
+      "hgvs": "NC_000007.14:g.117559592_117559594del",
+      "position0": 117559590,
+      "deleted": "TCTT",
+      "inserted": "T"
+     },
+     {
+      "hgvs": "NC_000007.14:g.117559592_117559594dup",
+      "position0": 117559590,
+      "deleted": "TCTT",
+      "inserted": "TCTTCTT"
+     }
+    ],
+    "genes": [
+     "CFTR",
+     "CFTR-AS1"
+    ]
+   }
+  },
+  "VEP:rs113993960": {
+   "record_id": "VEP:rs113993960",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs113993960",
+   "retrieved_at": "2026-11-17T02:03:24.842564+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs113993960",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "7",
+    "start": 117559591,
+    "end": 117559594,
+    "allele_string": "TCTT/T/TCTTCTT",
+    "variant_class": "indel",
+    "most_severe_consequence": "inframe_insertion",
+    "transcript_consequences": [
+     {
+      "variant_allele": "T",
+      "gene_symbol": "CFTR",
+      "gene_id": "ENSG00000001626",
+      "transcript_id": "ENST00000003084",
+      "mane_select": "NM_000492.4",
+      "consequence_terms": [
+       "inframe_deletion"
+      ],
+      "hgvsc": "ENST00000003084.11:c.1521_1523del",
+      "hgvsp": "ENSP00000003084.6:p.Phe508del",
+      "impact": "MODERATE",
+      "amino_acids": "IF/I",
+      "protein_start": 507,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "TCTTCTT",
+      "gene_symbol": "CFTR",
+      "gene_id": "ENSG00000001626",
+      "transcript_id": "ENST00000003084",
+      "mane_select": "NM_000492.4",
+      "consequence_terms": [
+       "inframe_insertion"
+      ],
+      "hgvsc": "ENST00000003084.11:c.1523_1524insCTT",
+      "hgvsp": "ENSP00000003084.6:p.Phe508dup",
+      "impact": "MODERATE",
+      "amino_acids": "IF/IFF",
+      "protein_start": 507,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [],
+    "colocated_somatic": false
+   }
+  },
+  "gnomAD-v2.1.1:rs113993960": {
+   "record_id": "gnomAD-v2.1.1:rs113993960",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:03:24.939694+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr7:g.117199646_117199648dup",
+      "_score": 17.141094,
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "TCTTCTT",
+       "ref": "TCTT",
+       "vartype": "delins"
+      }
+     },
+     {
+      "_id": "chr7:g.117199646_117199648del",
+      "_score": 17.141026,
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "T",
+       "ref": "TCTT",
+       "vartype": "delins"
+      },
+      "vcf": {
+       "alt": "T",
+       "position": "117199645",
+       "ref": "TCTT"
+      }
+     }
+    ]
+   }
+  },
+  "ClinVar:VCV000007105@2019-01": {
+   "record_id": "ClinVar:VCV000007105@2019-01",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2019-01 (2019-01-03)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/7105/",
+   "retrieved_at": "2026-11-17T02:14:01.505818+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "22144",
+    "type": "deletion",
+    "name": "NM_000492.3(CFTR):c.1521_1523delCTT (p.Phe508delPhe)",
+    "gene_symbol": "CFTR",
+    "clnsig": "Pathogenic",
+    "last_evaluated": "Nov 22, 2018",
+    "rcv": "RCV000007524;RCV000007523;RCV000626692;RCV000119038;RCV000624683;RCV000626693;RCV000417138;RCV000211188;RCV000058929;RCV000505932",
+    "phenotype_list": "Bronchiectasis with or without elevated sweat chloride 1, modifier of;Cystic fibrosis;Duodenal stenosis;Hereditary pancreatitis;Inborn genetic diseases;Recurrent pancreatitis;ivacaftor / lumacaftor response - Efficacy;ivacaftor response - Efficacy;not provided;not specified",
+    "origin": "germline;maternal;paternal;unknown",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "7",
+    "start": "117559592",
+    "ref": "CTT",
+    "alt": "-",
+    "review_status": "practice guideline",
+    "n_submitters": "20",
+    "variation_id": "7105",
+    "ref_vcf": "",
+    "alt_vcf": "",
+    "pos_vcf": "",
+    "somatic_clinical_impact": "",
+    "oncogenicity": "",
+    "rsid": "rs113993960",
+    "submissions": [],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "Pathogenic",
+      "review_status": "practice guideline",
+      "n_submitters": "17",
+      "last_evaluated": "Aug 22, 2017",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "Pathogenic",
+      "review_status": "practice guideline",
+      "n_submitters": "20",
+      "last_evaluated": "Nov 22, 2018",
+      "release_date": "2019-01-03"
+     }
+    ]
+   }
+  },
+  "GWAS:rs113993960": {
+   "record_id": "GWAS:rs113993960",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:03:27.970478+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 218947005,
+      "accession_id": "GCST90837501",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 6e-23,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -23,
+      "or_value": "5.72",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005015",
+        "efo_trait": "diabetes mellitus"
+       }
+      ],
+      "reported_trait": [
+       "Secondary diabetes mellitus (PheCode 249)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946980,
+      "accession_id": "GCST90837500",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 9e-12,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -12,
+      "or_value": "1.62",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0001106",
+        "efo_trait": "kidney failure"
+       }
+      ],
+      "reported_trait": [
+       "Renal failure"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 1,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946955,
+      "accession_id": "GCST90837499",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 1e-46,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -46,
+      "or_value": "9.42",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0004652",
+        "efo_trait": "bacterial pneumonia"
+       }
+      ],
+      "reported_trait": [
+       "Pseudomonal pneumonia (PheCode 480.12)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 2,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946930,
+      "accession_id": "GCST90837498",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 4e-14,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -14,
+      "or_value": "1.99",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0001371",
+        "efo_trait": "protein-energy malnutrition"
+       }
+      ],
+      "reported_trait": [
+       "Protein-calorie malnutrition (PheCode 260)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 3,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946906,
+      "accession_id": "GCST90837497",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 1e-12,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -12,
+      "or_value": "1.63",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0002202",
+        "efo_trait": "Pleural effusion"
+       },
+       {
+        "efo_id": "MONDO_0000986",
+        "efo_trait": "pleurisy"
+       }
+      ],
+      "reported_trait": [
+       "Pleurisy; pleural effusion (PheCode 507)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 4,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946882,
+      "accession_id": "GCST90837496",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 1e-16,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -16,
+      "or_value": "7.37",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0001933",
+        "efo_trait": "endocrine pancreas disorder"
+       }
+      ],
+      "reported_trait": [
+       "Other disorders of pancreatic internal secretion"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 5,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946858,
+      "accession_id": "GCST90837495",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 2e-11,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -11,
+      "or_value": "2.66",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005087",
+        "efo_trait": "respiratory system disorder"
+       }
+      ],
+      "reported_trait": [
+       "Other diseases of respiratory system, NEC (PheCode 519.8)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 6,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946834,
+      "accession_id": "GCST90837494",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 1e-14,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -14,
+      "or_value": "1.76",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005275",
+        "efo_trait": "lung disorder"
+       }
+      ],
+      "reported_trait": [
+       "Other diseases of lung (PheCode 510)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 7,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946810,
+      "accession_id": "GCST90837493",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 5.0000000000000005e-22,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -22,
+      "or_value": "3.41",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0100582",
+        "efo_trait": "Nasal polyposis"
+       }
+      ],
+      "reported_trait": [
+       "Nasal polyps"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 8,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946786,
+      "accession_id": "GCST90837492",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 3e-22,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -22,
+      "or_value": "3.73",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0002041",
+        "efo_trait": "fungal infectious disease"
+       }
+      ],
+      "reported_trait": [
+       "Mycoses"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 9,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946761,
+      "accession_id": "GCST90837491",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 5e-13,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -13,
+      "or_value": "2.46",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0002105",
+        "efo_trait": "hemoptysis"
+       }
+      ],
+      "reported_trait": [
+       "Hemoptysis (PheCode 516.1)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 10,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946736,
+      "accession_id": "GCST90837490",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 3e-12,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -12,
+      "or_value": "1.97",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0018667",
+        "efo_trait": "pleural empyema"
+       },
+       {
+        "efo_id": "MONDO_0002076",
+        "efo_trait": "pneumothorax"
+       }
+      ],
+      "reported_trait": [
+       "Empyema and pneumothorax (PheCode 506)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 11,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946712,
+      "accession_id": "GCST90837489",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 3e-32,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -32,
+      "or_value": "3.0",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0002356",
+        "efo_trait": "pancreas disorder"
+       }
+      ],
+      "reported_trait": [
+       "Diseases of pancreas (PheCode 577)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 12,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946687,
+      "accession_id": "GCST90837488",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 4e-95,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -95,
+      "or_value": "14.87",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0009061",
+        "efo_trait": "cystic fibrosis"
+       }
+      ],
+      "reported_trait": [
+       "Cystic fibrosis"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 13,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945319,
+      "accession_id": "GCST90837487",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 2e-11,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -11,
+      "or_value": "3.14",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005003",
+        "efo_trait": "chronic pancreatitis"
+       }
+      ],
+      "reported_trait": [
+       "Chronic pancreatitis"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 14,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945294,
+      "accession_id": "GCST90837486",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 1e-15,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -15,
+      "or_value": "1.9",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005002",
+        "efo_trait": "chronic obstructive pulmonary disease"
+       }
+      ],
+      "reported_trait": [
+       "Chronic airway obstruction (PheCode 496)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 15,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945269,
+      "accession_id": "GCST90837485",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 1e-41,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -41,
+      "or_value": "5.21",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0004822",
+        "efo_trait": "bronchiectasis"
+       }
+      ],
+      "reported_trait": [
+       "Bronchiectasis"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 16,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945244,
+      "accession_id": "GCST90837484",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 2e-18,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -18,
+      "or_value": "2.19",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0004652",
+        "efo_trait": "bacterial pneumonia"
+       }
+      ],
+      "reported_trait": [
+       "Bacterial pneumonia"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 17,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945219,
+      "accession_id": "GCST90837483",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 8e-23,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -23,
+      "or_value": "6.13",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005657",
+        "efo_trait": "aspergillosis"
+       }
+      ],
+      "reported_trait": [
+       "Aspergillosis"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 18,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945195,
+      "accession_id": "GCST90837482",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 2e-12,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -12,
+      "or_value": "1.71",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0002492",
+        "efo_trait": "acute kidney injury"
+       }
+      ],
+      "reported_trait": [
+       "Acute renal failure"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 19,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945170,
+      "accession_id": "GCST90837481",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 1e-15,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -15,
+      "or_value": "2.51",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0032016",
+        "efo_trait": "abnormal sputum"
+       }
+      ],
+      "reported_trait": [
+       "Abnormal sputum (PheCode 516)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 20,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945145,
+      "accession_id": "GCST90837480",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 4e-12,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -12,
+      "or_value": "3.31",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0030878",
+        "efo_trait": "Abnormality on pulmonary function testing"
+       }
+      ],
+      "reported_trait": [
+       "Abnormal results of function study of pulmonary system (PheCode 514.1)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 21,
+      "_pubdate": "2025-11-26"
+     }
+    ]
+   }
+  },
+  "LitVar2:rs113993960": {
+   "record_id": "LitVar2:rs113993960",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs113993960%23%23/publications",
+   "retrieved_at": "2026-11-17T02:03:28.153054+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     37388288,
+     18022401,
+     42303492,
+     29425673,
+     39813132,
+     38928397,
+     26738707,
+     26509335,
+     34799640,
+     33718306,
+     35160099,
+     35782696,
+     1376297,
+     7733303,
+     41254982,
+     11698247,
+     18710599,
+     19169360,
+     39026768,
+     21364822,
+     27426903,
+     36143206,
+     36569192,
+     27394157,
+     40534129,
+     33652850,
+     38731904,
+     36143233,
+     38699141,
+     24608905,
+     16646290,
+     12386454,
+     23724185,
+     28606620,
+     7569573,
+     36012204,
+     32637102,
+     19890354,
+     34078906,
+     35422395,
+     25723074,
+     22380742,
+     23953609,
+     23331026,
+     23331027,
+     26542291,
+     36143317,
+     23331030,
+     23331029,
+     40730841
+    ],
+    "n_pmids": 6425
+   }
+  },
+  "PMID:31298435": {
+   "record_id": "PMID:31298435",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31298435/",
+   "retrieved_at": "2026-11-17T02:03:53.251489+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31298435",
+    "title": "F508del disturbs the dynamics of the nucleotide binding domains of CFTR before and after ATP hydrolysis.",
+    "journal": "Proteins",
+    "pubdate": "2020 Jan",
+    "sortpubdate": "2020-01-01",
+    "abstract": "The cystic fibrosis transmembrane conductance regulator (CFTR) channel is an ion channel responsible for chloride transport in epithelia and it belongs to the class of ABC transporters. The deletion of phenylalanine 508 (F508del) in CFTR is the most common mutation responsible for cystic fibrosis. Little is known about the effect of the mutation in the isolated nucleotide binding domains (NBDs), on dimer dynamics, ATP hydrolysis and even on nucleotide binding. Using molecular dynamics simulations of the human CFTR NBD dimer, we showed that F508del increases, in the prehydrolysis state, the inter-motif distance in both ATP binding sites (ABP) when ATP is bound. Additionally, a decrease in the number of catalytically competent conformations was observed in the presence of F508del. We used the subtraction technique to study the first 300\u2009ps after ATP hydrolysis in the catalytic competent site and found that the F508del dimer evidences lower conformational changes than the wild type. Using longer simulation times, the magnitude of the conformational changes in both forms increases. Nonetheless, the F508del dimer shows lower C-\u03b1 RMS values in comparison to the wild-type, on the F508del loop, on the residues surrounding the catalytic site and the portion of NBD2 adjacent to ABP1. These results provide evidence that F508del interferes with the NBD dynamics before and after ATP hydrolysis. These findings shed a new light on the effect of F508del on NBD dynamics and reveal a novel mechanism for the influence of F508del on CFTR."
+   }
+  },
+  "PMID:31732698": {
+   "record_id": "PMID:31732698",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31732698/",
+   "retrieved_at": "2026-11-17T02:03:54.814538+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31732698",
+    "title": "Biological Characterization of F508delCFTR Protein Processing by the CFTR Corrector ABBV-2222/GLPG2222.",
+    "journal": "J Pharmacol Exp Ther",
+    "pubdate": "2020 Jan",
+    "sortpubdate": "2020-01-01",
+    "abstract": "Cystic fibrosis (CF) is the most common monogenic autosomal recessive disease in Caucasians caused by pathogenic mutations in the cystic fibrosis transmembrane conductance regulator (CFTR) gene (CFTR). Significant small molecule therapeutic advances over the past two decades have been made to target the defective CFTR protein and enhance its function. To address the most prevalent defect of the defective CFTR protein (i.e., F508del mutation) in CF, two biomolecular activities are required, namely, correctors to increase the amount of properly folded F508delCFTR levels at the cell surface and potentiators to allow the effective opening, i.e., function of the F508delCFTR channel. Combined, these activities enhance chloride ion transport yielding improved hydration of the lung surface and subsequent restoration of mucociliary clearance. To enhance clinical benefits to CF patients, a complementary triple combination therapy consisting of two corrector molecules, type 1 (C1) and type 2, with additive mechanisms along with a potentiator are being investigated in the clinic for maximum restoration of mutated CFTR function. We report the identification and in vitro biologic characterization of ABBV-2222/GLPG2222 (4-[(2R,4R)-4-({[1-(2,2-difluoro-1,3-benzodioxol-5-yl)cyclopropyl]carbonyl}amino)-7-(difluoromethoxy)-3,4-dihydro-2H-chromen-2-yl]benzoic acid),-a novel, potent, and orally bioavailable C1 corrector developed by AbbVie-Galapagos and currently in clinical trials-which exhibits substantial improvements over the existing C1 correctors. This includes improvements in potency and drug-drug interaction (DDI) compared with 3-(6-(1-(2,2-difluorobenzo[d][1,3]dioxol-5-yl)cyclopropanecarboxamido)-3-methylpyridin-2-yl)benzoic acid (VX-809, Lumacaftor) and improvements in potency and efficacy compared with 1-(2,2-difluoro-1,3-benzodioxol-5-yl)-N-[1-[(2R)-2,3-dihydroxypropyl]-6-fluoro-2-(1-hydroxy-2-methylpropan-2-yl)indol-5-yl]cyclopropane-1-carboxamide (VX-661, Tezacaftor). ABBV-2222/GLPG2222 exhibits potent in vitro functional activity in primary patient cells harboring F508del/F508del CFTR with an EC50 value <10 nM. SIGNIFICANCE STATEMENT: To address the most prevalent defect of the defective CFTR protein (i.e., F508del mutation) in cystic fibrosis, AbbVie-Galapagos has developed ABBV-2222/GLPG2222, a novel, potent, and orally bioavailable C1 corrector of this protein. ABBV-2222/GLPG2222, which is currently in clinical trials, exhibits potent in vitro functional activity in primary patient cells harboring F508del/F508del CFTR and substantial improvements over the existing C1 correctors."
+   }
+  },
+  "PMID:31697075": {
+   "record_id": "PMID:31697075",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31697075/",
+   "retrieved_at": "2026-11-17T02:03:54.814538+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31697075",
+    "title": "Computational Analysis of Energy Landscapes Reveals Dynamic Features That Contribute to Binding of Inhibitors to CFTR-Associated Ligand.",
+    "journal": "J Phys Chem B",
+    "pubdate": "2019 Dec 12",
+    "sortpubdate": "2019-12-12",
+    "abstract": "The CFTR-associated ligand PDZ domain (CALP) binds to the cystic fibrosis transmembrane conductance regulator (CFTR) and mediates lysosomal degradation of mature CFTR. Inhibition of this interaction has been explored as a therapeutic avenue for cystic fibrosis. Previously, we reported the ensemble-based computational design of a novel peptide inhibitor of CALP, which resulted in the most binding-efficient inhibitor to date. This inhibitor, kCAL01, was designed using osprey and evinced significant biological activity in in vitro cell-based assays. Here, we report a crystal structure of kCAL01 bound to CALP and compare structural features against iCAL36, a previously developed inhibitor of CALP. We compute side-chain energy landscapes for each structure to not only enable approximation of binding thermodynamics but also reveal ensemble features that contribute to the comparatively efficient binding of kCAL01. Finally, we compare the previously reported design ensemble for kCAL01 vs the new crystal structure and show that, despite small differences between the design model and crystal structure, significant biophysical features that enhance inhibitor binding are captured in the design ensemble. This suggests not only that ensemble-based design captured thermodynamically significant features observed in vitro, but also that a design eschewing ensembles would miss the kCAL01 sequence entirely."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 18,
+  "n_claims_fully_verified": 18,
+  "n_uncited_claims": 0,
+  "n_citations": 42,
+  "n_citations_valid": 42,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 31,
+  "n_shown_values_in_text": 31,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 18,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

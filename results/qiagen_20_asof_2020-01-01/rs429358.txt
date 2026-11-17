@@ -1,0 +1,46 @@
+VARIANT DOSSIER: rs429358
+Evidence as of: 2020-01-01. Generated 2026-11-17.
+
+IDENTITY
+- rs429358 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs429358]
+- Earlier identifiers merged into rs429358: rs630496, rs61228756. [dbSNP build 157 rs429358]
+- dbSNP records rs429358 as variant type 'snv' on NC_000019.10 (GRCh38) with 1 alternate allele. [dbSNP build 157 rs429358]
+- Alternate allele 1: NC_000019.10:g.44908684T>C, a single-nucleotide variant (SNV) (T>C in VCF form). [dbSNP build 157 rs429358]
+
+FUNCTION
+- For alternate allele 1 (T>C), Ensembl VEP predicts missense_variant in APOE (ENST00000252486.9:c.388T>C; ENSP00000252486.3:p.Cys130Arg), impact MODERATE. [Ensembl VEP rs429358]
+- Ensembl classifies the variant as 'SNV' with allele string T/C. [Ensembl VEP rs429358]
+
+FREQUENCY
+- In gnomAD v2.1.1 exomes, alternate allele 1 (T>C) has an overall allele frequency of 0.138. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.224, Admixed American 0.103, Ashkenazi Jewish 0.115, East Asian 0.0874, Finnish 0.209, Non-Finnish European 0.15, South Asian 0.1, Other 0.131. [gnomAD v2.1.1 exomes]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_000041.3(APOE):c.388T>C (p.Cys130Arg) (alternate allele 1) with germline classification 'other' for: APOE4 VARIANT; APOE4(-)-FREIBURG; Alzheimer disease 2; Familial type 3 hyperlipoproteinemia; review status 'criteria provided, single submitter', 2 submitter(s), allele origin 'germline'. [ClinVar VCV000017864 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic, other; 2019-01: other. The classification changed over these releases. [ClinVar VCV000017864 (2019-01 release)]
+- No allele of rs429358 has a pathogenic or likely pathogenic germline classification in the ClinVar 2019-01 release. [ClinVar VCV000017864 (2019-01 release)]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 1429 association record(s) for rs429358. Of these, 120 were published on or before 2020-01-01. [GWAS Catalog rs429358]
+- Genome-wide significant association with tubulin-specific chaperone A measurement (p = 5e-646, study GCST90243133, effect allele rs429358-C). [GWAS Catalog GCST90243133; PMID:29875488]
+- Genome-wide significant association with leucine-rich repeat neuronal protein 1 measurement (p = 3e-418, study GCST90241762, effect allele rs429358-C). [GWAS Catalog GCST90241762; PMID:29875488]
+- Genome-wide significant association with c-reactive protein measurement (p = 6e-363, study GCST007615, effect allele rs429358-T). [GWAS Catalog GCST007615; PMID:30388399]
+- Genome-wide significant association with Alzheimer disease (p = 2e-303, study GCST009019). [GWAS Catalog GCST009019; PMID:31473137]
+- Genome-wide significant association with low density lipoprotein cholesterol measurement (p = 3e-187, study GCST007141, effect allele rs429358-T). [GWAS Catalog GCST007141; PMID:29507422]
+- Genome-wide significant association with protein CEI measurement (p = 4e-159, study GCST90242425, effect allele rs429358-C). [GWAS Catalog GCST90242425; PMID:29875488]
+- rs429358 is associated with 48 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs429358; ClinVar VCV000017864 (2019-01 release)]
+
+LITERATURE
+- LitVar2 links 3956 PubMed articles to rs429358; 1419 of the 3954 with a PubMed date were published on or before 2020-01-01. [LitVar2 rs429358]
+- Linked article: "First Bosnian Study of the Relationship between APOE rs7412 and rs429358 Variants and Pregnancy Loss" (Folia Biol (Praha), 2018). [PMID:30338758]
+- Linked article: "ApoE rs429358 and rs7412 Polymorphism and Gender Differences of Serum Lipid Profile and Cognition in Aging Chinese Population" (Front Aging Neurosci, 2017). [PMID:28824412]
+- Linked article: "Effects of APOE rs429358, rs7412 and GSTM1/GSTT1 Polymorphism on Plasma and Erythrocyte Antioxidant Parameters and Cognition in Old Chinese Adults" (Nutrients, 2015). [PMID:26404360]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs429358 in APOE is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with tubulin-specific chaperone A measurement. Confidence: high (111 genome-wide significant associations across 104 studies). [ClinVar VCV000017864 (2019-01 release); GWAS Catalog rs429358; LitVar2 rs429358]
+
+PROCESSING NOTES (not evidence)
+- CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'.

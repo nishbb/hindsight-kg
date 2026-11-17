@@ -1,0 +1,3457 @@
+{
+ "rsid_query": "rs113993960",
+ "rsid_current": "rs113993960",
+ "as_of": "latest",
+ "generated_at": "2026-11-17T02:13:54.752811+00:00",
+ "genes": {
+  "vep": [
+   "CFTR"
+  ],
+  "dbsnp": [
+   "CFTR",
+   "CFTR-AS1"
+  ],
+  "clinvar": [
+   "CFTR"
+  ],
+  "gwas": [
+   "CFTR"
+  ]
+ },
+ "variant_type": "delins",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000007.14:g.117559592_117559594del",
+   "spdi_deleted": "TCTT",
+   "spdi_inserted": "T",
+   "chrom": "7",
+   "pos": 117559591,
+   "ref": "TCTT",
+   "alt": "T",
+   "type": "deletion",
+   "gnomad_v4_id": "7-117559591-TCTT-T",
+   "vep": {
+    "gene_symbol": "CFTR",
+    "consequence_terms": [
+     "inframe_deletion"
+    ],
+    "hgvsc": "ENST00000003084.11:c.1521_1523del",
+    "hgvsp": "ENSP00000003084.6:p.Phe508del",
+    "impact": "MODERATE",
+    "mane_select": "NM_000492.4"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    },
+    "gnomad_v4": null
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000007.14:g.117559592_117559594dup",
+   "spdi_deleted": "TCTT",
+   "spdi_inserted": "TCTTCTT",
+   "chrom": "7",
+   "pos": 117559591,
+   "ref": "T",
+   "alt": "TCTT",
+   "type": "insertion or duplication",
+   "gnomad_v4_id": "7-117559591-T-TCTT",
+   "vep": {
+    "gene_symbol": "CFTR",
+    "consequence_terms": [
+     "inframe_insertion"
+    ],
+    "hgvsc": "ENST00000003084.11:c.1523_1524insCTT",
+    "hgvsp": "ENSP00000003084.6:p.Phe508dup",
+    "impact": "MODERATE",
+    "mane_select": "NM_000492.4"
+   },
+   "frequency": {
+    "gnomad_v2": null,
+    "gnomad_v4": null
+   }
+  }
+ ],
+ "clinvar": [
+  {
+   "variation_id": "7105",
+   "allele_index": 1,
+   "name": "NM_000492.3(CFTR):c.1521_1523del (p.Phe508del)",
+   "classification": "Pathogenic",
+   "review_status": "practice guideline",
+   "conditions": [
+    "Cystic fibrosis",
+    "BRONCHIECTASIS WITH OR WITHOUT ELEVATED SWEAT CHLORIDE 1, MODIFIER OF",
+    "Hereditary pancreatitis",
+    "Duodenal stenosis",
+    "Recurrent pancreatitis",
+    "Congenital bilateral aplasia of vas deferens from CFTR mutation",
+    "Obstructive azoospermia",
+    "ivacaftor / lumacaftor response - Efficacy",
+    "ivacaftor / tezacaftor response - Efficacy",
+    "CFTR-related disorder",
+    "Bronchiectasis with or without elevated sweat chloride 1",
+    "Cystic fibrosis diagnostic test",
+    "Fetal anomalies with a likely genetic cause"
+   ],
+   "origin": "de novo;germline;inherited;maternal;paternal;unknown",
+   "n_submitters": "91",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "Pathogenic",
+     "review_status": "practice guideline",
+     "n_submitters": "17",
+     "last_evaluated": "Aug 22, 2017",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "Pathogenic",
+     "review_status": "practice guideline",
+     "n_submitters": "20",
+     "last_evaluated": "Nov 22, 2018",
+     "release_date": "2019-01-03"
+    },
+    {
+     "snapshot": "2020-01",
+     "clnsig": "Pathogenic",
+     "review_status": "practice guideline",
+     "n_submitters": "26",
+     "last_evaluated": "Mar 11, 2019",
+     "release_date": "2020-01-02"
+    },
+    {
+     "snapshot": "2026-11",
+     "clnsig": "Pathogenic",
+     "review_status": "practice guideline",
+     "n_submitters": "91",
+     "last_evaluated": "Mar 03, 2004",
+     "release_date": "2026-11-16"
+    }
+   ],
+   "submission_classes": {
+    "drug response": 2,
+    "Pathogenic": 95,
+    "not provided": 4,
+    "risk factor": 1,
+    "Likely pathogenic": 2
+   }
+  }
+ ],
+ "clinvar_release": "2026-11",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 22,
+  "n_associations_in_scope": 22,
+  "n_genome_wide_significant": 22,
+  "n_studies": 22,
+  "mapped_genes": [
+   "CFTR"
+  ],
+  "top_traits": [
+   {
+    "trait": "cystic fibrosis",
+    "p_value": "4e-95",
+    "accession": "GCST90837488",
+    "pmid": "41298473"
+   },
+   {
+    "trait": "bacterial pneumonia",
+    "p_value": "1e-46",
+    "accession": "GCST90837499",
+    "pmid": "41298473"
+   },
+   {
+    "trait": "bronchiectasis",
+    "p_value": "1e-41",
+    "accession": "GCST90837485",
+    "pmid": "41298473"
+   },
+   {
+    "trait": "pancreas disorder",
+    "p_value": "3e-32",
+    "accession": "GCST90837489",
+    "pmid": "41298473"
+   },
+   {
+    "trait": "diabetes mellitus",
+    "p_value": "6e-23",
+    "accession": "GCST90837501",
+    "pmid": "41298473"
+   },
+   {
+    "trait": "aspergillosis",
+    "p_value": "8e-23",
+    "accession": "GCST90837483",
+    "pmid": "41298473"
+   }
+  ],
+  "n_distinct_traits_significant": 21,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 6425,
+  "n_in_scope": 6423,
+  "pmids_in_scope": [
+   "41601150",
+   "43023448",
+   "43014331",
+   "42988245",
+   "42977085",
+   "42874936",
+   "42995683",
+   "42963477",
+   "42931970",
+   "42829305",
+   "42085239",
+   "42537817",
+   "42551715",
+   "42616613",
+   "42686216",
+   "42883863",
+   "42785803",
+   "42742958",
+   "42731950",
+   "42825108",
+   "42691127",
+   "41837895",
+   "42185170",
+   "42243036",
+   "42303492",
+   "42414103",
+   "42680797",
+   "42794198",
+   "42824283",
+   "42835559",
+   "42729189",
+   "42737565",
+   "42652732",
+   "42719490",
+   "42166840",
+   "42208689",
+   "42235367",
+   "42242564",
+   "42302716",
+   "42360227",
+   "42461336",
+   "42572672",
+   "42066560",
+   "41654435",
+   "41741303",
+   "41813505",
+   "41925277",
+   "41936498",
+   "41968658",
+   "41998105"
+  ],
+  "top": [
+   "43023448",
+   "42988245",
+   "42977085"
+  ]
+ },
+ "conflicts": [],
+ "bottom_line": {
+  "category": "germline disease variant",
+  "confidence": "high",
+  "rationale": "multi-submitter or expert-reviewed ClinVar assertion without submitter conflict",
+  "text": "Bottom line: rs113993960 in CFTR is best described as: germline disease variant. ClinVar links it to Cystic fibrosis. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict)."
+ },
+ "notes": [],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs113993960 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs113993960",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs113993960",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs113993960: rs199826652.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs113993960",
+     "path": "dbsnp1_merges.0",
+     "value": "199826652",
+     "label": "dbSNP build 157 rs113993960",
+     "mode": "eq",
+     "shown": "rs199826652",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs113993960 as variant type 'delins' on NC_000007.14 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs113993960",
+     "path": "variant_type",
+     "value": "delins",
+     "label": "dbSNP build 157 rs113993960",
+     "mode": "eq",
+     "shown": "delins",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs113993960",
+     "path": "seq_id",
+     "value": "NC_000007.14",
+     "label": "dbSNP build 157 rs113993960",
+     "mode": "eq",
+     "shown": "NC_000007.14",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000007.14:g.117559592_117559594del, a deletion (TCTT>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs113993960",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000007.14:g.117559592_117559594del",
+     "label": "dbSNP build 157 rs113993960",
+     "mode": "eq",
+     "shown": "NC_000007.14:g.117559592_117559594del",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000007.14:g.117559592_117559594dup, a insertion or duplication (T>TCTT in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs113993960",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000007.14:g.117559592_117559594dup",
+     "label": "dbSNP build 157 rs113993960",
+     "mode": "eq",
+     "shown": "NC_000007.14:g.117559592_117559594dup",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (TCTT>T), Ensembl VEP predicts inframe_deletion in CFTR (ENST00000003084.11:c.1521_1523del; ENSP00000003084.6:p.Phe508del), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "inframe_deletion",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "inframe_deletion",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "CFTR",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "CFTR",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000003084.11:c.1521_1523del",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "ENST00000003084.11:c.1521_1523del",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.0.hgvsp",
+     "value": "ENSP00000003084.6:p.Phe508del",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "ENSP00000003084.6:p.Phe508del",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 2 (T>TCTT), Ensembl VEP predicts inframe_insertion in CFTR (ENST00000003084.11:c.1523_1524insCTT; ENSP00000003084.6:p.Phe508dup), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.1.consequence_terms.0",
+     "value": "inframe_insertion",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "inframe_insertion",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.1.gene_symbol",
+     "value": "CFTR",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "CFTR",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.1.hgvsc",
+     "value": "ENST00000003084.11:c.1523_1524insCTT",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "ENST00000003084.11:c.1523_1524insCTT",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.1.hgvsp",
+     "value": "ENSP00000003084.6:p.Phe508dup",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "ENSP00000003084.6:p.Phe508dup",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "transcript_consequences.1.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'indel' with allele string TCTT/T/TCTTCTT.",
+   "citations": [
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "variant_class",
+     "value": "indel",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "indel",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "allele_string",
+     "value": "TCTT/T/TCTTCTT",
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "TCTT/T/TCTTCTT",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 1 (TCTT>T) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs113993960",
+     "path": "hits.1._id",
+     "value": "chr7:g.117199646_117199648del",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "gnomAD v4.1 has no record for 7-117559591-TCTT-T (alternate allele 1).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:7-117559591-TCTT-T",
+     "path": "variant",
+     "value": null,
+     "label": "gnomAD v4.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 2 (T>TCTT) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs113993960.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs113993960",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "gnomAD v4.1 has no record for 7-117559591-T-TCTT (alternate allele 2).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:7-117559591-T-TCTT",
+     "path": "variant",
+     "value": null,
+     "label": "gnomAD v4.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_000492.3(CFTR):c.1521_1523del (p.Phe508del) (alternate allele 1) with germline classification 'Pathogenic' for: Cystic fibrosis; BRONCHIECTASIS WITH OR WITHOUT ELEVATED SWEAT CHLORIDE 1, MODIFIER OF; Hereditary pancreatitis; Duodenal stenosis; and 9 more; review status 'practice guideline', 91 submitter(s), allele origin 'de novo;germline;inherited;maternal;paternal;unknown'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "review_status",
+     "value": "practice guideline",
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "eq",
+     "shown": "practice guideline",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "name",
+     "value": "NM_000492.3(CFTR):c.1521_1523del (p.Phe508del)",
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "eq",
+     "shown": "NM_000492.3(CFTR):c.1521_1523del (p.Phe508del)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "n_submitters",
+     "value": "91",
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "eq",
+     "shown": "91",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "phenotype_list",
+     "value": "Cystic fibrosis",
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Cystic fibrosis",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "phenotype_list",
+     "value": "BRONCHIECTASIS WITH OR WITHOUT ELEVATED SWEAT CHLORIDE 1, MODIFIER OF",
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "contains",
+     "shown": "BRONCHIECTASIS WITH OR WITHOUT ELEVATED SWEAT CHLORIDE 1, MODIFIER OF",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "phenotype_list",
+     "value": "Hereditary pancreatitis",
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Hereditary pancreatitis",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "phenotype_list",
+     "value": "Duodenal stenosis",
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Duodenal stenosis",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "origin",
+     "value": "de novo;germline;inherited;maternal;paternal;unknown",
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "eq",
+     "shown": "de novo;germline;inherited;maternal;paternal;unknown",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic; 2019-01: Pathogenic; 2020-01: Pathogenic; 2026-11: Pathogenic. The classification did not change over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "history.0.clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "history.1.clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "history.2.clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "history.3.clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 95 'Pathogenic', 4 'not provided', 2 'drug response', 2 'Likely pathogenic', 1 'risk factor'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "",
+     "value": 95,
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "95",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Pathogenic"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "",
+     "value": 4,
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "4",
+     "args": [
+      "submissions",
+      "clnsig",
+      "not provided"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "",
+     "value": 2,
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "2",
+     "args": [
+      "submissions",
+      "clnsig",
+      "drug response"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "",
+     "value": 2,
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "2",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Likely pathogenic"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "",
+     "value": 1,
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "1",
+     "args": [
+      "submissions",
+      "clnsig",
+      "risk factor"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Somatic evidence",
+   "text": "No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant.",
+   "citations": [
+    {
+     "record_id": "VEP:rs113993960",
+     "path": "cosmic_ids",
+     "value": [],
+     "label": "Ensembl VEP rs113993960",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 22 association record(s) for rs113993960.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations.21.association_id",
+     "value": 218945145,
+     "label": "GWAS Catalog rs113993960",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with cystic fibrosis (p = 4e-95, study GCST90837488).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations.13.accession_id",
+     "value": "GCST90837488",
+     "label": "GWAS Catalog GCST90837488",
+     "mode": "eq",
+     "shown": "GCST90837488",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations.13.pvalue_exponent",
+     "value": -95,
+     "label": "GWAS Catalog GCST90837488",
+     "mode": "eq",
+     "shown": "4e-95",
+     "args": null
+    },
+    {
+     "record_id": "PMID:41298473",
+     "path": "pmid",
+     "value": "41298473",
+     "label": "PMID:41298473",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with bacterial pneumonia (p = 1e-46, study GCST90837499).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations.2.accession_id",
+     "value": "GCST90837499",
+     "label": "GWAS Catalog GCST90837499",
+     "mode": "eq",
+     "shown": "GCST90837499",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations.2.pvalue_exponent",
+     "value": -46,
+     "label": "GWAS Catalog GCST90837499",
+     "mode": "eq",
+     "shown": "1e-46",
+     "args": null
+    },
+    {
+     "record_id": "PMID:41298473",
+     "path": "pmid",
+     "value": "41298473",
+     "label": "PMID:41298473",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with bronchiectasis (p = 1e-41, study GCST90837485).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations.16.accession_id",
+     "value": "GCST90837485",
+     "label": "GWAS Catalog GCST90837485",
+     "mode": "eq",
+     "shown": "GCST90837485",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations.16.pvalue_exponent",
+     "value": -41,
+     "label": "GWAS Catalog GCST90837485",
+     "mode": "eq",
+     "shown": "1e-41",
+     "args": null
+    },
+    {
+     "record_id": "PMID:41298473",
+     "path": "pmid",
+     "value": "41298473",
+     "label": "PMID:41298473",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with pancreas disorder (p = 3e-32, study GCST90837489).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations.12.accession_id",
+     "value": "GCST90837489",
+     "label": "GWAS Catalog GCST90837489",
+     "mode": "eq",
+     "shown": "GCST90837489",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations.12.pvalue_exponent",
+     "value": -32,
+     "label": "GWAS Catalog GCST90837489",
+     "mode": "eq",
+     "shown": "3e-32",
+     "args": null
+    },
+    {
+     "record_id": "PMID:41298473",
+     "path": "pmid",
+     "value": "41298473",
+     "label": "PMID:41298473",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with diabetes mellitus (p = 6e-23, study GCST90837501).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations.0.accession_id",
+     "value": "GCST90837501",
+     "label": "GWAS Catalog GCST90837501",
+     "mode": "eq",
+     "shown": "GCST90837501",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations.0.pvalue_exponent",
+     "value": -23,
+     "label": "GWAS Catalog GCST90837501",
+     "mode": "eq",
+     "shown": "6e-23",
+     "args": null
+    },
+    {
+     "record_id": "PMID:41298473",
+     "path": "pmid",
+     "value": "41298473",
+     "label": "PMID:41298473",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with aspergillosis (p = 8e-23, study GCST90837483).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations.18.accession_id",
+     "value": "GCST90837483",
+     "label": "GWAS Catalog GCST90837483",
+     "mode": "eq",
+     "shown": "GCST90837483",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations.18.pvalue_exponent",
+     "value": -23,
+     "label": "GWAS Catalog GCST90837483",
+     "mode": "eq",
+     "shown": "8e-23",
+     "args": null
+    },
+    {
+     "record_id": "PMID:41298473",
+     "path": "pmid",
+     "value": "41298473",
+     "label": "PMID:41298473",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 6425 PubMed articles to rs113993960.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs113993960",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs113993960",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Pulmonary Ionocytes Regulate CFTR-Mediated Chloride Transport in Human iPSC-Derived Epithelium\" (Am J Respir Cell Mol Biol, 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:43023448",
+     "path": "title",
+     "value": "Pulmonary Ionocytes Regulate CFTR-Mediated Chloride Transport in Human iPSC-Derived Epithelium.",
+     "label": "PMID:43023448",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:43023448",
+     "path": "journal",
+     "value": "Am J Respir Cell Mol Biol",
+     "label": "PMID:43023448",
+     "mode": "eq",
+     "shown": "Am J Respir Cell Mol Biol",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"The PDE4 inhibitor tanimilast (CHF6001) activates CFTR function in native and in F508del-expressing airway epithelial cells\" (Eur J Pharmacol, 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:42988245",
+     "path": "title",
+     "value": "The PDE4 inhibitor tanimilast (CHF6001) activates CFTR function in native and in F508del-expressing airway epithelial cells.",
+     "label": "PMID:42988245",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:42988245",
+     "path": "journal",
+     "value": "Eur J Pharmacol",
+     "label": "PMID:42988245",
+     "mode": "eq",
+     "shown": "Eur J Pharmacol",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Offering prenatal CFTR modulators to prevent cystic fibrosis-related organ damage in utero\" (Am J Obstet Gynecol MFM, 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:42977085",
+     "path": "title",
+     "value": "Offering prenatal CFTR modulators to prevent cystic fibrosis-related organ damage in utero.",
+     "label": "PMID:42977085",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:42977085",
+     "path": "journal",
+     "value": "Am J Obstet Gynecol MFM",
+     "label": "PMID:42977085",
+     "mode": "eq",
+     "shown": "Am J Obstet Gynecol MFM",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs113993960 in CFTR is best described as: germline disease variant. ClinVar links it to Cystic fibrosis. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict).",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000007105@2026-11",
+     "path": "clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000007105 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs113993960",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs113993960",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs113993960",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs113993960",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs113993960": {
+   "record_id": "dbSNP:rs113993960",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/113993960",
+   "retrieved_at": "2026-11-17T02:03:24.290298+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "113993960",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "199826652"
+    ],
+    "merged_into": [],
+    "citations": [
+     1370875,
+     1377276,
+     1381146,
+     1384321,
+     1536179,
+     1673094,
+     1756602,
+     1937486,
+     1997384,
+     2210767,
+     2220803,
+     2236053,
+     2300168,
+     2475911,
+     2570460,
+     7509564,
+     7537148,
+     9135274,
+     9439669,
+     11280952,
+     15141088,
+     15246977,
+     15367919,
+     15371902,
+     15948195,
+     17206681,
+     17413420,
+     17692578,
+     18507830,
+     19774621,
+     19846789,
+     20595578,
+     20705837,
+     21416780,
+     21602569,
+     21825083,
+     21976485,
+     22293084,
+     22383668,
+     22942289,
+     22981120,
+     22992668,
+     23757202,
+     23974870,
+     24033266,
+     24559724,
+     24973281,
+     25741868,
+     25981758,
+     26968770,
+     27214033,
+     27298017
+    ],
+    "variant_type": "delins",
+    "seq_id": "NC_000007.14",
+    "alleles": [
+     {
+      "hgvs": "NC_000007.14:g.117559591_117559594=",
+      "position0": 117559590,
+      "deleted": "TCTT",
+      "inserted": "TCTT"
+     },
+     {
+      "hgvs": "NC_000007.14:g.117559592_117559594del",
+      "position0": 117559590,
+      "deleted": "TCTT",
+      "inserted": "T"
+     },
+     {
+      "hgvs": "NC_000007.14:g.117559592_117559594dup",
+      "position0": 117559590,
+      "deleted": "TCTT",
+      "inserted": "TCTTCTT"
+     }
+    ],
+    "genes": [
+     "CFTR",
+     "CFTR-AS1"
+    ]
+   }
+  },
+  "VEP:rs113993960": {
+   "record_id": "VEP:rs113993960",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs113993960",
+   "retrieved_at": "2026-11-17T02:03:24.842564+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs113993960",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "7",
+    "start": 117559591,
+    "end": 117559594,
+    "allele_string": "TCTT/T/TCTTCTT",
+    "variant_class": "indel",
+    "most_severe_consequence": "inframe_insertion",
+    "transcript_consequences": [
+     {
+      "variant_allele": "T",
+      "gene_symbol": "CFTR",
+      "gene_id": "ENSG00000001626",
+      "transcript_id": "ENST00000003084",
+      "mane_select": "NM_000492.4",
+      "consequence_terms": [
+       "inframe_deletion"
+      ],
+      "hgvsc": "ENST00000003084.11:c.1521_1523del",
+      "hgvsp": "ENSP00000003084.6:p.Phe508del",
+      "impact": "MODERATE",
+      "amino_acids": "IF/I",
+      "protein_start": 507,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "TCTTCTT",
+      "gene_symbol": "CFTR",
+      "gene_id": "ENSG00000001626",
+      "transcript_id": "ENST00000003084",
+      "mane_select": "NM_000492.4",
+      "consequence_terms": [
+       "inframe_insertion"
+      ],
+      "hgvsc": "ENST00000003084.11:c.1523_1524insCTT",
+      "hgvsp": "ENSP00000003084.6:p.Phe508dup",
+      "impact": "MODERATE",
+      "amino_acids": "IF/IFF",
+      "protein_start": 507,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [],
+    "colocated_somatic": false
+   }
+  },
+  "gnomAD-v2.1.1:rs113993960": {
+   "record_id": "gnomAD-v2.1.1:rs113993960",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:03:24.939694+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr7:g.117199646_117199648dup",
+      "_score": 17.141094,
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "TCTTCTT",
+       "ref": "TCTT",
+       "vartype": "delins"
+      }
+     },
+     {
+      "_id": "chr7:g.117199646_117199648del",
+      "_score": 17.141026,
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "T",
+       "ref": "TCTT",
+       "vartype": "delins"
+      },
+      "vcf": {
+       "alt": "T",
+       "position": "117199645",
+       "ref": "TCTT"
+      }
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:7-117559591-TCTT-T": {
+   "record_id": "gnomAD-v4.1:7-117559591-TCTT-T",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:03:25.110396+00:00",
+   "status": 200,
+   "data": {
+    "variant": null,
+    "errors": [
+     {
+      "message": "Variant not found"
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:7-117559591-T-TCTT": {
+   "record_id": "gnomAD-v4.1:7-117559591-T-TCTT",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:03:26.009397+00:00",
+   "status": 200,
+   "data": {
+    "variant": null,
+    "errors": [
+     {
+      "message": "Variant not found"
+     }
+    ]
+   }
+  },
+  "ClinVar:VCV000007105@2026-11": {
+   "record_id": "ClinVar:VCV000007105@2026-11",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/7105/",
+   "retrieved_at": "2026-11-17T02:13:54.501145+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "22144",
+    "type": "Deletion",
+    "name": "NM_000492.3(CFTR):c.1521_1523del (p.Phe508del)",
+    "gene_symbol": "CFTR",
+    "clnsig": "Pathogenic",
+    "last_evaluated": "Mar 03, 2004",
+    "rcv": "RCV000007523|RCV000007524|RCV000058929|RCV000119038|RCV000626692|RCV000626693|RCV001004459|RCV001642198|RCV001787370|RCV001787371|RCV001831519|RCV002251888|RCV002243627|RCV002490332|RCV003227599|RCV003444054|RCV005865162|RCV006983891",
+    "phenotype_list": "Cystic fibrosis|BRONCHIECTASIS WITH OR WITHOUT ELEVATED SWEAT CHLORIDE 1, MODIFIER OF|not provided|Hereditary pancreatitis|Duodenal stenosis|Recurrent pancreatitis|Congenital bilateral aplasia of vas deferens from CFTR mutation;Cystic fibrosis|Obstructive azoospermia|ivacaftor / lumacaftor response - Efficacy|ivacaftor / tezacaftor response - Efficacy|CFTR-related disorder|See cases|Hereditary pancreatitis;Cystic fibrosis|Hereditary pancreatitis;Bronchiectasis with or without elevated sweat chloride 1;Congenital bilateral aplasia of vas deferens from CFTR mutation;Cystic fibrosis|Congenital bilateral aplasia of vas deferens from CFTR mutation|Bronchiectasis with or without elevated sweat chloride 1|Cystic fibrosis diagnostic test|Fetal anomalies with a likely genetic cause",
+    "origin": "de novo;germline;inherited;maternal;paternal;unknown",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "7",
+    "start": "117559591",
+    "ref": "na",
+    "alt": "na",
+    "review_status": "practice guideline",
+    "n_submitters": "91",
+    "variation_id": "7105",
+    "ref_vcf": "ATCT",
+    "alt_vcf": "A",
+    "pos_vcf": "117559590",
+    "somatic_clinical_impact": "-",
+    "oncogenicity": "-",
+    "rsid": "rs113993960",
+    "submissions": [
+     {
+      "variation_id": "7105",
+      "clnsig": "drug response",
+      "date_last_evaluated": "Mar 24, 2021",
+      "reported_phenotype": "CN322746:ivacaftor / lumacaftor response - Efficacy",
+      "review_status": "reviewed by expert panel",
+      "collection_method": "curation",
+      "origin_counts": "germline:na",
+      "submitter": "ClinPGx",
+      "scv": "SCV002031250.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Aug 26, 2016",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Genetic Services Laboratory, University of Chicago",
+      "scv": "SCV000594089.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 20, 2024",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:434",
+      "submitter": "Mayo Clinic Laboratories, Mayo Clinic",
+      "scv": "SCV001713417.5",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jun 24, 2025",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "inherited:2",
+      "submitter": "New York Genome Center",
+      "scv": "SCV007675062.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "drug response",
+      "date_last_evaluated": "Mar 24, 2021",
+      "reported_phenotype": "na:ivacaftor / tezacaftor response - Efficacy",
+      "review_status": "reviewed by expert panel",
+      "collection_method": "curation",
+      "origin_counts": "germline:na",
+      "submitter": "ClinPGx",
+      "scv": "SCV002031251.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 11, 2024",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Clinical Genetics Laboratory, Skane University Hospital Lund",
+      "scv": "SCV005197698.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Genome Diagnostics Laboratory, Amsterdam University Medical Center",
+      "scv": "SCV002035293.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Imagene.me medical diagnostic laboratory, IMAGENE.ME SA",
+      "scv": "SCV007329966.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
+      "origin_counts": "unknown:na",
+      "submitter": "Genomics And Bioinformatics Analysis Resource, Columbia University",
+      "scv": "SCV004024086.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "not provided",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0238339:Hereditary pancreatitis",
+      "review_status": "no classification provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "GeneReviews",
+      "scv": "SCV000153744.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 22, 2019",
+      "reported_phenotype": "C0238339:Hereditary pancreatitis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Centre for Mendelian Genomics, University Medical Centre Ljubljana",
+      "scv": "SCV001368335.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Sep 03, 2018",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "maternal:3",
+      "submitter": "Victorian Clinical Genetics Services, Murdoch Childrens Research Institute",
+      "scv": "SCV001244997.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 07, 2024",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Baylor Genetics",
+      "scv": "SCV001527339.4",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 04, 2022",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Genetics and Molecular Pathology, SA Pathology",
+      "scv": "SCV002761398.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 03, 2004",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "practice guideline",
+      "collection_method": "curation",
+      "origin_counts": "germline:na",
+      "submitter": "American College of Medical Genetics and Genomics (ACMG)",
+      "scv": "SCV000071392.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0403814:Congenital bilateral aplasia of vas deferens from CFTR mutation",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:1",
+      "submitter": "Lifecell International Pvt. Ltd",
+      "scv": "SCV003925476.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 18, 2019",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Myriad Genetics, Inc.",
+      "scv": "SCV001193905.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Dec 08, 2022",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Institute of Medical Genetics and Applied Genomics, University Hospital T\u00fcbingen",
+      "scv": "SCV002759371.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Aug 05, 2024",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Molecular Genetics, Royal Melbourne Hospital",
+      "scv": "SCV002503785.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 07, 2023",
+      "reported_phenotype": "C0010674:Cystic fibrosis;C0238339:Hereditary pancreatitis;C0403814:Congenital bilateral aplasia of vas deferens from CFTR mutation;C2749757:Bronchiectasis with or without elevated sweat chloride 1",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:1",
+      "submitter": "Molecular Genetics and NGS Laboratory, Hospital Fundacion Valle Del Lili",
+      "scv": "SCV004101389.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "May 17, 2015",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "OMIM",
+      "scv": "SCV000027724.10",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 03, 2017",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:210",
+      "submitter": "Eurofins Ntd Llc (ga)",
+      "scv": "SCV000330918.5",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 30, 2022",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:5",
+      "submitter": "AiLife Diagnostics, AiLife Diagnostics",
+      "scv": "SCV002502414.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 07, 2023",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Department of Human Genetics, Hannover Medical School",
+      "scv": "SCV007540636.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "risk factor",
+      "date_last_evaluated": "May 17, 2015",
+      "reported_phenotype": "C4017631:BRONCHIECTASIS WITH OR WITHOUT ELEVATED SWEAT CHLORIDE 1, MODIFIER OF",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "OMIM",
+      "scv": "SCV000053487.10",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Likely pathogenic",
+      "date_last_evaluated": "Jan 01, 2017",
+      "reported_phenotype": "C0238093:Duodenal stenosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Centre for Mendelian Genomics, University Medical Centre Ljubljana",
+      "scv": "SCV000747395.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 01, 2013",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Arcensus",
+      "scv": "SCV002564582.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 04, 2026",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
+      "scv": "SCV000074347.16",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 21, 2024",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Quest Diagnostics Nichols Institute San Juan Capistrano",
+      "scv": "SCV000889288.5",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 01, 2017",
+      "reported_phenotype": "C4551632:Recurrent pancreatitis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Centre for Mendelian Genomics, University Medical Centre Ljubljana",
+      "scv": "SCV000747396.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Aug 30, 2022",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:30",
+      "submitter": "MGZ Medical Genetics Center",
+      "scv": "SCV002579737.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 17, 2017",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "reviewed by expert panel",
+      "collection_method": "research",
+      "origin_counts": "germline:na",
+      "submitter": "CFTR2",
+      "scv": "SCV000071493.4",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 05, 2018",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Mendelics",
+      "scv": "SCV000886152.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jul 22, 2021",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Genome-Nilou Lab",
+      "scv": "SCV001810348.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 30, 2024",
+      "reported_phenotype": "C2749757:Bronchiectasis with or without elevated sweat chloride 1",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Baylor Genetics",
+      "scv": "SCV004211619.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 17, 2017",
+      "reported_phenotype": "C5924204:CFTR-related disorder",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Natera, Inc.",
+      "scv": "SCV002080609.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jun 04, 2019",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Equipe Genetique des Anomalies du Developpement, Universit\u00e9 de Bourgogne",
+      "scv": "SCV000883108.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "not provided",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no classification provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "SNPedia",
+      "scv": "SCV000090450.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 02, 2023",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Zotz-Klimas Genetics Lab, MVZ Zotz Klimas",
+      "scv": "SCV004101106.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Diagnostic Laboratory, Department of Genetics, University Medical Center Groningen",
+      "scv": "SCV001744105.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Sep 21, 2026",
+      "reported_phenotype": "C5924204:CFTR-related disorder",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "PreventionGenetics, part of Exact Sciences",
+      "scv": "SCV004105952.4",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jul 29, 2014",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:27",
+      "submitter": "Clinical Genetics and Genomics, Karolinska University Hospital",
+      "scv": "SCV001450105.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 06, 2023",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:1",
+      "submitter": "Institute of Medical Genetics and Genomics, Sir Ganga Ram Hospital",
+      "scv": "SCV004100881.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 03, 2021",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Institute for Clinical Genetics, University Hospital TU Dresden, University Hospital TU Dresden",
+      "scv": "SCV002009133.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 28, 2023",
+      "reported_phenotype": "C0238339:Hereditary pancreatitis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Human Genetics Bochum, Ruhr University Bochum",
+      "scv": "SCV004042777.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Genome Diagnostics Laboratory, University Medical Center Utrecht",
+      "scv": "SCV001929598.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Sep 04, 2026",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:1",
+      "submitter": "MVZ Medizinische Genetik Mainz",
+      "scv": "SCV008131722.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "not provided",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "no classification provided",
+      "collection_method": "phenotyping only",
+      "origin_counts": "unknown:4",
+      "submitter": "GenomeConnect, ClinGen",
+      "scv": "SCV000607274.4",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 28, 2016",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Center for Pediatric Genomic Medicine, Children's Mercy Hospital and Clinics",
+      "scv": "SCV000511517.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "inherited:na",
+      "submitter": "Kasturba Medical College, Manipal, Kasturba Medical College, Manipal, Manipal Academy of Higher Education, Manipal, India",
+      "scv": "SCV002053836.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 21, 2025",
+      "reported_phenotype": "na:Cystic fibrosis diagnostic test",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "NHS Central & South Genomic Laboratory Hub",
+      "scv": "SCV006561073.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 01, 2022",
+      "reported_phenotype": "C0010674:Cystic fibrosis;C0238339:Hereditary pancreatitis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Laboratorio de Genetica e Diagnostico Molecular, Hospital Israelita Albert Einstein",
+      "scv": "SCV002512246.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jun 10, 2024",
+      "reported_phenotype": "C0010674:Cystic fibrosis;C0238339:Hereditary pancreatitis;C0403814:Congenital bilateral aplasia of vas deferens from CFTR mutation;C2749757:Bronchiectasis with or without elevated sweat chloride 1",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Fulgent Genetics, Fulgent Genetics",
+      "scv": "SCV002810876.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 06, 2025",
+      "reported_phenotype": "C0010674:Cystic fibrosis;C0403814:Congenital bilateral aplasia of vas deferens from CFTR mutation",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:1",
+      "submitter": "First Genomix Gene Laboratory, Genetic Diagnostics Department",
+      "scv": "SCV007580311.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:1",
+      "submitter": "Suma Genomics",
+      "scv": "SCV004037030.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 11, 2019",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Genome Diagnostics Laboratory, The Hospital for Sick Children",
+      "scv": "SCV002507372.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Dec 30, 2017",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Department of Genetics, Sultan Qaboos University Hospital",
+      "scv": "SCV000891676.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 26, 2025",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Variantyx, Inc.",
+      "scv": "SCV007448776.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jun 12, 2025",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Revvity Omics, Revvity",
+      "scv": "SCV002019253.4",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "May 03, 2019",
+      "reported_phenotype": "na:See cases",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Laboratorio de Genetica e Diagnostico Molecular, Hospital Israelita Albert Einstein",
+      "scv": "SCV002523540.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jun 10, 2016",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
+      "origin_counts": "maternal:na",
+      "submitter": "Division of Human Genetics, Children's Hospital of Philadelphia",
+      "scv": "SCV000536740.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Kariminejad - Najmabadi Pathology & Genetics Center",
+      "scv": "SCV008128387.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 18, 2019",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:1",
+      "submitter": "Foundation for Research in Genetics and Endocrinology, FRIGE's Institute of Human Genetics",
+      "scv": "SCV001161676.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 11, 2019",
+      "reported_phenotype": "C5924204:CFTR-related disorder",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Genome Diagnostics Laboratory, The Hospital for Sick Children",
+      "scv": "SCV002507456.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 04, 2025",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital",
+      "scv": "SCV004242533.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jun 24, 2025",
+      "reported_phenotype": "C0238339:Hereditary pancreatitis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Clinical Genetics Laboratory, University Hospital Schleswig-Holstein",
+      "scv": "SCV008142113.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0010674:Cystic fibrosis;C0403814:Congenital bilateral aplasia of vas deferens from CFTR mutation",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Baylor Genetics",
+      "scv": "SCV001163504.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "not provided",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "no classification provided",
+      "collection_method": "literature only",
+      "origin_counts": "unknown:na",
+      "submitter": "GeneReviews",
+      "scv": "SCV001622798.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Apr 14, 2025",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Clinical Genomics Laboratory, Washington University in St. Louis",
+      "scv": "SCV006555683.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 21, 2013",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "research",
+      "origin_counts": "maternal:7;paternal:4;unknown:24",
+      "submitter": "HudsonAlpha Institute for Biotechnology, HudsonAlpha Institute for Biotechnology",
+      "scv": "SCV000584079.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 03, 2022",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Laboratory for Molecular Medicine, Mass General Brigham Personalized Medicine",
+      "scv": "SCV000221179.6",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Sep 01, 2026",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:111",
+      "submitter": "CeGaT Center for Human Genetics Tuebingen",
+      "scv": "SCV001246813.40",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Aug 23, 2021",
+      "reported_phenotype": "C4023106:Obstructive azoospermia",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:10",
+      "submitter": "Institute of Reproductive Genetics, University of M\u00fcnster",
+      "scv": "SCV001860325.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 29, 2018",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "curation",
+      "origin_counts": "germline:na",
+      "submitter": "CFTR-France",
+      "scv": "SCV001169465.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jun 03, 2025",
+      "reported_phenotype": "C5924204:CFTR-related disorder",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Rady Children's Institute for Genomic Medicine, Rady Children's Hospital San Diego",
+      "scv": "SCV004046363.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Dec 18, 2025",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "3billion",
+      "scv": "SCV003841941.5",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jul 31, 2025",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "ARUP Laboratories, Molecular Genetics and Genomics, ARUP Laboratories",
+      "scv": "SCV002048630.9",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "May 03, 2020",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Genomic Research Center, Shahid Beheshti University of Medical Sciences",
+      "scv": "SCV001251746.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C2749757:Bronchiectasis with or without elevated sweat chloride 1",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "not provided",
+      "origin_counts": "germline:na",
+      "submitter": "Institute of Human Genetics, University Hospital of Duesseldorf",
+      "scv": "SCV004171185.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 16, 2025",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Laboratory of Genetics, Children's Clinical University Hospital Latvia",
+      "scv": "SCV006109277.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 14, 2022",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:5",
+      "submitter": "Dasa",
+      "scv": "SCV002097285.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 25, 2024",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "research",
+      "origin_counts": "germline:na",
+      "submitter": "Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre",
+      "scv": "SCV004805438.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "May 22, 2026",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Ambry Genetics",
+      "scv": "SCV000741228.7",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 15, 2024",
+      "reported_phenotype": "C2749757:Bronchiectasis with or without elevated sweat chloride 1",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Institute of Human Genetics, University of Leipzig Medical Center",
+      "scv": "SCV004698102.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "CENTOGENE GmbH and LLC - Guiding Precision Medicine",
+      "scv": "SCV001424387.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 01, 2023",
+      "reported_phenotype": "C0238339:Hereditary pancreatitis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Neuberg Centre For Genomic Medicine, NCGM",
+      "scv": "SCV004176446.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 15, 2019",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Johns Hopkins Genomics, Johns Hopkins University",
+      "scv": "SCV000864219.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jun 22, 2023",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Neuberg Centre For Genomic Medicine, NCGM",
+      "scv": "SCV004101520.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jul 30, 2018",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "GeneDx",
+      "scv": "SCV000329246.6",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 24, 2024",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Pittsburgh Clinical Genomics Laboratory, University of Pittsburgh Medical Center",
+      "scv": "SCV005397656.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 30, 2016",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Knight Diagnostic Laboratories, Oregon Health and Sciences University",
+      "scv": "SCV000538017.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "research",
+      "origin_counts": "germline:2",
+      "submitter": "UNC Molecular Genetics Laboratory, University of North Carolina at Chapel Hill",
+      "scv": "SCV001251533.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 26, 2024",
+      "reported_phenotype": "C5924204:CFTR-related disorder",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "de novo:5",
+      "submitter": "Blueprint Genetics",
+      "scv": "SCV000928113.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 17, 2020",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "inherited:1",
+      "submitter": "Institute of Human Genetics Munich, TUM University Hospital",
+      "scv": "SCV001149705.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 04, 2024",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "research",
+      "origin_counts": "germline:na",
+      "submitter": "Dubai Health Genomic Medicine Center, Dubai Health",
+      "scv": "SCV002818128.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Aug 21, 2025",
+      "reported_phenotype": "C0238339:Hereditary pancreatitis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Institute of Human Genetics, University of Leipzig Medical Center",
+      "scv": "SCV006554384.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0010674:Cystic fibrosis;C0403814:Congenital bilateral aplasia of vas deferens from CFTR mutation",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "inherited:na",
+      "submitter": "Suma Genomics",
+      "scv": "SCV002543782.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Aug 11, 2025",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Institute of Immunology and Genetics Kaiserslautern",
+      "scv": "SCV006554430.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "May 12, 2021",
+      "reported_phenotype": "C0238339:Hereditary pancreatitis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "curation",
+      "origin_counts": "germline:na",
+      "submitter": "Sema4, Sema4",
+      "scv": "SCV002529678.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
+      "scv": "SCV001553614.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Dec 30, 2021",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Greenwood Genetic Center Diagnostic Laboratories, Greenwood Genetic Center",
+      "scv": "SCV002061800.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Sep 01, 2025",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Institute of Human Genetics, University of Leipzig Medical Center",
+      "scv": "SCV002072562.5",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Likely pathogenic",
+      "date_last_evaluated": "Feb 01, 2024",
+      "reported_phenotype": "C0010674:Cystic fibrosis",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "curation",
+      "origin_counts": "germline:na",
+      "submitter": "Laboratory of Medical Genetics, National & Kapodistrian University of Athens",
+      "scv": "SCV005051724.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7105",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jul 27, 2026",
+      "reported_phenotype": "na:Fetal anomalies with a likely genetic cause",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Genetics Laboratory, Great Ormond Street Hospital NHS Foundation Trust, North Thames Genomic Laboratory Hub",
+      "scv": "SCV007984673.1",
+      "snapshot": "2026-11"
+     }
+    ],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "Pathogenic",
+      "review_status": "practice guideline",
+      "n_submitters": "17",
+      "last_evaluated": "Aug 22, 2017",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "Pathogenic",
+      "review_status": "practice guideline",
+      "n_submitters": "20",
+      "last_evaluated": "Nov 22, 2018",
+      "release_date": "2019-01-03"
+     },
+     {
+      "snapshot": "2020-01",
+      "clnsig": "Pathogenic",
+      "review_status": "practice guideline",
+      "n_submitters": "26",
+      "last_evaluated": "Mar 11, 2019",
+      "release_date": "2020-01-02"
+     },
+     {
+      "snapshot": "2026-11",
+      "clnsig": "Pathogenic",
+      "review_status": "practice guideline",
+      "n_submitters": "91",
+      "last_evaluated": "Mar 03, 2004",
+      "release_date": "2026-11-16"
+     }
+    ]
+   }
+  },
+  "GWAS:rs113993960": {
+   "record_id": "GWAS:rs113993960",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:03:27.970478+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 218947005,
+      "accession_id": "GCST90837501",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 6e-23,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -23,
+      "or_value": "5.72",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005015",
+        "efo_trait": "diabetes mellitus"
+       }
+      ],
+      "reported_trait": [
+       "Secondary diabetes mellitus (PheCode 249)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946980,
+      "accession_id": "GCST90837500",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 9e-12,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -12,
+      "or_value": "1.62",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0001106",
+        "efo_trait": "kidney failure"
+       }
+      ],
+      "reported_trait": [
+       "Renal failure"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 1,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946955,
+      "accession_id": "GCST90837499",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 1e-46,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -46,
+      "or_value": "9.42",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0004652",
+        "efo_trait": "bacterial pneumonia"
+       }
+      ],
+      "reported_trait": [
+       "Pseudomonal pneumonia (PheCode 480.12)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 2,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946930,
+      "accession_id": "GCST90837498",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 4e-14,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -14,
+      "or_value": "1.99",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0001371",
+        "efo_trait": "protein-energy malnutrition"
+       }
+      ],
+      "reported_trait": [
+       "Protein-calorie malnutrition (PheCode 260)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 3,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946906,
+      "accession_id": "GCST90837497",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 1e-12,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -12,
+      "or_value": "1.63",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0002202",
+        "efo_trait": "Pleural effusion"
+       },
+       {
+        "efo_id": "MONDO_0000986",
+        "efo_trait": "pleurisy"
+       }
+      ],
+      "reported_trait": [
+       "Pleurisy; pleural effusion (PheCode 507)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 4,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946882,
+      "accession_id": "GCST90837496",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 1e-16,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -16,
+      "or_value": "7.37",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0001933",
+        "efo_trait": "endocrine pancreas disorder"
+       }
+      ],
+      "reported_trait": [
+       "Other disorders of pancreatic internal secretion"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 5,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946858,
+      "accession_id": "GCST90837495",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 2e-11,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -11,
+      "or_value": "2.66",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005087",
+        "efo_trait": "respiratory system disorder"
+       }
+      ],
+      "reported_trait": [
+       "Other diseases of respiratory system, NEC (PheCode 519.8)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 6,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946834,
+      "accession_id": "GCST90837494",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 1e-14,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -14,
+      "or_value": "1.76",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005275",
+        "efo_trait": "lung disorder"
+       }
+      ],
+      "reported_trait": [
+       "Other diseases of lung (PheCode 510)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 7,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946810,
+      "accession_id": "GCST90837493",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 5.0000000000000005e-22,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -22,
+      "or_value": "3.41",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0100582",
+        "efo_trait": "Nasal polyposis"
+       }
+      ],
+      "reported_trait": [
+       "Nasal polyps"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 8,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946786,
+      "accession_id": "GCST90837492",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 3e-22,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -22,
+      "or_value": "3.73",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0002041",
+        "efo_trait": "fungal infectious disease"
+       }
+      ],
+      "reported_trait": [
+       "Mycoses"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 9,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946761,
+      "accession_id": "GCST90837491",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 5e-13,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -13,
+      "or_value": "2.46",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0002105",
+        "efo_trait": "hemoptysis"
+       }
+      ],
+      "reported_trait": [
+       "Hemoptysis (PheCode 516.1)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 10,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946736,
+      "accession_id": "GCST90837490",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 3e-12,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -12,
+      "or_value": "1.97",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0018667",
+        "efo_trait": "pleural empyema"
+       },
+       {
+        "efo_id": "MONDO_0002076",
+        "efo_trait": "pneumothorax"
+       }
+      ],
+      "reported_trait": [
+       "Empyema and pneumothorax (PheCode 506)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 11,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946712,
+      "accession_id": "GCST90837489",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 3e-32,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -32,
+      "or_value": "3.0",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0002356",
+        "efo_trait": "pancreas disorder"
+       }
+      ],
+      "reported_trait": [
+       "Diseases of pancreas (PheCode 577)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 12,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218946687,
+      "accession_id": "GCST90837488",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 4e-95,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -95,
+      "or_value": "14.87",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0009061",
+        "efo_trait": "cystic fibrosis"
+       }
+      ],
+      "reported_trait": [
+       "Cystic fibrosis"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 13,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945319,
+      "accession_id": "GCST90837487",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 2e-11,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -11,
+      "or_value": "3.14",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005003",
+        "efo_trait": "chronic pancreatitis"
+       }
+      ],
+      "reported_trait": [
+       "Chronic pancreatitis"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 14,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945294,
+      "accession_id": "GCST90837486",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 1e-15,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -15,
+      "or_value": "1.9",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005002",
+        "efo_trait": "chronic obstructive pulmonary disease"
+       }
+      ],
+      "reported_trait": [
+       "Chronic airway obstruction (PheCode 496)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 15,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945269,
+      "accession_id": "GCST90837485",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 1e-41,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -41,
+      "or_value": "5.21",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0004822",
+        "efo_trait": "bronchiectasis"
+       }
+      ],
+      "reported_trait": [
+       "Bronchiectasis"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 16,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945244,
+      "accession_id": "GCST90837484",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 2e-18,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -18,
+      "or_value": "2.19",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0004652",
+        "efo_trait": "bacterial pneumonia"
+       }
+      ],
+      "reported_trait": [
+       "Bacterial pneumonia"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 17,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945219,
+      "accession_id": "GCST90837483",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 8e-23,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -23,
+      "or_value": "6.13",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005657",
+        "efo_trait": "aspergillosis"
+       }
+      ],
+      "reported_trait": [
+       "Aspergillosis"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 18,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945195,
+      "accession_id": "GCST90837482",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 2e-12,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -12,
+      "or_value": "1.71",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0002492",
+        "efo_trait": "acute kidney injury"
+       }
+      ],
+      "reported_trait": [
+       "Acute renal failure"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 19,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945170,
+      "accession_id": "GCST90837481",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 1e-15,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -15,
+      "or_value": "2.51",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0032016",
+        "efo_trait": "abnormal sputum"
+       }
+      ],
+      "reported_trait": [
+       "Abnormal sputum (PheCode 516)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 20,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945145,
+      "accession_id": "GCST90837480",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 4e-12,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -12,
+      "or_value": "3.31",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0030878",
+        "efo_trait": "Abnormality on pulmonary function testing"
+       }
+      ],
+      "reported_trait": [
+       "Abnormal results of function study of pulmonary system (PheCode 514.1)"
+      ],
+      "mapped_genes": [
+       "CFTR"
+      ],
+      "snp_effect_allele": [
+       "rs113993960-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 21,
+      "_pubdate": "2025-11-26"
+     }
+    ]
+   }
+  },
+  "PMID:41298473": {
+   "record_id": "PMID:41298473",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41298473/",
+   "retrieved_at": "2026-11-17T02:03:28.066032+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "41298473",
+    "title": "Genetics and context for precision health in Greater Boston.",
+    "journal": "Nat Commun",
+    "pubdate": "2025 Nov 26",
+    "sortpubdate": "2025-11-26"
+   }
+  },
+  "LitVar2:rs113993960": {
+   "record_id": "LitVar2:rs113993960",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs113993960%23%23/publications",
+   "retrieved_at": "2026-11-17T02:03:28.153054+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     37388288,
+     18022401,
+     42303492,
+     29425673,
+     39813132,
+     38928397,
+     26738707,
+     26509335,
+     34799640,
+     33718306,
+     35160099,
+     35782696,
+     1376297,
+     7733303,
+     41254982,
+     11698247,
+     18710599,
+     19169360,
+     39026768,
+     21364822,
+     27426903,
+     36143206,
+     36569192,
+     27394157,
+     40534129,
+     33652850,
+     38731904,
+     36143233,
+     38699141,
+     24608905,
+     16646290,
+     12386454,
+     23724185,
+     28606620,
+     7569573,
+     36012204,
+     32637102,
+     19890354,
+     34078906,
+     35422395,
+     25723074,
+     22380742,
+     23953609,
+     23331026,
+     23331027,
+     26542291,
+     36143317,
+     23331030,
+     23331029,
+     40730841
+    ],
+    "n_pmids": 6425
+   }
+  },
+  "PMID:43023448": {
+   "record_id": "PMID:43023448",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43023448/",
+   "retrieved_at": "2026-11-17T02:04:24.412508+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "43023448",
+    "title": "Pulmonary Ionocytes Regulate CFTR-Mediated Chloride Transport in Human iPSC-Derived Epithelium.",
+    "journal": "Am J Respir Cell Mol Biol",
+    "pubdate": "2026 Nov 13",
+    "sortpubdate": "2026-11-13",
+    "abstract": "Pulmonary ionocytes, representing approximately 1% of airway epithelial cells, exhibit high CFTR expression and unique transcriptional markers, including FOXI1, ASCL3, and V-ATPase. Their exact role in human airway physiology is incompletely understood. This study employs induced pluripotent stem cell (iPSC)-derived airway epithelial models (iPSC-airways) to elucidate the role of FOXI1 in pulmonary ionocyte differentiation and function. CRISPR-Cas9 was used to generate FOXI1-knockout iPSCs, into which a doxycycline-inducible FOXI1-overexpression cassette was introduced. Edited and control lines were differentiated into airway epithelia to evaluate ionocyte formation, epithelial composition, and ion transport. Rescue studies assessed the effects of FOXI1 re-expression in a FOXI1-KO background, and the addition of inducible WT-CFTR ionocytes to F508del/F508del cystic fibrosis (CF) cultures on restoring chloride transport. FOXI1 deletion abolishes ionocyte formation and alters airway epithelial composition, with increased mucus-secreting goblet cells and decreased ciliated cells. Functional assays confirmed ionocytes as key regulators of chloride homeostasis, with FOXI1-deficient airways displaying diminished ion transport. Induction of FOXI1-overexpression restored CFTR-mediated chloride transport. Introduction of WT ionocytes into CF airway models rescued chloride transport deficits, with no rescue observed in vehicle-treated controls lacking ionocyte induction. These findings highlight FOXI1's essential role in pulmonary ionocyte development, airway cell composition, and airway chloride transport. We present a fully manipulable, gene-edited iPSC-derived system that enables investigation of ionocyte biology and function within a human airway context, highlighting them as promising therapeutic targets for respiratory disorders."
+   }
+  },
+  "PMID:42988245": {
+   "record_id": "PMID:42988245",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42988245/",
+   "retrieved_at": "2026-11-17T02:04:24.412508+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "42988245",
+    "title": "The PDE4 inhibitor tanimilast (CHF6001) activates CFTR function in native and in F508del-expressing airway epithelial cells.",
+    "journal": "Eur J Pharmacol",
+    "pubdate": "2026 Nov 6",
+    "sortpubdate": "2026-11-06",
+    "abstract": "Cystic fibrosis (CF) is a disorder caused by mutations in the CF transmembrane conductance regulator (CFTR) gene, which result in impaired expression and function of the channel that is regulated by cAMP intracellular levels. Therefore, cAMP-elevating agents have been investigated for the treatment of CF, including phosphodiesterase (PDE) inhibitors that act by preventing its degradation by PDE enzymes. Here we characterized the effects of the novel inhaled PDE4 inhibitor, tanimilast (CHF6001), designed to overcome PDE inhibitors systemic adverse effects, on CFTR activation by measuring short-circuit current (Isc) in cellular models expressing native and F508del CFTR (CFBE41o- and normal human bronchial epithelial cells: MucilAir\u2122). Various PDE4 genes (PDE4A, B, D) are expressed in both cell models to different extents. Tanimilast was able to increase Isc in a concentration-dependent manner in both cell models, peaking at 0.2\u202f\u03bcM in MucilAir\u2122 expressing either WT and F508del CFTR corrected with a combination of VX445 and VX661 for 24\u202fh. Taken together, these results indicate for the first time that the PDE4 inhibitor tanimilast could enhance, in vitro, the effects of CFTR correctors used in clinical practice."
+   }
+  },
+  "PMID:42977085": {
+   "record_id": "PMID:42977085",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42977085/",
+   "retrieved_at": "2026-11-17T02:04:24.412508+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "42977085",
+    "title": "Offering prenatal CFTR modulators to prevent cystic fibrosis-related organ damage in utero.",
+    "journal": "Am J Obstet Gynecol MFM",
+    "pubdate": "2026 Nov 3",
+    "sortpubdate": "2026-11-03",
+    "abstract": "CFTR modulator therapy has drastically improved the prognosis and quality of life for those with cystic fibrosis (CF). CF complications begin to manifest in utero, including meconium ileus, and current regulatory approvals for CFTR modulator therapy does not have a pregnancy indication. Despite this, there have been several documented cases of women taking CFTR modulator therapy during pregnancy with promising results of potential CFTR correction in utero. To report one center's experience offering CFTR modulator therapy to pregnant women for prenatal CF treatment. Eight pregnant women carrying a fetus at risk of having CF were presented with the option of CFTR modulator therapy during pregnancy with extensive counseling on the potential benefits and risks. Records from routine clinical care from prenatal, birth, and perinatal period were collected. Of the eight pregnant women, three intended to take the CFTR modulator, elexacaftor/ tezacaftor/ ivacaftor (ETI), however only two were able, as the third was unable to obtain insurance authorization. In one case, the infant was homozygous for F508del(p.Phe508del, c.1521_1523delCTT, 1653delCTT) variant with signs of worsening bowel obstruction on fetal imaging, however after ETI initiation at 27 weeks he was born without meconium ileus. In the other case of CFTR modulator therapy treatment, the infant carried a CFTR variant of varying clinical consequence, Y1032C (c.3095A>G, p.Tyr1032Cys), and one disease causing CFTR variant. After ETI initiation, ultrasound findings suggestive of bowel obstruction improved and there was no meconium ileus at birth. The family who desired prenatal ETI therapy but was unable to obtain insurance coverage, also had one disease causing variant and one of varying clinical consequence, G622D (c.1865G>A, p.Gly622Asp). Despite fetal imaging concerning for bowel obstruction this infant had no meconium ileus at birth and was classified as CFTR related metabolic syndrome/CF Screen Positive Inconclusive Diagnosis. Of the remaining pregnant women, 3 declined prenatal CFTR modulator therapy, one ultimately had negative prenatal diagnostics, and another terminated the pregnancy. Decisions to treat with prenatal CFTR modulators are complex and influenced by multiple factors including phenotype variability, inconsistent insurance coverage, and uncertain potential risks and benefits. Outcomes of these cases ranged from pregnancy termination to successful reversal of ultrasound findings suggestive of developing meconium ileus."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 28,
+  "n_claims_fully_verified": 28,
+  "n_uncited_claims": 0,
+  "n_citations": 70,
+  "n_citations_valid": 70,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 50,
+  "n_shown_values_in_text": 50,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 28,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

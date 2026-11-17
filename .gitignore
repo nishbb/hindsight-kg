@@ -230,3 +230,4 @@ data/processed/
 out/
 *.pt
 !tests/fixtures/**
+logs/

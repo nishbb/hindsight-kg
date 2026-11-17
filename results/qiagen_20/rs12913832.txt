@@ -1,0 +1,55 @@
+VARIANT DOSSIER: rs12913832
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs12913832 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs12913832]
+- Earlier identifiers merged into rs12913832: rs60078917. [dbSNP build 157 rs12913832]
+- dbSNP records rs12913832 as variant type 'snv' on NC_000015.10 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs12913832]
+- Alternate allele 1: NC_000015.10:g.28120472A>C, a single-nucleotide variant (SNV) (A>C in VCF form). [dbSNP build 157 rs12913832]
+- Alternate allele 2: NC_000015.10:g.28120472A>G, a single-nucleotide variant (SNV) (A>G in VCF form). [dbSNP build 157 rs12913832]
+
+FUNCTION
+- For alternate allele 1 (A>C), Ensembl VEP predicts intron_variant in HERC2 (ENST00000261609.13:c.13272+874T>G), impact MODIFIER. [Ensembl VEP rs12913832]
+- For alternate allele 2 (A>G), Ensembl VEP predicts intron_variant in HERC2 (ENST00000261609.13:c.13272+874T>C), impact MODIFIER. [Ensembl VEP rs12913832]
+- Ensembl classifies the variant as 'SNV' with allele string A/C/G. [Ensembl VEP rs12913832]
+
+FREQUENCY
+- Alternate allele 1 (A>C) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 15-28120472-A-C (alternate allele 1). [gnomAD v4.1]
+- In gnomAD v2.1.1 genomes, alternate allele 2 (A>G) has an overall allele frequency of 0.563. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0.125, Admixed American 0.223, Ashkenazi Jewish 0.548, East Asian 0.000642, Finnish 0.883, Non-Finnish European 0.804, Other 0.686. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 2 frequency ranges from 0.000642 in East Asian to 0.883 in Finnish, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (A>G) has an overall allele frequency of 0.487 (74,054 of 152,216 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0.126, Admixed American 0.243, Ashkenazi Jewish 0.572, East Asian 0.00174, Finnish 0.885, Non-Finnish European 0.764, South Asian 0.091, Middle Eastern 0.211, Amish 0.623, Remaining 0.346. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 2 frequency ranges from 0.00174 in East Asian to 0.885 in Finnish, a large between-ancestry difference. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_004667.6(HERC2):c.13272+874T>C (alternate allele 2) with germline classification 'association' for: SKIN/HAIR/EYE PIGMENTATION 1, BLUE/NONBLUE EYES; review status 'no assertion criteria provided', 1 submitter(s), allele origin 'germline'. [ClinVar VCV000004745 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: association; 2019-01: association; 2020-01: association; 2026-11: association. The classification did not change over these releases. [ClinVar VCV000004745 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 1 'association'. [ClinVar VCV000004745 (2026-11 release)]
+- No allele of rs12913832 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000004745 (2026-11 release)]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs12913832]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 269 association record(s) for rs12913832. [GWAS Catalog rs12913832]
+- Genome-wide significant association with cutaneous melanoma (p = 2e-9237, study GCST010302, effect allele rs12913832-A). [GWAS Catalog GCST010302; PMID:32341527]
+- Genome-wide significant association with eye measurement (p = 1e-715, study GCST91006210, effect allele rs12913832-A). [GWAS Catalog GCST91006210; PMID:39746957]
+- Genome-wide significant association with hair color (p = 2e-308, study GCST006989). [GWAS Catalog GCST006989; PMID:30531825]
+- Genome-wide significant association with eye color (p = 1e-300, study GCST000710, effect allele rs12913832-A). [GWAS Catalog GCST000710; PMID:20585627]
+- Genome-wide significant association with eye colour measurement (p = 1e-200, study GCST007451). [GWAS Catalog GCST007451; PMID:30664655]
+- Genome-wide significant association with suntan (p = 6e-184, study GCST005897, effect allele rs12913832-A). [GWAS Catalog GCST005897; PMID:29739929]
+- rs12913832 is associated with 31 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs12913832; ClinVar VCV000004745 (2026-11 release)]
+
+LITERATURE
+- LitVar2 links 360 PubMed articles to rs12913832. [LitVar2 rs12913832]
+- Linked article: "A comparative GWAS of eye colour in light and dark eye genetic backgrounds defined by HERC2 rs12913832 polymorphism in a Canadian cohort of European ancestry" (Sci Rep, 2026). [PMID:41872255]
+- Linked article: "Re: Gelmi et al.: Survival in patients with uveal melanoma is linked to genetic variation at HERC2 single nucleotide polymorphism rs12913832 (Ophthalmology. 2025;132:299-308)" (Ophthalmology, 2025). [PMID:40418200]
+- Linked article: "Association between Variants in the OCA2-HERC2 Region and Blue Eye Colour in HERC2 rs12913832 AA and AG Individuals" (Genes (Basel), 2023). [PMID:36980970]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs12913832 in HERC2 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with cutaneous melanoma. Confidence: high (264 genome-wide significant associations across 258 studies). [ClinVar VCV000004745 (2026-11 release); GWAS Catalog rs12913832; LitVar2 rs12913832]

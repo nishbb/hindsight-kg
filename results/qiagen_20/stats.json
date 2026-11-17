@@ -1,0 +1,17 @@
+{
+ "as_of": "latest",
+ "n_variants": 20,
+ "n_complete": 20,
+ "n_claims": 656,
+ "n_citations": 1828,
+ "citation_validity_rate": 1.0,
+ "n_uncited_claims": 0,
+ "n_sentences_without_citation": 0,
+ "temporal_violations": 0,
+ "haplotype_pairs": [
+  [
+   "rs429358",
+   "rs7412"
+  ]
+ ]
+}

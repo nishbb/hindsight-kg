@@ -86,3 +86,45 @@ Decisions:
 * Hetionet itself includes GWAS Catalog and DisGeNET content, but only as of 2017, so it is time-safe.
 
 Open issue: `pyg-lib` has no wheel for this laptop's torch build, so `LinkNeighborLoader` (mini-batch neighbor sampling) cannot run here. M3 therefore has two code paths: neighbor-sampled mini-batches when `pyg-lib` or `torch-sparse` is present (the GPU instance), and full-batch training on CPU otherwise.
+
+## M3. GNN edge plausibility (R-GCN done; HGT running)
+
+Plan: link predictor for `(variant, assoc_plp, disease)`; out-of-sample score for every P/LP edge and VUS pair; split conformal; baselines; H1 test of GNN versus tabular.
+
+Design decisions:
+* **Cross-fitting.** Variants are split into 5 folds. For fold k the model never sees any assertion edge of fold-k variants (not in messages, not in supervision), then scores them. Every edge gets an out-of-sample score. 10% of training variants are a validation set for early stopping and conformal calibration.
+* **No self-leak in message passing.** Assertion edges only point variant to disease, so a variant never receives a message carrying its own class. Other variants' classes reach it through derived gene-disease edges recomputed from the current message edges. During training 30% of P/LP and B/LB edges are held out of the message graph as supervision each epoch.
+* **Negatives.** B/LB assertions of training variants (hard) plus random-disease corruptions. VUS edges are not supervised (two options: treat VUS as negatives, or leave them unlabeled; unlabeled is more conservative because some VUS are truly pathogenic).
+* **GNN training uses time-T information only.** Later outcomes are never used to fit the GNN.
+* **Full batch on CPU.** `pyg-lib` has no wheel for this laptop's torch build, so `LinkNeighborLoader` cannot run here. R-GCN full batch takes about 1.3 s per epoch on CPU, so sampling is not needed at this graph size. HGT takes about 30 s per epoch. Open issue: the neighbour-sampled and cuGraph loader paths are not implemented or benchmarked; they need the GPU instance.
+* **Two supervised regimes for baselines**, kept separate in every table: gene-grouped 5-fold CV on the 2020 to 2026 outcomes (measures signal, not deployable), and a prospective GBM fitted on 2018-01 to 2020-01 revisions (deployable at T).
+* **CADD** comes from MyVariant.info, which reports no CADD version, so I cannot verify it predates T. It is reported only in rows labeled "version unverified" and is excluded from the primary tabular set. gnomAD is v2.1.1 (2019-03), confirmed from the MyVariant metadata endpoint.
+* **Gene family stratification** uses current HGNC gene groups. Used only to stratify the report, never as a feature.
+* GPU hours: 0. R-GCN wall time 17 min CPU for 5 folds.
+
+Results (R-GCN; `results/m3/`):
+* Time-T link prediction, held-out folds: P/LP vs B/LB AUROC 0.978 to 0.981; P/LP vs corrupted disease 0.985 to 0.992.
+* Conformal (alpha 0.1): coverage 0.901 for both classes on held-out edges. 3,908 of 90,390 P/LP edges get the confident set {B/LB}.
+* **H1, downgrade** (4,171 of 54,892): GNN alone 0.723; GBM tabular 0.837; tabular + GNN 0.839 (delta +0.002, CI -0.001 to +0.004, not significant); tabular + neighbour counts 0.847; adding GNN to that 0.845 (delta -0.002, significant, slightly worse). **Negative result: the GNN adds nothing beyond tabular metadata for downgrades.**
+* **H1, upgrade** (2,131 of 73,438): GNN alone 0.819, equal to GBM tabular 0.820 without using outcome labels; tabular + GNN 0.881 (delta +0.061, CI 0.054 to 0.068); tabular + neighbour counts 0.894; adding GNN to that 0.896 (delta +0.002, CI -0.000 to +0.004, not significant). **Graph context helps for upgrades, but simple leave-one-out neighbour counts capture it as well as the GNN.**
+* Prospective GBM (fitted on 2018 to 2020 revisions): 0.816 downgrade, 0.746 upgrade.
+
+Failure: the first HGT run died when the previous session ended (no output). Restarted with a 24-epoch cap.
+
+## M4. Variant dossier (QIAGEN) (20-variant set done; broader evaluation running)
+
+Plan: per-rsID evidence gathering, reconciliation, cited plain text, automated verification, haplotype detection, CLI.
+
+Design decisions:
+* **Template-generated sentences, no LLM.** Each sentence is filled from values read out of a stored raw record and carries machine-checkable citations (record id, path, value). The verifier re-reads the record. This trades fluency for a guarantee that no sentence states a fact missing from its record.
+* **Dated ClinVar from archived releases** (local SQLite index over 2018-01, 2019-01, 2020-01, 2026-11 variant summaries and the 2020-01 and 2026-11 submission summaries). `--as-of` uses only releases on or before the date; the assertion history is the sequence across releases.
+* **Endpoints verified on 2026-11-16:** dbSNP refsnp API (merge history, alleles), Ensembl VEP REST, MyVariant.info (gnomAD v2.1.1), gnomAD GraphQL (v4.1, latest mode only), GWAS Catalog REST v2 (the legacy v1 API is retired), LitVar2, PubMed E-utilities, CIViC GraphQL.
+* **as_of mode** drops gnomAD v4, CIViC, COSMIC and DoCM (no reliable release dates), filters GWAS and literature by PubMed publication date, and uses ClinVar releases up to the date. VEP and dbSNP are current releases used for identity and consequence only.
+* **Haplotypes** are detected without gene-specific rules: same gene, within 100 kb, at least 20 shared LitVar2 PMIDs with Jaccard at least 0.10, then abstracts naming both rsIDs with haplotype language.
+* **COSMIC counts are not openly accessible** without a licence; the dossier reports the COSMIC identifiers that Ensembl VEP exposes plus CIViC evidence counts and ClinVar oncogenicity classifications.
+
+Results (`results/qiagen_20/`): 20 of 20 complete in both modes. Latest: 656 sentences, 1,828 citations, validity 1.0, no uncited sentence. As of 2020-01-01: 479 sentences, 1,216 citations, validity 1.0, no temporal violation. rs429358 + rs7412 detected as an APOE haplotype pair. rs80357713 resolves to rs80357783.
+
+Bugs found by reading the output and fixed: ClinVar's placeholder "no classification for the single variant" was counted as a somatic signal (APOE was called a somatic mutation); GWAS p-values below 1e-308 printed as 0 (now built from mantissa and exponent); indel alleles failed to match ClinVar's left-aligned representation.
+
+Limitations: the bottom line is rule-based; per-condition ClinVar classifications are not separated (aggregate per allele); literature examples are chosen by title match and recency, not relevance ranking.

@@ -1,0 +1,1142 @@
+{
+ "rsid_query": "rs72921001",
+ "rsid_current": "rs72921001",
+ "as_of": "latest",
+ "generated_at": "2026-11-17T02:13:54.169256+00:00",
+ "genes": {
+  "vep": [
+   "OR10A2"
+  ],
+  "dbsnp": [
+   "OR10A2"
+  ],
+  "clinvar": [],
+  "gwas": []
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000011.10:g.6868417C>A",
+   "spdi_deleted": "C",
+   "spdi_inserted": "A",
+   "chrom": "11",
+   "pos": 6868417,
+   "ref": "C",
+   "alt": "A",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "11-6868417-C-A",
+   "vep": {
+    "gene_symbol": "OR10A2",
+    "consequence_terms": [
+     "intron_variant"
+    ],
+    "hgvsc": "ENST00000641461.1:c.-132-1206C>A",
+    "hgvsp": null,
+    "impact": "MODIFIER",
+    "mane_select": "NM_001004460.2"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "genomes",
+     "overall": 0.322189,
+     "populations": {
+      "afr": 0.197508,
+      "amr": 0.334123,
+      "asj": 0.365517,
+      "eas": 0.27871,
+      "fin": 0.376226,
+      "nfe": 0.379241,
+      "oth": 0.378004
+     },
+     "an": 31286
+    },
+    "gnomad_v4": {
+     "overall": 0.3249598229575572,
+     "ac": 49338,
+     "an": 151828,
+     "populations": {
+      "afr": 0.20446312128677002,
+      "amr": 0.3345578588297035,
+      "asj": 0.36476355247981546,
+      "eas": 0.2881026438569207,
+      "fin": 0.3793463803914117,
+      "nfe": 0.3803467867761783,
+      "sas": 0.41106471816283924,
+      "mid": 0.2979452054794521,
+      "ami": 0.43640350877192985,
+      "remaining": 0.35009487666034156
+     },
+     "differentiated": true
+    }
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000011.10:g.6868417C>G",
+   "spdi_deleted": "C",
+   "spdi_inserted": "G",
+   "chrom": "11",
+   "pos": 6868417,
+   "ref": "C",
+   "alt": "G",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "11-6868417-C-G",
+   "vep": null,
+   "frequency": {
+    "gnomad_v2": null,
+    "gnomad_v4": null
+   }
+  }
+ ],
+ "clinvar": [],
+ "clinvar_release": "2026-11",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 0,
+  "n_associations_in_scope": 0,
+  "n_genome_wide_significant": 0,
+  "n_studies": 0,
+  "mapped_genes": [],
+  "top_traits": [],
+  "n_distinct_traits_significant": 0,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 5,
+  "n_in_scope": 5,
+  "pmids_in_scope": [
+   "40442113",
+   "38308303",
+   "36479483",
+   "31357559",
+   "25660959"
+  ],
+  "top": [
+   "40442113",
+   "38308303",
+   "36479483"
+  ]
+ },
+ "conflicts": [],
+ "bottom_line": {
+  "category": "variant with little curated evidence",
+  "confidence": "low",
+  "rationale": "no pathogenic assertion and no genome-wide significant association were retrieved",
+  "text": "Bottom line: rs72921001 in OR10A2 is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved)."
+ },
+ "notes": [],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs72921001 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs72921001",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs72921001",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs72921001 as variant type 'snv' on NC_000011.10 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs72921001",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs72921001",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs72921001",
+     "path": "seq_id",
+     "value": "NC_000011.10",
+     "label": "dbSNP build 157 rs72921001",
+     "mode": "eq",
+     "shown": "NC_000011.10",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000011.10:g.6868417C>A, a single-nucleotide variant (SNV) (C>A in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs72921001",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000011.10:g.6868417C>A",
+     "label": "dbSNP build 157 rs72921001",
+     "mode": "eq",
+     "shown": "NC_000011.10:g.6868417C>A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000011.10:g.6868417C>G, a single-nucleotide variant (SNV) (C>G in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs72921001",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000011.10:g.6868417C>G",
+     "label": "dbSNP build 157 rs72921001",
+     "mode": "eq",
+     "shown": "NC_000011.10:g.6868417C>G",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (C>A), Ensembl VEP predicts intron_variant in OR10A2 (ENST00000641461.1:c.-132-1206C>A), impact MODIFIER.",
+   "citations": [
+    {
+     "record_id": "VEP:rs72921001",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "intron_variant",
+     "label": "Ensembl VEP rs72921001",
+     "mode": "eq",
+     "shown": "intron_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs72921001",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "OR10A2",
+     "label": "Ensembl VEP rs72921001",
+     "mode": "eq",
+     "shown": "OR10A2",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs72921001",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000641461.1:c.-132-1206C>A",
+     "label": "Ensembl VEP rs72921001",
+     "mode": "eq",
+     "shown": "ENST00000641461.1:c.-132-1206C>A",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs72921001",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODIFIER",
+     "label": "Ensembl VEP rs72921001",
+     "mode": "eq",
+     "shown": "MODIFIER",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string C/A.",
+   "citations": [
+    {
+     "record_id": "VEP:rs72921001",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs72921001",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs72921001",
+     "path": "allele_string",
+     "value": "C/A",
+     "label": "Ensembl VEP rs72921001",
+     "mode": "eq",
+     "shown": "C/A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 genomes, alternate allele 1 (C>A) has an overall allele frequency of 0.322.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af",
+     "value": 0.322189,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.322",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.198, Admixed American 0.334, Ashkenazi Jewish 0.366, East Asian 0.279, Finnish 0.376, Non-Finnish European 0.379, Other 0.378.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af_afr",
+     "value": 0.197508,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.198",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af_amr",
+     "value": 0.334123,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.334",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af_asj",
+     "value": 0.365517,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.366",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.27871,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.279",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af_fin",
+     "value": 0.376226,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.376",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af_nfe",
+     "value": 0.379241,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.379",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af_oth",
+     "value": 0.378004,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.378",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>A) has an overall allele frequency of 0.325 (49,338 of 151,828 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:11-6868417-C-A",
+     "path": "",
+     "value": 0.3249598229575572,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.325",
+     "args": [
+      [
+       "variant.genome.ac"
+      ],
+      [
+       "variant.genome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.204, Admixed American 0.335, Ashkenazi Jewish 0.365, East Asian 0.288, Finnish 0.379, Non-Finnish European 0.38, South Asian 0.411, Middle Eastern 0.298, Amish 0.436, Remaining 0.35.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:11-6868417-C-A",
+     "path": "",
+     "value": 0.20446312128677002,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.204",
+     "args": [
+      [
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:11-6868417-C-A",
+     "path": "",
+     "value": 0.3345578588297035,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.335",
+     "args": [
+      [
+       "variant.genome.populations.1.ac"
+      ],
+      [
+       "variant.genome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:11-6868417-C-A",
+     "path": "",
+     "value": 0.36476355247981546,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.365",
+     "args": [
+      [
+       "variant.genome.populations.7.ac"
+      ],
+      [
+       "variant.genome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:11-6868417-C-A",
+     "path": "",
+     "value": 0.2881026438569207,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.288",
+     "args": [
+      [
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:11-6868417-C-A",
+     "path": "",
+     "value": 0.3793463803914117,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.379",
+     "args": [
+      [
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:11-6868417-C-A",
+     "path": "",
+     "value": 0.3803467867761783,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.38",
+     "args": [
+      [
+       "variant.genome.populations.9.ac"
+      ],
+      [
+       "variant.genome.populations.9.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:11-6868417-C-A",
+     "path": "",
+     "value": 0.41106471816283924,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.411",
+     "args": [
+      [
+       "variant.genome.populations.6.ac"
+      ],
+      [
+       "variant.genome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:11-6868417-C-A",
+     "path": "",
+     "value": 0.2979452054794521,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.298",
+     "args": [
+      [
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:11-6868417-C-A",
+     "path": "",
+     "value": 0.43640350877192985,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.436",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:11-6868417-C-A",
+     "path": "",
+     "value": 0.35009487666034156,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.35",
+     "args": [
+      [
+       "variant.genome.populations.0.ac"
+      ],
+      [
+       "variant.genome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0.204 in African/African American to 0.436 in Amish, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:11-6868417-C-A",
+     "path": "",
+     "value": 0.20446312128677002,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.204",
+     "args": [
+      [
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:11-6868417-C-A",
+     "path": "",
+     "value": 0.43640350877192985,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.436",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 2 (C>G) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs72921001.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "gnomAD v4.1 has no record for 11-6868417-C-G (alternate allele 2).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:11-6868417-C-G",
+     "path": "variant",
+     "value": null,
+     "label": "gnomAD v4.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "The ClinVar 2026-11 release contains no record for rs72921001.",
+   "citations": [
+    {
+     "record_id": "ClinVar:rs72921001@2026-11",
+     "path": "n_records",
+     "value": 0,
+     "label": "ClinVar 2026-11 release",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Somatic evidence",
+   "text": "No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant.",
+   "citations": [
+    {
+     "record_id": "VEP:rs72921001",
+     "path": "cosmic_ids",
+     "value": [],
+     "label": "Ensembl VEP rs72921001",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists no association for rs72921001.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs72921001",
+     "path": "associations",
+     "value": [],
+     "label": "GWAS Catalog rs72921001",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 5 PubMed articles to rs72921001.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs72921001",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs72921001",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"From phytochemicals to recipes: health indications and culinary uses of herbs and spices\" (NPJ Sci Food, 2025).",
+   "citations": [
+    {
+     "record_id": "PMID:40442113",
+     "path": "title",
+     "value": "From phytochemicals to recipes: health indications and culinary uses of herbs and spices.",
+     "label": "PMID:40442113",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:40442113",
+     "path": "journal",
+     "value": "NPJ Sci Food",
+     "label": "PMID:40442113",
+     "mode": "eq",
+     "shown": "NPJ Sci Food",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Genetic determinants of food preferences: a systematic review of observational studies\" (BMC Nutr, 2024).",
+   "citations": [
+    {
+     "record_id": "PMID:38308303",
+     "path": "title",
+     "value": "Genetic determinants of food preferences: a systematic review of observational studies.",
+     "label": "PMID:38308303",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:38308303",
+     "path": "journal",
+     "value": "BMC Nutr",
+     "label": "PMID:38308303",
+     "mode": "eq",
+     "shown": "BMC Nutr",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Polymorphisms, diet and nutrigenomics\" (J Prev Med Hyg, 2022).",
+   "citations": [
+    {
+     "record_id": "PMID:36479483",
+     "path": "title",
+     "value": "Polymorphisms, diet and nutrigenomics.",
+     "label": "PMID:36479483",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:36479483",
+     "path": "journal",
+     "value": "J Prev Med Hyg",
+     "label": "PMID:36479483",
+     "mode": "eq",
+     "shown": "J Prev Med Hyg",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs72921001 in OR10A2 is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs72921001",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs72921001",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs72921001",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs72921001",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs72921001": {
+   "record_id": "dbSNP:rs72921001",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/72921001",
+   "retrieved_at": "2026-11-17T01:59:59.798724+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "72921001",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [],
+    "merged_into": [],
+    "citations": [],
+    "variant_type": "snv",
+    "seq_id": "NC_000011.10",
+    "alleles": [
+     {
+      "hgvs": "NC_000011.10:g.6868417=",
+      "position0": 6868416,
+      "deleted": "C",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000011.10:g.6868417C>A",
+      "position0": 6868416,
+      "deleted": "C",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000011.10:g.6868417C>G",
+      "position0": 6868416,
+      "deleted": "C",
+      "inserted": "G"
+     }
+    ],
+    "genes": [
+     "OR10A2"
+    ]
+   }
+  },
+  "VEP:rs72921001": {
+   "record_id": "VEP:rs72921001",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs72921001",
+   "retrieved_at": "2026-11-17T02:00:01.381385+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs72921001",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "11",
+    "start": 6868417,
+    "end": 6868417,
+    "allele_string": "C/A",
+    "variant_class": "SNV",
+    "most_severe_consequence": "intron_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "A",
+      "gene_symbol": "OR10A2",
+      "gene_id": "ENSG00000170790",
+      "transcript_id": "ENST00000641461",
+      "mane_select": "NM_001004460.2",
+      "consequence_terms": [
+       "intron_variant"
+      ],
+      "hgvsc": "ENST00000641461.1:c.-132-1206C>A",
+      "hgvsp": null,
+      "impact": "MODIFIER",
+      "amino_acids": null,
+      "protein_start": null,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [],
+    "colocated_somatic": false
+   }
+  },
+  "gnomAD-v2.1.1:rs72921001": {
+   "record_id": "gnomAD-v2.1.1:rs72921001",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:00:01.789727+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr11:g.6889648C>A",
+      "_score": 17.141037,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 7.273
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "A",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.322189,
+        "af_afr": 0.197508,
+        "af_afr_female": 0.201039,
+        "af_afr_male": 0.194932,
+        "af_amr": 0.334123,
+        "af_amr_female": 0.303398,
+        "af_amr_male": 0.363426,
+        "af_asj": 0.365517,
+        "af_asj_female": 0.35,
+        "af_asj_male": 0.371429,
+        "af_eas": 0.27871,
+        "af_eas_female": 0.291045,
+        "af_eas_male": 0.272189,
+        "af_female": 0.329078,
+        "af_fin": 0.376226,
+        "af_fin_female": 0.379217,
+        "af_fin_male": 0.37285,
+        "af_male": 0.316705,
+        "af_nfe": 0.379241,
+        "af_nfe_est": 0.386384,
+        "af_nfe_female": 0.384434,
+        "af_nfe_male": 0.375145,
+        "af_nfe_nwe": 0.376283,
+        "af_nfe_onf": 0.374532,
+        "af_nfe_seu": 0.40566,
+        "af_oth": 0.378004,
+        "af_oth_female": 0.382143,
+        "af_oth_male": 0.373563
+       },
+       "alt": "A",
+       "an": {
+        "an": 31286,
+        "an_afr": 8668,
+        "an_afr_female": 3656,
+        "an_afr_male": 5012,
+        "an_amr": 844,
+        "an_amr_female": 412,
+        "an_amr_male": 432,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1550,
+        "an_eas_female": 536,
+        "an_eas_male": 1014,
+        "an_female": 13866,
+        "an_fin": 3466,
+        "an_fin_female": 1838,
+        "an_fin_male": 1628,
+        "an_male": 17420,
+        "an_nfe": 15386,
+        "an_nfe_est": 4568,
+        "an_nfe_female": 6784,
+        "an_nfe_male": 8602,
+        "an_nfe_nwe": 8576,
+        "an_nfe_onf": 2136,
+        "an_nfe_seu": 106,
+        "an_oth": 1082,
+        "an_oth_female": 560,
+        "an_oth_male": 522
+       },
+       "ref": "C"
+      },
+      "vcf": {
+       "alt": "A",
+       "position": "6889648",
+       "ref": "C"
+      }
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:11-6868417-C-A": {
+   "record_id": "gnomAD-v4.1:11-6868417-C-A",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:00:02.266887+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "11-6868417-C-A",
+     "rsids": [
+      "rs72921001"
+     ],
+     "exome": null,
+     "genome": {
+      "ac": 49338,
+      "an": 151828,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 738,
+        "an": 2108
+       },
+       {
+        "id": "amr",
+        "ac": 5100,
+        "an": 15244
+       },
+       {
+        "id": "fin",
+        "ac": 3993,
+        "an": 10526
+       },
+       {
+        "id": "ami",
+        "ac": 398,
+        "an": 912
+       },
+       {
+        "id": "eas",
+        "ac": 1482,
+        "an": 5144
+       },
+       {
+        "id": "mid",
+        "ac": 87,
+        "an": 292
+       },
+       {
+        "id": "sas",
+        "ac": 1969,
+        "an": 4790
+       },
+       {
+        "id": "asj",
+        "ac": 1265,
+        "an": 3468
+       },
+       {
+        "id": "afr",
+        "ac": 8466,
+        "an": 41406
+       },
+       {
+        "id": "nfe",
+        "ac": 25840,
+        "an": 67938
+       }
+      ]
+     }
+    },
+    "errors": null
+   }
+  },
+  "gnomAD-v4.1:11-6868417-C-G": {
+   "record_id": "gnomAD-v4.1:11-6868417-C-G",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:00:02.862766+00:00",
+   "status": 200,
+   "data": {
+    "variant": null,
+    "errors": [
+     {
+      "message": "Variant not found"
+     }
+    ]
+   }
+  },
+  "ClinVar:rs72921001@2026-11": {
+   "record_id": "ClinVar:rs72921001@2026-11",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2026-11",
+   "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
+   "retrieved_at": "2026-11-17T02:13:54.166765+00:00",
+   "status": 200,
+   "data": {
+    "rsid": "rs72921001",
+    "n_records": 0
+   }
+  },
+  "GWAS:rs72921001": {
+   "record_id": "GWAS:rs72921001",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:00:03.983083+00:00",
+   "status": 200,
+   "data": {
+    "associations": []
+   }
+  },
+  "LitVar2:rs72921001": {
+   "record_id": "LitVar2:rs72921001",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs72921001%23%23/publications",
+   "retrieved_at": "2026-11-17T02:00:04.060961+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     40442113,
+     38308303,
+     31357559,
+     36479483,
+     25660959
+    ],
+    "n_pmids": 5
+   }
+  },
+  "PMID:40442113": {
+   "record_id": "PMID:40442113",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40442113/",
+   "retrieved_at": "2026-11-17T02:00:04.325397+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "40442113",
+    "title": "From phytochemicals to recipes: health indications and culinary uses of herbs and spices.",
+    "journal": "NPJ Sci Food",
+    "pubdate": "2025 May 29",
+    "sortpubdate": "2025-05-29",
+    "abstract": "Herbs and spices each contain about 3000 phytochemicals on average, and there is much traditional knowledge on their health benefits. However, there is a lack of systematic studies to understand the relationship among herbs and spices, their phytochemical constituents, their potential health benefits, and their usage in regional cuisines. Here, we use a network-based approach to elucidate established relationships and predict novel associations between the phytochemicals present in herbs and spices and health indications. Our top 100 inferred indication-phytochemical relationships rediscover 40% known relationships and 20% that have been inferred via gene-chemical interactions with high confidence. The remaining 40% are hypotheses generated in a principled way for further experimental investigations. We also develop an algorithm to find the minimum set of spices needed to cover a target group of health conditions. Drawing on spice usage patterns in several regional Indian cuisines and a copy-mutate model for regional cuisine evolution, we characterize the spectrum of health conditions covered by existing regional cuisines. The spectrum of health conditions can expand through the nationalization/globalization of culinary practice."
+   }
+  },
+  "PMID:38308303": {
+   "record_id": "PMID:38308303",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38308303/",
+   "retrieved_at": "2026-11-17T02:00:04.325397+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "38308303",
+    "title": "Genetic determinants of food preferences: a systematic review of observational studies.",
+    "journal": "BMC Nutr",
+    "pubdate": "2024 Feb 2",
+    "sortpubdate": "2024-02-02",
+    "abstract": "Over the last decade, the results of several studies have indicated that adults' food preferences, consumption, and dietary choices vary depending on their genotype characteristics. However, the results of studies related to genes and polymorphisms involved in this phenomenon are contradictory. This study is a systematic review designed to evaluate the genetic determinants of food preferences. This study was conducted following the guidelines of the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA). Searches were conducted to identify articles testing the impact of genotypes on food choices, preferences, and intake in healthy adults. The search included all relevant keywords, and studies published between 1/1/1994 and October 2022 were considered. We assessed the quality of included studies and evaluated the risk of bias using the Newcastle-Ottawa Scale (NOS) for observational studies. A total of 8,510 records were identified through our search method, and finally, 50 studies were included in this study. The majority of the studies evaluated the association of genetic variants with preferences for macronutrients, sweet, bitter, and fatty foods. The results of our study suggest a significant correlation between TAS2R38 variants (rs713598, rs1726866, rs10246939) and bitter and sweet taste preferences. Additionally, we found a considerable association between the T102C polymorphism of the 5-HT2A receptor gene and a higher intake of protein, and rs1761667 (CD36) was associated with fat preference. In conclusion, this study revealed a significant association between certain genetic variants and food preferences among adults."
+   }
+  },
+  "PMID:36479483": {
+   "record_id": "PMID:36479483",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36479483/",
+   "retrieved_at": "2026-11-17T02:00:04.325397+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "36479483",
+    "title": "Polymorphisms, diet and nutrigenomics.",
+    "journal": "J Prev Med Hyg",
+    "pubdate": "2022 Jun",
+    "sortpubdate": "2022-10-17",
+    "abstract": "Every human being possesses an exclusive nutritional blueprint inside their genes. Bioactive food components and nutrients affect the expression of such genes. Nutrigenomics is the science that analyzes gene-nutrient interactions (nutrigenetics), which can lead to the development of personalized nutritional recommendations to maintain optimal health and prevent disease. Genomic diversity among various ethnic groups might affect nutrients bioavailability as well as their metabolism. Nutrigenomics combines different branches of science including nutrition, bioinformatics, genomics, molecular biology, molecular medicine, and epidemiology. Genes regulate intake and metabolism of different nutrients, while nutrients positively or negatively influence the expression of a number of genes; testing of specific genetic polymorphisms may therefore become a useful tool to manage weight loss and to fully understand gene-nutrient interactions. Indeed, several approaches are used to study gene-nutrient interactions: epigenetics, the study of genome modification not related to changes in nucleotide sequence; transcriptomics, the study of tissue-specific and time-specific RNA transcripts; proteomics, the study of proteins involved in biological processes; and metabolomics, the study of changes of primary and secondary metabolites in body fluids and tissues. Hence, the use of nutrigenomics to improve and optimize a healthy, balanced diet in clinical settings could be an effective approach for long-term lifestyle changes that might lead to consistent weight loss and improve quality of life."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 21,
+  "n_claims_fully_verified": 21,
+  "n_uncited_claims": 0,
+  "n_citations": 46,
+  "n_citations_valid": 46,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 34,
+  "n_shown_values_in_text": 34,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 21,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

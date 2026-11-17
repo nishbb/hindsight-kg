@@ -1,0 +1,2850 @@
+{
+ "rsid_query": "rs17822931",
+ "rsid_current": "rs17822931",
+ "as_of": "latest",
+ "generated_at": "2026-11-17T02:13:54.177766+00:00",
+ "genes": {
+  "vep": [
+   "ABCC11"
+  ],
+  "dbsnp": [
+   "ABCC11"
+  ],
+  "clinvar": [
+   "ABCC11"
+  ],
+  "gwas": [
+   "ABCC11",
+   "LONP2",
+   "SIAH1"
+  ]
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000016.10:g.48224287C>A",
+   "spdi_deleted": "C",
+   "spdi_inserted": "A",
+   "chrom": "16",
+   "pos": 48224287,
+   "ref": "C",
+   "alt": "A",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "16-48224287-C-A",
+   "vep": null,
+   "frequency": {
+    "gnomad_v2": null,
+    "gnomad_v4": {
+     "overall": 6.841508251543102e-07,
+     "ac": 1,
+     "an": 1461666,
+     "populations": {
+      "afr": 0.0,
+      "amr": 0.0,
+      "asj": 0.0,
+      "eas": 0.0,
+      "fin": 0.0,
+      "nfe": 0.0,
+      "sas": 1.1601197243555535e-05,
+      "mid": 0.0,
+      "remaining": 0.0
+     }
+    }
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000016.10:g.48224287C>G",
+   "spdi_deleted": "C",
+   "spdi_inserted": "G",
+   "chrom": "16",
+   "pos": 48224287,
+   "ref": "C",
+   "alt": "G",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "16-48224287-C-G",
+   "vep": {
+    "gene_symbol": "ABCC11",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000356608.7:c.538G>C",
+    "hgvsp": "ENSP00000349017.2:p.Gly180Arg",
+    "impact": "MODERATE",
+    "mane_select": "NM_001370497.1"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "exomes",
+     "overall": 3.98267e-06,
+     "populations": {
+      "afr": 0.0,
+      "amr": 2.89721e-05,
+      "asj": 0.0,
+      "eas": 0.0,
+      "fin": 0.0,
+      "nfe": 0.0,
+      "sas": 0.0,
+      "oth": 0.0
+     },
+     "an": 251088
+    },
+    "gnomad_v4": {
+     "overall": 2.0524524754629305e-06,
+     "ac": 3,
+     "an": 1461666,
+     "populations": {
+      "afr": 0.0,
+      "amr": 2.2370363742114446e-05,
+      "asj": 0.0,
+      "eas": 0.0,
+      "fin": 0.0,
+      "nfe": 1.7986905532772142e-06,
+      "sas": 0.0,
+      "mid": 0.0,
+      "remaining": 0.0
+     }
+    }
+   }
+  },
+  {
+   "index": 3,
+   "dbsnp_allele_index": 3,
+   "hgvs_g": "NC_000016.10:g.48224287C>T",
+   "spdi_deleted": "C",
+   "spdi_inserted": "T",
+   "chrom": "16",
+   "pos": 48224287,
+   "ref": "C",
+   "alt": "T",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "16-48224287-C-T",
+   "vep": {
+    "gene_symbol": "ABCC11",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000356608.7:c.538G>A",
+    "hgvsp": "ENSP00000349017.2:p.Gly180Arg",
+    "impact": "MODERATE",
+    "mane_select": "NM_001370497.1"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "exomes",
+     "overall": 0.223953,
+     "populations": {
+      "afr": 0.0266593,
+      "amr": 0.161664,
+      "asj": 0.107668,
+      "eas": 0.869778,
+      "fin": 0.235202,
+      "nfe": 0.128753,
+      "sas": 0.406033,
+      "oth": 0.169113
+     },
+     "an": 251088,
+     "differentiated": true
+    },
+    "gnomad_v4": {
+     "overall": 0.1655353150267955,
+     "ac": 267125,
+     "an": 1613704,
+     "populations": {
+      "afr": 0.025517278156996587,
+      "amr": 0.14798452972360218,
+      "asj": 0.10914374535378793,
+      "eas": 0.8708541369472182,
+      "fin": 0.23129219804951237,
+      "nfe": 0.12780384604952671,
+      "sas": 0.40524175824175823,
+      "mid": 0.0836357637743319,
+      "ami": 0.31030701754385964,
+      "remaining": 0.17258265851550747
+     },
+     "differentiated": true
+    }
+   }
+  }
+ ],
+ "clinvar": [
+  {
+   "variation_id": "3558",
+   "allele_index": 3,
+   "name": "NM_001370497.1(ABCC11):c.538G>A (p.Gly180Arg)",
+   "classification": "Benign",
+   "review_status": "criteria provided, single submitter",
+   "conditions": [
+    "APOCRINE GLAND SECRETION, VARIATION IN",
+    "Axillary odor",
+    "Colostrum secretion"
+   ],
+   "origin": "germline",
+   "n_submitters": "2",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "Benign",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "1",
+     "last_evaluated": "Feb 28, 2011",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "Benign",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "1",
+     "last_evaluated": "Feb 28, 2011",
+     "release_date": "2019-01-03"
+    },
+    {
+     "snapshot": "2020-01",
+     "clnsig": "Benign",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "1",
+     "last_evaluated": "Feb 28, 2011",
+     "release_date": "2020-01-02"
+    },
+    {
+     "snapshot": "2026-11",
+     "clnsig": "Benign",
+     "review_status": "criteria provided, single submitter",
+     "n_submitters": "2",
+     "last_evaluated": "-",
+     "release_date": "2026-11-16"
+    }
+   ],
+   "submission_classes": {
+    "Benign": 4
+   }
+  }
+ ],
+ "clinvar_release": "2026-11",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": [
+   "cosmic_colocated"
+  ]
+ },
+ "gwas": {
+  "n_associations_total": 2,
+  "n_associations_in_scope": 2,
+  "n_genome_wide_significant": 1,
+  "n_studies": 2,
+  "mapped_genes": [
+   "ABCC11",
+   "LONP2",
+   "SIAH1"
+  ],
+  "top_traits": [
+   {
+    "trait": "breast fibrocystic disease",
+    "p_value": "1e-16",
+    "accession": "GCST90651201",
+    "pmid": "40465716"
+   }
+  ],
+  "n_distinct_traits_significant": 1,
+  "haplotype_associations": 1
+ },
+ "literature": {
+  "n_pmids": 148,
+  "n_in_scope": 148,
+  "pmids_in_scope": [
+   "41495507",
+   "40889739",
+   "41343113",
+   "40801133",
+   "40692744",
+   "40465848",
+   "39817749",
+   "39543265",
+   "38953179",
+   "38750405",
+   "38890579",
+   "38860482",
+   "37934781",
+   "38020162",
+   "36909514",
+   "37183951",
+   "36467812",
+   "36075891",
+   "36071064",
+   "35561686",
+   "35508651",
+   "35631534",
+   "35449099",
+   "35176104",
+   "35078690",
+   "34626111",
+   "34888675",
+   "33722103",
+   "34951141",
+   "35036865",
+   "35284885",
+   "34551727",
+   "34410389",
+   "34440458",
+   "33801148",
+   "33669053",
+   "33334016",
+   "32824087",
+   "32758128",
+   "32697988",
+   "32206879",
+   "31775210",
+   "31597922",
+   "31358043",
+   "30898518",
+   "31257224",
+   "30883634",
+   "30971527",
+   "30814510",
+   "30765821"
+  ],
+  "top": [
+   "41495507",
+   "30883634",
+   "27268641"
+  ]
+ },
+ "conflicts": [
+  {
+   "type": "discordant_gene_assignment",
+   "strict": false,
+   "genes": {
+    "Ensembl VEP": [
+     "ABCC11"
+    ],
+    "ClinVar": [
+     "ABCC11"
+    ],
+    "GWAS Catalog": [
+     "ABCC11",
+     "LONP2",
+     "SIAH1"
+    ]
+   }
+  }
+ ],
+ "bottom_line": {
+  "category": "trait-associated common variant without an established monogenic disease role",
+  "confidence": "moderate",
+  "rationale": "replication is limited",
+  "text": "Bottom line: rs17822931 in ABCC11 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with breast fibrocystic disease. Confidence: moderate (replication is limited)."
+ },
+ "notes": [],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs17822931 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs17822931",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs17822931",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs17822931: rs52813591, rs58140753.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs17822931",
+     "path": "dbsnp1_merges.0",
+     "value": "52813591",
+     "label": "dbSNP build 157 rs17822931",
+     "mode": "eq",
+     "shown": "rs52813591",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs17822931",
+     "path": "dbsnp1_merges.1",
+     "value": "58140753",
+     "label": "dbSNP build 157 rs17822931",
+     "mode": "eq",
+     "shown": "rs58140753",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs17822931 as variant type 'snv' on NC_000016.10 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs17822931",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs17822931",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs17822931",
+     "path": "seq_id",
+     "value": "NC_000016.10",
+     "label": "dbSNP build 157 rs17822931",
+     "mode": "eq",
+     "shown": "NC_000016.10",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000016.10:g.48224287C>A, a single-nucleotide variant (SNV) (C>A in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs17822931",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000016.10:g.48224287C>A",
+     "label": "dbSNP build 157 rs17822931",
+     "mode": "eq",
+     "shown": "NC_000016.10:g.48224287C>A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000016.10:g.48224287C>G, a single-nucleotide variant (SNV) (C>G in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs17822931",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000016.10:g.48224287C>G",
+     "label": "dbSNP build 157 rs17822931",
+     "mode": "eq",
+     "shown": "NC_000016.10:g.48224287C>G",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 3: NC_000016.10:g.48224287C>T, a single-nucleotide variant (SNV) (C>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs17822931",
+     "path": "alleles.3.hgvs",
+     "value": "NC_000016.10:g.48224287C>T",
+     "label": "dbSNP build 157 rs17822931",
+     "mode": "eq",
+     "shown": "NC_000016.10:g.48224287C>T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 2 (C>G), Ensembl VEP predicts missense_variant in ABCC11 (ENST00000356608.7:c.538G>C; ENSP00000349017.2:p.Gly180Arg), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs17822931",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs17822931",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17822931",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "ABCC11",
+     "label": "Ensembl VEP rs17822931",
+     "mode": "eq",
+     "shown": "ABCC11",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17822931",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000356608.7:c.538G>C",
+     "label": "Ensembl VEP rs17822931",
+     "mode": "eq",
+     "shown": "ENST00000356608.7:c.538G>C",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17822931",
+     "path": "transcript_consequences.0.hgvsp",
+     "value": "ENSP00000349017.2:p.Gly180Arg",
+     "label": "Ensembl VEP rs17822931",
+     "mode": "eq",
+     "shown": "ENSP00000349017.2:p.Gly180Arg",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17822931",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs17822931",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 3 (C>T), Ensembl VEP predicts missense_variant in ABCC11 (ENST00000356608.7:c.538G>A; ENSP00000349017.2:p.Gly180Arg), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs17822931",
+     "path": "transcript_consequences.1.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs17822931",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17822931",
+     "path": "transcript_consequences.1.gene_symbol",
+     "value": "ABCC11",
+     "label": "Ensembl VEP rs17822931",
+     "mode": "eq",
+     "shown": "ABCC11",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17822931",
+     "path": "transcript_consequences.1.hgvsc",
+     "value": "ENST00000356608.7:c.538G>A",
+     "label": "Ensembl VEP rs17822931",
+     "mode": "eq",
+     "shown": "ENST00000356608.7:c.538G>A",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17822931",
+     "path": "transcript_consequences.1.hgvsp",
+     "value": "ENSP00000349017.2:p.Gly180Arg",
+     "label": "Ensembl VEP rs17822931",
+     "mode": "eq",
+     "shown": "ENSP00000349017.2:p.Gly180Arg",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17822931",
+     "path": "transcript_consequences.1.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs17822931",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string C/G/T.",
+   "citations": [
+    {
+     "record_id": "VEP:rs17822931",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs17822931",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17822931",
+     "path": "allele_string",
+     "value": "C/G/T",
+     "label": "Ensembl VEP rs17822931",
+     "mode": "eq",
+     "shown": "C/G/T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 1 (C>A) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs17822931.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>A) has an overall allele frequency of 6.84e-07 (1 of 1,461,666 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-A",
+     "path": "",
+     "value": 6.841508251543102e-07,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "6.84e-07",
+     "args": [
+      [
+       "variant.exome.ac"
+      ],
+      [
+       "variant.exome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0, South Asian 1.16e-05, Middle Eastern 0, Remaining 0.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.8.ac"
+      ],
+      [
+       "variant.exome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.1.ac"
+      ],
+      [
+       "variant.exome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.6.ac"
+      ],
+      [
+       "variant.exome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.7.ac"
+      ],
+      [
+       "variant.exome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.2.ac"
+      ],
+      [
+       "variant.exome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.4.ac"
+      ],
+      [
+       "variant.exome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-A",
+     "path": "",
+     "value": 1.1601197243555535e-05,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "1.16e-05",
+     "args": [
+      [
+       "variant.exome.populations.5.ac"
+      ],
+      [
+       "variant.exome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.3.ac"
+      ],
+      [
+       "variant.exome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.0.ac"
+      ],
+      [
+       "variant.exome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 exomes, alternate allele 2 (C>G) has an overall allele frequency of 3.98e-06.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.1.gnomad_exome.af.af",
+     "value": 3.98267e-06,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "3.98e-06",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0, Admixed American 2.9e-05, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0, South Asian 0, Other 0.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.1.gnomad_exome.af.af_afr",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.1.gnomad_exome.af.af_amr",
+     "value": 2.89721e-05,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "2.9e-05",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.1.gnomad_exome.af.af_asj",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.1.gnomad_exome.af.af_eas",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.1.gnomad_exome.af.af_fin",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.1.gnomad_exome.af.af_nfe",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.1.gnomad_exome.af.af_sas",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.1.gnomad_exome.af.af_oth",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (C>G) has an overall allele frequency of 2.05e-06 (3 of 1,461,666 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-G",
+     "path": "",
+     "value": 2.0524524754629305e-06,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "2.05e-06",
+     "args": [
+      [
+       "variant.exome.ac"
+      ],
+      [
+       "variant.exome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0, Admixed American 2.24e-05, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 1.8e-06, South Asian 0, Middle Eastern 0, Remaining 0.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-G",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.8.ac"
+      ],
+      [
+       "variant.exome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-G",
+     "path": "",
+     "value": 2.2370363742114446e-05,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "2.24e-05",
+     "args": [
+      [
+       "variant.exome.populations.1.ac"
+      ],
+      [
+       "variant.exome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-G",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.6.ac"
+      ],
+      [
+       "variant.exome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-G",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.7.ac"
+      ],
+      [
+       "variant.exome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-G",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.2.ac"
+      ],
+      [
+       "variant.exome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-G",
+     "path": "",
+     "value": 1.7986905532772142e-06,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "1.8e-06",
+     "args": [
+      [
+       "variant.exome.populations.4.ac"
+      ],
+      [
+       "variant.exome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-G",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.5.ac"
+      ],
+      [
+       "variant.exome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-G",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.3.ac"
+      ],
+      [
+       "variant.exome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-G",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.0.ac"
+      ],
+      [
+       "variant.exome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 exomes, alternate allele 3 (C>T) has an overall allele frequency of 0.224.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.0.gnomad_exome.af.af",
+     "value": 0.223953,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.224",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 3: African/African American 0.0267, Admixed American 0.162, Ashkenazi Jewish 0.108, East Asian 0.87, Finnish 0.235, Non-Finnish European 0.129, South Asian 0.406, Other 0.169.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.0.gnomad_exome.af.af_afr",
+     "value": 0.0266593,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.0267",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.0.gnomad_exome.af.af_amr",
+     "value": 0.161664,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.162",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.0.gnomad_exome.af.af_asj",
+     "value": 0.107668,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.108",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.0.gnomad_exome.af.af_eas",
+     "value": 0.869778,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.87",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.0.gnomad_exome.af.af_fin",
+     "value": 0.235202,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.235",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.0.gnomad_exome.af.af_nfe",
+     "value": 0.128753,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.129",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.0.gnomad_exome.af.af_sas",
+     "value": 0.406033,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.406",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.0.gnomad_exome.af.af_oth",
+     "value": 0.169113,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.169",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v2.1.1 exomes): allele 3 frequency ranges from 0.0267 in African/African American to 0.87 in East Asian, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.0.gnomad_exome.af.af_afr",
+     "value": 0.0266593,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.0267",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17822931",
+     "path": "hits.0.gnomad_exome.af.af_eas",
+     "value": 0.869778,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.87",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 3 (C>T) has an overall allele frequency of 0.166 (267,125 of 1,613,704 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-T",
+     "path": "",
+     "value": 0.1655353150267955,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.166",
+     "args": [
+      [
+       "variant.exome.ac",
+       "variant.genome.ac"
+      ],
+      [
+       "variant.exome.an",
+       "variant.genome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 3: African/African American 0.0255, Admixed American 0.148, Ashkenazi Jewish 0.109, East Asian 0.871, Finnish 0.231, Non-Finnish European 0.128, South Asian 0.405, Middle Eastern 0.0836, Amish 0.31, Remaining 0.173.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-T",
+     "path": "",
+     "value": 0.025517278156996587,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0255",
+     "args": [
+      [
+       "variant.exome.populations.8.ac",
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.exome.populations.8.an",
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-T",
+     "path": "",
+     "value": 0.14798452972360218,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.148",
+     "args": [
+      [
+       "variant.exome.populations.1.ac",
+       "variant.genome.populations.1.ac"
+      ],
+      [
+       "variant.exome.populations.1.an",
+       "variant.genome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-T",
+     "path": "",
+     "value": 0.10914374535378793,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.109",
+     "args": [
+      [
+       "variant.exome.populations.6.ac",
+       "variant.genome.populations.7.ac"
+      ],
+      [
+       "variant.exome.populations.6.an",
+       "variant.genome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-T",
+     "path": "",
+     "value": 0.8708541369472182,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.871",
+     "args": [
+      [
+       "variant.exome.populations.7.ac",
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.exome.populations.7.an",
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-T",
+     "path": "",
+     "value": 0.23129219804951237,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.231",
+     "args": [
+      [
+       "variant.exome.populations.2.ac",
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.exome.populations.2.an",
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-T",
+     "path": "",
+     "value": 0.12780384604952671,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.128",
+     "args": [
+      [
+       "variant.exome.populations.4.ac",
+       "variant.genome.populations.9.ac"
+      ],
+      [
+       "variant.exome.populations.4.an",
+       "variant.genome.populations.9.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-T",
+     "path": "",
+     "value": 0.40524175824175823,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.405",
+     "args": [
+      [
+       "variant.exome.populations.5.ac",
+       "variant.genome.populations.6.ac"
+      ],
+      [
+       "variant.exome.populations.5.an",
+       "variant.genome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-T",
+     "path": "",
+     "value": 0.0836357637743319,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0836",
+     "args": [
+      [
+       "variant.exome.populations.3.ac",
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.exome.populations.3.an",
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-T",
+     "path": "",
+     "value": 0.31030701754385964,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.31",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-T",
+     "path": "",
+     "value": 0.17258265851550747,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.173",
+     "args": [
+      [
+       "variant.exome.populations.0.ac",
+       "variant.genome.populations.0.ac"
+      ],
+      [
+       "variant.exome.populations.0.an",
+       "variant.genome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v4.1): allele 3 frequency ranges from 0.0255 in African/African American to 0.871 in East Asian, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-T",
+     "path": "",
+     "value": 0.025517278156996587,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0255",
+     "args": [
+      [
+       "variant.exome.populations.8.ac",
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.exome.populations.8.an",
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:16-48224287-C-T",
+     "path": "",
+     "value": 0.8708541369472182,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.871",
+     "args": [
+      [
+       "variant.exome.populations.7.ac",
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.exome.populations.7.an",
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_001370497.1(ABCC11):c.538G>A (p.Gly180Arg) (alternate allele 3) with germline classification 'Benign' for: APOCRINE GLAND SECRETION, VARIATION IN; Axillary odor; Colostrum secretion; review status 'criteria provided, single submitter', 2 submitter(s), allele origin 'germline'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Benign",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "review_status",
+     "value": "criteria provided, single submitter",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "eq",
+     "shown": "criteria provided, single submitter",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "name",
+     "value": "NM_001370497.1(ABCC11):c.538G>A (p.Gly180Arg)",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "eq",
+     "shown": "NM_001370497.1(ABCC11):c.538G>A (p.Gly180Arg)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "n_submitters",
+     "value": "2",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "eq",
+     "shown": "2",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "phenotype_list",
+     "value": "APOCRINE GLAND SECRETION, VARIATION IN",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "contains",
+     "shown": "APOCRINE GLAND SECRETION, VARIATION IN",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "phenotype_list",
+     "value": "Axillary odor",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Axillary odor",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "phenotype_list",
+     "value": "Colostrum secretion",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Colostrum secretion",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "origin",
+     "value": "germline",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "eq",
+     "shown": "germline",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: Benign; 2019-01: Benign; 2020-01: Benign; 2026-11: Benign. The classification did not change over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "history.0.clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Benign",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "history.1.clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Benign",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "history.2.clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Benign",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "history.3.clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Benign",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 4 'Benign'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "",
+     "value": 4,
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "4",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Benign"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Somatic evidence",
+   "text": "Ensembl VEP reports 1 co-located COSMIC somatic mutation record(s) at this position (COSV62323034).",
+   "citations": [
+    {
+     "record_id": "VEP:rs17822931",
+     "path": "cosmic_ids.0",
+     "value": "COSV62323034",
+     "label": "Ensembl VEP rs17822931",
+     "mode": "eq",
+     "shown": "COSV62323034",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 2 association record(s) for rs17822931.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs17822931",
+     "path": "associations.1.association_id",
+     "value": 47495710,
+     "label": "GWAS Catalog rs17822931",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with breast fibrocystic disease (p = 1e-16, study GCST90651201).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs17822931",
+     "path": "associations.0.accession_id",
+     "value": "GCST90651201",
+     "label": "GWAS Catalog GCST90651201",
+     "mode": "eq",
+     "shown": "GCST90651201",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs17822931",
+     "path": "associations.0.pvalue_exponent",
+     "value": -16,
+     "label": "GWAS Catalog GCST90651201",
+     "mode": "eq",
+     "shown": "1e-16",
+     "args": null
+    },
+    {
+     "record_id": "PMID:40465716",
+     "path": "pmid",
+     "value": "40465716",
+     "label": "PMID:40465716",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 148 PubMed articles to rs17822931.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs17822931",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs17822931",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Association of the rs17822931 (538G\u2009>\u2009A, G180R) in the ABCC11 gene with risk of middle ear cholesteatoma in older adults: a hospital-based case-control study at Heidelberg University Hospital, Germany\" (Eur Arch Otorhinolaryngol, 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:41495507",
+     "path": "title",
+     "value": "Association of the rs17822931 (538G\u2009>\u2009A, G180R) in the ABCC11 gene with risk of middle ear cholesteatoma in older adults: a hospital-based case-control study at Heidelberg University Hospital, Germany.",
+     "label": "PMID:41495507",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:41495507",
+     "path": "journal",
+     "value": "Eur Arch Otorhinolaryngol",
+     "label": "PMID:41495507",
+     "mode": "eq",
+     "shown": "Eur Arch Otorhinolaryngol",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"A functional single nucleotide polymorphism in ABCC11, rs17822931, is associated with the risk of breast cancer in Japanese\" (Carcinogenesis, 2019).",
+   "citations": [
+    {
+     "record_id": "PMID:30883634",
+     "path": "title",
+     "value": "A functional single nucleotide polymorphism in ABCC11, rs17822931, is associated with the risk of breast cancer in Japanese.",
+     "label": "PMID:30883634",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:30883634",
+     "path": "journal",
+     "value": "Carcinogenesis",
+     "label": "PMID:30883634",
+     "mode": "eq",
+     "shown": "Carcinogenesis",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"No Association of the rs17822931 Polymorphism in ABCC11 with Breast Cancer Risk in Koreans\" (Asian Pac J Cancer Prev, 2016).",
+   "citations": [
+    {
+     "record_id": "PMID:27268641",
+     "path": "title",
+     "value": "No Association of the rs17822931 Polymorphism in ABCC11 with Breast Cancer Risk in Koreans.",
+     "label": "PMID:27268641",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:27268641",
+     "path": "journal",
+     "value": "Asian Pac J Cancer Prev",
+     "label": "PMID:27268641",
+     "mode": "eq",
+     "shown": "Asian Pac J Cancer Prev",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Conflicts and caveats",
+   "text": "Gene assignment difference: sources name different genes for rs17822931 (Ensembl VEP: ABCC11; ClinVar: ABCC11; GWAS Catalog: ABCC11, LONP2, SIAH1).",
+   "citations": [
+    {
+     "record_id": "VEP:rs17822931",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": null,
+     "label": "Ensembl VEP rs17822931",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "gene_symbol",
+     "value": "ABCC11",
+     "label": "ClinVar VCV000003558",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs17822931",
+     "path": "associations.0.mapped_genes",
+     "value": null,
+     "label": "GWAS Catalog rs17822931",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "No allele of rs17822931 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "rs17822931 is associated with 1 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs17822931",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs17822931",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs17822931 in ABCC11 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with breast fibrocystic disease. Confidence: moderate (replication is limited).",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000003558@2026-11",
+     "path": "clnsig",
+     "value": "Benign",
+     "label": "ClinVar VCV000003558 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs17822931",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs17822931",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs17822931",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs17822931",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs17822931": {
+   "record_id": "dbSNP:rs17822931",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/17822931",
+   "retrieved_at": "2026-11-17T02:00:04.843611+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "17822931",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "52813591",
+     "58140753"
+    ],
+    "merged_into": [],
+    "citations": [
+     16255080,
+     16444273,
+     17394018,
+     18037328,
+     18817904,
+     19650936,
+     19710689,
+     19737746,
+     20937735,
+     21423094,
+     21467728,
+     21589938,
+     23325016,
+     23760047,
+     24019265,
+     25887915,
+     27027309,
+     28485377,
+     29602456,
+     30047321,
+     30883634,
+     30971527,
+     33334016,
+     34551727,
+     34951141,
+     35078690,
+     35176104
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000016.10",
+    "alleles": [
+     {
+      "hgvs": "NC_000016.10:g.48224287=",
+      "position0": 48224286,
+      "deleted": "C",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000016.10:g.48224287C>A",
+      "position0": 48224286,
+      "deleted": "C",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000016.10:g.48224287C>G",
+      "position0": 48224286,
+      "deleted": "C",
+      "inserted": "G"
+     },
+     {
+      "hgvs": "NC_000016.10:g.48224287C>T",
+      "position0": 48224286,
+      "deleted": "C",
+      "inserted": "T"
+     }
+    ],
+    "genes": [
+     "ABCC11"
+    ]
+   }
+  },
+  "VEP:rs17822931": {
+   "record_id": "VEP:rs17822931",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs17822931",
+   "retrieved_at": "2026-11-17T02:00:05.686345+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs17822931",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "16",
+    "start": 48224287,
+    "end": 48224287,
+    "allele_string": "C/G/T",
+    "variant_class": "SNV",
+    "most_severe_consequence": "missense_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "G",
+      "gene_symbol": "ABCC11",
+      "gene_id": "ENSG00000121270",
+      "transcript_id": "ENST00000356608",
+      "mane_select": "NM_001370497.1",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000356608.7:c.538G>C",
+      "hgvsp": "ENSP00000349017.2:p.Gly180Arg",
+      "impact": "MODERATE",
+      "amino_acids": "G/R",
+      "protein_start": 180,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "T",
+      "gene_symbol": "ABCC11",
+      "gene_id": "ENSG00000121270",
+      "transcript_id": "ENST00000356608",
+      "mane_select": "NM_001370497.1",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000356608.7:c.538G>A",
+      "hgvsp": "ENSP00000349017.2:p.Gly180Arg",
+      "impact": "MODERATE",
+      "amino_acids": "G/R",
+      "protein_start": 180,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [
+     "COSV62323034"
+    ],
+    "colocated_somatic": true
+   }
+  },
+  "gnomAD-v2.1.1:rs17822931": {
+   "record_id": "gnomAD-v2.1.1:rs17822931",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:00:05.787795+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr16:g.48258198C>T",
+      "_score": 17.141037,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 27.5
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "T",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "gnomad_exome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.223953,
+        "af_afr": 0.0266593,
+        "af_afr_female": 0.0275403,
+        "af_afr_male": 0.0252264,
+        "af_amr": 0.161664,
+        "af_amr_female": 0.160751,
+        "af_amr_male": 0.162957,
+        "af_asj": 0.107668,
+        "af_asj_female": 0.107114,
+        "af_asj_male": 0.108192,
+        "af_eas": 0.869778,
+        "af_eas_female": 0.871058,
+        "af_eas_jpn": 0.828947,
+        "af_eas_kor": 0.987159,
+        "af_eas_male": 0.868462,
+        "af_eas_oea": 0.839137,
+        "af_female": 0.214559,
+        "af_fin": 0.235202,
+        "af_fin_female": 0.234414,
+        "af_fin_male": 0.235926,
+        "af_male": 0.231942,
+        "af_nfe": 0.128753,
+        "af_nfe_bgr": 0.132132,
+        "af_nfe_est": 0.157025,
+        "af_nfe_female": 0.127711,
+        "af_nfe_male": 0.129574,
+        "af_nfe_nwe": 0.126965,
+        "af_nfe_onf": 0.126115,
+        "af_nfe_seu": 0.0982594,
+        "af_nfe_swe": 0.147559,
+        "af_oth": 0.169113,
+        "af_oth_female": 0.176913,
+        "af_oth_male": 0.161985,
+        "af_sas": 0.406033,
+        "af_sas_female": 0.431346,
+        "af_sas_male": 0.397767
+       },
+       "alt": "T",
+       "an": {
+        "an": 251088,
+        "an_afr": 16242,
+        "an_afr_female": 10058,
+        "an_afr_male": 6184,
+        "an_amr": 34516,
+        "an_amr_female": 20230,
+        "an_amr_male": 14286,
+        "an_asj": 10068,
+        "an_asj_female": 4892,
+        "an_asj_male": 5176,
+        "an_eas": 18384,
+        "an_eas_female": 9322,
+        "an_eas_jpn": 152,
+        "an_eas_kor": 3816,
+        "an_eas_male": 9062,
+        "an_eas_oea": 14416,
+        "an_female": 115390,
+        "an_fin": 21624,
+        "an_fin_female": 10362,
+        "an_fin_male": 11262,
+        "an_male": 135698,
+        "an_nfe": 113590,
+        "an_nfe_bgr": 2664,
+        "an_nfe_est": 242,
+        "an_nfe_female": 50082,
+        "an_nfe_male": 63508,
+        "an_nfe_nwe": 42114,
+        "an_nfe_onf": 30948,
+        "an_nfe_seu": 11490,
+        "an_nfe_swe": 26132,
+        "an_oth": 6132,
+        "an_oth_female": 2928,
+        "an_oth_male": 3204,
+        "an_sas": 30532,
+        "an_sas_female": 7516,
+        "an_sas_male": 23016
+       },
+       "ref": "C"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.1604,
+        "af_afr": 0.0302021,
+        "af_afr_female": 0.031012,
+        "af_afr_male": 0.0296105,
+        "af_amr": 0.156028,
+        "af_amr_female": 0.15534,
+        "af_amr_male": 0.156682,
+        "af_asj": 0.106897,
+        "af_asj_female": 0.1375,
+        "af_asj_male": 0.0952381,
+        "af_eas": 0.871465,
+        "af_eas_female": 0.845149,
+        "af_eas_male": 0.885294,
+        "af_female": 0.1585,
+        "af_fin": 0.244246,
+        "af_fin_female": 0.229686,
+        "af_fin_male": 0.260736,
+        "af_male": 0.161915,
+        "af_nfe": 0.142477,
+        "af_nfe_est": 0.183763,
+        "af_nfe_female": 0.151484,
+        "af_nfe_male": 0.135361,
+        "af_nfe_nwe": 0.123401,
+        "af_nfe_onf": 0.131209,
+        "af_nfe_seu": 0.132075,
+        "af_oth": 0.189338,
+        "af_oth_female": 0.19395,
+        "af_oth_male": 0.184411
+       },
+       "alt": "T",
+       "an": {
+        "an": 31384,
+        "an_afr": 8708,
+        "an_afr_female": 3676,
+        "an_afr_male": 5032,
+        "an_amr": 846,
+        "an_amr_female": 412,
+        "an_amr_male": 434,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1556,
+        "an_eas_female": 536,
+        "an_eas_male": 1020,
+        "an_female": 13918,
+        "an_fin": 3476,
+        "an_fin_female": 1846,
+        "an_fin_male": 1630,
+        "an_male": 17466,
+        "an_nfe": 15420,
+        "an_nfe_est": 4582,
+        "an_nfe_female": 6806,
+        "an_nfe_male": 8614,
+        "an_nfe_nwe": 8598,
+        "an_nfe_onf": 2134,
+        "an_nfe_seu": 106,
+        "an_oth": 1088,
+        "an_oth_female": 562,
+        "an_oth_male": 526
+       },
+       "ref": "C"
+      },
+      "vcf": {
+       "alt": "T",
+       "position": "48258198",
+       "ref": "C"
+      }
+     },
+     {
+      "_id": "chr16:g.48258198C>G",
+      "_score": 17.141008,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 26.6
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "G",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "gnomad_exome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 3.98267e-06,
+        "af_afr": 0.0,
+        "af_afr_female": 0.0,
+        "af_afr_male": 0.0,
+        "af_amr": 2.89721e-05,
+        "af_amr_female": 0.0,
+        "af_amr_male": 6.99986e-05,
+        "af_asj": 0.0,
+        "af_asj_female": 0.0,
+        "af_asj_male": 0.0,
+        "af_eas": 0.0,
+        "af_eas_female": 0.0,
+        "af_eas_jpn": 0.0,
+        "af_eas_kor": 0.0,
+        "af_eas_male": 0.0,
+        "af_eas_oea": 0.0,
+        "af_female": 0.0,
+        "af_fin": 0.0,
+        "af_fin_female": 0.0,
+        "af_fin_male": 0.0,
+        "af_male": 7.36931e-06,
+        "af_nfe": 0.0,
+        "af_nfe_bgr": 0.0,
+        "af_nfe_est": 0.0,
+        "af_nfe_female": 0.0,
+        "af_nfe_male": 0.0,
+        "af_nfe_nwe": 0.0,
+        "af_nfe_onf": 0.0,
+        "af_nfe_seu": 0.0,
+        "af_nfe_swe": 0.0,
+        "af_oth": 0.0,
+        "af_oth_female": 0.0,
+        "af_oth_male": 0.0,
+        "af_sas": 0.0,
+        "af_sas_female": 0.0,
+        "af_sas_male": 0.0
+       },
+       "alt": "G",
+       "an": {
+        "an": 251088,
+        "an_afr": 16242,
+        "an_afr_female": 10058,
+        "an_afr_male": 6184,
+        "an_amr": 34516,
+        "an_amr_female": 20230,
+        "an_amr_male": 14286,
+        "an_asj": 10068,
+        "an_asj_female": 4892,
+        "an_asj_male": 5176,
+        "an_eas": 18384,
+        "an_eas_female": 9322,
+        "an_eas_jpn": 152,
+        "an_eas_kor": 3816,
+        "an_eas_male": 9062,
+        "an_eas_oea": 14416,
+        "an_female": 115390,
+        "an_fin": 21624,
+        "an_fin_female": 10362,
+        "an_fin_male": 11262,
+        "an_male": 135698,
+        "an_nfe": 113590,
+        "an_nfe_bgr": 2664,
+        "an_nfe_est": 242,
+        "an_nfe_female": 50082,
+        "an_nfe_male": 63508,
+        "an_nfe_nwe": 42114,
+        "an_nfe_onf": 30948,
+        "an_nfe_seu": 11490,
+        "an_nfe_swe": 26132,
+        "an_oth": 6132,
+        "an_oth_female": 2928,
+        "an_oth_male": 3204,
+        "an_sas": 30532,
+        "an_sas_female": 7516,
+        "an_sas_male": 23016
+       },
+       "ref": "C"
+      },
+      "vcf": {
+       "alt": "G",
+       "position": "48258198",
+       "ref": "C"
+      }
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:16-48224287-C-A": {
+   "record_id": "gnomAD-v4.1:16-48224287-C-A",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:00:05.890441+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "16-48224287-C-A",
+     "rsids": [],
+     "exome": {
+      "ac": 1,
+      "an": 1461666,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 0,
+        "an": 60388
+       },
+       {
+        "id": "amr",
+        "ac": 0,
+        "an": 44702
+       },
+       {
+        "id": "fin",
+        "ac": 0,
+        "an": 53404
+       },
+       {
+        "id": "mid",
+        "ac": 0,
+        "an": 5768
+       },
+       {
+        "id": "nfe",
+        "ac": 0,
+        "an": 1111920
+       },
+       {
+        "id": "sas",
+        "ac": 1,
+        "an": 86198
+       },
+       {
+        "id": "asj",
+        "ac": 0,
+        "an": 26122
+       },
+       {
+        "id": "eas",
+        "ac": 0,
+        "an": 39692
+       },
+       {
+        "id": "afr",
+        "ac": 0,
+        "an": 33472
+       }
+      ]
+     },
+     "genome": null
+    },
+    "errors": null
+   }
+  },
+  "gnomAD-v4.1:16-48224287-C-G": {
+   "record_id": "gnomAD-v4.1:16-48224287-C-G",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:00:06.881101+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "16-48224287-C-G",
+     "rsids": [
+      "rs17822931"
+     ],
+     "exome": {
+      "ac": 3,
+      "an": 1461666,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 0,
+        "an": 60388
+       },
+       {
+        "id": "amr",
+        "ac": 1,
+        "an": 44702
+       },
+       {
+        "id": "fin",
+        "ac": 0,
+        "an": 53404
+       },
+       {
+        "id": "mid",
+        "ac": 0,
+        "an": 5768
+       },
+       {
+        "id": "nfe",
+        "ac": 2,
+        "an": 1111920
+       },
+       {
+        "id": "sas",
+        "ac": 0,
+        "an": 86198
+       },
+       {
+        "id": "asj",
+        "ac": 0,
+        "an": 26122
+       },
+       {
+        "id": "eas",
+        "ac": 0,
+        "an": 39692
+       },
+       {
+        "id": "afr",
+        "ac": 0,
+        "an": 33472
+       }
+      ]
+     },
+     "genome": null
+    },
+    "errors": null
+   }
+  },
+  "gnomAD-v4.1:16-48224287-C-T": {
+   "record_id": "gnomAD-v4.1:16-48224287-C-T",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:00:07.897166+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "16-48224287-C-T",
+     "rsids": [
+      "rs17822931"
+     ],
+     "exome": {
+      "ac": 245580,
+      "an": 1461508,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 10520,
+        "an": 60378
+       },
+       {
+        "id": "amr",
+        "ac": 7157,
+        "an": 44698
+       },
+       {
+        "id": "fin",
+        "ac": 12224,
+        "an": 53396
+       },
+       {
+        "id": "mid",
+        "ac": 485,
+        "an": 5768
+       },
+       {
+        "id": "nfe",
+        "ac": 142076,
+        "an": 1111810
+       },
+       {
+        "id": "sas",
+        "ac": 34820,
+        "an": 86174
+       },
+       {
+        "id": "asj",
+        "ac": 2837,
+        "an": 26122
+       },
+       {
+        "id": "eas",
+        "ac": 34730,
+        "an": 39690
+       },
+       {
+        "id": "afr",
+        "ac": 731,
+        "an": 33472
+       }
+      ]
+     },
+     "genome": {
+      "ac": 21545,
+      "an": 152196,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 264,
+        "an": 2108
+       },
+       {
+        "id": "amr",
+        "ac": 1720,
+        "an": 15288
+       },
+       {
+        "id": "fin",
+        "ac": 2575,
+        "an": 10588
+       },
+       {
+        "id": "ami",
+        "ac": 283,
+        "an": 912
+       },
+       {
+        "id": "eas",
+        "ac": 4340,
+        "an": 5174
+       },
+       {
+        "id": "mid",
+        "ac": 22,
+        "an": 294
+       },
+       {
+        "id": "sas",
+        "ac": 2057,
+        "an": 4826
+       },
+       {
+        "id": "asj",
+        "ac": 393,
+        "an": 3472
+       },
+       {
+        "id": "afr",
+        "ac": 1183,
+        "an": 41536
+       },
+       {
+        "id": "nfe",
+        "ac": 8708,
+        "an": 67998
+       }
+      ]
+     }
+    },
+    "errors": null
+   }
+  },
+  "ClinVar:VCV000003558@2026-11": {
+   "record_id": "ClinVar:VCV000003558@2026-11",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3558/",
+   "retrieved_at": "2026-11-17T02:13:54.173664+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "18597",
+    "type": "single nucleotide variant",
+    "name": "NM_001370497.1(ABCC11):c.538G>A (p.Gly180Arg)",
+    "gene_symbol": "ABCC11",
+    "clnsig": "Benign",
+    "last_evaluated": "-",
+    "rcv": "RCV000003737|RCV000003738|RCV000003739|RCV004714398",
+    "phenotype_list": "APOCRINE GLAND SECRETION, VARIATION IN|Axillary odor|Colostrum secretion|not provided",
+    "origin": "germline",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "16",
+    "start": "48224287",
+    "ref": "na",
+    "alt": "na",
+    "review_status": "criteria provided, single submitter",
+    "n_submitters": "2",
+    "variation_id": "3558",
+    "ref_vcf": "C",
+    "alt_vcf": "T",
+    "pos_vcf": "48224287",
+    "somatic_clinical_impact": "-",
+    "oncogenicity": "-",
+    "rsid": "rs17822931",
+    "submissions": [
+     {
+      "variation_id": "3558",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Feb 28, 2011",
+      "reported_phenotype": "C1861696:APOCRINE GLAND SECRETION, VARIATION IN",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "OMIM",
+      "scv": "SCV000023900.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3558",
+      "clnsig": "Benign",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "not provided",
+      "origin_counts": "germline:na",
+      "submitter": "Breakthrough Genomics, Breakthrough Genomics",
+      "scv": "SCV005289731.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3558",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Feb 28, 2011",
+      "reported_phenotype": "C3149148:Axillary odor",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "OMIM",
+      "scv": "SCV000023902.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3558",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Feb 28, 2011",
+      "reported_phenotype": "C3149149:Colostrum secretion",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "OMIM",
+      "scv": "SCV000023903.1",
+      "snapshot": "2026-11"
+     }
+    ],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "Benign",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "1",
+      "last_evaluated": "Feb 28, 2011",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "Benign",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "1",
+      "last_evaluated": "Feb 28, 2011",
+      "release_date": "2019-01-03"
+     },
+     {
+      "snapshot": "2020-01",
+      "clnsig": "Benign",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "1",
+      "last_evaluated": "Feb 28, 2011",
+      "release_date": "2020-01-02"
+     },
+     {
+      "snapshot": "2026-11",
+      "clnsig": "Benign",
+      "review_status": "criteria provided, single submitter",
+      "n_submitters": "2",
+      "last_evaluated": "-",
+      "release_date": "2026-11-16"
+     }
+    ]
+   }
+  },
+  "CIViC:ABCC11:G180R": {
+   "record_id": "CIViC:ABCC11:G180R",
+   "source": "CIViC",
+   "source_version": "CIViC GraphQL API",
+   "url": "https://civicdb.org/api/graphql",
+   "retrieved_at": "2026-11-17T02:00:08.195180+00:00",
+   "status": 200,
+   "data": {
+    "variants": []
+   }
+  },
+  "GWAS:rs17822931": {
+   "record_id": "GWAS:rs17822931",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:00:08.965858+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 191271457,
+      "accession_id": "GCST90651201",
+      "pubmed_id": "40465716",
+      "first_author": "Liu TY",
+      "p_value": 1e-16,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -16,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005219",
+        "efo_trait": "breast fibrocystic disease"
+       }
+      ],
+      "reported_trait": [
+       "Cystic mastopathy (PheCode 610.1)"
+      ],
+      "mapped_genes": [
+       "ABCC11"
+      ],
+      "snp_effect_allele": [
+       "rs17822931-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2025-06-06"
+     },
+     {
+      "association_id": 47495710,
+      "accession_id": "GCST008413",
+      "pubmed_id": "27903959",
+      "first_author": "Lv H",
+      "p_value": 4e-06,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -6,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "0.111",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0018874",
+        "efo_trait": "acute myeloid leukemia"
+       }
+      ],
+      "reported_trait": [
+       "Core binding factor acute myeloid leukemia"
+      ],
+      "mapped_genes": [
+       "ABCC11",
+       "ABCC11",
+       "ABCC11",
+       "ABCC11",
+       "ABCC11",
+       "ABCC11",
+       "ABCC11",
+       "ABCC11",
+       "ABCC11",
+       "ABCC11",
+       "LONP2",
+       "LONP2",
+       "LONP2",
+       "LONP2",
+       "LONP2",
+       "LONP2",
+       "LONP2",
+       "LONP2",
+       "LONP2",
+       "LONP2",
+       "LONP2",
+       "SIAH1"
+      ],
+      "snp_effect_allele": [
+       "rs10521168-A",
+       "rs11076560-A",
+       "rs11076561-A",
+       "rs11076564-A",
+       "rs11076565-A",
+       "rs12446160-A",
+       "rs13330082-T",
+       "rs13335504-C",
+       "rs13336625-G",
+       "rs13336771-C",
+       "rs16945972-A",
+       "rs16946122-C",
+       "rs17822931-T",
+       "rs17825174-G",
+       "rs8043685-G",
+       "rs8055764-G",
+       "rs9926192-G",
+       "rs9932328-A",
+       "rs9933211-A",
+       "rs9940038-T",
+       "rs9941123-C"
+      ],
+      "multi_snp_haplotype": true,
+      "_index": 1,
+      "_pubdate": "2017-01-31"
+     }
+    ]
+   }
+  },
+  "PMID:40465716": {
+   "record_id": "PMID:40465716",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40465716/",
+   "retrieved_at": "2026-11-17T02:00:09.169452+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "40465716",
+    "title": "Diversity and longitudinal records: Genetic architecture of disease associations and polygenic risk in the Taiwanese Han population.",
+    "journal": "Sci Adv",
+    "pubdate": "2025 Jun 6",
+    "sortpubdate": "2025-06-06"
+   }
+  },
+  "LitVar2:rs17822931": {
+   "record_id": "LitVar2:rs17822931",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs17822931%23%23/publications",
+   "retrieved_at": "2026-11-17T02:00:09.300214+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     21182469,
+     20937735,
+     23900168,
+     40692744,
+     25326100,
+     39817749,
+     27523608,
+     23288347,
+     19383836,
+     24219164,
+     32206879,
+     29685792,
+     27268641,
+     35078690,
+     28212277,
+     29343290,
+     28164156,
+     34626111,
+     38020162,
+     18037328,
+     21467728,
+     38890579,
+     26986070,
+     26549847,
+     25896536,
+     30047321,
+     31358043,
+     19644513,
+     36467812,
+     25668207,
+     27984508,
+     32697988,
+     30971527,
+     31257224,
+     27784327,
+     41343113,
+     29895819,
+     29974678,
+     29602456,
+     36071064,
+     26606244,
+     20718756,
+     23646373,
+     35176104,
+     25887915,
+     23760047,
+     24367280,
+     37934781,
+     35036865,
+     38860482
+    ],
+    "n_pmids": 148
+   }
+  },
+  "PMID:41495507": {
+   "record_id": "PMID:41495507",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41495507/",
+   "retrieved_at": "2026-11-17T02:00:10.709823+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "41495507",
+    "title": "Association of the rs17822931 (538G\u2009>\u2009A, G180R) in the ABCC11 gene with risk of middle ear cholesteatoma in older adults: a hospital-based case-control study at Heidelberg University Hospital, Germany.",
+    "journal": "Eur Arch Otorhinolaryngol",
+    "pubdate": "2026 Apr",
+    "sortpubdate": "2026-04-01",
+    "abstract": "Cholesteatoma is a progressive disease characterized by abnormal proliferation of keratinizing squamous epithelium within the temporal bone. Although both congenital and acquired forms have been recognized, the molecular mechanisms underlying its development remain poorly understood. Although surgery is the only curative option, the high recurrence rates underscore the need to identify genetic risk factors. The rs17822931 (538G\u2009>\u2009A, G180R) polymorphism in the ABCC11 gene has been associated with cholesteatoma risk in the Japanese population. However, ethnic variation in the frequencies of SNPs other than rs17822931 raises the question of whether its involvement in cholesteatoma development is unique to the Japanese population or generalizable to other ethnic groups. To address this, we conducted a case-control study involving 818 individuals (510 controls and 308 cholesteatoma patients) who presented to the Heidelberg University Hospital (Kopfklinik) in Germany. Among 472 individuals aged\u2009\u2265\u200946 years (302 controls and 170 cholesteatoma patients), 164 matched pairs were selected using 1:1 caliper matching (width\u2009=\u20090.1). Conditional logistic regression was then performed on the resulting 328 individuals (164 controls and 164 cholesteatoma patients). We found that rs17822931 was significantly associated with cholesteatoma in the dominant (OR\u2009=\u20092.04; 95% CI: 1.23-3.41; p\u2009=\u20090.00594) and per-allele (OR\u2009=\u20091.80; 95% CI: 1.18-2.73; p\u2009=\u20090.00599) models. These findings from a German cohort replicate the association between the rs17822931 (538G\u2009>\u2009A, G180R) polymorphism in the ABCC11 gene and cholesteatoma risk in a non-Japanese population, suggesting a broader role of rs17822931 across ethnicities."
+   }
+  },
+  "PMID:30883634": {
+   "record_id": "PMID:30883634",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30883634/",
+   "retrieved_at": "2026-11-17T02:00:10.709823+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "30883634",
+    "title": "A functional single nucleotide polymorphism in ABCC11, rs17822931, is associated with the risk of breast cancer in Japanese.",
+    "journal": "Carcinogenesis",
+    "pubdate": "2019 Jun 10",
+    "sortpubdate": "2019-06-10",
+    "abstract": "The adenosine triphosphate-binding cassette (ABC) transporter superfamily consists of membrane proteins which translocate various substrates across membranes. Because ABCC11, a member ABC transporter, is highly expressed in breast cancer tissue, it may be involved in the efflux of conjugated estrogen metabolites. rs17822931, a functional single nucleotide polymorphism (SNP) in ABCC11, may play a role in the carcinogenesis of breast cancer via estrogen. Here, we aimed to evaluate the association between ABCC11 rs17822931 and breast cancer risk in a Japanese population. We conducted a case-control study in 697 patients with breast cancer and 1394 age- and menopausal status-matched controls within the framework of the Hospital-based Epidemiological Research Program at Aichi Cancer Center II (HERPACC II). The association was evaluated with odds ratios (ORs) and 95% confidence intervals (CIs) calculated using a conditional logistic model adjusted for potential confounders. In the per allele model, compared with the A allele, the G allele was inversely associated with breast cancer: OR, 0.77, 95% CI, 0.62-0.95 and P = 0.013. The stratified analyses showed that this polymorphism had a high impact on estrogen receptor (ER)-positive breast cancer risk and conditions assumed to correlate with high exposure to estrogen, namely no lactation and low soy intake. Our data showed that a significant association between rs17822931 and the risk of breast cancer, especially ER-positive breast cancer, in Japanese women. Compared to women with low estrogen efflux activity with the A allele, those with high efflux activity with the G allele may have a lower risk of breast cancer, particularly women with high estrogen exposure."
+   }
+  },
+  "PMID:27268641": {
+   "record_id": "PMID:27268641",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27268641/",
+   "retrieved_at": "2026-11-17T02:00:10.709823+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "27268641",
+    "title": "No Association of the rs17822931 Polymorphism in ABCC11 with Breast Cancer Risk in Koreans.",
+    "journal": "Asian Pac J Cancer Prev",
+    "pubdate": "2016",
+    "sortpubdate": "2016-01-01",
+    "abstract": "ABCC11 is reported to be associated with breast cancer. However, whether ABCC11 polymorphisms relate to breast cancer risk remains unclear. This study aimed to evaluate any association of a single nucleotide polymorphism (SNP), rs17822931, in ABCC11 with breast cancer in Koreans. Genomic DNA samples of 170 women with breast cancer and 100 controls were assessed for SNP rs17822931 of ABCC11 by single-strand conformation polymorphism (SSCP) and DNA sequencing. A 27-bp deletion (\u039427) of ABCC11 was analyzed by PCR amplification. The genotype of SNP rs17822931 was confirmed to be AA in all samples from breast cancer patients and \u039427 was found in none of the samples. Our finding indicated that the SNP rs17822931 in ABCC11 is not associated with breast cancer. However, this study does provide information on fundamental genetic aspects of ABCC11 with regard to breast cancer risk in Koreans."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 36,
+  "n_claims_fully_verified": 36,
+  "n_uncited_claims": 0,
+  "n_citations": 108,
+  "n_citations_valid": 108,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 91,
+  "n_shown_values_in_text": 91,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 36,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

@@ -1,0 +1,39 @@
+VARIANT DOSSIER: rs80357713 (current ID rs80357783)
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs80357713 is a retired dbSNP identifier that was merged into rs80357783; all evidence below is for rs80357783. [dbSNP rs80357713]
+- Earlier identifiers merged into rs80357783: rs77944974, rs80357713, rs386626651. [dbSNP build 157 rs80357783]
+- dbSNP records rs80357783 as variant type 'delins' on NC_000017.11 (GRCh38) with 1 alternate allele. [dbSNP build 157 rs80357783]
+- Alternate allele 1: NC_000017.11:g.43124031dup, a insertion or duplication (T>TT in VCF form). [dbSNP build 157 rs80357783]
+
+FUNCTION
+- For alternate allele 1 (T>TT), Ensembl VEP predicts frameshift_variant in BRCA1 (ENST00000357654.9:c.66dup; ENSP00000350283.3:p.Glu23ArgfsTer18), impact HIGH. [Ensembl VEP rs80357783]
+- Ensembl classifies the variant as 'indel' with allele string -/T. [Ensembl VEP rs80357783]
+
+FREQUENCY
+- Alternate allele 1 (T>TT) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs80357783. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 17-43124031-T-TT (alternate allele 1). [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_007294.4(BRCA1):c.66dup (p.Glu23fs) (alternate allele 1) with germline classification 'Pathogenic' for: Breast-ovarian cancer, familial, susceptibility to, 1; Hereditary breast ovarian cancer syndrome; Hereditary cancer-predisposing syndrome; Breast neoplasm; and 7 more; review status 'reviewed by expert panel', 45 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000037691 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic; 2019-01: Pathogenic; 2020-01: Pathogenic; 2026-11: Pathogenic. The classification did not change over these releases. [ClinVar VCV000037691 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 44 'Pathogenic', 1 'Uncertain significance'. [ClinVar VCV000037691 (2026-11 release)]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs80357783]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists no association for rs80357783. [GWAS Catalog rs80357783]
+
+LITERATURE
+- LitVar2 links 72 PubMed articles to rs80357783. [LitVar2 rs80357783]
+- Linked article: "The Risk of Breast Cancer According to Mutation Type and Position in Carriers of a Pathogenic Variant in BRCA1" (Curr Oncol, 2025). [PMID:41440233]
+- Linked article: "Blood molybdenum level as a marker of cancer risk on BRCA1 carriers" (Hered Cancer Clin Pract, 2024). [PMID:39300540]
+- Linked article: "Antioxidant Properties of Zinc and Copper-Blood Zinc-to Copper-Ratio as a Marker of Cancer Risk BRCA1 Mutation Carriers" (Antioxidants (Basel), 2024). [PMID:39061909]
+
+CONFLICTS AND CAVEATS
+- Submitter conflict: ClinVar submissions for NM_007294.4(BRCA1):c.66dup (p.Glu23fs) disagree (44 pathogenic or likely pathogenic, 1 uncertain significance); the aggregate classification is 'Pathogenic'. [ClinVar VCV000037691]
+
+BOTTOM LINE
+- Bottom line: rs80357783 in BRCA1 is best described as: germline disease variant. ClinVar links it to Breast-ovarian cancer, familial, susceptibility to, 1. Sources disagree on some points (see conflicts). Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict). [ClinVar VCV000037691 (2026-11 release); GWAS Catalog rs80357783; LitVar2 rs80357783]

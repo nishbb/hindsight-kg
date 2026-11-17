@@ -303,14 +303,11 @@ def add_gwas(
     et_va = ("variant", "gwas_assoc", "trait")
     et_tm = ("trait", "maps_to", "disease")
     seen_pairs = set()
-    for rs, mapped_gene, uris, traits, acc, pmid, pdate in zip(
+    for rs, mapped_gene, uris, traits in zip(
         g["rsid"],
         g["MAPPED_GENE"],
         g["MAPPED_TRAIT_URI"],
         g["MAPPED_TRAIT"],
-        g["STUDY ACCESSION"],
-        g["PUBMEDID"],
-        g["pub_date"],
     ):
         if not uris:
             continue

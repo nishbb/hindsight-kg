@@ -1,0 +1,59 @@
+VARIANT DOSSIER: rs713598
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs713598 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs713598]
+- Earlier identifiers merged into rs713598: rs17634738, rs52812444. [dbSNP build 157 rs713598]
+- dbSNP records rs713598 as variant type 'snv' on NC_000007.14 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs713598]
+- Alternate allele 1: NC_000007.14:g.141973545C>A, a single-nucleotide variant (SNV) (C>A in VCF form). [dbSNP build 157 rs713598]
+- Alternate allele 2: NC_000007.14:g.141973545C>G, a single-nucleotide variant (SNV) (C>G in VCF form). [dbSNP build 157 rs713598]
+- Alternate allele 3: NC_000007.14:g.141973545C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs713598]
+
+FUNCTION
+- For alternate allele 3 (C>T), Ensembl VEP predicts missense_variant in TAS2R38 (ENST00000547270.1:c.145G>A; ENSP00000448219.1:p.Ala49Thr), impact MODERATE. [Ensembl VEP rs713598]
+- For alternate allele 1 (C>A), Ensembl VEP predicts missense_variant in TAS2R38 (ENST00000547270.1:c.145G>T; ENSP00000448219.1:p.Ala49Ser), impact MODERATE. [Ensembl VEP rs713598]
+- For alternate allele 2 (C>G), Ensembl VEP predicts missense_variant in TAS2R38 (ENST00000547270.1:c.145G>C; ENSP00000448219.1:p.Ala49Pro), impact MODERATE. [Ensembl VEP rs713598]
+- Ensembl classifies the variant as 'SNV' with allele string C/A/G/T. [Ensembl VEP rs713598]
+
+FREQUENCY
+- Alternate allele 1 (C>A) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>A) has an overall allele frequency of 1.37e-06 (2 of 1,461,846 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 1.8e-06, South Asian 0, Middle Eastern 0, Remaining 0. [gnomAD v4.1]
+- In gnomAD v2.1.1 exomes, alternate allele 2 (C>G) has an overall allele frequency of 0.458. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0.477, Admixed American 0.672, Ashkenazi Jewish 0.463, East Asian 0.675, Finnish 0.349, Non-Finnish European 0.406, South Asian 0.346, Other 0.463. [gnomAD v2.1.1 exomes]
+- Population differentiation flag (gnomAD v2.1.1 exomes): allele 2 frequency ranges from 0.346 in South Asian to 0.675 in East Asian, a large between-ancestry difference. [gnomAD v2.1.1 exomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (C>G) has an overall allele frequency of 0.419 (676,016 of 1,613,688 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0.479, Admixed American 0.648, Ashkenazi Jewish 0.464, East Asian 0.617, Finnish 0.354, Non-Finnish European 0.403, South Asian 0.347, Middle Eastern 0.45, Amish 0.223, Remaining 0.44. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 2 frequency ranges from 0.223 in Amish to 0.648 in Admixed American, a large between-ancestry difference. [gnomAD v4.1]
+- Alternate allele 3 (C>T) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 3 (C>T) has an overall allele frequency of 6.84e-07 (1 of 1,461,846 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 3: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 8.99e-07, South Asian 0, Middle Eastern 0, Remaining 0. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_176817.5(TAS2R38):c.145G>C (p.Ala49Pro) (alternate allele 2) with germline classification 'drug response' for: Phenylthiocarbamide tasting; review status 'no assertion criteria provided', 1 submitter(s), allele origin 'germline'. [ClinVar VCV000002904 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: drug response; 2019-01: drug response; 2020-01: drug response; 2026-11: drug response. The classification did not change over these releases. [ClinVar VCV000002904 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 1 'drug response'. [ClinVar VCV000002904 (2026-11 release)]
+- No allele of rs713598 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000002904 (2026-11 release)]
+
+SOMATIC EVIDENCE
+- Ensembl VEP reports 1 co-located COSMIC somatic mutation record(s) at this position (COSV71885858). [Ensembl VEP rs713598]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 7 association record(s) for rs713598. [GWAS Catalog rs713598]
+- Genome-wide significant association with sensory perception of bitter taste (p = 2e-104, study GCST000746). [GWAS Catalog GCST000746; PMID:20675712]
+- Genome-wide significant association with taste liking measurement (p = 5e-29, study GCST90094783, effect allele rs713598-G). [GWAS Catalog GCST90094783; PMID:35585065]
+- Genome-wide significant association with alcohol consumption characteristic (p = 5e-22, study GCST90243989, effect allele rs713598-G). [GWAS Catalog GCST90243989; PMID:36477530]
+- Genome-wide significant association with tea consumption measurement (p = 3e-10, study GCST008529, effect allele rs713598-G). [GWAS Catalog GCST008529; PMID:31046077]
+- rs713598 is associated with 4 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs713598; ClinVar VCV000002904 (2026-11 release)]
+
+LITERATURE
+- LitVar2 links 261 PubMed articles to rs713598. [LitVar2 rs713598]
+- Linked article: "Implication of the G145C polymorphism (rs713598) of the TAS2r38 gene on food consumption by Brazilian older women" (Arch Gerontol Geriatr, 2012). [PMID:21763010]
+- Linked article: "Correlation Between the TAS2R38 Genetic Polymorphism, PROP Perception and Eating Habits: A Cross-Sectional Molecular Epidemiological Study" (Epidemiologia (Basel), 2026). [PMID:42776737]
+- Linked article: "Identification of hTAS2R38 bitter taste receptor antagonists via homology modeling and molecular docking" (Curr Res Food Sci, 2026). [PMID:41732571]
+
+CONFLICTS AND CAVEATS
+- Gene assignment difference: sources name different genes for rs713598 (Ensembl VEP: TAS2R38; ClinVar: TAS2R38; GWAS Catalog: MGAM, TAS2R38). [Ensembl VEP rs713598; ClinVar VCV000002904; GWAS Catalog rs713598]
+
+BOTTOM LINE
+- Bottom line: rs713598 in TAS2R38 is best described as: trait-associated common variant without an established monogenic disease role (ClinVar also records a drug-response annotation). Its strongest reported association is with sensory perception of bitter taste. Confidence: high (7 genome-wide significant associations across 7 studies). [ClinVar VCV000002904 (2026-11 release); GWAS Catalog rs713598; LitVar2 rs713598]

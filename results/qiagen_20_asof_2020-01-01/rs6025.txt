@@ -1,0 +1,51 @@
+VARIANT DOSSIER: rs6025
+Evidence as of: 2020-01-01. Generated 2026-11-17.
+
+IDENTITY
+- rs6025 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs6025]
+- Earlier identifiers merged into rs6025: rs1801711, rs60031897. [dbSNP build 157 rs6025]
+- dbSNP records rs6025 as variant type 'snv' on NC_000001.11 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs6025]
+- Alternate allele 1: NC_000001.11:g.169549811C>A, a single-nucleotide variant (SNV) (C>A in VCF form). [dbSNP build 157 rs6025]
+- Alternate allele 2: NC_000001.11:g.169549811C>G, a single-nucleotide variant (SNV) (C>G in VCF form). [dbSNP build 157 rs6025]
+- Alternate allele 3: NC_000001.11:g.169549811C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs6025]
+
+FUNCTION
+- For alternate allele 3 (C>T), Ensembl VEP predicts missense_variant in F5 (ENST00000367797.9:c.1601G>A; ENSP00000356771.3:p.Arg534Gln), impact MODERATE. [Ensembl VEP rs6025]
+- For alternate allele 1 (C>A), Ensembl VEP predicts missense_variant in F5 (ENST00000367797.9:c.1601G>T; ENSP00000356771.3:p.Arg534Leu), impact MODERATE. [Ensembl VEP rs6025]
+- Ensembl classifies the variant as 'SNV' with allele string C/A/T. [Ensembl VEP rs6025]
+
+FREQUENCY
+- Alternate allele 1 (C>A) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs6025. [gnomAD v2.1.1]
+- Alternate allele 2 (C>G) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs6025. [gnomAD v2.1.1]
+- Alternate allele 3 (C>T) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs6025. [gnomAD v2.1.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_000130.4(F5):c.1601G>A (p.Arg534Gln) (alternate allele 3) with germline classification 'Conflicting interpretations of pathogenicity, risk factor' for: Budd-Chiari syndrome, susceptibility to; Factor V deficiency; Ischemic stroke, susceptibility to; Recurrent abortion; and 2 more; review status 'criteria provided, conflicting interpretations', 6 submitter(s), allele origin 'germline'. [ClinVar VCV000000642 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic, risk factor; 2019-01: Conflicting interpretations of pathogenicity, risk factor. The classification changed over these releases. [ClinVar VCV000000642 (2019-01 release)]
+- ClinVar lists NM_000130.4(F5):c.1601G= (p.Arg534=) (an allele not matched to the dbSNP allele list) with germline classification 'drug response' for: hormonal contraceptives for systemic use response - Toxicity/ADR; review status 'reviewed by expert panel', 2 submitter(s), allele origin 'germline'. [ClinVar VCV000226007 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: drug response; 2019-01: drug response. The classification did not change over these releases. [ClinVar VCV000226007 (2019-01 release)]
+- No allele of rs6025 has a pathogenic or likely pathogenic germline classification in the ClinVar 2019-01 release. [ClinVar VCV000000642 (2019-01 release); ClinVar VCV000226007 (2019-01 release)]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 40 association record(s) for rs6025. Of these, 10 were published on or before 2020-01-01. [GWAS Catalog rs6025]
+- Genome-wide significant association with venous thromboembolism (p = 1e-300, study GCST009097, effect allele rs6025-T). [GWAS Catalog GCST009097; PMID:31676865]
+- Genome-wide significant association with abnormal thrombosis (p = 4e-137, study GCST003390, effect allele rs6025-T). [GWAS Catalog GCST003390; PMID:26908601]
+- Genome-wide significant association with peripheral arterial disease (p = 2e-12, study GCST008474, effect allele rs6025-T). [GWAS Catalog GCST008474; PMID:31285632]
+- Genome-wide significant association with Antithrombotic agent use measurement (p = 3e-11, study GCST007924, effect allele rs6025-T). [GWAS Catalog GCST007924; PMID:31015401]
+- Genome-wide significant association with inflammatory bowel disease (p = 3e-8, study GCST003043, effect allele rs6025-G). [GWAS Catalog GCST003043; PMID:26192919]
+- rs6025 is associated with 5 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs6025; ClinVar VCV000000642 (2019-01 release); ClinVar VCV000226007 (2019-01 release)]
+
+LITERATURE
+- LitVar2 links 1704 PubMed articles to rs6025; 1135 of the 1704 with a PubMed date were published on or before 2020-01-01. [LitVar2 rs6025]
+- Linked article: "Resistance to activated protein C is a risk factor for pregnancy-related venous thrombosis in the absence of the F5 rs6025 (factor V Leiden) polymorphism" (Br J Haematol, 2011). [PMID:21564075]
+- Linked article: "MTHFR and F5 genetic variations have association with preeclampsia in Pakistani patients: a case control study" (BMC Med Genet, 2019). [PMID:31646966]
+- Linked article: "Prevalence of F5 1691G>A, F2 20210G>A, and MTHFR 677C>T polymorphisms in Bosnian women with pregnancy loss" (Bosn J Basic Med Sci, 2017). [PMID:28488549]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs6025 in F5 is best described as: low-penetrance risk allele, not a fully penetrant monogenic disease variant. Its strongest reported association is with venous thromboembolism. Confidence: high (10 genome-wide significant associations across 10 studies). [ClinVar VCV000000642 (2019-01 release); ClinVar VCV000226007 (2019-01 release); GWAS Catalog rs6025; LitVar2 rs6025]
+
+PROCESSING NOTES (not evidence)
+- CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'.

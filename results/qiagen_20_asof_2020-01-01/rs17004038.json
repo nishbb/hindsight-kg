@@ -1,0 +1,808 @@
+{
+ "rsid_query": "rs17004038",
+ "rsid_current": "rs17004038",
+ "as_of": "2020-01-01",
+ "generated_at": "2026-11-17T02:14:02.850290+00:00",
+ "genes": {
+  "vep": [
+   "MIF"
+  ],
+  "dbsnp": [
+   "MIF",
+   "MIF-AS1"
+  ],
+  "clinvar": [],
+  "gwas": []
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000022.11:g.23894404C>A",
+   "spdi_deleted": "C",
+   "spdi_inserted": "A",
+   "chrom": "22",
+   "pos": 23894404,
+   "ref": "C",
+   "alt": "A",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "22-23894404-C-A",
+   "vep": {
+    "gene_symbol": "MIF",
+    "consequence_terms": [
+     "5_prime_UTR_variant"
+    ],
+    "hgvsc": "ENST00000215754.8:c.-71C>A",
+    "hgvsp": null,
+    "impact": "MODIFIER",
+    "mane_select": "NM_002415.2"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "genomes",
+     "overall": 0.00137074,
+     "populations": {
+      "afr": 0.0,
+      "amr": 0.0,
+      "asj": 0.0,
+      "eas": 0.0275641,
+      "fin": 0.0,
+      "nfe": 0.0,
+      "oth": 0.0
+     },
+     "an": 31370,
+     "differentiated": true
+    }
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000022.11:g.23894404C>T",
+   "spdi_deleted": "C",
+   "spdi_inserted": "T",
+   "chrom": "22",
+   "pos": 23894404,
+   "ref": "C",
+   "alt": "T",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "22-23894404-C-T",
+   "vep": null,
+   "frequency": {
+    "gnomad_v2": null
+   }
+  }
+ ],
+ "clinvar": [],
+ "clinvar_release": "2019-01",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 0,
+  "n_associations_in_scope": 0,
+  "n_genome_wide_significant": 0,
+  "n_studies": 0,
+  "mapped_genes": [],
+  "top_traits": [],
+  "n_distinct_traits_significant": 0,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 7,
+  "n_in_scope": 4,
+  "pmids_in_scope": [
+   "27625398",
+   "22451332",
+   "21533266",
+   "20061373"
+  ],
+  "top": [
+   "27625398",
+   "22451332",
+   "21533266"
+  ]
+ },
+ "conflicts": [],
+ "bottom_line": {
+  "category": "variant with little curated evidence",
+  "confidence": "low",
+  "rationale": "no pathogenic assertion and no genome-wide significant association were retrieved",
+  "text": "Bottom line: rs17004038 in MIF is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved)."
+ },
+ "notes": [
+  "CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'."
+ ],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs17004038 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs17004038",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs17004038",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs17004038 as variant type 'snv' on NC_000022.11 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs17004038",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs17004038",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs17004038",
+     "path": "seq_id",
+     "value": "NC_000022.11",
+     "label": "dbSNP build 157 rs17004038",
+     "mode": "eq",
+     "shown": "NC_000022.11",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000022.11:g.23894404C>A, a single-nucleotide variant (SNV) (C>A in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs17004038",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000022.11:g.23894404C>A",
+     "label": "dbSNP build 157 rs17004038",
+     "mode": "eq",
+     "shown": "NC_000022.11:g.23894404C>A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000022.11:g.23894404C>T, a single-nucleotide variant (SNV) (C>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs17004038",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000022.11:g.23894404C>T",
+     "label": "dbSNP build 157 rs17004038",
+     "mode": "eq",
+     "shown": "NC_000022.11:g.23894404C>T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (C>A), Ensembl VEP predicts 5_prime_UTR_variant in MIF (ENST00000215754.8:c.-71C>A), impact MODIFIER.",
+   "citations": [
+    {
+     "record_id": "VEP:rs17004038",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "5_prime_UTR_variant",
+     "label": "Ensembl VEP rs17004038",
+     "mode": "eq",
+     "shown": "5_prime_UTR_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17004038",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "MIF",
+     "label": "Ensembl VEP rs17004038",
+     "mode": "eq",
+     "shown": "MIF",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17004038",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000215754.8:c.-71C>A",
+     "label": "Ensembl VEP rs17004038",
+     "mode": "eq",
+     "shown": "ENST00000215754.8:c.-71C>A",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17004038",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODIFIER",
+     "label": "Ensembl VEP rs17004038",
+     "mode": "eq",
+     "shown": "MODIFIER",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string C/A.",
+   "citations": [
+    {
+     "record_id": "VEP:rs17004038",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs17004038",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs17004038",
+     "path": "allele_string",
+     "value": "C/A",
+     "label": "Ensembl VEP rs17004038",
+     "mode": "eq",
+     "shown": "C/A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 genomes, alternate allele 1 (C>A) has an overall allele frequency of 0.00137.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af",
+     "value": 0.00137074,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.00137",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0.0276, Finnish 0, Non-Finnish European 0, Other 0.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_afr",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_amr",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_asj",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.0275641,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0276",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_fin",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_nfe",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_oth",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0 in African/African American to 0.0276 in East Asian, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_afr",
+     "value": 0.0,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.0275641,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.0276",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 2 (C>T) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs17004038.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs17004038",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "The ClinVar 2019-01 release contains no record for rs17004038.",
+   "citations": [
+    {
+     "record_id": "ClinVar:rs17004038@2019-01",
+     "path": "n_records",
+     "value": 0,
+     "label": "ClinVar 2019-01 release",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists no association for rs17004038.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs17004038",
+     "path": "associations",
+     "value": [],
+     "label": "GWAS Catalog rs17004038",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 7 PubMed articles to rs17004038; 4 of the 7 with a PubMed date were published on or before 2020-01-01.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs17004038",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs17004038",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Identification of non-coding genetic variants in samples from hypoxemic respiratory disease patients that affect the transcriptional response to hypoxia\" (Nucleic Acids Res, 2016).",
+   "citations": [
+    {
+     "record_id": "PMID:27625398",
+     "path": "title",
+     "value": "Identification of non-coding genetic variants in samples from hypoxemic respiratory disease patients that affect the transcriptional response to hypoxia.",
+     "label": "PMID:27625398",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:27625398",
+     "path": "journal",
+     "value": "Nucleic Acids Res",
+     "label": "PMID:27625398",
+     "mode": "eq",
+     "shown": "Nucleic Acids Res",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Macrophage migration inhibitory factor gene polymorphisms and plasma levels in children with obstructive sleep apnea\" (Pediatr Pulmonol, 2012).",
+   "citations": [
+    {
+     "record_id": "PMID:22451332",
+     "path": "title",
+     "value": "Macrophage migration inhibitory factor gene polymorphisms and plasma levels in children with obstructive sleep apnea.",
+     "label": "PMID:22451332",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:22451332",
+     "path": "journal",
+     "value": "Pediatr Pulmonol",
+     "label": "PMID:22451332",
+     "mode": "eq",
+     "shown": "Pediatr Pulmonol",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Data integration workflow for search of disease driving genes and genetic variants\" (PLoS One, 2011).",
+   "citations": [
+    {
+     "record_id": "PMID:21533266",
+     "path": "title",
+     "value": "Data integration workflow for search of disease driving genes and genetic variants.",
+     "label": "PMID:21533266",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:21533266",
+     "path": "journal",
+     "value": "PLoS One",
+     "label": "PMID:21533266",
+     "mode": "eq",
+     "shown": "PLoS One",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs17004038 in MIF is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs17004038",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs17004038",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs17004038",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs17004038",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs17004038": {
+   "record_id": "dbSNP:rs17004038",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/17004038",
+   "retrieved_at": "2026-11-17T02:05:26.014974+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "17004038",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [],
+    "merged_into": [],
+    "citations": [
+     20061373,
+     27625398
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000022.11",
+    "alleles": [
+     {
+      "hgvs": "NC_000022.11:g.23894404=",
+      "position0": 23894403,
+      "deleted": "C",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000022.11:g.23894404C>A",
+      "position0": 23894403,
+      "deleted": "C",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000022.11:g.23894404C>T",
+      "position0": 23894403,
+      "deleted": "C",
+      "inserted": "T"
+     }
+    ],
+    "genes": [
+     "MIF",
+     "MIF-AS1"
+    ]
+   }
+  },
+  "VEP:rs17004038": {
+   "record_id": "VEP:rs17004038",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs17004038",
+   "retrieved_at": "2026-11-17T02:05:27.422874+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs17004038",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "22",
+    "start": 23894404,
+    "end": 23894404,
+    "allele_string": "C/A",
+    "variant_class": "SNV",
+    "most_severe_consequence": "5_prime_UTR_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "A",
+      "gene_symbol": "MIF",
+      "gene_id": "ENSG00000240972",
+      "transcript_id": "ENST00000215754",
+      "mane_select": "NM_002415.2",
+      "consequence_terms": [
+       "5_prime_UTR_variant"
+      ],
+      "hgvsc": "ENST00000215754.8:c.-71C>A",
+      "hgvsp": null,
+      "impact": "MODIFIER",
+      "amino_acids": null,
+      "protein_start": null,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [
+     "COSV53159253"
+    ],
+    "colocated_somatic": true
+   }
+  },
+  "gnomAD-v2.1.1:rs17004038": {
+   "record_id": "gnomAD-v2.1.1:rs17004038",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:05:27.524212+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr22:g.24236591C>A",
+      "_score": 17.140947,
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "A",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.00137074,
+        "af_afr": 0.0,
+        "af_afr_female": 0.0,
+        "af_afr_male": 0.0,
+        "af_amr": 0.0,
+        "af_amr_female": 0.0,
+        "af_amr_male": 0.0,
+        "af_asj": 0.0,
+        "af_asj_female": 0.0,
+        "af_asj_male": 0.0,
+        "af_eas": 0.0275641,
+        "af_eas_female": 0.0408922,
+        "af_eas_male": 0.0205479,
+        "af_female": 0.00158137,
+        "af_fin": 0.0,
+        "af_fin_female": 0.0,
+        "af_fin_male": 0.0,
+        "af_male": 0.00120289,
+        "af_nfe": 0.0,
+        "af_nfe_est": 0.0,
+        "af_nfe_female": 0.0,
+        "af_nfe_male": 0.0,
+        "af_nfe_nwe": 0.0,
+        "af_nfe_onf": 0.0,
+        "af_nfe_seu": 0.0,
+        "af_oth": 0.0,
+        "af_oth_female": 0.0,
+        "af_oth_male": 0.0
+       },
+       "alt": "A",
+       "an": {
+        "an": 31370,
+        "an_afr": 8694,
+        "an_afr_female": 3674,
+        "an_afr_male": 5020,
+        "an_amr": 848,
+        "an_amr_female": 414,
+        "an_amr_male": 434,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1560,
+        "an_eas_female": 538,
+        "an_eas_male": 1022,
+        "an_female": 13912,
+        "an_fin": 3476,
+        "an_fin_female": 1846,
+        "an_fin_male": 1630,
+        "an_male": 17458,
+        "an_nfe": 15416,
+        "an_nfe_est": 4580,
+        "an_nfe_female": 6800,
+        "an_nfe_male": 8616,
+        "an_nfe_nwe": 8592,
+        "an_nfe_onf": 2138,
+        "an_nfe_seu": 106,
+        "an_oth": 1086,
+        "an_oth_female": 560,
+        "an_oth_male": 526
+       },
+       "ref": "C"
+      },
+      "vcf": {
+       "alt": "A",
+       "position": "24236591",
+       "ref": "C"
+      }
+     }
+    ]
+   }
+  },
+  "ClinVar:rs17004038@2019-01": {
+   "record_id": "ClinVar:rs17004038@2019-01",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2019-01",
+   "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
+   "retrieved_at": "2026-11-17T02:14:02.519081+00:00",
+   "status": 200,
+   "data": {
+    "rsid": "rs17004038",
+    "n_records": 0
+   }
+  },
+  "GWAS:rs17004038": {
+   "record_id": "GWAS:rs17004038",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:05:29.207359+00:00",
+   "status": 200,
+   "data": {
+    "associations": []
+   }
+  },
+  "LitVar2:rs17004038": {
+   "record_id": "LitVar2:rs17004038",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs17004038%23%23/publications",
+   "retrieved_at": "2026-11-17T02:05:29.258492+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     22451332,
+     38267013,
+     21533266,
+     35324982,
+     32272438,
+     27625398,
+     20061373
+    ],
+    "n_pmids": 7
+   }
+  },
+  "PMID:27625398": {
+   "record_id": "PMID:27625398",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27625398/",
+   "retrieved_at": "2026-11-17T02:05:29.401555+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "27625398",
+    "title": "Identification of non-coding genetic variants in samples from hypoxemic respiratory disease patients that affect the transcriptional response to hypoxia.",
+    "journal": "Nucleic Acids Res",
+    "pubdate": "2016 Nov 2",
+    "sortpubdate": "2016-11-02",
+    "abstract": "A wide range of diseases course with an unbalance between the consumption of oxygen by tissues and its supply. This situation triggers a transcriptional response, mediated by the hypoxia inducible factors (HIFs), that aims to restore oxygen homeostasis. Little is known about the inter-individual variation in this response and its role in the progression of disease. Herein, we sought to identify common genetic variants mapping to hypoxia response elements (HREs) and characterize their effect on transcription. To this end, we constructed a list of genome-wide HIF-binding regions from publicly available experimental datasets and studied the genetic variability in these regions by targeted re-sequencing of genomic samples from 96 chronic obstructive pulmonary disease and 144 obstructive sleep apnea patients. This study identified 14 frequent variants disrupting potential HREs. The analysis of the genomic regions containing these variants by means of reporter assays revealed that variants rs1009329, rs6593210 and rs150921338 impaired the transcriptional response to hypoxia. Finally, using genome editing we confirmed the functional role of rs6593210 in the transcriptional regulation of EGFR. In summary, we found that inter-individual variability in non-coding regions affect the response to hypoxia and could potentially impact on the progression of pulmonary diseases."
+   }
+  },
+  "PMID:22451332": {
+   "record_id": "PMID:22451332",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22451332/",
+   "retrieved_at": "2026-11-17T02:05:29.401555+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "22451332",
+    "title": "Macrophage migration inhibitory factor gene polymorphisms and plasma levels in children with obstructive sleep apnea.",
+    "journal": "Pediatr Pulmonol",
+    "pubdate": "2012 Oct",
+    "sortpubdate": "2012-10-01",
+    "abstract": "Obstructive sleep apnea (OSA) is associated with increased risk for cardiovascular and metabolic dysfunction in both adults and children. In adults with OSA, serum levels of macrophage migration inhibitory factor (MIF) are elevated. Therefore, we assessed plasma MIF levels and MIF allelic variant frequencies in children with and without OSA (NOSA). A total of 614 consecutive children ages 5-8 years were recruited. Children were divided into those with OSA and NOSA based on the apnea-hypopnea index (AHI). In addition to lipid profile, hsCRP, and fasting insulin and glucose levels, plasma MIF levels were assayed using ELISA, and 28 single nucleotide polymorphisms (SNPs) covering the region were genotyped. Linkage disequilibrium and haplotype blocks were analyzed using Haploview version 4.2 software. Morning plasma MIF levels were increased in children with OSA. Of the 28 SNPs tested, the frequency of rs10433310 minor allele was significantly decreased in OSA. This SNP was also associated with reduced fasting insulin and hsCRP levels in OSA. The minor allele frequency of all other 27 SNPs was similar in OSA and NOSA groups. Childhood OSA is associated with higher plasma MIF, hsCRP, and fasting insulin levels that promote cardiometabolic risk, and the MIF gene SNP rs10433310 may account for some of the variance in such risk."
+   }
+  },
+  "PMID:21533266": {
+   "record_id": "PMID:21533266",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21533266/",
+   "retrieved_at": "2026-11-17T02:05:29.401555+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "21533266",
+    "title": "Data integration workflow for search of disease driving genes and genetic variants.",
+    "journal": "PLoS One",
+    "pubdate": "2011 Apr 12",
+    "sortpubdate": "2011-04-12",
+    "abstract": "Comprehensive characterization of a gene's impact on phenotypes requires knowledge of the context of the gene. To address this issue we introduce a systematic data integration method Candidate Genes and SNPs (CANGES) that links SNP and linkage disequilibrium data to pathway- and protein-protein interaction information. It can be used as a knowledge discovery tool for the search of disease associated causative variants from genome-wide studies as well as to generate new hypotheses on synergistically functioning genes. We demonstrate the utility of CANGES by integrating pathway and protein-protein interaction data to identify putative functional variants for (i) the p53 gene and (ii) three glioblastoma multiforme (GBM) associated risk genes. For the GBM case, we further integrate the CANGES results with clinical and genome-wide data for 209 GBM patients and identify genes having effects on GBM patient survival. Our results show that selecting a focused set of genes can result in information beyond the traditional genome-wide association approaches. Taken together, holistic approach to identify possible interacting genes and SNPs with CANGES provides a means to rapidly identify networks for any set of genes and generate novel hypotheses. CANGES is available in http://csbi.ltdk.helsinki.fi/CANGES/"
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 17,
+  "n_claims_fully_verified": 17,
+  "n_uncited_claims": 0,
+  "n_citations": 33,
+  "n_citations_valid": 33,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 23,
+  "n_shown_values_in_text": 23,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 17,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

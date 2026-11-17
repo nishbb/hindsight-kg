@@ -1,0 +1,39 @@
+VARIANT DOSSIER: rs17004038
+Evidence as of: 2020-01-01. Generated 2026-11-17.
+
+IDENTITY
+- rs17004038 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs17004038]
+- dbSNP records rs17004038 as variant type 'snv' on NC_000022.11 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs17004038]
+- Alternate allele 1: NC_000022.11:g.23894404C>A, a single-nucleotide variant (SNV) (C>A in VCF form). [dbSNP build 157 rs17004038]
+- Alternate allele 2: NC_000022.11:g.23894404C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs17004038]
+
+FUNCTION
+- For alternate allele 1 (C>A), Ensembl VEP predicts 5_prime_UTR_variant in MIF (ENST00000215754.8:c.-71C>A), impact MODIFIER. [Ensembl VEP rs17004038]
+- Ensembl classifies the variant as 'SNV' with allele string C/A. [Ensembl VEP rs17004038]
+
+FREQUENCY
+- In gnomAD v2.1.1 genomes, alternate allele 1 (C>A) has an overall allele frequency of 0.00137. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0.0276, Finnish 0, Non-Finnish European 0, Other 0. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0 in African/African American to 0.0276 in East Asian, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+- Alternate allele 2 (C>T) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs17004038. [gnomAD v2.1.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- The ClinVar 2019-01 release contains no record for rs17004038. [ClinVar 2019-01 release]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists no association for rs17004038. [GWAS Catalog rs17004038]
+
+LITERATURE
+- LitVar2 links 7 PubMed articles to rs17004038; 4 of the 7 with a PubMed date were published on or before 2020-01-01. [LitVar2 rs17004038]
+- Linked article: "Identification of non-coding genetic variants in samples from hypoxemic respiratory disease patients that affect the transcriptional response to hypoxia" (Nucleic Acids Res, 2016). [PMID:27625398]
+- Linked article: "Macrophage migration inhibitory factor gene polymorphisms and plasma levels in children with obstructive sleep apnea" (Pediatr Pulmonol, 2012). [PMID:22451332]
+- Linked article: "Data integration workflow for search of disease driving genes and genetic variants" (PLoS One, 2011). [PMID:21533266]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs17004038 in MIF is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved). [GWAS Catalog rs17004038; LitVar2 rs17004038]
+
+PROCESSING NOTES (not evidence)
+- CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'.

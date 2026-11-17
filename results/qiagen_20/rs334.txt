@@ -1,0 +1,61 @@
+VARIANT DOSSIER: rs334
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs334 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs334]
+- Earlier identifiers merged into rs334: rs3168321, rs34315575, rs77121243. [dbSNP build 157 rs334]
+- dbSNP records rs334 as variant type 'snv' on NC_000011.10 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs334]
+- Alternate allele 1: NC_000011.10:g.5227002T>A, a single-nucleotide variant (SNV) (T>A in VCF form). [dbSNP build 157 rs334]
+- Alternate allele 2: NC_000011.10:g.5227002T>C, a single-nucleotide variant (SNV) (T>C in VCF form). [dbSNP build 157 rs334]
+- Alternate allele 3: NC_000011.10:g.5227002T>G, a single-nucleotide variant (SNV) (T>G in VCF form). [dbSNP build 157 rs334]
+
+FUNCTION
+- For alternate allele 3 (T>G), Ensembl VEP predicts missense_variant in HBB (ENST00000335295.4:c.20A>C; ENSP00000333994.3:p.Glu7Ala), impact MODERATE. [Ensembl VEP rs334]
+- For alternate allele 2 (T>C), Ensembl VEP predicts missense_variant in HBB (ENST00000335295.4:c.20A>G; ENSP00000333994.3:p.Glu7Gly), impact MODERATE. [Ensembl VEP rs334]
+- For alternate allele 1 (T>A), Ensembl VEP predicts missense_variant in HBB (ENST00000335295.4:c.20A>T; ENSP00000333994.3:p.Glu7Val), impact MODERATE. [Ensembl VEP rs334]
+- Ensembl classifies the variant as 'SNV' with allele string T/A/C/G. [Ensembl VEP rs334]
+
+FREQUENCY
+- In gnomAD v2.1.1 exomes, alternate allele 1 (T>A) has an overall allele frequency of 0.00348. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.047, Admixed American 0.00217, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 5.28e-05, South Asian 0.000621, Other 0.00163. [gnomAD v2.1.1 exomes]
+- Population differentiation flag (gnomAD v2.1.1 exomes): allele 1 frequency ranges from 0 in Ashkenazi Jewish to 0.047 in African/African American, a large between-ancestry difference. [gnomAD v2.1.1 exomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (T>A) has an overall allele frequency of 0.00265 (4,272 of 1,610,650 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.0495, Admixed American 0.00332, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 3.91e-05, South Asian 0.00089, Middle Eastern 0.0038, Amish 0, Remaining 0.00346. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0 in Ashkenazi Jewish to 0.0495 in African/African American, a large between-ancestry difference. [gnomAD v4.1]
+- Alternate allele 2 (T>C) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 11-5227002-T-C (alternate allele 2). [gnomAD v4.1]
+- Alternate allele 3 (T>G) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 3 (T>G) has an overall allele frequency of 6.86e-07 (1 of 1,458,400 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 3: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 9.02e-07, South Asian 0, Middle Eastern 0, Remaining 0. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_000518.4(HBB):c.20A>C (p.Glu7Ala) (alternate allele 3) with germline classification 'Likely benign' for: HEMOGLOBIN G (MAKASSAR); review status 'criteria provided, single submitter', 2 submitter(s), allele origin 'germline'. [ClinVar VCV000015175 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: other; 2019-01: other; 2020-01: other; 2026-11: Likely benign. The classification changed over these releases. [ClinVar VCV000015175 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 1 'Likely benign', 1 'other'. [ClinVar VCV000015175 (2026-11 release)]
+- ClinVar lists NM_000518.5(HBB):c.20A>T (p.Glu7Val) (alternate allele 1) with germline classification 'Pathogenic' for: HEMOGLOBIN S; Hb SS disease; Malaria, resistance to; 6 conditions; and 13 more; review status 'criteria provided, multiple submitters, no conflicts', 68 submitter(s), allele origin 'biparental;de novo;germline;maternal;paternal;unknown'. [ClinVar VCV000015333 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic, other, protective; 2019-01: Pathogenic; 2020-01: Pathogenic; 2026-11: Pathogenic. The classification changed over these releases. [ClinVar VCV000015333 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 69 'Pathogenic', 5 'not provided', 1 'protective'. [ClinVar VCV000015333 (2026-11 release)]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs334]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 134 association record(s) for rs334. [GWAS Catalog rs334]
+- Genome-wide significant association with familial hemolytic anemia (p = 1e-323, study GCST90475778, effect allele rs334-T). [GWAS Catalog GCST90475778; PMID:39024449]
+- Genome-wide significant association with hematocrit (p = 9e-131, study GCST90475337, effect allele rs334-T). [GWAS Catalog GCST90475337; PMID:39024449]
+- Genome-wide significant association with sodium measurement (p = 2e-88, study GCST90476394, effect allele rs334-T). [GWAS Catalog GCST90476394; PMID:39024449]
+- Genome-wide significant association with HbA1c measurement (p = 9e-85, study GCST90475096, effect allele rs334-T). [GWAS Catalog GCST90475096; PMID:39024449]
+- Genome-wide significant association with lymphocyte count (p = 8e-83, study GCST90475434, effect allele rs334-T). [GWAS Catalog GCST90475434; PMID:39024449]
+- Genome-wide significant association with malaria (p = 4e-69, study GCST010725). [GWAS Catalog GCST010725; PMID:31844061]
+
+LITERATURE
+- LitVar2 links 597 PubMed articles to rs334. [LitVar2 rs334]
+- Linked article: "Sickle cell allele HBB-rs334(T) is associated with decreased risk of childhood Burkitt lymphoma in East Africa" (Am J Hematol, 2024). [PMID:38009642]
+- Linked article: "Comparative in silico analysis of hemoglobin subunits HBB, HbS (p.Glu7Val), and HBA: Sequence-structure insights into sickle cell anemia" (Comput Biol Chem, 2026). [PMID:42247988]
+- Linked article: "Low Prevalence of the HBB c.20A > T (HbS) Allele in a Turkish Cypriot Cohort: A Molecular Screening Study" (Hemoglobin, 2026). [PMID:42547889]
+
+CONFLICTS AND CAVEATS
+- Allele-specific interpretation: the alternate alleles of rs334 carry different ClinVar classifications (allele 1: Pathogenic; allele 3: Likely benign), so the rsID alone does not determine clinical meaning. [ClinVar VCV000015175; ClinVar VCV000015333]
+
+BOTTOM LINE
+- Bottom line: rs334 in HBB is best described as: germline disease variant. ClinVar links it to HEMOGLOBIN S. Sources disagree on some points (see conflicts). Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict). [ClinVar VCV000015175 (2026-11 release); ClinVar VCV000015333 (2026-11 release); GWAS Catalog rs334; LitVar2 rs334]

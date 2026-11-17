@@ -1,0 +1,50 @@
+VARIANT DOSSIER: rs12913832
+Evidence as of: 2020-01-01. Generated 2026-11-17.
+
+IDENTITY
+- rs12913832 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs12913832]
+- Earlier identifiers merged into rs12913832: rs60078917. [dbSNP build 157 rs12913832]
+- dbSNP records rs12913832 as variant type 'snv' on NC_000015.10 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs12913832]
+- Alternate allele 1: NC_000015.10:g.28120472A>C, a single-nucleotide variant (SNV) (A>C in VCF form). [dbSNP build 157 rs12913832]
+- Alternate allele 2: NC_000015.10:g.28120472A>G, a single-nucleotide variant (SNV) (A>G in VCF form). [dbSNP build 157 rs12913832]
+
+FUNCTION
+- For alternate allele 1 (A>C), Ensembl VEP predicts intron_variant in HERC2 (ENST00000261609.13:c.13272+874T>G), impact MODIFIER. [Ensembl VEP rs12913832]
+- For alternate allele 2 (A>G), Ensembl VEP predicts intron_variant in HERC2 (ENST00000261609.13:c.13272+874T>C), impact MODIFIER. [Ensembl VEP rs12913832]
+- Ensembl classifies the variant as 'SNV' with allele string A/C/G. [Ensembl VEP rs12913832]
+
+FREQUENCY
+- Alternate allele 1 (A>C) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- In gnomAD v2.1.1 genomes, alternate allele 2 (A>G) has an overall allele frequency of 0.563. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0.125, Admixed American 0.223, Ashkenazi Jewish 0.548, East Asian 0.000642, Finnish 0.883, Non-Finnish European 0.804, Other 0.686. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 2 frequency ranges from 0.000642 in East Asian to 0.883 in Finnish, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_004667.5(HERC2):c.13272+874T>C (alternate allele 2) with germline classification 'association' for: Skin/hair/eye pigmentation, variation in, 1; review status 'no assertion criteria provided', 1 submitter(s), allele origin 'germline'. [ClinVar VCV000004745 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: association; 2019-01: association. The classification did not change over these releases. [ClinVar VCV000004745 (2019-01 release)]
+- No allele of rs12913832 has a pathogenic or likely pathogenic germline classification in the ClinVar 2019-01 release. [ClinVar VCV000004745 (2019-01 release)]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 269 association record(s) for rs12913832. Of these, 40 were published on or before 2020-01-01. [GWAS Catalog rs12913832]
+- Genome-wide significant association with hair color (p = 2e-308, study GCST006989). [GWAS Catalog GCST006989; PMID:30531825]
+- Genome-wide significant association with eye color (p = 1e-300, study GCST000710, effect allele rs12913832-A). [GWAS Catalog GCST000710; PMID:20585627]
+- Genome-wide significant association with eye colour measurement (p = 1e-200, study GCST007451). [GWAS Catalog GCST007451; PMID:30664655]
+- Genome-wide significant association with suntan (p = 6e-184, study GCST005897, effect allele rs12913832-A). [GWAS Catalog GCST005897; PMID:29739929]
+- Genome-wide significant association with Abnormal skin pigmentation (p = 1e-148, study GCST007488). [GWAS Catalog GCST007488; PMID:30166351]
+- Genome-wide significant association with strand of hair color (p = 8e-105, study GCST007454). [GWAS Catalog GCST007454; PMID:30664655]
+- rs12913832 is associated with 10 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs12913832; ClinVar VCV000004745 (2019-01 release)]
+
+LITERATURE
+- LitVar2 links 360 PubMed articles to rs12913832; 231 of the 360 with a PubMed date were published on or before 2020-01-01. [LitVar2 rs12913832]
+- Linked article: "HERC2 rs12913832 modulates human pigmentation by attenuating chromatin-loop formation between a long-range enhancer and the OCA2 promoter" (Genome Res, 2012). [PMID:22234890]
+- Linked article: "Variants at the OCA2/HERC2 locus affect time to first cutaneous squamous cell carcinoma in solid organ transplant recipients collected using two different study designs" (Br J Dermatol, 2017). [PMID:28456133]
+- Linked article: "A global view of the OCA2-HERC2 region and pigmentation" (Hum Genet, 2012). [PMID:22065085]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs12913832 in HERC2 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with hair color. Confidence: high (37 genome-wide significant associations across 29 studies). [ClinVar VCV000004745 (2019-01 release); GWAS Catalog rs12913832; LitVar2 rs12913832]
+
+PROCESSING NOTES (not evidence)
+- CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'.

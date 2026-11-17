@@ -1,0 +1,50 @@
+VARIANT DOSSIER: rs3827760
+Evidence as of: 2020-01-01. Generated 2026-11-17.
+
+IDENTITY
+- rs3827760 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs3827760]
+- Earlier identifiers merged into rs3827760: rs52811957, rs60688169. [dbSNP build 157 rs3827760]
+- dbSNP records rs3827760 as variant type 'snv' on NC_000002.12 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs3827760]
+- Alternate allele 1: NC_000002.12:g.108897145A>C, a single-nucleotide variant (SNV) (A>C in VCF form). [dbSNP build 157 rs3827760]
+- Alternate allele 2: NC_000002.12:g.108897145A>G, a single-nucleotide variant (SNV) (A>G in VCF form). [dbSNP build 157 rs3827760]
+
+FUNCTION
+- For alternate allele 1 (A>C), Ensembl VEP predicts missense_variant in EDAR (ENST00000258443.7:c.1109T>G; ENSP00000258443.2:p.Val370Gly), impact MODERATE. [Ensembl VEP rs3827760]
+- For alternate allele 2 (A>G), Ensembl VEP predicts missense_variant in EDAR (ENST00000258443.7:c.1109T>C; ENSP00000258443.2:p.Val370Ala), impact MODERATE. [Ensembl VEP rs3827760]
+- Ensembl classifies the variant as 'SNV' with allele string A/C/G. [Ensembl VEP rs3827760]
+
+FREQUENCY
+- Alternate allele 1 (A>C) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- In gnomAD v2.1.1 exomes, alternate allele 2 (A>G) has an overall allele frequency of 0.152. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0.0113, Admixed American 0.511, Ashkenazi Jewish 0.0189, East Asian 0.919, Finnish 0.0542, Non-Finnish European 0.00801, South Asian 0.00903, Other 0.0952. [gnomAD v2.1.1 exomes]
+- Population differentiation flag (gnomAD v2.1.1 exomes): allele 2 frequency ranges from 0.00801 in Non-Finnish European to 0.919 in East Asian, a large between-ancestry difference. [gnomAD v2.1.1 exomes]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_022336.3(EDAR):c.1109T>C (p.Val370Ala) (alternate allele 2) with germline classification 'Benign' for: Hair morphology 1, hair thickness; Hypohidrotic Ectodermal Dysplasia, Dominant; review status 'criteria provided, multiple submitters, no conflicts', 4 submitter(s), allele origin 'germline'. [ClinVar VCV000005858 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Benign, association; 2019-01: Benign. The classification changed over these releases. [ClinVar VCV000005858 (2019-01 release)]
+- No allele of rs3827760 has a pathogenic or likely pathogenic germline classification in the ClinVar 2019-01 release. [ClinVar VCV000005858 (2019-01 release)]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 22 association record(s) for rs3827760. Of these, 17 were published on or before 2020-01-01. [GWAS Catalog rs3827760]
+- Genome-wide significant association with strand of hair shape (p = 3e-119, study GCST003474). [GWAS Catalog GCST003474; PMID:26926045]
+- Genome-wide significant association with balding measurement (p = 4e-16, study GCST007020, effect allele rs3827760-G). [GWAS Catalog GCST007020; PMID:30573740]
+- Genome-wide significant association with hair morphology (p = 5e-16, study GCST006468, effect allele rs3827760-G). [GWAS Catalog GCST006468; PMID:27487801]
+- Genome-wide significant association with synophrys measurement (p = 2e-15, study GCST003996). [GWAS Catalog GCST003996; PMID:27182965]
+- Genome-wide significant association with helix rolling (p = 1e-12, study GCST002997, effect allele rs3827760-G). [GWAS Catalog GCST002997; PMID:26105758]
+- Genome-wide significant association with lobe size (p = 1e-12, study GCST002999, effect allele rs3827760-G). [GWAS Catalog GCST002999; PMID:26105758]
+- rs3827760 is associated with 12 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs3827760; ClinVar VCV000005858 (2019-01 release)]
+
+LITERATURE
+- LitVar2 links 184 PubMed articles to rs3827760; 101 of the 184 with a PubMed date were published on or before 2020-01-01. [LitVar2 rs3827760]
+- Linked article: "EDAR, LYPLAL1, PRDM16, PAX3, DKK1, TNFSF12, CACNA2D3, and SUPT3H gene variants influence facial morphology in a Eurasian population" (Hum Genet, 2019). [PMID:31025105]
+- Linked article: "[The effect of EDARV370A on facial and ear morphologies in Uyghur population]" (Yi Chuan, 2018). [PMID:30465535]
+- Linked article: "Genome-wide scans reveal variants at EDAR predominantly affecting hair straightness in Han Chinese and Uyghur populations" (Hum Genet, 2016). [PMID:27487801]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs3827760 in EDAR is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with strand of hair shape. Confidence: high (15 genome-wide significant associations across 16 studies). [ClinVar VCV000005858 (2019-01 release); GWAS Catalog rs3827760; LitVar2 rs3827760]
+
+PROCESSING NOTES (not evidence)
+- CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'.

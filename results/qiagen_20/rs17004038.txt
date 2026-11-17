@@ -1,0 +1,44 @@
+VARIANT DOSSIER: rs17004038
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs17004038 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs17004038]
+- dbSNP records rs17004038 as variant type 'snv' on NC_000022.11 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs17004038]
+- Alternate allele 1: NC_000022.11:g.23894404C>A, a single-nucleotide variant (SNV) (C>A in VCF form). [dbSNP build 157 rs17004038]
+- Alternate allele 2: NC_000022.11:g.23894404C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs17004038]
+
+FUNCTION
+- For alternate allele 1 (C>A), Ensembl VEP predicts 5_prime_UTR_variant in MIF (ENST00000215754.8:c.-71C>A), impact MODIFIER. [Ensembl VEP rs17004038]
+- Ensembl classifies the variant as 'SNV' with allele string C/A. [Ensembl VEP rs17004038]
+
+FREQUENCY
+- In gnomAD v2.1.1 genomes, alternate allele 1 (C>A) has an overall allele frequency of 0.00137. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0.0276, Finnish 0, Non-Finnish European 0, Other 0. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0 in African/African American to 0.0276 in East Asian, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>A) has an overall allele frequency of 0.000789 (1,008 of 1,277,038 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 8.77e-05, Admixed American 3.48e-05, Ashkenazi Jewish 0, East Asian 0.0213, Finnish 0, Non-Finnish European 7.97e-06, South Asian 0.000216, Middle Eastern 0, Amish 0, Remaining 0.00119. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0 in Ashkenazi Jewish to 0.0213 in East Asian, a large between-ancestry difference. [gnomAD v4.1]
+- Alternate allele 2 (C>T) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs17004038. [gnomAD v2.1.1]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (C>T) has an overall allele frequency of 1.78e-06 (2 of 1,124,704 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 2.47e-06, South Asian 0, Middle Eastern 0, Remaining 0. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- The ClinVar 2026-11 release contains no record for rs17004038. [ClinVar 2026-11 release]
+
+SOMATIC EVIDENCE
+- Ensembl VEP reports 1 co-located COSMIC somatic mutation record(s) at this position (COSV53159253). [Ensembl VEP rs17004038]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists no association for rs17004038. [GWAS Catalog rs17004038]
+
+LITERATURE
+- LitVar2 links 7 PubMed articles to rs17004038. [LitVar2 rs17004038]
+- Linked article: "Association study of a single nucleotide polymorphism in the hypoxia response element of the macrophage migration inhibitory factor gene promoter with suicide completers in the Japanese population" (Neuropsychopharmacol Rep, 2024). [PMID:38267013]
+- Linked article: "Polymorphisms in the hypoxia inducible factor binding site of the macrophage migration inhibitory factor gene promoter in schizophrenia" (PLoS One, 2022). [PMID:35324982]
+- Linked article: "Epigenetic activation of O-linked β-N-acetylglucosamine transferase overrides the differentiation blockage in acute leukemia" (EBioMedicine, 2020). [PMID:32272438]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs17004038 in MIF is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved). [GWAS Catalog rs17004038; LitVar2 rs17004038]

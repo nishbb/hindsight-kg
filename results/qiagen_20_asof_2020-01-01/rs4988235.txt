@@ -1,0 +1,50 @@
+VARIANT DOSSIER: rs4988235
+Evidence as of: 2020-01-01. Generated 2026-11-17.
+
+IDENTITY
+- rs4988235 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs4988235]
+- dbSNP records rs4988235 as variant type 'snv' on NC_000002.12 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs4988235]
+- Alternate allele 1: NC_000002.12:g.135851076G>A, a single-nucleotide variant (SNV) (G>A in VCF form). [dbSNP build 157 rs4988235]
+- Alternate allele 2: NC_000002.12:g.135851076G>C, a single-nucleotide variant (SNV) (G>C in VCF form). [dbSNP build 157 rs4988235]
+- Alternate allele 3: NC_000002.12:g.135851076G>T, a single-nucleotide variant (SNV) (G>T in VCF form). [dbSNP build 157 rs4988235]
+
+FUNCTION
+- For alternate allele 2 (G>C), Ensembl VEP predicts intron_variant in MCM6 (ENST00000264156.3:c.1917+326C>G), impact MODIFIER. [Ensembl VEP rs4988235]
+- For alternate allele 3 (G>T), Ensembl VEP predicts intron_variant in MCM6 (ENST00000264156.3:c.1917+326C>A), impact MODIFIER. [Ensembl VEP rs4988235]
+- For alternate allele 1 (G>A), Ensembl VEP predicts intron_variant in MCM6 (ENST00000264156.3:c.1917+326C>T), impact MODIFIER. [Ensembl VEP rs4988235]
+- Ensembl classifies the variant as 'SNV' with allele string G/A/C/T. [Ensembl VEP rs4988235]
+
+FREQUENCY
+- In gnomAD v2.1.1 genomes, alternate allele 1 (G>A) has an overall allele frequency of 0.415. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.123, Admixed American 0.203, Ashkenazi Jewish 0.1, East Asian 0.000641, Finnish 0.571, Non-Finnish European 0.601, Other 0.476. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0.000641 in East Asian to 0.601 in Non-Finnish European, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+- Alternate allele 2 (G>C) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- Alternate allele 3 (G>T) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_002299.2(LCT):c.-13907C>T (alternate allele 1) with germline classification 'association' for: Lactase persistence; review status 'no assertion criteria provided', 1 submitter(s), allele origin 'germline'. [ClinVar VCV000007685 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: association; 2019-01: association. The classification did not change over these releases. [ClinVar VCV000007685 (2019-01 release)]
+- No allele of rs4988235 has a pathogenic or likely pathogenic germline classification in the ClinVar 2019-01 release. [ClinVar VCV000007685 (2019-01 release)]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 68 association record(s) for rs4988235. Of these, 7 were published on or before 2020-01-01. [GWAS Catalog rs4988235]
+- Genome-wide significant association with lactase-phlorizin hydrolase measurement (p = 2e-222, study GCST90241728, effect allele rs4988235-A). [GWAS Catalog GCST90241728; PMID:29875488]
+- Genome-wide significant association with blood protein amount (p = 5e-210, study GCST006585, effect allele rs4988235-G). [GWAS Catalog GCST006585; PMID:30072576]
+- Genome-wide significant association with body mass index (p = 1e-9, study GCST005951, effect allele rs4988235-A). [GWAS Catalog GCST005951; PMID:26426971]
+- Genome-wide significant association with hip circumference (p = 2e-8, study GCST004066, effect allele rs4988235-A). [GWAS Catalog GCST004066; PMID:25673412]
+- rs4988235 is associated with 4 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs4988235; ClinVar VCV000007685 (2019-01 release)]
+
+LITERATURE
+- LitVar2 links 442 PubMed articles to rs4988235; 212 of the 442 with a PubMed date were published on or before 2020-01-01. [LitVar2 rs4988235]
+- Linked article: "Association of Lactase Persistence Genotypes (rs4988235) and Ethnicity with Dairy Intake in a Healthy U.S. Population" (Nutrients, 2019). [PMID:31405126]
+- Linked article: "Comparison of Lactase Variant MCM6 -13910 C>T Testing and Self-report of Dairy Sensitivity in Patients With Irritable Bowel Syndrome" (J Clin Gastroenterol, 2019). [PMID:29912753]
+- Linked article: "Maternal Lactase Polymorphism (rs4988235) Is Associated with Neural Tube Defects in Offspring in the National Birth Defects Prevention Study" (J Nutr, 2019). [PMID:30689919]
+
+CONFLICTS AND CAVEATS
+- Gene assignment difference: sources name different genes for rs4988235 (Ensembl VEP: MCM6; ClinVar: LCT, MCM6; GWAS Catalog: MCM6). [Ensembl VEP rs4988235; ClinVar VCV000007685; GWAS Catalog rs4988235]
+
+BOTTOM LINE
+- Bottom line: rs4988235 in MCM6 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with lactase-phlorizin hydrolase measurement. Confidence: high (5 genome-wide significant associations across 6 studies). [ClinVar VCV000007685 (2019-01 release); GWAS Catalog rs4988235; LitVar2 rs4988235]
+
+PROCESSING NOTES (not evidence)
+- CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'.

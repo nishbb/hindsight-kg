@@ -1,0 +1,17 @@
+# Subsampled reproduction (make reproduce-small): 500 genes, 2 folds, light background graph
+encoder: rgcn
+hidden: 32
+layers: 2
+dropout: 0.2
+lr: 0.01
+weight_decay: 0.00001
+epochs: 40
+eval_every: 5
+patience: 3
+sup_frac: 0.3
+folds: 2
+val_frac: 0.1
+seed: 0
+device: cpu
+max_genes: 500
+drop_edge_types: [expresses, upregulates, downregulates, participates_bp, regulates, covaries]

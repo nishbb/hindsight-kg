@@ -1,0 +1,3196 @@
+{
+ "rsid_query": "rs6025",
+ "rsid_current": "rs6025",
+ "as_of": "2020-01-01",
+ "generated_at": "2026-11-17T02:14:03.538248+00:00",
+ "genes": {
+  "vep": [
+   "F5"
+  ],
+  "dbsnp": [
+   "F5"
+  ],
+  "clinvar": [
+   "F5"
+  ],
+  "gwas": [
+   "F5"
+  ]
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000001.11:g.169549811C>A",
+   "spdi_deleted": "C",
+   "spdi_inserted": "A",
+   "chrom": "1",
+   "pos": 169549811,
+   "ref": "C",
+   "alt": "A",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "1-169549811-C-A",
+   "vep": {
+    "gene_symbol": "F5",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000367797.9:c.1601G>T",
+    "hgvsp": "ENSP00000356771.3:p.Arg534Leu",
+    "impact": "MODERATE",
+    "mane_select": "NM_000130.5"
+   },
+   "frequency": {
+    "gnomad_v2": null
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000001.11:g.169549811C>G",
+   "spdi_deleted": "C",
+   "spdi_inserted": "G",
+   "chrom": "1",
+   "pos": 169549811,
+   "ref": "C",
+   "alt": "G",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "1-169549811-C-G",
+   "vep": null,
+   "frequency": {
+    "gnomad_v2": null
+   }
+  },
+  {
+   "index": 3,
+   "dbsnp_allele_index": 3,
+   "hgvs_g": "NC_000001.11:g.169549811C>T",
+   "spdi_deleted": "C",
+   "spdi_inserted": "T",
+   "chrom": "1",
+   "pos": 169549811,
+   "ref": "C",
+   "alt": "T",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "1-169549811-C-T",
+   "vep": {
+    "gene_symbol": "F5",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000367797.9:c.1601G>A",
+    "hgvsp": "ENSP00000356771.3:p.Arg534Gln",
+    "impact": "MODERATE",
+    "mane_select": "NM_000130.5"
+   },
+   "frequency": {
+    "gnomad_v2": null
+   }
+  }
+ ],
+ "clinvar": [
+  {
+   "variation_id": "642",
+   "allele_index": 3,
+   "name": "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)",
+   "classification": "Conflicting interpretations of pathogenicity, risk factor",
+   "review_status": "criteria provided, conflicting interpretations",
+   "conditions": [
+    "Budd-Chiari syndrome, susceptibility to",
+    "Factor V deficiency",
+    "Ischemic stroke, susceptibility to",
+    "Recurrent abortion",
+    "Thrombophilia due to activated protein C resistance",
+    "Thrombophilia due to factor V Leiden"
+   ],
+   "origin": "germline",
+   "n_submitters": "6",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "Pathogenic, risk factor",
+     "review_status": "criteria provided, multiple submitters, no conflicts",
+     "n_submitters": "4",
+     "last_evaluated": "Jul 14, 2017",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "Conflicting interpretations of pathogenicity, risk factor",
+     "review_status": "criteria provided, conflicting interpretations",
+     "n_submitters": "6",
+     "last_evaluated": "Nov 22, 2018",
+     "release_date": "2019-01-03"
+    }
+   ],
+   "submission_classes": {}
+  },
+  {
+   "variation_id": "226007",
+   "allele_index": null,
+   "name": "NM_000130.4(F5):c.1601G= (p.Arg534=)",
+   "classification": "drug response",
+   "review_status": "reviewed by expert panel",
+   "conditions": [
+    "hormonal contraceptives for systemic use response - Toxicity/ADR"
+   ],
+   "origin": "germline",
+   "n_submitters": "2",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "drug response",
+     "review_status": "reviewed by expert panel",
+     "n_submitters": "2",
+     "last_evaluated": "May 23, 2017",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "drug response",
+     "review_status": "reviewed by expert panel",
+     "n_submitters": "2",
+     "last_evaluated": "Nov 28, 2017",
+     "release_date": "2019-01-03"
+    }
+   ],
+   "submission_classes": {}
+  }
+ ],
+ "clinvar_release": "2019-01",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 40,
+  "n_associations_in_scope": 10,
+  "n_genome_wide_significant": 10,
+  "n_studies": 10,
+  "mapped_genes": [
+   "F5"
+  ],
+  "top_traits": [
+   {
+    "trait": "venous thromboembolism",
+    "p_value": "1e-300",
+    "accession": "GCST009097",
+    "pmid": "31676865"
+   },
+   {
+    "trait": "abnormal thrombosis",
+    "p_value": "4e-137",
+    "accession": "GCST003390",
+    "pmid": "26908601"
+   },
+   {
+    "trait": "peripheral arterial disease",
+    "p_value": "2e-12",
+    "accession": "GCST008474",
+    "pmid": "31285632"
+   },
+   {
+    "trait": "Antithrombotic agent use measurement",
+    "p_value": "3e-11",
+    "accession": "GCST007924",
+    "pmid": "31015401"
+   },
+   {
+    "trait": "inflammatory bowel disease",
+    "p_value": "3e-8",
+    "accession": "GCST003043",
+    "pmid": "26192919"
+   }
+  ],
+  "n_distinct_traits_significant": 5,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 1704,
+  "n_in_scope": 1135,
+  "pmids_in_scope": [
+   "31689458",
+   "31873298",
+   "31949319",
+   "32176948",
+   "32211132",
+   "32379994",
+   "32842771",
+   "33119405",
+   "33717621",
+   "34087973",
+   "31909188",
+   "32110754",
+   "31831825",
+   "31893201",
+   "31827408",
+   "31300468",
+   "31715544",
+   "31798819",
+   "29858598",
+   "31505212",
+   "31566926",
+   "31676865",
+   "31646966",
+   "31640222",
+   "31627731",
+   "31623126",
+   "31623212",
+   "31615384",
+   "31603898",
+   "31597922",
+   "31038729",
+   "31398733",
+   "32461754",
+   "31539375",
+   "31519222",
+   "31492854",
+   "31140652",
+   "31144782",
+   "31259774",
+   "31361092",
+   "31528244",
+   "31447596",
+   "30679327",
+   "30801535",
+   "30953632",
+   "31124268",
+   "31285632",
+   "31358043",
+   "34007571",
+   "31310570"
+  ],
+  "top": [
+   "21564075",
+   "31646966",
+   "28488549"
+  ]
+ },
+ "conflicts": [
+  {
+   "type": "classification_changed_over_time",
+   "variation_id": "642",
+   "history": [
+    [
+     "2018-01",
+     "Pathogenic, risk factor"
+    ],
+    [
+     "2019-01",
+     "Conflicting interpretations of pathogenicity, risk factor"
+    ]
+   ]
+  }
+ ],
+ "bottom_line": {
+  "category": "low-penetrance risk allele, not a fully penetrant monogenic disease variant",
+  "confidence": "high",
+  "rationale": "10 genome-wide significant associations across 10 studies",
+  "text": "Bottom line: rs6025 in F5 is best described as: low-penetrance risk allele, not a fully penetrant monogenic disease variant. Its strongest reported association is with venous thromboembolism. Confidence: high (10 genome-wide significant associations across 10 studies)."
+ },
+ "notes": [
+  "CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'."
+ ],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs6025 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs6025",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs6025",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs6025: rs1801711, rs60031897.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs6025",
+     "path": "dbsnp1_merges.0",
+     "value": "1801711",
+     "label": "dbSNP build 157 rs6025",
+     "mode": "eq",
+     "shown": "rs1801711",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs6025",
+     "path": "dbsnp1_merges.1",
+     "value": "60031897",
+     "label": "dbSNP build 157 rs6025",
+     "mode": "eq",
+     "shown": "rs60031897",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs6025 as variant type 'snv' on NC_000001.11 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs6025",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs6025",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs6025",
+     "path": "seq_id",
+     "value": "NC_000001.11",
+     "label": "dbSNP build 157 rs6025",
+     "mode": "eq",
+     "shown": "NC_000001.11",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000001.11:g.169549811C>A, a single-nucleotide variant (SNV) (C>A in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs6025",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000001.11:g.169549811C>A",
+     "label": "dbSNP build 157 rs6025",
+     "mode": "eq",
+     "shown": "NC_000001.11:g.169549811C>A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000001.11:g.169549811C>G, a single-nucleotide variant (SNV) (C>G in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs6025",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000001.11:g.169549811C>G",
+     "label": "dbSNP build 157 rs6025",
+     "mode": "eq",
+     "shown": "NC_000001.11:g.169549811C>G",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 3: NC_000001.11:g.169549811C>T, a single-nucleotide variant (SNV) (C>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs6025",
+     "path": "alleles.3.hgvs",
+     "value": "NC_000001.11:g.169549811C>T",
+     "label": "dbSNP build 157 rs6025",
+     "mode": "eq",
+     "shown": "NC_000001.11:g.169549811C>T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 3 (C>T), Ensembl VEP predicts missense_variant in F5 (ENST00000367797.9:c.1601G>A; ENSP00000356771.3:p.Arg534Gln), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs6025",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs6025",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs6025",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "F5",
+     "label": "Ensembl VEP rs6025",
+     "mode": "eq",
+     "shown": "F5",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs6025",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000367797.9:c.1601G>A",
+     "label": "Ensembl VEP rs6025",
+     "mode": "eq",
+     "shown": "ENST00000367797.9:c.1601G>A",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs6025",
+     "path": "transcript_consequences.0.hgvsp",
+     "value": "ENSP00000356771.3:p.Arg534Gln",
+     "label": "Ensembl VEP rs6025",
+     "mode": "eq",
+     "shown": "ENSP00000356771.3:p.Arg534Gln",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs6025",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs6025",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (C>A), Ensembl VEP predicts missense_variant in F5 (ENST00000367797.9:c.1601G>T; ENSP00000356771.3:p.Arg534Leu), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs6025",
+     "path": "transcript_consequences.1.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs6025",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs6025",
+     "path": "transcript_consequences.1.gene_symbol",
+     "value": "F5",
+     "label": "Ensembl VEP rs6025",
+     "mode": "eq",
+     "shown": "F5",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs6025",
+     "path": "transcript_consequences.1.hgvsc",
+     "value": "ENST00000367797.9:c.1601G>T",
+     "label": "Ensembl VEP rs6025",
+     "mode": "eq",
+     "shown": "ENST00000367797.9:c.1601G>T",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs6025",
+     "path": "transcript_consequences.1.hgvsp",
+     "value": "ENSP00000356771.3:p.Arg534Leu",
+     "label": "Ensembl VEP rs6025",
+     "mode": "eq",
+     "shown": "ENSP00000356771.3:p.Arg534Leu",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs6025",
+     "path": "transcript_consequences.1.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs6025",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string C/A/T.",
+   "citations": [
+    {
+     "record_id": "VEP:rs6025",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs6025",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs6025",
+     "path": "allele_string",
+     "value": "C/A/T",
+     "label": "Ensembl VEP rs6025",
+     "mode": "eq",
+     "shown": "C/A/T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 1 (C>A) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs6025.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs6025",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 2 (C>G) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs6025.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs6025",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 3 (C>T) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs6025.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs6025",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_000130.4(F5):c.1601G>A (p.Arg534Gln) (alternate allele 3) with germline classification 'Conflicting interpretations of pathogenicity, risk factor' for: Budd-Chiari syndrome, susceptibility to; Factor V deficiency; Ischemic stroke, susceptibility to; Recurrent abortion; and 2 more; review status 'criteria provided, conflicting interpretations', 6 submitter(s), allele origin 'germline'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000000642@2019-01",
+     "path": "clnsig",
+     "value": "Conflicting interpretations of pathogenicity, risk factor",
+     "label": "ClinVar VCV000000642 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Conflicting interpretations of pathogenicity, risk factor",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000000642@2019-01",
+     "path": "review_status",
+     "value": "criteria provided, conflicting interpretations",
+     "label": "ClinVar VCV000000642 (2019-01 release)",
+     "mode": "eq",
+     "shown": "criteria provided, conflicting interpretations",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000000642@2019-01",
+     "path": "name",
+     "value": "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)",
+     "label": "ClinVar VCV000000642 (2019-01 release)",
+     "mode": "eq",
+     "shown": "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000000642@2019-01",
+     "path": "n_submitters",
+     "value": "6",
+     "label": "ClinVar VCV000000642 (2019-01 release)",
+     "mode": "eq",
+     "shown": "6",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000000642@2019-01",
+     "path": "phenotype_list",
+     "value": "Budd-Chiari syndrome, susceptibility to",
+     "label": "ClinVar VCV000000642 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Budd-Chiari syndrome, susceptibility to",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000000642@2019-01",
+     "path": "phenotype_list",
+     "value": "Factor V deficiency",
+     "label": "ClinVar VCV000000642 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Factor V deficiency",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000000642@2019-01",
+     "path": "phenotype_list",
+     "value": "Ischemic stroke, susceptibility to",
+     "label": "ClinVar VCV000000642 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Ischemic stroke, susceptibility to",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000000642@2019-01",
+     "path": "phenotype_list",
+     "value": "Recurrent abortion",
+     "label": "ClinVar VCV000000642 (2019-01 release)",
+     "mode": "contains",
+     "shown": "Recurrent abortion",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000000642@2019-01",
+     "path": "origin",
+     "value": "germline",
+     "label": "ClinVar VCV000000642 (2019-01 release)",
+     "mode": "eq",
+     "shown": "germline",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic, risk factor; 2019-01: Conflicting interpretations of pathogenicity, risk factor. The classification changed over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000000642@2019-01",
+     "path": "history.0.clnsig",
+     "value": "Pathogenic, risk factor",
+     "label": "ClinVar VCV000000642 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Pathogenic, risk factor",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000000642@2019-01",
+     "path": "history.1.clnsig",
+     "value": "Conflicting interpretations of pathogenicity, risk factor",
+     "label": "ClinVar VCV000000642 (2019-01 release)",
+     "mode": "eq",
+     "shown": "Conflicting interpretations of pathogenicity, risk factor",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_000130.4(F5):c.1601G= (p.Arg534=) (an allele not matched to the dbSNP allele list) with germline classification 'drug response' for: hormonal contraceptives for systemic use response - Toxicity/ADR; review status 'reviewed by expert panel', 2 submitter(s), allele origin 'germline'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000226007@2019-01",
+     "path": "clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000226007 (2019-01 release)",
+     "mode": "eq",
+     "shown": "drug response",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000226007@2019-01",
+     "path": "review_status",
+     "value": "reviewed by expert panel",
+     "label": "ClinVar VCV000226007 (2019-01 release)",
+     "mode": "eq",
+     "shown": "reviewed by expert panel",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000226007@2019-01",
+     "path": "name",
+     "value": "NM_000130.4(F5):c.1601G= (p.Arg534=)",
+     "label": "ClinVar VCV000226007 (2019-01 release)",
+     "mode": "eq",
+     "shown": "NM_000130.4(F5):c.1601G= (p.Arg534=)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000226007@2019-01",
+     "path": "n_submitters",
+     "value": "2",
+     "label": "ClinVar VCV000226007 (2019-01 release)",
+     "mode": "eq",
+     "shown": "2",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000226007@2019-01",
+     "path": "phenotype_list",
+     "value": "hormonal contraceptives for systemic use response - Toxicity/ADR",
+     "label": "ClinVar VCV000226007 (2019-01 release)",
+     "mode": "contains",
+     "shown": "hormonal contraceptives for systemic use response - Toxicity/ADR",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000226007@2019-01",
+     "path": "origin",
+     "value": "germline",
+     "label": "ClinVar VCV000226007 (2019-01 release)",
+     "mode": "eq",
+     "shown": "germline",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: drug response; 2019-01: drug response. The classification did not change over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000226007@2019-01",
+     "path": "history.0.clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000226007 (2019-01 release)",
+     "mode": "eq",
+     "shown": "drug response",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000226007@2019-01",
+     "path": "history.1.clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000226007 (2019-01 release)",
+     "mode": "eq",
+     "shown": "drug response",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 40 association record(s) for rs6025. Of these, 10 were published on or before 2020-01-01.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs6025",
+     "path": "associations.39.association_id",
+     "value": 22780,
+     "label": "GWAS Catalog rs6025",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with venous thromboembolism (p = 1e-300, study GCST009097, effect allele rs6025-T).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs6025",
+     "path": "associations.30.accession_id",
+     "value": "GCST009097",
+     "label": "GWAS Catalog GCST009097",
+     "mode": "eq",
+     "shown": "GCST009097",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs6025",
+     "path": "associations.30.pvalue_exponent",
+     "value": -300,
+     "label": "GWAS Catalog GCST009097",
+     "mode": "eq",
+     "shown": "1e-300",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31676865",
+     "path": "pmid",
+     "value": "31676865",
+     "label": "PMID:31676865",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with abnormal thrombosis (p = 4e-137, study GCST003390, effect allele rs6025-T).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs6025",
+     "path": "associations.36.accession_id",
+     "value": "GCST003390",
+     "label": "GWAS Catalog GCST003390",
+     "mode": "eq",
+     "shown": "GCST003390",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs6025",
+     "path": "associations.36.pvalue_exponent",
+     "value": -137,
+     "label": "GWAS Catalog GCST003390",
+     "mode": "eq",
+     "shown": "4e-137",
+     "args": null
+    },
+    {
+     "record_id": "PMID:26908601",
+     "path": "pmid",
+     "value": "26908601",
+     "label": "PMID:26908601",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with peripheral arterial disease (p = 2e-12, study GCST008474, effect allele rs6025-T).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs6025",
+     "path": "associations.33.accession_id",
+     "value": "GCST008474",
+     "label": "GWAS Catalog GCST008474",
+     "mode": "eq",
+     "shown": "GCST008474",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs6025",
+     "path": "associations.33.pvalue_exponent",
+     "value": -12,
+     "label": "GWAS Catalog GCST008474",
+     "mode": "eq",
+     "shown": "2e-12",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31285632",
+     "path": "pmid",
+     "value": "31285632",
+     "label": "PMID:31285632",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with Antithrombotic agent use measurement (p = 3e-11, study GCST007924, effect allele rs6025-T).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs6025",
+     "path": "associations.34.accession_id",
+     "value": "GCST007924",
+     "label": "GWAS Catalog GCST007924",
+     "mode": "eq",
+     "shown": "GCST007924",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs6025",
+     "path": "associations.34.pvalue_exponent",
+     "value": -11,
+     "label": "GWAS Catalog GCST007924",
+     "mode": "eq",
+     "shown": "3e-11",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31015401",
+     "path": "pmid",
+     "value": "31015401",
+     "label": "PMID:31015401",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with inflammatory bowel disease (p = 3e-8, study GCST003043, effect allele rs6025-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs6025",
+     "path": "associations.37.accession_id",
+     "value": "GCST003043",
+     "label": "GWAS Catalog GCST003043",
+     "mode": "eq",
+     "shown": "GCST003043",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs6025",
+     "path": "associations.37.pvalue_exponent",
+     "value": -8,
+     "label": "GWAS Catalog GCST003043",
+     "mode": "eq",
+     "shown": "3e-8",
+     "args": null
+    },
+    {
+     "record_id": "PMID:26192919",
+     "path": "pmid",
+     "value": "26192919",
+     "label": "PMID:26192919",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 1704 PubMed articles to rs6025; 1135 of the 1704 with a PubMed date were published on or before 2020-01-01.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs6025",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs6025",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Resistance to activated protein C is a risk factor for pregnancy-related venous thrombosis in the absence of the F5 rs6025 (factor V Leiden) polymorphism\" (Br J Haematol, 2011).",
+   "citations": [
+    {
+     "record_id": "PMID:21564075",
+     "path": "title",
+     "value": "Resistance to activated protein C is a risk factor for pregnancy-related venous thrombosis in the absence of the F5 rs6025 (factor V Leiden) polymorphism.",
+     "label": "PMID:21564075",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:21564075",
+     "path": "journal",
+     "value": "Br J Haematol",
+     "label": "PMID:21564075",
+     "mode": "eq",
+     "shown": "Br J Haematol",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"MTHFR and F5 genetic variations have association with preeclampsia in Pakistani patients: a case control study\" (BMC Med Genet, 2019).",
+   "citations": [
+    {
+     "record_id": "PMID:31646966",
+     "path": "title",
+     "value": "MTHFR and F5 genetic variations have association with preeclampsia in Pakistani patients: a case control study.",
+     "label": "PMID:31646966",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31646966",
+     "path": "journal",
+     "value": "BMC Med Genet",
+     "label": "PMID:31646966",
+     "mode": "eq",
+     "shown": "BMC Med Genet",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Prevalence of F5 1691G>A, F2 20210G>A, and MTHFR 677C>T polymorphisms in Bosnian women with pregnancy loss\" (Bosn J Basic Med Sci, 2017).",
+   "citations": [
+    {
+     "record_id": "PMID:28488549",
+     "path": "title",
+     "value": "Prevalence of F5 1691G>A, F2 20210G>A, and MTHFR 677C>T polymorphisms in Bosnian women with pregnancy loss.",
+     "label": "PMID:28488549",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:28488549",
+     "path": "journal",
+     "value": "Bosn J Basic Med Sci",
+     "label": "PMID:28488549",
+     "mode": "eq",
+     "shown": "Bosn J Basic Med Sci",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "No allele of rs6025 has a pathogenic or likely pathogenic germline classification in the ClinVar 2019-01 release.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000000642@2019-01",
+     "path": "clnsig",
+     "value": "Conflicting interpretations of pathogenicity, risk factor",
+     "label": "ClinVar VCV000000642 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000226007@2019-01",
+     "path": "clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000226007 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "rs6025 is associated with 5 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs6025",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs6025",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000000642@2019-01",
+     "path": "clnsig",
+     "value": "Conflicting interpretations of pathogenicity, risk factor",
+     "label": "ClinVar VCV000000642 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000226007@2019-01",
+     "path": "clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000226007 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs6025 in F5 is best described as: low-penetrance risk allele, not a fully penetrant monogenic disease variant. Its strongest reported association is with venous thromboembolism. Confidence: high (10 genome-wide significant associations across 10 studies).",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000000642@2019-01",
+     "path": "clnsig",
+     "value": "Conflicting interpretations of pathogenicity, risk factor",
+     "label": "ClinVar VCV000000642 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000226007@2019-01",
+     "path": "clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000226007 (2019-01 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs6025",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs6025",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs6025",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs6025",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs6025": {
+   "record_id": "dbSNP:rs6025",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/6025",
+   "retrieved_at": "2026-11-17T02:06:04.451956+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "6025",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "1801711",
+     "60031897"
+    ],
+    "merged_into": [],
+    "citations": [
+     7586244,
+     7803250,
+     7877648,
+     7910348,
+     7911872,
+     7968118,
+     8049422,
+     8164730,
+     8164741,
+     8566967,
+     8616100,
+     8822583,
+     9245936,
+     9339109,
+     9372726,
+     9415695,
+     9454741,
+     9459326,
+     9518910,
+     9734642,
+     10328130,
+     10348711,
+     10477778,
+     10494770,
+     10507841,
+     10666427,
+     11018168,
+     11583312,
+     11686338,
+     12069454,
+     14996674,
+     15208046,
+     15534175,
+     15638861,
+     15946211,
+     16493002,
+     16769590,
+     16846490,
+     17048007,
+     17107626,
+     17677000,
+     18513389,
+     18752569,
+     18805967,
+     18936436,
+     19131662,
+     19263529,
+     19330901,
+     19415820,
+     19536175,
+     19538716,
+     19559392,
+     19591822,
+     19682239,
+     19786296,
+     20031567,
+     20352152,
+     20417488,
+     20556870,
+     21054877,
+     21116184,
+     21121051,
+     21163921,
+     21291465,
+     21332313,
+     21422408,
+     21463476,
+     21502573,
+     21564075,
+     21659962,
+     21857382,
+     21894447,
+     21919968,
+     21935354,
+     21955043,
+     22273812,
+     22295056,
+     22353194,
+     22388798,
+     22403240,
+     22421107,
+     22540831,
+     22707612,
+     22879966,
+     22992668,
+     23016735,
+     23018527,
+     23132613,
+     23150947,
+     23274712,
+     23533563,
+     23559680,
+     23650146,
+     23776350,
+     23820649,
+     23900608,
+     24270849,
+     24485400,
+     24816905,
+     24908450,
+     25266489,
+     25272994,
+     25333069,
+     25341889,
+     25361584,
+     25474356,
+     25741868,
+     25897999,
+     25937265,
+     26091847,
+     26261166,
+     26423325,
+     26592644,
+     26747084,
+     26791477,
+     26856649,
+     26888256,
+     26970916,
+     26982741,
+     27018927,
+     27156530,
+     27233255,
+     27233804,
+     27277665,
+     27348238,
+     27384325,
+     27589735,
+     27616475,
+     27636225,
+     27716216,
+     27766050,
+     27976734,
+     28086795,
+     28317214,
+     28345611,
+     28544373,
+     28889200,
+     29094466,
+     29190926,
+     29334895,
+     29518638,
+     29624150,
+     30182779,
+     30727925,
+     30773804,
+     30842582,
+     30858532,
+     31019283,
+     31037802,
+     31058051,
+     31101755,
+     31124268,
+     31134135,
+     31420334,
+     31615384,
+     31646966,
+     31689458,
+     32110755,
+     32342502,
+     32402998,
+     32496628,
+     32594420,
+     32671915,
+     32695137,
+     32731838,
+     32952508,
+     33128086,
+     33170161,
+     33448877,
+     33519226,
+     33940655,
+     34087973,
+     34142473,
+     34200207,
+     34207366,
+     34234248,
+     34263111,
+     34356593,
+     34765649,
+     34784644,
+     34958284,
+     34970867,
+     35316569,
+     35346283,
+     35453794,
+     36164570,
+     36335097,
+     36387492,
+     36479490
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000001.11",
+    "alleles": [
+     {
+      "hgvs": "NC_000001.11:g.169549811=",
+      "position0": 169549810,
+      "deleted": "C",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000001.11:g.169549811C>A",
+      "position0": 169549810,
+      "deleted": "C",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000001.11:g.169549811C>G",
+      "position0": 169549810,
+      "deleted": "C",
+      "inserted": "G"
+     },
+     {
+      "hgvs": "NC_000001.11:g.169549811C>T",
+      "position0": 169549810,
+      "deleted": "C",
+      "inserted": "T"
+     }
+    ],
+    "genes": [
+     "F5"
+    ]
+   }
+  },
+  "VEP:rs6025": {
+   "record_id": "VEP:rs6025",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs6025",
+   "retrieved_at": "2026-11-17T02:06:12.971044+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs6025",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "1",
+    "start": 169549811,
+    "end": 169549811,
+    "allele_string": "C/A/T",
+    "variant_class": "SNV",
+    "most_severe_consequence": "missense_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "T",
+      "gene_symbol": "F5",
+      "gene_id": "ENSG00000198734",
+      "transcript_id": "ENST00000367797",
+      "mane_select": "NM_000130.5",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000367797.9:c.1601G>A",
+      "hgvsp": "ENSP00000356771.3:p.Arg534Gln",
+      "impact": "MODERATE",
+      "amino_acids": "R/Q",
+      "protein_start": 534,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "A",
+      "gene_symbol": "F5",
+      "gene_id": "ENSG00000198734",
+      "transcript_id": "ENST00000367797",
+      "mane_select": "NM_000130.5",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000367797.9:c.1601G>T",
+      "hgvsp": "ENSP00000356771.3:p.Arg534Leu",
+      "impact": "MODERATE",
+      "amino_acids": "R/L",
+      "protein_start": 534,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [],
+    "colocated_somatic": false
+   }
+  },
+  "gnomAD-v2.1.1:rs6025": {
+   "record_id": "gnomAD-v2.1.1:rs6025",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:06:13.074061+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr1:g.169519049T>A",
+      "_score": 17.141119,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 24.1
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "A",
+       "ref": "T",
+       "vartype": "snv"
+      },
+      "vcf": {
+       "alt": "A",
+       "position": "169519049",
+       "ref": "T"
+      }
+     },
+     {
+      "_id": "chr1:g.169519049T>C",
+      "_score": 17.141094,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 9.413
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "C",
+       "ref": "T",
+       "vartype": "snv"
+      },
+      "gnomad_exome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.98041,
+        "af_afr": 0.995877,
+        "af_afr_female": 0.995232,
+        "af_afr_male": 0.996928,
+        "af_amr": 0.992971,
+        "af_amr_female": 0.992596,
+        "af_amr_male": 0.993502,
+        "af_asj": 0.981544,
+        "af_asj_female": 0.983061,
+        "af_asj_male": 0.980108,
+        "af_eas": 0.999946,
+        "af_eas_female": 0.999893,
+        "af_eas_jpn": 1.0,
+        "af_eas_kor": 1.0,
+        "af_eas_male": 1.0,
+        "af_eas_oea": 0.999931,
+        "af_female": 0.980884,
+        "af_fin": 0.97845,
+        "af_fin_female": 0.977413,
+        "af_fin_male": 0.979403,
+        "af_male": 0.980007,
+        "af_nfe": 0.969815,
+        "af_nfe_bgr": 0.959865,
+        "af_nfe_est": 0.987603,
+        "af_nfe_female": 0.969656,
+        "af_nfe_male": 0.96994,
+        "af_nfe_nwe": 0.97692,
+        "af_nfe_onf": 0.969247,
+        "af_nfe_seu": 0.978862,
+        "af_nfe_swe": 0.955886,
+        "af_oth": 0.982545,
+        "af_oth_female": 0.982912,
+        "af_oth_male": 0.98221,
+        "af_sas": 0.986215,
+        "af_sas_female": 0.983957,
+        "af_sas_male": 0.986953
+       },
+       "alt": "C",
+       "an": {
+        "an": 251250,
+        "an_afr": 16252,
+        "an_afr_female": 10068,
+        "an_afr_male": 6184,
+        "an_amr": 34570,
+        "an_amr_female": 20258,
+        "an_amr_male": 14312,
+        "an_asj": 10078,
+        "an_asj_female": 4900,
+        "an_asj_male": 5178,
+        "an_eas": 18352,
+        "an_eas_female": 9306,
+        "an_eas_jpn": 152,
+        "an_eas_kor": 3780,
+        "an_eas_male": 9046,
+        "an_eas_oea": 14420,
+        "an_female": 115452,
+        "an_fin": 21624,
+        "an_fin_female": 10360,
+        "an_fin_male": 11264,
+        "an_male": 135798,
+        "an_nfe": 113632,
+        "an_nfe_bgr": 2666,
+        "an_nfe_est": 242,
+        "an_nfe_female": 50092,
+        "an_nfe_male": 63540,
+        "an_nfe_nwe": 42158,
+        "an_nfe_onf": 30956,
+        "an_nfe_seu": 11496,
+        "an_nfe_swe": 26114,
+        "an_oth": 6130,
+        "an_oth_female": 2926,
+        "an_oth_male": 3204,
+        "an_sas": 30612,
+        "an_sas_female": 7542,
+        "an_sas_male": 23070
+       },
+       "ref": "T"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.98274,
+        "af_afr": 0.995525,
+        "af_afr_female": 0.99538,
+        "af_afr_male": 0.995631,
+        "af_amr": 0.988208,
+        "af_amr_female": 0.995169,
+        "af_amr_male": 0.981567,
+        "af_asj": 0.975862,
+        "af_asj_female": 0.95,
+        "af_asj_male": 0.985714,
+        "af_eas": 1.0,
+        "af_eas_female": 1.0,
+        "af_eas_male": 1.0,
+        "af_female": 0.982838,
+        "af_fin": 0.978136,
+        "af_fin_female": 0.973998,
+        "af_fin_male": 0.982822,
+        "af_male": 0.982662,
+        "af_nfe": 0.974909,
+        "af_nfe_est": 0.98321,
+        "af_nfe_female": 0.97752,
+        "af_nfe_male": 0.972848,
+        "af_nfe_nwe": 0.970219,
+        "af_nfe_onf": 0.975187,
+        "af_nfe_seu": 0.990566,
+        "af_oth": 0.97886,
+        "af_oth_female": 0.97331,
+        "af_oth_male": 0.984791
+       },
+       "alt": "C",
+       "an": {
+        "an": 31402,
+        "an_afr": 8716,
+        "an_afr_female": 3680,
+        "an_afr_male": 5036,
+        "an_amr": 848,
+        "an_amr_female": 414,
+        "an_amr_male": 434,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1560,
+        "an_eas_female": 538,
+        "an_eas_male": 1022,
+        "an_female": 13926,
+        "an_fin": 3476,
+        "an_fin_female": 1846,
+        "an_fin_male": 1630,
+        "an_male": 17476,
+        "an_nfe": 15424,
+        "an_nfe_est": 4586,
+        "an_nfe_female": 6806,
+        "an_nfe_male": 8618,
+        "an_nfe_nwe": 8596,
+        "an_nfe_onf": 2136,
+        "an_nfe_seu": 106,
+        "an_oth": 1088,
+        "an_oth_female": 562,
+        "an_oth_male": 526
+       },
+       "ref": "T"
+      },
+      "vcf": {
+       "alt": "C",
+       "position": "169519049",
+       "ref": "T"
+      }
+     }
+    ]
+   }
+  },
+  "ClinVar:VCV000000642@2019-01": {
+   "record_id": "ClinVar:VCV000000642@2019-01",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2019-01 (2019-01-03)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/642/",
+   "retrieved_at": "2026-11-17T02:14:03.227061+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "15681",
+    "type": "single nucleotide variant",
+    "name": "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)",
+    "gene_symbol": "F5",
+    "clnsig": "Conflicting interpretations of pathogenicity, risk factor",
+    "last_evaluated": "Nov 22, 2018",
+    "rcv": "RCV000000676;RCV000205002;RCV000000675;RCV000023935;RCV000454249;RCV000000674;RCV000616414",
+    "phenotype_list": "Budd-Chiari syndrome, susceptibility to;Factor V deficiency;Ischemic stroke, susceptibility to;Recurrent abortion;Thrombophilia due to activated protein C resistance;Thrombophilia due to factor V Leiden;not specified",
+    "origin": "germline",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "1",
+    "start": "169549811",
+    "ref": "C",
+    "alt": "T",
+    "review_status": "criteria provided, conflicting interpretations",
+    "n_submitters": "6",
+    "variation_id": "642",
+    "ref_vcf": "",
+    "alt_vcf": "",
+    "pos_vcf": "",
+    "somatic_clinical_impact": "",
+    "oncogenicity": "",
+    "rsid": "rs6025",
+    "submissions": [],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "Pathogenic, risk factor",
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "n_submitters": "4",
+      "last_evaluated": "Jul 14, 2017",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "Conflicting interpretations of pathogenicity, risk factor",
+      "review_status": "criteria provided, conflicting interpretations",
+      "n_submitters": "6",
+      "last_evaluated": "Nov 22, 2018",
+      "release_date": "2019-01-03"
+     }
+    ]
+   }
+  },
+  "ClinVar:VCV000226007@2019-01": {
+   "record_id": "ClinVar:VCV000226007@2019-01",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2019-01 (2019-01-03)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/226007/",
+   "retrieved_at": "2026-11-17T02:14:03.227134+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "227743",
+    "type": "single nucleotide variant",
+    "name": "NM_000130.4(F5):c.1601G= (p.Arg534=)",
+    "gene_symbol": "F5",
+    "clnsig": "drug response",
+    "last_evaluated": "Nov 28, 2017",
+    "rcv": "RCV000211384;RCV000514863",
+    "phenotype_list": "hormonal contraceptives for systemic use response - Toxicity/ADR;not provided",
+    "origin": "germline",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "1",
+    "start": "169549811",
+    "ref": "C",
+    "alt": "C",
+    "review_status": "reviewed by expert panel",
+    "n_submitters": "2",
+    "variation_id": "226007",
+    "ref_vcf": "",
+    "alt_vcf": "",
+    "pos_vcf": "",
+    "somatic_clinical_impact": "",
+    "oncogenicity": "",
+    "rsid": "rs6025",
+    "submissions": [],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "drug response",
+      "review_status": "reviewed by expert panel",
+      "n_submitters": "2",
+      "last_evaluated": "May 23, 2017",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "drug response",
+      "review_status": "reviewed by expert panel",
+      "n_submitters": "2",
+      "last_evaluated": "Nov 28, 2017",
+      "release_date": "2019-01-03"
+     }
+    ]
+   }
+  },
+  "GWAS:rs6025": {
+   "record_id": "GWAS:rs6025",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:06:20.979429+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 218945494,
+      "accession_id": "GCST90837434",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 2e-18,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -18,
+      "or_value": "2.04",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Other venous embolism and thrombosis (PheCode 452)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945470,
+      "accession_id": "GCST90837433",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 2e-75,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -75,
+      "or_value": "12.21",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0021181",
+        "efo_trait": "inherited blood coagulation disorder"
+       }
+      ],
+      "reported_trait": [
+       "Congenital deficiency of other clotting factors (including factor VII) (PheCode 286.12)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 1,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945446,
+      "accession_id": "GCST90837432",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 7.0000000000000005e-56,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -56,
+      "or_value": "6.81",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0021181",
+        "efo_trait": "inherited blood coagulation disorder"
+       }
+      ],
+      "reported_trait": [
+       "Congenital coagulation defects (PheCode 286.1)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 2,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218945422,
+      "accession_id": "GCST90837431",
+      "pubmed_id": "41298473",
+      "first_author": "Koyama S",
+      "p_value": 5e-20,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -20,
+      "or_value": "1.72",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0001531",
+        "efo_trait": "blood coagulation disease"
+       }
+      ],
+      "reported_trait": [
+       "Coagulation defects (PheCode 286)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 3,
+      "_pubdate": "2025-11-26"
+     },
+     {
+      "association_id": 218070067,
+      "accession_id": "GCST90838669",
+      "pubmed_id": "38627641",
+      "first_author": "Troubat L",
+      "p_value": 2e-14,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -14,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004503",
+        "efo_trait": "hematological measurement"
+       }
+      ],
+      "reported_trait": [
+       "Hematological traits (multi-trait analysis)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 4,
+      "_pubdate": "2024-04-17"
+     },
+     {
+      "association_id": 216261846,
+      "accession_id": "GCST90797305",
+      "pubmed_id": "36154123",
+      "first_author": "Thibord F",
+      "p_value": 0.0,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -1051,
+      "or_value": null,
+      "beta": "1.0864 unit increase",
+      "risk_frequency": "0.0256",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 5,
+      "_pubdate": "2022-10-18"
+     },
+     {
+      "association_id": 216260999,
+      "accession_id": "GCST90244158",
+      "pubmed_id": "36154123",
+      "first_author": "Thibord F",
+      "p_value": 0.0,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -1028,
+      "or_value": null,
+      "beta": "1.0904 unit increase",
+      "risk_frequency": "0.0262",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 6,
+      "_pubdate": "2022-10-18"
+     },
+     {
+      "association_id": 216260931,
+      "accession_id": "GCST90797304",
+      "pubmed_id": "36154123",
+      "first_author": "Thibord F",
+      "p_value": 0.0,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -811,
+      "or_value": null,
+      "beta": "1.1036 unit increase",
+      "risk_frequency": "0.0259",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 7,
+      "_pubdate": "2022-10-18"
+     },
+     {
+      "association_id": 192521824,
+      "accession_id": "GCST90664522",
+      "pubmed_id": "38561338",
+      "first_author": "He XY",
+      "p_value": 2e-202,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -202,
+      "or_value": "2.38",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 8,
+      "_pubdate": "2024-04-01"
+     },
+     {
+      "association_id": 188118370,
+      "accession_id": "GCST90468148",
+      "pubmed_id": "39789286",
+      "first_author": "Loya H",
+      "p_value": 4e-30,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -30,
+      "or_value": null,
+      "beta": "0.7253895 unit decrease",
+      "risk_frequency": "0.977009878",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005279",
+        "efo_trait": "pulmonary embolism"
+       }
+      ],
+      "reported_trait": [
+       "Pulmonary embolism"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 9,
+      "_pubdate": "2025-02-01"
+     },
+     {
+      "association_id": 188116283,
+      "accession_id": "GCST90468122",
+      "pubmed_id": "39789286",
+      "first_author": "Loya H",
+      "p_value": 7e-154,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -154,
+      "or_value": null,
+      "beta": "0.99490005 unit decrease",
+      "risk_frequency": "0.977009878",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0003907",
+        "efo_trait": "deep vein thrombosis"
+       }
+      ],
+      "reported_trait": [
+       "Deep venous thrombosis"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 10,
+      "_pubdate": "2025-02-01"
+     },
+     {
+      "association_id": 165388130,
+      "accession_id": "GCST90454221",
+      "pubmed_id": "40069456",
+      "first_author": "Pujol Gualdo N",
+      "p_value": 1e-21,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -21,
+      "or_value": "0.77",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0000132",
+        "efo_trait": "Menorrhagia"
+       }
+      ],
+      "reported_trait": [
+       "ICD10 N92: Excessive, frequent and irregular menstruation"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 11,
+      "_pubdate": "2025-05-01"
+     },
+     {
+      "association_id": 134131734,
+      "accession_id": "GCST90292538",
+      "pubmed_id": "37156999",
+      "first_author": "Liu Z",
+      "p_value": 9e-06,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -6,
+      "or_value": null,
+      "beta": "0.162 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005265",
+        "efo_trait": "inflammatory bowel disease"
+       }
+      ],
+      "reported_trait": [
+       "Inflammatory bowel disease"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 12,
+      "_pubdate": "2023-05-01"
+     },
+     {
+      "association_id": 131517885,
+      "accession_id": "GCST90399745",
+      "pubmed_id": "36777996",
+      "first_author": "Zhou W",
+      "p_value": 2e-245,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -245,
+      "or_value": null,
+      "beta": "1.1108 unit increase",
+      "risk_frequency": "0.02019",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 13,
+      "_pubdate": "2022-10-12"
+     },
+     {
+      "association_id": 118967726,
+      "accession_id": "GCST90301371",
+      "pubmed_id": "38018286",
+      "first_author": "Toivonen J",
+      "p_value": 3e-10,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -10,
+      "or_value": "0.79",
+      "beta": "-",
+      "risk_frequency": "0.02",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0001891",
+        "efo_trait": "Iron deficiency anemia"
+       }
+      ],
+      "reported_trait": [
+       "Iron deficiency anaemia"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 14,
+      "_pubdate": "2024-01-01"
+     },
+     {
+      "association_id": 104575601,
+      "accession_id": "GCST90249828",
+      "pubmed_id": "34648354",
+      "first_author": "Pietzner M",
+      "p_value": 2e-23,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -23,
+      "or_value": null,
+      "beta": "0.39 unit decrease",
+      "risk_frequency": "0.03",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050208",
+        "efo_trait": "tissue factor pathway inhibitor amount"
+       }
+      ],
+      "reported_trait": [
+       "Tissue factor pathway inhibitor levels"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 15,
+      "_pubdate": "2021-11-12"
+     },
+     {
+      "association_id": 104568395,
+      "accession_id": "GCST90249475",
+      "pubmed_id": "34648354",
+      "first_author": "Pietzner M",
+      "p_value": 1e-09,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.262 unit decrease",
+      "risk_frequency": "0.03",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0801961",
+        "efo_trait": "protein SEC13 homolog measurement"
+       }
+      ],
+      "reported_trait": [
+       "Protein SEC13 homolog levels"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 16,
+      "_pubdate": "2021-11-12"
+     },
+     {
+      "association_id": 98277147,
+      "accession_id": "GCST90129541",
+      "pubmed_id": "35285134",
+      "first_author": "Temprano-Sagrera G",
+      "p_value": 3e-190,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -190,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004792",
+        "efo_trait": "plasminogen activator inhibitor 1 measurement"
+       },
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism or plasminogen activator inhibitor 1 levels (pleiotropy)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 17,
+      "_pubdate": "2022-06-01"
+     },
+     {
+      "association_id": 98276784,
+      "accession_id": "GCST90129539",
+      "pubmed_id": "35285134",
+      "first_author": "Temprano-Sagrera G",
+      "p_value": 2e-194,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -194,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0000061",
+        "efo_trait": "circulating fibrinogen amount"
+       },
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism or fibrinogen levels (pleiotropy)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 18,
+      "_pubdate": "2022-06-01"
+     },
+     {
+      "association_id": 98276650,
+      "accession_id": "GCST90129538",
+      "pubmed_id": "35285134",
+      "first_author": "Temprano-Sagrera G",
+      "p_value": 1e-189,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -189,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004694",
+        "efo_trait": "factor XI measurement"
+       },
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism or factor XI levels (pleiotropy)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 19,
+      "_pubdate": "2022-06-01"
+     },
+     {
+      "association_id": 98276481,
+      "accession_id": "GCST90129537",
+      "pubmed_id": "35285134",
+      "first_author": "Temprano-Sagrera G",
+      "p_value": 1e-194,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -194,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       },
+       {
+        "efo_id": "OBA_1000199",
+        "efo_trait": "von Willebrand factor characteristic"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism or von Willebrand factor levels (pleiotropy)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 20,
+      "_pubdate": "2022-06-01"
+     },
+     {
+      "association_id": 98276332,
+      "accession_id": "GCST90129536",
+      "pubmed_id": "35285134",
+      "first_author": "Temprano-Sagrera G",
+      "p_value": 9e-193,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -193,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004630",
+        "efo_trait": "factor VIII measurement"
+       },
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism or factor VIII levels (pleiotropy)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 21,
+      "_pubdate": "2022-06-01"
+     },
+     {
+      "association_id": 98276185,
+      "accession_id": "GCST90129535",
+      "pubmed_id": "35285134",
+      "first_author": "Temprano-Sagrera G",
+      "p_value": 1e-190,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -190,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       },
+       {
+        "efo_id": "EFO_0004619",
+        "efo_trait": "factor VII measurement"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism or factor VII levels (pleiotropy)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 22,
+      "_pubdate": "2022-06-01"
+     },
+     {
+      "association_id": 93549508,
+      "accession_id": "GCST90018982",
+      "pubmed_id": "34594039",
+      "first_author": "Sakaue S",
+      "p_value": 3e-11,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.1479 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009925",
+        "efo_trait": "Antithrombotic agent use measurement"
+       }
+      ],
+      "reported_trait": [
+       "Medication use (antithrombotic agents)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 23,
+      "_pubdate": "2021-10-01"
+     },
+     {
+      "association_id": 93458068,
+      "accession_id": "GCST90061371",
+      "pubmed_id": "34601942",
+      "first_author": "van Zuydam NR",
+      "p_value": 7e-13,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -13,
+      "or_value": "1.2",
+      "beta": "-",
+      "risk_frequency": "0.97",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005386",
+        "efo_trait": "peripheral arterial disease"
+       }
+      ],
+      "reported_trait": [
+       "Peripheral artery disease"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 24,
+      "_pubdate": "2021-10-01"
+     },
+     {
+      "association_id": 93357769,
+      "accession_id": "GCST90086137",
+      "pubmed_id": "33893285",
+      "first_author": "Guindo-Martinez M",
+      "p_value": 4e-12,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -12,
+      "or_value": "0.64",
+      "beta": "-",
+      "risk_frequency": "0.9719441",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005294",
+        "efo_trait": "peripheral vascular disease"
+       }
+      ],
+      "reported_trait": [
+       "Peripheral vascular disease (additive model)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-C"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 25,
+      "_pubdate": "2021-04-23"
+     },
+     {
+      "association_id": 72486616,
+      "accession_id": "GCST011359",
+      "pubmed_id": "33592630",
+      "first_author": "Herrera-Rivero M",
+      "p_value": 5e-27,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -27,
+      "or_value": "5.775",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 26,
+      "_pubdate": "2021-09-01"
+     },
+     {
+      "association_id": 69092351,
+      "accession_id": "GCST011368",
+      "pubmed_id": "33536631",
+      "first_author": "Bell S",
+      "p_value": 2e-08,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "0.093 SD decrease",
+      "risk_frequency": "0.0279",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0006334",
+        "efo_trait": "total iron binding capacity"
+       }
+      ],
+      "reported_trait": [
+       "Iron status biomarkers (total iron binding capacity)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 27,
+      "_pubdate": "2021-02-03"
+     },
+     {
+      "association_id": 69089183,
+      "accession_id": "GCST011369",
+      "pubmed_id": "33536631",
+      "first_author": "Bell S",
+      "p_value": 7e-37,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -37,
+      "or_value": null,
+      "beta": "0.15 SD increase",
+      "risk_frequency": "0.0279",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004459",
+        "efo_trait": "ferritin measurement"
+       }
+      ],
+      "reported_trait": [
+       "Iron status biomarkers (ferritin levels)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 28,
+      "_pubdate": "2021-02-03"
+     },
+     {
+      "association_id": 63939384,
+      "accession_id": "GCST012139",
+      "pubmed_id": "33095540",
+      "first_author": "Sherman BT",
+      "p_value": 4e-11,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.257 unit increase",
+      "risk_frequency": "0.018",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004507",
+        "efo_trait": "D dimer measurement"
+       }
+      ],
+      "reported_trait": [
+       "D-dimer levels in HIV infection"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 29,
+      "_pubdate": "2021-02-02"
+     },
+     {
+      "association_id": 53738386,
+      "accession_id": "GCST009097",
+      "pubmed_id": "31676865",
+      "first_author": "Klarin D",
+      "p_value": 1e-300,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -300,
+      "or_value": "2.5286865",
+      "beta": "-",
+      "risk_frequency": "0.0247",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 30,
+      "_pubdate": "2019-11-01"
+     },
+     {
+      "association_id": 51937180,
+      "accession_id": "GCST009029",
+      "pubmed_id": "31420334",
+      "first_author": "Lindstrom S",
+      "p_value": 1e-188,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -188,
+      "or_value": null,
+      "beta": "0.8694 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 31,
+      "_pubdate": "2019-11-07"
+     },
+     {
+      "association_id": 51935070,
+      "accession_id": "GCST009030",
+      "pubmed_id": "31420334",
+      "first_author": "Lindstrom S",
+      "p_value": 1e-188,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -188,
+      "or_value": "2.39",
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 32,
+      "_pubdate": "2019-11-07"
+     },
+     {
+      "association_id": 47462068,
+      "accession_id": "GCST008474",
+      "pubmed_id": "31285632",
+      "first_author": "Klarin D",
+      "p_value": 2e-12,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -12,
+      "or_value": "1.2",
+      "beta": "-",
+      "risk_frequency": "0.0265",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005386",
+        "efo_trait": "peripheral arterial disease"
+       }
+      ],
+      "reported_trait": [
+       "Peripheral artery disease"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 33,
+      "_pubdate": "2019-08-01"
+     },
+     {
+      "association_id": 45602594,
+      "accession_id": "GCST007924",
+      "pubmed_id": "31015401",
+      "first_author": "Wu Y",
+      "p_value": 3e-11,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.14787269 unit increase",
+      "risk_frequency": "0.0233795",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0009925",
+        "efo_trait": "Antithrombotic agent use measurement"
+       }
+      ],
+      "reported_trait": [
+       "Medication use (antithrombotic agents)"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 34,
+      "_pubdate": "2019-04-23"
+     },
+     {
+      "association_id": 19732011,
+      "accession_id": "GCST004256",
+      "pubmed_id": "28373160",
+      "first_author": "Klarin D",
+      "p_value": 7e-50,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -50,
+      "or_value": "3.5",
+      "beta": "-",
+      "risk_frequency": "0.02",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 35,
+      "_pubdate": "2017-04-01"
+     },
+     {
+      "association_id": 16529222,
+      "accession_id": "GCST003390",
+      "pubmed_id": "26908601",
+      "first_author": "Hinds DA",
+      "p_value": 4e-137,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -137,
+      "or_value": "2.927",
+      "beta": "-",
+      "risk_frequency": "0.0253",
+      "efo_traits": [
+       {
+        "efo_id": "HP_0001977",
+        "efo_trait": "abnormal thrombosis"
+       },
+       {
+        "efo_id": "EFO_0003907",
+        "efo_trait": "deep vein thrombosis"
+       },
+       {
+        "efo_id": "HP_0002140",
+        "efo_trait": "Ischemic stroke"
+       },
+       {
+        "efo_id": "MONDO_0005279",
+        "efo_trait": "pulmonary embolism"
+       },
+       {
+        "efo_id": "MONDO_0005098",
+        "efo_trait": "stroke disorder"
+       },
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Thrombosis"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 36,
+      "_pubdate": "2016-05-01"
+     },
+     {
+      "association_id": 15079001,
+      "accession_id": "GCST003043",
+      "pubmed_id": "26192919",
+      "first_author": "Liu JZ",
+      "p_value": 3.0000000000000004e-08,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -8,
+      "or_value": "1.1942284",
+      "beta": "-",
+      "risk_frequency": "0.97",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005265",
+        "efo_trait": "inflammatory bowel disease"
+       }
+      ],
+      "reported_trait": [
+       "Inflammatory bowel disease"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 37,
+      "_pubdate": "2015-09-01"
+     },
+     {
+      "association_id": 10094422,
+      "accession_id": "GCST002808",
+      "pubmed_id": "25772935",
+      "first_author": "Germain M",
+      "p_value": 1e-96,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -96,
+      "or_value": "3.25",
+      "beta": "-",
+      "risk_frequency": "0.033",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 38,
+      "_pubdate": "2015-04-02"
+     },
+     {
+      "association_id": 22780,
+      "accession_id": "GCST001557",
+      "pubmed_id": "22672568",
+      "first_author": "Heit JA",
+      "p_value": 2e-22,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -22,
+      "or_value": "3.57",
+      "beta": "-",
+      "risk_frequency": "0.063",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0005399",
+        "efo_trait": "venous thromboembolism"
+       }
+      ],
+      "reported_trait": [
+       "Venous thromboembolism"
+      ],
+      "mapped_genes": [
+       "F5"
+      ],
+      "snp_effect_allele": [
+       "rs6025-T"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 39,
+      "_pubdate": "2012-08-01"
+     }
+    ]
+   }
+  },
+  "PMID:31676865": {
+   "record_id": "PMID:31676865",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31676865/",
+   "retrieved_at": "2026-11-17T02:06:21.244149+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31676865",
+    "title": "Genome-wide association analysis of venous thromboembolism identifies new risk loci and genetic overlap with arterial vascular disease.",
+    "journal": "Nat Genet",
+    "pubdate": "2019 Nov",
+    "sortpubdate": "2019-11-01"
+   }
+  },
+  "PMID:26908601": {
+   "record_id": "PMID:26908601",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26908601/",
+   "retrieved_at": "2026-11-17T02:06:21.244149+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "26908601",
+    "title": "Genome-wide association analysis of self-reported events in 6135 individuals and 252 827 controls identifies 8 loci associated with thrombosis.",
+    "journal": "Hum Mol Genet",
+    "pubdate": "2016 May 1",
+    "sortpubdate": "2016-05-01"
+   }
+  },
+  "PMID:31285632": {
+   "record_id": "PMID:31285632",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31285632/",
+   "retrieved_at": "2026-11-17T02:06:21.244149+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31285632",
+    "title": "Genome-wide association study of peripheral artery disease in the Million Veteran Program.",
+    "journal": "Nat Med",
+    "pubdate": "2019 Aug",
+    "sortpubdate": "2019-08-01"
+   }
+  },
+  "PMID:31015401": {
+   "record_id": "PMID:31015401",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31015401/",
+   "retrieved_at": "2026-11-17T02:06:21.244149+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31015401",
+    "title": "Genome-wide association study of medication-use and associated disease in the UK Biobank.",
+    "journal": "Nat Commun",
+    "pubdate": "2019 Apr 23",
+    "sortpubdate": "2019-04-23"
+   }
+  },
+  "PMID:26192919": {
+   "record_id": "PMID:26192919",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26192919/",
+   "retrieved_at": "2026-11-17T02:06:21.244149+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "26192919",
+    "title": "Association analyses identify 38 susceptibility loci for inflammatory bowel disease and highlight shared genetic risk across populations.",
+    "journal": "Nat Genet",
+    "pubdate": "2015 Sep",
+    "sortpubdate": "2015-09-01"
+   }
+  },
+  "LitVar2:rs6025": {
+   "record_id": "LitVar2:rs6025",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs6025%23%23/publications",
+   "retrieved_at": "2026-11-17T02:06:21.324324+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     33464320,
+     29392897,
+     9609227,
+     32546831,
+     41426969,
+     16244763,
+     19939360,
+     19210273,
+     16244770,
+     42024993,
+     37068846,
+     16015408,
+     27156530,
+     38051892,
+     22388798,
+     30195777,
+     36388934,
+     36569162,
+     32194638,
+     34791504,
+     16466010,
+     23724122,
+     36675675,
+     33857630,
+     37724255,
+     29081697,
+     29081698,
+     16138341,
+     16138347,
+     12615788,
+     16138355,
+     22675575,
+     35094650,
+     29851773,
+     23896193,
+     23429250,
+     26656900,
+     36233355,
+     21913742,
+     23298194,
+     29974678,
+     16973976,
+     15171737,
+     23675040,
+     29851809,
+     12165282,
+     23290018,
+     36323490,
+     35070117,
+     15630502
+    ],
+    "n_pmids": 1704
+   }
+  },
+  "PMID:21564075": {
+   "record_id": "PMID:21564075",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21564075/",
+   "retrieved_at": "2026-11-17T02:06:25.654960+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "21564075",
+    "title": "Resistance to activated protein C is a risk factor for pregnancy-related venous thrombosis in the absence of the F5 rs6025 (factor V Leiden) polymorphism.",
+    "journal": "Br J Haematol",
+    "pubdate": "2011 Jul",
+    "sortpubdate": "2011-07-01",
+    "abstract": "Resistance to activated protein C (aPC) is most commonly due to the F5 rs6025 (factor V Leiden) polymorphism, which increases the risk of venous thrombosis. In the present population-based study of 313 cases and 353 controls, we investigated whether reduced sensitivity to aPC was associated with a history of pregnancy-related venous thrombosis. Calibrated automated thrombography was used to determine the sensitivity to aPC, and normalized aPC sensitivity ratio (n-aPC-sr) was calculated. Pregnant women and women using oral contraceptives and/or anticoagulants were excluded due to the effect on the n-aPC-sr. In women without the F5 rs6025 polymorphism, free tissue factor pathway inhibitor (TFPI), free protein S and protein C activity were associated with n-aPC-sr. Unadjusted odds ratio for venous thrombosis for women with n-aPC-sr in the 4th quartile as compared with n-aPC-sr below the 4th quartile was 2\u00b74 (95% confidence interval 1\u00b77-3\u00b76). Adjusting for free protein S, free TFPI and age did not influence the odds ratios. Also in carriers of the F5 rs6025 polymorphism the risk for venous thrombosis was increased for women with higher n-aPC-sr. Our findings substantiate the importance of the aPC resistant phenotype as a risk factor for pregnancy-related venous thrombosis."
+   }
+  },
+  "PMID:31646966": {
+   "record_id": "PMID:31646966",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31646966/",
+   "retrieved_at": "2026-11-17T02:06:29.951134+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31646966",
+    "title": "MTHFR and F5 genetic variations have association with preeclampsia in Pakistani patients: a case control study.",
+    "journal": "BMC Med Genet",
+    "pubdate": "2019 Oct 23",
+    "sortpubdate": "2019-10-23",
+    "abstract": "To study the role of single nucleotide variants (SNVs) of genes related to preeclampsia in Pakistani pregnant women. After ethical approval and getting informed consent; 250 pregnant women were enrolled and equally divided into two groups (125 preeclamptic cases and 125 normotensive pregnant women). Demographic details and medical history were recorded, and 10\u2009ml blood sample was obtained for DNA extraction. The tetra-primer amplification refractory mutation system (ARMS) assays were developed for assessing the variants of three preeclampsia related genes; F5, MTHFR and VEGFA. An association of six SNVs; F5:c.1601G\u2009>\u2009A (rs6025), F5:c.6665A\u2009>\u2009G (rs6027), MTHFR: c.665C\u2009>\u2009T (rs1801133), MTHFR: c.1286A\u2009>\u2009C (rs1801131), VEGFA: c.-2055A\u2009>\u2009C (rs699947) and VEGFA: c.*237C\u2009>\u2009T (rs3025039) with preeclampsia was determined by using different genetic models. Genotyping of the SNVs revealed that patients with MTHFR:c.665C\u2009>\u2009T, have increased susceptibility to preeclampsia (CT versus CC/TT: OR\u2009=\u20092.79, 95% CI\u2009=\u20091.18-6.59; P*\u2009=\u20090.046 and CT/TT vs CC: OR\u2009=\u20092.91, 95% CI\u2009=\u20091.29-6.57; P*\u2009=\u20090.0497, in overdominant and dominant models, respectively), whereas F5:c.6665A\u2009>\u2009G, (A/G vs AA/GG: OR\u2009=\u20090.42, 95% CI\u2009=\u20090.21-0.84; P*\u2009=\u20090.038 in overdominant model) and MTHFR:c.1286A\u2009>\u2009C, (CC versus AA: OR\u2009=\u20090.36, 95% CI\u2009=\u20090.18-0.72; P*\u2009=\u20090.0392 in codominant model) have significantly decreased risk for preeclampsia. F5:c.1601G\u2009>\u2009A, VEGFA: c.-2055A\u2009>\u2009C and VEGFA: c.*237C\u2009>\u2009T variants revealed no relationship with the disease. This is the first case control study describing the protective role of F5:c.6665A\u2009>\u2009G against preeclampsia in any world population. In addition, the present study confirmed the association and role of MTHFR gene variations in the development of preeclampsia in Pakistani patients. Further genetic studies may be required to better understand the complex genetic mechanism of SNVs in preeclampsia related genes in pregnant women."
+   }
+  },
+  "PMID:28488549": {
+   "record_id": "PMID:28488549",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28488549/",
+   "retrieved_at": "2026-11-17T02:06:28.497374+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "28488549",
+    "title": "Prevalence of F5 1691G>A, F2 20210G>A, and MTHFR 677C>T polymorphisms in Bosnian women with pregnancy loss.",
+    "journal": "Bosn J Basic Med Sci",
+    "pubdate": "2017 Nov 20",
+    "sortpubdate": "2017-11-20",
+    "abstract": "The relationship between genetic risk factors of thrombophilia and pregnancy loss (PL) is being discussed. The focus has been on F5 1691G>A, F2 20210G>A, and MTHFR 677C>T polymorphisms that may predispose women to microthrombosis during the stages of embryo implantation and placentation. Although, the frequencies of these polymorphisms were reported in different populations, such studies have not yet been performed in Bosnian population. In this study, we determined the prevalence of F5 G>A (rs6025), F2 G>A (rs1799963) and MTHFR C>T (rs1801133) polymorphisms in Bosnian women. A total of 154 women with PL, mean age 33 (\u00b15.4) years, were enrolled in the study. As a control group, 154 mothers [mean age 31.4 (\u00b16.7) years] with at least one live-born child were included. We used real-time polymerase chain reaction (PCR) to determine the frequencies of F5 G>A and F2 G>A genotypes, and PCR-restriction fragment length polymorphism (RFLP) for analyzing MTHFR C>T genotypes. The frequency of heterozygotes for F5 and F2 was significantly higher in women with venous thrombosis (VT) compared to women without VT (p = 0.047 and p = 0.001, respectively). There was no significant difference in the distribution of MTHFR genotypes and alleles between these two groups. In addition, we observed no significant differences in the genotype and allele frequencies between the group with PL and control group, for all investigated polymorphisms. The allele frequencies for 1691A (F5), 20210A (F2), and 677T (MTHFR) reported in this study are consistent with the data obtained for other European countries, however, we were not able to confirm the association between the three polymorphisms and PL in Bosnian women."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 29,
+  "n_claims_fully_verified": 29,
+  "n_uncited_claims": 0,
+  "n_citations": 74,
+  "n_citations_valid": 74,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 51,
+  "n_shown_values_in_text": 51,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 29,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

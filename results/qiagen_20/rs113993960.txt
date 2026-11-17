@@ -1,0 +1,49 @@
+VARIANT DOSSIER: rs113993960
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs113993960 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs113993960]
+- Earlier identifiers merged into rs113993960: rs199826652. [dbSNP build 157 rs113993960]
+- dbSNP records rs113993960 as variant type 'delins' on NC_000007.14 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs113993960]
+- Alternate allele 1: NC_000007.14:g.117559592_117559594del, a deletion (TCTT>T in VCF form). [dbSNP build 157 rs113993960]
+- Alternate allele 2: NC_000007.14:g.117559592_117559594dup, a insertion or duplication (T>TCTT in VCF form). [dbSNP build 157 rs113993960]
+
+FUNCTION
+- For alternate allele 1 (TCTT>T), Ensembl VEP predicts inframe_deletion in CFTR (ENST00000003084.11:c.1521_1523del; ENSP00000003084.6:p.Phe508del), impact MODERATE. [Ensembl VEP rs113993960]
+- For alternate allele 2 (T>TCTT), Ensembl VEP predicts inframe_insertion in CFTR (ENST00000003084.11:c.1523_1524insCTT; ENSP00000003084.6:p.Phe508dup), impact MODERATE. [Ensembl VEP rs113993960]
+- Ensembl classifies the variant as 'indel' with allele string TCTT/T/TCTTCTT. [Ensembl VEP rs113993960]
+
+FREQUENCY
+- Alternate allele 1 (TCTT>T) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 7-117559591-TCTT-T (alternate allele 1). [gnomAD v4.1]
+- Alternate allele 2 (T>TCTT) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs113993960. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 7-117559591-T-TCTT (alternate allele 2). [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_000492.3(CFTR):c.1521_1523del (p.Phe508del) (alternate allele 1) with germline classification 'Pathogenic' for: Cystic fibrosis; BRONCHIECTASIS WITH OR WITHOUT ELEVATED SWEAT CHLORIDE 1, MODIFIER OF; Hereditary pancreatitis; Duodenal stenosis; and 9 more; review status 'practice guideline', 91 submitter(s), allele origin 'de novo;germline;inherited;maternal;paternal;unknown'. [ClinVar VCV000007105 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic; 2019-01: Pathogenic; 2020-01: Pathogenic; 2026-11: Pathogenic. The classification did not change over these releases. [ClinVar VCV000007105 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 95 'Pathogenic', 4 'not provided', 2 'drug response', 2 'Likely pathogenic', 1 'risk factor'. [ClinVar VCV000007105 (2026-11 release)]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs113993960]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 22 association record(s) for rs113993960. [GWAS Catalog rs113993960]
+- Genome-wide significant association with cystic fibrosis (p = 4e-95, study GCST90837488). [GWAS Catalog GCST90837488; PMID:41298473]
+- Genome-wide significant association with bacterial pneumonia (p = 1e-46, study GCST90837499). [GWAS Catalog GCST90837499; PMID:41298473]
+- Genome-wide significant association with bronchiectasis (p = 1e-41, study GCST90837485). [GWAS Catalog GCST90837485; PMID:41298473]
+- Genome-wide significant association with pancreas disorder (p = 3e-32, study GCST90837489). [GWAS Catalog GCST90837489; PMID:41298473]
+- Genome-wide significant association with diabetes mellitus (p = 6e-23, study GCST90837501). [GWAS Catalog GCST90837501; PMID:41298473]
+- Genome-wide significant association with aspergillosis (p = 8e-23, study GCST90837483). [GWAS Catalog GCST90837483; PMID:41298473]
+
+LITERATURE
+- LitVar2 links 6425 PubMed articles to rs113993960. [LitVar2 rs113993960]
+- Linked article: "Pulmonary Ionocytes Regulate CFTR-Mediated Chloride Transport in Human iPSC-Derived Epithelium" (Am J Respir Cell Mol Biol, 2026). [PMID:43023448]
+- Linked article: "The PDE4 inhibitor tanimilast (CHF6001) activates CFTR function in native and in F508del-expressing airway epithelial cells" (Eur J Pharmacol, 2026). [PMID:42988245]
+- Linked article: "Offering prenatal CFTR modulators to prevent cystic fibrosis-related organ damage in utero" (Am J Obstet Gynecol MFM, 2026). [PMID:42977085]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs113993960 in CFTR is best described as: germline disease variant. ClinVar links it to Cystic fibrosis. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict). [ClinVar VCV000007105 (2026-11 release); GWAS Catalog rs113993960; LitVar2 rs113993960]

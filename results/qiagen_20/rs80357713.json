@@ -1,0 +1,1695 @@
+{
+ "rsid_query": "rs80357713",
+ "rsid_current": "rs80357783",
+ "as_of": "latest",
+ "generated_at": "2026-11-17T02:13:55.345492+00:00",
+ "genes": {
+  "vep": [
+   "BRCA1"
+  ],
+  "dbsnp": [
+   "BRCA1",
+   "NBR2"
+  ],
+  "clinvar": [
+   "BRCA1"
+  ],
+  "gwas": []
+ },
+ "variant_type": "delins",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000017.11:g.43124031dup",
+   "spdi_deleted": "T",
+   "spdi_inserted": "TT",
+   "chrom": "17",
+   "pos": 43124031,
+   "ref": "T",
+   "alt": "TT",
+   "type": "insertion or duplication",
+   "gnomad_v4_id": "17-43124031-T-TT",
+   "vep": {
+    "gene_symbol": "BRCA1",
+    "consequence_terms": [
+     "frameshift_variant"
+    ],
+    "hgvsc": "ENST00000357654.9:c.66dup",
+    "hgvsp": "ENSP00000350283.3:p.Glu23ArgfsTer18",
+    "impact": "HIGH",
+    "mane_select": "NM_007294.4"
+   },
+   "frequency": {
+    "gnomad_v2": null,
+    "gnomad_v4": null
+   }
+  }
+ ],
+ "clinvar": [
+  {
+   "variation_id": "37691",
+   "allele_index": 1,
+   "name": "NM_007294.4(BRCA1):c.66dup (p.Glu23fs)",
+   "classification": "Pathogenic",
+   "review_status": "reviewed by expert panel",
+   "conditions": [
+    "Breast-ovarian cancer, familial, susceptibility to, 1",
+    "Hereditary breast ovarian cancer syndrome",
+    "Hereditary cancer-predisposing syndrome",
+    "Breast neoplasm",
+    "Ovarian neoplasm",
+    "Familial cancer of breast",
+    "Breast carcinoma",
+    "BRCA1-related cancer predisposition",
+    "BRCA1-related disorder",
+    "Pancreatic cancer, susceptibility to, 4",
+    "Fanconi anemia, complementation group S"
+   ],
+   "origin": "germline;unknown",
+   "n_submitters": "45",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "Pathogenic",
+     "review_status": "reviewed by expert panel",
+     "n_submitters": "13",
+     "last_evaluated": "Aug 08, 2017",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "Pathogenic",
+     "review_status": "reviewed by expert panel",
+     "n_submitters": "16",
+     "last_evaluated": "Jul 02, 2018",
+     "release_date": "2019-01-03"
+    },
+    {
+     "snapshot": "2020-01",
+     "clnsig": "Pathogenic",
+     "review_status": "reviewed by expert panel",
+     "n_submitters": "20",
+     "last_evaluated": "Jan 30, 2019",
+     "release_date": "2020-01-02"
+    },
+    {
+     "snapshot": "2026-11",
+     "clnsig": "Pathogenic",
+     "review_status": "reviewed by expert panel",
+     "n_submitters": "45",
+     "last_evaluated": "Apr 22, 2016",
+     "release_date": "2026-11-16"
+    }
+   ],
+   "submission_classes": {
+    "Pathogenic": 44,
+    "Uncertain significance": 1
+   }
+  }
+ ],
+ "clinvar_release": "2026-11",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 0,
+  "n_associations_in_scope": 0,
+  "n_genome_wide_significant": 0,
+  "n_studies": 0,
+  "mapped_genes": [],
+  "top_traits": [],
+  "n_distinct_traits_significant": 0,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 72,
+  "n_in_scope": 72,
+  "pmids_in_scope": [
+   "41440233",
+   "41327099",
+   "40932605",
+   "40489436",
+   "39414907",
+   "39300540",
+   "39061909",
+   "38398132",
+   "37400873",
+   "37445679",
+   "36439508",
+   "36922933",
+   "35986351",
+   "35464868",
+   "35411189",
+   "35409996",
+   "33754277",
+   "35216584",
+   "34413315",
+   "34287479",
+   "34356066",
+   "34097676",
+   "33643918",
+   "32824581",
+   "32778078",
+   "32733560",
+   "32453342",
+   "32211327",
+   "31742824",
+   "32025337",
+   "31511888",
+   "31658756",
+   "30787465",
+   "31454914",
+   "30702160",
+   "31141992",
+   "30982232",
+   "30263092",
+   "35693198",
+   "29907814",
+   "29899868",
+   "29785135",
+   "29854292",
+   "29338072",
+   "29346284",
+   "28392550",
+   "30051098",
+   "28569743",
+   "28961279",
+   "28279176"
+  ],
+  "top": [
+   "41440233",
+   "39300540",
+   "39061909"
+  ]
+ },
+ "conflicts": [
+  {
+   "type": "conflicting_submitters",
+   "variation_id": "37691",
+   "classes": {
+    "PLP": 44,
+    "VUS": 1
+   },
+   "aggregate_conflict": false
+  }
+ ],
+ "bottom_line": {
+  "category": "germline disease variant",
+  "confidence": "high",
+  "rationale": "multi-submitter or expert-reviewed ClinVar assertion without submitter conflict",
+  "text": "Bottom line: rs80357783 in BRCA1 is best described as: germline disease variant. ClinVar links it to Breast-ovarian cancer, familial, susceptibility to, 1. Sources disagree on some points (see conflicts). Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict)."
+ },
+ "notes": [],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs80357713 is a retired dbSNP identifier that was merged into rs80357783; all evidence below is for rs80357783.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs80357713",
+     "path": "merged_into.0",
+     "value": "80357783",
+     "label": "dbSNP rs80357713",
+     "mode": "eq",
+     "shown": "rs80357783",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs80357783: rs77944974, rs80357713, rs386626651.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs80357783",
+     "path": "dbsnp1_merges.0",
+     "value": "77944974",
+     "label": "dbSNP build 157 rs80357783",
+     "mode": "eq",
+     "shown": "rs77944974",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs80357783",
+     "path": "dbsnp1_merges.1",
+     "value": "80357713",
+     "label": "dbSNP build 157 rs80357783",
+     "mode": "eq",
+     "shown": "rs80357713",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs80357783",
+     "path": "dbsnp1_merges.2",
+     "value": "386626651",
+     "label": "dbSNP build 157 rs80357783",
+     "mode": "eq",
+     "shown": "rs386626651",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs80357783 as variant type 'delins' on NC_000017.11 (GRCh38) with 1 alternate allele.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs80357783",
+     "path": "variant_type",
+     "value": "delins",
+     "label": "dbSNP build 157 rs80357783",
+     "mode": "eq",
+     "shown": "delins",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs80357783",
+     "path": "seq_id",
+     "value": "NC_000017.11",
+     "label": "dbSNP build 157 rs80357783",
+     "mode": "eq",
+     "shown": "NC_000017.11",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000017.11:g.43124031dup, a insertion or duplication (T>TT in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs80357783",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000017.11:g.43124031dup",
+     "label": "dbSNP build 157 rs80357783",
+     "mode": "eq",
+     "shown": "NC_000017.11:g.43124031dup",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (T>TT), Ensembl VEP predicts frameshift_variant in BRCA1 (ENST00000357654.9:c.66dup; ENSP00000350283.3:p.Glu23ArgfsTer18), impact HIGH.",
+   "citations": [
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "frameshift_variant",
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "frameshift_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "BRCA1",
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "BRCA1",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000357654.9:c.66dup",
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "ENST00000357654.9:c.66dup",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "transcript_consequences.0.hgvsp",
+     "value": "ENSP00000350283.3:p.Glu23ArgfsTer18",
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "ENSP00000350283.3:p.Glu23ArgfsTer18",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "transcript_consequences.0.impact",
+     "value": "HIGH",
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "HIGH",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'indel' with allele string -/T.",
+   "citations": [
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "variant_class",
+     "value": "indel",
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "indel",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "allele_string",
+     "value": "-/T",
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "-/T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 1 (T>TT) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs80357783.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs80357783",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "gnomAD v4.1 has no record for 17-43124031-T-TT (alternate allele 1).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:17-43124031-T-TT",
+     "path": "variant",
+     "value": null,
+     "label": "gnomAD v4.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_007294.4(BRCA1):c.66dup (p.Glu23fs) (alternate allele 1) with germline classification 'Pathogenic' for: Breast-ovarian cancer, familial, susceptibility to, 1; Hereditary breast ovarian cancer syndrome; Hereditary cancer-predisposing syndrome; Breast neoplasm; and 7 more; review status 'reviewed by expert panel', 45 submitter(s), allele origin 'germline;unknown'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "review_status",
+     "value": "reviewed by expert panel",
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "eq",
+     "shown": "reviewed by expert panel",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "name",
+     "value": "NM_007294.4(BRCA1):c.66dup (p.Glu23fs)",
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "eq",
+     "shown": "NM_007294.4(BRCA1):c.66dup (p.Glu23fs)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "n_submitters",
+     "value": "45",
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "eq",
+     "shown": "45",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "phenotype_list",
+     "value": "Breast-ovarian cancer, familial, susceptibility to, 1",
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Breast-ovarian cancer, familial, susceptibility to, 1",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "phenotype_list",
+     "value": "Hereditary breast ovarian cancer syndrome",
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Hereditary breast ovarian cancer syndrome",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "phenotype_list",
+     "value": "Hereditary cancer-predisposing syndrome",
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Hereditary cancer-predisposing syndrome",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "phenotype_list",
+     "value": "Breast neoplasm",
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Breast neoplasm",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "origin",
+     "value": "germline;unknown",
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "eq",
+     "shown": "germline;unknown",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic; 2019-01: Pathogenic; 2020-01: Pathogenic; 2026-11: Pathogenic. The classification did not change over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "history.0.clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "history.1.clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "history.2.clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "history.3.clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 44 'Pathogenic', 1 'Uncertain significance'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "",
+     "value": 44,
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "44",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Pathogenic"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "",
+     "value": 1,
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "1",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Uncertain significance"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Somatic evidence",
+   "text": "No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant.",
+   "citations": [
+    {
+     "record_id": "VEP:rs80357783",
+     "path": "cosmic_ids",
+     "value": [],
+     "label": "Ensembl VEP rs80357783",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists no association for rs80357783.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs80357783",
+     "path": "associations",
+     "value": [],
+     "label": "GWAS Catalog rs80357783",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 72 PubMed articles to rs80357783.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs80357783",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs80357783",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"The Risk of Breast Cancer According to Mutation Type and Position in Carriers of a Pathogenic Variant in BRCA1\" (Curr Oncol, 2025).",
+   "citations": [
+    {
+     "record_id": "PMID:41440233",
+     "path": "title",
+     "value": "The Risk of Breast Cancer According to Mutation Type and Position in Carriers of a Pathogenic Variant in BRCA1.",
+     "label": "PMID:41440233",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:41440233",
+     "path": "journal",
+     "value": "Curr Oncol",
+     "label": "PMID:41440233",
+     "mode": "eq",
+     "shown": "Curr Oncol",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Blood molybdenum level as a marker of cancer risk on BRCA1 carriers\" (Hered Cancer Clin Pract, 2024).",
+   "citations": [
+    {
+     "record_id": "PMID:39300540",
+     "path": "title",
+     "value": "Blood molybdenum level as a marker of cancer risk on BRCA1 carriers.",
+     "label": "PMID:39300540",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:39300540",
+     "path": "journal",
+     "value": "Hered Cancer Clin Pract",
+     "label": "PMID:39300540",
+     "mode": "eq",
+     "shown": "Hered Cancer Clin Pract",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Antioxidant Properties of Zinc and Copper-Blood Zinc-to Copper-Ratio as a Marker of Cancer Risk BRCA1 Mutation Carriers\" (Antioxidants (Basel), 2024).",
+   "citations": [
+    {
+     "record_id": "PMID:39061909",
+     "path": "title",
+     "value": "Antioxidant Properties of Zinc and Copper-Blood Zinc-to Copper-Ratio as a Marker of Cancer Risk BRCA1 Mutation Carriers.",
+     "label": "PMID:39061909",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:39061909",
+     "path": "journal",
+     "value": "Antioxidants (Basel)",
+     "label": "PMID:39061909",
+     "mode": "eq",
+     "shown": "Antioxidants (Basel)",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Conflicts and caveats",
+   "text": "Submitter conflict: ClinVar submissions for NM_007294.4(BRCA1):c.66dup (p.Glu23fs) disagree (44 pathogenic or likely pathogenic, 1 uncertain significance); the aggregate classification is 'Pathogenic'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000037691",
+     "mode": "eq",
+     "shown": "Pathogenic",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "submissions",
+     "value": null,
+     "label": "ClinVar VCV000037691",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs80357783 in BRCA1 is best described as: germline disease variant. ClinVar links it to Breast-ovarian cancer, familial, susceptibility to, 1. Sources disagree on some points (see conflicts). Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict).",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000037691@2026-11",
+     "path": "clnsig",
+     "value": "Pathogenic",
+     "label": "ClinVar VCV000037691 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs80357783",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs80357783",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs80357783",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs80357783",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs80357713": {
+   "record_id": "dbSNP:rs80357713",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 136",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/80357713",
+   "retrieved_at": "2026-11-17T02:09:31.646300+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "80357713",
+    "last_update_build_id": "136",
+    "dbsnp1_merges": [
+     "77944974"
+    ],
+    "merged_into": [
+     "80357783"
+    ],
+    "citations": []
+   }
+  },
+  "dbSNP:rs80357783": {
+   "record_id": "dbSNP:rs80357783",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/80357783",
+   "retrieved_at": "2026-11-17T02:09:32.142645+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "80357783",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "77944974",
+     "80357713",
+     "386626651"
+    ],
+    "merged_into": [],
+    "citations": [
+     7550349,
+     7611277,
+     7837387,
+     7894492,
+     8531968,
+     8533757,
+     8595420,
+     8642955,
+     8651293,
+     8764110,
+     8807330,
+     9042909,
+     9145676,
+     9921907,
+     10739756,
+     11179017,
+     11352856,
+     11896106,
+     12473589,
+     15024741,
+     15383404,
+     15617999,
+     15994883,
+     16168118,
+     16683254,
+     16941470,
+     16998791,
+     17307836,
+     17688236,
+     18034184,
+     18594935,
+     18627636,
+     19147582,
+     19329713,
+     19906413,
+     20104584,
+     20301425,
+     20651350,
+     20711688,
+     20950396,
+     21203900,
+     21324516,
+     21503673,
+     21559243,
+     21643751,
+     22006311,
+     22009639,
+     22274685,
+     22430266,
+     22516946,
+     22535016,
+     22703879,
+     22763381,
+     23086583,
+     23199084,
+     23233716,
+     23531862,
+     23683081,
+     23788959,
+     23855721,
+     23867111,
+     23941904,
+     24033266,
+     24764757,
+     25741868,
+     26295337,
+     26467025,
+     26845104,
+     27257965,
+     33643918,
+     35393538,
+     35693198
+    ],
+    "variant_type": "delins",
+    "seq_id": "NC_000017.11",
+    "alleles": [
+     {
+      "hgvs": "NC_000017.11:g.43124031=",
+      "position0": 43124030,
+      "deleted": "T",
+      "inserted": "T"
+     },
+     {
+      "hgvs": "NC_000017.11:g.43124031dup",
+      "position0": 43124030,
+      "deleted": "T",
+      "inserted": "TT"
+     }
+    ],
+    "genes": [
+     "BRCA1",
+     "NBR2"
+    ]
+   }
+  },
+  "VEP:rs80357783": {
+   "record_id": "VEP:rs80357783",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs80357783",
+   "retrieved_at": "2026-11-17T02:09:33.034624+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs80357783",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "17",
+    "start": 43124032,
+    "end": 43124031,
+    "allele_string": "-/T",
+    "variant_class": "indel",
+    "most_severe_consequence": "frameshift_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "T",
+      "gene_symbol": "BRCA1",
+      "gene_id": "ENSG00000012048",
+      "transcript_id": "ENST00000357654",
+      "mane_select": "NM_007294.4",
+      "consequence_terms": [
+       "frameshift_variant"
+      ],
+      "hgvsc": "ENST00000357654.9:c.66dup",
+      "hgvsp": "ENSP00000350283.3:p.Glu23ArgfsTer18",
+      "impact": "HIGH",
+      "amino_acids": "L/LX",
+      "protein_start": 22,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [],
+    "colocated_somatic": false
+   }
+  },
+  "gnomAD-v2.1.1:rs80357783": {
+   "record_id": "gnomAD-v2.1.1:rs80357783",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:09:33.515331+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr17:g.41276048dup",
+      "_score": 17.140837,
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "TT",
+       "ref": "T",
+       "vartype": "delins"
+      }
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:17-43124031-T-TT": {
+   "record_id": "gnomAD-v4.1:17-43124031-T-TT",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:09:33.589359+00:00",
+   "status": 200,
+   "data": {
+    "variant": null,
+    "errors": [
+     {
+      "message": "Variant not found"
+     }
+    ]
+   }
+  },
+  "ClinVar:VCV000037691@2026-11": {
+   "record_id": "ClinVar:VCV000037691@2026-11",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/37691/",
+   "retrieved_at": "2026-11-17T02:13:55.338137+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "46247",
+    "type": "Duplication",
+    "name": "NM_007294.4(BRCA1):c.66dup (p.Glu23fs)",
+    "gene_symbol": "BRCA1",
+    "clnsig": "Pathogenic",
+    "last_evaluated": "Apr 22, 2016",
+    "rcv": "RCV000031272|RCV000049087|RCV000163427|RCV000240681|RCV000478017|RCV000785198|RCV000778174|RCV001554246|RCV004802995|RCV004758615|RCV005007902",
+    "phenotype_list": "Breast-ovarian cancer, familial, susceptibility to, 1|Hereditary breast ovarian cancer syndrome|Hereditary cancer-predisposing syndrome|Breast neoplasm|not provided|Ovarian neoplasm|Familial cancer of breast|Breast carcinoma|BRCA1-related cancer predisposition|BRCA1-related disorder|Breast-ovarian cancer, familial, susceptibility to, 1;Pancreatic cancer, susceptibility to, 4;Fanconi anemia, complementation group S",
+    "origin": "germline;unknown",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "17",
+    "start": "43124030",
+    "ref": "na",
+    "alt": "na",
+    "review_status": "reviewed by expert panel",
+    "n_submitters": "45",
+    "variation_id": "37691",
+    "ref_vcf": "C",
+    "alt_vcf": "CT",
+    "pos_vcf": "43124030",
+    "somatic_clinical_impact": "-",
+    "oncogenicity": "-",
+    "rsid": "rs80357783",
+    "submissions": [
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 02, 2020",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "BRCAlab, Lund University",
+      "scv": "SCV004244205.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Aug 08, 2021",
+      "reported_phenotype": "C0678222:Breast carcinoma",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:1",
+      "submitter": "Medical Genetics Laboratory, Umraniye Training and Research Hospital, University of Health Sciences",
+      "scv": "SCV001774819.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 10, 2023",
+      "reported_phenotype": "C0027672:Hereditary cancer-predisposing syndrome",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Color Diagnostics, LLC DBA Color Health",
+      "scv": "SCV000911363.6",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jun 14, 2016",
+      "reported_phenotype": "C0677776:Hereditary breast ovarian cancer syndrome",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Women's Health and Genetics/Laboratory Corporation of America, LabCorp",
+      "scv": "SCV000699283.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Molecular Endocrinology Laboratory, Christian Medical College",
+      "scv": "SCV002003984.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Aug 05, 2024",
+      "reported_phenotype": "na:BRCA1-related disorder",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "PreventionGenetics, part of Exact Sciences",
+      "scv": "SCV005363303.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Sep 03, 2024",
+      "reported_phenotype": "CN377757:BRCA1-related cancer predisposition",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:1",
+      "submitter": "All of Us Research Program, National Institutes of Health",
+      "scv": "SCV005424226.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jul 01, 2015",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:12",
+      "submitter": "Department of Medical Genetics, Oslo University Hospital",
+      "scv": "SCV000564309.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Diagnostic Laboratory, Department of Genetics, University Medical Center Groningen",
+      "scv": "SCV001741091.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 01, 2015",
+      "reported_phenotype": "C1458155:Breast neoplasm",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "research",
+      "origin_counts": "germline:1",
+      "submitter": "Laboratory of Molecular Diagnosis of Cancer, West China Hospital, Sichuan University",
+      "scv": "SCV000265852.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Aug 20, 2023",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:1",
+      "submitter": "KCCC/NGS Laboratory, Kuwait Cancer Control Center",
+      "scv": "SCV004027618.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Dec 10, 2025",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Dasa",
+      "scv": "SCV007664198.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Sep 05, 2014",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:1",
+      "submitter": "Eurofins Ntd Llc (ga)",
+      "scv": "SCV000227401.5",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 16, 2021",
+      "reported_phenotype": "C0677776:Hereditary breast ovarian cancer syndrome",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:3",
+      "submitter": "National Health Laboratory Service, Universitas Academic Hospital and University of the Free State",
+      "scv": "SCV002026050.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jul 31, 2025",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Institute of Immunology and Genetics Kaiserslautern",
+      "scv": "SCV006554532.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Apr 16, 2024",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1;C3280442:Pancreatic cancer, susceptibility to, 4;C4554406:Fanconi anemia, complementation group S",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Fulgent Genetics, Fulgent Genetics",
+      "scv": "SCV005640307.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jul 26, 2016",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Counsyl",
+      "scv": "SCV000488962.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Clinical Genetics Laboratory, Department of Pathology, Netherlands Cancer Institute",
+      "scv": "SCV001906189.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 31, 2014",
+      "reported_phenotype": "C0677776:Hereditary breast ovarian cancer syndrome",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
+      "origin_counts": "germline:na",
+      "submitter": "Research Molecular Genetics Laboratory, Women's College Hospital, University of Toronto",
+      "scv": "SCV000587005.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 15, 2022",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Revvity Omics, Revvity",
+      "scv": "SCV003809723.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 03, 2026",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "GeneDx",
+      "scv": "SCV000564708.8",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:3",
+      "submitter": "Genesis Genomics",
+      "scv": "SCV007592291.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jul 17, 2013",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:7",
+      "submitter": "Sharing Clinical Reports Project (SCRP)",
+      "scv": "SCV000053877.4",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 04, 2025",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital",
+      "scv": "SCV005872206.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 30, 2019",
+      "reported_phenotype": "C0346153:Familial cancer of breast",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "research",
+      "origin_counts": "germline:1",
+      "submitter": "Clinical and Functional Genomics Group, A.C.Camargo Cancer Center",
+      "scv": "SCV000914333.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0346153:Familial cancer of breast",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "Center for Precision Medicine, Meizhou People's Hospital",
+      "scv": "SCV002520918.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Dec 01, 2018",
+      "reported_phenotype": "C0919267:Ovarian neoplasm",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
+      "origin_counts": "germline:na",
+      "submitter": "German Consortium for Hereditary Breast and Ovarian Cancer, University Hospital Cologne",
+      "scv": "SCV000923766.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Clinical Genetics DNA and cytogenetics Diagnostics Lab, Erasmus MC, Erasmus Medical Center",
+      "scv": "SCV001972604.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 16, 2018",
+      "reported_phenotype": "C0346153:Familial cancer of breast",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Bioscientia Institut fuer Medizinische Diagnostik GmbH, Sonic Healthcare",
+      "scv": "SCV000925806.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 01, 2020",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "GeneKor MSA",
+      "scv": "SCV000693501.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Apr 02, 2020",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Department of Molecular Diagnostics, Institute of Oncology Ljubljana",
+      "scv": "SCV001499756.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "May 27, 2022",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Clinical Genetics Laboratory, Skane University Hospital Lund",
+      "scv": "SCV005199764.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Apr 22, 2016",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1",
+      "review_status": "reviewed by expert panel",
+      "collection_method": "curation",
+      "origin_counts": "germline:na",
+      "submitter": "Evidence-based Network for the Interpretation of Germline Mutant Alleles (ENIGMA)",
+      "scv": "SCV000282347.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jul 11, 2023",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Quest Diagnostics Nichols Institute San Juan Capistrano",
+      "scv": "SCV000296291.6",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Genome Diagnostics Laboratory, University Medical Center Utrecht",
+      "scv": "SCV001931017.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Uncertain significance",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:1",
+      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
+      "scv": "SCV001552235.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Aug 30, 2024",
+      "reported_phenotype": "C0027672:Hereditary cancer-predisposing syndrome",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Ambry Genetics",
+      "scv": "SCV000213973.8",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 08, 2023",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Baylor Genetics",
+      "scv": "SCV004215028.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 03, 2026",
+      "reported_phenotype": "C0677776:Hereditary breast ovarian cancer syndrome",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
+      "scv": "SCV000077100.15",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "May 29, 2002",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:32",
+      "submitter": "Breast Cancer Information Core (BIC) (BRCA1)",
+      "scv": "SCV000144170.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 13, 2023",
+      "reported_phenotype": "C0027672:Hereditary cancer-predisposing syndrome",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
+      "scv": "SCV007449507.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 02, 2015",
+      "reported_phenotype": "C2676676:Breast-ovarian cancer, familial, susceptibility to, 1",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:75",
+      "submitter": "Consortium of Investigators of Modifiers of BRCA1/2 (CIMBA), c/o University of Cambridge",
+      "scv": "SCV000326376.4",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jul 02, 2018",
+      "reported_phenotype": "C0677776:Hereditary breast ovarian cancer syndrome",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Mendelics",
+      "scv": "SCV000839318.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Laboratory of Diagnostic Genome Analysis, Leiden University Medical Center (LUMC)",
+      "scv": "SCV001797997.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "37691",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Dec 20, 2021",
+      "reported_phenotype": "C0027672:Hereditary cancer-predisposing syndrome",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "curation",
+      "origin_counts": "germline:na",
+      "submitter": "Sema4, Sema4",
+      "scv": "SCV002537883.1",
+      "snapshot": "2026-11"
+     }
+    ],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "Pathogenic",
+      "review_status": "reviewed by expert panel",
+      "n_submitters": "13",
+      "last_evaluated": "Aug 08, 2017",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "Pathogenic",
+      "review_status": "reviewed by expert panel",
+      "n_submitters": "16",
+      "last_evaluated": "Jul 02, 2018",
+      "release_date": "2019-01-03"
+     },
+     {
+      "snapshot": "2020-01",
+      "clnsig": "Pathogenic",
+      "review_status": "reviewed by expert panel",
+      "n_submitters": "20",
+      "last_evaluated": "Jan 30, 2019",
+      "release_date": "2020-01-02"
+     },
+     {
+      "snapshot": "2026-11",
+      "clnsig": "Pathogenic",
+      "review_status": "reviewed by expert panel",
+      "n_submitters": "45",
+      "last_evaluated": "Apr 22, 2016",
+      "release_date": "2026-11-16"
+     }
+    ]
+   }
+  },
+  "GWAS:rs80357783": {
+   "record_id": "GWAS:rs80357783",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:09:34.312258+00:00",
+   "status": 200,
+   "data": {
+    "associations": []
+   }
+  },
+  "LitVar2:rs80357783": {
+   "record_id": "LitVar2:rs80357783",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs80357783%23%23/publications",
+   "retrieved_at": "2026-11-17T02:09:34.371696+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     26564481,
+     34413315,
+     31658756,
+     32824581,
+     23961350,
+     32211327,
+     28279176,
+     30787465,
+     26221963,
+     34097676,
+     22923021,
+     35693198,
+     28569743,
+     33643918,
+     26848529,
+     28947987,
+     39061909,
+     27068824,
+     30051098,
+     27641504,
+     27081505,
+     35464868,
+     33754277,
+     26295337,
+     37400873,
+     24950059,
+     25256238,
+     35986351,
+     29785135,
+     37445679,
+     30263092,
+     36922933,
+     28127413,
+     27060149,
+     38398132,
+     41327099,
+     29263802,
+     39300540,
+     31454914,
+     26543556,
+     27533253,
+     35216584,
+     26315209,
+     35409996,
+     31511888,
+     30702160,
+     29854292,
+     36439508,
+     29338072,
+     30982232
+    ],
+    "n_pmids": 72
+   }
+  },
+  "PMID:41440233": {
+   "record_id": "PMID:41440233",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41440233/",
+   "retrieved_at": "2026-11-17T02:09:35.113768+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "41440233",
+    "title": "The Risk of Breast Cancer According to Mutation Type and Position in Carriers of a Pathogenic Variant in BRCA1.",
+    "journal": "Curr Oncol",
+    "pubdate": "2025 Dec 15",
+    "sortpubdate": "2025-12-15",
+    "abstract": "Carriers of a pathogenic variant (PV) in BRCA1 face a high risk of breast cancer. This study estimated the risk of developing breast cancer according to mutation type and location. BRCA1 carriers with no personal history of breast cancer or bilateral mastectomy were included. Detailed information on clinical and family history was collected by questionnaire. Survival analysis was used to estimate 15-year cumulative risk according to PV type and location. A total of 3677 BRCA1 carriers were followed for a mean of 7.2 years (range 0.1-15.0 years); 481 incident breast cancers were documented. Overall, the 15-year cumulative incidence was 25%. Risk estimates varied by exon, ranging from 9% (exon 21) to 19% (exon 12) to 36% (exon 15); however, strata were small. Carriers of four founder mutations common in Eastern Europe (c.5263_5264insC, c.181T > G, c.66_67delAG and c.4034delA) experienced a lower-than-expected cancer risk (15.9-24.4%) compared to other PVs (28.8%) (p = 0.02). Although our data suggests some variability in penetrance based on specific BRCA1 PV, this was based on a large number of founder mutations. Breast cancer management strategies should continue to be based on comprehensive risk assessment."
+   }
+  },
+  "PMID:39300540": {
+   "record_id": "PMID:39300540",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39300540/",
+   "retrieved_at": "2026-11-17T02:09:35.113768+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "39300540",
+    "title": "Blood molybdenum level as a marker of cancer risk on BRCA1 carriers.",
+    "journal": "Hered Cancer Clin Pract",
+    "pubdate": "2024 Sep 19",
+    "sortpubdate": "2024-09-19",
+    "abstract": "To investigate whether Molybdenum blood level is a marker of cancer risk on BRCA1 carriers. A prospective cohort study was conducted among 989 initially unaffected women with a BRCA1 mutation. Blood samples were collected to measure molybdenum levels, and participants were followed for an average of 7.5 years. Cox proportional hazards models were used to assess the association between blood molybdenum levels and cancer incidence, adjusting for potential confounders. High blood molybdenum levels (>\u20090.70\u00a0\u00b5g/L) were significantly associated with an increased risk of developing ovarian cancer (HR\u2009=\u20095.55; 95%CI: 1.59-19.4; p\u2009=\u20090.007) and any cancer (HR\u2009=\u20091.74; 95%CI: 1.17-2.61; p\u2009=\u20090.007) but not breast cancer (HR\u2009=\u20091.46, CI\u2009=\u20090.91-2.33; p\u2009=\u20090.12). The cumulative incidence of ovarian cancer at ten years was 1.2% for the lowest molybdenum tertile, 4.2% for the middle tertile, and 8.7% for the highest tertile. Elevated blood molybdenum levels are associated with an increased risk of ovarian cancer on BRCA1 mutation carriers. Lowering molybdenum levels may potentially reduce cancer risk in this population, and high molybdenum levels could serve as a marker for considering preventive oophorectomy in BRCA1 carriers. Further research is warranted to confirm these findings and explore interventions targeting molybdenum levels as a preventive measure for ovarian cancer in BRCA1 mutation carriers."
+   }
+  },
+  "PMID:39061909": {
+   "record_id": "PMID:39061909",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39061909/",
+   "retrieved_at": "2026-11-17T02:09:35.113768+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "39061909",
+    "title": "Antioxidant Properties of Zinc and Copper-Blood Zinc-to Copper-Ratio as a Marker of Cancer Risk BRCA1 Mutation Carriers.",
+    "journal": "Antioxidants (Basel)",
+    "pubdate": "2024 Jul 14",
+    "sortpubdate": "2024-07-14",
+    "abstract": "Pathogenic mutations in BRCA1 (BReast CAncer gene 1) confer high risks of both breast (up to 70%) and ovarian (up to 40%) cancers. Zinc (Zn) and copper (Cu) are essential for various physiological functions, including antioxidant reactions. Their balance, reflected in the Zn/Cu ratio, plays a crucial role in maintaining redox homeostasis, which is vital for cancer prevention. This study examines the antioxidant properties of Zn and Cu, specifically focusing on the blood Zn/Cu ratio as a potential marker for cancer risk among BRCA1 mutation carriers. The study cohort consisted of 989 initially unaffected women, followed up for 7.5 years. Blood samples were analyzed using inductively coupled plasma mass spectrometry. Although individual Zn and Cu levels did not significantly correlate with overall cancer risk, those women with a Zn/Cu ratio above 6.38 experienced a significantly lower cancer risk than women with a ratio below this cut-off point. This suggests that the Zn/Cu ratio may be a valuable biomarker for cancer prevention in this high-risk group. Given the increased cancer risk in BRCA1 mutation carriers, optimizing Zn and Cu levels through dietary and active interventions could provide a preventive strategy."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 19,
+  "n_claims_fully_verified": 19,
+  "n_uncited_claims": 0,
+  "n_citations": 45,
+  "n_citations_valid": 45,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 33,
+  "n_shown_values_in_text": 33,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 19,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

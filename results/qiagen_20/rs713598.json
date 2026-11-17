@@ -1,0 +1,3047 @@
+{
+ "rsid_query": "rs713598",
+ "rsid_current": "rs713598",
+ "as_of": "latest",
+ "generated_at": "2026-11-17T02:13:55.079114+00:00",
+ "genes": {
+  "vep": [
+   "TAS2R38"
+  ],
+  "dbsnp": [
+   "TAS2R38"
+  ],
+  "clinvar": [
+   "TAS2R38"
+  ],
+  "gwas": [
+   "MGAM",
+   "TAS2R38"
+  ]
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000007.14:g.141973545C>A",
+   "spdi_deleted": "C",
+   "spdi_inserted": "A",
+   "chrom": "7",
+   "pos": 141973545,
+   "ref": "C",
+   "alt": "A",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "7-141973545-C-A",
+   "vep": {
+    "gene_symbol": "TAS2R38",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000547270.1:c.145G>T",
+    "hgvsp": "ENSP00000448219.1:p.Ala49Ser",
+    "impact": "MODERATE",
+    "mane_select": "NM_176817.5"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    },
+    "gnomad_v4": {
+     "overall": 1.3681331686100997e-06,
+     "ac": 2,
+     "an": 1461846,
+     "populations": {
+      "afr": 0.0,
+      "amr": 0.0,
+      "asj": 0.0,
+      "eas": 0.0,
+      "fin": 0.0,
+      "nfe": 1.7985676207468373e-06,
+      "sas": 0.0,
+      "mid": 0.0,
+      "remaining": 0.0
+     }
+    }
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000007.14:g.141973545C>G",
+   "spdi_deleted": "C",
+   "spdi_inserted": "G",
+   "chrom": "7",
+   "pos": 141973545,
+   "ref": "C",
+   "alt": "G",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "7-141973545-C-G",
+   "vep": {
+    "gene_symbol": "TAS2R38",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000547270.1:c.145G>C",
+    "hgvsp": "ENSP00000448219.1:p.Ala49Pro",
+    "impact": "MODERATE",
+    "mane_select": "NM_176817.5"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "exomes",
+     "overall": 0.458137,
+     "populations": {
+      "afr": 0.476554,
+      "amr": 0.671699,
+      "asj": 0.462562,
+      "eas": 0.675041,
+      "fin": 0.348746,
+      "nfe": 0.405641,
+      "sas": 0.3464,
+      "oth": 0.463343
+     },
+     "an": 251274,
+     "differentiated": true
+    },
+    "gnomad_v4": {
+     "overall": 0.41892608732295217,
+     "ac": 676016,
+     "an": 1613688,
+     "populations": {
+      "afr": 0.4792735042735043,
+      "amr": 0.6477481081441477,
+      "asj": 0.4643243243243243,
+      "eas": 0.6166421339042776,
+      "fin": 0.35409169144108904,
+      "nfe": 0.4027811913628482,
+      "sas": 0.3465297605974083,
+      "mid": 0.4504950495049505,
+      "ami": 0.2225877192982456,
+      "remaining": 0.4400076790170858
+     },
+     "differentiated": true
+    }
+   }
+  },
+  {
+   "index": 3,
+   "dbsnp_allele_index": 3,
+   "hgvs_g": "NC_000007.14:g.141973545C>T",
+   "spdi_deleted": "C",
+   "spdi_inserted": "T",
+   "chrom": "7",
+   "pos": 141973545,
+   "ref": "C",
+   "alt": "T",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "7-141973545-C-T",
+   "vep": {
+    "gene_symbol": "TAS2R38",
+    "consequence_terms": [
+     "missense_variant"
+    ],
+    "hgvsc": "ENST00000547270.1:c.145G>A",
+    "hgvsp": "ENSP00000448219.1:p.Ala49Thr",
+    "impact": "MODERATE",
+    "mane_select": "NM_176817.5"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    },
+    "gnomad_v4": {
+     "overall": 6.840665843050499e-07,
+     "ac": 1,
+     "an": 1461846,
+     "populations": {
+      "afr": 0.0,
+      "amr": 0.0,
+      "asj": 0.0,
+      "eas": 0.0,
+      "fin": 0.0,
+      "nfe": 8.992838103734187e-07,
+      "sas": 0.0,
+      "mid": 0.0,
+      "remaining": 0.0
+     }
+    }
+   }
+  }
+ ],
+ "clinvar": [
+  {
+   "variation_id": "2904",
+   "allele_index": 2,
+   "name": "NM_176817.5(TAS2R38):c.145G>C (p.Ala49Pro)",
+   "classification": "drug response",
+   "review_status": "no assertion criteria provided",
+   "conditions": [
+    "Phenylthiocarbamide tasting"
+   ],
+   "origin": "germline",
+   "n_submitters": "1",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "drug response",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "1",
+     "last_evaluated": "Dec 30, 2010",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "drug response",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "1",
+     "last_evaluated": "Dec 30, 2010",
+     "release_date": "2019-01-03"
+    },
+    {
+     "snapshot": "2020-01",
+     "clnsig": "drug response",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "1",
+     "last_evaluated": "Dec 30, 2010",
+     "release_date": "2020-01-02"
+    },
+    {
+     "snapshot": "2026-11",
+     "clnsig": "drug response",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "1",
+     "last_evaluated": "Dec 30, 2010",
+     "release_date": "2026-11-16"
+    }
+   ],
+   "submission_classes": {
+    "drug response": 1
+   }
+  }
+ ],
+ "clinvar_release": "2026-11",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": [
+   "cosmic_colocated"
+  ]
+ },
+ "gwas": {
+  "n_associations_total": 7,
+  "n_associations_in_scope": 7,
+  "n_genome_wide_significant": 7,
+  "n_studies": 7,
+  "mapped_genes": [
+   "MGAM",
+   "TAS2R38"
+  ],
+  "top_traits": [
+   {
+    "trait": "sensory perception of bitter taste",
+    "p_value": "2e-104",
+    "accession": "GCST000746",
+    "pmid": "20675712"
+   },
+   {
+    "trait": "taste liking measurement",
+    "p_value": "5e-29",
+    "accession": "GCST90094783",
+    "pmid": "35585065"
+   },
+   {
+    "trait": "alcohol consumption characteristic",
+    "p_value": "5e-22",
+    "accession": "GCST90243989",
+    "pmid": "36477530"
+   },
+   {
+    "trait": "tea consumption measurement",
+    "p_value": "3e-10",
+    "accession": "GCST008529",
+    "pmid": "31046077"
+   }
+  ],
+  "n_distinct_traits_significant": 4,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 261,
+  "n_in_scope": 261,
+  "pmids_in_scope": [
+   "42735504",
+   "42776737",
+   "42353883",
+   "42162282",
+   "41667478",
+   "41754079",
+   "41732571",
+   "41440113",
+   "41256155",
+   "41007057",
+   "40922251",
+   "40490135",
+   "40594245",
+   "40626223",
+   "40498099",
+   "40661273",
+   "40280971",
+   "40353482",
+   "40156025",
+   "39747296",
+   "39744380",
+   "39726502",
+   "39684366",
+   "38905855",
+   "39201321",
+   "39125390",
+   "38892689",
+   "38784134",
+   "38687739",
+   "38732607",
+   "38712219",
+   "38587606",
+   "38409357",
+   "38398728",
+   "38308303",
+   "38255273",
+   "37993830",
+   "38035352",
+   "37685121",
+   "37685855",
+   "37571348",
+   "37519890",
+   "37266651",
+   "37242298",
+   "37432370",
+   "36980937",
+   "36819962",
+   "35312075",
+   "36771415",
+   "36793779"
+  ],
+  "top": [
+   "21763010",
+   "42776737",
+   "41732571"
+  ]
+ },
+ "conflicts": [
+  {
+   "type": "discordant_gene_assignment",
+   "strict": false,
+   "genes": {
+    "Ensembl VEP": [
+     "TAS2R38"
+    ],
+    "ClinVar": [
+     "TAS2R38"
+    ],
+    "GWAS Catalog": [
+     "MGAM",
+     "TAS2R38"
+    ]
+   }
+  }
+ ],
+ "bottom_line": {
+  "category": "trait-associated common variant without an established monogenic disease role (ClinVar also records a drug-response annotation)",
+  "confidence": "high",
+  "rationale": "7 genome-wide significant associations across 7 studies",
+  "text": "Bottom line: rs713598 in TAS2R38 is best described as: trait-associated common variant without an established monogenic disease role (ClinVar also records a drug-response annotation). Its strongest reported association is with sensory perception of bitter taste. Confidence: high (7 genome-wide significant associations across 7 studies)."
+ },
+ "notes": [],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs713598 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs713598",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs713598",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Earlier identifiers merged into rs713598: rs17634738, rs52812444.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs713598",
+     "path": "dbsnp1_merges.0",
+     "value": "17634738",
+     "label": "dbSNP build 157 rs713598",
+     "mode": "eq",
+     "shown": "rs17634738",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs713598",
+     "path": "dbsnp1_merges.1",
+     "value": "52812444",
+     "label": "dbSNP build 157 rs713598",
+     "mode": "eq",
+     "shown": "rs52812444",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs713598 as variant type 'snv' on NC_000007.14 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs713598",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs713598",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs713598",
+     "path": "seq_id",
+     "value": "NC_000007.14",
+     "label": "dbSNP build 157 rs713598",
+     "mode": "eq",
+     "shown": "NC_000007.14",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000007.14:g.141973545C>A, a single-nucleotide variant (SNV) (C>A in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs713598",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000007.14:g.141973545C>A",
+     "label": "dbSNP build 157 rs713598",
+     "mode": "eq",
+     "shown": "NC_000007.14:g.141973545C>A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000007.14:g.141973545C>G, a single-nucleotide variant (SNV) (C>G in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs713598",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000007.14:g.141973545C>G",
+     "label": "dbSNP build 157 rs713598",
+     "mode": "eq",
+     "shown": "NC_000007.14:g.141973545C>G",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 3: NC_000007.14:g.141973545C>T, a single-nucleotide variant (SNV) (C>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs713598",
+     "path": "alleles.3.hgvs",
+     "value": "NC_000007.14:g.141973545C>T",
+     "label": "dbSNP build 157 rs713598",
+     "mode": "eq",
+     "shown": "NC_000007.14:g.141973545C>T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 3 (C>T), Ensembl VEP predicts missense_variant in TAS2R38 (ENST00000547270.1:c.145G>A; ENSP00000448219.1:p.Ala49Thr), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "TAS2R38",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "TAS2R38",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000547270.1:c.145G>A",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "ENST00000547270.1:c.145G>A",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.0.hgvsp",
+     "value": "ENSP00000448219.1:p.Ala49Thr",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "ENSP00000448219.1:p.Ala49Thr",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (C>A), Ensembl VEP predicts missense_variant in TAS2R38 (ENST00000547270.1:c.145G>T; ENSP00000448219.1:p.Ala49Ser), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.1.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.1.gene_symbol",
+     "value": "TAS2R38",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "TAS2R38",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.1.hgvsc",
+     "value": "ENST00000547270.1:c.145G>T",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "ENST00000547270.1:c.145G>T",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.1.hgvsp",
+     "value": "ENSP00000448219.1:p.Ala49Ser",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "ENSP00000448219.1:p.Ala49Ser",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.1.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 2 (C>G), Ensembl VEP predicts missense_variant in TAS2R38 (ENST00000547270.1:c.145G>C; ENSP00000448219.1:p.Ala49Pro), impact MODERATE.",
+   "citations": [
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.2.consequence_terms.0",
+     "value": "missense_variant",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "missense_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.2.gene_symbol",
+     "value": "TAS2R38",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "TAS2R38",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.2.hgvsc",
+     "value": "ENST00000547270.1:c.145G>C",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "ENST00000547270.1:c.145G>C",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.2.hgvsp",
+     "value": "ENSP00000448219.1:p.Ala49Pro",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "ENSP00000448219.1:p.Ala49Pro",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.2.impact",
+     "value": "MODERATE",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "MODERATE",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string C/A/G/T.",
+   "citations": [
+    {
+     "record_id": "VEP:rs713598",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs713598",
+     "path": "allele_string",
+     "value": "C/A/G/T",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "C/A/G/T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 1 (C>A) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs713598",
+     "path": "hits.1._id",
+     "value": "chr7:g.141673345C>A",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>A) has an overall allele frequency of 1.37e-06 (2 of 1,461,846 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-A",
+     "path": "",
+     "value": 1.3681331686100997e-06,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "1.37e-06",
+     "args": [
+      [
+       "variant.exome.ac"
+      ],
+      [
+       "variant.exome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 1.8e-06, South Asian 0, Middle Eastern 0, Remaining 0.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.8.ac"
+      ],
+      [
+       "variant.exome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.1.ac"
+      ],
+      [
+       "variant.exome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.6.ac"
+      ],
+      [
+       "variant.exome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.7.ac"
+      ],
+      [
+       "variant.exome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.2.ac"
+      ],
+      [
+       "variant.exome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-A",
+     "path": "",
+     "value": 1.7985676207468373e-06,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "1.8e-06",
+     "args": [
+      [
+       "variant.exome.populations.4.ac"
+      ],
+      [
+       "variant.exome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.5.ac"
+      ],
+      [
+       "variant.exome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.3.ac"
+      ],
+      [
+       "variant.exome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-A",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.0.ac"
+      ],
+      [
+       "variant.exome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 exomes, alternate allele 2 (C>G) has an overall allele frequency of 0.458.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs713598",
+     "path": "hits.0.gnomad_exome.af.af",
+     "value": 0.458137,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.458",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0.477, Admixed American 0.672, Ashkenazi Jewish 0.463, East Asian 0.675, Finnish 0.349, Non-Finnish European 0.406, South Asian 0.346, Other 0.463.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs713598",
+     "path": "hits.0.gnomad_exome.af.af_afr",
+     "value": 0.476554,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.477",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs713598",
+     "path": "hits.0.gnomad_exome.af.af_amr",
+     "value": 0.671699,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.672",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs713598",
+     "path": "hits.0.gnomad_exome.af.af_asj",
+     "value": 0.462562,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.463",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs713598",
+     "path": "hits.0.gnomad_exome.af.af_eas",
+     "value": 0.675041,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.675",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs713598",
+     "path": "hits.0.gnomad_exome.af.af_fin",
+     "value": 0.348746,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.349",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs713598",
+     "path": "hits.0.gnomad_exome.af.af_nfe",
+     "value": 0.405641,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.406",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs713598",
+     "path": "hits.0.gnomad_exome.af.af_sas",
+     "value": 0.3464,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.346",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs713598",
+     "path": "hits.0.gnomad_exome.af.af_oth",
+     "value": 0.463343,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.463",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v2.1.1 exomes): allele 2 frequency ranges from 0.346 in South Asian to 0.675 in East Asian, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs713598",
+     "path": "hits.0.gnomad_exome.af.af_sas",
+     "value": 0.3464,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.346",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs713598",
+     "path": "hits.0.gnomad_exome.af.af_eas",
+     "value": 0.675041,
+     "label": "gnomAD v2.1.1 exomes",
+     "mode": "eq",
+     "shown": "0.675",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (C>G) has an overall allele frequency of 0.419 (676,016 of 1,613,688 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-G",
+     "path": "",
+     "value": 0.41892608732295217,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.419",
+     "args": [
+      [
+       "variant.exome.ac",
+       "variant.genome.ac"
+      ],
+      [
+       "variant.exome.an",
+       "variant.genome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0.479, Admixed American 0.648, Ashkenazi Jewish 0.464, East Asian 0.617, Finnish 0.354, Non-Finnish European 0.403, South Asian 0.347, Middle Eastern 0.45, Amish 0.223, Remaining 0.44.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-G",
+     "path": "",
+     "value": 0.4792735042735043,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.479",
+     "args": [
+      [
+       "variant.exome.populations.8.ac",
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.exome.populations.8.an",
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-G",
+     "path": "",
+     "value": 0.6477481081441477,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.648",
+     "args": [
+      [
+       "variant.exome.populations.1.ac",
+       "variant.genome.populations.1.ac"
+      ],
+      [
+       "variant.exome.populations.1.an",
+       "variant.genome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-G",
+     "path": "",
+     "value": 0.4643243243243243,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.464",
+     "args": [
+      [
+       "variant.exome.populations.6.ac",
+       "variant.genome.populations.7.ac"
+      ],
+      [
+       "variant.exome.populations.6.an",
+       "variant.genome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-G",
+     "path": "",
+     "value": 0.6166421339042776,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.617",
+     "args": [
+      [
+       "variant.exome.populations.7.ac",
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.exome.populations.7.an",
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-G",
+     "path": "",
+     "value": 0.35409169144108904,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.354",
+     "args": [
+      [
+       "variant.exome.populations.2.ac",
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.exome.populations.2.an",
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-G",
+     "path": "",
+     "value": 0.4027811913628482,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.403",
+     "args": [
+      [
+       "variant.exome.populations.4.ac",
+       "variant.genome.populations.9.ac"
+      ],
+      [
+       "variant.exome.populations.4.an",
+       "variant.genome.populations.9.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-G",
+     "path": "",
+     "value": 0.3465297605974083,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.347",
+     "args": [
+      [
+       "variant.exome.populations.5.ac",
+       "variant.genome.populations.6.ac"
+      ],
+      [
+       "variant.exome.populations.5.an",
+       "variant.genome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-G",
+     "path": "",
+     "value": 0.4504950495049505,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.45",
+     "args": [
+      [
+       "variant.exome.populations.3.ac",
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.exome.populations.3.an",
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-G",
+     "path": "",
+     "value": 0.2225877192982456,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.223",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-G",
+     "path": "",
+     "value": 0.4400076790170858,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.44",
+     "args": [
+      [
+       "variant.exome.populations.0.ac",
+       "variant.genome.populations.0.ac"
+      ],
+      [
+       "variant.exome.populations.0.an",
+       "variant.genome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v4.1): allele 2 frequency ranges from 0.223 in Amish to 0.648 in Admixed American, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-G",
+     "path": "",
+     "value": 0.6477481081441477,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.648",
+     "args": [
+      [
+       "variant.exome.populations.1.ac",
+       "variant.genome.populations.1.ac"
+      ],
+      [
+       "variant.exome.populations.1.an",
+       "variant.genome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-G",
+     "path": "",
+     "value": 0.2225877192982456,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.223",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 3 (C>T) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs713598",
+     "path": "hits.2._id",
+     "value": "chr7:g.141673345C>T",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 3 (C>T) has an overall allele frequency of 6.84e-07 (1 of 1,461,846 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-T",
+     "path": "",
+     "value": 6.840665843050499e-07,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "6.84e-07",
+     "args": [
+      [
+       "variant.exome.ac"
+      ],
+      [
+       "variant.exome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 3: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 8.99e-07, South Asian 0, Middle Eastern 0, Remaining 0.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.8.ac"
+      ],
+      [
+       "variant.exome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.1.ac"
+      ],
+      [
+       "variant.exome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.6.ac"
+      ],
+      [
+       "variant.exome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.7.ac"
+      ],
+      [
+       "variant.exome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.2.ac"
+      ],
+      [
+       "variant.exome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-T",
+     "path": "",
+     "value": 8.992838103734187e-07,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "8.99e-07",
+     "args": [
+      [
+       "variant.exome.populations.4.ac"
+      ],
+      [
+       "variant.exome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.5.ac"
+      ],
+      [
+       "variant.exome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.3.ac"
+      ],
+      [
+       "variant.exome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:7-141973545-C-T",
+     "path": "",
+     "value": 0.0,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0",
+     "args": [
+      [
+       "variant.exome.populations.0.ac"
+      ],
+      [
+       "variant.exome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_176817.5(TAS2R38):c.145G>C (p.Ala49Pro) (alternate allele 2) with germline classification 'drug response' for: Phenylthiocarbamide tasting; review status 'no assertion criteria provided', 1 submitter(s), allele origin 'germline'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000002904 (2026-11 release)",
+     "mode": "eq",
+     "shown": "drug response",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "review_status",
+     "value": "no assertion criteria provided",
+     "label": "ClinVar VCV000002904 (2026-11 release)",
+     "mode": "eq",
+     "shown": "no assertion criteria provided",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "name",
+     "value": "NM_176817.5(TAS2R38):c.145G>C (p.Ala49Pro)",
+     "label": "ClinVar VCV000002904 (2026-11 release)",
+     "mode": "eq",
+     "shown": "NM_176817.5(TAS2R38):c.145G>C (p.Ala49Pro)",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "n_submitters",
+     "value": "1",
+     "label": "ClinVar VCV000002904 (2026-11 release)",
+     "mode": "eq",
+     "shown": "1",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "phenotype_list",
+     "value": "Phenylthiocarbamide tasting",
+     "label": "ClinVar VCV000002904 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Phenylthiocarbamide tasting",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "origin",
+     "value": "germline",
+     "label": "ClinVar VCV000002904 (2026-11 release)",
+     "mode": "eq",
+     "shown": "germline",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: drug response; 2019-01: drug response; 2020-01: drug response; 2026-11: drug response. The classification did not change over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "history.0.clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000002904 (2026-11 release)",
+     "mode": "eq",
+     "shown": "drug response",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "history.1.clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000002904 (2026-11 release)",
+     "mode": "eq",
+     "shown": "drug response",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "history.2.clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000002904 (2026-11 release)",
+     "mode": "eq",
+     "shown": "drug response",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "history.3.clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000002904 (2026-11 release)",
+     "mode": "eq",
+     "shown": "drug response",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 1 'drug response'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "",
+     "value": 1,
+     "label": "ClinVar VCV000002904 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "1",
+     "args": [
+      "submissions",
+      "clnsig",
+      "drug response"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Somatic evidence",
+   "text": "Ensembl VEP reports 1 co-located COSMIC somatic mutation record(s) at this position (COSV71885858).",
+   "citations": [
+    {
+     "record_id": "VEP:rs713598",
+     "path": "cosmic_ids.0",
+     "value": "COSV71885858",
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "COSV71885858",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 7 association record(s) for rs713598.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs713598",
+     "path": "associations.6.association_id",
+     "value": 15952,
+     "label": "GWAS Catalog rs713598",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with sensory perception of bitter taste (p = 2e-104, study GCST000746).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs713598",
+     "path": "associations.6.accession_id",
+     "value": "GCST000746",
+     "label": "GWAS Catalog GCST000746",
+     "mode": "eq",
+     "shown": "GCST000746",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs713598",
+     "path": "associations.6.pvalue_exponent",
+     "value": -104,
+     "label": "GWAS Catalog GCST000746",
+     "mode": "eq",
+     "shown": "2e-104",
+     "args": null
+    },
+    {
+     "record_id": "PMID:20675712",
+     "path": "pmid",
+     "value": "20675712",
+     "label": "PMID:20675712",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with taste liking measurement (p = 5e-29, study GCST90094783, effect allele rs713598-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs713598",
+     "path": "associations.3.accession_id",
+     "value": "GCST90094783",
+     "label": "GWAS Catalog GCST90094783",
+     "mode": "eq",
+     "shown": "GCST90094783",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs713598",
+     "path": "associations.3.pvalue_exponent",
+     "value": -29,
+     "label": "GWAS Catalog GCST90094783",
+     "mode": "eq",
+     "shown": "5e-29",
+     "args": null
+    },
+    {
+     "record_id": "PMID:35585065",
+     "path": "pmid",
+     "value": "35585065",
+     "label": "PMID:35585065",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with alcohol consumption characteristic (p = 5e-22, study GCST90243989, effect allele rs713598-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs713598",
+     "path": "associations.0.accession_id",
+     "value": "GCST90243989",
+     "label": "GWAS Catalog GCST90243989",
+     "mode": "eq",
+     "shown": "GCST90243989",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs713598",
+     "path": "associations.0.pvalue_exponent",
+     "value": -22,
+     "label": "GWAS Catalog GCST90243989",
+     "mode": "eq",
+     "shown": "5e-22",
+     "args": null
+    },
+    {
+     "record_id": "PMID:36477530",
+     "path": "pmid",
+     "value": "36477530",
+     "label": "PMID:36477530",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with tea consumption measurement (p = 3e-10, study GCST008529, effect allele rs713598-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs713598",
+     "path": "associations.5.accession_id",
+     "value": "GCST008529",
+     "label": "GWAS Catalog GCST008529",
+     "mode": "eq",
+     "shown": "GCST008529",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs713598",
+     "path": "associations.5.pvalue_exponent",
+     "value": -10,
+     "label": "GWAS Catalog GCST008529",
+     "mode": "eq",
+     "shown": "3e-10",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31046077",
+     "path": "pmid",
+     "value": "31046077",
+     "label": "PMID:31046077",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 261 PubMed articles to rs713598.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs713598",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs713598",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Implication of the G145C polymorphism (rs713598) of the TAS2r38 gene on food consumption by Brazilian older women\" (Arch Gerontol Geriatr, 2012).",
+   "citations": [
+    {
+     "record_id": "PMID:21763010",
+     "path": "title",
+     "value": "Implication of the G145C polymorphism (rs713598) of the TAS2r38 gene on food consumption by Brazilian older women.",
+     "label": "PMID:21763010",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:21763010",
+     "path": "journal",
+     "value": "Arch Gerontol Geriatr",
+     "label": "PMID:21763010",
+     "mode": "eq",
+     "shown": "Arch Gerontol Geriatr",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Correlation Between the TAS2R38 Genetic Polymorphism, PROP Perception and Eating Habits: A Cross-Sectional Molecular Epidemiological Study\" (Epidemiologia (Basel), 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:42776737",
+     "path": "title",
+     "value": "Correlation Between the TAS2R38 Genetic Polymorphism, PROP Perception and Eating Habits: A Cross-Sectional Molecular Epidemiological Study.",
+     "label": "PMID:42776737",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:42776737",
+     "path": "journal",
+     "value": "Epidemiologia (Basel)",
+     "label": "PMID:42776737",
+     "mode": "eq",
+     "shown": "Epidemiologia (Basel)",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Identification of hTAS2R38 bitter taste receptor antagonists via homology modeling and molecular docking\" (Curr Res Food Sci, 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:41732571",
+     "path": "title",
+     "value": "Identification of hTAS2R38 bitter taste receptor antagonists via homology modeling and molecular docking.",
+     "label": "PMID:41732571",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:41732571",
+     "path": "journal",
+     "value": "Curr Res Food Sci",
+     "label": "PMID:41732571",
+     "mode": "eq",
+     "shown": "Curr Res Food Sci",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Conflicts and caveats",
+   "text": "Gene assignment difference: sources name different genes for rs713598 (Ensembl VEP: TAS2R38; ClinVar: TAS2R38; GWAS Catalog: MGAM, TAS2R38).",
+   "citations": [
+    {
+     "record_id": "VEP:rs713598",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": null,
+     "label": "Ensembl VEP rs713598",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "gene_symbol",
+     "value": "TAS2R38",
+     "label": "ClinVar VCV000002904",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs713598",
+     "path": "associations.0.mapped_genes",
+     "value": null,
+     "label": "GWAS Catalog rs713598",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "No allele of rs713598 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000002904 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "rs713598 is associated with 4 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs713598",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs713598",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000002904 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs713598 in TAS2R38 is best described as: trait-associated common variant without an established monogenic disease role (ClinVar also records a drug-response annotation). Its strongest reported association is with sensory perception of bitter taste. Confidence: high (7 genome-wide significant associations across 7 studies).",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000002904@2026-11",
+     "path": "clnsig",
+     "value": "drug response",
+     "label": "ClinVar VCV000002904 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs713598",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs713598",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs713598",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs713598",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs713598": {
+   "record_id": "dbSNP:rs713598",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/713598",
+   "retrieved_at": "2026-11-17T02:06:34.361948+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "713598",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [
+     "17634738",
+     "52812444"
+    ],
+    "merged_into": [],
+    "citations": [
+     12595690,
+     15883422,
+     18248681,
+     18834969,
+     19092995,
+     19687126,
+     19779476,
+     19782709,
+     20594349,
+     20675712,
+     20858777,
+     20980355,
+     21467728,
+     21557234,
+     21674048,
+     21763010,
+     21927640,
+     22132133,
+     22824251,
+     23133589,
+     23166662,
+     23900446,
+     24083639,
+     24627758,
+     24705770,
+     25303850,
+     25832883,
+     26268603,
+     26633761,
+     26941429,
+     27245112,
+     27475756,
+     27515546,
+     27711175,
+     28041559,
+     28455260,
+     28652185,
+     28738701,
+     28858874,
+     29385734,
+     30060620,
+     30340375,
+     31137020,
+     31921309,
+     32659773,
+     33103533,
+     33262486,
+     33582215,
+     33930497,
+     34117880,
+     34242732,
+     34653070,
+     36070352
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000007.14",
+    "alleles": [
+     {
+      "hgvs": "NC_000007.14:g.141973545=",
+      "position0": 141973544,
+      "deleted": "C",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000007.14:g.141973545C>A",
+      "position0": 141973544,
+      "deleted": "C",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000007.14:g.141973545C>G",
+      "position0": 141973544,
+      "deleted": "C",
+      "inserted": "G"
+     },
+     {
+      "hgvs": "NC_000007.14:g.141973545C>T",
+      "position0": 141973544,
+      "deleted": "C",
+      "inserted": "T"
+     }
+    ],
+    "genes": [
+     "TAS2R38"
+    ]
+   }
+  },
+  "VEP:rs713598": {
+   "record_id": "VEP:rs713598",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs713598",
+   "retrieved_at": "2026-11-17T02:06:44.692667+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs713598",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "7",
+    "start": 141973545,
+    "end": 141973545,
+    "allele_string": "C/A/G/T",
+    "variant_class": "SNV",
+    "most_severe_consequence": "missense_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "T",
+      "gene_symbol": "TAS2R38",
+      "gene_id": "ENSG00000257138",
+      "transcript_id": "ENST00000547270",
+      "mane_select": "NM_176817.5",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000547270.1:c.145G>A",
+      "hgvsp": "ENSP00000448219.1:p.Ala49Thr",
+      "impact": "MODERATE",
+      "amino_acids": "A/T",
+      "protein_start": 49,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "A",
+      "gene_symbol": "TAS2R38",
+      "gene_id": "ENSG00000257138",
+      "transcript_id": "ENST00000547270",
+      "mane_select": "NM_176817.5",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000547270.1:c.145G>T",
+      "hgvsp": "ENSP00000448219.1:p.Ala49Ser",
+      "impact": "MODERATE",
+      "amino_acids": "A/S",
+      "protein_start": 49,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "G",
+      "gene_symbol": "TAS2R38",
+      "gene_id": "ENSG00000257138",
+      "transcript_id": "ENST00000547270",
+      "mane_select": "NM_176817.5",
+      "consequence_terms": [
+       "missense_variant"
+      ],
+      "hgvsc": "ENST00000547270.1:c.145G>C",
+      "hgvsp": "ENSP00000448219.1:p.Ala49Pro",
+      "impact": "MODERATE",
+      "amino_acids": "A/P",
+      "protein_start": 49,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [
+     "COSV71885858"
+    ],
+    "colocated_somatic": true
+   }
+  },
+  "gnomAD-v2.1.1:rs713598": {
+   "record_id": "gnomAD-v2.1.1:rs713598",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:06:44.792681+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr7:g.141673345C>G",
+      "_score": 17.140972,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 14.61
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "G",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "gnomad_exome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.458137,
+        "af_afr": 0.476554,
+        "af_afr_female": 0.474469,
+        "af_afr_male": 0.479948,
+        "af_amr": 0.671699,
+        "af_amr_female": 0.676372,
+        "af_amr_male": 0.665083,
+        "af_asj": 0.462562,
+        "af_asj_female": 0.461177,
+        "af_asj_male": 0.463872,
+        "af_eas": 0.675041,
+        "af_eas_female": 0.679605,
+        "af_eas_jpn": 0.598684,
+        "af_eas_kor": 0.595438,
+        "af_eas_male": 0.670344,
+        "af_eas_oea": 0.696894,
+        "af_female": 0.473829,
+        "af_fin": 0.348746,
+        "af_fin_female": 0.349952,
+        "af_fin_male": 0.347637,
+        "af_male": 0.444795,
+        "af_nfe": 0.405641,
+        "af_nfe_bgr": 0.441485,
+        "af_nfe_est": 0.330579,
+        "af_nfe_female": 0.400858,
+        "af_nfe_male": 0.409413,
+        "af_nfe_nwe": 0.408127,
+        "af_nfe_onf": 0.405848,
+        "af_nfe_seu": 0.462128,
+        "af_nfe_swe": 0.373594,
+        "af_oth": 0.463343,
+        "af_oth_female": 0.464481,
+        "af_oth_male": 0.462305,
+        "af_sas": 0.3464,
+        "af_sas_female": 0.340933,
+        "af_sas_male": 0.348188
+       },
+       "alt": "G",
+       "an": {
+        "an": 251274,
+        "an_afr": 16250,
+        "an_afr_female": 10066,
+        "an_afr_male": 6184,
+        "an_amr": 34578,
+        "an_amr_female": 20264,
+        "an_amr_male": 14314,
+        "an_asj": 10070,
+        "an_asj_female": 4894,
+        "an_asj_male": 5176,
+        "an_eas": 18390,
+        "an_eas_female": 9326,
+        "an_eas_jpn": 152,
+        "an_eas_kor": 3814,
+        "an_eas_male": 9064,
+        "an_eas_oea": 14424,
+        "an_female": 115472,
+        "an_fin": 21606,
+        "an_fin_female": 10350,
+        "an_fin_male": 11256,
+        "an_male": 135802,
+        "an_nfe": 113630,
+        "an_nfe_bgr": 2666,
+        "an_nfe_est": 242,
+        "an_nfe_female": 50100,
+        "an_nfe_male": 63530,
+        "an_nfe_nwe": 42156,
+        "an_nfe_onf": 30950,
+        "an_nfe_seu": 11486,
+        "an_nfe_swe": 26130,
+        "an_oth": 6138,
+        "an_oth_female": 2928,
+        "an_oth_male": 3210,
+        "an_sas": 30612,
+        "an_sas_female": 7544,
+        "an_sas_male": 23068
+       },
+       "ref": "C"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.43225,
+        "af_afr": 0.482225,
+        "af_afr_female": 0.474261,
+        "af_afr_male": 0.488029,
+        "af_amr": 0.626777,
+        "af_amr_female": 0.609756,
+        "af_amr_male": 0.642857,
+        "af_asj": 0.440972,
+        "af_asj_female": 0.435897,
+        "af_asj_male": 0.442857,
+        "af_eas": 0.693904,
+        "af_eas_female": 0.70412,
+        "af_eas_male": 0.688492,
+        "af_female": 0.416979,
+        "af_fin": 0.350115,
+        "af_fin_female": 0.359155,
+        "af_fin_male": 0.339877,
+        "af_male": 0.4444,
+        "af_nfe": 0.387804,
+        "af_nfe_est": 0.349759,
+        "af_nfe_female": 0.372896,
+        "af_nfe_male": 0.399558,
+        "af_nfe_nwe": 0.399743,
+        "af_nfe_onf": 0.417603,
+        "af_nfe_seu": 0.462264,
+        "af_oth": 0.400185,
+        "af_oth_female": 0.349462,
+        "af_oth_male": 0.454198
+       },
+       "alt": "G",
+       "an": {
+        "an": 31262,
+        "an_afr": 8664,
+        "an_afr_female": 3652,
+        "an_afr_male": 5012,
+        "an_amr": 844,
+        "an_amr_female": 410,
+        "an_amr_male": 434,
+        "an_asj": 288,
+        "an_asj_female": 78,
+        "an_asj_male": 210,
+        "an_eas": 1542,
+        "an_eas_female": 534,
+        "an_eas_male": 1008,
+        "an_female": 13852,
+        "an_fin": 3476,
+        "an_fin_female": 1846,
+        "an_fin_male": 1630,
+        "an_male": 17410,
+        "an_nfe": 15366,
+        "an_nfe_est": 4566,
+        "an_nfe_female": 6774,
+        "an_nfe_male": 8592,
+        "an_nfe_nwe": 8558,
+        "an_nfe_onf": 2136,
+        "an_nfe_seu": 106,
+        "an_oth": 1082,
+        "an_oth_female": 558,
+        "an_oth_male": 524
+       },
+       "ref": "C"
+      },
+      "vcf": {
+       "alt": "G",
+       "position": "141673345",
+       "ref": "C"
+      }
+     },
+     {
+      "_id": "chr7:g.141673345C>A",
+      "_score": 17.140858,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 15.14
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "A",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "vcf": {
+       "alt": "A",
+       "position": "141673345",
+       "ref": "C"
+      }
+     },
+     {
+      "_id": "chr7:g.141673345C>T",
+      "_score": 17.140837,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 17.31
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "T",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "vcf": {
+       "alt": "T",
+       "position": "141673345",
+       "ref": "C"
+      }
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:7-141973545-C-A": {
+   "record_id": "gnomAD-v4.1:7-141973545-C-A",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:06:44.954348+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "7-141973545-C-A",
+     "rsids": [
+      "rs713598"
+     ],
+     "exome": {
+      "ac": 2,
+      "an": 1461846,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 0,
+        "an": 60396
+       },
+       {
+        "id": "amr",
+        "ac": 0,
+        "an": 44722
+       },
+       {
+        "id": "fin",
+        "ac": 0,
+        "an": 53394
+       },
+       {
+        "id": "mid",
+        "ac": 0,
+        "an": 5766
+       },
+       {
+        "id": "nfe",
+        "ac": 2,
+        "an": 1111996
+       },
+       {
+        "id": "sas",
+        "ac": 0,
+        "an": 86258
+       },
+       {
+        "id": "asj",
+        "ac": 0,
+        "an": 26136
+       },
+       {
+        "id": "eas",
+        "ac": 0,
+        "an": 39698
+       },
+       {
+        "id": "afr",
+        "ac": 0,
+        "an": 33480
+       }
+      ]
+     },
+     "genome": null
+    },
+    "errors": null
+   }
+  },
+  "gnomAD-v4.1:7-141973545-C-G": {
+   "record_id": "gnomAD-v4.1:7-141973545-C-G",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:06:45.917485+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "7-141973545-C-G",
+     "rsids": [
+      "rs713598"
+     ],
+     "exome": {
+      "ac": 608123,
+      "an": 1461814,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 26480,
+        "an": 60394
+       },
+       {
+        "id": "amr",
+        "ac": 29778,
+        "an": 44722
+       },
+       {
+        "id": "fin",
+        "ac": 18942,
+        "an": 53380
+       },
+       {
+        "id": "mid",
+        "ac": 2588,
+        "an": 5766
+       },
+       {
+        "id": "nfe",
+        "ac": 447830,
+        "an": 1111982
+       },
+       {
+        "id": "sas",
+        "ac": 29918,
+        "an": 86258
+       },
+       {
+        "id": "asj",
+        "ac": 12142,
+        "an": 26134
+       },
+       {
+        "id": "eas",
+        "ac": 24219,
+        "an": 39698
+       },
+       {
+        "id": "afr",
+        "ac": 16226,
+        "an": 33480
+       }
+      ]
+     },
+     "genome": {
+      "ac": 67893,
+      "an": 151874,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 1024,
+        "an": 2114
+       },
+       {
+        "id": "amr",
+        "ac": 9083,
+        "an": 15272
+       },
+       {
+        "id": "fin",
+        "ac": 3688,
+        "an": 10530
+       },
+       {
+        "id": "ami",
+        "ac": 203,
+        "an": 912
+       },
+       {
+        "id": "eas",
+        "ac": 3430,
+        "an": 5140
+       },
+       {
+        "id": "mid",
+        "ac": 142,
+        "an": 294
+       },
+       {
+        "id": "sas",
+        "ac": 1637,
+        "an": 4802
+       },
+       {
+        "id": "asj",
+        "ac": 1602,
+        "an": 3466
+       },
+       {
+        "id": "afr",
+        "ac": 19662,
+        "an": 41400
+       },
+       {
+        "id": "nfe",
+        "ac": 27422,
+        "an": 67944
+       }
+      ]
+     }
+    },
+    "errors": null
+   }
+  },
+  "gnomAD-v4.1:7-141973545-C-T": {
+   "record_id": "gnomAD-v4.1:7-141973545-C-T",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:06:46.901984+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "7-141973545-C-T",
+     "rsids": [
+      "rs713598"
+     ],
+     "exome": {
+      "ac": 1,
+      "an": 1461846,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 0,
+        "an": 60396
+       },
+       {
+        "id": "amr",
+        "ac": 0,
+        "an": 44722
+       },
+       {
+        "id": "fin",
+        "ac": 0,
+        "an": 53394
+       },
+       {
+        "id": "mid",
+        "ac": 0,
+        "an": 5766
+       },
+       {
+        "id": "nfe",
+        "ac": 1,
+        "an": 1111996
+       },
+       {
+        "id": "sas",
+        "ac": 0,
+        "an": 86258
+       },
+       {
+        "id": "asj",
+        "ac": 0,
+        "an": 26136
+       },
+       {
+        "id": "eas",
+        "ac": 0,
+        "an": 39698
+       },
+       {
+        "id": "afr",
+        "ac": 0,
+        "an": 33480
+       }
+      ]
+     },
+     "genome": null
+    },
+    "errors": null
+   }
+  },
+  "ClinVar:VCV000002904@2026-11": {
+   "record_id": "ClinVar:VCV000002904@2026-11",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/2904/",
+   "retrieved_at": "2026-11-17T02:13:55.068791+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "17943",
+    "type": "single nucleotide variant",
+    "name": "NM_176817.5(TAS2R38):c.145G>C (p.Ala49Pro)",
+    "gene_symbol": "TAS2R38",
+    "clnsig": "drug response",
+    "last_evaluated": "Dec 30, 2010",
+    "rcv": "RCV000003038",
+    "phenotype_list": "Phenylthiocarbamide tasting",
+    "origin": "germline",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "7",
+    "start": "141973545",
+    "ref": "na",
+    "alt": "na",
+    "review_status": "no assertion criteria provided",
+    "n_submitters": "1",
+    "variation_id": "2904",
+    "ref_vcf": "C",
+    "alt_vcf": "G",
+    "pos_vcf": "141973545",
+    "somatic_clinical_impact": "-",
+    "oncogenicity": "-",
+    "rsid": "rs713598",
+    "submissions": [
+     {
+      "variation_id": "2904",
+      "clnsig": "drug response",
+      "date_last_evaluated": "Dec 30, 2010",
+      "reported_phenotype": "C1868398:Phenylthiocarbamide tasting",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "OMIM",
+      "scv": "SCV000023196.1",
+      "snapshot": "2026-11"
+     }
+    ],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "drug response",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "1",
+      "last_evaluated": "Dec 30, 2010",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "drug response",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "1",
+      "last_evaluated": "Dec 30, 2010",
+      "release_date": "2019-01-03"
+     },
+     {
+      "snapshot": "2020-01",
+      "clnsig": "drug response",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "1",
+      "last_evaluated": "Dec 30, 2010",
+      "release_date": "2020-01-02"
+     },
+     {
+      "snapshot": "2026-11",
+      "clnsig": "drug response",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "1",
+      "last_evaluated": "Dec 30, 2010",
+      "release_date": "2026-11-16"
+     }
+    ]
+   }
+  },
+  "CIViC:TAS2R38:A49S": {
+   "record_id": "CIViC:TAS2R38:A49S",
+   "source": "CIViC",
+   "source_version": "CIViC GraphQL API",
+   "url": "https://civicdb.org/api/graphql",
+   "retrieved_at": "2026-11-17T02:06:47.200833+00:00",
+   "status": 200,
+   "data": {
+    "variants": []
+   }
+  },
+  "CIViC:TAS2R38:A49P": {
+   "record_id": "CIViC:TAS2R38:A49P",
+   "source": "CIViC",
+   "source_version": "CIViC GraphQL API",
+   "url": "https://civicdb.org/api/graphql",
+   "retrieved_at": "2026-11-17T02:06:47.510058+00:00",
+   "status": 200,
+   "data": {
+    "variants": []
+   }
+  },
+  "CIViC:TAS2R38:A49T": {
+   "record_id": "CIViC:TAS2R38:A49T",
+   "source": "CIViC",
+   "source_version": "CIViC GraphQL API",
+   "url": "https://civicdb.org/api/graphql",
+   "retrieved_at": "2026-11-17T02:06:48.006558+00:00",
+   "status": 200,
+   "data": {
+    "variants": []
+   }
+  },
+  "GWAS:rs713598": {
+   "record_id": "GWAS:rs713598",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:06:49.502135+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 102119806,
+      "accession_id": "GCST90243989",
+      "pubmed_id": "36477530",
+      "first_author": "Saunders GRB",
+      "p_value": 5.0000000000000005e-22,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -22,
+      "or_value": null,
+      "beta": "0.00809 unit decrease",
+      "risk_frequency": "0.431",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_1000840",
+        "efo_trait": "alcohol consumption characteristic"
+       }
+      ],
+      "reported_trait": [
+       "Drinks per week"
+      ],
+      "mapped_genes": [
+       "MGAM",
+       "TAS2R38"
+      ],
+      "snp_effect_allele": [
+       "rs713598-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2022-12-01"
+     },
+     {
+      "association_id": 102099210,
+      "accession_id": "GCST90243984",
+      "pubmed_id": "36477530",
+      "first_author": "Saunders GRB",
+      "p_value": 1e-20,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -20,
+      "or_value": null,
+      "beta": "0.0086 unit decrease",
+      "risk_frequency": "0.407",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_1000840",
+        "efo_trait": "alcohol consumption characteristic"
+       }
+      ],
+      "reported_trait": [
+       "Drinks per week"
+      ],
+      "mapped_genes": [
+       "MGAM",
+       "TAS2R38"
+      ],
+      "snp_effect_allele": [
+       "rs713598-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 1,
+      "_pubdate": "2022-12-01"
+     },
+     {
+      "association_id": 98385636,
+      "accession_id": "GCST90094873",
+      "pubmed_id": "35585065",
+      "first_author": "May-Wilson S",
+      "p_value": 1e-09,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.02215 unit decrease",
+      "risk_frequency": "0.3995",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0010155",
+        "efo_trait": "taste liking measurement"
+       }
+      ],
+      "reported_trait": [
+       "Whiskey liking"
+      ],
+      "mapped_genes": [
+       "MGAM",
+       "TAS2R38"
+      ],
+      "snp_effect_allele": [
+       "rs713598-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 2,
+      "_pubdate": "2022-05-18"
+     },
+     {
+      "association_id": 98381733,
+      "accession_id": "GCST90094783",
+      "pubmed_id": "35585065",
+      "first_author": "May-Wilson S",
+      "p_value": 5e-29,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -29,
+      "or_value": null,
+      "beta": "0.04127 unit decrease",
+      "risk_frequency": "0.3996",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0010155",
+        "efo_trait": "taste liking measurement"
+       }
+      ],
+      "reported_trait": [
+       "Horseradish liking"
+      ],
+      "mapped_genes": [
+       "MGAM",
+       "TAS2R38"
+      ],
+      "snp_effect_allele": [
+       "rs713598-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 3,
+      "_pubdate": "2022-05-18"
+     },
+     {
+      "association_id": 98378405,
+      "accession_id": "GCST90094688",
+      "pubmed_id": "35585065",
+      "first_author": "May-Wilson S",
+      "p_value": 1e-09,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.07729 unit decrease",
+      "risk_frequency": "0.3996",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0010155",
+        "efo_trait": "taste liking measurement"
+       }
+      ],
+      "reported_trait": [
+       "Alcohol liking"
+      ],
+      "mapped_genes": [
+       "MGAM",
+       "TAS2R38"
+      ],
+      "snp_effect_allele": [
+       "rs713598-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 4,
+      "_pubdate": "2022-05-18"
+     },
+     {
+      "association_id": 47433845,
+      "accession_id": "GCST008529",
+      "pubmed_id": "31046077",
+      "first_author": "Zhong VW",
+      "p_value": 3e-10,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "0.0098 unit increase",
+      "risk_frequency": "0.401",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0010091",
+        "efo_trait": "tea consumption measurement"
+       }
+      ],
+      "reported_trait": [
+       "Tea consumption"
+      ],
+      "mapped_genes": [
+       "MGAM",
+       "TAS2R38"
+      ],
+      "snp_effect_allele": [
+       "rs713598-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 5,
+      "_pubdate": "2019-07-15"
+     },
+     {
+      "association_id": 15952,
+      "accession_id": "GCST000746",
+      "pubmed_id": "20675712",
+      "first_author": "Reed DR",
+      "p_value": 2e-104,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -104,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "0.40",
+      "efo_traits": [
+       {
+        "efo_id": "GO_0050913",
+        "efo_trait": "sensory perception of bitter taste"
+       }
+      ],
+      "reported_trait": [
+       "Bitter taste response"
+      ],
+      "mapped_genes": [
+       "MGAM",
+       "TAS2R38"
+      ],
+      "snp_effect_allele": [
+       "rs713598-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 6,
+      "_pubdate": "2010-11-01"
+     }
+    ]
+   }
+  },
+  "PMID:20675712": {
+   "record_id": "PMID:20675712",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20675712/",
+   "retrieved_at": "2026-11-17T02:06:49.664400+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "20675712",
+    "title": "The perception of quinine taste intensity is associated with common genetic variants in a bitter receptor cluster on chromosome 12.",
+    "journal": "Hum Mol Genet",
+    "pubdate": "2010 Nov 1",
+    "sortpubdate": "2010-11-01"
+   }
+  },
+  "PMID:35585065": {
+   "record_id": "PMID:35585065",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35585065/",
+   "retrieved_at": "2026-11-17T02:06:49.664400+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "35585065",
+    "title": "Large-scale GWAS of food liking reveals genetic determinants and genetic correlations with distinct neurophysiological traits.",
+    "journal": "Nat Commun",
+    "pubdate": "2022 May 18",
+    "sortpubdate": "2022-05-18"
+   }
+  },
+  "PMID:36477530": {
+   "record_id": "PMID:36477530",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36477530/",
+   "retrieved_at": "2026-11-17T02:06:49.664400+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "36477530",
+    "title": "Genetic diversity fuels gene discovery for tobacco and alcohol use.",
+    "journal": "Nature",
+    "pubdate": "2022 Dec",
+    "sortpubdate": "2022-12-01"
+   }
+  },
+  "PMID:31046077": {
+   "record_id": "PMID:31046077",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31046077/",
+   "retrieved_at": "2026-11-17T02:06:49.664400+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31046077",
+    "title": "A genome-wide association study of bitter and sweet beverage consumption.",
+    "journal": "Hum Mol Genet",
+    "pubdate": "2019 Jul 15",
+    "sortpubdate": "2019-07-15"
+   }
+  },
+  "LitVar2:rs713598": {
+   "record_id": "LitVar2:rs713598",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs713598%23%23/publications",
+   "retrieved_at": "2026-11-17T02:06:49.718886+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     19092995,
+     26256902,
+     29385734,
+     23900168,
+     35090440,
+     28122634,
+     32282124,
+     32121357,
+     30241292,
+     37519890,
+     23632915,
+     29947923,
+     24626196,
+     32521750,
+     28757530,
+     25634331,
+     36643868,
+     24219164,
+     24882206,
+     32076829,
+     26633761,
+     22885924,
+     34674725,
+     30894629,
+     39201321,
+     24627758,
+     40626223,
+     37432370,
+     30643251,
+     28487220,
+     19782709,
+     22521910,
+     27245112,
+     33170488,
+     21147709,
+     18974781,
+     31073343,
+     21674048,
+     28587069,
+     22440514,
+     34684477,
+     29378629,
+     30060620,
+     29535823,
+     20941391,
+     21467728,
+     25050705,
+     26986070,
+     36771415,
+     26549847
+    ],
+    "n_pmids": 261
+   }
+  },
+  "PMID:21763010": {
+   "record_id": "PMID:21763010",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21763010/",
+   "retrieved_at": "2026-11-17T02:06:51.417276+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "21763010",
+    "title": "Implication of the G145C polymorphism (rs713598) of the TAS2r38 gene on food consumption by Brazilian older women.",
+    "journal": "Arch Gerontol Geriatr",
+    "pubdate": "2012 Mar-Apr",
+    "sortpubdate": "2012-03-01",
+    "abstract": "To evaluate the capacity to perceive bitter taste in a sample of the elderly population of the Brazilian Federal District, and to investigate its association with the consumption profile of distinct food groups. A total of 255 female outpatients aged 60 years or older took part in this cross-sectional study. The following data were determined for all the volunteers: alimentary frequency by clinical dieticians; genotyping of the G145C polymorphism in the TAS2r38 gene; cognitive status; sensorial (visual and hearing) acuity and drugs related to ageusia or dysgeusia. Sensitivity to bitter taste was assessed using phenylthiocarbamide (PTC) in a subset. Non-parametric tests confirmed the remarkable effect of the C allele in determining sensitivity to PTC (p<0.001). C allele carriers displayed diminished consumption of type B vegetables as well as of some vegetables generally recognized as bitter: arugula (p=0.044) and chard (p=0.006). No associations were observed for the remaining food classes. The present findings suggest that the G145C genetic variation in the TAS2r38 gene modestly influenced food consumption habits of Brazilian older women. Nonetheless, the results do not rule out possible effects of past experiences on choices of elderly individuals."
+   }
+  },
+  "PMID:42776737": {
+   "record_id": "PMID:42776737",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42776737/",
+   "retrieved_at": "2026-11-17T02:06:51.956442+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "42776737",
+    "title": "Correlation Between the TAS2R38 Genetic Polymorphism, PROP Perception and Eating Habits: A Cross-Sectional Molecular Epidemiological Study.",
+    "journal": "Epidemiologia (Basel)",
+    "pubdate": "2026 Sep 17",
+    "sortpubdate": "2026-09-17",
+    "abstract": "Background/Objectives: Genetic variation in bitter taste receptors, particularly TAS2R38, influences sensitivity to bitter compounds such as 6-n-propylthiouracil (PROP). However, its influence on food preferences and dietary habits remains unclear. This study investigated the relationship between TAS2R38 rs713598 polymorphism, a variant in strong linkage disequilibrium with other common variants and therefore served as a proxy for TAS2R38 bitter taste-related genetic variation, PROP responsiveness, food preferences, and adherence to the Mediterranean diet. Methods: A cross-sectional molecular epidemiological study was conducted on 200 Italian adults. Participants completed questionnaires assessing food preferences, Mediterranean diet adherence (energy-restricted Mediterranean Diet Adherence Screener; er-MEDAS), and physical activity (IPAQ). Bitter taste perception was evaluated using the PROP test and a Labelled Magnitude Scale. Saliva samples were collected for TAS2R38 rs713598 genotyping by qPCR. Associations were analysed using Spearman's correlation and generalised linear models. Results: Genotyping was completed for 176 participants. A significant positive correlation was found between rs713598 genotype and PROP sensitivity (\u03c1 = 0.404, p < 0.01). Women showed higher PROP responsiveness than men. No significant associations were observed between PROP responsiveness or TAS2R38 genotype and either food preferences or Mediterranean diet adherence. Older age was associated with greater preference for bitter foods (p = 0.008), whereas higher physical activity and non-smoking status were associated with greater adherence to the Mediterranean diet (p = 0.020 and p = 0.024, respectively). Conclusions: TAS2R38 polymorphism influenced bitter taste perception but showed limited relevance for food preferences and dietary habits. Lifestyle factors appeared more influential in shaping dietary behaviour."
+   }
+  },
+  "PMID:41732571": {
+   "record_id": "PMID:41732571",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41732571/",
+   "retrieved_at": "2026-11-17T02:06:51.956442+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "41732571",
+    "title": "Identification of hTAS2R38 bitter taste receptor antagonists via homology modeling and molecular docking.",
+    "journal": "Curr Res Food Sci",
+    "pubdate": "2026",
+    "sortpubdate": "2026-02-04",
+    "abstract": "Taste receptor type 2 members (TAS2Rs), a family of G protein-coupled receptors, comprise a single polypeptide chain with seven transmembrane helices, three extracellular loops, and three intracellular loops. These receptors detect structurally diverse bitter compounds, playing a vital role in taste perception. Among them, TAS2R38 is a key bitter taste receptor that modulates bitter taste perception and dietary preferences. In this study, we focused on human TAS2R38, utilizing homology modeling based on squid rhodopsin (PDB ID: 3AYN) to predict its 3D structure. Potential antagonists were screened via molecular docking, with calcium imaging identifying Compound 58 as a promising candidate. Further docking analysis revealed that its amino group is critical for receptor binding. Our findings demonstrate that homology modeling combined with structure-based screening effectively identifies hTAS2R38 antagonists, offering insights for advancing bitterness-masking strategies."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 39,
+  "n_claims_fully_verified": 39,
+  "n_uncited_claims": 0,
+  "n_citations": 112,
+  "n_citations_valid": 112,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 91,
+  "n_shown_values_in_text": 91,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 39,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

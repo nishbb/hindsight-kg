@@ -1,0 +1,56 @@
+VARIANT DOSSIER: rs17822931
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs17822931 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs17822931]
+- Earlier identifiers merged into rs17822931: rs52813591, rs58140753. [dbSNP build 157 rs17822931]
+- dbSNP records rs17822931 as variant type 'snv' on NC_000016.10 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs17822931]
+- Alternate allele 1: NC_000016.10:g.48224287C>A, a single-nucleotide variant (SNV) (C>A in VCF form). [dbSNP build 157 rs17822931]
+- Alternate allele 2: NC_000016.10:g.48224287C>G, a single-nucleotide variant (SNV) (C>G in VCF form). [dbSNP build 157 rs17822931]
+- Alternate allele 3: NC_000016.10:g.48224287C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs17822931]
+
+FUNCTION
+- For alternate allele 2 (C>G), Ensembl VEP predicts missense_variant in ABCC11 (ENST00000356608.7:c.538G>C; ENSP00000349017.2:p.Gly180Arg), impact MODERATE. [Ensembl VEP rs17822931]
+- For alternate allele 3 (C>T), Ensembl VEP predicts missense_variant in ABCC11 (ENST00000356608.7:c.538G>A; ENSP00000349017.2:p.Gly180Arg), impact MODERATE. [Ensembl VEP rs17822931]
+- Ensembl classifies the variant as 'SNV' with allele string C/G/T. [Ensembl VEP rs17822931]
+
+FREQUENCY
+- Alternate allele 1 (C>A) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs17822931. [gnomAD v2.1.1]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>A) has an overall allele frequency of 6.84e-07 (1 of 1,461,666 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0, South Asian 1.16e-05, Middle Eastern 0, Remaining 0. [gnomAD v4.1]
+- In gnomAD v2.1.1 exomes, alternate allele 2 (C>G) has an overall allele frequency of 3.98e-06. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0, Admixed American 2.9e-05, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0, South Asian 0, Other 0. [gnomAD v2.1.1 exomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (C>G) has an overall allele frequency of 2.05e-06 (3 of 1,461,666 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0, Admixed American 2.24e-05, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 1.8e-06, South Asian 0, Middle Eastern 0, Remaining 0. [gnomAD v4.1]
+- In gnomAD v2.1.1 exomes, alternate allele 3 (C>T) has an overall allele frequency of 0.224. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 3: African/African American 0.0267, Admixed American 0.162, Ashkenazi Jewish 0.108, East Asian 0.87, Finnish 0.235, Non-Finnish European 0.129, South Asian 0.406, Other 0.169. [gnomAD v2.1.1 exomes]
+- Population differentiation flag (gnomAD v2.1.1 exomes): allele 3 frequency ranges from 0.0267 in African/African American to 0.87 in East Asian, a large between-ancestry difference. [gnomAD v2.1.1 exomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 3 (C>T) has an overall allele frequency of 0.166 (267,125 of 1,613,704 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 3: African/African American 0.0255, Admixed American 0.148, Ashkenazi Jewish 0.109, East Asian 0.871, Finnish 0.231, Non-Finnish European 0.128, South Asian 0.405, Middle Eastern 0.0836, Amish 0.31, Remaining 0.173. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 3 frequency ranges from 0.0255 in African/African American to 0.871 in East Asian, a large between-ancestry difference. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_001370497.1(ABCC11):c.538G>A (p.Gly180Arg) (alternate allele 3) with germline classification 'Benign' for: APOCRINE GLAND SECRETION, VARIATION IN; Axillary odor; Colostrum secretion; review status 'criteria provided, single submitter', 2 submitter(s), allele origin 'germline'. [ClinVar VCV000003558 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Benign; 2019-01: Benign; 2020-01: Benign; 2026-11: Benign. The classification did not change over these releases. [ClinVar VCV000003558 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 4 'Benign'. [ClinVar VCV000003558 (2026-11 release)]
+- No allele of rs17822931 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000003558 (2026-11 release)]
+
+SOMATIC EVIDENCE
+- Ensembl VEP reports 1 co-located COSMIC somatic mutation record(s) at this position (COSV62323034). [Ensembl VEP rs17822931]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 2 association record(s) for rs17822931. [GWAS Catalog rs17822931]
+- Genome-wide significant association with breast fibrocystic disease (p = 1e-16, study GCST90651201). [GWAS Catalog GCST90651201; PMID:40465716]
+- rs17822931 is associated with 1 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs17822931; ClinVar VCV000003558 (2026-11 release)]
+
+LITERATURE
+- LitVar2 links 148 PubMed articles to rs17822931. [LitVar2 rs17822931]
+- Linked article: "Association of the rs17822931 (538G > A, G180R) in the ABCC11 gene with risk of middle ear cholesteatoma in older adults: a hospital-based case-control study at Heidelberg University Hospital, Germany" (Eur Arch Otorhinolaryngol, 2026). [PMID:41495507]
+- Linked article: "A functional single nucleotide polymorphism in ABCC11, rs17822931, is associated with the risk of breast cancer in Japanese" (Carcinogenesis, 2019). [PMID:30883634]
+- Linked article: "No Association of the rs17822931 Polymorphism in ABCC11 with Breast Cancer Risk in Koreans" (Asian Pac J Cancer Prev, 2016). [PMID:27268641]
+
+CONFLICTS AND CAVEATS
+- Gene assignment difference: sources name different genes for rs17822931 (Ensembl VEP: ABCC11; ClinVar: ABCC11; GWAS Catalog: ABCC11, LONP2, SIAH1). [Ensembl VEP rs17822931; ClinVar VCV000003558; GWAS Catalog rs17822931]
+
+BOTTOM LINE
+- Bottom line: rs17822931 in ABCC11 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with breast fibrocystic disease. Confidence: moderate (replication is limited). [ClinVar VCV000003558 (2026-11 release); GWAS Catalog rs17822931; LitVar2 rs17822931]

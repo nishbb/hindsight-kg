@@ -1,0 +1,40 @@
+VARIANT DOSSIER: rs113993960
+Evidence as of: 2020-01-01. Generated 2026-11-17.
+
+IDENTITY
+- rs113993960 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs113993960]
+- Earlier identifiers merged into rs113993960: rs199826652. [dbSNP build 157 rs113993960]
+- dbSNP records rs113993960 as variant type 'delins' on NC_000007.14 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs113993960]
+- Alternate allele 1: NC_000007.14:g.117559592_117559594del, a deletion (TCTT>T in VCF form). [dbSNP build 157 rs113993960]
+- Alternate allele 2: NC_000007.14:g.117559592_117559594dup, a insertion or duplication (T>TCTT in VCF form). [dbSNP build 157 rs113993960]
+
+FUNCTION
+- For alternate allele 1 (TCTT>T), Ensembl VEP predicts inframe_deletion in CFTR (ENST00000003084.11:c.1521_1523del; ENSP00000003084.6:p.Phe508del), impact MODERATE. [Ensembl VEP rs113993960]
+- For alternate allele 2 (T>TCTT), Ensembl VEP predicts inframe_insertion in CFTR (ENST00000003084.11:c.1523_1524insCTT; ENSP00000003084.6:p.Phe508dup), impact MODERATE. [Ensembl VEP rs113993960]
+- Ensembl classifies the variant as 'indel' with allele string TCTT/T/TCTTCTT. [Ensembl VEP rs113993960]
+
+FREQUENCY
+- Alternate allele 1 (TCTT>T) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- Alternate allele 2 (T>TCTT) has no gnomAD v2.1.1 record among the 2 MyVariant.info hits for rs113993960. [gnomAD v2.1.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_000492.3(CFTR):c.1521_1523delCTT (p.Phe508delPhe) (alternate allele 1) with germline classification 'Pathogenic' for: Bronchiectasis with or without elevated sweat chloride 1, modifier of; Cystic fibrosis; Duodenal stenosis; Hereditary pancreatitis; and 4 more; review status 'practice guideline', 20 submitter(s), allele origin 'germline;maternal;paternal;unknown'. [ClinVar VCV000007105 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic; 2019-01: Pathogenic. The classification did not change over these releases. [ClinVar VCV000007105 (2019-01 release)]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 22 association record(s) for rs113993960. Of these, 0 were published on or before 2020-01-01. [GWAS Catalog rs113993960]
+
+LITERATURE
+- LitVar2 links 6425 PubMed articles to rs113993960; 3353 of the 6423 with a PubMed date were published on or before 2020-01-01. [LitVar2 rs113993960]
+- Linked article: "F508del disturbs the dynamics of the nucleotide binding domains of CFTR before and after ATP hydrolysis" (Proteins, 2020). [PMID:31298435]
+- Linked article: "Biological Characterization of F508delCFTR Protein Processing by the CFTR Corrector ABBV-2222/GLPG2222" (J Pharmacol Exp Ther, 2020). [PMID:31732698]
+- Linked article: "Computational Analysis of Energy Landscapes Reveals Dynamic Features That Contribute to Binding of Inhibitors to CFTR-Associated Ligand" (J Phys Chem B, 2019). [PMID:31697075]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs113993960 in CFTR is best described as: germline disease variant. ClinVar links it to Bronchiectasis with or without elevated sweat chloride 1, modifier of. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict). [ClinVar VCV000007105 (2019-01 release); GWAS Catalog rs113993960; LitVar2 rs113993960]
+
+PROCESSING NOTES (not evidence)
+- CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'.

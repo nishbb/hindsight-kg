@@ -1,0 +1,15 @@
+# R-GCN edge-plausibility model on the full time-T graph (CPU, about 3 min per fold)
+encoder: rgcn
+hidden: 64
+layers: 2
+dropout: 0.2
+lr: 0.005
+weight_decay: 0.00001
+epochs: 150
+eval_every: 10
+patience: 3
+sup_frac: 0.3
+folds: 5
+val_frac: 0.1
+seed: 0
+device: cpu

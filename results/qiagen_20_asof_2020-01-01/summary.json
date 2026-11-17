@@ -1,0 +1,251 @@
+{
+ "as_of": "2020-01-01",
+ "variants": [
+  {
+   "rsid": "rs9807334",
+   "status": "ok",
+   "current": "rs9807334",
+   "n_claims": 16,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs9807334 is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved)."
+  },
+  {
+   "rsid": "rs121913529",
+   "status": "ok",
+   "current": "rs121913529",
+   "n_claims": 28,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 2,
+   "bottom_line": "Bottom line: rs121913529 in KRAS is best described as: germline disease variant. ClinVar links it to Acute myeloid leukemia. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict)."
+  },
+  {
+   "rsid": "rs72921001",
+   "status": "ok",
+   "current": "rs72921001",
+   "n_claims": 15,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs72921001 in OR10A2 is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved)."
+  },
+  {
+   "rsid": "rs17822931",
+   "status": "ok",
+   "current": "rs17822931",
+   "n_claims": 25,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 1,
+   "bottom_line": "Bottom line: rs17822931 in ABCC11 is best described as: benign variant. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved)."
+  },
+  {
+   "rsid": "rs334",
+   "status": "ok",
+   "current": "rs334",
+   "n_claims": 32,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 2,
+   "bottom_line": "Bottom line: rs334 in HBB is best described as: germline disease variant. ClinVar links it to Beta-thalassemia, dominant inclusion body type. Sources disagree on some points (see conflicts). Confidence: moderate (pathogenic assertion with limited review or with conflicting submissions)."
+  },
+  {
+   "rsid": "rs987870",
+   "status": "ok",
+   "current": "rs987870",
+   "n_claims": 24,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 1,
+   "bottom_line": "Bottom line: rs987870 in HLA-DPA1 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with systemic sclerosis. Confidence: moderate (replication is limited)."
+  },
+  {
+   "rsid": "rs429358",
+   "status": "ok",
+   "current": "rs429358",
+   "n_claims": 24,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 1,
+   "bottom_line": "Bottom line: rs429358 in APOE is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with tubulin-specific chaperone A measurement. Confidence: high (111 genome-wide significant associations across 104 studies)."
+  },
+  {
+   "rsid": "rs3827760",
+   "status": "ok",
+   "current": "rs3827760",
+   "n_claims": 28,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 1,
+   "bottom_line": "Bottom line: rs3827760 in EDAR is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with strand of hair shape. Confidence: high (15 genome-wide significant associations across 16 studies)."
+  },
+  {
+   "rsid": "rs113993960",
+   "status": "ok",
+   "current": "rs113993960",
+   "n_claims": 18,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs113993960 in CFTR is best described as: germline disease variant. ClinVar links it to Bronchiectasis with or without elevated sweat chloride 1, modifier of. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict)."
+  },
+  {
+   "rsid": "rs4988235",
+   "status": "ok",
+   "current": "rs4988235",
+   "n_claims": 29,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 1,
+   "bottom_line": "Bottom line: rs4988235 in MCM6 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with lactase-phlorizin hydrolase measurement. Confidence: high (5 genome-wide significant associations across 6 studies)."
+  },
+  {
+   "rsid": "rs28934578",
+   "status": "ok",
+   "current": "rs28934578",
+   "n_claims": 23,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 1,
+   "bottom_line": "Bottom line: rs28934578 in TP53 is best described as: germline disease variant. ClinVar links it to Hereditary cancer-predisposing syndrome. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict)."
+  },
+  {
+   "rsid": "rs17004038",
+   "status": "ok",
+   "current": "rs17004038",
+   "n_claims": 17,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs17004038 in MIF is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved)."
+  },
+  {
+   "rsid": "rs12913832",
+   "status": "ok",
+   "current": "rs12913832",
+   "n_claims": 28,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs12913832 in HERC2 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with hair color. Confidence: high (37 genome-wide significant associations across 29 studies)."
+  },
+  {
+   "rsid": "rs6025",
+   "status": "ok",
+   "current": "rs6025",
+   "n_claims": 29,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 1,
+   "bottom_line": "Bottom line: rs6025 in F5 is best described as: low-penetrance risk allele, not a fully penetrant monogenic disease variant. Its strongest reported association is with venous thromboembolism. Confidence: high (10 genome-wide significant associations across 10 studies)."
+  },
+  {
+   "rsid": "rs713598",
+   "status": "ok",
+   "current": "rs713598",
+   "n_claims": 28,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 1,
+   "bottom_line": "Bottom line: rs713598 in TAS2R38 is best described as: trait-associated common variant without an established monogenic disease role (ClinVar also records a drug-response annotation). Its strongest reported association is with sensory perception of bitter taste. Confidence: moderate (replication is limited)."
+  },
+  {
+   "rsid": "rs7412",
+   "status": "ok",
+   "current": "rs7412",
+   "n_claims": 24,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs7412 in APOE is best described as: trait-associated common variant without an established monogenic disease role (ClinVar also records a drug-response annotation). Its strongest reported association is with vacuolar protein sorting-associated protein 29 measurement. Confidence: high (127 genome-wide significant associations across 84 studies)."
+  },
+  {
+   "rsid": "rs80357713",
+   "status": "ok",
+   "current": "rs80357783",
+   "n_claims": 15,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs80357783 in BRCA1 is best described as: germline disease variant. ClinVar links it to Breast-ovarian cancer, familial 1. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict)."
+  },
+  {
+   "rsid": "rs1426654",
+   "status": "ok",
+   "current": "rs1426654",
+   "n_claims": 29,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs1426654 in SLC24A5 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with eye colour measurement. Confidence: high (11 genome-wide significant associations across 14 studies)."
+  },
+  {
+   "rsid": "rs1799963",
+   "status": "ok",
+   "current": "rs1799963",
+   "n_claims": 18,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 1,
+   "bottom_line": "Bottom line: rs1799963 in F2 is best described as: germline disease variant. ClinVar links it to Ischemic stroke, susceptibility to. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict)."
+  },
+  {
+   "rsid": "rs1801133",
+   "status": "ok",
+   "current": "rs1801133",
+   "n_claims": 29,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 0,
+   "bottom_line": "Bottom line: rs1801133 in MTHFR is best described as: trait-associated common variant without an established monogenic disease role (ClinVar also records a drug-response annotation). Its strongest reported association is with homocysteine measurement. Confidence: high (10 genome-wide significant associations across 10 studies)."
+  }
+ ],
+ "haplotypes": [
+  [
+   "rs429358",
+   "rs7412"
+  ]
+ ]
+}

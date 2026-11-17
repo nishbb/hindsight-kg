@@ -1,0 +1,42 @@
+VARIANT DOSSIER: rs72921001
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs72921001 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs72921001]
+- dbSNP records rs72921001 as variant type 'snv' on NC_000011.10 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs72921001]
+- Alternate allele 1: NC_000011.10:g.6868417C>A, a single-nucleotide variant (SNV) (C>A in VCF form). [dbSNP build 157 rs72921001]
+- Alternate allele 2: NC_000011.10:g.6868417C>G, a single-nucleotide variant (SNV) (C>G in VCF form). [dbSNP build 157 rs72921001]
+
+FUNCTION
+- For alternate allele 1 (C>A), Ensembl VEP predicts intron_variant in OR10A2 (ENST00000641461.1:c.-132-1206C>A), impact MODIFIER. [Ensembl VEP rs72921001]
+- Ensembl classifies the variant as 'SNV' with allele string C/A. [Ensembl VEP rs72921001]
+
+FREQUENCY
+- In gnomAD v2.1.1 genomes, alternate allele 1 (C>A) has an overall allele frequency of 0.322. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.198, Admixed American 0.334, Ashkenazi Jewish 0.366, East Asian 0.279, Finnish 0.376, Non-Finnish European 0.379, Other 0.378. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>A) has an overall allele frequency of 0.325 (49,338 of 151,828 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.204, Admixed American 0.335, Ashkenazi Jewish 0.365, East Asian 0.288, Finnish 0.379, Non-Finnish European 0.38, South Asian 0.411, Middle Eastern 0.298, Amish 0.436, Remaining 0.35. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0.204 in African/African American to 0.436 in Amish, a large between-ancestry difference. [gnomAD v4.1]
+- Alternate allele 2 (C>G) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs72921001. [gnomAD v2.1.1]
+- gnomAD v4.1 has no record for 11-6868417-C-G (alternate allele 2). [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- The ClinVar 2026-11 release contains no record for rs72921001. [ClinVar 2026-11 release]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs72921001]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists no association for rs72921001. [GWAS Catalog rs72921001]
+
+LITERATURE
+- LitVar2 links 5 PubMed articles to rs72921001. [LitVar2 rs72921001]
+- Linked article: "From phytochemicals to recipes: health indications and culinary uses of herbs and spices" (NPJ Sci Food, 2025). [PMID:40442113]
+- Linked article: "Genetic determinants of food preferences: a systematic review of observational studies" (BMC Nutr, 2024). [PMID:38308303]
+- Linked article: "Polymorphisms, diet and nutrigenomics" (J Prev Med Hyg, 2022). [PMID:36479483]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs72921001 in OR10A2 is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved). [GWAS Catalog rs72921001; LitVar2 rs72921001]

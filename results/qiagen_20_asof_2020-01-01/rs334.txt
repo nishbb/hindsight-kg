@@ -1,0 +1,53 @@
+VARIANT DOSSIER: rs334
+Evidence as of: 2020-01-01. Generated 2026-11-17.
+
+IDENTITY
+- rs334 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs334]
+- Earlier identifiers merged into rs334: rs3168321, rs34315575, rs77121243. [dbSNP build 157 rs334]
+- dbSNP records rs334 as variant type 'snv' on NC_000011.10 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs334]
+- Alternate allele 1: NC_000011.10:g.5227002T>A, a single-nucleotide variant (SNV) (T>A in VCF form). [dbSNP build 157 rs334]
+- Alternate allele 2: NC_000011.10:g.5227002T>C, a single-nucleotide variant (SNV) (T>C in VCF form). [dbSNP build 157 rs334]
+- Alternate allele 3: NC_000011.10:g.5227002T>G, a single-nucleotide variant (SNV) (T>G in VCF form). [dbSNP build 157 rs334]
+
+FUNCTION
+- For alternate allele 3 (T>G), Ensembl VEP predicts missense_variant in HBB (ENST00000335295.4:c.20A>C; ENSP00000333994.3:p.Glu7Ala), impact MODERATE. [Ensembl VEP rs334]
+- For alternate allele 2 (T>C), Ensembl VEP predicts missense_variant in HBB (ENST00000335295.4:c.20A>G; ENSP00000333994.3:p.Glu7Gly), impact MODERATE. [Ensembl VEP rs334]
+- For alternate allele 1 (T>A), Ensembl VEP predicts missense_variant in HBB (ENST00000335295.4:c.20A>T; ENSP00000333994.3:p.Glu7Val), impact MODERATE. [Ensembl VEP rs334]
+- Ensembl classifies the variant as 'SNV' with allele string T/A/C/G. [Ensembl VEP rs334]
+
+FREQUENCY
+- In gnomAD v2.1.1 exomes, alternate allele 1 (T>A) has an overall allele frequency of 0.00348. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.047, Admixed American 0.00217, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 5.28e-05, South Asian 0.000621, Other 0.00163. [gnomAD v2.1.1 exomes]
+- Population differentiation flag (gnomAD v2.1.1 exomes): allele 1 frequency ranges from 0 in Ashkenazi Jewish to 0.047 in African/African American, a large between-ancestry difference. [gnomAD v2.1.1 exomes]
+- Alternate allele 2 (T>C) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+- Alternate allele 3 (T>G) was not observed in gnomAD v2.1.1 exomes or genomes. [gnomAD v2.1.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_000518.4(HBB):c.20A>C (p.Glu7Ala) (alternate allele 3) with germline classification 'other' for: HEMOGLOBIN G (MAKASSAR); review status 'no assertion criteria provided', 1 submitter(s), allele origin 'germline'. [ClinVar VCV000015175 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: other; 2019-01: other. The classification did not change over these releases. [ClinVar VCV000015175 (2019-01 release)]
+- ClinVar lists NM_000518.5(HBB):c.20A>T (p.Glu7Val) (alternate allele 1) with germline classification 'Pathogenic' for: Beta-thalassemia, dominant inclusion body type; Fetal hemoglobin quantitative trait locus 1; HEMOGLOBIN JAMAICA PLAIN; HEMOGLOBIN S; and 12 more; review status 'no interpretation for the single variant', 13 submitter(s), allele origin 'germline;maternal;paternal;unknown'. [ClinVar VCV000015333 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic, other, protective; 2019-01: Pathogenic. The classification changed over these releases. [ClinVar VCV000015333 (2019-01 release)]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 134 association record(s) for rs334. Of these, 19 were published on or before 2020-01-01. [GWAS Catalog rs334]
+- Genome-wide significant association with malaria (p = 4e-69, study GCST010725). [GWAS Catalog GCST010725; PMID:31844061]
+- Genome-wide significant association with HbA1c measurement (p = 3e-39, study GCST008398, effect allele rs334-A). [GWAS Catalog GCST008398; PMID:31213470]
+- Genome-wide significant association with mean corpuscular hemoglobin concentration (p = 8e-26, study GCST008038). [GWAS Catalog GCST008038; PMID:31217584]
+- Genome-wide significant association with erythrocyte volume (p = 1e-22, study GCST004335, effect allele rs334-T). [GWAS Catalog GCST004335; PMID:28453575]
+- Genome-wide significant association with basophil count (p = 5e-20, study GCST008337). [GWAS Catalog GCST008337; PMID:31080455]
+- Genome-wide significant association with red cell distribution width (p = 2e-17, study GCST009032, effect allele rs334-T). [GWAS Catalog GCST009032; PMID:31675503]
+
+LITERATURE
+- LitVar2 links 597 PubMed articles to rs334; 262 of the 597 with a PubMed date were published on or before 2020-01-01. [LitVar2 rs334]
+- Linked article: "Hb Rush (HBB: c.304G>C): A Rare Variant Hemoglobin Mimicking the Hb S (HBB: c.20A>T) Variant on High Performance Liquid Chromatography" (Hemoglobin, 2020). [PMID:32124638]
+- Linked article: "Genetic Background of β-Thalassemia in Northeast Algeria with Assessment of the Thalassemia Severity Score and Description of a new β(0)-Thalassemia Frameshift Mutation (HBB: c.374dup; p.Pro126Thrfs*15)" (Hemoglobin, 2019). [PMID:31603010]
+- Linked article: "Compound Heterozygote of Hb S (HBB: c.20A>T)/Hb Westdale (HBB: c.380_396delTGCAGGCTGCCTATCAG): Report of Four Cases from Odisha State, India" (Hemoglobin, 2019). [PMID:31190580]
+
+CONFLICTS AND CAVEATS
+- Allele-specific interpretation: the alternate alleles of rs334 carry different ClinVar classifications (allele 1: Pathogenic; allele 3: other), so the rsID alone does not determine clinical meaning. [ClinVar VCV000015175; ClinVar VCV000015333]
+
+BOTTOM LINE
+- Bottom line: rs334 in HBB is best described as: germline disease variant. ClinVar links it to Beta-thalassemia, dominant inclusion body type. Sources disagree on some points (see conflicts). Confidence: moderate (pathogenic assertion with limited review or with conflicting submissions). [ClinVar VCV000015175 (2019-01 release); ClinVar VCV000015333 (2019-01 release); GWAS Catalog rs334; LitVar2 rs334]
+
+PROCESSING NOTES (not evidence)
+- CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'.

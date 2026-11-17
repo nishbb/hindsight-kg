@@ -1,0 +1,50 @@
+VARIANT DOSSIER: rs121913529
+Evidence as of: 2020-01-01. Generated 2026-11-17.
+
+IDENTITY
+- rs121913529 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs121913529]
+- Earlier identifiers merged into rs121913529: rs121913531, rs121913534. [dbSNP build 157 rs121913529]
+- dbSNP records rs121913529 as variant type 'snv' on NC_000012.12 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs121913529]
+- Alternate allele 1: NC_000012.12:g.25245350C>A, a single-nucleotide variant (SNV) (C>A in VCF form). [dbSNP build 157 rs121913529]
+- Alternate allele 2: NC_000012.12:g.25245350C>G, a single-nucleotide variant (SNV) (C>G in VCF form). [dbSNP build 157 rs121913529]
+- Alternate allele 3: NC_000012.12:g.25245350C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs121913529]
+
+FUNCTION
+- For alternate allele 2 (C>G), Ensembl VEP predicts missense_variant in KRAS (ENST00000311936.8:c.35G>C; ENSP00000308495.3:p.Gly12Ala), impact MODERATE. [Ensembl VEP rs121913529]
+- For alternate allele 1 (C>A), Ensembl VEP predicts missense_variant in KRAS (ENST00000311936.8:c.35G>T; ENSP00000308495.3:p.Gly12Val), impact MODERATE. [Ensembl VEP rs121913529]
+- For alternate allele 3 (C>T), Ensembl VEP predicts missense_variant in KRAS (ENST00000311936.8:c.35G>A; ENSP00000308495.3:p.Gly12Asp), impact MODERATE. [Ensembl VEP rs121913529]
+- Ensembl classifies the variant as 'SNV' with allele string C/A/G/T. [Ensembl VEP rs121913529]
+
+FREQUENCY
+- In gnomAD v2.1.1 exomes, alternate allele 1 (C>A) has an overall allele frequency of 0. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0, South Asian 0, Other 0. [gnomAD v2.1.1 exomes]
+- In gnomAD v2.1.1 exomes, alternate allele 2 (C>G) has an overall allele frequency of 0. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0, South Asian 0, Other 0. [gnomAD v2.1.1 exomes]
+- In gnomAD v2.1.1 exomes, alternate allele 3 (C>T) has an overall allele frequency of 4.01e-06. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 3: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 8.88e-06, South Asian 0, Other 0. [gnomAD v2.1.1 exomes]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_004985.4(KRAS):c.35G>A (p.Gly12Asp) (alternate allele 3) with germline classification 'Pathogenic' for: Acute myeloid leukemia; Carcinoma of pancreas; Cerebral arteriovenous malformation; Epidermal nevus; and 13 more; review status 'criteria provided, multiple submitters, no conflicts', 6 submitter(s), allele origin 'germline;somatic'. [ClinVar VCV000012582 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic/Likely pathogenic; 2019-01: Pathogenic. The classification changed over these releases. [ClinVar VCV000012582 (2019-01 release)]
+- ClinVar lists NM_004985.4(KRAS):c.35G>T (p.Gly12Val) (alternate allele 1) with germline classification 'Pathogenic' for: Acute myeloid leukemia; Carcinoma of pancreas; Cerebral arteriovenous malformation; Juvenile myelomonocytic leukemia; and 5 more; review status 'criteria provided, single submitter', 5 submitter(s), allele origin 'germline;somatic'. [ClinVar VCV000012583 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic/Likely pathogenic; 2019-01: Pathogenic. The classification changed over these releases. [ClinVar VCV000012583 (2019-01 release)]
+- ClinVar lists NM_033360.3(KRAS):c.35G>C (p.Gly12Ala) (alternate allele 2) with germline classification 'Pathogenic/Likely pathogenic' for: Gastrointestinal stroma tumor; Lung adenocarcinoma; Neoplasm of the large intestine; Non-small cell lung cancer; and 1 more; review status 'no assertion criteria provided', 2 submitter(s), allele origin 'somatic'. [ClinVar VCV000045122 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic/Likely pathogenic; 2019-01: Pathogenic/Likely pathogenic. The classification did not change over these releases. [ClinVar VCV000045122 (2019-01 release)]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists no association for rs121913529. [GWAS Catalog rs121913529]
+
+LITERATURE
+- LitVar2 links 15418 PubMed articles to rs121913529; 6427 of the 15413 with a PubMed date were published on or before 2020-01-01. [LitVar2 rs121913529]
+- Linked article: "Magnetic Resonance-Based Texture Analysis Differentiating KRAS Mutation Status in Rectal Cancer" (Cancer Res Treat, 2020). [PMID:31096736]
+- Linked article: "Atypical KRAS(G12R) Mutant Is Impaired in PI3K Signaling and Macropinocytosis in Pancreatic Cancer" (Cancer Discov, 2020). [PMID:31649109]
+- Linked article: "The prevalence and prognostic value of KRAS co-mutation subtypes in Chinese advanced non-small cell lung cancer patients" (Cancer Med, 2020). [PMID:31709742]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs121913529 in KRAS is best described as: germline disease variant. ClinVar links it to Acute myeloid leukemia. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict). [ClinVar VCV000012582 (2019-01 release); ClinVar VCV000012583 (2019-01 release); ClinVar VCV000045122 (2019-01 release); GWAS Catalog rs121913529; LitVar2 rs121913529]
+
+PROCESSING NOTES (not evidence)
+- CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'.

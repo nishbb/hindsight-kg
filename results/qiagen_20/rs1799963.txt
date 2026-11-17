@@ -1,0 +1,50 @@
+VARIANT DOSSIER: rs1799963
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs1799963 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs1799963]
+- dbSNP records rs1799963 as variant type 'snv' on NC_000011.10 (GRCh38) with 1 alternate allele. [dbSNP build 157 rs1799963]
+- Alternate allele 1: NC_000011.10:g.46739505G>A, a single-nucleotide variant (SNV) (G>A in VCF form). [dbSNP build 157 rs1799963]
+
+FUNCTION
+- For alternate allele 1 (G>A), Ensembl VEP predicts 3_prime_UTR_variant in F2 (ENST00000311907.10:c.*97G>A), impact MODIFIER. [Ensembl VEP rs1799963]
+- Ensembl classifies the variant as 'SNV' with allele string G/A. [Ensembl VEP rs1799963]
+
+FREQUENCY
+- In gnomAD v2.1.1 genomes, alternate allele 1 (G>A) has an overall allele frequency of 0.00844. [gnomAD v2.1.1 genomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.00275, Admixed American 0.0177, Ashkenazi Jewish 0.0138, East Asian 0, Finnish 0.0046, Non-Finnish European 0.0124, Other 0.0129. [gnomAD v2.1.1 genomes]
+- Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0 in East Asian to 0.0177 in Admixed American, a large between-ancestry difference. [gnomAD v2.1.1 genomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (G>A) has an overall allele frequency of 0.0114 (16,850 of 1,480,018 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.00227, Admixed American 0.0115, Ashkenazi Jewish 0.035, East Asian 4.53e-05, Finnish 0.00494, Non-Finnish European 0.0129, South Asian 0.00198, Middle Eastern 0.0179, Amish 0, Remaining 0.0117. [gnomAD v4.1]
+- Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0 in Amish to 0.035 in Ashkenazi Jewish, a large between-ancestry difference. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_000506.5(F2):c.*97G>A (alternate allele 1) with germline classification 'Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor' for: Ischemic stroke; Pregnancy loss, recurrent, susceptibility to, 2; Congenital prothrombin deficiency; Venous thromboembolism; and 4 more; review status 'criteria provided, multiple submitters, no conflicts', 33 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000013310 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic, risk factor; 2019-01: Pathogenic; 2020-01: Pathogenic, risk factor; 2026-11: Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor. The classification changed over these releases. [ClinVar VCV000013310 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 24 'Pathogenic', 5 'risk factor', 2 'Established risk allele', 2 'Likely pathogenic', 1 'not provided', 1 'Pathogenic, low penetrance', 1 'Uncertain significance'. [ClinVar VCV000013310 (2026-11 release)]
+- No allele of rs1799963 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000013310 (2026-11 release)]
+
+SOMATIC EVIDENCE
+- No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs1799963]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 40 association record(s) for rs1799963. [GWAS Catalog rs1799963]
+- Genome-wide significant association with venous thromboembolism (p = 1e-175, study GCST90797305, effect allele rs1799963-A). [GWAS Catalog GCST90797305; PMID:36154123]
+- Genome-wide significant association with prothrombin amount (p = 4e-118, study GCST90469169, effect allele rs1799963-A). [GWAS Catalog GCST90469169; PMID:39789286]
+- Genome-wide significant association with thrombophilia (p = 3e-96, study GCST90479978, effect allele rs1799963-G). [GWAS Catalog GCST90479978; PMID:39024449]
+- Genome-wide significant association with deep vein thrombosis (p = 2e-84, study GCST90480220, effect allele rs1799963-G). [GWAS Catalog GCST90480220; PMID:39024449]
+- Genome-wide significant association with acute cor pulmonale (p = 7e-59, study GCST90480138, effect allele rs1799963-G). [GWAS Catalog GCST90480138; PMID:39024449]
+- Genome-wide significant association with Pulmonary Infarction (p = 7e-58, study GCST90480137, effect allele rs1799963-G). [GWAS Catalog GCST90480137; PMID:39024449]
+- rs1799963 is associated with 14 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs1799963; ClinVar VCV000013310 (2026-11 release)]
+
+LITERATURE
+- LitVar2 links 3743 PubMed articles to rs1799963. [LitVar2 rs1799963]
+- Linked article: "The Prevalence of the Thrombotic SNPs rs6025, rs1799963, rs2066865, rs2289252 and rs8176719 in Patients with Venous Thromboembolism in the Czech Population" (Clin Appl Thromb Hemost, 2025). [PMID:40094632]
+- Linked article: "F2c.*C20209T mutation in patients with a history of thrombosis: A case report, retrospective 2 site-results and review of the literature" (Int J Lab Hematol, 2024). [PMID:38975952]
+- Linked article: "ATR1 A1166C (rs5186), FII G20210A (rs1799963), FV G1691A (rs6025), FXIII 97G > T (rs11466016) and MTHFR A1298C (rs1801131) polymorphisms and the risk of ST-elevation myocardial infarction in young Mexican individuals" (Mol Biol Rep, 2024). [PMID:38270639]
+
+CONFLICTS AND CAVEATS
+- Submitter conflict: ClinVar submissions for NM_000506.5(F2):c.*97G>A disagree (26 pathogenic or likely pathogenic, 1 uncertain significance); the aggregate classification is 'Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor'. [ClinVar VCV000013310]
+
+BOTTOM LINE
+- Bottom line: rs1799963 in F2 is best described as: low-penetrance risk allele, not a fully penetrant monogenic disease variant. Its strongest reported association is with venous thromboembolism. Sources disagree on some points (see conflicts). Confidence: high (40 genome-wide significant associations across 40 studies). [ClinVar VCV000013310 (2026-11 release); GWAS Catalog rs1799963; LitVar2 rs1799963]

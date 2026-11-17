@@ -1,0 +1,71 @@
+VARIANT DOSSIER: rs121913529
+Evidence as of: latest. Generated 2026-11-17.
+
+IDENTITY
+- rs121913529 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs121913529]
+- Earlier identifiers merged into rs121913529: rs121913531, rs121913534. [dbSNP build 157 rs121913529]
+- dbSNP records rs121913529 as variant type 'snv' on NC_000012.12 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately. [dbSNP build 157 rs121913529]
+- Alternate allele 1: NC_000012.12:g.25245350C>A, a single-nucleotide variant (SNV) (C>A in VCF form). [dbSNP build 157 rs121913529]
+- Alternate allele 2: NC_000012.12:g.25245350C>G, a single-nucleotide variant (SNV) (C>G in VCF form). [dbSNP build 157 rs121913529]
+- Alternate allele 3: NC_000012.12:g.25245350C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs121913529]
+
+FUNCTION
+- For alternate allele 2 (C>G), Ensembl VEP predicts missense_variant in KRAS (ENST00000311936.8:c.35G>C; ENSP00000308495.3:p.Gly12Ala), impact MODERATE. [Ensembl VEP rs121913529]
+- For alternate allele 1 (C>A), Ensembl VEP predicts missense_variant in KRAS (ENST00000311936.8:c.35G>T; ENSP00000308495.3:p.Gly12Val), impact MODERATE. [Ensembl VEP rs121913529]
+- For alternate allele 3 (C>T), Ensembl VEP predicts missense_variant in KRAS (ENST00000311936.8:c.35G>A; ENSP00000308495.3:p.Gly12Asp), impact MODERATE. [Ensembl VEP rs121913529]
+- Ensembl classifies the variant as 'SNV' with allele string C/A/G/T. [Ensembl VEP rs121913529]
+
+FREQUENCY
+- In gnomAD v2.1.1 exomes, alternate allele 1 (C>A) has an overall allele frequency of 0. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0, South Asian 0, Other 0. [gnomAD v2.1.1 exomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>A) has an overall allele frequency of 6.85e-07 (1 of 1,460,566 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 9e-07, South Asian 0, Middle Eastern 0, Remaining 0. [gnomAD v4.1]
+- In gnomAD v2.1.1 exomes, alternate allele 2 (C>G) has an overall allele frequency of 0. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 2: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 0, South Asian 0, Other 0. [gnomAD v2.1.1 exomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 2 (C>G) has an overall allele frequency of 1.37e-06 (2 of 1,460,566 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 2: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 1.8e-06, South Asian 0, Middle Eastern 0, Remaining 0. [gnomAD v4.1]
+- In gnomAD v2.1.1 exomes, alternate allele 3 (C>T) has an overall allele frequency of 4.01e-06. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 3: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 8.88e-06, South Asian 0, Other 0. [gnomAD v2.1.1 exomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 3 (C>T) has an overall allele frequency of 3.72e-06 (6 of 1,612,744 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 3: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 4.24e-06, South Asian 0, Middle Eastern 0, Amish 0, Remaining 1.6e-05. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_004985.5(KRAS):c.35G>A (p.Gly12Asp) (alternate allele 3) with germline classification 'Pathogenic/Likely pathogenic' for: Carcinoma of pancreas; Epidermal nevus; Nevus sebaceous; Linear nevus sebaceous syndrome; and 30 more; review status 'criteria provided, multiple submitters, no conflicts', 29 submitter(s), allele origin 'de novo;germline;somatic;unknown'. [ClinVar VCV000012582 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic/Likely pathogenic; 2019-01: Pathogenic; 2020-01: Pathogenic; 2026-11: Pathogenic/Likely pathogenic. The classification changed over these releases. [ClinVar VCV000012582 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 32 'Pathogenic', 12 without a germline classification, 3 'Likely pathogenic', 1 'association', 1 'not provided'. [ClinVar VCV000012582 (2026-11 release)]
+- ClinVar lists NM_004985.5(KRAS):c.35G>T (p.Gly12Val) (alternate allele 1) with germline classification 'Pathogenic' for: Carcinoma of pancreas; Nevus sebaceous; Juvenile myelomonocytic leukemia; Non-small cell lung carcinoma; and 11 more; review status 'criteria provided, multiple submitters, no conflicts', 15 submitter(s), allele origin 'germline;somatic;unknown'. [ClinVar VCV000012583 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic/Likely pathogenic; 2019-01: Pathogenic; 2020-01: Pathogenic; 2026-11: Pathogenic. The classification changed over these releases. [ClinVar VCV000012583 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 16 'Pathogenic', 5 without a germline classification. [ClinVar VCV000012583 (2026-11 release)]
+- ClinVar lists NM_004985.5(KRAS):c.35G>C (p.Gly12Ala) (alternate allele 2) with germline classification 'Pathogenic/Likely pathogenic' for: Non-small cell lung carcinoma; Multiple myeloma; Gallbladder cancer; Lung cancer; and 5 more; review status 'criteria provided, multiple submitters, no conflicts', 11 submitter(s), allele origin 'germline;somatic;unknown'. [ClinVar VCV000045122 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic/Likely pathogenic; 2019-01: Pathogenic/Likely pathogenic; 2020-01: Pathogenic/Likely pathogenic; 2026-11: Pathogenic/Likely pathogenic. The classification did not change over these releases. [ClinVar VCV000045122 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 6 'Pathogenic', 3 without a germline classification, 3 'Likely pathogenic'. [ClinVar VCV000045122 (2026-11 release)]
+
+SOMATIC EVIDENCE
+- Ensembl VEP reports 3 co-located COSMIC somatic mutation record(s) at this position (COSV55497369, COSV55497419, COSV55497479). [Ensembl VEP rs121913529]
+- ClinVar gives NM_004985.5(KRAS):c.35G>A (p.Gly12Asp) a somatic oncogenicity classification of 'Oncogenic'. [ClinVar VCV000012582 (2026-11 release)]
+- ClinVar gives NM_004985.5(KRAS):c.35G>A (p.Gly12Asp) a somatic clinical impact classification of 'Tier I - Strong'. [ClinVar VCV000012582 (2026-11 release)]
+- ClinVar gives NM_004985.5(KRAS):c.35G>T (p.Gly12Val) a somatic oncogenicity classification of 'Oncogenic'. [ClinVar VCV000012583 (2026-11 release)]
+- ClinVar gives NM_004985.5(KRAS):c.35G>T (p.Gly12Val) a somatic clinical impact classification of 'Tier I - Strong'. [ClinVar VCV000012583 (2026-11 release)]
+- ClinVar gives NM_004985.5(KRAS):c.35G>C (p.Gly12Ala) a somatic oncogenicity classification of 'Oncogenic'. [ClinVar VCV000045122 (2026-11 release)]
+- ClinVar gives NM_004985.5(KRAS):c.35G>C (p.Gly12Ala) a somatic clinical impact classification of 'Tier I - Strong'. [ClinVar VCV000045122 (2026-11 release)]
+- CIViC has a curated entry for KRAS G12V (alternate allele 1) with 37 evidence item(s) across 3 molecular profile(s). [CIViC variant 425]
+- CIViC has a curated entry for KRAS G12A (alternate allele 2) with 29 evidence item(s) across 2 molecular profile(s). [CIViC variant 148]
+- CIViC has a curated entry for KRAS G12D (alternate allele 3) with 78 evidence item(s) across 19 molecular profile(s). [CIViC variant 79]
+- The Database of Curated Mutations (DoCM) lists chr12:g.25398284C>A for: Thyroid Cancer. [DoCM via MyVariant.info]
+- The Database of Curated Mutations (DoCM) lists chr12:g.25398284C>T for: Thyroid Cancer. [DoCM via MyVariant.info]
+- The Database of Curated Mutations (DoCM) lists chr12:g.25398284C>G for: Thyroid Cancer. [DoCM via MyVariant.info]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists no association for rs121913529. [GWAS Catalog rs121913529]
+
+LITERATURE
+- LitVar2 links 15418 PubMed articles to rs121913529. [LitVar2 rs121913529]
+- Linked article: "Design, synthesis, and structural optimization of novel pan-KRAS degrader for the treatment of KRAS-mutant pancreatic cancer" (Eur J Med Chem, 2026). [PMID:42800113]
+- Linked article: "Design, synthesis and biological evaluation of novel KRAS-G12D inhibitors" (J Enzyme Inhib Med Chem, 2026). [PMID:41645749]
+- Linked article: "Benchmarking docking and ML re-scoring screening performance for KRAS G12D in pancreatic cancer" (Mol Divers, 2026). [PMID:42365569]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs121913529 in KRAS is best described as: recurrent somatic cancer hotspot that also carries germline pathogenic assertions. ClinVar links it to Carcinoma of pancreas. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict). [ClinVar VCV000012582 (2026-11 release); ClinVar VCV000012583 (2026-11 release); ClinVar VCV000045122 (2026-11 release); GWAS Catalog rs121913529; LitVar2 rs121913529]

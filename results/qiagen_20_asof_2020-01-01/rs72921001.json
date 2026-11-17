@@ -1,0 +1,735 @@
+{
+ "rsid_query": "rs72921001",
+ "rsid_current": "rs72921001",
+ "as_of": "2020-01-01",
+ "generated_at": "2026-11-17T02:13:59.992024+00:00",
+ "genes": {
+  "vep": [
+   "OR10A2"
+  ],
+  "dbsnp": [
+   "OR10A2"
+  ],
+  "clinvar": [],
+  "gwas": []
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000011.10:g.6868417C>A",
+   "spdi_deleted": "C",
+   "spdi_inserted": "A",
+   "chrom": "11",
+   "pos": 6868417,
+   "ref": "C",
+   "alt": "A",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "11-6868417-C-A",
+   "vep": {
+    "gene_symbol": "OR10A2",
+    "consequence_terms": [
+     "intron_variant"
+    ],
+    "hgvsc": "ENST00000641461.1:c.-132-1206C>A",
+    "hgvsp": null,
+    "impact": "MODIFIER",
+    "mane_select": "NM_001004460.2"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "genomes",
+     "overall": 0.322189,
+     "populations": {
+      "afr": 0.197508,
+      "amr": 0.334123,
+      "asj": 0.365517,
+      "eas": 0.27871,
+      "fin": 0.376226,
+      "nfe": 0.379241,
+      "oth": 0.378004
+     },
+     "an": 31286
+    }
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000011.10:g.6868417C>G",
+   "spdi_deleted": "C",
+   "spdi_inserted": "G",
+   "chrom": "11",
+   "pos": 6868417,
+   "ref": "C",
+   "alt": "G",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "11-6868417-C-G",
+   "vep": null,
+   "frequency": {
+    "gnomad_v2": null
+   }
+  }
+ ],
+ "clinvar": [],
+ "clinvar_release": "2019-01",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 0,
+  "n_associations_in_scope": 0,
+  "n_genome_wide_significant": 0,
+  "n_studies": 0,
+  "mapped_genes": [],
+  "top_traits": [],
+  "n_distinct_traits_significant": 0,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 5,
+  "n_in_scope": 2,
+  "pmids_in_scope": [
+   "31357559",
+   "25660959"
+  ],
+  "top": [
+   "31357559",
+   "25660959"
+  ]
+ },
+ "conflicts": [],
+ "bottom_line": {
+  "category": "variant with little curated evidence",
+  "confidence": "low",
+  "rationale": "no pathogenic assertion and no genome-wide significant association were retrieved",
+  "text": "Bottom line: rs72921001 in OR10A2 is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved)."
+ },
+ "notes": [
+  "CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'."
+ ],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs72921001 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs72921001",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs72921001",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs72921001 as variant type 'snv' on NC_000011.10 (GRCh38) with 2 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs72921001",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs72921001",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs72921001",
+     "path": "seq_id",
+     "value": "NC_000011.10",
+     "label": "dbSNP build 157 rs72921001",
+     "mode": "eq",
+     "shown": "NC_000011.10",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000011.10:g.6868417C>A, a single-nucleotide variant (SNV) (C>A in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs72921001",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000011.10:g.6868417C>A",
+     "label": "dbSNP build 157 rs72921001",
+     "mode": "eq",
+     "shown": "NC_000011.10:g.6868417C>A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000011.10:g.6868417C>G, a single-nucleotide variant (SNV) (C>G in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs72921001",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000011.10:g.6868417C>G",
+     "label": "dbSNP build 157 rs72921001",
+     "mode": "eq",
+     "shown": "NC_000011.10:g.6868417C>G",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (C>A), Ensembl VEP predicts intron_variant in OR10A2 (ENST00000641461.1:c.-132-1206C>A), impact MODIFIER.",
+   "citations": [
+    {
+     "record_id": "VEP:rs72921001",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "intron_variant",
+     "label": "Ensembl VEP rs72921001",
+     "mode": "eq",
+     "shown": "intron_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs72921001",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "OR10A2",
+     "label": "Ensembl VEP rs72921001",
+     "mode": "eq",
+     "shown": "OR10A2",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs72921001",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000641461.1:c.-132-1206C>A",
+     "label": "Ensembl VEP rs72921001",
+     "mode": "eq",
+     "shown": "ENST00000641461.1:c.-132-1206C>A",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs72921001",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODIFIER",
+     "label": "Ensembl VEP rs72921001",
+     "mode": "eq",
+     "shown": "MODIFIER",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string C/A.",
+   "citations": [
+    {
+     "record_id": "VEP:rs72921001",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs72921001",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs72921001",
+     "path": "allele_string",
+     "value": "C/A",
+     "label": "Ensembl VEP rs72921001",
+     "mode": "eq",
+     "shown": "C/A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 genomes, alternate allele 1 (C>A) has an overall allele frequency of 0.322.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af",
+     "value": 0.322189,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.322",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.198, Admixed American 0.334, Ashkenazi Jewish 0.366, East Asian 0.279, Finnish 0.376, Non-Finnish European 0.379, Other 0.378.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af_afr",
+     "value": 0.197508,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.198",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af_amr",
+     "value": 0.334123,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.334",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af_asj",
+     "value": 0.365517,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.366",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.27871,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.279",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af_fin",
+     "value": 0.376226,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.376",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af_nfe",
+     "value": 0.379241,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.379",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits.0.gnomad_genome.af.af_oth",
+     "value": 0.378004,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.378",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 2 (C>G) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs72921001.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs72921001",
+     "path": "hits",
+     "value": null,
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "The ClinVar 2019-01 release contains no record for rs72921001.",
+   "citations": [
+    {
+     "record_id": "ClinVar:rs72921001@2019-01",
+     "path": "n_records",
+     "value": 0,
+     "label": "ClinVar 2019-01 release",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists no association for rs72921001.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs72921001",
+     "path": "associations",
+     "value": [],
+     "label": "GWAS Catalog rs72921001",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 5 PubMed articles to rs72921001; 2 of the 5 with a PubMed date were published on or before 2020-01-01.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs72921001",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs72921001",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"A Brief Review of Genetic Approaches to the Study of Food Preferences: Current Knowledge and Future Directions\" (Nutrients, 2019).",
+   "citations": [
+    {
+     "record_id": "PMID:31357559",
+     "path": "title",
+     "value": "A Brief Review of Genetic Approaches to the Study of Food Preferences: Current Knowledge and Future Directions.",
+     "label": "PMID:31357559",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:31357559",
+     "path": "journal",
+     "value": "Nutrients",
+     "label": "PMID:31357559",
+     "mode": "eq",
+     "shown": "Nutrients",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Mammalian odorant receptors: functional evolution and variation\" (Curr Opin Neurobiol, 2015).",
+   "citations": [
+    {
+     "record_id": "PMID:25660959",
+     "path": "title",
+     "value": "Mammalian odorant receptors: functional evolution and variation.",
+     "label": "PMID:25660959",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:25660959",
+     "path": "journal",
+     "value": "Curr Opin Neurobiol",
+     "label": "PMID:25660959",
+     "mode": "eq",
+     "shown": "Curr Opin Neurobiol",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs72921001 in OR10A2 is best described as: variant with little curated evidence. Confidence: low (no pathogenic assertion and no genome-wide significant association were retrieved).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs72921001",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs72921001",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs72921001",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs72921001",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs72921001": {
+   "record_id": "dbSNP:rs72921001",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/72921001",
+   "retrieved_at": "2026-11-17T01:59:59.798724+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "72921001",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [],
+    "merged_into": [],
+    "citations": [],
+    "variant_type": "snv",
+    "seq_id": "NC_000011.10",
+    "alleles": [
+     {
+      "hgvs": "NC_000011.10:g.6868417=",
+      "position0": 6868416,
+      "deleted": "C",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000011.10:g.6868417C>A",
+      "position0": 6868416,
+      "deleted": "C",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000011.10:g.6868417C>G",
+      "position0": 6868416,
+      "deleted": "C",
+      "inserted": "G"
+     }
+    ],
+    "genes": [
+     "OR10A2"
+    ]
+   }
+  },
+  "VEP:rs72921001": {
+   "record_id": "VEP:rs72921001",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs72921001",
+   "retrieved_at": "2026-11-17T02:00:01.381385+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs72921001",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "11",
+    "start": 6868417,
+    "end": 6868417,
+    "allele_string": "C/A",
+    "variant_class": "SNV",
+    "most_severe_consequence": "intron_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "A",
+      "gene_symbol": "OR10A2",
+      "gene_id": "ENSG00000170790",
+      "transcript_id": "ENST00000641461",
+      "mane_select": "NM_001004460.2",
+      "consequence_terms": [
+       "intron_variant"
+      ],
+      "hgvsc": "ENST00000641461.1:c.-132-1206C>A",
+      "hgvsp": null,
+      "impact": "MODIFIER",
+      "amino_acids": null,
+      "protein_start": null,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [],
+    "colocated_somatic": false
+   }
+  },
+  "gnomAD-v2.1.1:rs72921001": {
+   "record_id": "gnomAD-v2.1.1:rs72921001",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:00:01.789727+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr11:g.6889648C>A",
+      "_score": 17.141037,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 7.273
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "A",
+       "ref": "C",
+       "vartype": "snv"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.322189,
+        "af_afr": 0.197508,
+        "af_afr_female": 0.201039,
+        "af_afr_male": 0.194932,
+        "af_amr": 0.334123,
+        "af_amr_female": 0.303398,
+        "af_amr_male": 0.363426,
+        "af_asj": 0.365517,
+        "af_asj_female": 0.35,
+        "af_asj_male": 0.371429,
+        "af_eas": 0.27871,
+        "af_eas_female": 0.291045,
+        "af_eas_male": 0.272189,
+        "af_female": 0.329078,
+        "af_fin": 0.376226,
+        "af_fin_female": 0.379217,
+        "af_fin_male": 0.37285,
+        "af_male": 0.316705,
+        "af_nfe": 0.379241,
+        "af_nfe_est": 0.386384,
+        "af_nfe_female": 0.384434,
+        "af_nfe_male": 0.375145,
+        "af_nfe_nwe": 0.376283,
+        "af_nfe_onf": 0.374532,
+        "af_nfe_seu": 0.40566,
+        "af_oth": 0.378004,
+        "af_oth_female": 0.382143,
+        "af_oth_male": 0.373563
+       },
+       "alt": "A",
+       "an": {
+        "an": 31286,
+        "an_afr": 8668,
+        "an_afr_female": 3656,
+        "an_afr_male": 5012,
+        "an_amr": 844,
+        "an_amr_female": 412,
+        "an_amr_male": 432,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1550,
+        "an_eas_female": 536,
+        "an_eas_male": 1014,
+        "an_female": 13866,
+        "an_fin": 3466,
+        "an_fin_female": 1838,
+        "an_fin_male": 1628,
+        "an_male": 17420,
+        "an_nfe": 15386,
+        "an_nfe_est": 4568,
+        "an_nfe_female": 6784,
+        "an_nfe_male": 8602,
+        "an_nfe_nwe": 8576,
+        "an_nfe_onf": 2136,
+        "an_nfe_seu": 106,
+        "an_oth": 1082,
+        "an_oth_female": 560,
+        "an_oth_male": 522
+       },
+       "ref": "C"
+      },
+      "vcf": {
+       "alt": "A",
+       "position": "6889648",
+       "ref": "C"
+      }
+     }
+    ]
+   }
+  },
+  "ClinVar:rs72921001@2019-01": {
+   "record_id": "ClinVar:rs72921001@2019-01",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2019-01",
+   "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
+   "retrieved_at": "2026-11-17T02:13:59.395467+00:00",
+   "status": 200,
+   "data": {
+    "rsid": "rs72921001",
+    "n_records": 0
+   }
+  },
+  "GWAS:rs72921001": {
+   "record_id": "GWAS:rs72921001",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:00:03.983083+00:00",
+   "status": 200,
+   "data": {
+    "associations": []
+   }
+  },
+  "LitVar2:rs72921001": {
+   "record_id": "LitVar2:rs72921001",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs72921001%23%23/publications",
+   "retrieved_at": "2026-11-17T02:00:04.060961+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     40442113,
+     38308303,
+     31357559,
+     36479483,
+     25660959
+    ],
+    "n_pmids": 5
+   }
+  },
+  "PMID:31357559": {
+   "record_id": "PMID:31357559",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31357559/",
+   "retrieved_at": "2026-11-17T02:00:04.325397+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "31357559",
+    "title": "A Brief Review of Genetic Approaches to the Study of Food Preferences: Current Knowledge and Future Directions.",
+    "journal": "Nutrients",
+    "pubdate": "2019 Jul 26",
+    "sortpubdate": "2019-07-26",
+    "abstract": "Genetic variation plays a crucial role in individual differences in food preferences which ultimately influence food selection and health. Our current understanding of this pathway has been informed through twin studies (to assess the heritability of food preferences), candidate gene studies, and genome-wide association studies (GWAS). However, most of this literature is mainly focused on genes previously identified as having taste or smell functions. New data suggests that genes not associated with taste or smell perception may be involved in food preferences and contribute to health outcomes. This review highlights these emerging findings and suggests a polygenic risk assessment approach to explore new relationships between food preferences and health risks."
+   }
+  },
+  "PMID:25660959": {
+   "record_id": "PMID:25660959",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25660959/",
+   "retrieved_at": "2026-11-17T02:00:04.325397+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "25660959",
+    "title": "Mammalian odorant receptors: functional evolution and variation.",
+    "journal": "Curr Opin Neurobiol",
+    "pubdate": "2015 Oct",
+    "sortpubdate": "2015-10-01",
+    "abstract": "In mammals, the perception of smell starts with the activation of odorant receptors (ORs) by volatile molecules in the environment. The mammalian OR repertoire has been subject to rapid evolution, and is highly diverse within the human population. Recent advances in the functional expression and ligand identification of ORs allow for functional analysis of OR evolution, and reveal that changes in OR protein sequences translate into high degrees of functional variations. Moreover, in several cases the functional variation of a single OR affects the perception of its cognate odor ligand, providing clues as to how an odor is coded at the receptor level."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 15,
+  "n_claims_fully_verified": 15,
+  "n_uncited_claims": 0,
+  "n_citations": 29,
+  "n_citations_valid": 29,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 20,
+  "n_shown_values_in_text": 20,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 15,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

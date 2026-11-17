@@ -1,0 +1,4276 @@
+{
+ "rsid_query": "rs4988235",
+ "rsid_current": "rs4988235",
+ "as_of": "latest",
+ "generated_at": "2026-11-17T02:13:54.795752+00:00",
+ "genes": {
+  "vep": [
+   "MCM6"
+  ],
+  "dbsnp": [
+   "MCM6"
+  ],
+  "clinvar": [
+   "MCM6"
+  ],
+  "gwas": [
+   "MCM6"
+  ]
+ },
+ "variant_type": "snv",
+ "alleles": [
+  {
+   "index": 1,
+   "dbsnp_allele_index": 1,
+   "hgvs_g": "NC_000002.12:g.135851076G>A",
+   "spdi_deleted": "G",
+   "spdi_inserted": "A",
+   "chrom": "2",
+   "pos": 135851076,
+   "ref": "G",
+   "alt": "A",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "2-135851076-G-A",
+   "vep": {
+    "gene_symbol": "MCM6",
+    "consequence_terms": [
+     "intron_variant"
+    ],
+    "hgvsc": "ENST00000264156.3:c.1917+326C>T",
+    "hgvsp": null,
+    "impact": "MODIFIER",
+    "mane_select": "NM_005915.6"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": "genomes",
+     "overall": 0.415486,
+     "populations": {
+      "afr": 0.122843,
+      "amr": 0.20283,
+      "asj": 0.1,
+      "eas": 0.000641026,
+      "fin": 0.570853,
+      "nfe": 0.601156,
+      "oth": 0.476103
+     },
+     "an": 31344,
+     "differentiated": true
+    },
+    "gnomad_v4": {
+     "overall": 0.39681266518520464,
+     "ac": 60356,
+     "an": 152102,
+     "populations": {
+      "afr": 0.12105516742953505,
+      "amr": 0.2274571391179165,
+      "asj": 0.1303344867358708,
+      "eas": 0.0021210952564596993,
+      "fin": 0.5774554417899128,
+      "nfe": 0.63528304107332,
+      "sas": 0.16348547717842324,
+      "mid": 0.061224489795918366,
+      "ami": 0.7676211453744494,
+      "remaining": 0.2909952606635071
+     },
+     "differentiated": true
+    }
+   }
+  },
+  {
+   "index": 2,
+   "dbsnp_allele_index": 2,
+   "hgvs_g": "NC_000002.12:g.135851076G>C",
+   "spdi_deleted": "G",
+   "spdi_inserted": "C",
+   "chrom": "2",
+   "pos": 135851076,
+   "ref": "G",
+   "alt": "C",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "2-135851076-G-C",
+   "vep": {
+    "gene_symbol": "MCM6",
+    "consequence_terms": [
+     "intron_variant"
+    ],
+    "hgvsc": "ENST00000264156.3:c.1917+326C>G",
+    "hgvsp": null,
+    "impact": "MODIFIER",
+    "mane_select": "NM_005915.6"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    },
+    "gnomad_v4": null
+   }
+  },
+  {
+   "index": 3,
+   "dbsnp_allele_index": 3,
+   "hgvs_g": "NC_000002.12:g.135851076G>T",
+   "spdi_deleted": "G",
+   "spdi_inserted": "T",
+   "chrom": "2",
+   "pos": 135851076,
+   "ref": "G",
+   "alt": "T",
+   "type": "single-nucleotide variant (SNV)",
+   "gnomad_v4_id": "2-135851076-G-T",
+   "vep": {
+    "gene_symbol": "MCM6",
+    "consequence_terms": [
+     "intron_variant"
+    ],
+    "hgvsc": "ENST00000264156.3:c.1917+326C>A",
+    "hgvsp": null,
+    "impact": "MODIFIER",
+    "mane_select": "NM_005915.6"
+   },
+   "frequency": {
+    "gnomad_v2": {
+     "dataset": null,
+     "overall": 0.0,
+     "populations": {}
+    },
+    "gnomad_v4": null
+   }
+  }
+ ],
+ "clinvar": [
+  {
+   "variation_id": "7685",
+   "allele_index": 1,
+   "name": "NM_002299.2(LCT):c.-13907C>T",
+   "classification": "association",
+   "review_status": "no assertion criteria provided",
+   "conditions": [
+    "LACTASE PERSISTENCE"
+   ],
+   "origin": "germline;unknown",
+   "n_submitters": "2",
+   "history": [
+    {
+     "snapshot": "2018-01",
+     "clnsig": "association",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "1",
+     "last_evaluated": "Jun 16, 2015",
+     "release_date": "2018-01-04"
+    },
+    {
+     "snapshot": "2019-01",
+     "clnsig": "association",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "1",
+     "last_evaluated": "Nov 20, 2018",
+     "release_date": "2019-01-03"
+    },
+    {
+     "snapshot": "2020-01",
+     "clnsig": "association",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "1",
+     "last_evaluated": "Nov 20, 2018",
+     "release_date": "2020-01-02"
+    },
+    {
+     "snapshot": "2026-11",
+     "clnsig": "association",
+     "review_status": "no assertion criteria provided",
+     "n_submitters": "2",
+     "last_evaluated": "Jan 26, 2021",
+     "release_date": "2026-11-16"
+    }
+   ],
+   "submission_classes": {
+    "association": 2
+   }
+  }
+ ],
+ "clinvar_release": "2026-11",
+ "somatic": {
+  "is_somatic_hotspot": false,
+  "signals": []
+ },
+ "gwas": {
+  "n_associations_total": 68,
+  "n_associations_in_scope": 68,
+  "n_genome_wide_significant": 65,
+  "n_studies": 67,
+  "mapped_genes": [
+   "MCM6"
+  ],
+  "top_traits": [
+   {
+    "trait": "lactase-phlorizin hydrolase measurement",
+    "p_value": "3e-1451",
+    "accession": "GCST90248315",
+    "pmid": "34648354"
+   },
+   {
+    "trait": "blood protein amount",
+    "p_value": "5e-210",
+    "accession": "GCST006585",
+    "pmid": "30072576"
+   },
+   {
+    "trait": "body weight",
+    "p_value": "4e-85",
+    "accession": "GCST90476460",
+    "pmid": "39024449"
+   },
+   {
+    "trait": "1,5 anhydroglucitol measurement",
+    "p_value": "3e-72",
+    "accession": "GCST90244876",
+    "pmid": "36357675"
+   },
+   {
+    "trait": "body mass index",
+    "p_value": "2e-59",
+    "accession": "GCST90475153",
+    "pmid": "39024449"
+   },
+   {
+    "trait": "gut microbiome measurement",
+    "p_value": "3e-37",
+    "accession": "GCST90667245",
+    "pmid": "41688637"
+   }
+  ],
+  "n_distinct_traits_significant": 28,
+  "haplotype_associations": 0
+ },
+ "literature": {
+  "n_pmids": 442,
+  "n_in_scope": 442,
+  "pmids_in_scope": [
+   "42871714",
+   "42565205",
+   "42116288",
+   "42081583",
+   "42494784",
+   "41688637",
+   "41688638",
+   "41800419",
+   "41576942",
+   "41756623",
+   "41612491",
+   "42540115",
+   "41482367",
+   "41315359",
+   "41272493",
+   "40673471",
+   "41279220",
+   "41023801",
+   "40880079",
+   "39171584",
+   "40944132",
+   "40476363",
+   "40754327",
+   "40751266",
+   "40694589",
+   "40645944",
+   "40666356",
+   "40626223",
+   "40464295",
+   "40221866",
+   "40441252",
+   "37905072",
+   "38798346",
+   "40274920",
+   "40063818",
+   "40004974",
+   "39919708",
+   "39733798",
+   "39891239",
+   "39473183",
+   "39779669",
+   "40418133",
+   "39532856",
+   "39412440",
+   "39625618",
+   "39458556",
+   "39390048",
+   "39440313",
+   "39304646",
+   "39275317"
+  ],
+  "top": [
+   "42565205",
+   "41482367",
+   "40944132"
+  ]
+ },
+ "conflicts": [],
+ "bottom_line": {
+  "category": "trait-associated common variant without an established monogenic disease role",
+  "confidence": "high",
+  "rationale": "65 genome-wide significant associations across 67 studies",
+  "text": "Bottom line: rs4988235 in MCM6 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with lactase-phlorizin hydrolase measurement. Confidence: high (65 genome-wide significant associations across 67 studies)."
+ },
+ "notes": [],
+ "claims": [
+  {
+   "section": "Identity",
+   "text": "rs4988235 is a current dbSNP identifier (not merged into another record).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs4988235",
+     "path": "merged_into",
+     "value": [],
+     "label": "dbSNP build 157 rs4988235",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "dbSNP records rs4988235 as variant type 'snv' on NC_000002.12 (GRCh38) with 3 alternate alleles. It is multi-allelic, so each alternate allele is reported separately.",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs4988235",
+     "path": "variant_type",
+     "value": "snv",
+     "label": "dbSNP build 157 rs4988235",
+     "mode": "eq",
+     "shown": "snv",
+     "args": null
+    },
+    {
+     "record_id": "dbSNP:rs4988235",
+     "path": "seq_id",
+     "value": "NC_000002.12",
+     "label": "dbSNP build 157 rs4988235",
+     "mode": "eq",
+     "shown": "NC_000002.12",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 1: NC_000002.12:g.135851076G>A, a single-nucleotide variant (SNV) (G>A in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs4988235",
+     "path": "alleles.1.hgvs",
+     "value": "NC_000002.12:g.135851076G>A",
+     "label": "dbSNP build 157 rs4988235",
+     "mode": "eq",
+     "shown": "NC_000002.12:g.135851076G>A",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 2: NC_000002.12:g.135851076G>C, a single-nucleotide variant (SNV) (G>C in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs4988235",
+     "path": "alleles.2.hgvs",
+     "value": "NC_000002.12:g.135851076G>C",
+     "label": "dbSNP build 157 rs4988235",
+     "mode": "eq",
+     "shown": "NC_000002.12:g.135851076G>C",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Identity",
+   "text": "Alternate allele 3: NC_000002.12:g.135851076G>T, a single-nucleotide variant (SNV) (G>T in VCF form).",
+   "citations": [
+    {
+     "record_id": "dbSNP:rs4988235",
+     "path": "alleles.3.hgvs",
+     "value": "NC_000002.12:g.135851076G>T",
+     "label": "dbSNP build 157 rs4988235",
+     "mode": "eq",
+     "shown": "NC_000002.12:g.135851076G>T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 2 (G>C), Ensembl VEP predicts intron_variant in MCM6 (ENST00000264156.3:c.1917+326C>G), impact MODIFIER.",
+   "citations": [
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "transcript_consequences.0.consequence_terms.0",
+     "value": "intron_variant",
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "intron_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "transcript_consequences.0.gene_symbol",
+     "value": "MCM6",
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "MCM6",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "transcript_consequences.0.hgvsc",
+     "value": "ENST00000264156.3:c.1917+326C>G",
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "ENST00000264156.3:c.1917+326C>G",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "transcript_consequences.0.impact",
+     "value": "MODIFIER",
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "MODIFIER",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 3 (G>T), Ensembl VEP predicts intron_variant in MCM6 (ENST00000264156.3:c.1917+326C>A), impact MODIFIER.",
+   "citations": [
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "transcript_consequences.1.consequence_terms.0",
+     "value": "intron_variant",
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "intron_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "transcript_consequences.1.gene_symbol",
+     "value": "MCM6",
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "MCM6",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "transcript_consequences.1.hgvsc",
+     "value": "ENST00000264156.3:c.1917+326C>A",
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "ENST00000264156.3:c.1917+326C>A",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "transcript_consequences.1.impact",
+     "value": "MODIFIER",
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "MODIFIER",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "For alternate allele 1 (G>A), Ensembl VEP predicts intron_variant in MCM6 (ENST00000264156.3:c.1917+326C>T), impact MODIFIER.",
+   "citations": [
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "transcript_consequences.2.consequence_terms.0",
+     "value": "intron_variant",
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "intron_variant",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "transcript_consequences.2.gene_symbol",
+     "value": "MCM6",
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "MCM6",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "transcript_consequences.2.hgvsc",
+     "value": "ENST00000264156.3:c.1917+326C>T",
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "ENST00000264156.3:c.1917+326C>T",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "transcript_consequences.2.impact",
+     "value": "MODIFIER",
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "MODIFIER",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Function",
+   "text": "Ensembl classifies the variant as 'SNV' with allele string G/A/C/T.",
+   "citations": [
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "variant_class",
+     "value": "SNV",
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "SNV",
+     "args": null
+    },
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "allele_string",
+     "value": "G/A/C/T",
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "G/A/C/T",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v2.1.1 genomes, alternate allele 1 (G>A) has an overall allele frequency of 0.415.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs4988235",
+     "path": "hits.0.gnomad_genome.af.af",
+     "value": 0.415486,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.415",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.123, Admixed American 0.203, Ashkenazi Jewish 0.1, East Asian 0.000641, Finnish 0.571, Non-Finnish European 0.601, Other 0.476.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs4988235",
+     "path": "hits.0.gnomad_genome.af.af_afr",
+     "value": 0.122843,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.123",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs4988235",
+     "path": "hits.0.gnomad_genome.af.af_amr",
+     "value": 0.20283,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.203",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs4988235",
+     "path": "hits.0.gnomad_genome.af.af_asj",
+     "value": 0.1,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.1",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs4988235",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.000641026,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.000641",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs4988235",
+     "path": "hits.0.gnomad_genome.af.af_fin",
+     "value": 0.570853,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.571",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs4988235",
+     "path": "hits.0.gnomad_genome.af.af_nfe",
+     "value": 0.601156,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.601",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs4988235",
+     "path": "hits.0.gnomad_genome.af.af_oth",
+     "value": 0.476103,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.476",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v2.1.1 genomes): allele 1 frequency ranges from 0.000641 in East Asian to 0.601 in Non-Finnish European, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs4988235",
+     "path": "hits.0.gnomad_genome.af.af_eas",
+     "value": 0.000641026,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.000641",
+     "args": null
+    },
+    {
+     "record_id": "gnomAD-v2.1.1:rs4988235",
+     "path": "hits.0.gnomad_genome.af.af_nfe",
+     "value": 0.601156,
+     "label": "gnomAD v2.1.1 genomes",
+     "mode": "eq",
+     "shown": "0.601",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (G>A) has an overall allele frequency of 0.397 (60,356 of 152,102 alleles).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-A",
+     "path": "",
+     "value": 0.39681266518520464,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.397",
+     "args": [
+      [
+       "variant.genome.ac"
+      ],
+      [
+       "variant.genome.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.121, Admixed American 0.227, Ashkenazi Jewish 0.13, East Asian 0.00212, Finnish 0.577, Non-Finnish European 0.635, South Asian 0.163, Middle Eastern 0.0612, Amish 0.768, Remaining 0.291.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-A",
+     "path": "",
+     "value": 0.12105516742953505,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.121",
+     "args": [
+      [
+       "variant.genome.populations.8.ac"
+      ],
+      [
+       "variant.genome.populations.8.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-A",
+     "path": "",
+     "value": 0.2274571391179165,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.227",
+     "args": [
+      [
+       "variant.genome.populations.1.ac"
+      ],
+      [
+       "variant.genome.populations.1.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-A",
+     "path": "",
+     "value": 0.1303344867358708,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.13",
+     "args": [
+      [
+       "variant.genome.populations.7.ac"
+      ],
+      [
+       "variant.genome.populations.7.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-A",
+     "path": "",
+     "value": 0.0021210952564596993,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.00212",
+     "args": [
+      [
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-A",
+     "path": "",
+     "value": 0.5774554417899128,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.577",
+     "args": [
+      [
+       "variant.genome.populations.2.ac"
+      ],
+      [
+       "variant.genome.populations.2.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-A",
+     "path": "",
+     "value": 0.63528304107332,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.635",
+     "args": [
+      [
+       "variant.genome.populations.9.ac"
+      ],
+      [
+       "variant.genome.populations.9.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-A",
+     "path": "",
+     "value": 0.16348547717842324,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.163",
+     "args": [
+      [
+       "variant.genome.populations.6.ac"
+      ],
+      [
+       "variant.genome.populations.6.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-A",
+     "path": "",
+     "value": 0.061224489795918366,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.0612",
+     "args": [
+      [
+       "variant.genome.populations.5.ac"
+      ],
+      [
+       "variant.genome.populations.5.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-A",
+     "path": "",
+     "value": 0.7676211453744494,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.768",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-A",
+     "path": "",
+     "value": 0.2909952606635071,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.291",
+     "args": [
+      [
+       "variant.genome.populations.0.ac"
+      ],
+      [
+       "variant.genome.populations.0.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0.00212 in East Asian to 0.768 in Amish, a large between-ancestry difference.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-A",
+     "path": "",
+     "value": 0.0021210952564596993,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.00212",
+     "args": [
+      [
+       "variant.genome.populations.4.ac"
+      ],
+      [
+       "variant.genome.populations.4.an"
+      ]
+     ]
+    },
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-A",
+     "path": "",
+     "value": 0.7676211453744494,
+     "label": "gnomAD v4.1",
+     "mode": "ratio_of_sums",
+     "shown": "0.768",
+     "args": [
+      [
+       "variant.genome.populations.3.ac"
+      ],
+      [
+       "variant.genome.populations.3.an"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 2 (G>C) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs4988235",
+     "path": "hits.1._id",
+     "value": "chr2:g.136608646G>C",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "gnomAD v4.1 has no record for 2-135851076-G-C (alternate allele 2).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-C",
+     "path": "variant",
+     "value": null,
+     "label": "gnomAD v4.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "Alternate allele 3 (G>T) was not observed in gnomAD v2.1.1 exomes or genomes.",
+   "citations": [
+    {
+     "record_id": "gnomAD-v2.1.1:rs4988235",
+     "path": "hits.2._id",
+     "value": "chr2:g.136608646G>T",
+     "label": "gnomAD v2.1.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Frequency",
+   "text": "gnomAD v4.1 has no record for 2-135851076-G-T (alternate allele 3).",
+   "citations": [
+    {
+     "record_id": "gnomAD-v4.1:2-135851076-G-T",
+     "path": "variant",
+     "value": null,
+     "label": "gnomAD v4.1",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "ClinVar lists NM_002299.2(LCT):c.-13907C>T (alternate allele 1) with germline classification 'association' for: LACTASE PERSISTENCE; review status 'no assertion criteria provided', 2 submitter(s), allele origin 'germline;unknown'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000007685@2026-11",
+     "path": "clnsig",
+     "value": "association",
+     "label": "ClinVar VCV000007685 (2026-11 release)",
+     "mode": "eq",
+     "shown": "association",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007685@2026-11",
+     "path": "review_status",
+     "value": "no assertion criteria provided",
+     "label": "ClinVar VCV000007685 (2026-11 release)",
+     "mode": "eq",
+     "shown": "no assertion criteria provided",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007685@2026-11",
+     "path": "name",
+     "value": "NM_002299.2(LCT):c.-13907C>T",
+     "label": "ClinVar VCV000007685 (2026-11 release)",
+     "mode": "eq",
+     "shown": "NM_002299.2(LCT):c.-13907C>T",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007685@2026-11",
+     "path": "n_submitters",
+     "value": "2",
+     "label": "ClinVar VCV000007685 (2026-11 release)",
+     "mode": "eq",
+     "shown": "2",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007685@2026-11",
+     "path": "phenotype_list",
+     "value": "LACTASE PERSISTENCE",
+     "label": "ClinVar VCV000007685 (2026-11 release)",
+     "mode": "contains",
+     "shown": "LACTASE PERSISTENCE",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007685@2026-11",
+     "path": "origin",
+     "value": "germline;unknown",
+     "label": "ClinVar VCV000007685 (2026-11 release)",
+     "mode": "eq",
+     "shown": "germline;unknown",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Classification history across archived ClinVar releases for this allele: 2018-01: association; 2019-01: association; 2020-01: association; 2026-11: association. The classification did not change over these releases.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000007685@2026-11",
+     "path": "history.0.clnsig",
+     "value": "association",
+     "label": "ClinVar VCV000007685 (2026-11 release)",
+     "mode": "eq",
+     "shown": "association",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007685@2026-11",
+     "path": "history.1.clnsig",
+     "value": "association",
+     "label": "ClinVar VCV000007685 (2026-11 release)",
+     "mode": "eq",
+     "shown": "association",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007685@2026-11",
+     "path": "history.2.clnsig",
+     "value": "association",
+     "label": "ClinVar VCV000007685 (2026-11 release)",
+     "mode": "eq",
+     "shown": "association",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007685@2026-11",
+     "path": "history.3.clnsig",
+     "value": "association",
+     "label": "ClinVar VCV000007685 (2026-11 release)",
+     "mode": "eq",
+     "shown": "association",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 2 'association'.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000007685@2026-11",
+     "path": "",
+     "value": 2,
+     "label": "ClinVar VCV000007685 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "2",
+     "args": [
+      "submissions",
+      "clnsig",
+      "association"
+     ]
+    }
+   ]
+  },
+  {
+   "section": "Somatic evidence",
+   "text": "No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant.",
+   "citations": [
+    {
+     "record_id": "VEP:rs4988235",
+     "path": "cosmic_ids",
+     "value": [],
+     "label": "Ensembl VEP rs4988235",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "The GWAS Catalog lists 68 association record(s) for rs4988235.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations.67.association_id",
+     "value": 12223242,
+     "label": "GWAS Catalog rs4988235",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with lactase-phlorizin hydrolase measurement (p = 3e-1451, study GCST90248315, effect allele rs4988235-A).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations.39.accession_id",
+     "value": "GCST90248315",
+     "label": "GWAS Catalog GCST90248315",
+     "mode": "eq",
+     "shown": "GCST90248315",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations.39.pvalue_exponent",
+     "value": -1451,
+     "label": "GWAS Catalog GCST90248315",
+     "mode": "eq",
+     "shown": "3e-1451",
+     "args": null
+    },
+    {
+     "record_id": "PMID:34648354",
+     "path": "pmid",
+     "value": "34648354",
+     "label": "PMID:34648354",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with blood protein amount (p = 5e-210, study GCST006585, effect allele rs4988235-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations.61.accession_id",
+     "value": "GCST006585",
+     "label": "GWAS Catalog GCST006585",
+     "mode": "eq",
+     "shown": "GCST006585",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations.61.pvalue_exponent",
+     "value": -210,
+     "label": "GWAS Catalog GCST006585",
+     "mode": "eq",
+     "shown": "5e-210",
+     "args": null
+    },
+    {
+     "record_id": "PMID:30072576",
+     "path": "pmid",
+     "value": "30072576",
+     "label": "PMID:30072576",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with body weight (p = 4e-85, study GCST90476460, effect allele rs4988235-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations.14.accession_id",
+     "value": "GCST90476460",
+     "label": "GWAS Catalog GCST90476460",
+     "mode": "eq",
+     "shown": "GCST90476460",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations.14.pvalue_exponent",
+     "value": -85,
+     "label": "GWAS Catalog GCST90476460",
+     "mode": "eq",
+     "shown": "4e-85",
+     "args": null
+    },
+    {
+     "record_id": "PMID:39024449",
+     "path": "pmid",
+     "value": "39024449",
+     "label": "PMID:39024449",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with 1,5 anhydroglucitol measurement (p = 3e-72, study GCST90244876, effect allele rs4988235-A).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations.38.accession_id",
+     "value": "GCST90244876",
+     "label": "GWAS Catalog GCST90244876",
+     "mode": "eq",
+     "shown": "GCST90244876",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations.38.pvalue_exponent",
+     "value": -72,
+     "label": "GWAS Catalog GCST90244876",
+     "mode": "eq",
+     "shown": "3e-72",
+     "args": null
+    },
+    {
+     "record_id": "PMID:36357675",
+     "path": "pmid",
+     "value": "36357675",
+     "label": "PMID:36357675",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with body mass index (p = 2e-59, study GCST90475153, effect allele rs4988235-G).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations.22.accession_id",
+     "value": "GCST90475153",
+     "label": "GWAS Catalog GCST90475153",
+     "mode": "eq",
+     "shown": "GCST90475153",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations.22.pvalue_exponent",
+     "value": -59,
+     "label": "GWAS Catalog GCST90475153",
+     "mode": "eq",
+     "shown": "2e-59",
+     "args": null
+    },
+    {
+     "record_id": "PMID:39024449",
+     "path": "pmid",
+     "value": "39024449",
+     "label": "PMID:39024449",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "Genome-wide significant association with gut microbiome measurement (p = 3e-37, study GCST90667245, effect allele rs4988235-A).",
+   "citations": [
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations.29.accession_id",
+     "value": "GCST90667245",
+     "label": "GWAS Catalog GCST90667245",
+     "mode": "eq",
+     "shown": "GCST90667245",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations.29.pvalue_exponent",
+     "value": -37,
+     "label": "GWAS Catalog GCST90667245",
+     "mode": "eq",
+     "shown": "3e-37",
+     "args": null
+    },
+    {
+     "record_id": "PMID:41688637",
+     "path": "pmid",
+     "value": "41688637",
+     "label": "PMID:41688637",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "LitVar2 links 442 PubMed articles to rs4988235.",
+   "citations": [
+    {
+     "record_id": "LitVar2:rs4988235",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs4988235",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"The association between the MCM6 LCT-13910C>T variant and bone mineral density in patients with inflammatory bowel disease\" (Front Genet, 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:42565205",
+     "path": "title",
+     "value": "The association between the MCM6 LCT-13910C>T variant and bone mineral density in patients with inflammatory bowel disease.",
+     "label": "PMID:42565205",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:42565205",
+     "path": "journal",
+     "value": "Front Genet",
+     "label": "PMID:42565205",
+     "mode": "eq",
+     "shown": "Front Genet",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Frequency and Diagnostic Utility of the -13910C>T MCM6 Gene Polymorphism for Lactose Intolerance in a Brazilian Northeast Population\" (In Vivo, 2026).",
+   "citations": [
+    {
+     "record_id": "PMID:41482367",
+     "path": "title",
+     "value": "Frequency and Diagnostic Utility of the -13910C>T MCM6 Gene Polymorphism for Lactose Intolerance in a Brazilian Northeast Population.",
+     "label": "PMID:41482367",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:41482367",
+     "path": "journal",
+     "value": "In Vivo",
+     "label": "PMID:41482367",
+     "mode": "eq",
+     "shown": "In Vivo",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Literature",
+   "text": "Linked article: \"Lactase Persistence-Associated rs4988235 Polymorphism: A Novel Genetic Link to Cardiovascular Risk via Modulation of ApoB100 and ApoAI\" (Nutrients, 2025).",
+   "citations": [
+    {
+     "record_id": "PMID:40944132",
+     "path": "title",
+     "value": "Lactase Persistence-Associated rs4988235 Polymorphism: A Novel Genetic Link to Cardiovascular Risk via Modulation of ApoB100 and ApoAI.",
+     "label": "PMID:40944132",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "PMID:40944132",
+     "path": "journal",
+     "value": "Nutrients",
+     "label": "PMID:40944132",
+     "mode": "eq",
+     "shown": "Nutrients",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Disease relevance (germline)",
+   "text": "No allele of rs4988235 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release.",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000007685@2026-11",
+     "path": "clnsig",
+     "value": "association",
+     "label": "ClinVar VCV000007685 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Trait associations (GWAS)",
+   "text": "rs4988235 is associated with 28 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease.",
+   "citations": [
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs4988235",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000007685@2026-11",
+     "path": "clnsig",
+     "value": "association",
+     "label": "ClinVar VCV000007685 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  },
+  {
+   "section": "Bottom line",
+   "text": "Bottom line: rs4988235 in MCM6 is best described as: trait-associated common variant without an established monogenic disease role. Its strongest reported association is with lactase-phlorizin hydrolase measurement. Confidence: high (65 genome-wide significant associations across 67 studies).",
+   "citations": [
+    {
+     "record_id": "ClinVar:VCV000007685@2026-11",
+     "path": "clnsig",
+     "value": "association",
+     "label": "ClinVar VCV000007685 (2026-11 release)",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "GWAS:rs4988235",
+     "path": "associations",
+     "value": null,
+     "label": "GWAS Catalog rs4988235",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    },
+    {
+     "record_id": "LitVar2:rs4988235",
+     "path": "pmids",
+     "value": null,
+     "label": "LitVar2 rs4988235",
+     "mode": "eq",
+     "shown": "",
+     "args": null
+    }
+   ]
+  }
+ ],
+ "records": {
+  "dbSNP:rs4988235": {
+   "record_id": "dbSNP:rs4988235",
+   "source": "dbSNP",
+   "source_version": "dbSNP build 157",
+   "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/4988235",
+   "retrieved_at": "2026-11-17T02:04:24.942098+00:00",
+   "status": 200,
+   "data": {
+    "refsnp_id": "4988235",
+    "last_update_build_id": "157",
+    "dbsnp1_merges": [],
+    "merged_into": [],
+    "citations": [
+     11788828,
+     12915462,
+     15106124,
+     15114531,
+     16041375,
+     17436249,
+     18021008,
+     18194137,
+     18462498,
+     18602983,
+     18605960,
+     18797476,
+     18974842,
+     19138442,
+     19265028,
+     19326473,
+     19687126,
+     19912639,
+     19943975,
+     20015952,
+     20031626,
+     20097913,
+     20109229,
+     20225268,
+     20447925,
+     20616999,
+     20650817,
+     21152447,
+     21193851,
+     21212231,
+     21235777,
+     21931699,
+     22043165,
+     22194982,
+     22228373,
+     22332091,
+     22541939,
+     22590501,
+     22742424,
+     22948027,
+     22965418,
+     23028602,
+     23029545,
+     23049788,
+     23166662,
+     23479116,
+     23647908,
+     24392269,
+     26156736,
+     26345458,
+     26444257,
+     26595274,
+     26728963,
+     26741362,
+     26748513,
+     26753840,
+     26924531,
+     26988143,
+     27135931,
+     27170764,
+     27274049,
+     27502179,
+     27577176,
+     27624874,
+     27714771,
+     28225053,
+     28302601,
+     28424184,
+     28497837,
+     29063188,
+     29071499,
+     29125573,
+     29537719,
+     29568104,
+     30096803,
+     30339693,
+     30689919,
+     30721917,
+     30728219,
+     31138550,
+     31150552,
+     31352438,
+     31405126,
+     31483113,
+     32572223,
+     32659776,
+     32888485,
+     33170161,
+     33208821,
+     33261611,
+     33577048,
+     33763108,
+     33920682,
+     34024907,
+     34445060,
+     34630506,
+     34901125,
+     34978666,
+     34997937,
+     35978869,
+     36305359,
+     36479490
+    ],
+    "variant_type": "snv",
+    "seq_id": "NC_000002.12",
+    "alleles": [
+     {
+      "hgvs": "NC_000002.12:g.135851076=",
+      "position0": 135851075,
+      "deleted": "G",
+      "inserted": "G"
+     },
+     {
+      "hgvs": "NC_000002.12:g.135851076G>A",
+      "position0": 135851075,
+      "deleted": "G",
+      "inserted": "A"
+     },
+     {
+      "hgvs": "NC_000002.12:g.135851076G>C",
+      "position0": 135851075,
+      "deleted": "G",
+      "inserted": "C"
+     },
+     {
+      "hgvs": "NC_000002.12:g.135851076G>T",
+      "position0": 135851075,
+      "deleted": "G",
+      "inserted": "T"
+     }
+    ],
+    "genes": [
+     "MCM6"
+    ]
+   }
+  },
+  "VEP:rs4988235": {
+   "record_id": "VEP:rs4988235",
+   "source": "Ensembl VEP",
+   "source_version": "Ensembl VEP REST (GRCh38)",
+   "url": "https://rest.ensembl.org/vep/human/id/rs4988235",
+   "retrieved_at": "2026-11-17T02:04:33.412845+00:00",
+   "status": 200,
+   "data": {
+    "id": "rs4988235",
+    "assembly_name": "GRCh38",
+    "seq_region_name": "2",
+    "start": 135851076,
+    "end": 135851076,
+    "allele_string": "G/A/C/T",
+    "variant_class": "SNV",
+    "most_severe_consequence": "intron_variant",
+    "transcript_consequences": [
+     {
+      "variant_allele": "C",
+      "gene_symbol": "MCM6",
+      "gene_id": "ENSG00000076003",
+      "transcript_id": "ENST00000264156",
+      "mane_select": "NM_005915.6",
+      "consequence_terms": [
+       "intron_variant"
+      ],
+      "hgvsc": "ENST00000264156.3:c.1917+326C>G",
+      "hgvsp": null,
+      "impact": "MODIFIER",
+      "amino_acids": null,
+      "protein_start": null,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "T",
+      "gene_symbol": "MCM6",
+      "gene_id": "ENSG00000076003",
+      "transcript_id": "ENST00000264156",
+      "mane_select": "NM_005915.6",
+      "consequence_terms": [
+       "intron_variant"
+      ],
+      "hgvsc": "ENST00000264156.3:c.1917+326C>A",
+      "hgvsp": null,
+      "impact": "MODIFIER",
+      "amino_acids": null,
+      "protein_start": null,
+      "biotype": "protein_coding"
+     },
+     {
+      "variant_allele": "A",
+      "gene_symbol": "MCM6",
+      "gene_id": "ENSG00000076003",
+      "transcript_id": "ENST00000264156",
+      "mane_select": "NM_005915.6",
+      "consequence_terms": [
+       "intron_variant"
+      ],
+      "hgvsc": "ENST00000264156.3:c.1917+326C>T",
+      "hgvsp": null,
+      "impact": "MODIFIER",
+      "amino_acids": null,
+      "protein_start": null,
+      "biotype": "protein_coding"
+     }
+    ],
+    "regulatory_or_intergenic": [],
+    "cosmic_ids": [],
+    "colocated_somatic": false
+   }
+  },
+  "gnomAD-v2.1.1:rs4988235": {
+   "record_id": "gnomAD-v2.1.1:rs4988235",
+   "source": "gnomAD v2.1.1 (via MyVariant.info)",
+   "source_version": "MyVariant.info (gnomAD v2.1.1, GRCh37)",
+   "url": "https://myvariant.info/v1/query",
+   "retrieved_at": "2026-11-17T02:04:33.506777+00:00",
+   "status": 200,
+   "data": {
+    "hits": [
+     {
+      "_id": "chr2:g.136608646G>A",
+      "_score": 17.141037,
+      "cadd": {
+       "_license": "http://bit.ly/2TIuab9",
+       "phred": 17.65
+      },
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "A",
+       "ref": "G",
+       "vartype": "snv"
+      },
+      "gnomad_genome": {
+       "_license": "http://bit.ly/2I1cl1I",
+       "af": {
+        "af": 0.415486,
+        "af_afr": 0.122843,
+        "af_afr_female": 0.130245,
+        "af_afr_male": 0.117436,
+        "af_amr": 0.20283,
+        "af_amr_female": 0.224638,
+        "af_amr_male": 0.182028,
+        "af_asj": 0.1,
+        "af_asj_female": 0.0875,
+        "af_asj_male": 0.104762,
+        "af_eas": 0.000641026,
+        "af_eas_female": 0.00185874,
+        "af_eas_male": 0.0,
+        "af_female": 0.427461,
+        "af_fin": 0.570853,
+        "af_fin_female": 0.573753,
+        "af_fin_male": 0.567568,
+        "af_male": 0.405949,
+        "af_nfe": 0.601156,
+        "af_nfe_est": 0.487527,
+        "af_nfe_female": 0.594431,
+        "af_nfe_male": 0.606462,
+        "af_nfe_nwe": 0.697786,
+        "af_nfe_onf": 0.469569,
+        "af_nfe_seu": 0.330189,
+        "af_oth": 0.476103,
+        "af_oth_female": 0.476868,
+        "af_oth_male": 0.475285
+       },
+       "alt": "A",
+       "an": {
+        "an": 31344,
+        "an_afr": 8694,
+        "an_afr_female": 3670,
+        "an_afr_male": 5024,
+        "an_amr": 848,
+        "an_amr_female": 414,
+        "an_amr_male": 434,
+        "an_asj": 290,
+        "an_asj_female": 80,
+        "an_asj_male": 210,
+        "an_eas": 1560,
+        "an_eas_female": 538,
+        "an_eas_male": 1022,
+        "an_female": 13896,
+        "an_fin": 3472,
+        "an_fin_female": 1844,
+        "an_fin_male": 1628,
+        "an_male": 17448,
+        "an_nfe": 15392,
+        "an_nfe_est": 4570,
+        "an_nfe_female": 6788,
+        "an_nfe_male": 8604,
+        "an_nfe_nwe": 8580,
+        "an_nfe_onf": 2136,
+        "an_nfe_seu": 106,
+        "an_oth": 1088,
+        "an_oth_female": 562,
+        "an_oth_male": 526
+       },
+       "ref": "G"
+      },
+      "vcf": {
+       "alt": "A",
+       "position": "136608646",
+       "ref": "G"
+      }
+     },
+     {
+      "_id": "chr2:g.136608646G>C",
+      "_score": 17.141027,
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "C",
+       "ref": "G",
+       "vartype": "snv"
+      },
+      "vcf": {
+       "alt": "C",
+       "position": "136608646",
+       "ref": "G"
+      }
+     },
+     {
+      "_id": "chr2:g.136608646G>T",
+      "_score": 17.141026,
+      "dbsnp": {
+       "_license": "http://bit.ly/2AqoLOc",
+       "alt": "T",
+       "ref": "G",
+       "vartype": "snv"
+      },
+      "vcf": {
+       "alt": "T",
+       "position": "136608646",
+       "ref": "G"
+      }
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:2-135851076-G-A": {
+   "record_id": "gnomAD-v4.1:2-135851076-G-A",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:04:33.635209+00:00",
+   "status": 200,
+   "data": {
+    "variant": {
+     "variant_id": "2-135851076-G-A",
+     "rsids": [
+      "rs4988235"
+     ],
+     "exome": null,
+     "genome": {
+      "ac": 60356,
+      "an": 152102,
+      "populations": [
+       {
+        "id": "remaining",
+        "ac": 614,
+        "an": 2110
+       },
+       {
+        "id": "amr",
+        "ac": 3476,
+        "an": 15282
+       },
+       {
+        "id": "fin",
+        "ac": 6091,
+        "an": 10548
+       },
+       {
+        "id": "ami",
+        "ac": 697,
+        "an": 908
+       },
+       {
+        "id": "eas",
+        "ac": 11,
+        "an": 5186
+       },
+       {
+        "id": "mid",
+        "ac": 18,
+        "an": 294
+       },
+       {
+        "id": "sas",
+        "ac": 788,
+        "an": 4820
+       },
+       {
+        "id": "asj",
+        "ac": 452,
+        "an": 3468
+       },
+       {
+        "id": "afr",
+        "ac": 5025,
+        "an": 41510
+       },
+       {
+        "id": "nfe",
+        "ac": 43184,
+        "an": 67976
+       }
+      ]
+     }
+    },
+    "errors": null
+   }
+  },
+  "gnomAD-v4.1:2-135851076-G-C": {
+   "record_id": "gnomAD-v4.1:2-135851076-G-C",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:04:34.845248+00:00",
+   "status": 200,
+   "data": {
+    "variant": null,
+    "errors": [
+     {
+      "message": "Variant not found"
+     }
+    ]
+   }
+  },
+  "gnomAD-v4.1:2-135851076-G-T": {
+   "record_id": "gnomAD-v4.1:2-135851076-G-T",
+   "source": "gnomAD v4.1",
+   "source_version": "gnomAD v4.1 (GRCh38)",
+   "url": "https://gnomad.broadinstitute.org/api",
+   "retrieved_at": "2026-11-17T02:04:35.628221+00:00",
+   "status": 200,
+   "data": {
+    "variant": null,
+    "errors": [
+     {
+      "message": "Variant not found"
+     }
+    ]
+   }
+  },
+  "ClinVar:VCV000007685@2026-11": {
+   "record_id": "ClinVar:VCV000007685@2026-11",
+   "source": "ClinVar",
+   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/7685/",
+   "retrieved_at": "2026-11-17T02:13:54.769316+00:00",
+   "status": 200,
+   "data": {
+    "allele_id": "22724",
+    "type": "single nucleotide variant",
+    "name": "NM_002299.2(LCT):c.-13907C>T",
+    "gene_symbol": "MCM6",
+    "clnsig": "association",
+    "last_evaluated": "Jan 26, 2021",
+    "rcv": "RCV000008124",
+    "phenotype_list": "LACTASE PERSISTENCE",
+    "origin": "germline;unknown",
+    "origin_simple": "germline",
+    "assembly": "GRCh38",
+    "chrom": "2",
+    "start": "135851076",
+    "ref": "na",
+    "alt": "na",
+    "review_status": "no assertion criteria provided",
+    "n_submitters": "2",
+    "variation_id": "7685",
+    "ref_vcf": "G",
+    "alt_vcf": "A",
+    "pos_vcf": "135851076",
+    "somatic_clinical_impact": "-",
+    "oncogenicity": "-",
+    "rsid": "rs4988235",
+    "submissions": [
+     {
+      "variation_id": "7685",
+      "clnsig": "association",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C1857231:LACTASE PERSISTENCE",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "reference population",
+      "origin_counts": "unknown:na",
+      "submitter": "iDNA Genomics",
+      "scv": "SCV002538649.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "7685",
+      "clnsig": "association",
+      "date_last_evaluated": "Jan 26, 2021",
+      "reported_phenotype": "C1857231:LACTASE PERSISTENCE",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "OMIM",
+      "scv": "SCV000028329.3",
+      "snapshot": "2026-11"
+     }
+    ],
+    "history": [
+     {
+      "snapshot": "2018-01",
+      "clnsig": "association",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "1",
+      "last_evaluated": "Jun 16, 2015",
+      "release_date": "2018-01-04"
+     },
+     {
+      "snapshot": "2019-01",
+      "clnsig": "association",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "1",
+      "last_evaluated": "Nov 20, 2018",
+      "release_date": "2019-01-03"
+     },
+     {
+      "snapshot": "2020-01",
+      "clnsig": "association",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "1",
+      "last_evaluated": "Nov 20, 2018",
+      "release_date": "2020-01-02"
+     },
+     {
+      "snapshot": "2026-11",
+      "clnsig": "association",
+      "review_status": "no assertion criteria provided",
+      "n_submitters": "2",
+      "last_evaluated": "Jan 26, 2021",
+      "release_date": "2026-11-16"
+     }
+    ]
+   }
+  },
+  "GWAS:rs4988235": {
+   "record_id": "GWAS:rs4988235",
+   "source": "GWAS Catalog",
+   "source_version": "NHGRI-EBI GWAS Catalog REST API v2",
+   "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+   "retrieved_at": "2026-11-17T02:04:43.221733+00:00",
+   "status": 200,
+   "data": {
+    "associations": [
+     {
+      "association_id": 228356911,
+      "accession_id": "GCST90475762",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-12,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.02864 unit decrease",
+      "risk_frequency": "0.3575",
+      "efo_traits": [
+       {
+        "efo_id": "MONDO_0011122",
+        "efo_trait": "obesity disorder"
+       }
+      ],
+      "reported_trait": [
+       "Obesity (PheCode 278.1)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 0,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228348114,
+      "accession_id": "GCST90476469",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-44,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -44,
+      "or_value": null,
+      "beta": "0.04814 unit decrease",
+      "risk_frequency": "0.3592",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004338",
+        "efo_trait": "body weight"
+       }
+      ],
+      "reported_trait": [
+       "What is your weight? (pounds, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 1,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228318002,
+      "accession_id": "GCST90480729",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-25,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -25,
+      "or_value": null,
+      "beta": "0.04416 unit decrease",
+      "risk_frequency": "0.4655",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004338",
+        "efo_trait": "body weight"
+       }
+      ],
+      "reported_trait": [
+       "What is your weight? (pounds, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 2,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228256793,
+      "accession_id": "GCST90475412",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-13,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.0203 unit increase",
+      "risk_frequency": "0.3566",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004611",
+        "efo_trait": "low density lipoprotein cholesterol measurement"
+       }
+      ],
+      "reported_trait": [
+       "low density lipoprotein cholesterol (LDLC, maximum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 3,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228250031,
+      "accession_id": "GCST90480728",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 5e-33,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -33,
+      "or_value": null,
+      "beta": "0.04503 unit decrease",
+      "risk_frequency": "0.502",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004338",
+        "efo_trait": "body weight"
+       }
+      ],
+      "reported_trait": [
+       "Weight (minimum, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 4,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228247628,
+      "accession_id": "GCST90480727",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 9e-35,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -35,
+      "or_value": null,
+      "beta": "0.04902 unit decrease",
+      "risk_frequency": "0.502",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004338",
+        "efo_trait": "body weight"
+       }
+      ],
+      "reported_trait": [
+       "Weight (mean, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 5,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228245245,
+      "accession_id": "GCST90480726",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-33,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -33,
+      "or_value": null,
+      "beta": "0.04857 unit decrease",
+      "risk_frequency": "0.502",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004338",
+        "efo_trait": "body weight"
+       }
+      ],
+      "reported_trait": [
+       "Weight (maximum, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 6,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228237967,
+      "accession_id": "GCST90479676",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 7e-13,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.02667 unit increase",
+      "risk_frequency": "0.5021",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_0003460",
+        "efo_trait": "erythrocyte volume"
+       }
+      ],
+      "reported_trait": [
+       "mean corpuscular volume (MCV, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 7,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228233972,
+      "accession_id": "GCST90479523",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-26,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -26,
+      "or_value": null,
+      "beta": "0.03905 unit decrease",
+      "risk_frequency": "0.502",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index (BMI, minimum, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 8,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228230673,
+      "accession_id": "GCST90479522",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-28,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -28,
+      "or_value": null,
+      "beta": "0.04345 unit decrease",
+      "risk_frequency": "0.502",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index (BMI, mean, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 9,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228226990,
+      "accession_id": "GCST90479521",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 8e-27,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -27,
+      "or_value": null,
+      "beta": "0.04262 unit decrease",
+      "risk_frequency": "0.502",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index (BMI, maximum, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 10,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228194259,
+      "accession_id": "GCST90479508",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 8e-22,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -22,
+      "or_value": null,
+      "beta": "0.0273 unit decrease",
+      "risk_frequency": "0.5028",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050062",
+        "efo_trait": "serum alanine aminotransferase amount"
+       }
+      ],
+      "reported_trait": [
+       "Alanine transaminase (ALT, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 11,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228164169,
+      "accession_id": "GCST90476466",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-65,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -65,
+      "or_value": null,
+      "beta": "0.05121 unit decrease",
+      "risk_frequency": "0.3565",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004338",
+        "efo_trait": "body weight"
+       }
+      ],
+      "reported_trait": [
+       "Weight (minimum, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 12,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228155550,
+      "accession_id": "GCST90476463",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-82,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -82,
+      "or_value": null,
+      "beta": "0.05955 unit decrease",
+      "risk_frequency": "0.3565",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004338",
+        "efo_trait": "body weight"
+       }
+      ],
+      "reported_trait": [
+       "Weight (mean, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 13,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228142559,
+      "accession_id": "GCST90476460",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 4e-85,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -85,
+      "or_value": null,
+      "beta": "0.06095 unit decrease",
+      "risk_frequency": "0.3565",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004338",
+        "efo_trait": "body weight"
+       }
+      ],
+      "reported_trait": [
+       "Weight (maximum, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 14,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228138357,
+      "accession_id": "GCST90475168",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 3e-23,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -23,
+      "or_value": null,
+      "beta": "0.02637 unit decrease",
+      "risk_frequency": "0.3564",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0005265",
+        "efo_trait": "blood urea nitrogen amount"
+       }
+      ],
+      "reported_trait": [
+       "Blood urea nitrogen (BUN, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 15,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228134862,
+      "accession_id": "GCST90475165",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 7e-24,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -24,
+      "or_value": null,
+      "beta": "0.02587 unit decrease",
+      "risk_frequency": "0.3564",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0005265",
+        "efo_trait": "blood urea nitrogen amount"
+       }
+      ],
+      "reported_trait": [
+       "Blood urea nitrogen (BUN, mean, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 16,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228125664,
+      "accession_id": "GCST90475159",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-43,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -43,
+      "or_value": null,
+      "beta": "0.04179 unit decrease",
+      "risk_frequency": "0.3565",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index (BMI, minimum, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 17,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228111091,
+      "accession_id": "GCST90475158",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 6e-12,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "0.0539 unit decrease",
+      "risk_frequency": "0.8796",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index (BMI, minimum, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 18,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228108073,
+      "accession_id": "GCST90475156",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 8e-57,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -57,
+      "or_value": null,
+      "beta": "0.04986 unit decrease",
+      "risk_frequency": "0.3565",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index (BMI, mean, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 19,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228105777,
+      "accession_id": "GCST90475115",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-16,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -16,
+      "or_value": null,
+      "beta": "0.02214 unit decrease",
+      "risk_frequency": "0.3565",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050062",
+        "efo_trait": "serum alanine aminotransferase amount"
+       }
+      ],
+      "reported_trait": [
+       "Alanine transaminase (ALT, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 20,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228102592,
+      "accession_id": "GCST90475114",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 1e-11,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.04783 unit decrease",
+      "risk_frequency": "0.8795",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2050062",
+        "efo_trait": "serum alanine aminotransferase amount"
+       }
+      ],
+      "reported_trait": [
+       "Alanine transaminase (ALT, minimum, inv-norm transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 21,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 228077854,
+      "accession_id": "GCST90475153",
+      "pubmed_id": "39024449",
+      "first_author": "Verma A",
+      "p_value": 2e-59,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -59,
+      "or_value": null,
+      "beta": "0.05158 unit decrease",
+      "risk_frequency": "0.3565",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index (BMI, maximum, inv-normal transformed)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 22,
+      "_pubdate": "2024-07-19"
+     },
+     {
+      "association_id": 216708045,
+      "accession_id": "GCST90671843",
+      "pubmed_id": "41688638",
+      "first_author": "Dekkers KF",
+      "p_value": 4e-08,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "0.07 unit decrease",
+      "risk_frequency": "0.7189",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007874",
+        "efo_trait": "gut microbiome measurement"
+       }
+      ],
+      "reported_trait": [
+       "Gut microbiome function abundance (Xylose degradation, MF0021)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 23,
+      "_pubdate": "2026-03-01"
+     },
+     {
+      "association_id": 216705693,
+      "accession_id": "GCST90671563",
+      "pubmed_id": "41688638",
+      "first_author": "Dekkers KF",
+      "p_value": 1e-11,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.0797 unit increase",
+      "risk_frequency": "0.719",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007874",
+        "efo_trait": "gut microbiome measurement"
+       }
+      ],
+      "reported_trait": [
+       "Gut microbiome genus abundance (Phocea)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 24,
+      "_pubdate": "2026-03-01"
+     },
+     {
+      "association_id": 216700680,
+      "accession_id": "GCST90671012",
+      "pubmed_id": "41688638",
+      "first_author": "Dekkers KF",
+      "p_value": 1e-11,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.08 unit increase",
+      "risk_frequency": "0.72",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007874",
+        "efo_trait": "gut microbiome measurement"
+       }
+      ],
+      "reported_trait": [
+       "Gut microbiome species abundance (Phocea massiliensis, GCF_900104615.1)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 25,
+      "_pubdate": "2026-03-01"
+     },
+     {
+      "association_id": 216644960,
+      "accession_id": "GCST90266581",
+      "pubmed_id": "37277652",
+      "first_author": "Schlosser P",
+      "p_value": 3.0000000000000003e-13,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.194 unit decrease",
+      "risk_frequency": "0.56",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004725",
+        "efo_trait": "metabolite measurement"
+       }
+      ],
+      "reported_trait": [
+       "Urine X-23331 levels in chronic kidney disease"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 26,
+      "_pubdate": "2023-06-01"
+     },
+     {
+      "association_id": 216634095,
+      "accession_id": "GCST90265429",
+      "pubmed_id": "37277652",
+      "first_author": "Schlosser P",
+      "p_value": 4e-34,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -34,
+      "or_value": null,
+      "beta": "0.244 unit decrease",
+      "risk_frequency": "0.57",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0010507",
+        "efo_trait": "lactose measurement"
+       }
+      ],
+      "reported_trait": [
+       "Urine lactose levels in chronic kidney disease"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 27,
+      "_pubdate": "2023-06-01"
+     },
+     {
+      "association_id": 216616798,
+      "accession_id": "GCST90667379",
+      "pubmed_id": "41688637",
+      "first_author": "Moksnes MR",
+      "p_value": 6e-35,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -35,
+      "or_value": null,
+      "beta": "0.13 unit decrease",
+      "risk_frequency": "0.73",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007874",
+        "efo_trait": "gut microbiome measurement"
+       }
+      ],
+      "reported_trait": [
+       "Gut microbial functional pathway relative abundance (KEGG-module M00443: SenX3-RegX3 (phosphate starvation response) two-component regulatory system)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 28,
+      "_pubdate": "2026-03-01"
+     },
+     {
+      "association_id": 216615582,
+      "accession_id": "GCST90667245",
+      "pubmed_id": "41688637",
+      "first_author": "Moksnes MR",
+      "p_value": 3e-37,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -37,
+      "or_value": null,
+      "beta": "0.13 unit decrease",
+      "risk_frequency": "0.73",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007874",
+        "efo_trait": "gut microbiome measurement"
+       }
+      ],
+      "reported_trait": [
+       "Gut microbial functional pathway relative abundance (KEGG-module M00233: Glutamate transport system)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 29,
+      "_pubdate": "2026-03-01"
+     },
+     {
+      "association_id": 215607540,
+      "accession_id": "GCST90501340",
+      "pubmed_id": "41044249",
+      "first_author": "Zoodsma M",
+      "p_value": 9e-11,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.02 mmol/L increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0022316",
+        "efo_trait": "triglycerides in chylomicrons and extremely large VLDL measurement"
+       }
+      ],
+      "reported_trait": [
+       "Triglyceride levels in chylomicrons and extremely large VLDL"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 30,
+      "_pubdate": "2025-10-01"
+     },
+     {
+      "association_id": 215453455,
+      "accession_id": "GCST90501093",
+      "pubmed_id": "41044249",
+      "first_author": "Zoodsma M",
+      "p_value": 4e-19,
+      "pvalue_mantissa": 4,
+      "pvalue_exponent": -19,
+      "or_value": null,
+      "beta": "0.02 mmol/L decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0010112",
+        "efo_trait": "acetate measurement"
+       }
+      ],
+      "reported_trait": [
+       "Acetate levels"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 31,
+      "_pubdate": "2025-10-01"
+     },
+     {
+      "association_id": 191172854,
+      "accession_id": "GCST90461881",
+      "pubmed_id": "39644095",
+      "first_author": "Downie CG",
+      "p_value": 6.999999999999999e-16,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -16,
+      "or_value": null,
+      "beta": "0.1345 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_2055802",
+        "efo_trait": "amount of pentadecanoic acid in blood"
+       }
+      ],
+      "reported_trait": [
+       "Pentadecanoic acid levels (241.2171_0.376)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 32,
+      "_pubdate": "2025-01-09"
+     },
+     {
+      "association_id": 189899195,
+      "accession_id": "GCST90501984",
+      "pubmed_id": "40545721",
+      "first_author": "Sun Y",
+      "p_value": 8e-12,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007761",
+        "efo_trait": "docosahexaenoic acid measurement"
+       }
+      ],
+      "reported_trait": [
+       "Docosahexaenoic acid levels"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 33,
+      "_pubdate": "2025-10-09"
+     },
+     {
+      "association_id": 133849239,
+      "accession_id": "GCST90301941",
+      "pubmed_id": "38448586",
+      "first_author": "Karjalainen MK",
+      "p_value": 1e-11,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -11,
+      "or_value": null,
+      "beta": "0.0366 unit decrease",
+      "risk_frequency": "0.6031",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0010112",
+        "efo_trait": "acetate measurement"
+       }
+      ],
+      "reported_trait": [
+       "Acetate levels"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 34,
+      "_pubdate": "2024-04-01"
+     },
+     {
+      "association_id": 119897371,
+      "accession_id": "GCST90199648",
+      "pubmed_id": "36635386",
+      "first_author": "Chen Y",
+      "p_value": 6.999999999999999e-16,
+      "pvalue_mantissa": 7,
+      "pvalue_exponent": -16,
+      "or_value": null,
+      "beta": "0.125118 unit increase",
+      "risk_frequency": "0.646606",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0008009",
+        "efo_trait": "1,5 anhydroglucitol measurement"
+       }
+      ],
+      "reported_trait": [
+       "1,5-anhydroglucitol (1,5-ag) levels"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 35,
+      "_pubdate": "2023-01-01"
+     },
+     {
+      "association_id": 119776845,
+      "accession_id": "GCST90245697",
+      "pubmed_id": "36357675",
+      "first_author": "Surendran P",
+      "p_value": 3e-19,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -19,
+      "or_value": null,
+      "beta": "0.10583447 unit decrease",
+      "risk_frequency": "0.7004",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0800829",
+        "efo_trait": "X-21821 measurement"
+       }
+      ],
+      "reported_trait": [
+       "X-21821 levels"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 36,
+      "_pubdate": "2022-11-01"
+     },
+     {
+      "association_id": 119775451,
+      "accession_id": "GCST90245631",
+      "pubmed_id": "36357675",
+      "first_author": "Surendran P",
+      "p_value": 5.999999999999999e-20,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -20,
+      "or_value": null,
+      "beta": "0.10595466 unit decrease",
+      "risk_frequency": "0.7013",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0800774",
+        "efo_trait": "X-17351 measurement"
+       }
+      ],
+      "reported_trait": [
+       "X-17351 levels"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 37,
+      "_pubdate": "2022-11-01"
+     },
+     {
+      "association_id": 119756133,
+      "accession_id": "GCST90244876",
+      "pubmed_id": "36357675",
+      "first_author": "Surendran P",
+      "p_value": 3e-72,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -72,
+      "or_value": null,
+      "beta": "0.19764455 unit increase",
+      "risk_frequency": "0.703",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0008009",
+        "efo_trait": "1,5 anhydroglucitol measurement"
+       }
+      ],
+      "reported_trait": [
+       "1,5-anhydroglucitol (1,5-ag) levels"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 38,
+      "_pubdate": "2022-11-01"
+     },
+     {
+      "association_id": 104545791,
+      "accession_id": "GCST90248315",
+      "pubmed_id": "34648354",
+      "first_author": "Pietzner M",
+      "p_value": 0.0,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -1451,
+      "or_value": null,
+      "beta": "0.882 unit increase",
+      "risk_frequency": "0.69",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0801753",
+        "efo_trait": "lactase-phlorizin hydrolase measurement"
+       }
+      ],
+      "reported_trait": [
+       "Lactase-phlorizin hydrolase levels"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 39,
+      "_pubdate": "2021-11-12"
+     },
+     {
+      "association_id": 104165314,
+      "accession_id": "GCST90250902",
+      "pubmed_id": "36653479",
+      "first_author": "Kiiskinen T",
+      "p_value": 9e-10,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "0.00822 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0803367",
+        "efo_trait": "antihyperlipidemic drug use measurement"
+       }
+      ],
+      "reported_trait": [
+       "Medication use for hyperlipidemia (number of purchases)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-?"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 40,
+      "_pubdate": "2023-01-01"
+     },
+     {
+      "association_id": 102518478,
+      "accession_id": "GCST90241728",
+      "pubmed_id": "29875488",
+      "first_author": "Sun BB",
+      "p_value": 2e-222,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -222,
+      "or_value": null,
+      "beta": "0.78 unit increase",
+      "risk_frequency": "0.711",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0801753",
+        "efo_trait": "lactase-phlorizin hydrolase measurement"
+       }
+      ],
+      "reported_trait": [
+       "Lactase-phlorizin hydrolase levels (LCT.9017.58.3)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 41,
+      "_pubdate": "2018-06-01"
+     },
+     {
+      "association_id": 101965176,
+      "accession_id": "GCST90179150",
+      "pubmed_id": "36376304",
+      "first_author": "Koskeridis F",
+      "p_value": 8e-13,
+      "pvalue_mantissa": 8,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.012867 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index (MTAG)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 42,
+      "_pubdate": "2022-11-14"
+     },
+     {
+      "association_id": 101170003,
+      "accession_id": "GCST90140369",
+      "pubmed_id": "35347128",
+      "first_author": "Yin X",
+      "p_value": 2e-13,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.14 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0021261",
+        "efo_trait": "X-11795 measurement"
+       }
+      ],
+      "reported_trait": [
+       "X-11795 levels"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 43,
+      "_pubdate": "2022-03-28"
+     },
+     {
+      "association_id": 101159048,
+      "accession_id": "GCST90139611",
+      "pubmed_id": "35347128",
+      "first_author": "Yin X",
+      "p_value": 4.999999999999999e-44,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -44,
+      "or_value": null,
+      "beta": "0.27 unit increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0008009",
+        "efo_trait": "1,5 anhydroglucitol measurement"
+       }
+      ],
+      "reported_trait": [
+       "1,5-anhydroglucitol (1,5-ag) levels"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 44,
+      "_pubdate": "2022-03-28"
+     },
+     {
+      "association_id": 101156033,
+      "accession_id": "GCST90139419",
+      "pubmed_id": "35347128",
+      "first_author": "Yin X",
+      "p_value": 2e-13,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "0.14 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0021016",
+        "efo_trait": "indolepropionate measurement"
+       }
+      ],
+      "reported_trait": [
+       "Indolepropionate levels"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 45,
+      "_pubdate": "2022-03-28"
+     },
+     {
+      "association_id": 98379013,
+      "accession_id": "GCST90094711",
+      "pubmed_id": "35585065",
+      "first_author": "May-Wilson S",
+      "p_value": 1e-09,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.02464 unit decrease",
+      "risk_frequency": "0.7425",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0010155",
+        "efo_trait": "taste liking measurement"
+       }
+      ],
+      "reported_trait": [
+       "Broad bean liking"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 46,
+      "_pubdate": "2022-05-18"
+     },
+     {
+      "association_id": 96219964,
+      "accession_id": "GCST90092803",
+      "pubmed_id": "35213538",
+      "first_author": "Richardson TG",
+      "p_value": 6e-10,
+      "pvalue_mantissa": 6,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "0.0290161 unit increase",
+      "risk_frequency": "0.264157",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0010112",
+        "efo_trait": "acetate measurement"
+       }
+      ],
+      "reported_trait": [
+       "Acetate levels"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 47,
+      "_pubdate": "2022-02-25"
+     },
+     {
+      "association_id": 96197418,
+      "accession_id": "GCST90092994",
+      "pubmed_id": "35213538",
+      "first_author": "Richardson TG",
+      "p_value": 1e-10,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "0.0284728 unit increase",
+      "risk_frequency": "0.264183",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0010046",
+        "efo_trait": "fatty acid amount"
+       }
+      ],
+      "reported_trait": [
+       "Degree of unsaturation"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 48,
+      "_pubdate": "2022-02-25"
+     },
+     {
+      "association_id": 96180970,
+      "accession_id": "GCST90092949",
+      "pubmed_id": "35213538",
+      "first_author": "Richardson TG",
+      "p_value": 2e-08,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "0.0248042 unit increase",
+      "risk_frequency": "0.264175",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0020945",
+        "efo_trait": "Free cholesterol:total lipids ratio"
+       },
+       {
+        "efo_id": "EFO_0004612",
+        "efo_trait": "high density lipoprotein cholesterol measurement"
+       }
+      ],
+      "reported_trait": [
+       "Free cholesterol to total lipids ratio in small HDL"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 49,
+      "_pubdate": "2022-02-25"
+     },
+     {
+      "association_id": 96164910,
+      "accession_id": "GCST90092901",
+      "pubmed_id": "35213538",
+      "first_author": "Richardson TG",
+      "p_value": 1e-09,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.0269591 unit decrease",
+      "risk_frequency": "0.264175",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0020946",
+        "efo_trait": "Phospholipids:total lipids ratio"
+       },
+       {
+        "efo_id": "EFO_0004612",
+        "efo_trait": "high density lipoprotein cholesterol measurement"
+       }
+      ],
+      "reported_trait": [
+       "Phospholipids to total lipids ratio in medium HDL"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 50,
+      "_pubdate": "2022-02-25"
+     },
+     {
+      "association_id": 94879703,
+      "accession_id": "GCST90032588",
+      "pubmed_id": "35115689",
+      "first_author": "Qin Y",
+      "p_value": 1e-10,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "0.0947 unit decrease",
+      "risk_frequency": "0.414723",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007874",
+        "efo_trait": "gut microbiome measurement"
+       }
+      ],
+      "reported_trait": [
+       "Turicibacter sp001543345 abundance in stool"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 51,
+      "_pubdate": "2022-02-01"
+     },
+     {
+      "association_id": 94877787,
+      "accession_id": "GCST90032456",
+      "pubmed_id": "35115689",
+      "first_author": "Qin Y",
+      "p_value": 9.000000000000001e-09,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.0652691 unit increase",
+      "risk_frequency": "0.414723",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007874",
+        "efo_trait": "gut microbiome measurement"
+       }
+      ],
+      "reported_trait": [
+       "Lactobacillus B abundance in stool"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 52,
+      "_pubdate": "2022-02-01"
+     },
+     {
+      "association_id": 94877745,
+      "accession_id": "GCST90032454",
+      "pubmed_id": "35115689",
+      "first_author": "Qin Y",
+      "p_value": 3e-10,
+      "pvalue_mantissa": 3,
+      "pvalue_exponent": -10,
+      "or_value": null,
+      "beta": "0.0818721 unit increase",
+      "risk_frequency": "0.414723",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007874",
+        "efo_trait": "gut microbiome measurement"
+       }
+      ],
+      "reported_trait": [
+       "Lactobacillus B ruminis abundance in stool"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 53,
+      "_pubdate": "2022-02-01"
+     },
+     {
+      "association_id": 94874878,
+      "accession_id": "GCST90032246",
+      "pubmed_id": "35115689",
+      "first_author": "Qin Y",
+      "p_value": 2e-08,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "0.0209247 unit decrease",
+      "risk_frequency": "0.414723",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007874",
+        "efo_trait": "gut microbiome measurement"
+       }
+      ],
+      "reported_trait": [
+       "Brevibacillales abundance in stool"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 54,
+      "_pubdate": "2022-02-01"
+     },
+     {
+      "association_id": 94874855,
+      "accession_id": "GCST90032245",
+      "pubmed_id": "35115689",
+      "first_author": "Qin Y",
+      "p_value": 1e-08,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "0.0231996 unit decrease",
+      "risk_frequency": "0.414723",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007874",
+        "efo_trait": "gut microbiome measurement"
+       }
+      ],
+      "reported_trait": [
+       "Brevibacillaceae abundance in stool"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 55,
+      "_pubdate": "2022-02-01"
+     },
+     {
+      "association_id": 94874563,
+      "accession_id": "GCST90032222",
+      "pubmed_id": "35115689",
+      "first_author": "Qin Y",
+      "p_value": 9.000000000000001e-17,
+      "pvalue_mantissa": 9,
+      "pvalue_exponent": -17,
+      "or_value": null,
+      "beta": "0.166364 unit increase",
+      "risk_frequency": "0.414723",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007874",
+        "efo_trait": "gut microbiome measurement"
+       }
+      ],
+      "reported_trait": [
+       "Bifidobacterium bifidum abundance in stool"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 56,
+      "_pubdate": "2022-02-01"
+     },
+     {
+      "association_id": 94874254,
+      "accession_id": "GCST90032200",
+      "pubmed_id": "35115689",
+      "first_author": "Qin Y",
+      "p_value": 2e-08,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "0.0100068 unit decrease",
+      "risk_frequency": "0.414723",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007874",
+        "efo_trait": "gut microbiome measurement"
+       }
+      ],
+      "reported_trait": [
+       "Bacilli A abundance in stool"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 57,
+      "_pubdate": "2022-02-01"
+     },
+     {
+      "association_id": 80618813,
+      "accession_id": "GCST90017110",
+      "pubmed_id": "33462485",
+      "first_author": "Kurilshikov A",
+      "p_value": 1e-13,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "7.4256573 z score increase",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007874",
+        "efo_trait": "gut microbiome measurement"
+       }
+      ],
+      "reported_trait": [
+       "Gut microbiota abundance (phylum Actinobacteria id.400)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 58,
+      "_pubdate": "2021-02-01"
+     },
+     {
+      "association_id": 75061866,
+      "accession_id": "GCST011343",
+      "pubmed_id": "33619380",
+      "first_author": "Huang LO",
+      "p_value": 2e-13,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -13,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "0.508",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007800",
+        "efo_trait": "body fat percentage"
+       },
+       {
+        "efo_id": "EFO_0004611",
+        "efo_trait": "low density lipoprotein cholesterol measurement"
+       }
+      ],
+      "reported_trait": [
+       "Body fat percentage and LDL-C (pairwise)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 59,
+      "_pubdate": "2021-02-01"
+     },
+     {
+      "association_id": 73197532,
+      "accession_id": "GCST011335",
+      "pubmed_id": "33619380",
+      "first_author": "Huang LO",
+      "p_value": 2e-12,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -12,
+      "or_value": null,
+      "beta": "-",
+      "risk_frequency": "0.508",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       },
+       {
+        "efo_id": "EFO_0004611",
+        "efo_trait": "low density lipoprotein cholesterol measurement"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index and LDL-C (pairwise)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 60,
+      "_pubdate": "2021-02-01"
+     },
+     {
+      "association_id": 63147864,
+      "accession_id": "GCST006585",
+      "pubmed_id": "30072576",
+      "first_author": "Emilsson V",
+      "p_value": 5e-210,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -210,
+      "or_value": null,
+      "beta": "0.9628598 unit decrease",
+      "risk_frequency": "0.14765625",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_VT0005416",
+        "efo_trait": "blood protein amount"
+       }
+      ],
+      "reported_trait": [
+       "Blood protein levels"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 61,
+      "_pubdate": "2018-08-24"
+     },
+     {
+      "association_id": 62223757,
+      "accession_id": "GCST010397",
+      "pubmed_id": "32572223",
+      "first_author": "Hughes DA",
+      "p_value": 1e-06,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -6,
+      "or_value": null,
+      "beta": "0.127941 unit decrease",
+      "risk_frequency": "0.651664504477521",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0007874",
+        "efo_trait": "gut microbiome measurement"
+       }
+      ],
+      "reported_trait": [
+       "Gut microbiota (bacterial taxa, rank normal transformation method)"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 62,
+      "_pubdate": "2020-09-01"
+     },
+     {
+      "association_id": 35038025,
+      "accession_id": "GCST006368",
+      "pubmed_id": "30108127",
+      "first_author": "Hoffmann TJ",
+      "p_value": 5e-09,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.016 unit decrease",
+      "risk_frequency": "NR",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-G"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 63,
+      "_pubdate": "2018-10-01"
+     },
+     {
+      "association_id": 30524071,
+      "accession_id": "GCST005951",
+      "pubmed_id": "26426971",
+      "first_author": "Winkler TW",
+      "p_value": 1e-09,
+      "pvalue_mantissa": 1,
+      "pvalue_exponent": -9,
+      "or_value": null,
+      "beta": "0.0183999 unit increase",
+      "risk_frequency": "0.665850251591651",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 64,
+      "_pubdate": "2015-10-01"
+     },
+     {
+      "association_id": 19283800,
+      "accession_id": "GCST004066",
+      "pubmed_id": "25673412",
+      "first_author": "Shungin D",
+      "p_value": 2e-08,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -8,
+      "or_value": null,
+      "beta": "0.0217 unit increase",
+      "risk_frequency": "0.6486",
+      "efo_traits": [
+       {
+        "efo_id": "OBA_1000032",
+        "efo_trait": "hip circumference"
+       }
+      ],
+      "reported_trait": [
+       "Hip circumference"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 65,
+      "_pubdate": "2015-02-12"
+     },
+     {
+      "association_id": 12223470,
+      "accession_id": "GCST002783",
+      "pubmed_id": "25673413",
+      "first_author": "Locke AE",
+      "p_value": 2e-06,
+      "pvalue_mantissa": 2,
+      "pvalue_exponent": -6,
+      "or_value": null,
+      "beta": "0.016 kg/m2 increase",
+      "risk_frequency": "0.646",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 66,
+      "_pubdate": "2015-02-12"
+     },
+     {
+      "association_id": 12223242,
+      "accession_id": "GCST002783",
+      "pubmed_id": "25673413",
+      "first_author": "Locke AE",
+      "p_value": 4.9999999999999996e-06,
+      "pvalue_mantissa": 5,
+      "pvalue_exponent": -6,
+      "or_value": null,
+      "beta": "0.016 kg/m2 increase",
+      "risk_frequency": "0.66",
+      "efo_traits": [
+       {
+        "efo_id": "EFO_0004340",
+        "efo_trait": "body mass index"
+       }
+      ],
+      "reported_trait": [
+       "Body mass index"
+      ],
+      "mapped_genes": [
+       "MCM6"
+      ],
+      "snp_effect_allele": [
+       "rs4988235-A"
+      ],
+      "multi_snp_haplotype": false,
+      "_index": 67,
+      "_pubdate": "2015-02-12"
+     }
+    ]
+   }
+  },
+  "PMID:34648354": {
+   "record_id": "PMID:34648354",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34648354/",
+   "retrieved_at": "2026-11-17T02:04:43.706400+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "34648354",
+    "title": "Mapping the proteo-genomic convergence of human diseases.",
+    "journal": "Science",
+    "pubdate": "2021 Nov 12",
+    "sortpubdate": "2021-11-12"
+   }
+  },
+  "PMID:30072576": {
+   "record_id": "PMID:30072576",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30072576/",
+   "retrieved_at": "2026-11-17T02:04:43.706400+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "30072576",
+    "title": "Co-regulatory networks of human serum proteins link genetics to disease.",
+    "journal": "Science",
+    "pubdate": "2018 Aug 24",
+    "sortpubdate": "2018-08-24"
+   }
+  },
+  "PMID:39024449": {
+   "record_id": "PMID:39024449",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39024449/",
+   "retrieved_at": "2026-11-17T02:04:43.706400+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "39024449",
+    "title": "Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.",
+    "journal": "Science",
+    "pubdate": "2024 Jul 19",
+    "sortpubdate": "2024-07-19"
+   }
+  },
+  "PMID:36357675": {
+   "record_id": "PMID:36357675",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36357675/",
+   "retrieved_at": "2026-11-17T02:04:43.706400+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "36357675",
+    "title": "Rare and common genetic determinants of metabolic individuality and their effects on human health.",
+    "journal": "Nat Med",
+    "pubdate": "2022 Nov",
+    "sortpubdate": "2022-11-01"
+   }
+  },
+  "PMID:41688637": {
+   "record_id": "PMID:41688637",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41688637/",
+   "retrieved_at": "2026-11-17T02:04:43.706400+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "41688637",
+    "title": "The HUNT study identifies host genetic factors reproducibly associated with human gut microbiota composition.",
+    "journal": "Nat Genet",
+    "pubdate": "2026 Mar",
+    "sortpubdate": "2026-03-01"
+   }
+  },
+  "LitVar2:rs4988235": {
+   "record_id": "LitVar2:rs4988235",
+   "source": "LitVar2",
+   "source_version": "LitVar2",
+   "url": "https://www.ncbi.nlm.nih.gov/research/litvar2-api/variant/get/litvar%40rs4988235%23%23/publications",
+   "retrieved_at": "2026-11-17T02:04:43.780910+00:00",
+   "status": 200,
+   "data": {
+    "pmids": [
+     38559752,
+     31100942,
+     29063188,
+     33927194,
+     30728219,
+     37163039,
+     29685792,
+     39473183,
+     39868449,
+     34670632,
+     25505833,
+     33261611,
+     40626223,
+     28164156,
+     21235777,
+     29378630,
+     21028949,
+     33577048,
+     39919708,
+     24492129,
+     32899182,
+     28749934,
+     18974842,
+     30744699,
+     41482367,
+     30558337,
+     20031626,
+     29071499,
+     23128226,
+     38996131,
+     40751266,
+     35987633,
+     31719606,
+     22948027,
+     40673471,
+     28588231,
+     35795146,
+     33462485,
+     35561686,
+     33523926,
+     34937049,
+     30300385,
+     29315301,
+     21350631,
+     35391720,
+     25192705,
+     26337550,
+     25334030,
+     28256537,
+     29382937
+    ],
+    "n_pmids": 442
+   }
+  },
+  "PMID:42565205": {
+   "record_id": "PMID:42565205",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42565205/",
+   "retrieved_at": "2026-11-17T02:04:47.861048+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "42565205",
+    "title": "The association between the MCM6 LCT-13910C>T variant and bone mineral density in patients with inflammatory bowel disease.",
+    "journal": "Front Genet",
+    "pubdate": "2026",
+    "sortpubdate": "2026-07-24",
+    "abstract": "Inflammatory bowel diseases (IBD), including Crohn's disease (CD) and ulcerative colitis (UC), are associated with increased risk of osteoporosis. Beyond established environmental factors, genetic determinants and the impact of lactose intolerance on calcium-phosphate balance and bone mineralization are increasingly considered. The aim of this study was to evaluate the association between the LCT-13910C>T (rs4988235) polymorphism in the MCM6 gene and bone mineral density (BMD) in IBD. A total of 125 patients (50 with UC, 75 with CD) and 39 healthy controls were enrolled. Genotyping was performed by high-resolution melting (HRM) analysis with Sanger sequencing confirmation for selected samples. BMD was measured at L1-L4 and at the femoral neck; selected biochemical parameters were also assessed. Patients with IBD exhibited lower BMD compared with controls. Analysis of rs4988235 distribution revealed no statistically significant differences between patients and controls, although a higher frequency of the C allele and CC genotype was observed among patients. Genotype-phenotype analyses showed no significant associations for most parameters; the sole exception was the femoral neck in the CD subgroup, where CT heterozygotes had higher BMD than CC homozygotes. The LCT-13910C>T polymorphism does not appear to be independently associated with BMD in patients with IBD in this cohort. Given the moderate sample size and lack of adjustment for key confounders, the findings should be considered exploratory and require confirmation in larger, well-controlled studies."
+   }
+  },
+  "PMID:41482367": {
+   "record_id": "PMID:41482367",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41482367/",
+   "retrieved_at": "2026-11-17T02:04:47.861048+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "41482367",
+    "title": "Frequency and Diagnostic Utility of the -13910C>T MCM6 Gene Polymorphism for Lactose Intolerance in a Brazilian Northeast Population.",
+    "journal": "In Vivo",
+    "pubdate": "2026 Jan-Feb",
+    "sortpubdate": "2026-01-01",
+    "abstract": "Lactose intolerance (LI) is a common clinical condition associated with reduced lactase enzyme activity. The oral lactose tolerance test (OLTT), although widely used for diagnosis, has several limitations such as fasting, multiple blood collections, and gastrointestinal discomfort. As an alternative, genetic testing targeting the -13910C>T polymorphism in the MCM6 gene, a regulator of lactase expression, has gained prominence as it is non-invasive, rapid, and unaffected by physiological variation. This study aimed to evaluate the frequency of the -13910C>T polymorphism of the MCM6 gene in the population of Fortaleza and compare the genotyping results with the OLTT, to verify its diagnostic applicability. A descriptive study was conducted with data from 2359 patients examined between January 2022 and May 2025 at a private laboratory. Concordance between genotyping and OLTT was analyzed in 24 patients who underwent both tests, with OLTT considered the reference standard. Sensitivity, specificity, accuracy, and Kappa coefficient were calculated. All analyses were performed using R software. The median age of participants was 7 years (range=0.06-100 years). The observed genotype frequencies were 52.90% for the CC genotype, 38.74% for CT, and 8.35% for TT. The Kappa test demonstrated moderate agreement between the genetic test and OLTT [k=0.583 (p=0.00413)], with a sensitivity of 81.82% [95% confidence interval (CI)=48.22-97.71], overall accuracy of 79.17%, and specificity of 76.92% (95%CI=48.16-94.96). Genotyping for the -13910C>T polymorphism in the MCM6 gene represents a promising diagnostic alternative for lactose intolerance, offering a feasible and less invasive approach with good sensitivity and specificity."
+   }
+  },
+  "PMID:40944132": {
+   "record_id": "PMID:40944132",
+   "source": "PubMed",
+   "source_version": "PubMed E-utilities",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40944132/",
+   "retrieved_at": "2026-11-17T02:04:47.861048+00:00",
+   "status": 200,
+   "data": {
+    "pmid": "40944132",
+    "title": "Lactase Persistence-Associated rs4988235 Polymorphism: A Novel Genetic Link to Cardiovascular Risk via Modulation of ApoB100 and ApoAI.",
+    "journal": "Nutrients",
+    "pubdate": "2025 Aug 24",
+    "sortpubdate": "2025-08-24",
+    "abstract": "Background/Objectives: As part of the human adaptation to dairy consumption, the presence of the rs4988235-T variant in the MCM6 gene primarily determines lactase persistence in adult European populations, increasing the expression of the lactase-encoding LCT gene. Carriers of the C/C variant are lactose intolerant, while carriers of the T/T or T/C variant have persistent lactase enzyme activity and are able to digest lactose in adulthood. While the association between lactose intolerance and increased cardiovascular risk (CVR) is well-known, the underlying causes have only been partly explored. The present study aimed to investigate the association of rs4988235 polymorphism with significant lipids affecting cardiovascular health and estimated CVR. Methods: The rs4988235 polymorphism was genotyped in 397 subjects from the general Hungarian population and 368 individuals from the Roma population. To characterize the overall lipid profile, total cholesterol (TC), low-density lipoprotein cholesterol (LDL-C), triglycerides (TG), high density lipoprotein cholesterol (HDL-C), apolipoprotein AI (ApoAI), and apolipoprotein B100 (ApoB100) levels were measured, and their ratios (TG/HDL-C, LDL-C/HDL-C, and ApoB100/ApoAI) were calculated. Cardiovascular risk was estimated using the Framingham Risk Score (FRS), Pooled Cohort Equations (PCE), Revised Pooled Cohort Equations (RPCE), and the Systematic Coronary Risk Evaluations (SCORE and SCORE2) algorithms. Adjusted linear and logistic regression analyses were performed, with p < 0.05 considered significant. Results: The Roma population had a significantly higher prevalence of the C/C genotype than the general population (65.5% vs. 40.3%, respectively). The results of the adjusted linear regression analysis showed a significant association between the C/C genotype and higher LDL-C level (B = 0.126, p = 0.047) and ApoB100 level (B = 0.046, p = 0.013), as well as a higher LDL-C/HDL-C ratio (B = 0.174, p = 0.021) and a higher ApoB100/ApoAI ratio (B = 0.045, p = 0.002), as well as a lower HDL-C level (B = -0.041, p = 0.049). The C/C genotype was also significantly associated with an increased cardiovascular risk (CVR) as estimated by the SCORE (B = 0.235, p = 0.034), SCORE2 (B = 0.414, p = 0.009), PCE (B = 0.536, p = 0.008), and RPCE (B = 0.289, p = 0.045) but not the FRS. After adjusting the statistical model further for ApoAI and ApoB100 levels, the significant correlation with the risk estimation algorithms disappeared (SCORE: p = 0.099; SCORE2: p = 0.283; PCE: p = 0.255; and RPCE: p = 0.370). Conclusions: Our results suggest that the C/C genotype of rs4988235 is associated with significantly higher ApoB100 and lower ApoAI levels and consequently higher ApoB100/ApoAI ratios, potentially contributing to an increased risk of cardiovascular disease. The results of the statistical analyses suggest that the association between lactose intolerant genotype and cardiovascular risk may be mediated indirectly via modification of the apolipoprotein profile."
+   }
+  }
+ },
+ "verification": {
+  "n_claims": 37,
+  "n_claims_fully_verified": 37,
+  "n_uncited_claims": 0,
+  "n_citations": 91,
+  "n_citations_valid": 91,
+  "citation_validity_rate": 1.0,
+  "n_shown_values": 68,
+  "n_shown_values_in_text": 68,
+  "claim_record_agreement_rate": 1.0,
+  "claim_verified_rate": 1.0,
+  "failures": [],
+  "temporal_violations": [],
+  "rendered_text": {
+   "n_sentences": 37,
+   "n_without_citation": 0,
+   "examples": []
+  }
+ }
+}

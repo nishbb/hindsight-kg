@@ -1,0 +1,37 @@
+VARIANT DOSSIER: rs80357713 (current ID rs80357783)
+Evidence as of: 2020-01-01. Generated 2026-11-17.
+
+IDENTITY
+- rs80357713 is a retired dbSNP identifier that was merged into rs80357783; all evidence below is for rs80357783. [dbSNP rs80357713]
+- Earlier identifiers merged into rs80357783: rs77944974, rs80357713, rs386626651. [dbSNP build 157 rs80357783]
+- dbSNP records rs80357783 as variant type 'delins' on NC_000017.11 (GRCh38) with 1 alternate allele. [dbSNP build 157 rs80357783]
+- Alternate allele 1: NC_000017.11:g.43124031dup, a insertion or duplication (T>TT in VCF form). [dbSNP build 157 rs80357783]
+
+FUNCTION
+- For alternate allele 1 (T>TT), Ensembl VEP predicts frameshift_variant in BRCA1 (ENST00000357654.9:c.66dup; ENSP00000350283.3:p.Glu23ArgfsTer18), impact HIGH. [Ensembl VEP rs80357783]
+- Ensembl classifies the variant as 'indel' with allele string -/T. [Ensembl VEP rs80357783]
+
+FREQUENCY
+- Alternate allele 1 (T>TT) has no gnomAD v2.1.1 record among the 1 MyVariant.info hit for rs80357783. [gnomAD v2.1.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_007294.3(BRCA1):c.66dupA (p.Glu23Argfs) (alternate allele 1) with germline classification 'Pathogenic' for: Breast-ovarian cancer, familial 1; Hereditary breast and ovarian cancer syndrome; Hereditary cancer-predisposing syndrome; Neoplasm of the breast; review status 'reviewed by expert panel', 16 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000037691 (2019-01 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic; 2019-01: Pathogenic. The classification did not change over these releases. [ClinVar VCV000037691 (2019-01 release)]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists no association for rs80357783. [GWAS Catalog rs80357783]
+
+LITERATURE
+- LitVar2 links 72 PubMed articles to rs80357783; 42 of the 72 with a PubMed date were published on or before 2020-01-01. [LitVar2 rs80357783]
+- Linked article: "A Multi-Center Study of BRCA1 and BRCA2 Germline Mutations in Mexican-Mestizo Breast Cancer Families Reveals Mutations Unreported in Latin American Population" (Cancers (Basel), 2019). [PMID:31454914]
+- Linked article: "Germline variation in BRCA1/2 is highly ethnic-specific: Evidence from over 30,000 Chinese hereditary breast and ovarian cancer patients" (Int J Cancer, 2019). [PMID:30702160]
+- Linked article: "Estrogen Receptor Status Oppositely Modifies Breast Cancer Prognosis in BRCA1/BRCA2 Mutation Carriers Versus Non-Carriers" (Cancers (Basel), 2019). [PMID:31141992]
+
+CONFLICTS AND CAVEATS
+- (none detected by the automated checks)
+
+BOTTOM LINE
+- Bottom line: rs80357783 in BRCA1 is best described as: germline disease variant. ClinVar links it to Breast-ovarian cancer, familial 1. Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict). [ClinVar VCV000037691 (2019-01 release); GWAS Catalog rs80357783; LitVar2 rs80357783]
+
+PROCESSING NOTES (not evidence)
+- CIViC, COSMIC and DoCM entries carry no reliable public release date, so they are only used when as_of is 'latest'.
