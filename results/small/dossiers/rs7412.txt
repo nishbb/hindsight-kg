@@ -1,0 +1,49 @@
+VARIANT DOSSIER: rs7412
+Evidence as of: latest. Generated 2026-11-18.
+
+IDENTITY
+- rs7412 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs7412]
+- Earlier identifiers merged into rs7412: rs3200542. [dbSNP build 157 rs7412]
+- dbSNP records rs7412 as variant type 'snv' on NC_000019.10 (GRCh38) with 1 alternate allele. [dbSNP build 157 rs7412]
+- Alternate allele 1: NC_000019.10:g.44908822C>T, a single-nucleotide variant (SNV) (C>T in VCF form). [dbSNP build 157 rs7412]
+
+FUNCTION
+- For alternate allele 1 (C>T), Ensembl VEP predicts missense_variant in APOE (ENST00000252486.9:c.526C>T; ENSP00000252486.3:p.Arg176Cys), impact MODERATE. [Ensembl VEP rs7412]
+- Ensembl classifies the variant as 'SNV' with allele string C/T. [Ensembl VEP rs7412]
+
+FREQUENCY
+- In gnomAD v2.1.1 exomes, alternate allele 1 (C>T) has an overall allele frequency of 0.0615. [gnomAD v2.1.1 exomes]
+- Per-ancestry gnomAD v2.1.1 frequencies for allele 1: African/African American 0.108, Admixed American 0.0312, Ashkenazi Jewish 0.0797, East Asian 0.0742, Finnish 0.0454, Non-Finnish European 0.0751, South Asian 0.0419, Other 0.0608. [gnomAD v2.1.1 exomes]
+- In gnomAD v4.1 (exomes and genomes combined), alternate allele 1 (C>T) has an overall allele frequency of 0.0742 (114,390 of 1,540,810 alleles). [gnomAD v4.1]
+- Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.106, Admixed American 0.0349, Ashkenazi Jewish 0.0742, East Asian 0.0605, Finnish 0.0481, Non-Finnish European 0.0783, South Asian 0.0416, Middle Eastern 0.0581, Amish 0.0121, Remaining 0.0705. [gnomAD v4.1]
+
+DISEASE RELEVANCE (GERMLINE)
+- ClinVar lists NM_000041.2(APOE):c.526C>T (p.Arg176Cys) (alternate allele 1) with germline classification 'drug response' for: Familial type 3 hyperlipoproteinemia; atorvastatin response - Efficacy; Warfarin response; Hypercholesterolemia; review status 'reviewed by expert panel', 12 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000017848 (2026-11 release)]
+- Classification history across archived ClinVar releases for this allele: 2018-01: drug response; 2019-01: drug response; 2020-01: drug response; 2026-11: drug response. The classification did not change over these releases. [ClinVar VCV000017848 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 4 'Likely benign', 2 'Benign', 2 'drug response', 1 'Pathogenic', 1 'Uncertain significance', 1 'other', 1 'risk factor'. [ClinVar VCV000017848 (2026-11 release)]
+- No allele of rs7412 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000017848 (2026-11 release)]
+
+SOMATIC EVIDENCE
+- Ensembl VEP reports 1 co-located COSMIC somatic mutation record(s) at this position (COSV52986153). [Ensembl VEP rs7412]
+
+TRAIT ASSOCIATIONS (GWAS)
+- The GWAS Catalog lists 1185 association record(s) for rs7412. [GWAS Catalog rs7412]
+- Genome-wide significant association with low density lipoprotein cholesterol measurement (p = 1e-9629, study GCST90239655). [GWAS Catalog GCST90239655; PMID:34887591]
+- Genome-wide significant association with apolipoprotein B measurement (p = 4e-6067, study GCST90019496, effect allele rs7412-T). [GWAS Catalog GCST90019496; PMID:33462484]
+- Genome-wide significant association with non-high density lipoprotein cholesterol measurement (p = 1e-4987, study GCST90239667). [GWAS Catalog GCST90239667; PMID:34887591]
+- Genome-wide significant association with total cholesterol measurement (p = 5e-4551, study GCST90239673). [GWAS Catalog GCST90239673; PMID:34887591]
+- Genome-wide significant association with cholesteryl esters in large LDL measurement (p = 9e-2168, study GCST90501148, effect allele rs7412-T). [GWAS Catalog GCST90501148; PMID:41044249]
+- Genome-wide significant association with blood VLDL cholesterol amount (p = 4e-2155, study GCST90501173, effect allele rs7412-T). [GWAS Catalog GCST90501173; PMID:41044249]
+- rs7412 is associated with 362 distinct trait(s) at genome-wide significance, and ClinVar holds no pathogenic germline assertion for it, so the evidence supports a trait or risk association and not an established monogenic disease. [GWAS Catalog rs7412; ClinVar VCV000017848 (2026-11 release)]
+
+LITERATURE
+- LitVar2 links 3605 PubMed articles to rs7412. [LitVar2 rs7412]
+- Linked article: "Associations Between APOE Polymorphisms, Neurological Symptoms, and Cognitive Assessments in Long COVID Patients: An Analysis of SNPs rs7412 and rs429358" (Mol Neurobiol, 2025). [PMID:41269415]
+- Linked article: "Bioinformatic and genomic analysis identifies C allele of APOE rs7412 as the most prominent variant limiting extreme human longevity" (Sci Rep, 2025). [PMID:40594060]
+- Linked article: "Common Variants rs429358 and rs7412 in APOE Gene Are Not Associated with POAG in a Saudi Cohort" (Biology (Basel), 2024). [PMID:38275738]
+
+CONFLICTS AND CAVEATS
+- Submitter conflict: ClinVar submissions for NM_000041.2(APOE):c.526C>T (p.Arg176Cys) disagree (1 pathogenic or likely pathogenic, 1 uncertain significance, 6 benign or likely benign); the aggregate classification is 'drug response'. [ClinVar VCV000017848]
+
+BOTTOM LINE
+- Bottom line: rs7412 in APOE is best described as: trait-associated common variant without an established monogenic disease role (ClinVar also records a drug-response annotation). Its strongest reported association is with low density lipoprotein cholesterol measurement. Sources disagree on some points (see conflicts). Confidence: high (1155 genome-wide significant associations across 1137 studies). [ClinVar VCV000017848 (2026-11 release); GWAS Catalog rs7412; LitVar2 rs7412]

@@ -1,0 +1,13 @@
+variation_id,mondo_id,label,truth,pool,conformal_set
+1504,MONDO:0009919,stable_pathogenic,keep,plp,plp
+3900,MONDO:0010100,stable_pathogenic,keep,plp,plp
+7204,MONDO:0009061,stable_pathogenic,keep,plp,plp
+230573,MONDO:0015356,downgraded,downgrade,plp,blb
+430688,MONDO:0004069,downgraded,downgrade,plp,plp
+489507,MONDO:0015356,stable_vus,keep,vus,empty
+558765,MONDO:0009162,downgraded,downgrade,plp,blb
+568773,MONDO:0019011,upgraded,upgrade,vus,plp
+569144,MONDO:0010679,stable_vus,keep,vus,empty
+583627,MONDO:0007524,upgraded,upgrade,vus,plp
+632504,MONDO:0014437,upgraded,upgrade,vus,plp
+656136,MONDO:0014286,stable_vus,keep,vus,blb

@@ -2,7 +2,7 @@
  "rsid_query": "rs10037493",
  "rsid_current": "rs10037493",
  "as_of": "latest",
- "generated_at": "2026-11-17T18:44:53.249439+00:00",
+ "generated_at": "2026-11-18T16:50:29.081847+00:00",
  "genes": {
   "vep": [],
   "dbsnp": [
@@ -1798,7 +1798,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2026-11",
    "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
-   "retrieved_at": "2026-11-17T18:44:53.246764+00:00",
+   "retrieved_at": "2026-11-18T16:50:29.079414+00:00",
    "status": 200,
    "data": {
     "rsid": "rs10037493",

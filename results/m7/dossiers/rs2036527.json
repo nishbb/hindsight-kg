@@ -2,7 +2,7 @@
  "rsid_query": "rs2036527",
  "rsid_current": "rs2036527",
  "as_of": "latest",
- "generated_at": "2026-11-17T18:44:53.288889+00:00",
+ "generated_at": "2026-11-18T16:50:29.125000+00:00",
  "genes": {
   "vep": [
    "PSMA4"
@@ -1594,7 +1594,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2026-11",
    "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
-   "retrieved_at": "2026-11-17T18:44:53.284171+00:00",
+   "retrieved_at": "2026-11-18T16:50:29.120481+00:00",
    "status": 200,
    "data": {
     "rsid": "rs2036527",

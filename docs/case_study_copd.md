@@ -41,4 +41,6 @@ The figure links GWAS lead variants (time-T graph, GWAS Catalog 2019-12-16 relea
 2. Time-T discipline changes the case study materially: the best-known COPD gene (SERPINA1) drops out because its GWAS support postdates T.
 3. The audited edges that were revised were the low-review, OMIM-era single-submitter assertions, which is the same signal that dominates the tabular baselines in the full evaluation.
 
-Agent verdicts on these 12 edges: see `results/m7/agent_verdicts.csv` (added after the M5 run).
+## Audit agent on the 12 COPD edges
+
+The audit agent (config c: GNN tools, dossier as of 2020-01-01, PubMed before 2020; Nemotron 3.5 Lightning, reasoning off) was run on all 12 edges. It returned `downgrade` for 10 and `needs_review` for the 2 uncertain edges, so it was correct on 3 of 12 (accuracy 0.25): the three true downgrades were caught, but so were 7 of the 7 stable pathogenic edges. This repeats the failure seen in the full M5 evaluation (precision for downgrade at chance), where the agent treats weak documentation (no assertion criteria, single submitter) as evidence of error. The GNN conformal set alone separated the cases better: all 3 downgraded edges had an empty set, while 3 of the 7 stable pathogenic edges (ZFPM2 VCV 6129 and 6131, SCNN1A VCV 504974) had a confident P/LP set. Verdicts and rationales are in `results/m7/agent_verdicts.csv`.

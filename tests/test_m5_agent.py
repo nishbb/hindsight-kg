@@ -44,9 +44,10 @@ class FakeLLM:
 
     def chat(self, messages, tools, tool_choice="auto"):
         self.n += 1
-        if tools is None:
+        allowed = tools is not None and tool_choice != "none"
+        if not allowed:
             self.saw_no_tools = True
-        if tools and (self.greedy or self.n == 1):
+        if allowed and (self.greedy or self.n == 1):
             return {
                 "content": "",
                 "tool_calls": [

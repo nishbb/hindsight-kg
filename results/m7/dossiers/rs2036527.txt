@@ -1,5 +1,5 @@
 VARIANT DOSSIER: rs2036527
-Evidence as of: latest. Generated 2026-11-17.
+Evidence as of: latest. Generated 2026-11-18.
 
 IDENTITY
 - rs2036527 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs2036527]

@@ -141,6 +141,20 @@ def main() -> None:
                 f"| {names.get(r.config, r.config)} | {r.accuracy:.3f} | {r.macro_f1:.3f} | {r.coverage:.3f} | {r.accuracy_on_decided:.3f} | {r.ece:.3f} | {r.tool_calls_per_edge:.2f} | {r.prompt_tokens_per_edge:,.0f} |"
             )
         L.append("")
+        pd5 = R / "m5" / "paired_deltas.csv"
+        if pd5.exists():
+            dd = pd.read_csv(pd5)
+            L += [
+                "Paired bootstrap over the same edges (2,000 resamples):",
+                "",
+                "| from | to | metric | delta (95% CI) | p |",
+                "|---|---|---|---|---|",
+            ]
+            for r in dd.itertuples():
+                L.append(
+                    f"| {r[1]} | {r.to} | {r.metric} | {r.delta:+.3f} ({r.lo:+.3f} to {r.hi:+.3f}) | {r.p_boot:.3f} |"
+                )
+            L.append("")
 
     p = R / "m6" / "cleaning_summary.csv"
     if p.exists():

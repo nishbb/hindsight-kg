@@ -1,0 +1,45 @@
+{
+  "base_url": "https://integrate.api.nvidia.com/v1",
+  "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+  "n_edges": 12,
+  "results": {
+    "b0": {
+      "accuracy": 0.5,
+      "accuracy_on_decided": 0.5,
+      "accuracy_plp_pool": 0.5,
+      "accuracy_vus_pool": 0.5,
+      "completion_tokens_per_edge": 161.08333333333334,
+      "config": "b0",
+      "coverage": 1.0,
+      "ece": 0.4125000000000002,
+      "macro_f1": 0.3416666666666666,
+      "n": 12,
+      "precision_downgrade": 0.5,
+      "precision_upgrade": 0.0,
+      "prompt_tokens_per_edge": 467.6666666666667,
+      "recall_downgrade": 0.3333333333333333,
+      "recall_upgrade": 0.0,
+      "tool_calls_per_edge": 0.0,
+      "unsupported_citation_rate": 0.3076923076923077
+    },
+    "c": {
+      "accuracy": 0.16666666666666666,
+      "accuracy_on_decided": 0.2222222222222222,
+      "accuracy_plp_pool": 0.3333333333333333,
+      "accuracy_vus_pool": 0.0,
+      "completion_tokens_per_edge": 523.3333333333334,
+      "config": "c",
+      "coverage": 0.75,
+      "ece": 0.4925,
+      "macro_f1": 0.15584415584415584,
+      "n": 12,
+      "precision_downgrade": 0.3333333333333333,
+      "precision_upgrade": 0.0,
+      "prompt_tokens_per_edge": 17980.166666666668,
+      "recall_downgrade": 0.3333333333333333,
+      "recall_upgrade": 0.0,
+      "tool_calls_per_edge": 6.0,
+      "unsupported_citation_rate": 0.04878048780487805
+    }
+  }
+}

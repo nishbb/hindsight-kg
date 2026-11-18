@@ -1,4 +1,12 @@
 {
+  "agent": {
+    "accuracy": 0.25,
+    "n": 12,
+    "verdicts": {
+      "downgrade": 10,
+      "needs_review": 2
+    }
+  },
   "copd_edges_by_label": {
     "downgraded": 3,
     "stable_pathogenic": 7,

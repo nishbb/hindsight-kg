@@ -1,5 +1,5 @@
 VARIANT DOSSIER: rs12914385
-Evidence as of: latest. Generated 2026-11-17.
+Evidence as of: latest. Generated 2026-11-18.
 
 IDENTITY
 - rs12914385 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs12914385]

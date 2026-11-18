@@ -1,0 +1,13 @@
+task,baseline,with_graph,metric,delta,lo,hi,p_boot
+downgrade,GBM tabular,GBM tabular + GNN (small),auroc,-0.007644258211354948,-0.013846228830221222,-0.00258926753761572,0.0
+downgrade,GBM tabular,GBM tabular + GNN (small),auprc,-0.03237471870937081,-0.04492030626717105,-0.017645345772139318,0.0
+downgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (small),auroc,-0.004387214452852284,-0.009619009351833907,0.0009092098603351939,0.1
+downgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (small),auprc,-0.0044152697042223465,-0.014752843418449584,0.008930684131029385,0.6
+downgrade,GBM tabular,GBM tabular + neighbour counts,auroc,0.009930028979435623,0.0016286422018796237,0.016996449440862545,0.02
+downgrade,GBM tabular,GBM tabular + neighbour counts,auprc,0.018951808614603383,-0.0034763744785096164,0.03939462712750336,0.1
+upgrade,GBM tabular,GBM tabular + GNN (small),auroc,0.05763147865853657,0.03836721245281646,0.08096681577864878,0.0
+upgrade,GBM tabular,GBM tabular + GNN (small),auprc,0.015154491380318186,-0.015407172004581873,0.04043602489290121,0.36
+upgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (small),auroc,0.006329849012775779,-0.0033359155717672924,0.017089968514082492,0.24
+upgrade,GBM tabular + neighbour counts,GBM tabular + neighbour counts + GNN (small),auprc,0.040103487210696315,0.023264290225143203,0.06212017094046384,0.0
+upgrade,GBM tabular,GBM tabular + neighbour counts,auroc,0.0848678559330236,0.05952110630202284,0.10978820729892567,0.0
+upgrade,GBM tabular,GBM tabular + neighbour counts,auprc,0.029077251116982533,-0.010198310403916139,0.05822169808937676,0.18

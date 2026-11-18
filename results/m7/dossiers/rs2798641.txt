@@ -1,5 +1,5 @@
 VARIANT DOSSIER: rs2798641
-Evidence as of: latest. Generated 2026-11-17.
+Evidence as of: latest. Generated 2026-11-18.
 
 IDENTITY
 - rs2798641 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs2798641]

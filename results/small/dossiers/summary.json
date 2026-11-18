@@ -1,0 +1,47 @@
+{
+ "as_of": "latest",
+ "variants": [
+  {
+   "rsid": "rs334",
+   "status": "ok",
+   "current": "rs334",
+   "n_claims": 41,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 3,
+   "bottom_line": "Bottom line: rs334 in HBB is best described as: germline disease variant. ClinVar links it to HEMOGLOBIN S. Sources disagree on some points (see conflicts). Confidence: high (multi-submitter or expert-reviewed ClinVar assertion without submitter conflict)."
+  },
+  {
+   "rsid": "rs429358",
+   "status": "ok",
+   "current": "rs429358",
+   "n_claims": 30,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 2,
+   "bottom_line": "Bottom line: rs429358 in APOE is best described as: low-penetrance risk allele, not a fully penetrant monogenic disease variant. Its strongest reported association is with c-reactive protein measurement. Sources disagree on some points (see conflicts). Confidence: high (1396 genome-wide significant associations across 1412 studies)."
+  },
+  {
+   "rsid": "rs7412",
+   "status": "ok",
+   "current": "rs7412",
+   "n_claims": 29,
+   "citation_validity_rate": 1.0,
+   "claim_record_agreement_rate": 1.0,
+   "n_uncited_claims": 0,
+   "temporal_violations": 0,
+   "n_conflicts": 1,
+   "bottom_line": "Bottom line: rs7412 in APOE is best described as: trait-associated common variant without an established monogenic disease role (ClinVar also records a drug-response annotation). Its strongest reported association is with low density lipoprotein cholesterol measurement. Sources disagree on some points (see conflicts). Confidence: high (1155 genome-wide significant associations across 1137 studies)."
+  }
+ ],
+ "haplotypes": [
+  [
+   "rs429358",
+   "rs7412"
+  ]
+ ]
+}

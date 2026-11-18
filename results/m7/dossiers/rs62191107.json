@@ -2,7 +2,7 @@
  "rsid_query": "rs62191107",
  "rsid_current": "rs62191107",
  "as_of": "latest",
- "generated_at": "2026-11-17T18:44:53.293301+00:00",
+ "generated_at": "2026-11-18T16:50:29.129396+00:00",
  "genes": {
   "vep": [],
   "dbsnp": [],
@@ -1063,7 +1063,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2026-11",
    "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
-   "retrieved_at": "2026-11-17T18:44:53.291513+00:00",
+   "retrieved_at": "2026-11-18T16:50:29.127695+00:00",
    "status": 200,
    "data": {
     "rsid": "rs62191107",

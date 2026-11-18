@@ -2,7 +2,7 @@
  "rsid_query": "rs2001546",
  "rsid_current": "rs2001546",
  "as_of": "latest",
- "generated_at": "2026-11-17T18:44:53.282018+00:00",
+ "generated_at": "2026-11-18T16:50:29.118093+00:00",
  "genes": {
   "vep": [
    "CDC123"
@@ -1074,7 +1074,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2026-11",
    "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
-   "retrieved_at": "2026-11-17T18:44:53.280173+00:00",
+   "retrieved_at": "2026-11-18T16:50:29.115695+00:00",
    "status": 200,
    "data": {
     "rsid": "rs2001546",

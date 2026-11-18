@@ -1,0 +1,49 @@
+{
+  "base_url": "https://api.tokenfactory.nebius.com/v1/",
+  "model": "nvidia/Nemotron-3_5-Lightning",
+  "n_edges": 12,
+  "results": {
+    "b0": {
+      "accuracy": 0.4166666666666667,
+      "accuracy_on_decided": 0.5,
+      "accuracy_plp_pool": 0.5,
+      "accuracy_vus_pool": 0.3333333333333333,
+      "completion_tokens_per_edge": 152.08333333333334,
+      "config": "b0",
+      "coverage": 0.8333333333333334,
+      "ece": 0.4583333333333335,
+      "invalid_verdict_rate": 0.0,
+      "macro_f1": 0.3238095238095238,
+      "n": 12,
+      "parse_failure_rate": 0.0,
+      "precision_downgrade": 0.5,
+      "precision_upgrade": 0.0,
+      "prompt_tokens_per_edge": 485.75,
+      "recall_downgrade": 0.3333333333333333,
+      "recall_upgrade": 0.0,
+      "tool_calls_per_edge": 0.0,
+      "unsupported_citation_rate": 0.6666666666666666
+    },
+    "c": {
+      "accuracy": 0.5,
+      "accuracy_on_decided": 0.6666666666666666,
+      "accuracy_plp_pool": 0.6666666666666666,
+      "accuracy_vus_pool": 0.3333333333333333,
+      "completion_tokens_per_edge": 667.3333333333334,
+      "config": "c",
+      "coverage": 0.75,
+      "ece": 0.34,
+      "invalid_verdict_rate": 0.0,
+      "macro_f1": 0.5674603174603173,
+      "n": 12,
+      "parse_failure_rate": 0.0,
+      "precision_downgrade": 0.6,
+      "precision_upgrade": 0.6666666666666666,
+      "prompt_tokens_per_edge": 20463.5,
+      "recall_downgrade": 1.0,
+      "recall_upgrade": 0.6666666666666666,
+      "tool_calls_per_edge": 5.5,
+      "unsupported_citation_rate": 0.05
+    }
+  }
+}

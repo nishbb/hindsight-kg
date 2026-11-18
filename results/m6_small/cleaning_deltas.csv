@@ -1,0 +1,7 @@
+arm,metric,mean_delta_vs_original,sd,n_seeds,all_seeds_positive
+gnn_flag,auroc,-0.009320019572244709,,1,False
+gnn_flag,auprc,-0.05881085356270194,,1,False
+gnn_flag,hits_at_1_of_11,-0.035828613641960105,,1,False
+random,auroc,0.00179585032392926,,1,True
+random,auprc,0.010200911249256372,,1,True
+random,hits_at_1_of_11,0.030288106377739488,,1,True

@@ -1,5 +1,5 @@
 VARIANT DOSSIER: rs10037493
-Evidence as of: latest. Generated 2026-11-17.
+Evidence as of: latest. Generated 2026-11-18.
 
 IDENTITY
 - rs10037493 is a current dbSNP identifier (not merged into another record). [dbSNP build 157 rs10037493]

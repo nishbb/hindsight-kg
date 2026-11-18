@@ -74,8 +74,8 @@ Early signal worth noting: "no assertion criteria provided" P/LP records downgra
 Plan: MONDO 2019 disease backbone, Hetionet 2017 molecular background, HPO 2019 gene-phenotype, ClinVar 2020-01 variant nodes and assertion edges (significance as edge type), GWAS Catalog 2019-12-16 variant-trait edges; save PyG `HeteroData`; leakage tests.
 
 Built (`scripts/m2_build_kg.py`, 22 s CPU; numbers in `results/m2/summary.json`):
-* 12 node types, 450,828 nodes: 353,600 variants (291,591 ClinVar, 62,009 GWAS-only), 21,008 genes, 21,838 diseases (MONDO), 14,586 phenotypes (HPO), 1,926 GWAS traits, plus GO terms, pathways, anatomy, compounds, symptoms.
-* 32 edge types, about 3.2M edges. Assertion edges at T: `assoc_plp` 90,390; `assoc_vus` 194,872; `assoc_blb` 74,216; `assoc_conflict` 33,239. GWAS variant-trait 89,603 (from 107,652 genome-wide significant rows added and published on or before T, of 166,103 raw rows).
+* 12 node types, 432,828 nodes: 353,600 variants (291,591 ClinVar, 62,009 GWAS-only), 21,008 genes, 21,838 diseases (MONDO), 14,586 phenotypes (HPO), 1,926 GWAS traits, plus GO terms, pathways, anatomy, compounds, symptoms.
+* 32 edge types, 3,118,166 edges. Assertion edges at T: `assoc_plp` 90,390; `assoc_vus` 194,872; `assoc_blb` 74,216; `assoc_conflict` 33,239. GWAS variant-trait 89,603 (from 107,652 genome-wide significant rows added and published on or before T, of 166,103 raw rows).
 * Variant node features are intrinsic only: consequence parsed from the HGVS name and variant type. Nothing derived from later data.
 * Unlike the M1 label table, the graph keeps multi-condition variants (one assertion edge per mapped condition).
 
@@ -161,9 +161,11 @@ Results (`results/m6/cleaning_summary.csv`, `cleaning_deltas.csv`), AUROC mean o
 
 Part 2 (STaRK-Prime graph-RAG with G-Retriever): **not run**. It needs a GPU for Llama-3.1-8B fine-tuning and none was attached. Preparation done (`scripts/m6_trust_transfer.py`): kg-gc trust can be transferred to only 5,326 of 80,411 PrimeKG disease-protein edges (6.6%), of which 958 have trust below 0.5. Any effect of trust-based pruning on STaRK-Prime is therefore limited to a small slice of the graph; we flag this as a reason to expect a small effect before spending GPU budget. Next step on the GPU instance: reproduce the G-Retriever baseline with PyG's `GRetriever` and QLoRA, then rerun with PCST edge cost increased by (1 - trust).
 
-## M7. COPD / emphysema case study (done except agent verdicts)
+## M7. COPD / emphysema case study
 
 See `docs/case_study_copd.md`. Seeds retrieved from the GWAS Catalog v2 API by trait-name search (3 MONDO terms, 1,234 associations, 562 lead loci). Only 12 time-T ClinVar edges qualify as COPD-related under the data rule; 3 were later downgraded (SCNN1A, SCNN1B bronchiectasis, all "no assertion criteria"), and all 3 had an "empty" conformal set at T. SERPINA1 drops out because its COPD GWAS support in the catalog is from 2024 (PMID 39024449), after T. The graph has no exposure entities; smoking-behaviour GWAS traits are the only exposure proxy.
+
+Agent (config c, Nebius Nemotron-3_5-Lightning) on the 12 edges: 10 downgrade, 2 needs_review, accuracy 0.25. It flagged all 3 true downgrades and all 7 stable pathogenic edges, the same over-calling seen in M5.
 
 ## M5. Audit agent: provider problems and decisions (2026-11-17/18)
 
@@ -173,3 +175,8 @@ See `docs/case_study_copd.md`. Seeds retrieved from the GWAS Catalog v2 API by t
 * All LLM configs (b0, b, c, d) are run on this one model and provider; NIM responses are kept in the cache but not reported. Reasoning ("thinking") is switched off for all configs.
 * Client hardening: 90 s request timeout with no hidden SDK retries (a stalled request previously blocked a run for 22 min), and a shared limiter that pauses all threads for 60 s after a 429 or 503.
 * Known limitation: the LLM's weights were trained on data after T. Tool evidence is restricted to T, but the model may remember later reclassifications, which would favour the LLM configs. We cannot remove this; we report it.
+
+## M8. Release checks (2026-11-18)
+
+* `make reproduce-small` (labels, graph, small R-GCN, evaluation, three dossiers, two cleaning arms) ran end to end on the laptop CPU in 7 min 28 s wall clock, under the 30 min target. It also refreshed `results/m2/leakage_manifest.json`, whose `clinvar_latest` date was still the abandoned weekly file (2026-11-16); it now records the pinned archive (2026-11-05).
+* 51 offline tests pass; ruff and black are clean.

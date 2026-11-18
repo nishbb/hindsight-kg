@@ -36,7 +36,7 @@ Decide what should happen to it:
 Only 'downgrade' applies to pathogenic edges and only 'upgrade' applies to VUS edges.
 Use the tools to gather evidence. All tools return information available in January 2020 only. Do not rely on anything you may remember about later reclassifications.
 When done, reply with ONLY a JSON object:
-{"verdict": "keep|downgrade|upgrade|needs_review", "confidence": <number 0 to 1, your probability that the verdict is correct>, "rationale": "<2 to 4 sentences; cite evidence ids in square brackets, e.g. [GNN:VCV123]>", "evidence_ids": ["<ids you relied on>"]}
+{"verdict": "keep|downgrade|upgrade|needs_review", "confidence": <number 0 to 1, your probability that the verdict is correct>, "rationale": "<2 to 4 sentences; cite evidence ids in square brackets, e.g. [ClinVar2020-01:VCV123]>", "evidence_ids": ["<ids you relied on>"]}
 Cite evidence ids exactly as they appear in the "evidence_id" fields of tool results (or PMIDs as PMID:<number>)."""
 
 
@@ -196,7 +196,13 @@ def audit_edge(
     calls, ptok, ctok, trace, retries = 0, 0, 0, [], 0
     for _turn in range(budget + 4):
         force = calls >= budget or spec is None
-        r = llm.chat(msgs, None if force else spec)
+        # once forced, keep the tool schema visible but forbid calls; without the schema some
+        # models write a tool call as plain text instead of answering
+        r = (
+            llm.chat(msgs, spec, tool_choice="none")
+            if (force and spec)
+            else llm.chat(msgs, None if force else spec)
+        )
         ptok += r["usage"]["prompt_tokens"]
         ctok += r["usage"]["completion_tokens"]
         if r["tool_calls"] and not force:
@@ -234,7 +240,7 @@ def audit_edge(
                 msgs.append(
                     {
                         "role": "user",
-                        "content": "Tool budget used up. Reply now with the JSON verdict only.",
+                        "content": "Tool budget used up. No more tool calls are possible. Reply now with the JSON verdict object only.",
                     }
                 )
             continue
@@ -242,7 +248,12 @@ def audit_edge(
         if out.get("parse_error") and retries < 1:
             retries += 1
             msgs.append({"role": "assistant", "content": r["content"]})
-            msgs.append({"role": "user", "content": "Reply with the JSON object only."})
+            msgs.append(
+                {
+                    "role": "user",
+                    "content": "Do not call any tool. Reply with the JSON verdict object only.",
+                }
+            )
             continue
         break
     out["invalid_verdict"] = out["verdict"] not in allowed

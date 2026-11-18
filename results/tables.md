@@ -83,11 +83,40 @@ Time-T link prediction (hgt, 5 held-out folds): P/LP vs B/LB AUROC 0.955 to 0.96
 |---|---|---|---|---|---|
 | QIAGEN 20 (latest) | 20/20 | 656 | 1828 | 1.000 | 1.000 |
 | QIAGEN 20 (as of 2020-01-01) | 20/20 | 479 | 1216 | 1.000 | 1.000 |
-| expert (n=100) | 100/100 | 2101 | 5595 | 1.000 | 1.000 |
+| expert (n=100) | 100/100 | 2115 | 5531 | 1.000 | 1.000 |
 | gwas (n=100) | 100/100 | 2545 | 5912 | 1.000 | 1.000 |
-| conflict (n=100) | 100/100 | 2273 | 6378 | 1.000 | 1.000 |
+| conflict (n=100) | 100/100 | 2290 | 6456 | 1.000 | 1.000 |
 
-Conflict recall against ClinVar's conflicting flag (n=100): 1.00 from individual submissions alone. Submitter disagreement on the expert-panel set: 0.29. Haplotype pairs detected in the QIAGEN set: [['rs429358', 'rs7412']].
+Conflict recall against ClinVar's conflicting flag (n=100): 1.00 from individual submissions alone. Submitter disagreement on the expert-panel set: 0.31. Haplotype pairs detected in the QIAGEN set: [['rs429358', 'rs7412']].
+
+## M5 / H2: audit agent (nvidia/Nemotron-3_5-Lightning, n = 320 edges, balanced over the four outcomes)
+
+| config | accuracy | macro-F1 | coverage | accuracy when decided | ECE | tool calls / edge | prompt tokens / edge |
+|---|---|---|---|---|---|---|---|
+| (a) GNN only, conformal rule | 0.550 | 0.516 | 0.822 | 0.669 | 0.350 | 0.00 | 0 |
+| LLM alone, no tools | 0.306 | 0.308 | 0.578 | 0.530 | 0.501 | 0.00 | 497 |
+| (b) agent without GNN tools | 0.297 | 0.303 | 0.544 | 0.546 | 0.507 | 5.86 | 21,843 |
+| (c) agent with GNN tools | 0.294 | 0.316 | 0.553 | 0.531 | 0.521 | 6.00 | 21,504 |
+| (d) agent with GNN tools + conformal budget | 0.328 | 0.372 | 0.619 | 0.530 | 0.485 | 5.93 | 35,470 |
+
+Paired bootstrap over the same edges (2,000 resamples):
+
+| from | to | metric | delta (95% CI) | p |
+|---|---|---|---|---|
+| a | b0 | accuracy | -0.244 (-0.334 to -0.153) | 0.000 |
+| a | b0 | macro_f1 | -0.208 (-0.274 to -0.136) | 0.000 |
+| a | c | accuracy | -0.256 (-0.347 to -0.166) | 0.000 |
+| a | c | macro_f1 | -0.200 (-0.267 to -0.130) | 0.000 |
+| a | d | accuracy | -0.222 (-0.312 to -0.131) | 0.000 |
+| a | d | macro_f1 | -0.144 (-0.211 to -0.075) | 0.000 |
+| b0 | b | accuracy | -0.009 (-0.047 to +0.028) | 0.693 |
+| b0 | b | macro_f1 | -0.005 (-0.050 to +0.041) | 0.840 |
+| b | c | accuracy | -0.003 (-0.041 to +0.034) | 0.932 |
+| b | c | macro_f1 | +0.013 (-0.043 to +0.066) | 0.637 |
+| c | d | accuracy | +0.034 (+0.003 to +0.066) | 0.026 |
+| c | d | macro_f1 | +0.056 (+0.011 to +0.104) | 0.017 |
+| b | d | accuracy | +0.031 (-0.013 to +0.075) | 0.175 |
+| b | d | macro_f1 | +0.068 (+0.012 to +0.123) | 0.022 |
 
 ## M6 / H3: cleaning and downstream gene-disease link prediction (prospective, 2026 pairs)
 
@@ -105,4 +134,6 @@ PrimeKG trust transfer: 5,326 of 80,411 disease-protein edges have time-T ClinVa
 ## M7. COPD / emphysema
 
 GWAS Catalog associations retrieved: 1,234 (1,002 genome-wide significant, 562 lead loci). COPD-related ClinVar edges at T: 12 ({'downgraded': 3, 'stable_pathogenic': 7, 'stable_vus': 2}).
+
+Audit agent on these edges: accuracy 0.25 (n=12).
 
