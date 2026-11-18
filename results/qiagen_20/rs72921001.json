@@ -2,7 +2,7 @@
  "rsid_query": "rs72921001",
  "rsid_current": "rs72921001",
  "as_of": "latest",
- "generated_at": "2026-11-17T02:13:54.169256+00:00",
+ "generated_at": "2026-11-17T20:58:36.937993+00:00",
  "genes": {
   "vep": [
    "OR10A2"
@@ -1035,7 +1035,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2026-11",
    "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
-   "retrieved_at": "2026-11-17T02:13:54.166765+00:00",
+   "retrieved_at": "2026-11-17T20:58:36.935882+00:00",
    "status": 200,
    "data": {
     "rsid": "rs72921001",

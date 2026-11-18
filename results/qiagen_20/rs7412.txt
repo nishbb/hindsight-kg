@@ -20,7 +20,7 @@ FREQUENCY
 DISEASE RELEVANCE (GERMLINE)
 - ClinVar lists NM_000041.2(APOE):c.526C>T (p.Arg176Cys) (alternate allele 1) with germline classification 'drug response' for: Familial type 3 hyperlipoproteinemia; atorvastatin response - Efficacy; Warfarin response; Hypercholesterolemia; review status 'reviewed by expert panel', 12 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000017848 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: drug response; 2019-01: drug response; 2020-01: drug response; 2026-11: drug response. The classification did not change over these releases. [ClinVar VCV000017848 (2026-11 release)]
-- Individual ClinVar submissions for this allele in the 2026-11 release: 4 'Likely benign', 2 'Benign', 2 'drug response', 1 'Pathogenic', 1 'risk factor', 1 'other', 1 'Uncertain significance'. [ClinVar VCV000017848 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 4 'Likely benign', 2 'Benign', 2 'drug response', 1 'Pathogenic', 1 'Uncertain significance', 1 'other', 1 'risk factor'. [ClinVar VCV000017848 (2026-11 release)]
 - No allele of rs7412 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000017848 (2026-11 release)]
 
 SOMATIC EVIDENCE

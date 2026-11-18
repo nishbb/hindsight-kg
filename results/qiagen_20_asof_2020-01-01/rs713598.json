@@ -2,7 +2,7 @@
  "rsid_query": "rs713598",
  "rsid_current": "rs713598",
  "as_of": "2020-01-01",
- "generated_at": "2026-11-17T02:14:03.927599+00:00",
+ "generated_at": "2026-11-17T20:58:39.542381+00:00",
  "genes": {
   "vep": [
    "TAS2R38"
@@ -1462,7 +1462,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01 (2019-01-03)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/2904/",
-   "retrieved_at": "2026-11-17T02:14:03.546278+00:00",
+   "retrieved_at": "2026-11-17T20:58:39.537321+00:00",
    "status": 200,
    "data": {
     "allele_id": "17943",

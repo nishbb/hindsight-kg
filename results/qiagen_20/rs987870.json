@@ -2,7 +2,7 @@
  "rsid_query": "rs987870",
  "rsid_current": "rs987870",
  "as_of": "latest",
- "generated_at": "2026-11-17T02:13:54.229378+00:00",
+ "generated_at": "2026-11-17T20:58:36.977547+00:00",
  "genes": {
   "vep": [
    "HLA-DPA1"
@@ -1384,7 +1384,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2026-11",
    "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
-   "retrieved_at": "2026-11-17T02:13:54.223945+00:00",
+   "retrieved_at": "2026-11-17T20:58:36.974344+00:00",
    "status": 200,
    "data": {
     "rsid": "rs987870",

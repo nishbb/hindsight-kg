@@ -2,7 +2,7 @@
  "rsid_query": "rs3827760",
  "rsid_current": "rs3827760",
  "as_of": "latest",
- "generated_at": "2026-11-17T02:13:54.491727+00:00",
+ "generated_at": "2026-11-17T20:58:37.111771+00:00",
  "genes": {
   "vep": [
    "EDAR"
@@ -159,12 +159,12 @@
      "review_status": "criteria provided, multiple submitters, no conflicts",
      "n_submitters": "10",
      "last_evaluated": "Jan 26, 2026",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {
-    "Benign": 9,
     "association": 1,
+    "Benign": 9,
     "Pathogenic": 1
    }
   }
@@ -291,8 +291,8 @@
    "type": "conflicting_submitters",
    "variation_id": "5858",
    "classes": {
-    "BLB": 9,
     "OTHER": 1,
+    "BLB": 9,
     "PLP": 1
    },
    "aggregate_conflict": false
@@ -1994,9 +1994,9 @@
   "ClinVar:VCV000005858@2026-11": {
    "record_id": "ClinVar:VCV000005858@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/5858/",
-   "retrieved_at": "2026-11-17T02:13:54.483266+00:00",
+   "retrieved_at": "2026-11-17T20:58:37.106077+00:00",
    "status": 200,
    "data": {
     "allele_id": "20897",
@@ -2026,26 +2026,14 @@
     "submissions": [
      {
       "variation_id": "5858",
-      "clnsig": "Benign",
-      "date_last_evaluated": "Jul 30, 2021",
-      "reported_phenotype": "C3888065:Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
+      "clnsig": "association",
+      "date_last_evaluated": "Aug 04, 2016",
+      "reported_phenotype": "C4016871:Hair morphology 1, hair thickness",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
       "origin_counts": "germline:na",
-      "submitter": "Genome-Nilou Lab",
-      "scv": "SCV001875910.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "5858",
-      "clnsig": "Benign",
-      "date_last_evaluated": "Apr 24, 2023",
-      "reported_phenotype": "C3887494:Ectodermal dysplasia 10B, hypohidrotic/hair/tooth type, autosomal recessive;C3888065:Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "research",
-      "origin_counts": "germline:na",
-      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
-      "scv": "SCV006053923.1",
+      "submitter": "OMIM",
+      "scv": "SCV000026398.2",
       "snapshot": "2026-11"
      },
      {
@@ -2063,42 +2051,6 @@
      {
       "variation_id": "5858",
       "clnsig": "Benign",
-      "date_last_evaluated": "Jan 26, 2026",
-      "reported_phenotype": "C0406702:Autosomal recessive hypohidrotic ectodermal dysplasia syndrome;C3888065:Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
-      "scv": "SCV001733091.6",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "5858",
-      "clnsig": "Benign",
-      "date_last_evaluated": "Jul 30, 2021",
-      "reported_phenotype": "C3887494:Ectodermal dysplasia 10B, hypohidrotic/hair/tooth type, autosomal recessive",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Genome-Nilou Lab",
-      "scv": "SCV001875912.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "5858",
-      "clnsig": "Benign",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "not provided",
-      "origin_counts": "germline:na",
-      "submitter": "Breakthrough Genomics, Breakthrough Genomics",
-      "scv": "SCV005239435.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "5858",
-      "clnsig": "Benign",
       "date_last_evaluated": "Oct 14, 2014",
       "reported_phenotype": "CN169374:not specified",
       "review_status": "criteria provided, single submitter",
@@ -2106,6 +2058,18 @@
       "origin_counts": "germline:na",
       "submitter": "Eurofins Ntd Llc (ga)",
       "scv": "SCV000225691.6",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "5858",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Jan 26, 2026",
+      "reported_phenotype": "C0406702:Autosomal recessive hypohidrotic ectodermal dysplasia syndrome;C3888065:Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
+      "scv": "SCV001733091.6",
       "snapshot": "2026-11"
      },
      {
@@ -2123,6 +2087,18 @@
      {
       "variation_id": "5858",
       "clnsig": "Benign",
+      "date_last_evaluated": "Apr 24, 2023",
+      "reported_phenotype": "C3887494:Ectodermal dysplasia 10B, hypohidrotic/hair/tooth type, autosomal recessive;C3888065:Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "research",
+      "origin_counts": "germline:na",
+      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
+      "scv": "SCV006053923.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "5858",
+      "clnsig": "Benign",
       "date_last_evaluated": "-",
       "reported_phenotype": "CN169374:not specified",
       "review_status": "criteria provided, single submitter",
@@ -2134,14 +2110,26 @@
      },
      {
       "variation_id": "5858",
-      "clnsig": "association",
-      "date_last_evaluated": "Aug 04, 2016",
-      "reported_phenotype": "C4016871:Hair morphology 1, hair thickness",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "literature only",
+      "clnsig": "Benign",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "not provided",
       "origin_counts": "germline:na",
-      "submitter": "OMIM",
-      "scv": "SCV000026398.2",
+      "submitter": "Breakthrough Genomics, Breakthrough Genomics",
+      "scv": "SCV005239435.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "5858",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Jul 30, 2021",
+      "reported_phenotype": "C3888065:Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Genome-Nilou Lab",
+      "scv": "SCV001875910.2",
       "snapshot": "2026-11"
      },
      {
@@ -2154,6 +2142,18 @@
       "origin_counts": "inherited:na",
       "submitter": "Department of Prosthodontics, Peking University School and Hospital of Stomatology",
       "scv": "SCV001365407.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "5858",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Jul 30, 2021",
+      "reported_phenotype": "C3887494:Ectodermal dysplasia 10B, hypohidrotic/hair/tooth type, autosomal recessive",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Genome-Nilou Lab",
+      "scv": "SCV001875912.2",
       "snapshot": "2026-11"
      }
     ],
@@ -2188,7 +2188,7 @@
       "review_status": "criteria provided, multiple submitters, no conflicts",
       "n_submitters": "10",
       "last_evaluated": "Jan 26, 2026",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }

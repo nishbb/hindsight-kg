@@ -2,7 +2,7 @@
  "rsid_query": "rs121913529",
  "rsid_current": "rs121913529",
  "as_of": "latest",
- "generated_at": "2026-11-17T02:13:54.128079+00:00",
+ "generated_at": "2026-11-17T20:58:36.917308+00:00",
  "genes": {
   "vep": [
    "KRAS"
@@ -226,11 +226,11 @@
     "Acute myeloid leukemia",
     "RASopathy",
     "Cerebral arteriovenous malformation",
-    "Primary low grade serous adenocarcinoma of ovary",
     "Vascular Tumors Including Pyogenic Granuloma",
+    "Primary low grade serous adenocarcinoma of ovary",
     "Capillary malformation-arteriovenous malformation 1",
-    "Gastric cancer",
     "Encephalocraniocutaneous lipomatosis",
+    "Gastric cancer",
     "Atypical endometrial hyperplasia",
     "Endometrial hyperplasia without atypia",
     "Cardiovascular phenotype",
@@ -241,13 +241,13 @@
     "Papillary thyroid carcinoma",
     "Alveolar rhabdomyosarcoma",
     "Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype",
-    "Colorectal cancer",
-    "Medulloblastoma non-WNT/non-SHH",
-    "Glioma",
     "Adenocarcinoma of the large intestine",
     "Ovarian mucinous adenocarcinoma",
     "Precursor B-cell acute lymphoblastic leukemia",
     "Diffuse midline glioma, H3 K27M-mutant",
+    "Colorectal cancer",
+    "Medulloblastoma non-WNT/non-SHH",
+    "Glioma",
     "KRAS-related disorder",
     "RAS-ASSOCIATED AUTOIMMUNE LEUKOPROLIFERATIVE DISORDER 2, SOMATIC"
    ],
@@ -284,15 +284,15 @@
      "review_status": "criteria provided, multiple submitters, no conflicts",
      "n_submitters": "29",
      "last_evaluated": "Jan 23, 2026",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {
-    "Pathogenic": 32,
-    "Likely pathogenic": 3,
-    "association": 1,
     "-": 12,
-    "not provided": 1
+    "Pathogenic": 32,
+    "association": 1,
+    "not provided": 1,
+    "Likely pathogenic": 3
    }
   },
   {
@@ -307,15 +307,15 @@
     "Juvenile myelomonocytic leukemia",
     "Non-small cell lung carcinoma",
     "Cerebral arteriovenous malformation",
-    "Lung sarcomatoid carcinoma",
     "Chronic myeloid leukemia",
-    "RASopathy",
+    "Lung sarcomatoid carcinoma",
     "Linear nevus sebaceous syndrome",
+    "RASopathy",
     "Neoplasm",
     "Colorectal cancer",
+    "Ovarian mucinous adenocarcinoma",
     "Adenocarcinoma of the large intestine",
     "Germinoma",
-    "Ovarian mucinous adenocarcinoma",
     "KRAS-related disorder"
    ],
    "origin": "germline;somatic;unknown",
@@ -351,7 +351,7 @@
      "review_status": "criteria provided, multiple submitters, no conflicts",
      "n_submitters": "15",
      "last_evaluated": "Jun 24, 2025",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {
@@ -409,13 +409,13 @@
      "review_status": "criteria provided, multiple submitters, no conflicts",
      "n_submitters": "11",
      "last_evaluated": "Oct 26, 2025",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {
-    "-": 3,
+    "Pathogenic": 6,
     "Likely pathogenic": 3,
-    "Pathogenic": 6
+    "-": 3
    }
   }
  ],
@@ -2174,7 +2174,7 @@
   },
   {
    "section": "Disease relevance (germline)",
-   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 6 'Pathogenic', 3 without a germline classification, 3 'Likely pathogenic'.",
+   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 6 'Pathogenic', 3 'Likely pathogenic', 3 without a germline classification.",
    "citations": [
     {
      "record_id": "ClinVar:VCV000045122@2026-11",
@@ -2199,7 +2199,7 @@
      "args": [
       "submissions",
       "clnsig",
-      "-"
+      "Likely pathogenic"
      ]
     },
     {
@@ -2212,7 +2212,7 @@
      "args": [
       "submissions",
       "clnsig",
-      "Likely pathogenic"
+      "-"
      ]
     }
    ]
@@ -11497,9 +11497,9 @@
   "ClinVar:VCV000012582@2026-11": {
    "record_id": "ClinVar:VCV000012582@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/12582/",
-   "retrieved_at": "2026-11-17T02:13:53.569989+00:00",
+   "retrieved_at": "2026-11-17T20:58:36.653670+00:00",
    "status": 200,
    "data": {
     "allele_id": "27621",
@@ -11508,8 +11508,8 @@
     "gene_symbol": "KRAS",
     "clnsig": "Pathogenic/Likely pathogenic",
     "last_evaluated": "Jan 23, 2026",
-    "rcv": "RCV000013411|RCV000022799|RCV000029214|RCV000029215|RCV000144969|RCV000150896|RCV000150897|RCV000272938|RCV000433573|RCV000548006|RCV000585796|RCV000856666|RCV000662266|RCV001799604|RCV002508117|RCV001839445|RCV003327361|RCV004018620|RCV004554600|RCV004668724|RCV005007840|RCV006253522|RCV006253519|RCV006253520|RCV006253523|RCV006250158|RCV006253526|RCV006253521|RCV006253525|RCV006253527|RCV006253518|RCV006253524|RCV006820108|RCV006688346",
-    "phenotype_list": "Carcinoma of pancreas|Epidermal nevus|Nevus sebaceous|Linear nevus sebaceous syndrome|Juvenile myelomonocytic leukemia|Non-small cell lung carcinoma|Ovarian neoplasm|not provided|Acute myeloid leukemia|RASopathy|Cerebral arteriovenous malformation|Primary low grade serous adenocarcinoma of ovary|Vascular Tumors Including Pyogenic Granuloma|Capillary malformation-arteriovenous malformation 1|Gastric cancer|Encephalocraniocutaneous lipomatosis|Atypical endometrial hyperplasia;Endometrial hyperplasia without atypia|Cardiovascular phenotype|Congenital Pulmonary Airway Malformations|Neoplasm|12 conditions|Embryonal rhabdomyosarcoma|Papillary thyroid carcinoma|Alveolar rhabdomyosarcoma|Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype|Colorectal cancer|Medulloblastoma non-WNT/non-SHH|Glioma|Adenocarcinoma of the large intestine|Ovarian mucinous adenocarcinoma|Precursor B-cell acute lymphoblastic leukemia|Diffuse midline glioma, H3 K27M-mutant|KRAS-related disorder|RAS-ASSOCIATED AUTOIMMUNE LEUKOPROLIFERATIVE DISORDER 2, SOMATIC",
+    "rcv": "RCV000013411|RCV000022799|RCV000029214|RCV000029215|RCV000144969|RCV000150896|RCV000150897|RCV000272938|RCV000433573|RCV000548006|RCV000585796|RCV000662266|RCV000856666|RCV001799604|RCV001839445|RCV002508117|RCV003327361|RCV004018620|RCV004554600|RCV004668724|RCV005007840|RCV006253522|RCV006253519|RCV006253520|RCV006253523|RCV006253525|RCV006253527|RCV006253518|RCV006253524|RCV006250158|RCV006253526|RCV006253521|RCV006820108|RCV006688346",
+    "phenotype_list": "Carcinoma of pancreas|Epidermal nevus|Nevus sebaceous|Linear nevus sebaceous syndrome|Juvenile myelomonocytic leukemia|Non-small cell lung carcinoma|Ovarian neoplasm|not provided|Acute myeloid leukemia|RASopathy|Cerebral arteriovenous malformation|Vascular Tumors Including Pyogenic Granuloma|Primary low grade serous adenocarcinoma of ovary|Capillary malformation-arteriovenous malformation 1|Encephalocraniocutaneous lipomatosis|Gastric cancer|Atypical endometrial hyperplasia;Endometrial hyperplasia without atypia|Cardiovascular phenotype|Congenital Pulmonary Airway Malformations|Neoplasm|12 conditions|Embryonal rhabdomyosarcoma|Papillary thyroid carcinoma|Alveolar rhabdomyosarcoma|Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype|Adenocarcinoma of the large intestine|Ovarian mucinous adenocarcinoma|Precursor B-cell acute lymphoblastic leukemia|Diffuse midline glioma, H3 K27M-mutant|Colorectal cancer|Medulloblastoma non-WNT/non-SHH|Glioma|KRAS-related disorder|RAS-ASSOCIATED AUTOIMMUNE LEUKOPROLIFERATIVE DISORDER 2, SOMATIC",
     "origin": "de novo;germline;somatic;unknown",
     "origin_simple": "germline/somatic",
     "assembly": "GRCh38",
@@ -11529,38 +11529,26 @@
     "submissions": [
      {
       "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Dec 01, 2022",
-      "reported_phenotype": "C3661900:not provided",
+      "clnsig": "-",
+      "date_last_evaluated": "Jul 09, 2024",
+      "reported_phenotype": "C0206655:Alveolar rhabdomyosarcoma",
       "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
-      "origin_counts": "germline:2",
-      "submitter": "CeGaT Center for Human Genetics Tuebingen",
-      "scv": "SCV002821689.28",
+      "origin_counts": "somatic:na",
+      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
+      "scv": "SCV007105413.1",
       "snapshot": "2026-11"
      },
      {
       "variation_id": "12582",
       "clnsig": "Pathogenic",
-      "date_last_evaluated": "Feb 23, 2024",
-      "reported_phenotype": "C0005684:Malignant tumor of urinary bladder;C0023467:Acute myeloid leukemia;C0024623:Gastric cancer;C0242379:Lung cancer;C0346153:Familial cancer of breast;C0917804:Cerebral arteriovenous malformation;C1838329:Toriello-Lacassie-Droste syndrome;C1860991:Noonan syndrome 3;C2674723:Autoimmune lymphoproliferative syndrome type 4;C2931038:Familial pancreatic carcinoma;C3809005:Cardiofaciocutaneous syndrome 2;C4552097:Linear nevus sebaceous syndrome",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Fulgent Genetics, Fulgent Genetics",
-      "scv": "SCV005634967.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Oct 05, 2022",
-      "reported_phenotype": "C5555857:RASopathy",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Women's Health and Genetics/Laboratory Corporation of America, LabCorp",
-      "scv": "SCV002601600.1",
+      "date_last_evaluated": "Jun 10, 2012",
+      "reported_phenotype": "C0235974:Carcinoma of pancreas",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "somatic:na",
+      "submitter": "OMIM",
+      "scv": "SCV000033658.6",
       "snapshot": "2026-11"
      },
      {
@@ -11577,26 +11565,38 @@
      },
      {
       "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Jan 23, 2026",
-      "reported_phenotype": "C4552097:Linear nevus sebaceous syndrome",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Victorian Clinical Genetics Services, Murdoch Childrens Research Institute",
-      "scv": "SCV007538136.1",
+      "clnsig": "-",
+      "date_last_evaluated": "Oct 10, 2024",
+      "reported_phenotype": "C0346629:Colorectal cancer",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
+      "origin_counts": "somatic:na",
+      "submitter": "Department of Clinical Biochemistry, Naestved Hospital",
+      "scv": "SCV006076878.1",
       "snapshot": "2026-11"
      },
      {
       "variation_id": "12582",
-      "clnsig": "Likely pathogenic",
-      "date_last_evaluated": "Feb 19, 2015",
-      "reported_phenotype": "na:Vascular Tumors Including Pyogenic Granuloma",
+      "clnsig": "-",
+      "date_last_evaluated": "Sep 12, 2024",
+      "reported_phenotype": "C4289688:Diffuse midline glioma, H3 K27M-mutant",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
+      "scv": "SCV007105418.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jun 10, 2012",
+      "reported_phenotype": "C0024623:Gastric cancer",
       "review_status": "no assertion criteria provided",
       "collection_method": "literature only",
       "origin_counts": "somatic:na",
-      "submitter": "Yale Center for Mendelian Genomics, Yale University",
-      "scv": "SCV000784594.1",
+      "submitter": "OMIM",
+      "scv": "SCV000033659.6",
       "snapshot": "2026-11"
      },
      {
@@ -11615,192 +11615,12 @@
       "variation_id": "12582",
       "clnsig": "Pathogenic",
       "date_last_evaluated": "-",
-      "reported_phenotype": "C0007131:Non-small cell lung carcinoma",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "research",
-      "origin_counts": "somatic:na",
-      "submitter": "Thoracic Oncology Service, Memorial Sloan Kettering Cancer Center",
-      "scv": "SCV000882686.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Nov 04, 2019",
-      "reported_phenotype": "C4302356:Primary low grade serous adenocarcinoma of ovary",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "research",
-      "origin_counts": "somatic:1",
-      "submitter": "University Health Network, Princess Margaret Cancer Centre",
-      "scv": "SCV000999192.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Jul 19, 2022",
-      "reported_phenotype": "na:Congenital Pulmonary Airway Malformations",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "de novo:1",
-      "submitter": "New York Genome Center",
-      "scv": "SCV005044128.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Nov 03, 2023",
-      "reported_phenotype": "C0917804:Cerebral arteriovenous malformation",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Clinical Genomics Laboratory, Washington University in St. Louis",
-      "scv": "SCV004176950.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Feb 07, 2019",
-      "reported_phenotype": "C0235974:Carcinoma of pancreas",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "research",
-      "origin_counts": "somatic:na",
-      "submitter": "Laboratory for Clinical Genomics and Advanced Technology, Dartmouth-Hitchcock Medical Center",
-      "scv": "SCV000882700.3",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Likely pathogenic",
-      "date_last_evaluated": "Aug 22, 2022",
-      "reported_phenotype": "CN230736:Cardiovascular phenotype",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Ambry Genetics",
-      "scv": "SCV005023563.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Likely pathogenic",
-      "date_last_evaluated": "Apr 30, 2025",
       "reported_phenotype": "C4552097:Linear nevus sebaceous syndrome",
       "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Department of Clinical Genetics, Copenhagen University Hospital, Rigshospitalet",
-      "scv": "SCV006304919.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Oct 09, 2019",
-      "reported_phenotype": "na:KRAS-related disorder",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:3",
-      "submitter": "Blueprint Genetics",
-      "scv": "SCV007771141.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Oct 25, 2012",
-      "reported_phenotype": "C3854181:Nevus sebaceous",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "literature only",
       "origin_counts": "somatic:na",
-      "submitter": "Yale Center for Mendelian Genomics, Yale University",
-      "scv": "SCV000611562.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Nov 03, 2023",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:1940",
-      "submitter": "Mayo Clinic Laboratories, Mayo Clinic",
-      "scv": "SCV005414064.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "-",
-      "date_last_evaluated": "Apr 09, 2024",
-      "reported_phenotype": "C1319315:Adenocarcinoma of the large intestine",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
-      "scv": "SCV007105409.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "-",
-      "date_last_evaluated": "Mar 24, 2025",
-      "reported_phenotype": "C0017638:Glioma",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
-      "scv": "SCV007105432.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "-",
-      "date_last_evaluated": "Jul 09, 2024",
-      "reported_phenotype": "C0206655:Alveolar rhabdomyosarcoma",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
-      "scv": "SCV007105413.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "-",
-      "date_last_evaluated": "Dec 24, 2024",
-      "reported_phenotype": "C0238463:Papillary thyroid carcinoma",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
-      "scv": "SCV007105422.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "-",
-      "date_last_evaluated": "Aug 01, 2023",
-      "reported_phenotype": "C5669918:Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
-      "scv": "SCV007105405.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "-",
-      "date_last_evaluated": "Jun 09, 2025",
-      "reported_phenotype": "C4330667:Medulloblastoma non-WNT/non-SHH",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
-      "scv": "SCV007105434.1",
+      "submitter": "Equipe Genetique des Anomalies du Developpement, Universit\u00e9 de Bourgogne",
+      "scv": "SCV001736991.1",
       "snapshot": "2026-11"
      },
      {
@@ -11818,145 +11638,13 @@
      {
       "variation_id": "12582",
       "clnsig": "Pathogenic",
-      "date_last_evaluated": "May 01, 2021",
-      "reported_phenotype": "C4747394:Capillary malformation-arteriovenous malformation 1",
+      "date_last_evaluated": "Jun 10, 2012",
+      "reported_phenotype": "C0334082:Epidermal nevus",
       "review_status": "no assertion criteria provided",
-      "collection_method": "research",
-      "origin_counts": "somatic:2",
-      "submitter": "Arin Greene Laboratory, Boston Children's Hospital, Harvard Medical School",
-      "scv": "SCV001739511.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "-",
-      "date_last_evaluated": "Oct 12, 2023",
-      "reported_phenotype": "C0349636:Precursor B-cell acute lymphoblastic leukemia",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
-      "scv": "SCV007105406.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C4552097:Linear nevus sebaceous syndrome",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Equipe Genetique des Anomalies du Developpement, Universit\u00e9 de Bourgogne",
-      "scv": "SCV001736991.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "-",
-      "date_last_evaluated": "Sep 12, 2024",
-      "reported_phenotype": "C4289688:Diffuse midline glioma, H3 K27M-mutant",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
-      "scv": "SCV007105418.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Mar 30, 2018",
-      "reported_phenotype": "C0023467:Acute myeloid leukemia",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Hematopathology, The University of Texas M.D. Anderson Cancer Center",
-      "scv": "SCV001571657.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Apr 02, 2025",
-      "reported_phenotype": "C5555857:RASopathy",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
-      "scv": "SCV000659085.3",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Aug 13, 2021",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:2",
-      "submitter": "Seattle Children's Hospital Molecular Genetics Laboratory, Seattle Children's Hospital",
-      "scv": "SCV002525678.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "-",
-      "date_last_evaluated": "Oct 10, 2024",
-      "reported_phenotype": "C0346629:Colorectal cancer",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "research",
-      "origin_counts": "somatic:na",
-      "submitter": "Department of Clinical Biochemistry, Naestved Hospital",
-      "scv": "SCV006076878.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "-",
-      "date_last_evaluated": "Apr 08, 2025",
-      "reported_phenotype": "C0206656:Embryonal rhabdomyosarcoma",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
-      "scv": "SCV007105520.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "-",
-      "date_last_evaluated": "Mar 04, 2025",
-      "reported_phenotype": "C0027651:Neoplasm",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital",
-      "scv": "SCV005094257.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "not provided",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C0406612:Encephalocraniocutaneous lipomatosis",
-      "review_status": "no classification provided",
       "collection_method": "literature only",
       "origin_counts": "somatic:na",
-      "submitter": "GeneReviews",
-      "scv": "SCV002099547.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Jan 09, 2026",
-      "reported_phenotype": "C4552097:Linear nevus sebaceous syndrome",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "3billion",
-      "scv": "SCV002318898.4",
+      "submitter": "OMIM",
+      "scv": "SCV000044088.6",
       "snapshot": "2026-11"
      },
      {
@@ -11973,62 +11661,26 @@
      },
      {
       "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Mar 06, 2018",
-      "reported_phenotype": "C0917804:Cerebral arteriovenous malformation",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "literature only",
-      "origin_counts": "somatic:na",
-      "submitter": "OMIM",
-      "scv": "SCV000693723.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
+      "clnsig": "not provided",
       "date_last_evaluated": "-",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "no assertion criteria provided",
+      "reported_phenotype": "C0406612:Encephalocraniocutaneous lipomatosis",
+      "review_status": "no classification provided",
+      "collection_method": "literature only",
+      "origin_counts": "somatic:na",
+      "submitter": "GeneReviews",
+      "scv": "SCV002099547.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "-",
+      "date_last_evaluated": "Mar 24, 2025",
+      "reported_phenotype": "C0017638:Glioma",
+      "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
-      "origin_counts": "unknown:119",
-      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
-      "scv": "SCV001550138.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Jun 10, 2012",
-      "reported_phenotype": "C0235974:Carcinoma of pancreas",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "literature only",
       "origin_counts": "somatic:na",
-      "submitter": "OMIM",
-      "scv": "SCV000033658.6",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Jun 10, 2012",
-      "reported_phenotype": "C0024623:Gastric cancer",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "literature only",
-      "origin_counts": "somatic:na",
-      "submitter": "OMIM",
-      "scv": "SCV000033659.6",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12582",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Jun 10, 2012",
-      "reported_phenotype": "C0334082:Epidermal nevus",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "literature only",
-      "origin_counts": "somatic:na",
-      "submitter": "OMIM",
-      "scv": "SCV000044088.6",
+      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
+      "scv": "SCV007105432.1",
       "snapshot": "2026-11"
      },
      {
@@ -12046,6 +11698,42 @@
      {
       "variation_id": "12582",
       "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 09, 2019",
+      "reported_phenotype": "na:KRAS-related disorder",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:3",
+      "submitter": "Blueprint Genetics",
+      "scv": "SCV007771141.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 09, 2026",
+      "reported_phenotype": "C4552097:Linear nevus sebaceous syndrome",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "3billion",
+      "scv": "SCV002318898.4",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "-",
+      "date_last_evaluated": "Jun 09, 2025",
+      "reported_phenotype": "C4330667:Medulloblastoma non-WNT/non-SHH",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
+      "scv": "SCV007105434.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
       "date_last_evaluated": "Jun 10, 2012",
       "reported_phenotype": "C4552097:Linear nevus sebaceous syndrome",
       "review_status": "no assertion criteria provided",
@@ -12053,6 +11741,42 @@
       "origin_counts": "somatic:na",
       "submitter": "OMIM",
       "scv": "SCV000051861.6",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 23, 2024",
+      "reported_phenotype": "C0005684:Malignant tumor of urinary bladder;C0023467:Acute myeloid leukemia;C0024623:Gastric cancer;C0242379:Lung cancer;C0346153:Familial cancer of breast;C0917804:Cerebral arteriovenous malformation;C1838329:Toriello-Lacassie-Droste syndrome;C1860991:Noonan syndrome 3;C2674723:Autoimmune lymphoproliferative syndrome type 4;C2931038:Familial pancreatic carcinoma;C3809005:Cardiofaciocutaneous syndrome 2;C4552097:Linear nevus sebaceous syndrome",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Fulgent Genetics, Fulgent Genetics",
+      "scv": "SCV005634967.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "-",
+      "date_last_evaluated": "Mar 04, 2025",
+      "reported_phenotype": "C0027651:Neoplasm",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital",
+      "scv": "SCV005094257.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "-",
+      "date_last_evaluated": "Dec 24, 2024",
+      "reported_phenotype": "C0238463:Papillary thyroid carcinoma",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
+      "scv": "SCV007105422.1",
       "snapshot": "2026-11"
      },
      {
@@ -12070,6 +11794,42 @@
      {
       "variation_id": "12582",
       "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 03, 2023",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:1940",
+      "submitter": "Mayo Clinic Laboratories, Mayo Clinic",
+      "scv": "SCV005414064.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 06, 2018",
+      "reported_phenotype": "C0917804:Cerebral arteriovenous malformation",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "somatic:na",
+      "submitter": "OMIM",
+      "scv": "SCV000693723.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Likely pathogenic",
+      "date_last_evaluated": "Apr 30, 2025",
+      "reported_phenotype": "C4552097:Linear nevus sebaceous syndrome",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Department of Clinical Genetics, Copenhagen University Hospital, Rigshospitalet",
+      "scv": "SCV006304919.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
       "date_last_evaluated": "Jun 10, 2012",
       "reported_phenotype": "na:RAS-ASSOCIATED AUTOIMMUNE LEUKOPROLIFERATIVE DISORDER 2, SOMATIC",
       "review_status": "no assertion criteria provided",
@@ -12077,6 +11837,234 @@
       "origin_counts": "somatic:na",
       "submitter": "OMIM",
       "scv": "SCV007591183.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Apr 02, 2025",
+      "reported_phenotype": "C5555857:RASopathy",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
+      "scv": "SCV000659085.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 25, 2012",
+      "reported_phenotype": "C3854181:Nevus sebaceous",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "somatic:na",
+      "submitter": "Yale Center for Mendelian Genomics, Yale University",
+      "scv": "SCV000611562.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Likely pathogenic",
+      "date_last_evaluated": "Aug 22, 2022",
+      "reported_phenotype": "CN230736:Cardiovascular phenotype",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Ambry Genetics",
+      "scv": "SCV005023563.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 04, 2019",
+      "reported_phenotype": "C4302356:Primary low grade serous adenocarcinoma of ovary",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
+      "origin_counts": "somatic:1",
+      "submitter": "University Health Network, Princess Margaret Cancer Centre",
+      "scv": "SCV000999192.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Likely pathogenic",
+      "date_last_evaluated": "Feb 19, 2015",
+      "reported_phenotype": "na:Vascular Tumors Including Pyogenic Granuloma",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "somatic:na",
+      "submitter": "Yale Center for Mendelian Genomics, Yale University",
+      "scv": "SCV000784594.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 07, 2019",
+      "reported_phenotype": "C0235974:Carcinoma of pancreas",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
+      "origin_counts": "somatic:na",
+      "submitter": "Laboratory for Clinical Genomics and Advanced Technology, Dartmouth-Hitchcock Medical Center",
+      "scv": "SCV000882700.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 23, 2026",
+      "reported_phenotype": "C4552097:Linear nevus sebaceous syndrome",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Victorian Clinical Genetics Services, Murdoch Childrens Research Institute",
+      "scv": "SCV007538136.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 03, 2023",
+      "reported_phenotype": "C0917804:Cerebral arteriovenous malformation",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Clinical Genomics Laboratory, Washington University in St. Louis",
+      "scv": "SCV004176950.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0007131:Non-small cell lung carcinoma",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
+      "origin_counts": "somatic:na",
+      "submitter": "Thoracic Oncology Service, Memorial Sloan Kettering Cancer Center",
+      "scv": "SCV000882686.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "-",
+      "date_last_evaluated": "Apr 09, 2024",
+      "reported_phenotype": "C1319315:Adenocarcinoma of the large intestine",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
+      "scv": "SCV007105409.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jul 19, 2022",
+      "reported_phenotype": "na:Congenital Pulmonary Airway Malformations",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "de novo:1",
+      "submitter": "New York Genome Center",
+      "scv": "SCV005044128.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "-",
+      "date_last_evaluated": "Aug 01, 2023",
+      "reported_phenotype": "C5669918:Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
+      "scv": "SCV007105405.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "-",
+      "date_last_evaluated": "Oct 12, 2023",
+      "reported_phenotype": "C0349636:Precursor B-cell acute lymphoblastic leukemia",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
+      "scv": "SCV007105406.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 05, 2022",
+      "reported_phenotype": "C5555857:RASopathy",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Women's Health and Genetics/Laboratory Corporation of America, LabCorp",
+      "scv": "SCV002601600.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:119",
+      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
+      "scv": "SCV001550138.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Dec 01, 2022",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:2",
+      "submitter": "CeGaT Center for Human Genetics Tuebingen",
+      "scv": "SCV002821689.27",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Aug 13, 2021",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:2",
+      "submitter": "Seattle Children's Hospital Molecular Genetics Laboratory, Seattle Children's Hospital",
+      "scv": "SCV002525678.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 30, 2018",
+      "reported_phenotype": "C0023467:Acute myeloid leukemia",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Hematopathology, The University of Texas M.D. Anderson Cancer Center",
+      "scv": "SCV001571657.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "May 01, 2021",
+      "reported_phenotype": "C4747394:Capillary malformation-arteriovenous malformation 1",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
+      "origin_counts": "somatic:2",
+      "submitter": "Arin Greene Laboratory, Boston Children's Hospital, Harvard Medical School",
+      "scv": "SCV001739511.1",
       "snapshot": "2026-11"
      },
      {
@@ -12114,6 +12102,18 @@
       "submitter": "Laboratory for Molecular Medicine, Mass General Brigham Personalized Medicine",
       "scv": "SCV000198480.2",
       "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12582",
+      "clnsig": "-",
+      "date_last_evaluated": "Apr 08, 2025",
+      "reported_phenotype": "C0206656:Embryonal rhabdomyosarcoma",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
+      "scv": "SCV007105520.1",
+      "snapshot": "2026-11"
      }
     ],
     "history": [
@@ -12147,7 +12147,7 @@
       "review_status": "criteria provided, multiple submitters, no conflicts",
       "n_submitters": "29",
       "last_evaluated": "Jan 23, 2026",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }
@@ -12155,9 +12155,9 @@
   "ClinVar:VCV000012583@2026-11": {
    "record_id": "ClinVar:VCV000012583@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/12583/",
-   "retrieved_at": "2026-11-17T02:13:53.570126+00:00",
+   "retrieved_at": "2026-11-17T20:58:36.653757+00:00",
    "status": 200,
    "data": {
     "allele_id": "27622",
@@ -12166,8 +12166,8 @@
     "gene_symbol": "KRAS",
     "clnsig": "Pathogenic",
     "last_evaluated": "Jun 24, 2025",
-    "rcv": "RCV000013413|RCV000029216|RCV000157944|RCV000150895|RCV000154262|RCV000585801|RCV003322589|RCV002291496|RCV003539760|RCV003455987|RCV004668725|RCV006250159|RCV006253529|RCV006253528|RCV006253530|RCV007056238",
-    "phenotype_list": "Carcinoma of pancreas|Nevus sebaceous|not provided|Juvenile myelomonocytic leukemia|Non-small cell lung carcinoma|Cerebral arteriovenous malformation|Lung sarcomatoid carcinoma|Chronic myeloid leukemia|RASopathy|Linear nevus sebaceous syndrome|Neoplasm|Colorectal cancer|Adenocarcinoma of the large intestine|Germinoma|Ovarian mucinous adenocarcinoma|KRAS-related disorder",
+    "rcv": "RCV000013413|RCV000029216|RCV000157944|RCV000150895|RCV000154262|RCV000585801|RCV002291496|RCV003322589|RCV003455987|RCV003539760|RCV004668725|RCV006250159|RCV006253530|RCV006253529|RCV006253528|RCV007056238",
+    "phenotype_list": "Carcinoma of pancreas|Nevus sebaceous|not provided|Juvenile myelomonocytic leukemia|Non-small cell lung carcinoma|Cerebral arteriovenous malformation|Chronic myeloid leukemia|Lung sarcomatoid carcinoma|Linear nevus sebaceous syndrome|RASopathy|Neoplasm|Colorectal cancer|Ovarian mucinous adenocarcinoma|Adenocarcinoma of the large intestine|Germinoma|KRAS-related disorder",
     "origin": "germline;somatic;unknown",
     "origin_simple": "germline/somatic",
     "assembly": "GRCh38",
@@ -12188,30 +12188,6 @@
      {
       "variation_id": "12583",
       "clnsig": "Pathogenic",
-      "date_last_evaluated": "Oct 13, 2023",
-      "reported_phenotype": "C5555857:RASopathy",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
-      "scv": "SCV004295856.3",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12583",
-      "clnsig": "-",
-      "date_last_evaluated": "Mar 04, 2025",
-      "reported_phenotype": "C0027651:Neoplasm",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital",
-      "scv": "SCV005094259.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12583",
-      "clnsig": "Pathogenic",
       "date_last_evaluated": "Oct 10, 2022",
       "reported_phenotype": "C0279543:Chronic myeloid leukemia",
       "review_status": "no assertion criteria provided",
@@ -12219,6 +12195,30 @@
       "origin_counts": "somatic:na",
       "submitter": "Druker Lab, Oregon Health and Sciences University",
       "scv": "SCV002583834.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12583",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jun 24, 2025",
+      "reported_phenotype": "na:KRAS-related disorder",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "PreventionGenetics, part of Exact Sciences",
+      "scv": "SCV008060441.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12583",
+      "clnsig": "-",
+      "date_last_evaluated": "Sep 22, 2024",
+      "reported_phenotype": "C0206660:Germinoma",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
+      "scv": "SCV007105419.1",
       "snapshot": "2026-11"
      },
      {
@@ -12247,62 +12247,26 @@
      },
      {
       "variation_id": "12583",
-      "clnsig": "-",
-      "date_last_evaluated": "Nov 13, 2023",
-      "reported_phenotype": "C1319315:Adenocarcinoma of the large intestine",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
-      "scv": "SCV007105407.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12583",
       "clnsig": "Pathogenic",
-      "date_last_evaluated": "Sep 22, 2023",
-      "reported_phenotype": "C4552097:Linear nevus sebaceous syndrome",
+      "date_last_evaluated": "Dec 09, 2024",
+      "reported_phenotype": "C0917804:Cerebral arteriovenous malformation",
       "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
       "origin_counts": "somatic:na",
       "submitter": "Clinical Genomics Laboratory, Washington University in St. Louis",
-      "scv": "SCV004176921.1",
+      "scv": "SCV005902168.1",
       "snapshot": "2026-11"
      },
      {
       "variation_id": "12583",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:97",
-      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
-      "scv": "SCV001553731.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12583",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Jun 10, 2012",
-      "reported_phenotype": "C3854181:Nevus sebaceous",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "literature only",
-      "origin_counts": "somatic:na",
-      "submitter": "OMIM",
-      "scv": "SCV000051862.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12583",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Jun 24, 2025",
-      "reported_phenotype": "na:KRAS-related disorder",
+      "clnsig": "-",
+      "date_last_evaluated": "Jul 14, 2025",
+      "reported_phenotype": "C1335167:Ovarian mucinous adenocarcinoma",
       "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "PreventionGenetics, part of Exact Sciences",
-      "scv": "SCV008060441.1",
+      "origin_counts": "somatic:na",
+      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
+      "scv": "SCV007105438.1",
       "snapshot": "2026-11"
      },
      {
@@ -12320,73 +12284,13 @@
      {
       "variation_id": "12583",
       "clnsig": "Pathogenic",
-      "date_last_evaluated": "Mar 06, 2018",
-      "reported_phenotype": "C0917804:Cerebral arteriovenous malformation",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "literature only",
-      "origin_counts": "somatic:na",
-      "submitter": "OMIM",
-      "scv": "SCV000693724.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12583",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Dec 09, 2024",
-      "reported_phenotype": "C0917804:Cerebral arteriovenous malformation",
+      "date_last_evaluated": "Oct 13, 2023",
+      "reported_phenotype": "C5555857:RASopathy",
       "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Clinical Genomics Laboratory, Washington University in St. Louis",
-      "scv": "SCV005902168.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12583",
-      "clnsig": "-",
-      "date_last_evaluated": "Oct 10, 2024",
-      "reported_phenotype": "C0346629:Colorectal cancer",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "research",
-      "origin_counts": "somatic:na",
-      "submitter": "Department of Clinical Biochemistry, Naestved Hospital",
-      "scv": "SCV006076877.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12583",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Dec 01, 2022",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:2",
-      "submitter": "CeGaT Center for Human Genetics Tuebingen",
-      "scv": "SCV001746133.34",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12583",
-      "clnsig": "-",
-      "date_last_evaluated": "Sep 22, 2024",
-      "reported_phenotype": "C0206660:Germinoma",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
-      "scv": "SCV007105419.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "12583",
-      "clnsig": "-",
-      "date_last_evaluated": "Jul 14, 2025",
-      "reported_phenotype": "C1335167:Ovarian mucinous adenocarcinoma",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
-      "scv": "SCV007105438.1",
+      "origin_counts": "germline:na",
+      "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
+      "scv": "SCV004295856.3",
       "snapshot": "2026-11"
      },
      {
@@ -12417,12 +12321,36 @@
       "variation_id": "12583",
       "clnsig": "Pathogenic",
       "date_last_evaluated": "Jun 10, 2012",
-      "reported_phenotype": "C0235974:Carcinoma of pancreas",
+      "reported_phenotype": "C3854181:Nevus sebaceous",
       "review_status": "no assertion criteria provided",
       "collection_method": "literature only",
       "origin_counts": "somatic:na",
       "submitter": "OMIM",
-      "scv": "SCV000033660.2",
+      "scv": "SCV000051862.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12583",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 06, 2018",
+      "reported_phenotype": "C0917804:Cerebral arteriovenous malformation",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "somatic:na",
+      "submitter": "OMIM",
+      "scv": "SCV000693724.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12583",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:97",
+      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
+      "scv": "SCV001553731.2",
       "snapshot": "2026-11"
      },
      {
@@ -12435,6 +12363,78 @@
       "origin_counts": "somatic:na",
       "submitter": "Salgia Laboratory, City of Hope",
       "scv": "SCV003804201.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12583",
+      "clnsig": "-",
+      "date_last_evaluated": "Nov 13, 2023",
+      "reported_phenotype": "C1319315:Adenocarcinoma of the large intestine",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
+      "scv": "SCV007105407.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12583",
+      "clnsig": "-",
+      "date_last_evaluated": "Mar 04, 2025",
+      "reported_phenotype": "C0027651:Neoplasm",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital",
+      "scv": "SCV005094259.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12583",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Sep 22, 2023",
+      "reported_phenotype": "C4552097:Linear nevus sebaceous syndrome",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Clinical Genomics Laboratory, Washington University in St. Louis",
+      "scv": "SCV004176921.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12583",
+      "clnsig": "-",
+      "date_last_evaluated": "Oct 10, 2024",
+      "reported_phenotype": "C0346629:Colorectal cancer",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
+      "origin_counts": "somatic:na",
+      "submitter": "Department of Clinical Biochemistry, Naestved Hospital",
+      "scv": "SCV006076877.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12583",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Dec 01, 2022",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:2",
+      "submitter": "CeGaT Center for Human Genetics Tuebingen",
+      "scv": "SCV001746133.33",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "12583",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jun 10, 2012",
+      "reported_phenotype": "C0235974:Carcinoma of pancreas",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "somatic:na",
+      "submitter": "OMIM",
+      "scv": "SCV000033660.2",
       "snapshot": "2026-11"
      }
     ],
@@ -12469,7 +12469,7 @@
       "review_status": "criteria provided, multiple submitters, no conflicts",
       "n_submitters": "15",
       "last_evaluated": "Jun 24, 2025",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }
@@ -12477,9 +12477,9 @@
   "ClinVar:VCV000045122@2026-11": {
    "record_id": "ClinVar:VCV000045122@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/45122/",
-   "retrieved_at": "2026-11-17T02:13:53.570247+00:00",
+   "retrieved_at": "2026-11-17T20:58:36.654375+00:00",
    "status": 200,
    "data": {
     "allele_id": "54289",
@@ -12509,38 +12509,38 @@
     "submissions": [
      {
       "variation_id": "45122",
-      "clnsig": "-",
-      "date_last_evaluated": "Mar 04, 2025",
-      "reported_phenotype": "C0027651:Neoplasm",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 30, 2020",
+      "reported_phenotype": "C0153452:Gallbladder cancer",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
       "origin_counts": "somatic:na",
-      "submitter": "Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital",
-      "scv": "SCV005094258.2",
+      "submitter": "Institute of Medical Sciences, Banaras Hindu University",
+      "scv": "SCV001571410.1",
       "snapshot": "2026-11"
      },
      {
       "variation_id": "45122",
-      "clnsig": "-",
-      "date_last_evaluated": "Jan 16, 2025",
-      "reported_phenotype": "C5670122:High-grade astrocytoma with piloid features",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "somatic:na",
-      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
-      "scv": "SCV007105424.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "45122",
-      "clnsig": "Likely pathogenic",
+      "clnsig": "Pathogenic",
       "date_last_evaluated": "-",
-      "reported_phenotype": "C0242379:Lung cancer",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:17",
+      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
+      "scv": "SCV001550889.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "45122",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Aug 31, 2019",
+      "reported_phenotype": "C0026764:Multiple myeloma",
       "review_status": "no assertion criteria provided",
       "collection_method": "clinical testing",
       "origin_counts": "somatic:na",
-      "submitter": "Key Laboratory of Carcinogenesis and Cancer Invasion, Central South University",
-      "scv": "SCV004042812.1",
+      "submitter": "Xiao lab, Department of Pathology, Memorial Sloan Kettering Cancer Center",
+      "scv": "SCV001132087.1",
       "snapshot": "2026-11"
      },
      {
@@ -12558,13 +12558,13 @@
      {
       "variation_id": "45122",
       "clnsig": "Likely pathogenic",
-      "date_last_evaluated": "Oct 26, 2025",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0242379:Lung cancer",
+      "review_status": "no assertion criteria provided",
       "collection_method": "clinical testing",
       "origin_counts": "somatic:na",
-      "submitter": "Clinical Genomics Laboratory, Washington University in St. Louis",
-      "scv": "SCV007980208.1",
+      "submitter": "Key Laboratory of Carcinogenesis and Cancer Invasion, Central South University",
+      "scv": "SCV004042812.1",
       "snapshot": "2026-11"
      },
      {
@@ -12593,14 +12593,14 @@
      },
      {
       "variation_id": "45122",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Oct 30, 2020",
-      "reported_phenotype": "C0153452:Gallbladder cancer",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "research",
+      "clnsig": "-",
+      "date_last_evaluated": "Mar 04, 2025",
+      "reported_phenotype": "C0027651:Neoplasm",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
       "origin_counts": "somatic:na",
-      "submitter": "Institute of Medical Sciences, Banaras Hindu University",
-      "scv": "SCV001571410.1",
+      "submitter": "Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital",
+      "scv": "SCV005094258.2",
       "snapshot": "2026-11"
      },
      {
@@ -12617,26 +12617,14 @@
      },
      {
       "variation_id": "45122",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Aug 31, 2019",
-      "reported_phenotype": "C0026764:Multiple myeloma",
-      "review_status": "no assertion criteria provided",
+      "clnsig": "Likely pathogenic",
+      "date_last_evaluated": "Oct 26, 2025",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
       "origin_counts": "somatic:na",
-      "submitter": "Xiao lab, Department of Pathology, Memorial Sloan Kettering Cancer Center",
-      "scv": "SCV001132087.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "45122",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:17",
-      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
-      "scv": "SCV001550889.2",
+      "submitter": "Clinical Genomics Laboratory, Washington University in St. Louis",
+      "scv": "SCV007980208.1",
       "snapshot": "2026-11"
      },
      {
@@ -12649,6 +12637,18 @@
       "origin_counts": "germline:2",
       "submitter": "Blueprint Genetics",
       "scv": "SCV007771140.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "45122",
+      "clnsig": "-",
+      "date_last_evaluated": "Jan 16, 2025",
+      "reported_phenotype": "C5670122:High-grade astrocytoma with piloid features",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "somatic:na",
+      "submitter": "Institute for Genomic Medicine (IGM) Clinical Laboratory, Nationwide Children's Hospital",
+      "scv": "SCV007105424.1",
       "snapshot": "2026-11"
      }
     ],
@@ -12683,7 +12683,7 @@
       "review_status": "criteria provided, multiple submitters, no conflicts",
       "n_submitters": "11",
       "last_evaluated": "Oct 26, 2025",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }

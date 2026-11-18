@@ -2,7 +2,7 @@
  "rsid_query": "rs17004038",
  "rsid_current": "rs17004038",
  "as_of": "2020-01-01",
- "generated_at": "2026-11-17T02:14:02.850290+00:00",
+ "generated_at": "2026-11-17T20:58:39.482292+00:00",
  "genes": {
   "vep": [
    "MIF"
@@ -699,7 +699,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01",
    "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
-   "retrieved_at": "2026-11-17T02:14:02.519081+00:00",
+   "retrieved_at": "2026-11-17T20:58:39.480939+00:00",
    "status": 200,
    "data": {
     "rsid": "rs17004038",

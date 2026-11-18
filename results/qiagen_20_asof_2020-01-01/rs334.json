@@ -2,7 +2,7 @@
  "rsid_query": "rs334",
  "rsid_current": "rs334",
  "as_of": "2020-01-01",
- "generated_at": "2026-11-17T02:14:00.450829+00:00",
+ "generated_at": "2026-11-17T20:58:39.208816+00:00",
  "genes": {
   "vep": [
    "HBB"
@@ -1808,7 +1808,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01 (2019-01-03)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/15175/",
-   "retrieved_at": "2026-11-17T02:14:00.107449+00:00",
+   "retrieved_at": "2026-11-17T20:58:39.197595+00:00",
    "status": 200,
    "data": {
     "allele_id": "30214",
@@ -1861,7 +1861,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01 (2019-01-03)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/15333/",
-   "retrieved_at": "2026-11-17T02:14:00.107508+00:00",
+   "retrieved_at": "2026-11-17T20:58:39.197624+00:00",
    "status": 200,
    "data": {
     "allele_id": "30372",

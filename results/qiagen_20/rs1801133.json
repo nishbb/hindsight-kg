@@ -2,7 +2,7 @@
  "rsid_query": "rs1801133",
  "rsid_current": "rs1801133",
  "as_of": "latest",
- "generated_at": "2026-11-17T02:13:55.844098+00:00",
+ "generated_at": "2026-11-17T20:58:37.718486+00:00",
  "genes": {
   "vep": [
    "MTHFR"
@@ -185,18 +185,18 @@
      "review_status": "reviewed by expert panel",
      "n_submitters": "25",
      "last_evaluated": "Mar 24, 2021",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {
+    "Pathogenic": 3,
     "Uncertain significance": 6,
     "Benign": 9,
-    "other": 1,
     "drug response": 1,
+    "Likely benign": 2,
+    "other": 1,
     "Likely pathogenic": 1,
     "Likely risk allele": 1,
-    "Pathogenic": 3,
-    "Likely benign": 2,
     "association": 1
    }
   }
@@ -323,10 +323,10 @@
    "type": "conflicting_submitters",
    "variation_id": "3520",
    "classes": {
+    "PLP": 4,
     "VUS": 6,
     "BLB": 11,
-    "OTHER": 4,
-    "PLP": 4
+    "OTHER": 4
    },
    "aggregate_conflict": false
   }
@@ -1138,7 +1138,7 @@
   },
   {
    "section": "Disease relevance (germline)",
-   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 9 'Benign', 6 'Uncertain significance', 3 'Pathogenic', 2 'Likely benign', 1 'other', 1 'drug response', 1 'Likely pathogenic', 1 'Likely risk allele', 1 'association'.",
+   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 9 'Benign', 6 'Uncertain significance', 3 'Pathogenic', 2 'Likely benign', 1 'drug response', 1 'other', 1 'Likely pathogenic', 1 'Likely risk allele', 1 'association'.",
    "citations": [
     {
      "record_id": "ClinVar:VCV000003520@2026-11",
@@ -1202,7 +1202,7 @@
      "args": [
       "submissions",
       "clnsig",
-      "other"
+      "drug response"
      ]
     },
     {
@@ -1215,7 +1215,7 @@
      "args": [
       "submissions",
       "clnsig",
-      "drug response"
+      "other"
      ]
     },
     {
@@ -3313,9 +3313,9 @@
   "ClinVar:VCV000003520@2026-11": {
    "record_id": "ClinVar:VCV000003520@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3520/",
-   "retrieved_at": "2026-11-17T02:13:55.497281+00:00",
+   "retrieved_at": "2026-11-17T20:58:37.573999+00:00",
    "status": 200,
    "data": {
     "allele_id": "18559",
@@ -3324,8 +3324,8 @@
     "gene_symbol": "MTHFR",
     "clnsig": "drug response",
     "last_evaluated": "Mar 24, 2021",
-    "rcv": "RCV000003697|RCV000153516|RCV000144921|RCV000259890|RCV000428048|RCV001030751|RCV001847567|RCV004584309|RCV005419857|RCV006707576|RCV007091491",
-    "phenotype_list": "MTHFR THERMOLABILE POLYMORPHISM|not provided|Gastrointestinal stromal tumor|Neural tube defects, folate-sensitive|not specified|Homocystinuria due to methylene tetrahydrofolate reductase deficiency|methotrexate response - Toxicity|See cases|Thrombophilia due to thrombin defect|Stroke disorder|Schizophrenia;Thrombophilia due to thrombin defect;Neural tube defects, folate-sensitive;Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+    "rcv": "RCV000003697|RCV000144921|RCV000153516|RCV000259890|RCV000428048|RCV001030751|RCV001847567|RCV004584309|RCV005419857|RCV006707576|RCV007091491",
+    "phenotype_list": "MTHFR THERMOLABILE POLYMORPHISM|Gastrointestinal stromal tumor|not provided|Neural tube defects, folate-sensitive|not specified|Homocystinuria due to methylene tetrahydrofolate reductase deficiency|methotrexate response - Toxicity|See cases|Thrombophilia due to thrombin defect|Stroke disorder|Thrombophilia due to thrombin defect;Neural tube defects, folate-sensitive;Homocystinuria due to methylene tetrahydrofolate reductase deficiency;Schizophrenia",
     "origin": "germline;unknown",
     "origin_simple": "germline",
     "assembly": "GRCh38",
@@ -3345,6 +3345,18 @@
     "submissions": [
      {
       "variation_id": "3520",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 17, 2019",
+      "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Centre for Mendelian Genomics, University Medical Centre Ljubljana",
+      "scv": "SCV001366606.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
       "clnsig": "Uncertain significance",
       "date_last_evaluated": "Jan 01, 2024",
       "reported_phenotype": "C3661900:not provided",
@@ -3352,115 +3364,7 @@
       "collection_method": "clinical testing",
       "origin_counts": "germline:9",
       "submitter": "CeGaT Center for Human Genetics Tuebingen",
-      "scv": "SCV001147149.39",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "Benign",
-      "date_last_evaluated": "Dec 07, 2019",
-      "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Natera, Inc.",
-      "scv": "SCV001463167.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "Benign",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C0036341:Schizophrenia;C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency;C1866558:Neural tube defects, folate-sensitive;C3160733:Thrombophilia due to thrombin defect",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Juno Genomics, Hangzhou Juno Genomics, Inc",
-      "scv": "SCV008100467.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "Uncertain significance",
-      "date_last_evaluated": "Dec 30, 2017",
-      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "curation",
-      "origin_counts": "unknown:na",
-      "submitter": "Department of Genetics, Sultan Qaboos University Hospital",
-      "scv": "SCV000891532.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "other",
-      "date_last_evaluated": "Jan 13, 2017",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:244",
-      "submitter": "Eurofins Ntd Llc (ga)",
-      "scv": "SCV000203040.8",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "Benign",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "CN169374:not specified",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:na",
-      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
-      "scv": "SCV001549379.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "Benign",
-      "date_last_evaluated": "Nov 26, 2024",
-      "reported_phenotype": "CN169374:not specified",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Blueprint Genetics",
-      "scv": "SCV007918130.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "drug response",
-      "date_last_evaluated": "Mar 24, 2021",
-      "reported_phenotype": "C0568062:methotrexate response - Toxicity",
-      "review_status": "reviewed by expert panel",
-      "collection_method": "curation",
-      "origin_counts": "germline:na",
-      "submitter": "ClinPGx",
-      "scv": "SCV002031239.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "Likely pathogenic",
-      "date_last_evaluated": "Jun 20, 2025",
-      "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Variantyx, Inc.",
-      "scv": "SCV007593630.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "Likely risk allele",
-      "date_last_evaluated": "Jun 08, 2026",
-      "reported_phenotype": "C0038454:Stroke disorder",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "case-control",
-      "origin_counts": "germline:189",
-      "submitter": "Department of Clinical Medical Laboratory, The Second Hospital of Lanzhou University",
-      "scv": "SCV007601567.1",
+      "scv": "SCV001147149.38",
       "snapshot": "2026-11"
      },
      {
@@ -3477,18 +3381,6 @@
      },
      {
       "variation_id": "3520",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Jan 17, 2019",
-      "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:na",
-      "submitter": "Centre for Mendelian Genomics, University Medical Centre Ljubljana",
-      "scv": "SCV001366606.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
       "clnsig": "Benign",
       "date_last_evaluated": "Feb 04, 2026",
       "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
@@ -3497,78 +3389,6 @@
       "origin_counts": "germline:na",
       "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
       "scv": "SCV001733273.6",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C1856059:MTHFR THERMOLABILE POLYMORPHISM",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "FirmaLab, FirmaLab",
-      "scv": "SCV000106043.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Dec 16, 2019",
-      "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:na",
-      "submitter": "Myriad Genetics, Inc.",
-      "scv": "SCV001194043.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "Likely benign",
-      "date_last_evaluated": "May 28, 2019",
-      "reported_phenotype": "C1866558:Neural tube defects, folate-sensitive",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:na",
-      "submitter": "Mendelics",
-      "scv": "SCV001135171.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "Uncertain significance",
-      "date_last_evaluated": "Jan 06, 2022",
-      "reported_phenotype": "na:See cases",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:1",
-      "submitter": "Centre of Medical Genetics, University Hospital Muenster",
-      "scv": "SCV002506425.3",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "Uncertain significance",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C0238198:Gastrointestinal stromal tumor",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "case-control",
-      "origin_counts": "germline:76",
-      "submitter": "Department of Pharmacy and Biotechnology, University of Bologna",
-      "scv": "SCV000187678.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3520",
-      "clnsig": "Likely benign",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C1866558:Neural tube defects, folate-sensitive",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "reference population",
-      "origin_counts": "unknown:na",
-      "submitter": "iDNA Genomics",
-      "scv": "SCV002538647.1",
       "snapshot": "2026-11"
      },
      {
@@ -3598,6 +3418,66 @@
      {
       "variation_id": "3520",
       "clnsig": "Uncertain significance",
+      "date_last_evaluated": "Jan 06, 2022",
+      "reported_phenotype": "na:See cases",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:1",
+      "submitter": "Centre of Medical Genetics, University Hospital Muenster",
+      "scv": "SCV002506425.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Uncertain significance",
+      "date_last_evaluated": "Dec 30, 2017",
+      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "curation",
+      "origin_counts": "unknown:na",
+      "submitter": "Department of Genetics, Sultan Qaboos University Hospital",
+      "scv": "SCV000891532.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Benign",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "CN169374:not specified",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
+      "scv": "SCV001549379.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Dec 16, 2019",
+      "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Myriad Genetics, Inc.",
+      "scv": "SCV001194043.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "drug response",
+      "date_last_evaluated": "Mar 24, 2021",
+      "reported_phenotype": "C0568062:methotrexate response - Toxicity",
+      "review_status": "reviewed by expert panel",
+      "collection_method": "curation",
+      "origin_counts": "germline:na",
+      "submitter": "ClinPGx",
+      "scv": "SCV002031239.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Uncertain significance",
       "date_last_evaluated": "Jul 16, 2025",
       "reported_phenotype": "C1866558:Neural tube defects, folate-sensitive",
       "review_status": "criteria provided, single submitter",
@@ -3622,6 +3502,42 @@
      {
       "variation_id": "3520",
       "clnsig": "Benign",
+      "date_last_evaluated": "Dec 07, 2019",
+      "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Natera, Inc.",
+      "scv": "SCV001463167.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Likely benign",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C1866558:Neural tube defects, folate-sensitive",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "reference population",
+      "origin_counts": "unknown:na",
+      "submitter": "iDNA Genomics",
+      "scv": "SCV002538647.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Uncertain significance",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0238198:Gastrointestinal stromal tumor",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "case-control",
+      "origin_counts": "germline:76",
+      "submitter": "Department of Pharmacy and Biotechnology, University of Bologna",
+      "scv": "SCV000187678.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Benign",
       "date_last_evaluated": "-",
       "reported_phenotype": "CN169374:not specified",
       "review_status": "no assertion criteria provided",
@@ -3629,6 +3545,90 @@
       "origin_counts": "germline:na",
       "submitter": "Clinical Genetics, Academic Medical Center",
       "scv": "SCV001917884.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "other",
+      "date_last_evaluated": "Jan 13, 2017",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:244",
+      "submitter": "Eurofins Ntd Llc (ga)",
+      "scv": "SCV000203040.8",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Likely benign",
+      "date_last_evaluated": "May 28, 2019",
+      "reported_phenotype": "C1866558:Neural tube defects, folate-sensitive",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Mendelics",
+      "scv": "SCV001135171.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C1856059:MTHFR THERMOLABILE POLYMORPHISM",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "FirmaLab, FirmaLab",
+      "scv": "SCV000106043.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Likely pathogenic",
+      "date_last_evaluated": "Jun 20, 2025",
+      "reported_phenotype": "C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Variantyx, Inc.",
+      "scv": "SCV007593630.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Benign",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0036341:Schizophrenia;C1856061:Homocystinuria due to methylene tetrahydrofolate reductase deficiency;C1866558:Neural tube defects, folate-sensitive;C3160733:Thrombophilia due to thrombin defect",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Juno Genomics, Hangzhou Juno Genomics, Inc",
+      "scv": "SCV008100467.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Likely risk allele",
+      "date_last_evaluated": "Jun 08, 2026",
+      "reported_phenotype": "C0038454:Stroke disorder",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "case-control",
+      "origin_counts": "germline:189",
+      "submitter": "Department of Clinical Medical Laboratory, The Second Hospital of Lanzhou University",
+      "scv": "SCV007601567.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3520",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Nov 26, 2024",
+      "reported_phenotype": "CN169374:not specified",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Blueprint Genetics",
+      "scv": "SCV007918130.1",
       "snapshot": "2026-11"
      },
      {
@@ -3675,7 +3675,7 @@
       "review_status": "reviewed by expert panel",
       "n_submitters": "25",
       "last_evaluated": "Mar 24, 2021",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }

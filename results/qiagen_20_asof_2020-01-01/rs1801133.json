@@ -2,7 +2,7 @@
  "rsid_query": "rs1801133",
  "rsid_current": "rs1801133",
  "as_of": "2020-01-01",
- "generated_at": "2026-11-17T02:14:05.322030+00:00",
+ "generated_at": "2026-11-17T20:58:39.829138+00:00",
  "genes": {
   "vep": [
    "MTHFR"
@@ -2572,7 +2572,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01 (2019-01-03)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3520/",
-   "retrieved_at": "2026-11-17T02:14:04.952945+00:00",
+   "retrieved_at": "2026-11-17T20:58:39.701541+00:00",
    "status": 200,
    "data": {
     "allele_id": "18559",

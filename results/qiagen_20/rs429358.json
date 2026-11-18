@@ -2,7 +2,7 @@
  "rsid_query": "rs429358",
  "rsid_current": "rs429358",
  "as_of": "latest",
- "generated_at": "2026-11-17T02:13:54.425000+00:00",
+ "generated_at": "2026-11-17T20:58:37.070322+00:00",
  "genes": {
   "vep": [
    "APOE"
@@ -86,9 +86,9 @@
    "review_status": "criteria provided, conflicting classifications",
    "conditions": [
     "Alzheimer disease 2",
+    "Alzheimer disease",
     "Primary degenerative dementia of the Alzheimer type, presenile onset",
     "Warfarin response",
-    "Alzheimer disease",
     "Alzheimer disease 4",
     "Lipoprotein glomerulopathy",
     "Familial hypercholesterolemia"
@@ -126,19 +126,19 @@
      "review_status": "criteria provided, conflicting classifications",
      "n_submitters": "18",
      "last_evaluated": "Jan 26, 2026",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {
-    "risk factor": 2,
-    "Likely pathogenic": 2,
     "other": 1,
+    "Pathogenic": 3,
+    "Likely benign": 1,
+    "Likely pathogenic": 2,
     "Uncertain significance": 5,
     "Established risk allele": 2,
+    "risk factor": 2,
     "drug response": 1,
     "Likely risk allele": 1,
-    "Likely benign": 1,
-    "Pathogenic": 3,
     "Benign": 1
    }
   },
@@ -158,7 +158,7 @@
      "review_status": "no classification for the single variant",
      "n_submitters": "0",
      "last_evaluated": "-",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {}
@@ -288,8 +288,8 @@
    "classes": {
     "OTHER": 7,
     "PLP": 5,
-    "VUS": 5,
-    "BLB": 2
+    "BLB": 2,
+    "VUS": 5
    },
    "aggregate_conflict": false
   },
@@ -780,7 +780,7 @@
   },
   {
    "section": "Disease relevance (germline)",
-   "text": "ClinVar lists NM_000041.4(APOE):c.388T>C (p.Cys130Arg) (alternate allele 1) with germline classification 'Conflicting classifications of pathogenicity; other; risk factor' for: Alzheimer disease 2; Primary degenerative dementia of the Alzheimer type, presenile onset; Warfarin response; Alzheimer disease; and 3 more; review status 'criteria provided, conflicting classifications', 18 submitter(s), allele origin 'germline;unknown'.",
+   "text": "ClinVar lists NM_000041.4(APOE):c.388T>C (p.Cys130Arg) (alternate allele 1) with germline classification 'Conflicting classifications of pathogenicity; other; risk factor' for: Alzheimer disease 2; Alzheimer disease; Primary degenerative dementia of the Alzheimer type, presenile onset; Warfarin response; and 3 more; review status 'criteria provided, conflicting classifications', 18 submitter(s), allele origin 'germline;unknown'.",
    "citations": [
     {
      "record_id": "ClinVar:VCV000017864@2026-11",
@@ -830,6 +830,15 @@
     {
      "record_id": "ClinVar:VCV000017864@2026-11",
      "path": "phenotype_list",
+     "value": "Alzheimer disease",
+     "label": "ClinVar VCV000017864 (2026-11 release)",
+     "mode": "contains",
+     "shown": "Alzheimer disease",
+     "args": null
+    },
+    {
+     "record_id": "ClinVar:VCV000017864@2026-11",
+     "path": "phenotype_list",
      "value": "Primary degenerative dementia of the Alzheimer type, presenile onset",
      "label": "ClinVar VCV000017864 (2026-11 release)",
      "mode": "contains",
@@ -843,15 +852,6 @@
      "label": "ClinVar VCV000017864 (2026-11 release)",
      "mode": "contains",
      "shown": "Warfarin response",
-     "args": null
-    },
-    {
-     "record_id": "ClinVar:VCV000017864@2026-11",
-     "path": "phenotype_list",
-     "value": "Alzheimer disease",
-     "label": "ClinVar VCV000017864 (2026-11 release)",
-     "mode": "contains",
-     "shown": "Alzheimer disease",
      "args": null
     },
     {
@@ -909,7 +909,7 @@
   },
   {
    "section": "Disease relevance (germline)",
-   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 5 'Uncertain significance', 3 'Pathogenic', 2 'risk factor', 2 'Likely pathogenic', 2 'Established risk allele', 1 'other', 1 'drug response', 1 'Likely risk allele', 1 'Likely benign', 1 'Benign'.",
+   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 5 'Uncertain significance', 3 'Pathogenic', 2 'Likely pathogenic', 2 'Established risk allele', 2 'risk factor', 1 'other', 1 'Likely benign', 1 'drug response', 1 'Likely risk allele', 1 'Benign'.",
    "citations": [
     {
      "record_id": "ClinVar:VCV000017864@2026-11",
@@ -947,19 +947,6 @@
      "args": [
       "submissions",
       "clnsig",
-      "risk factor"
-     ]
-    },
-    {
-     "record_id": "ClinVar:VCV000017864@2026-11",
-     "path": "",
-     "value": 2,
-     "label": "ClinVar VCV000017864 (2026-11 release)",
-     "mode": "count_eq",
-     "shown": "2",
-     "args": [
-      "submissions",
-      "clnsig",
       "Likely pathogenic"
      ]
     },
@@ -979,6 +966,19 @@
     {
      "record_id": "ClinVar:VCV000017864@2026-11",
      "path": "",
+     "value": 2,
+     "label": "ClinVar VCV000017864 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "2",
+     "args": [
+      "submissions",
+      "clnsig",
+      "risk factor"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000017864@2026-11",
+     "path": "",
      "value": 1,
      "label": "ClinVar VCV000017864 (2026-11 release)",
      "mode": "count_eq",
@@ -987,6 +987,19 @@
       "submissions",
       "clnsig",
       "other"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000017864@2026-11",
+     "path": "",
+     "value": 1,
+     "label": "ClinVar VCV000017864 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "1",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Likely benign"
      ]
     },
     {
@@ -1013,19 +1026,6 @@
       "submissions",
       "clnsig",
       "Likely risk allele"
-     ]
-    },
-    {
-     "record_id": "ClinVar:VCV000017864@2026-11",
-     "path": "",
-     "value": 1,
-     "label": "ClinVar VCV000017864 (2026-11 release)",
-     "mode": "count_eq",
-     "shown": "1",
-     "args": [
-      "submissions",
-      "clnsig",
-      "Likely benign"
      ]
     },
     {
@@ -2424,9 +2424,9 @@
   "ClinVar:VCV000017864@2026-11": {
    "record_id": "ClinVar:VCV000017864@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/17864/",
-   "retrieved_at": "2026-11-17T02:13:54.236373+00:00",
+   "retrieved_at": "2026-11-17T20:58:36.981080+00:00",
    "status": 200,
    "data": {
     "allele_id": "32903",
@@ -2435,8 +2435,8 @@
     "gene_symbol": "APOE",
     "clnsig": "Conflicting classifications of pathogenicity; other; risk factor",
     "last_evaluated": "Jan 26, 2026",
-    "rcv": "RCV000019448|RCV000292119|RCV000826089|RCV000845581|RCV000991302|RCV001195807|RCV001262791|RCV005434607|RCV006629061",
-    "phenotype_list": "Alzheimer disease 2|not provided|Primary degenerative dementia of the Alzheimer type, presenile onset|Warfarin response|Alzheimer disease|Alzheimer disease 4|Lipoprotein glomerulopathy|not specified|Familial hypercholesterolemia",
+    "rcv": "RCV000019448|RCV000292119|RCV000991302|RCV000826089|RCV000845581|RCV001195807|RCV001262791|RCV005434607|RCV006629061",
+    "phenotype_list": "Alzheimer disease 2|not provided|Alzheimer disease|Primary degenerative dementia of the Alzheimer type, presenile onset|Warfarin response|Alzheimer disease 4|Lipoprotein glomerulopathy|not specified|Familial hypercholesterolemia",
     "origin": "germline;unknown",
     "origin_simple": "germline",
     "assembly": "GRCh38",
@@ -2456,26 +2456,62 @@
     "submissions": [
      {
       "variation_id": "17864",
-      "clnsig": "risk factor",
-      "date_last_evaluated": "Jan 16, 2019",
-      "reported_phenotype": "C5779573:Primary degenerative dementia of the Alzheimer type, presenile onset",
+      "clnsig": "other",
+      "date_last_evaluated": "Nov 17, 2017",
+      "reported_phenotype": "C3661900:not provided",
       "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
-      "origin_counts": "germline:58",
-      "submitter": "Laboratory for Molecular Medicine, Mass General Brigham Personalized Medicine",
-      "scv": "SCV000967586.1",
+      "origin_counts": "germline:5",
+      "submitter": "Eurofins Ntd Llc (ga)",
+      "scv": "SCV000333415.4",
       "snapshot": "2026-11"
      },
      {
       "variation_id": "17864",
-      "clnsig": "risk factor",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C3661900:not provided",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 26, 2026",
+      "reported_phenotype": "C1863051:Alzheimer disease 2",
       "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
       "origin_counts": "germline:na",
-      "submitter": "Molecular Diagnostic Laboratory for Inherited Cardiovascular Disease, Montreal Heart Institute",
-      "scv": "SCV000987489.1",
+      "submitter": "3billion",
+      "scv": "SCV006582806.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17864",
+      "clnsig": "Likely benign",
+      "date_last_evaluated": "Apr 21, 2025",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:295",
+      "submitter": "Mayo Clinic Laboratories, Mayo Clinic",
+      "scv": "SCV007310668.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17864",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 24, 2020",
+      "reported_phenotype": "C1847200:Alzheimer disease 4",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Centre for Mendelian Genomics, University Medical Centre Ljubljana",
+      "scv": "SCV001366227.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17864",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jun 27, 2022",
+      "reported_phenotype": "C1863051:Alzheimer disease 2",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "OMIM",
+      "scv": "SCV000039738.11",
       "snapshot": "2026-11"
      },
      {
@@ -2492,14 +2528,86 @@
      },
      {
       "variation_id": "17864",
-      "clnsig": "other",
-      "date_last_evaluated": "Nov 17, 2017",
+      "clnsig": "Uncertain significance",
+      "date_last_evaluated": "Jun 04, 2024",
+      "reported_phenotype": "C0020445:Familial hypercholesterolemia",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Cambridge Genomics Laboratory, East Genomic Laboratory Hub, NHS Genomic Medicine Service",
+      "scv": "SCV007516966.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17864",
+      "clnsig": "Established risk allele",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C1863051:Alzheimer disease 2",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
+      "scv": "SCV001550609.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17864",
+      "clnsig": "Uncertain significance",
+      "date_last_evaluated": "Oct 01, 2022",
       "reported_phenotype": "C3661900:not provided",
       "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
-      "origin_counts": "germline:5",
-      "submitter": "Eurofins Ntd Llc (ga)",
-      "scv": "SCV000333415.4",
+      "origin_counts": "germline:1",
+      "submitter": "CeGaT Center for Human Genetics Tuebingen",
+      "scv": "SCV002822580.27",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17864",
+      "clnsig": "risk factor",
+      "date_last_evaluated": "Jan 16, 2019",
+      "reported_phenotype": "C5779573:Primary degenerative dementia of the Alzheimer type, presenile onset",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:58",
+      "submitter": "Laboratory for Molecular Medicine, Mass General Brigham Personalized Medicine",
+      "scv": "SCV000967586.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17864",
+      "clnsig": "Likely pathogenic",
+      "date_last_evaluated": "Mar 29, 2022",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:618",
+      "submitter": "AiLife Diagnostics, AiLife Diagnostics",
+      "scv": "SCV002502503.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17864",
+      "clnsig": "drug response",
+      "date_last_evaluated": "Aug 31, 2010",
+      "reported_phenotype": "C0750384:Warfarin response",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
+      "origin_counts": "unknown:142",
+      "submitter": "Pharmacogenomics Lab, Chungbuk National University",
+      "scv": "SCV000889946.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17864",
+      "clnsig": "Uncertain significance",
+      "date_last_evaluated": "Oct 15, 2024",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Greenwood Genetic Center Diagnostic Laboratories, Greenwood Genetic Center",
+      "scv": "SCV005874057.1",
       "snapshot": "2026-11"
      },
      {
@@ -2518,12 +2626,24 @@
       "variation_id": "17864",
       "clnsig": "Established risk allele",
       "date_last_evaluated": "-",
-      "reported_phenotype": "C1863051:Alzheimer disease 2",
+      "reported_phenotype": "C0002395:Alzheimer disease",
       "review_status": "no assertion criteria provided",
-      "collection_method": "clinical testing",
+      "collection_method": "research",
       "origin_counts": "unknown:na",
       "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
-      "scv": "SCV001550609.2",
+      "scv": "SCV002764628.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17864",
+      "clnsig": "risk factor",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Molecular Diagnostic Laboratory for Inherited Cardiovascular Disease, Montreal Heart Institute",
+      "scv": "SCV000987489.1",
       "snapshot": "2026-11"
      },
      {
@@ -2540,42 +2660,6 @@
      },
      {
       "variation_id": "17864",
-      "clnsig": "drug response",
-      "date_last_evaluated": "Aug 31, 2010",
-      "reported_phenotype": "C0750384:Warfarin response",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "research",
-      "origin_counts": "unknown:142",
-      "submitter": "Pharmacogenomics Lab, Chungbuk National University",
-      "scv": "SCV000889946.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17864",
-      "clnsig": "Uncertain significance",
-      "date_last_evaluated": "Jun 04, 2024",
-      "reported_phenotype": "C0020445:Familial hypercholesterolemia",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Cambridge Genomics Laboratory, East Genomic Laboratory Hub, NHS Genomic Medicine Service",
-      "scv": "SCV007516966.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17864",
-      "clnsig": "Likely pathogenic",
-      "date_last_evaluated": "Mar 29, 2022",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:618",
-      "submitter": "AiLife Diagnostics, AiLife Diagnostics",
-      "scv": "SCV002502503.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17864",
       "clnsig": "Likely risk allele",
       "date_last_evaluated": "Nov 04, 2025",
       "reported_phenotype": "C1863051:Alzheimer disease 2",
@@ -2588,30 +2672,6 @@
      },
      {
       "variation_id": "17864",
-      "clnsig": "Likely benign",
-      "date_last_evaluated": "Apr 21, 2025",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:295",
-      "submitter": "Mayo Clinic Laboratories, Mayo Clinic",
-      "scv": "SCV007310668.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17864",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Jun 27, 2022",
-      "reported_phenotype": "C1863051:Alzheimer disease 2",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "literature only",
-      "origin_counts": "germline:na",
-      "submitter": "OMIM",
-      "scv": "SCV000039738.11",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17864",
       "clnsig": "Benign",
       "date_last_evaluated": "Feb 16, 2025",
       "reported_phenotype": "CN169374:not specified",
@@ -2620,66 +2680,6 @@
       "origin_counts": "germline:na",
       "submitter": "Laboratory of Genetics, Children's Clinical University Hospital Latvia",
       "scv": "SCV006109641.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17864",
-      "clnsig": "Uncertain significance",
-      "date_last_evaluated": "Oct 15, 2024",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Greenwood Genetic Center Diagnostic Laboratories, Greenwood Genetic Center",
-      "scv": "SCV005874057.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17864",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Jan 26, 2026",
-      "reported_phenotype": "C1863051:Alzheimer disease 2",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "3billion",
-      "scv": "SCV006582806.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17864",
-      "clnsig": "Established risk allele",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C0002395:Alzheimer disease",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "research",
-      "origin_counts": "unknown:na",
-      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
-      "scv": "SCV002764628.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17864",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Mar 24, 2020",
-      "reported_phenotype": "C1847200:Alzheimer disease 4",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:na",
-      "submitter": "Centre for Mendelian Genomics, University Medical Centre Ljubljana",
-      "scv": "SCV001366227.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17864",
-      "clnsig": "Uncertain significance",
-      "date_last_evaluated": "Oct 01, 2022",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:1",
-      "submitter": "CeGaT Center for Human Genetics Tuebingen",
-      "scv": "SCV002822580.28",
       "snapshot": "2026-11"
      }
     ],
@@ -2714,7 +2714,7 @@
       "review_status": "criteria provided, conflicting classifications",
       "n_submitters": "18",
       "last_evaluated": "Jan 26, 2026",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }
@@ -2722,9 +2722,9 @@
   "ClinVar:VCV000694742@2026-11": {
    "record_id": "ClinVar:VCV000694742@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/694742/",
-   "retrieved_at": "2026-11-17T02:13:54.236460+00:00",
+   "retrieved_at": "2026-11-17T20:58:36.981576+00:00",
    "status": 200,
    "data": {
     "allele_id": "682795",
@@ -2759,7 +2759,7 @@
       "review_status": "no classification for the single variant",
       "n_submitters": "0",
       "last_evaluated": "-",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }

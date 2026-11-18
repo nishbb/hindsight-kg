@@ -2,7 +2,7 @@
  "rsid_query": "rs1799963",
  "rsid_current": "rs1799963",
  "as_of": "2020-01-01",
- "generated_at": "2026-11-17T02:14:04.941923+00:00",
+ "generated_at": "2026-11-17T20:58:39.696790+00:00",
  "genes": {
   "vep": [
    "F2"
@@ -1065,7 +1065,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01 (2019-01-03)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/13310/",
-   "retrieved_at": "2026-11-17T02:14:04.619319+00:00",
+   "retrieved_at": "2026-11-17T20:58:39.649550+00:00",
    "status": 200,
    "data": {
     "allele_id": "28349",

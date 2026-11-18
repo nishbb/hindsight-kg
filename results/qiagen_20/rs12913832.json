@@ -2,7 +2,7 @@
  "rsid_query": "rs12913832",
  "rsid_current": "rs12913832",
  "as_of": "latest",
- "generated_at": "2026-11-17T02:13:54.979095+00:00",
+ "generated_at": "2026-11-17T20:58:37.323432+00:00",
  "genes": {
   "vep": [
    "HERC2"
@@ -152,7 +152,7 @@
      "review_status": "no assertion criteria provided",
      "n_submitters": "1",
      "last_evaluated": "Feb 13, 2018",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {
@@ -1768,9 +1768,9 @@
   "ClinVar:VCV000004745@2026-11": {
    "record_id": "ClinVar:VCV000004745@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4745/",
-   "retrieved_at": "2026-11-17T02:13:54.964494+00:00",
+   "retrieved_at": "2026-11-17T20:58:37.312333+00:00",
    "status": 200,
    "data": {
     "allele_id": "19784",
@@ -1842,7 +1842,7 @@
       "review_status": "no assertion criteria provided",
       "n_submitters": "1",
       "last_evaluated": "Feb 13, 2018",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }

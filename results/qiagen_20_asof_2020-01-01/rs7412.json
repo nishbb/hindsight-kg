@@ -2,7 +2,7 @@
  "rsid_query": "rs7412",
  "rsid_current": "rs7412",
  "as_of": "2020-01-01",
- "generated_at": "2026-11-17T02:14:04.103907+00:00",
+ "generated_at": "2026-11-17T20:58:39.608548+00:00",
  "genes": {
   "vep": [
    "APOE"
@@ -1653,7 +1653,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01 (2019-01-03)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/17848/",
-   "retrieved_at": "2026-11-17T02:14:03.932777+00:00",
+   "retrieved_at": "2026-11-17T20:58:39.544602+00:00",
    "status": 200,
    "data": {
     "allele_id": "32887",

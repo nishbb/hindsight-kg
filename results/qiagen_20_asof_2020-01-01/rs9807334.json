@@ -2,7 +2,7 @@
  "rsid_query": "rs9807334",
  "rsid_current": "rs9807334",
  "as_of": "2020-01-01",
- "generated_at": "2026-11-17T02:13:58.683463+00:00",
+ "generated_at": "2026-11-17T20:58:38.942976+00:00",
  "genes": {
   "vep": [],
   "dbsnp": [
@@ -681,7 +681,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01",
    "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/",
-   "retrieved_at": "2026-11-17T02:13:58.413949+00:00",
+   "retrieved_at": "2026-11-17T20:58:38.940906+00:00",
    "status": 200,
    "data": {
     "rsid": "rs9807334",

@@ -25,12 +25,12 @@ FREQUENCY
 - Population differentiation flag (gnomAD v4.1): allele 3 frequency ranges from 6.69e-05 in East Asian to 0.0932 in Amish, a large between-ancestry difference. [gnomAD v4.1]
 
 DISEASE RELEVANCE (GERMLINE)
-- ClinVar lists NM_000130.4(F5):c.1601G>A (p.Arg534Gln) (alternate allele 3) with germline classification 'drug response' for: Budd-Chiari syndrome, susceptibility to; Ischemic stroke; Pregnancy loss, recurrent, susceptibility to, 1; Factor V deficiency; and 6 more; review status 'reviewed by expert panel', 29 submitter(s), allele origin 'germline;maternal;unknown'. [ClinVar VCV000000642 (2026-11 release)]
+- ClinVar lists NM_000130.4(F5):c.1601G>A (p.Arg534Gln) (alternate allele 3) with germline classification 'drug response' for: Ischemic stroke; Budd-Chiari syndrome, susceptibility to; Pregnancy loss, recurrent, susceptibility to, 1; Factor V deficiency; and 6 more; review status 'reviewed by expert panel', 29 submitter(s), allele origin 'germline;maternal;unknown'. [ClinVar VCV000000642 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic, risk factor; 2019-01: Conflicting interpretations of pathogenicity, risk factor; 2020-01: Conflicting interpretations of pathogenicity, risk factor; 2026-11: drug response. The classification changed over these releases. [ClinVar VCV000000642 (2026-11 release)]
-- Individual ClinVar submissions for this allele in the 2026-11 release: 24 'Pathogenic', 4 'risk factor', 1 'Uncertain significance', 1 'Pathogenic, low penetrance', 1 'Benign', 1 'Established risk allele', 1 'drug response', 1 'not provided'. [ClinVar VCV000000642 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 24 'Pathogenic', 4 'risk factor', 1 'Pathogenic, low penetrance', 1 'drug response', 1 'Uncertain significance', 1 'Benign', 1 'not provided', 1 'Established risk allele'. [ClinVar VCV000000642 (2026-11 release)]
 - ClinVar lists NM_000130.5(F5):c.1601= (p.Arg534=) (an allele not matched to the dbSNP allele list) with germline classification 'Conflicting classifications of pathogenicity' for: Congenital factor V deficiency; F5-related disorders; review status 'criteria provided, conflicting classifications', 6 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000226007 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: drug response; 2019-01: drug response; 2020-01: drug response; 2026-11: Conflicting classifications of pathogenicity. The classification changed over these releases. [ClinVar VCV000226007 (2026-11 release)]
-- Individual ClinVar submissions for this allele in the 2026-11 release: 3 'Pathogenic', 3 'Benign'. [ClinVar VCV000226007 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 3 'Benign', 3 'Pathogenic'. [ClinVar VCV000226007 (2026-11 release)]
 - No allele of rs6025 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000000642 (2026-11 release); ClinVar VCV000226007 (2026-11 release)]
 
 SOMATIC EVIDENCE

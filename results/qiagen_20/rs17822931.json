@@ -2,7 +2,7 @@
  "rsid_query": "rs17822931",
  "rsid_current": "rs17822931",
  "as_of": "latest",
- "generated_at": "2026-11-17T02:13:54.177766+00:00",
+ "generated_at": "2026-11-17T20:58:36.946616+00:00",
  "genes": {
   "vep": [
    "ABCC11"
@@ -215,7 +215,7 @@
      "review_status": "criteria provided, single submitter",
      "n_submitters": "2",
      "last_evaluated": "-",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {
@@ -2462,9 +2462,9 @@
   "ClinVar:VCV000003558@2026-11": {
    "record_id": "ClinVar:VCV000003558@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3558/",
-   "retrieved_at": "2026-11-17T02:13:54.173664+00:00",
+   "retrieved_at": "2026-11-17T20:58:36.942541+00:00",
    "status": 200,
    "data": {
     "allele_id": "18597",
@@ -2495,18 +2495,6 @@
      {
       "variation_id": "3558",
       "clnsig": "Benign",
-      "date_last_evaluated": "Feb 28, 2011",
-      "reported_phenotype": "C1861696:APOCRINE GLAND SECRETION, VARIATION IN",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "literature only",
-      "origin_counts": "germline:na",
-      "submitter": "OMIM",
-      "scv": "SCV000023900.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "3558",
-      "clnsig": "Benign",
       "date_last_evaluated": "-",
       "reported_phenotype": "C3661900:not provided",
       "review_status": "criteria provided, single submitter",
@@ -2514,6 +2502,18 @@
       "origin_counts": "germline:na",
       "submitter": "Breakthrough Genomics, Breakthrough Genomics",
       "scv": "SCV005289731.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "3558",
+      "clnsig": "Benign",
+      "date_last_evaluated": "Feb 28, 2011",
+      "reported_phenotype": "C1861696:APOCRINE GLAND SECRETION, VARIATION IN",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "OMIM",
+      "scv": "SCV000023900.1",
       "snapshot": "2026-11"
      },
      {
@@ -2572,7 +2572,7 @@
       "review_status": "criteria provided, single submitter",
       "n_submitters": "2",
       "last_evaluated": "-",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }

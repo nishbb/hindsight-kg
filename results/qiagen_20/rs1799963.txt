@@ -19,9 +19,9 @@ FREQUENCY
 - Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0 in Amish to 0.035 in Ashkenazi Jewish, a large between-ancestry difference. [gnomAD v4.1]
 
 DISEASE RELEVANCE (GERMLINE)
-- ClinVar lists NM_000506.5(F2):c.*97G>A (alternate allele 1) with germline classification 'Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor' for: Ischemic stroke; Pregnancy loss, recurrent, susceptibility to, 2; Congenital prothrombin deficiency; Venous thromboembolism; and 4 more; review status 'criteria provided, multiple submitters, no conflicts', 33 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000013310 (2026-11 release)]
+- ClinVar lists NM_000506.5(F2):c.*97G>A (alternate allele 1) with germline classification 'Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor' for: Ischemic stroke; Pregnancy loss, recurrent, susceptibility to, 2; Congenital prothrombin deficiency; Venous thromboembolism; and 4 more; review status 'criteria provided, multiple submitters, no conflicts', 32 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000013310 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic, risk factor; 2019-01: Pathogenic; 2020-01: Pathogenic, risk factor; 2026-11: Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor. The classification changed over these releases. [ClinVar VCV000013310 (2026-11 release)]
-- Individual ClinVar submissions for this allele in the 2026-11 release: 24 'Pathogenic', 5 'risk factor', 2 'Established risk allele', 2 'Likely pathogenic', 1 'not provided', 1 'Pathogenic, low penetrance', 1 'Uncertain significance'. [ClinVar VCV000013310 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 24 'Pathogenic', 5 'risk factor', 2 'Established risk allele', 1 'Pathogenic, low penetrance', 1 'Uncertain significance', 1 'Likely pathogenic', 1 'not provided'. [ClinVar VCV000013310 (2026-11 release)]
 - No allele of rs1799963 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000013310 (2026-11 release)]
 
 SOMATIC EVIDENCE
@@ -44,7 +44,7 @@ LITERATURE
 - Linked article: "ATR1 A1166C (rs5186), FII G20210A (rs1799963), FV G1691A (rs6025), FXIII 97G > T (rs11466016) and MTHFR A1298C (rs1801131) polymorphisms and the risk of ST-elevation myocardial infarction in young Mexican individuals" (Mol Biol Rep, 2024). [PMID:38270639]
 
 CONFLICTS AND CAVEATS
-- Submitter conflict: ClinVar submissions for NM_000506.5(F2):c.*97G>A disagree (26 pathogenic or likely pathogenic, 1 uncertain significance); the aggregate classification is 'Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor'. [ClinVar VCV000013310]
+- Submitter conflict: ClinVar submissions for NM_000506.5(F2):c.*97G>A disagree (25 pathogenic or likely pathogenic, 1 uncertain significance); the aggregate classification is 'Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor'. [ClinVar VCV000013310]
 
 BOTTOM LINE
 - Bottom line: rs1799963 in F2 is best described as: low-penetrance risk allele, not a fully penetrant monogenic disease variant. Its strongest reported association is with venous thromboembolism. Sources disagree on some points (see conflicts). Confidence: high (40 genome-wide significant associations across 40 studies). [ClinVar VCV000013310 (2026-11 release); GWAS Catalog rs1799963; LitVar2 rs1799963]

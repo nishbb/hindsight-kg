@@ -2,7 +2,7 @@
  "rsid_query": "rs17822931",
  "rsid_current": "rs17822931",
  "as_of": "2020-01-01",
- "generated_at": "2026-11-17T02:14:00.102816+00:00",
+ "generated_at": "2026-11-17T20:58:39.195346+00:00",
  "genes": {
   "vep": [
    "ABCC11"
@@ -1426,7 +1426,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01 (2019-01-03)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3558/",
-   "retrieved_at": "2026-11-17T02:13:59.998908+00:00",
+   "retrieved_at": "2026-11-17T20:58:39.192365+00:00",
    "status": 200,
    "data": {
     "allele_id": "18597",

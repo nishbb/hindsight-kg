@@ -2,7 +2,7 @@
  "rsid_query": "rs4988235",
  "rsid_current": "rs4988235",
  "as_of": "latest",
- "generated_at": "2026-11-17T02:13:54.795752+00:00",
+ "generated_at": "2026-11-17T20:58:37.241238+00:00",
  "genes": {
   "vep": [
    "MCM6"
@@ -183,7 +183,7 @@
      "review_status": "no assertion criteria provided",
      "n_submitters": "2",
      "last_evaluated": "Jan 26, 2021",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {
@@ -1908,9 +1908,9 @@
   "ClinVar:VCV000007685@2026-11": {
    "record_id": "ClinVar:VCV000007685@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/7685/",
-   "retrieved_at": "2026-11-17T02:13:54.769316+00:00",
+   "retrieved_at": "2026-11-17T20:58:37.229722+00:00",
    "status": 200,
    "data": {
     "allele_id": "22724",
@@ -1994,7 +1994,7 @@
       "review_status": "no assertion criteria provided",
       "n_submitters": "2",
       "last_evaluated": "Jan 26, 2021",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }

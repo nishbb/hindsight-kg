@@ -139,8 +139,8 @@ Limitations: the bottom line is rule-based; per-condition ClinVar classification
 
 ### M4 broader evaluation (`results/m4_broad/summary.json`)
 
-* 200 variants named in the brief (100 ClinVar expert-panel, 100 GWAS lead SNPs from the 2019-12-16 release, seeded sample): 200 of 200 dossiers complete, 4,646 sentences, 11,507 citations, citation validity 1.0, claim-to-record agreement 1.0, no uncited sentence.
-* Conflict detection recall: 100 extra germline ClinVar variants whose aggregate classification is "Conflicting ..." (needed because expert-panel records essentially never carry the flag). Recall 1.0 both from the dossier's conflict list and when computed from individual submissions only. On the expert-panel set 29% of variants show submitter disagreement; these are real disagreements that the panel resolved, so they are reported as a disagreement rate, not as false alarms.
+* 200 variants named in the brief (100 ClinVar expert-panel, 100 GWAS lead SNPs from the 2019-12-16 release, seeded sample from the pinned 2026-11 index): 200 of 200 dossiers complete, 4,660 sentences, 11,443 citations, citation validity 1.000, claim-to-record agreement 1.000, no uncited sentence.
+* Conflict detection recall: 100 extra germline ClinVar variants whose aggregate classification is "Conflicting ..." (needed because expert-panel records essentially never carry the flag). Recall 1.0 both from the dossier's conflict list and when computed from individual submissions only. On the expert-panel set 31% of variants show submitter disagreement; these are real disagreements that the panel resolved, so they are reported as a disagreement rate, not as false alarms.
 * Caveat: citation validity and agreement are 1.0 by construction where the template system works, so these numbers mainly show that the verifier finds nothing broken. They are not a test of whether the evidence is complete or well chosen.
 * Bugs found by this run and fixed: a "no COSMIC record" sentence cited a field that is absent when Ensembl has no annotation for a very new rsID (3 variants); a transient Ensembl HTTP 500 aborted one dossier (now recorded as a processing note and the other sources continue).
 
@@ -164,3 +164,12 @@ Part 2 (STaRK-Prime graph-RAG with G-Retriever): **not run**. It needs a GPU for
 ## M7. COPD / emphysema case study (done except agent verdicts)
 
 See `docs/case_study_copd.md`. Seeds retrieved from the GWAS Catalog v2 API by trait-name search (3 MONDO terms, 1,234 associations, 562 lead loci). Only 12 time-T ClinVar edges qualify as COPD-related under the data rule; 3 were later downgraded (SCNN1A, SCNN1B bronchiectasis, all "no assertion criteria"), and all 3 had an "empty" conformal set at T. SERPINA1 drops out because its COPD GWAS support in the catalog is from 2024 (PMID 39024449), after T. The graph has no exposure entities; smoking-behaviour GWAS traits are the only exposure proxy.
+
+## M5. Audit agent: provider problems and decisions (2026-11-17/18)
+
+* First model choice on the 12-edge smoke set (excluded from evaluation): `nvidia/nemotron-3-ultra-550b-a55b` on NVIDIA NIM. During the full run it started returning HTTP 503 "Service temporarily overloaded".
+* Switched to `nemotron-3.5-lightning` (same family, re-checked on the smoke set: config c 8 of 12 correct, valid verdicts, 4% unmatched citations). NIM's free tier then rate-limited the account (HTTP 429): with a shared client-side limiter throughput was 10 calls per minute, about 11 hours for the run.
+* **Final provider: Nebius Token Factory** (OpenAI-compatible, `https://api.tokenfactory.nebius.com/v1/`, model `nvidia/Nemotron-3_5-Lightning`, key from `NEBIUS_API_KEY`), paid from the project's Nebius credits. No rate limiting observed (20 calls in 4.5 s). Third-party trackers list it at $0.06 per 1M input and $0.24 per 1M output tokens (not confirmed on Nebius's own price page, which needs a login); the full run is estimated at 20M input tokens, roughly $1.50 to $2.
+* All LLM configs (b0, b, c, d) are run on this one model and provider; NIM responses are kept in the cache but not reported. Reasoning ("thinking") is switched off for all configs.
+* Client hardening: 90 s request timeout with no hidden SDK retries (a stalled request previously blocked a run for 22 min), and a shared limiter that pauses all threads for 60 s after a 429 or 503.
+* Known limitation: the LLM's weights were trained on data after T. Tool evidence is restricted to T, but the model may remember later reclassifications, which would favour the LLM configs. We cannot remove this; we report it.

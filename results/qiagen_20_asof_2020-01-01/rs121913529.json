@@ -2,7 +2,7 @@
  "rsid_query": "rs121913529",
  "rsid_current": "rs121913529",
  "as_of": "2020-01-01",
- "generated_at": "2026-11-17T02:13:59.365549+00:00",
+ "generated_at": "2026-11-17T20:58:39.172527+00:00",
  "genes": {
   "vep": [
    "KRAS"
@@ -10054,7 +10054,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01 (2019-01-03)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/12582/",
-   "retrieved_at": "2026-11-17T02:13:58.690785+00:00",
+   "retrieved_at": "2026-11-17T20:58:38.946539+00:00",
    "status": 200,
    "data": {
     "allele_id": "27621",
@@ -10107,7 +10107,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01 (2019-01-03)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/12583/",
-   "retrieved_at": "2026-11-17T02:13:58.690857+00:00",
+   "retrieved_at": "2026-11-17T20:58:38.946572+00:00",
    "status": 200,
    "data": {
     "allele_id": "27622",
@@ -10160,7 +10160,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01 (2019-01-03)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/45122/",
-   "retrieved_at": "2026-11-17T02:13:58.690901+00:00",
+   "retrieved_at": "2026-11-17T20:58:38.946599+00:00",
    "status": 200,
    "data": {
     "allele_id": "54289",

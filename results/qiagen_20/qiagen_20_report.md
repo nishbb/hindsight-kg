@@ -138,7 +138,7 @@ DISEASE RELEVANCE (GERMLINE)
 - Individual ClinVar submissions for this allele in the 2026-11 release: 16 'Pathogenic', 5 without a germline classification. [ClinVar VCV000012583 (2026-11 release)]
 - ClinVar lists NM_004985.5(KRAS):c.35G>C (p.Gly12Ala) (alternate allele 2) with germline classification 'Pathogenic/Likely pathogenic' for: Non-small cell lung carcinoma; Multiple myeloma; Gallbladder cancer; Lung cancer; and 5 more; review status 'criteria provided, multiple submitters, no conflicts', 11 submitter(s), allele origin 'germline;somatic;unknown'. [ClinVar VCV000045122 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic/Likely pathogenic; 2019-01: Pathogenic/Likely pathogenic; 2020-01: Pathogenic/Likely pathogenic; 2026-11: Pathogenic/Likely pathogenic. The classification did not change over these releases. [ClinVar VCV000045122 (2026-11 release)]
-- Individual ClinVar submissions for this allele in the 2026-11 release: 6 'Pathogenic', 3 without a germline classification, 3 'Likely pathogenic'. [ClinVar VCV000045122 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 6 'Pathogenic', 3 'Likely pathogenic', 3 without a germline classification. [ClinVar VCV000045122 (2026-11 release)]
 
 SOMATIC EVIDENCE
 - Ensembl VEP reports 3 co-located COSMIC somatic mutation record(s) at this position (COSV55497369, COSV55497419, COSV55497479). [Ensembl VEP rs121913529]
@@ -423,9 +423,9 @@ FREQUENCY
 - Per-ancestry gnomAD v4.1 frequencies for allele 1: African/African American 0.22, Admixed American 0.107, Ashkenazi Jewish 0.12, East Asian 0.0978, Finnish 0.192, Non-Finnish European 0.151, South Asian 0.101, Middle Eastern 0.0681, Amish 0.136, Remaining 0.138. [gnomAD v4.1]
 
 DISEASE RELEVANCE (GERMLINE)
-- ClinVar lists NM_000041.4(APOE):c.388T>C (p.Cys130Arg) (alternate allele 1) with germline classification 'Conflicting classifications of pathogenicity; other; risk factor' for: Alzheimer disease 2; Primary degenerative dementia of the Alzheimer type, presenile onset; Warfarin response; Alzheimer disease; and 3 more; review status 'criteria provided, conflicting classifications', 18 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000017864 (2026-11 release)]
+- ClinVar lists NM_000041.4(APOE):c.388T>C (p.Cys130Arg) (alternate allele 1) with germline classification 'Conflicting classifications of pathogenicity; other; risk factor' for: Alzheimer disease 2; Alzheimer disease; Primary degenerative dementia of the Alzheimer type, presenile onset; Warfarin response; and 3 more; review status 'criteria provided, conflicting classifications', 18 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000017864 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic, other; 2019-01: other; 2020-01: other, risk factor; 2026-11: Conflicting classifications of pathogenicity; other; risk factor. The classification changed over these releases. [ClinVar VCV000017864 (2026-11 release)]
-- Individual ClinVar submissions for this allele in the 2026-11 release: 5 'Uncertain significance', 3 'Pathogenic', 2 'risk factor', 2 'Likely pathogenic', 2 'Established risk allele', 1 'other', 1 'drug response', 1 'Likely risk allele', 1 'Likely benign', 1 'Benign'. [ClinVar VCV000017864 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 5 'Uncertain significance', 3 'Pathogenic', 2 'Likely pathogenic', 2 'Established risk allele', 2 'risk factor', 1 'other', 1 'Likely benign', 1 'drug response', 1 'Likely risk allele', 1 'Benign'. [ClinVar VCV000017864 (2026-11 release)]
 - ClinVar lists NM_000041.4(APOE):c.388= (p.Cys130=) (an allele not matched to the dbSNP allele list) with germline classification 'no classification for the single variant' with no specific condition named; review status 'no classification for the single variant', 0 submitter(s), allele origin 'not applicable'. [ClinVar VCV000694742 (2026-11 release)]
 - No allele of rs429358 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000017864 (2026-11 release); ClinVar VCV000694742 (2026-11 release)]
 
@@ -540,9 +540,9 @@ FREQUENCY
 - gnomAD v4.1 has no record for 7-117559591-T-TCTT (alternate allele 2). [gnomAD v4.1]
 
 DISEASE RELEVANCE (GERMLINE)
-- ClinVar lists NM_000492.3(CFTR):c.1521_1523del (p.Phe508del) (alternate allele 1) with germline classification 'Pathogenic' for: Cystic fibrosis; BRONCHIECTASIS WITH OR WITHOUT ELEVATED SWEAT CHLORIDE 1, MODIFIER OF; Hereditary pancreatitis; Duodenal stenosis; and 9 more; review status 'practice guideline', 91 submitter(s), allele origin 'de novo;germline;inherited;maternal;paternal;unknown'. [ClinVar VCV000007105 (2026-11 release)]
+- ClinVar lists NM_000492.3(CFTR):c.1521_1523del (p.Phe508del) (alternate allele 1) with germline classification 'Pathogenic' for: Cystic fibrosis; BRONCHIECTASIS WITH OR WITHOUT ELEVATED SWEAT CHLORIDE 1, MODIFIER OF; Hereditary pancreatitis; Duodenal stenosis; and 9 more; review status 'practice guideline', 89 submitter(s), allele origin 'de novo;germline;inherited;maternal;paternal;unknown'. [ClinVar VCV000007105 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic; 2019-01: Pathogenic; 2020-01: Pathogenic; 2026-11: Pathogenic. The classification did not change over these releases. [ClinVar VCV000007105 (2026-11 release)]
-- Individual ClinVar submissions for this allele in the 2026-11 release: 95 'Pathogenic', 4 'not provided', 2 'drug response', 2 'Likely pathogenic', 1 'risk factor'. [ClinVar VCV000007105 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 93 'Pathogenic', 4 'not provided', 2 'Likely pathogenic', 2 'drug response', 1 'risk factor'. [ClinVar VCV000007105 (2026-11 release)]
 
 SOMATIC EVIDENCE
 - No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs113993960]
@@ -663,9 +663,9 @@ FREQUENCY
 - Per-ancestry gnomAD v4.1 frequencies for allele 3: African/African American 0, Admixed American 0, Ashkenazi Jewish 0, East Asian 0, Finnish 0, Non-Finnish European 5.93e-06, South Asian 0, Middle Eastern 0, Amish 0, Remaining 0. [gnomAD v4.1]
 
 DISEASE RELEVANCE (GERMLINE)
-- ClinVar lists NM_000546.6(TP53):c.524G>A (p.Arg175His) (alternate allele 3) with germline classification 'Pathogenic' for: Li-Fraumeni syndrome 1; Hereditary cancer-predisposing syndrome; Li-Fraumeni syndrome; Malignant tumor of esophagus; and 17 more; review status 'reviewed by expert panel', 40 submitter(s), allele origin 'germline;maternal;somatic;unknown'. [ClinVar VCV000012374 (2026-11 release)]
+- ClinVar lists NM_000546.6(TP53):c.524G>A (p.Arg175His) (alternate allele 3) with germline classification 'Pathogenic' for: Li-Fraumeni syndrome 1; Hereditary cancer-predisposing syndrome; Li-Fraumeni syndrome; Malignant tumor of esophagus; and 17 more; review status 'reviewed by expert panel', 39 submitter(s), allele origin 'germline;maternal;somatic;unknown'. [ClinVar VCV000012374 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic/Likely pathogenic; 2019-01: Pathogenic; 2020-01: Pathogenic; 2026-11: Pathogenic. The classification changed over these releases. [ClinVar VCV000012374 (2026-11 release)]
-- Individual ClinVar submissions for this allele in the 2026-11 release: 41 'Pathogenic', 7 without a germline classification, 2 'Likely pathogenic'. [ClinVar VCV000012374 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 40 'Pathogenic', 7 without a germline classification, 2 'Likely pathogenic'. [ClinVar VCV000012374 (2026-11 release)]
 - ClinVar lists NM_000546.6(TP53):c.524G>T (p.Arg175Leu) (alternate allele 1) with germline classification 'Likely pathogenic' for: Hereditary cancer-predisposing syndrome; Li-Fraumeni syndrome; Li-Fraumeni syndrome 1; review status 'reviewed by expert panel', 6 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000182963 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: Likely pathogenic; 2019-01: Likely pathogenic; 2020-01: Conflicting interpretations of pathogenicity; 2026-11: Likely pathogenic. The classification changed over these releases. [ClinVar VCV000182963 (2026-11 release)]
 - Individual ClinVar submissions for this allele in the 2026-11 release: 5 'Likely pathogenic', 2 'Pathogenic'. [ClinVar VCV000182963 (2026-11 release)]
@@ -831,12 +831,12 @@ FREQUENCY
 - Population differentiation flag (gnomAD v4.1): allele 3 frequency ranges from 6.69e-05 in East Asian to 0.0932 in Amish, a large between-ancestry difference. [gnomAD v4.1]
 
 DISEASE RELEVANCE (GERMLINE)
-- ClinVar lists NM_000130.4(F5):c.1601G>A (p.Arg534Gln) (alternate allele 3) with germline classification 'drug response' for: Budd-Chiari syndrome, susceptibility to; Ischemic stroke; Pregnancy loss, recurrent, susceptibility to, 1; Factor V deficiency; and 6 more; review status 'reviewed by expert panel', 29 submitter(s), allele origin 'germline;maternal;unknown'. [ClinVar VCV000000642 (2026-11 release)]
+- ClinVar lists NM_000130.4(F5):c.1601G>A (p.Arg534Gln) (alternate allele 3) with germline classification 'drug response' for: Ischemic stroke; Budd-Chiari syndrome, susceptibility to; Pregnancy loss, recurrent, susceptibility to, 1; Factor V deficiency; and 6 more; review status 'reviewed by expert panel', 29 submitter(s), allele origin 'germline;maternal;unknown'. [ClinVar VCV000000642 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic, risk factor; 2019-01: Conflicting interpretations of pathogenicity, risk factor; 2020-01: Conflicting interpretations of pathogenicity, risk factor; 2026-11: drug response. The classification changed over these releases. [ClinVar VCV000000642 (2026-11 release)]
-- Individual ClinVar submissions for this allele in the 2026-11 release: 24 'Pathogenic', 4 'risk factor', 1 'Uncertain significance', 1 'Pathogenic, low penetrance', 1 'Benign', 1 'Established risk allele', 1 'drug response', 1 'not provided'. [ClinVar VCV000000642 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 24 'Pathogenic', 4 'risk factor', 1 'Pathogenic, low penetrance', 1 'drug response', 1 'Uncertain significance', 1 'Benign', 1 'not provided', 1 'Established risk allele'. [ClinVar VCV000000642 (2026-11 release)]
 - ClinVar lists NM_000130.5(F5):c.1601= (p.Arg534=) (an allele not matched to the dbSNP allele list) with germline classification 'Conflicting classifications of pathogenicity' for: Congenital factor V deficiency; F5-related disorders; review status 'criteria provided, conflicting classifications', 6 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000226007 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: drug response; 2019-01: drug response; 2020-01: drug response; 2026-11: Conflicting classifications of pathogenicity. The classification changed over these releases. [ClinVar VCV000226007 (2026-11 release)]
-- Individual ClinVar submissions for this allele in the 2026-11 release: 3 'Pathogenic', 3 'Benign'. [ClinVar VCV000226007 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 3 'Benign', 3 'Pathogenic'. [ClinVar VCV000226007 (2026-11 release)]
 - No allele of rs6025 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000000642 (2026-11 release); ClinVar VCV000226007 (2026-11 release)]
 
 SOMATIC EVIDENCE
@@ -955,7 +955,7 @@ FREQUENCY
 DISEASE RELEVANCE (GERMLINE)
 - ClinVar lists NM_000041.2(APOE):c.526C>T (p.Arg176Cys) (alternate allele 1) with germline classification 'drug response' for: Familial type 3 hyperlipoproteinemia; atorvastatin response - Efficacy; Warfarin response; Hypercholesterolemia; review status 'reviewed by expert panel', 12 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000017848 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: drug response; 2019-01: drug response; 2020-01: drug response; 2026-11: drug response. The classification did not change over these releases. [ClinVar VCV000017848 (2026-11 release)]
-- Individual ClinVar submissions for this allele in the 2026-11 release: 4 'Likely benign', 2 'Benign', 2 'drug response', 1 'Pathogenic', 1 'risk factor', 1 'other', 1 'Uncertain significance'. [ClinVar VCV000017848 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 4 'Likely benign', 2 'Benign', 2 'drug response', 1 'Pathogenic', 1 'Uncertain significance', 1 'other', 1 'risk factor'. [ClinVar VCV000017848 (2026-11 release)]
 - No allele of rs7412 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000017848 (2026-11 release)]
 
 SOMATIC EVIDENCE
@@ -1119,9 +1119,9 @@ FREQUENCY
 - Population differentiation flag (gnomAD v4.1): allele 1 frequency ranges from 0 in Amish to 0.035 in Ashkenazi Jewish, a large between-ancestry difference. [gnomAD v4.1]
 
 DISEASE RELEVANCE (GERMLINE)
-- ClinVar lists NM_000506.5(F2):c.*97G>A (alternate allele 1) with germline classification 'Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor' for: Ischemic stroke; Pregnancy loss, recurrent, susceptibility to, 2; Congenital prothrombin deficiency; Venous thromboembolism; and 4 more; review status 'criteria provided, multiple submitters, no conflicts', 33 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000013310 (2026-11 release)]
+- ClinVar lists NM_000506.5(F2):c.*97G>A (alternate allele 1) with germline classification 'Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor' for: Ischemic stroke; Pregnancy loss, recurrent, susceptibility to, 2; Congenital prothrombin deficiency; Venous thromboembolism; and 4 more; review status 'criteria provided, multiple submitters, no conflicts', 32 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000013310 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic, risk factor; 2019-01: Pathogenic; 2020-01: Pathogenic, risk factor; 2026-11: Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor. The classification changed over these releases. [ClinVar VCV000013310 (2026-11 release)]
-- Individual ClinVar submissions for this allele in the 2026-11 release: 24 'Pathogenic', 5 'risk factor', 2 'Established risk allele', 2 'Likely pathogenic', 1 'not provided', 1 'Pathogenic, low penetrance', 1 'Uncertain significance'. [ClinVar VCV000013310 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 24 'Pathogenic', 5 'risk factor', 2 'Established risk allele', 1 'Pathogenic, low penetrance', 1 'Uncertain significance', 1 'Likely pathogenic', 1 'not provided'. [ClinVar VCV000013310 (2026-11 release)]
 - No allele of rs1799963 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000013310 (2026-11 release)]
 
 SOMATIC EVIDENCE
@@ -1144,7 +1144,7 @@ LITERATURE
 - Linked article: "ATR1 A1166C (rs5186), FII G20210A (rs1799963), FV G1691A (rs6025), FXIII 97G > T (rs11466016) and MTHFR A1298C (rs1801131) polymorphisms and the risk of ST-elevation myocardial infarction in young Mexican individuals" (Mol Biol Rep, 2024). [PMID:38270639]
 
 CONFLICTS AND CAVEATS
-- Submitter conflict: ClinVar submissions for NM_000506.5(F2):c.*97G>A disagree (26 pathogenic or likely pathogenic, 1 uncertain significance); the aggregate classification is 'Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor'. [ClinVar VCV000013310]
+- Submitter conflict: ClinVar submissions for NM_000506.5(F2):c.*97G>A disagree (25 pathogenic or likely pathogenic, 1 uncertain significance); the aggregate classification is 'Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor'. [ClinVar VCV000013310]
 
 BOTTOM LINE
 - Bottom line: rs1799963 in F2 is best described as: low-penetrance risk allele, not a fully penetrant monogenic disease variant. Its strongest reported association is with venous thromboembolism. Sources disagree on some points (see conflicts). Confidence: high (40 genome-wide significant associations across 40 studies). [ClinVar VCV000013310 (2026-11 release); GWAS Catalog rs1799963; LitVar2 rs1799963]
@@ -1184,7 +1184,7 @@ FREQUENCY
 DISEASE RELEVANCE (GERMLINE)
 - ClinVar lists NM_005957.5(MTHFR):c.665C>T (p.Ala222Val) (alternate allele 1) with germline classification 'drug response' for: MTHFR THERMOLABILE POLYMORPHISM; Gastrointestinal stromal tumor; Neural tube defects, folate-sensitive; Homocystinuria due to methylene tetrahydrofolate reductase deficiency; and 4 more; review status 'reviewed by expert panel', 25 submitter(s), allele origin 'germline;unknown'. [ClinVar VCV000003520 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: drug response; 2019-01: drug response; 2020-01: drug response; 2026-11: drug response. The classification did not change over these releases. [ClinVar VCV000003520 (2026-11 release)]
-- Individual ClinVar submissions for this allele in the 2026-11 release: 9 'Benign', 6 'Uncertain significance', 3 'Pathogenic', 2 'Likely benign', 1 'other', 1 'drug response', 1 'Likely pathogenic', 1 'Likely risk allele', 1 'association'. [ClinVar VCV000003520 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 9 'Benign', 6 'Uncertain significance', 3 'Pathogenic', 2 'Likely benign', 1 'drug response', 1 'other', 1 'Likely pathogenic', 1 'Likely risk allele', 1 'association'. [ClinVar VCV000003520 (2026-11 release)]
 - No allele of rs1801133 has a pathogenic or likely pathogenic germline classification in the ClinVar 2026-11 release. [ClinVar VCV000003520 (2026-11 release)]
 
 SOMATIC EVIDENCE

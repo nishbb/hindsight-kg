@@ -2,7 +2,7 @@
  "rsid_query": "rs3827760",
  "rsid_current": "rs3827760",
  "as_of": "2020-01-01",
- "generated_at": "2026-11-17T02:14:01.496165+00:00",
+ "generated_at": "2026-11-17T20:58:39.327139+00:00",
  "genes": {
   "vep": [
    "EDAR"
@@ -1412,7 +1412,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01 (2019-01-03)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/5858/",
-   "retrieved_at": "2026-11-17T02:14:01.206024+00:00",
+   "retrieved_at": "2026-11-17T20:58:39.322475+00:00",
    "status": 200,
    "data": {
     "allele_id": "20897",

@@ -230,7 +230,7 @@
    "source": "LitVar2",
    "source_version": "LitVar2 (intersection of the two per-variant PMID lists)",
    "url": "https://www.ncbi.nlm.nih.gov/research/litvar2/",
-   "retrieved_at": "2026-11-17T02:13:54.425000+00:00",
+   "retrieved_at": "2026-11-17T20:58:37.070322+00:00",
    "status": 200,
    "data": {
     "shared_pmids": [

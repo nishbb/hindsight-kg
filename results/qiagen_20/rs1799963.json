@@ -2,7 +2,7 @@
  "rsid_query": "rs1799963",
  "rsid_current": "rs1799963",
  "as_of": "latest",
- "generated_at": "2026-11-17T02:13:55.479635+00:00",
+ "generated_at": "2026-11-17T20:58:37.566011+00:00",
  "genes": {
   "vep": [
    "F2"
@@ -96,7 +96,7 @@
     "Inborn genetic diseases"
    ],
    "origin": "germline;unknown",
-   "n_submitters": "33",
+   "n_submitters": "32",
    "history": [
     {
      "snapshot": "2018-01",
@@ -126,19 +126,19 @@
      "snapshot": "2026-11",
      "clnsig": "Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor",
      "review_status": "criteria provided, multiple submitters, no conflicts",
-     "n_submitters": "33",
+     "n_submitters": "32",
      "last_evaluated": "Feb 03, 2026",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {
     "Pathogenic": 24,
-    "not provided": 1,
-    "Established risk allele": 2,
     "risk factor": 5,
     "Pathogenic, low penetrance": 1,
-    "Likely pathogenic": 2,
-    "Uncertain significance": 1
+    "Established risk allele": 2,
+    "Uncertain significance": 1,
+    "Likely pathogenic": 1,
+    "not provided": 1
    }
   }
  ],
@@ -262,7 +262,7 @@
    "type": "conflicting_submitters",
    "variation_id": "13310",
    "classes": {
-    "PLP": 26,
+    "PLP": 25,
     "OTHER": 9,
     "VUS": 1
    },
@@ -777,7 +777,7 @@
   },
   {
    "section": "Disease relevance (germline)",
-   "text": "ClinVar lists NM_000506.5(F2):c.*97G>A (alternate allele 1) with germline classification 'Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor' for: Ischemic stroke; Pregnancy loss, recurrent, susceptibility to, 2; Congenital prothrombin deficiency; Venous thromboembolism; and 4 more; review status 'criteria provided, multiple submitters, no conflicts', 33 submitter(s), allele origin 'germline;unknown'.",
+   "text": "ClinVar lists NM_000506.5(F2):c.*97G>A (alternate allele 1) with germline classification 'Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor' for: Ischemic stroke; Pregnancy loss, recurrent, susceptibility to, 2; Congenital prothrombin deficiency; Venous thromboembolism; and 4 more; review status 'criteria provided, multiple submitters, no conflicts', 32 submitter(s), allele origin 'germline;unknown'.",
    "citations": [
     {
      "record_id": "ClinVar:VCV000013310@2026-11",
@@ -809,10 +809,10 @@
     {
      "record_id": "ClinVar:VCV000013310@2026-11",
      "path": "n_submitters",
-     "value": "33",
+     "value": "32",
      "label": "ClinVar VCV000013310 (2026-11 release)",
      "mode": "eq",
-     "shown": "33",
+     "shown": "32",
      "args": null
     },
     {
@@ -906,7 +906,7 @@
   },
   {
    "section": "Disease relevance (germline)",
-   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 24 'Pathogenic', 5 'risk factor', 2 'Established risk allele', 2 'Likely pathogenic', 1 'not provided', 1 'Pathogenic, low penetrance', 1 'Uncertain significance'.",
+   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 24 'Pathogenic', 5 'risk factor', 2 'Established risk allele', 1 'Pathogenic, low penetrance', 1 'Uncertain significance', 1 'Likely pathogenic', 1 'not provided'.",
    "citations": [
     {
      "record_id": "ClinVar:VCV000013310@2026-11",
@@ -950,32 +950,6 @@
     {
      "record_id": "ClinVar:VCV000013310@2026-11",
      "path": "",
-     "value": 2,
-     "label": "ClinVar VCV000013310 (2026-11 release)",
-     "mode": "count_eq",
-     "shown": "2",
-     "args": [
-      "submissions",
-      "clnsig",
-      "Likely pathogenic"
-     ]
-    },
-    {
-     "record_id": "ClinVar:VCV000013310@2026-11",
-     "path": "",
-     "value": 1,
-     "label": "ClinVar VCV000013310 (2026-11 release)",
-     "mode": "count_eq",
-     "shown": "1",
-     "args": [
-      "submissions",
-      "clnsig",
-      "not provided"
-     ]
-    },
-    {
-     "record_id": "ClinVar:VCV000013310@2026-11",
-     "path": "",
      "value": 1,
      "label": "ClinVar VCV000013310 (2026-11 release)",
      "mode": "count_eq",
@@ -997,6 +971,32 @@
       "submissions",
       "clnsig",
       "Uncertain significance"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000013310@2026-11",
+     "path": "",
+     "value": 1,
+     "label": "ClinVar VCV000013310 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "1",
+     "args": [
+      "submissions",
+      "clnsig",
+      "Likely pathogenic"
+     ]
+    },
+    {
+     "record_id": "ClinVar:VCV000013310@2026-11",
+     "path": "",
+     "value": 1,
+     "label": "ClinVar VCV000013310 (2026-11 release)",
+     "mode": "count_eq",
+     "shown": "1",
+     "args": [
+      "submissions",
+      "clnsig",
+      "not provided"
      ]
     }
    ]
@@ -1318,7 +1318,7 @@
   },
   {
    "section": "Conflicts and caveats",
-   "text": "Submitter conflict: ClinVar submissions for NM_000506.5(F2):c.*97G>A disagree (26 pathogenic or likely pathogenic, 1 uncertain significance); the aggregate classification is 'Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor'.",
+   "text": "Submitter conflict: ClinVar submissions for NM_000506.5(F2):c.*97G>A disagree (25 pathogenic or likely pathogenic, 1 uncertain significance); the aggregate classification is 'Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor'.",
    "citations": [
     {
      "record_id": "ClinVar:VCV000013310@2026-11",
@@ -1846,9 +1846,9 @@
   "ClinVar:VCV000013310@2026-11": {
    "record_id": "ClinVar:VCV000013310@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/13310/",
-   "retrieved_at": "2026-11-17T02:13:55.364651+00:00",
+   "retrieved_at": "2026-11-17T20:58:37.510035+00:00",
    "status": 200,
    "data": {
     "allele_id": "28349",
@@ -1858,7 +1858,7 @@
     "clnsig": "Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor",
     "last_evaluated": "Feb 03, 2026",
     "rcv": "RCV000014238|RCV000022729|RCV000205022|RCV000826090|RCV001091960|RCV001794446|RCV002468555|RCV005042047|RCV005419865|RCV006362020",
-    "phenotype_list": "Ischemic stroke|Pregnancy loss, recurrent, susceptibility to, 2|Congenital prothrombin deficiency|Venous thromboembolism|not provided|Cerebral palsy|Thrombophilia caused by F2 prothrombin deficiency|Thrombophilia due to thrombin defect;Pregnancy loss, recurrent, susceptibility to, 2;Congenital prothrombin deficiency;Ischemic stroke|Thrombophilia due to thrombin defect|Inborn genetic diseases",
+    "phenotype_list": "Ischemic stroke|Pregnancy loss, recurrent, susceptibility to, 2|Congenital prothrombin deficiency|Venous thromboembolism|not provided|Cerebral palsy|Thrombophilia caused by F2 prothrombin deficiency|Pregnancy loss, recurrent, susceptibility to, 2;Congenital prothrombin deficiency;Thrombophilia due to thrombin defect;Ischemic stroke|Thrombophilia due to thrombin defect|Inborn genetic diseases",
     "origin": "germline;unknown",
     "origin_simple": "germline",
     "assembly": "GRCh38",
@@ -1867,7 +1867,7 @@
     "ref": "na",
     "alt": "na",
     "review_status": "criteria provided, multiple submitters, no conflicts",
-    "n_submitters": "33",
+    "n_submitters": "32",
     "variation_id": "13310",
     "ref_vcf": "G",
     "alt_vcf": "A",
@@ -1879,37 +1879,13 @@
      {
       "variation_id": "13310",
       "clnsig": "Pathogenic",
-      "date_last_evaluated": "Oct 04, 2024",
-      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "research",
-      "origin_counts": "germline:na",
-      "submitter": "Dubai Health Genomic Medicine Center, Dubai Health",
-      "scv": "SCV005420901.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
       "date_last_evaluated": "-",
-      "reported_phenotype": "C0272317:Congenital prothrombin deficiency",
+      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
       "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Kariminejad - Najmabadi Pathology & Genetics Center",
-      "scv": "SCV008128765.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "not provided",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
-      "review_status": "no classification provided",
-      "collection_method": "literature only",
-      "origin_counts": "germline:na",
-      "submitter": "GeneReviews",
-      "scv": "SCV002058094.2",
+      "origin_counts": "unknown:6",
+      "submitter": "ISTH-SSC Genomics in Thrombosis and Hemostasis, KU Leuven, Center for Molecular and Vascular Biology",
+      "scv": "SCV002500854.1",
       "snapshot": "2026-11"
      },
      {
@@ -1927,85 +1903,25 @@
      {
       "variation_id": "13310",
       "clnsig": "Pathogenic",
-      "date_last_evaluated": "Oct 09, 2024",
-      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
+      "date_last_evaluated": "Apr 09, 2024",
+      "reported_phenotype": "C0272317:Congenital prothrombin deficiency;C0948008:Ischemic stroke;C3160733:Thrombophilia due to thrombin defect;C3280672:Pregnancy loss, recurrent, susceptibility to, 2",
       "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
       "origin_counts": "germline:na",
-      "submitter": "Women's Health and Genetics/Laboratory Corporation of America, LabCorp",
-      "scv": "SCV003844696.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Nov 18, 2025",
-      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "3billion",
-      "scv": "SCV006583511.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Sep 28, 2022",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:na",
-      "submitter": "Illumina Laboratory Services, Illumina",
-      "scv": "SCV001262797.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Established risk allele",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "na:Thrombophilia caused by F2 prothrombin deficiency",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "research",
-      "origin_counts": "unknown:na",
-      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
-      "scv": "SCV002764637.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "May 28, 2019",
-      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:na",
-      "submitter": "Mendelics",
-      "scv": "SCV001138282.1",
+      "submitter": "Fulgent Genetics, Fulgent Genetics",
+      "scv": "SCV005679007.1",
       "snapshot": "2026-11"
      },
      {
       "variation_id": "13310",
       "clnsig": "risk factor",
-      "date_last_evaluated": "Dec 04, 2019",
-      "reported_phenotype": "C1861172:Venous thromboembolism",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:4",
-      "submitter": "Laboratory for Molecular Medicine, Mass General Brigham Personalized Medicine",
-      "scv": "SCV000967587.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Feb 16, 2025",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
+      "date_last_evaluated": "Jun 17, 2009",
+      "reported_phenotype": "C0948008:Ischemic stroke",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "literature only",
       "origin_counts": "germline:na",
-      "submitter": "Laboratory of Genetics, Children's Clinical University Hospital Latvia",
-      "scv": "SCV006109805.1",
+      "submitter": "OMIM",
+      "scv": "SCV000034486.3",
       "snapshot": "2026-11"
      },
      {
@@ -2018,222 +1934,6 @@
       "origin_counts": "germline:na",
       "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
       "scv": "SCV000262466.13",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "risk factor",
-      "date_last_evaluated": "Jan 06, 2020",
-      "reported_phenotype": "C0272317:Congenital prothrombin deficiency",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "curation",
-      "origin_counts": "germline:na",
-      "submitter": "Reproductive Health Research and Development, BGI Genomics",
-      "scv": "SCV001142420.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "May 13, 2022",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "GeneDx",
-      "scv": "SCV001822471.3",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "risk factor",
-      "date_last_evaluated": "Jun 10, 2021",
-      "reported_phenotype": "C0007789:Cerebral palsy",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "research",
-      "origin_counts": "unknown:2",
-      "submitter": "Neurogenetics Research Program, University of Adelaide",
-      "scv": "SCV001737608.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Jan 23, 2026",
-      "reported_phenotype": "C0272317:Congenital prothrombin deficiency",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Clinical Genomics Laboratory, Washington University in St. Louis",
-      "scv": "SCV007654024.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Likely pathogenic",
-      "date_last_evaluated": "Aug 23, 2024",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Centre for Clinical Genetics and Genomic Diagnostics, Zealand University Hospital",
-      "scv": "SCV005328465.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:6",
-      "submitter": "ISTH-SSC Genomics in Thrombosis and Hemostasis, KU Leuven, Center for Molecular and Vascular Biology",
-      "scv": "SCV002500854.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Uncertain significance",
-      "date_last_evaluated": "Jun 21, 2019",
-      "reported_phenotype": "C3280672:Pregnancy loss, recurrent, susceptibility to, 2",
-      "review_status": "flagged submission",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:na",
-      "submitter": "Centre for Mendelian Genomics, University Medical Centre Ljubljana",
-      "scv": "SCV001368932.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Mar 27, 2025",
-      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Variantyx, Inc.",
-      "scv": "SCV007294372.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Sep 10, 2025",
-      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Victorian Clinical Genetics Services, Murdoch Childrens Research Institute",
-      "scv": "SCV003921890.4",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Apr 09, 2024",
-      "reported_phenotype": "C0272317:Congenital prothrombin deficiency;C0948008:Ischemic stroke;C3160733:Thrombophilia due to thrombin defect;C3280672:Pregnancy loss, recurrent, susceptibility to, 2",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Fulgent Genetics, Fulgent Genetics",
-      "scv": "SCV005679007.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Jul 27, 2023",
-      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:na",
-      "submitter": "Baylor Genetics",
-      "scv": "SCV004040661.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Established risk allele",
-      "date_last_evaluated": "Dec 08, 2025",
-      "reported_phenotype": "C0950123:Inborn genetic diseases",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Ambry Genetics",
-      "scv": "SCV007223184.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "May 27, 2025",
-      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:na",
-      "submitter": "Department of Paediatrics at Addenbrookes, Cambridge University Hospitals NHS Foundation Trust (UK)",
-      "scv": "SCV006555160.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "May 01, 2024",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:54",
-      "submitter": "CeGaT Center for Human Genetics Tuebingen",
-      "scv": "SCV001248265.38",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Aug 10, 2015",
-      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:na",
-      "submitter": "Counsyl",
-      "scv": "SCV000677907.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Jul 20, 2024",
-      "reported_phenotype": "C0272317:Congenital prothrombin deficiency",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "unknown:na",
-      "submitter": "Genomic Research Center, Shahid Beheshti University of Medical Sciences",
-      "scv": "SCV001251846.2",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Likely pathogenic",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C0272317:Congenital prothrombin deficiency",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Center of Excellence of Human Genetics, National Research Center",
-      "scv": "SCV008132641.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Nov 10, 2022",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Clinical Genetics Laboratory, Skane University Hospital Lund",
-      "scv": "SCV005197847.1",
       "snapshot": "2026-11"
      },
      {
@@ -2263,25 +1963,25 @@
      {
       "variation_id": "13310",
       "clnsig": "risk factor",
-      "date_last_evaluated": "Jun 17, 2009",
-      "reported_phenotype": "C0948008:Ischemic stroke",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "literature only",
-      "origin_counts": "germline:na",
-      "submitter": "OMIM",
-      "scv": "SCV000034486.3",
+      "date_last_evaluated": "Jun 10, 2021",
+      "reported_phenotype": "C0007789:Cerebral palsy",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "research",
+      "origin_counts": "unknown:2",
+      "submitter": "Neurogenetics Research Program, University of Adelaide",
+      "scv": "SCV001737608.1",
       "snapshot": "2026-11"
      },
      {
       "variation_id": "13310",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Mar 04, 2025",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital",
-      "scv": "SCV005090891.2",
+      "clnsig": "Established risk allele",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "na:Thrombophilia caused by F2 prothrombin deficiency",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
+      "origin_counts": "unknown:na",
+      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
+      "scv": "SCV002764637.1",
       "snapshot": "2026-11"
      },
      {
@@ -2299,6 +1999,54 @@
      {
       "variation_id": "13310",
       "clnsig": "Pathogenic",
+      "date_last_evaluated": "May 01, 2024",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:54",
+      "submitter": "CeGaT Center for Human Genetics Tuebingen",
+      "scv": "SCV001248265.37",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jul 20, 2024",
+      "reported_phenotype": "C0272317:Congenital prothrombin deficiency",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Genomic Research Center, Shahid Beheshti University of Medical Sciences",
+      "scv": "SCV001251846.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Uncertain significance",
+      "date_last_evaluated": "Jun 21, 2019",
+      "reported_phenotype": "C3280672:Pregnancy loss, recurrent, susceptibility to, 2",
+      "review_status": "flagged submission",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Centre for Mendelian Genomics, University Medical Centre Ljubljana",
+      "scv": "SCV001368932.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Sep 10, 2025",
+      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Victorian Clinical Genetics Services, Murdoch Childrens Research Institute",
+      "scv": "SCV003921890.4",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
       "date_last_evaluated": "Aug 02, 2022",
       "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
       "review_status": "criteria provided, single submitter",
@@ -2306,6 +2054,246 @@
       "origin_counts": "germline:1",
       "submitter": "Laboratorio de Genetica e Diagnostico Molecular, Hospital Israelita Albert Einstein",
       "scv": "SCV003806787.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "risk factor",
+      "date_last_evaluated": "Dec 04, 2019",
+      "reported_phenotype": "C1861172:Venous thromboembolism",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:4",
+      "submitter": "Laboratory for Molecular Medicine, Mass General Brigham Personalized Medicine",
+      "scv": "SCV000967587.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 10, 2022",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Clinical Genetics Laboratory, Skane University Hospital Lund",
+      "scv": "SCV005197847.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Feb 16, 2025",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Laboratory of Genetics, Children's Clinical University Hospital Latvia",
+      "scv": "SCV006109805.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Aug 10, 2015",
+      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Counsyl",
+      "scv": "SCV000677907.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "risk factor",
+      "date_last_evaluated": "Jan 06, 2020",
+      "reported_phenotype": "C0272317:Congenital prothrombin deficiency",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "curation",
+      "origin_counts": "germline:na",
+      "submitter": "Reproductive Health Research and Development, BGI Genomics",
+      "scv": "SCV001142420.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jul 27, 2023",
+      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Baylor Genetics",
+      "scv": "SCV004040661.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Established risk allele",
+      "date_last_evaluated": "Dec 08, 2025",
+      "reported_phenotype": "C0950123:Inborn genetic diseases",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Ambry Genetics",
+      "scv": "SCV007223184.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Sep 28, 2022",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Illumina Laboratory Services, Illumina",
+      "scv": "SCV001262797.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "May 28, 2019",
+      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Mendelics",
+      "scv": "SCV001138282.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "May 27, 2025",
+      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Department of Paediatrics at Addenbrookes, Cambridge University Hospitals NHS Foundation Trust (UK)",
+      "scv": "SCV006555160.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 09, 2024",
+      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Women's Health and Genetics/Laboratory Corporation of America, LabCorp",
+      "scv": "SCV003844696.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Likely pathogenic",
+      "date_last_evaluated": "Aug 23, 2024",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Centre for Clinical Genetics and Genomic Diagnostics, Zealand University Hospital",
+      "scv": "SCV005328465.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Nov 18, 2025",
+      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "3billion",
+      "scv": "SCV006583511.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 04, 2024",
+      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "research",
+      "origin_counts": "germline:na",
+      "submitter": "Dubai Health Genomic Medicine Center, Dubai Health",
+      "scv": "SCV005420901.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 04, 2025",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital",
+      "scv": "SCV005090891.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "May 13, 2022",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "GeneDx",
+      "scv": "SCV001822471.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Mar 27, 2025",
+      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Variantyx, Inc.",
+      "scv": "SCV007294372.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "not provided",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3160733:Thrombophilia due to thrombin defect",
+      "review_status": "no classification provided",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "GeneReviews",
+      "scv": "SCV002058094.2",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Jan 23, 2026",
+      "reported_phenotype": "C0272317:Congenital prothrombin deficiency",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Clinical Genomics Laboratory, Washington University in St. Louis",
+      "scv": "SCV007654024.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "13310",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C0272317:Congenital prothrombin deficiency",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Kariminejad - Najmabadi Pathology & Genetics Center",
+      "scv": "SCV008128765.1",
       "snapshot": "2026-11"
      }
     ],
@@ -2338,9 +2326,9 @@
       "snapshot": "2026-11",
       "clnsig": "Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor",
       "review_status": "criteria provided, multiple submitters, no conflicts",
-      "n_submitters": "33",
+      "n_submitters": "32",
       "last_evaluated": "Feb 03, 2026",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }

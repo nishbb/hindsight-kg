@@ -14,6 +14,7 @@ import hashlib
 import json
 import os
 import re
+import threading
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -41,9 +42,9 @@ Cite evidence ids exactly as they appear in the "evidence_id" fields of tool res
 
 @dataclass
 class AgentConfig:
-    model: str = os.environ.get("KGGC_LLM_MODEL", "nvidia/nemotron-3-ultra-550b-a55b")
+    model: str = os.environ.get("KGGC_LLM_MODEL", "nvidia/nemotron-3.5-lightning-30b-a3b")
     base_url: str = os.environ.get("KGGC_LLM_BASE_URL", "https://integrate.api.nvidia.com/v1")
-    api_key_env: str = "NVIDIA_API_KEY"
+    api_key_env: str = os.environ.get("KGGC_LLM_API_KEY_ENV", "NVIDIA_API_KEY")
     tools: list[str] = field(
         default_factory=lambda: ["dossier", "literature_search", "kg_neighborhood"]
     )
@@ -57,12 +58,33 @@ class AgentConfig:
 
 
 class CachedLLM:
+    # One shared limiter for all threads: hosted free tiers allow a fixed number of requests
+    # per minute, and uncoordinated retries from several threads collapse throughput.
+    _lock = threading.Lock()
+    _next_ok = 0.0
+    MIN_INTERVAL = float(os.environ.get("KGGC_LLM_MIN_INTERVAL", "2.0"))  # seconds between requests
+
+    @classmethod
+    def _throttle(cls, penalty: float = 0.0) -> None:
+        with cls._lock:
+            now = time.monotonic()
+            if penalty:
+                cls._next_ok = max(cls._next_ok, now + penalty)
+                return
+            wait = cls._next_ok - now
+            cls._next_ok = max(now, cls._next_ok) + cls.MIN_INTERVAL
+        if wait > 0:
+            time.sleep(wait)
+
     def __init__(self, cfg: AgentConfig, cache_dir: Path | None = None) -> None:
         self.cfg = cfg
         self.dir = Path(cache_dir or CACHE_DIR / "llm")
         self.dir.mkdir(parents=True, exist_ok=True)
         key = os.environ.get(cfg.api_key_env)
-        self.client = OpenAI(base_url=cfg.base_url, api_key=key) if key else None
+        # short timeout, no hidden SDK retries: stalled requests fail fast and our loop retries
+        self.client = (
+            OpenAI(base_url=cfg.base_url, api_key=key, timeout=90.0, max_retries=0) if key else None
+        )
 
     def chat(
         self, messages: list[dict], tools: list[dict] | None, tool_choice: str = "auto"
@@ -94,14 +116,17 @@ class CachedLLM:
         )
         if tools:
             kw.update(tools=tools, tool_choice=tool_choice)
-        for attempt in range(12):
+        for attempt in range(15):
+            self._throttle()
             try:
                 r = self.client.chat.completions.create(**kw)
                 break
-            except Exception:  # rate limits (429) and transient errors: back off up to ~10 min
-                if attempt == 11:
+            except Exception as err:  # 429 rate limit, 503 overload, transient network errors
+                if attempt == 14:
                     raise
-                time.sleep(min(90, 2 ** (attempt + 1)))
+                status = getattr(err, "status_code", None)
+                # a rate-limit or overload pauses every thread for a minute
+                self._throttle(penalty=60.0 if status in (429, 503) else 2.0 ** min(attempt, 5))
         m = r.choices[0].message
         out = {
             "content": m.content or "",

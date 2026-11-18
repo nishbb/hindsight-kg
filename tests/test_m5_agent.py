@@ -174,9 +174,10 @@ def test_gnn_only_rule():
     )
     m5 = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(m5)
-    row = lambda pool, s: pd.Series(
-        {"pool": pool, "conformal_set": s, "p_plp": 0.02, "p_blb": 0.6}
-    )  # noqa: E731
+
+    def row(pool, s):
+        return pd.Series({"pool": pool, "conformal_set": s, "p_plp": 0.02, "p_blb": 0.6})
+
     assert m5.gnn_only(row("plp", "blb"))[0] == "downgrade"
     assert m5.gnn_only(row("plp", "plp"))[0] == "keep"
     assert m5.gnn_only(row("vus", "plp"))[0] == "upgrade"

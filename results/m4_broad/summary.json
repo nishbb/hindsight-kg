@@ -3,8 +3,8 @@
     "citation_validity_rate": 1.0,
     "claim_record_agreement_rate": 1.0,
     "conflict_flag_rate": 1.0,
-    "n_citations": 6378,
-    "n_claims": 2273,
+    "n_citations": 6456,
+    "n_claims": 2290,
     "n_complete": 100,
     "n_variants": 100,
     "uncited_sentences": 0
@@ -13,14 +13,14 @@
     "n_positives_with_ClinVar_conflicting_flag": 100,
     "recall_dossier_conflict_list": 1.0,
     "recall_from_submissions_only": 1.0,
-    "submitter_disagreement_rate_on_expert_panel_set": 0.29
+    "submitter_disagreement_rate_on_expert_panel_set": 0.31
   },
   "expert": {
     "citation_validity_rate": 1.0,
     "claim_record_agreement_rate": 1.0,
-    "conflict_flag_rate": 0.29,
-    "n_citations": 5595,
-    "n_claims": 2101,
+    "conflict_flag_rate": 0.31,
+    "n_citations": 5531,
+    "n_claims": 2115,
     "n_complete": 100,
     "n_variants": 100,
     "uncited_sentences": 0
@@ -28,9 +28,9 @@
   "expert+gwas (the 200)": {
     "citation_validity_rate": 1.0,
     "claim_record_agreement_rate": 1.0,
-    "conflict_flag_rate": 0.145,
-    "n_citations": 11507,
-    "n_claims": 4646,
+    "conflict_flag_rate": 0.155,
+    "n_citations": 11443,
+    "n_claims": 4660,
     "n_complete": 200,
     "n_variants": 200,
     "uncited_sentences": 0

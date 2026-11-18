@@ -2,7 +2,7 @@
  "rsid_query": "rs7412",
  "rsid_current": "rs7412",
  "as_of": "latest",
- "generated_at": "2026-11-17T02:13:55.275681+00:00",
+ "generated_at": "2026-11-17T20:58:37.458834+00:00",
  "genes": {
   "vep": [
    "APOE"
@@ -123,17 +123,17 @@
      "review_status": "reviewed by expert panel",
      "n_submitters": "12",
      "last_evaluated": "Mar 24, 2021",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {
     "Likely benign": 4,
-    "Benign": 2,
-    "drug response": 2,
     "Pathogenic": 1,
-    "risk factor": 1,
+    "Benign": 2,
+    "Uncertain significance": 1,
+    "drug response": 2,
     "other": 1,
-    "Uncertain significance": 1
+    "risk factor": 1
    }
   }
  ],
@@ -260,9 +260,9 @@
    "variation_id": "17848",
    "classes": {
     "BLB": 6,
-    "OTHER": 4,
     "PLP": 1,
-    "VUS": 1
+    "VUS": 1,
+    "OTHER": 4
    },
    "aggregate_conflict": false
   }
@@ -851,7 +851,7 @@
   },
   {
    "section": "Disease relevance (germline)",
-   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 4 'Likely benign', 2 'Benign', 2 'drug response', 1 'Pathogenic', 1 'risk factor', 1 'other', 1 'Uncertain significance'.",
+   "text": "Individual ClinVar submissions for this allele in the 2026-11 release: 4 'Likely benign', 2 'Benign', 2 'drug response', 1 'Pathogenic', 1 'Uncertain significance', 1 'other', 1 'risk factor'.",
    "citations": [
     {
      "record_id": "ClinVar:VCV000017848@2026-11",
@@ -915,7 +915,7 @@
      "args": [
       "submissions",
       "clnsig",
-      "risk factor"
+      "Uncertain significance"
      ]
     },
     {
@@ -941,7 +941,7 @@
      "args": [
       "submissions",
       "clnsig",
-      "Uncertain significance"
+      "risk factor"
      ]
     }
    ]
@@ -2200,9 +2200,9 @@
   "ClinVar:VCV000017848@2026-11": {
    "record_id": "ClinVar:VCV000017848@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/17848/",
-   "retrieved_at": "2026-11-17T02:13:55.085120+00:00",
+   "retrieved_at": "2026-11-17T20:58:37.380172+00:00",
    "status": 200,
    "data": {
     "allele_id": "32887",
@@ -2244,6 +2244,54 @@
      },
      {
       "variation_id": "17848",
+      "clnsig": "Pathogenic",
+      "date_last_evaluated": "Oct 01, 2005",
+      "reported_phenotype": "C0020479:Familial type 3 hyperlipoproteinemia",
+      "review_status": "flagged submission",
+      "collection_method": "literature only",
+      "origin_counts": "germline:na",
+      "submitter": "OMIM",
+      "scv": "SCV000039717.5",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17848",
+      "clnsig": "Likely benign",
+      "date_last_evaluated": "Dec 13, 2024",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:85",
+      "submitter": "Mayo Clinic Laboratories, Mayo Clinic",
+      "scv": "SCV007310670.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17848",
+      "clnsig": "Benign",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "CN169374:not specified",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Diagnostic Laboratory, Department of Genetics, University Medical Center Groningen",
+      "scv": "SCV001743895.3",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17848",
+      "clnsig": "Uncertain significance",
+      "date_last_evaluated": "-",
+      "reported_phenotype": "C3661900:not provided",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "clinical testing",
+      "origin_counts": "unknown:na",
+      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
+      "scv": "SCV001550093.1",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17848",
       "clnsig": "Benign",
       "date_last_evaluated": "Jan 01, 2019",
       "reported_phenotype": "C0020443:Hypercholesterolemia",
@@ -2268,50 +2316,14 @@
      },
      {
       "variation_id": "17848",
-      "clnsig": "Pathogenic",
-      "date_last_evaluated": "Oct 01, 2005",
-      "reported_phenotype": "C0020479:Familial type 3 hyperlipoproteinemia",
-      "review_status": "flagged submission",
-      "collection_method": "literature only",
-      "origin_counts": "germline:na",
-      "submitter": "OMIM",
-      "scv": "SCV000039717.5",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17848",
-      "clnsig": "Likely benign",
-      "date_last_evaluated": "Feb 16, 2025",
-      "reported_phenotype": "CN169374:not specified",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Laboratory of Genetics, Children's Clinical University Hospital Latvia",
-      "scv": "SCV006109642.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17848",
-      "clnsig": "Likely benign",
-      "date_last_evaluated": "Aug 01, 2023",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:1",
-      "submitter": "CeGaT Center for Human Genetics Tuebingen",
-      "scv": "SCV004033681.25",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17848",
-      "clnsig": "risk factor",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "C3661900:not provided",
-      "review_status": "criteria provided, single submitter",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Molecular Diagnostic Laboratory for Inherited Cardiovascular Disease, Montreal Heart Institute",
-      "scv": "SCV000987597.1",
+      "clnsig": "drug response",
+      "date_last_evaluated": "Aug 31, 2010",
+      "reported_phenotype": "C0750384:Warfarin response",
+      "review_status": "no assertion criteria provided",
+      "collection_method": "research",
+      "origin_counts": "unknown:19",
+      "submitter": "Pharmacogenomics Lab, Chungbuk National University",
+      "scv": "SCV000889947.1",
       "snapshot": "2026-11"
      },
      {
@@ -2328,50 +2340,38 @@
      },
      {
       "variation_id": "17848",
-      "clnsig": "Benign",
-      "date_last_evaluated": "-",
-      "reported_phenotype": "CN169374:not specified",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "clinical testing",
-      "origin_counts": "germline:na",
-      "submitter": "Diagnostic Laboratory, Department of Genetics, University Medical Center Groningen",
-      "scv": "SCV001743895.3",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17848",
-      "clnsig": "drug response",
-      "date_last_evaluated": "Aug 31, 2010",
-      "reported_phenotype": "C0750384:Warfarin response",
-      "review_status": "no assertion criteria provided",
-      "collection_method": "research",
-      "origin_counts": "unknown:19",
-      "submitter": "Pharmacogenomics Lab, Chungbuk National University",
-      "scv": "SCV000889947.1",
-      "snapshot": "2026-11"
-     },
-     {
-      "variation_id": "17848",
-      "clnsig": "Uncertain significance",
+      "clnsig": "risk factor",
       "date_last_evaluated": "-",
       "reported_phenotype": "C3661900:not provided",
-      "review_status": "no assertion criteria provided",
+      "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
-      "origin_counts": "unknown:na",
-      "submitter": "Department of Pathology and Laboratory Medicine, Sinai Health System",
-      "scv": "SCV001550093.1",
+      "origin_counts": "germline:na",
+      "submitter": "Molecular Diagnostic Laboratory for Inherited Cardiovascular Disease, Montreal Heart Institute",
+      "scv": "SCV000987597.1",
       "snapshot": "2026-11"
      },
      {
       "variation_id": "17848",
       "clnsig": "Likely benign",
-      "date_last_evaluated": "Dec 13, 2024",
+      "date_last_evaluated": "Aug 01, 2023",
       "reported_phenotype": "C3661900:not provided",
       "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
-      "origin_counts": "germline:85",
-      "submitter": "Mayo Clinic Laboratories, Mayo Clinic",
-      "scv": "SCV007310670.1",
+      "origin_counts": "germline:1",
+      "submitter": "CeGaT Center for Human Genetics Tuebingen",
+      "scv": "SCV004033681.24",
+      "snapshot": "2026-11"
+     },
+     {
+      "variation_id": "17848",
+      "clnsig": "Likely benign",
+      "date_last_evaluated": "Feb 16, 2025",
+      "reported_phenotype": "CN169374:not specified",
+      "review_status": "criteria provided, single submitter",
+      "collection_method": "clinical testing",
+      "origin_counts": "germline:na",
+      "submitter": "Laboratory of Genetics, Children's Clinical University Hospital Latvia",
+      "scv": "SCV006109642.1",
       "snapshot": "2026-11"
      }
     ],
@@ -2406,7 +2406,7 @@
       "review_status": "reviewed by expert panel",
       "n_submitters": "12",
       "last_evaluated": "Mar 24, 2021",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }

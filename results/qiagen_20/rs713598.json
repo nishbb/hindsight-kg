@@ -2,7 +2,7 @@
  "rsid_query": "rs713598",
  "rsid_current": "rs713598",
  "as_of": "latest",
- "generated_at": "2026-11-17T02:13:55.079114+00:00",
+ "generated_at": "2026-11-17T20:58:37.375387+00:00",
  "genes": {
   "vep": [
    "TAS2R38"
@@ -215,7 +215,7 @@
      "review_status": "no assertion criteria provided",
      "n_submitters": "1",
      "last_evaluated": "Dec 30, 2010",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {
@@ -2512,9 +2512,9 @@
   "ClinVar:VCV000002904@2026-11": {
    "record_id": "ClinVar:VCV000002904@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/2904/",
-   "retrieved_at": "2026-11-17T02:13:55.068791+00:00",
+   "retrieved_at": "2026-11-17T20:58:37.368496+00:00",
    "status": 200,
    "data": {
     "allele_id": "17943",
@@ -2586,7 +2586,7 @@
       "review_status": "no assertion criteria provided",
       "n_submitters": "1",
       "last_evaluated": "Dec 30, 2010",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }

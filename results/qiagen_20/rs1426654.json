@@ -2,7 +2,7 @@
  "rsid_query": "rs1426654",
  "rsid_current": "rs1426654",
  "as_of": "latest",
- "generated_at": "2026-11-17T02:13:55.359713+00:00",
+ "generated_at": "2026-11-17T20:58:37.505040+00:00",
  "genes": {
   "vep": [
    "SLC24A5"
@@ -187,7 +187,7 @@
      "review_status": "no assertion criteria provided",
      "n_submitters": "1",
      "last_evaluated": "Sep 21, 2022",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {
@@ -234,7 +234,7 @@
      "review_status": "criteria provided, multiple submitters, no conflicts",
      "n_submitters": "4",
      "last_evaluated": "Feb 03, 2026",
-     "release_date": "2026-11-16"
+     "release_date": "2026-11-05"
     }
    ],
    "submission_classes": {
@@ -2413,9 +2413,9 @@
   "ClinVar:VCV000001487@2026-11": {
    "record_id": "ClinVar:VCV000001487@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/1487/",
-   "retrieved_at": "2026-11-17T02:13:55.350874+00:00",
+   "retrieved_at": "2026-11-17T20:58:37.497296+00:00",
    "status": 200,
    "data": {
     "allele_id": "16526",
@@ -2487,7 +2487,7 @@
       "review_status": "no assertion criteria provided",
       "n_submitters": "1",
       "last_evaluated": "Sep 21, 2022",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }
@@ -2495,9 +2495,9 @@
   "ClinVar:VCV000263273@2026-11": {
    "record_id": "ClinVar:VCV000263273@2026-11",
    "source": "ClinVar",
-   "source_version": "ClinVar release 2026-11 (2026-11-16)",
+   "source_version": "ClinVar release 2026-11 (2026-11-05)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/263273/",
-   "retrieved_at": "2026-11-17T02:13:55.350989+00:00",
+   "retrieved_at": "2026-11-17T20:58:37.497834+00:00",
    "status": 200,
    "data": {
     "allele_id": "255247",
@@ -2528,13 +2528,13 @@
      {
       "variation_id": "263273",
       "clnsig": "Benign",
-      "date_last_evaluated": "Feb 03, 2026",
+      "date_last_evaluated": "Sep 25, 2020",
       "reported_phenotype": "C3661900:not provided",
       "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
       "origin_counts": "germline:na",
-      "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
-      "scv": "SCV002403278.5",
+      "submitter": "GeneDx",
+      "scv": "SCV001950774.2",
       "snapshot": "2026-11"
      },
      {
@@ -2564,13 +2564,13 @@
      {
       "variation_id": "263273",
       "clnsig": "Benign",
-      "date_last_evaluated": "Sep 25, 2020",
+      "date_last_evaluated": "Feb 03, 2026",
       "reported_phenotype": "C3661900:not provided",
       "review_status": "criteria provided, single submitter",
       "collection_method": "clinical testing",
       "origin_counts": "germline:na",
-      "submitter": "GeneDx",
-      "scv": "SCV001950774.2",
+      "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
+      "scv": "SCV002403278.5",
       "snapshot": "2026-11"
      }
     ],
@@ -2605,7 +2605,7 @@
       "review_status": "criteria provided, multiple submitters, no conflicts",
       "n_submitters": "4",
       "last_evaluated": "Feb 03, 2026",
-      "release_date": "2026-11-16"
+      "release_date": "2026-11-05"
      }
     ]
    }

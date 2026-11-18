@@ -20,9 +20,9 @@ FREQUENCY
 - gnomAD v4.1 has no record for 7-117559591-T-TCTT (alternate allele 2). [gnomAD v4.1]
 
 DISEASE RELEVANCE (GERMLINE)
-- ClinVar lists NM_000492.3(CFTR):c.1521_1523del (p.Phe508del) (alternate allele 1) with germline classification 'Pathogenic' for: Cystic fibrosis; BRONCHIECTASIS WITH OR WITHOUT ELEVATED SWEAT CHLORIDE 1, MODIFIER OF; Hereditary pancreatitis; Duodenal stenosis; and 9 more; review status 'practice guideline', 91 submitter(s), allele origin 'de novo;germline;inherited;maternal;paternal;unknown'. [ClinVar VCV000007105 (2026-11 release)]
+- ClinVar lists NM_000492.3(CFTR):c.1521_1523del (p.Phe508del) (alternate allele 1) with germline classification 'Pathogenic' for: Cystic fibrosis; BRONCHIECTASIS WITH OR WITHOUT ELEVATED SWEAT CHLORIDE 1, MODIFIER OF; Hereditary pancreatitis; Duodenal stenosis; and 9 more; review status 'practice guideline', 89 submitter(s), allele origin 'de novo;germline;inherited;maternal;paternal;unknown'. [ClinVar VCV000007105 (2026-11 release)]
 - Classification history across archived ClinVar releases for this allele: 2018-01: Pathogenic; 2019-01: Pathogenic; 2020-01: Pathogenic; 2026-11: Pathogenic. The classification did not change over these releases. [ClinVar VCV000007105 (2026-11 release)]
-- Individual ClinVar submissions for this allele in the 2026-11 release: 95 'Pathogenic', 4 'not provided', 2 'drug response', 2 'Likely pathogenic', 1 'risk factor'. [ClinVar VCV000007105 (2026-11 release)]
+- Individual ClinVar submissions for this allele in the 2026-11 release: 93 'Pathogenic', 4 'not provided', 2 'Likely pathogenic', 2 'drug response', 1 'risk factor'. [ClinVar VCV000007105 (2026-11 release)]
 
 SOMATIC EVIDENCE
 - No somatic evidence was retrieved: Ensembl VEP reports no co-located COSMIC record for this variant. [Ensembl VEP rs113993960]

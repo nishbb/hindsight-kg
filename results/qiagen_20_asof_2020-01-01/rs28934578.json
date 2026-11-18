@@ -2,7 +2,7 @@
  "rsid_query": "rs28934578",
  "rsid_current": "rs28934578",
  "as_of": "2020-01-01",
- "generated_at": "2026-11-17T02:14:02.513078+00:00",
+ "generated_at": "2026-11-17T20:58:39.477824+00:00",
  "genes": {
   "vep": [
    "TP53"
@@ -2080,7 +2080,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01 (2019-01-03)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/12374/",
-   "retrieved_at": "2026-11-17T02:14:02.185165+00:00",
+   "retrieved_at": "2026-11-17T20:58:39.432139+00:00",
    "status": 200,
    "data": {
     "allele_id": "27413",
@@ -2133,7 +2133,7 @@
    "source": "ClinVar",
    "source_version": "ClinVar release 2019-01 (2019-01-03)",
    "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/182963/",
-   "retrieved_at": "2026-11-17T02:14:02.185249+00:00",
+   "retrieved_at": "2026-11-17T20:58:39.432175+00:00",
    "status": 200,
    "data": {
     "allele_id": "181010",
