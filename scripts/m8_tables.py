@@ -141,6 +141,29 @@ def main() -> None:
                 f"| {names.get(r.config, r.config)} | {r.accuracy:.3f} | {r.macro_f1:.3f} | {r.coverage:.3f} | {r.accuracy_on_decided:.3f} | {r.ece:.3f} | {r.tool_calls_per_edge:.2f} | {r.prompt_tokens_per_edge:,.0f} |"
             )
         L.append("")
+        tb = R / "m5" / "trivial_baseline.csv"
+        if tb.exists():
+            k = pd.read_csv(tb).iloc[0]
+            L += [
+                f'Trivial baseline, always answer "keep": accuracy {k["accuracy"]:.3f}, macro-F1 {k["macro_f1"]:.3f}.',
+                "",
+            ]
+            conf = []
+            for cfg in ("a", "b0", "b", "c", "d"):
+                v = pd.read_csv(R / "m5" / f"verdicts_{cfg}.csv")
+
+                def hit(lab, ver, v=v):
+                    return int(((v["label"] == lab) & (v["verdict"] == ver)).sum())
+
+                conf.append(
+                    f"| {cfg} | {hit('downgraded', 'downgrade')} | {hit('stable_pathogenic', 'downgrade')} | {hit('upgraded', 'upgrade')} | {hit('stable_vus', 'upgrade')} |"
+                )
+            L += [
+                "| config | downgraded caught (of 80) | stable P/LP wrongly downgraded (of 80) | upgraded caught (of 80) | stable VUS wrongly upgraded (of 80) |",
+                "|---|---|---|---|---|",
+                *conf,
+                "",
+            ]
         pd5 = R / "m5" / "paired_deltas.csv"
         if pd5.exists():
             dd = pd.read_csv(pd5)

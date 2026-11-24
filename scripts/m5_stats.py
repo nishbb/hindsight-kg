@@ -1,7 +1,7 @@
 """M5: paired bootstrap comparisons between audit configurations (same 320 edges).
 
 Usage: python scripts/m5_stats.py [--n-boot 2000]
-Output: results/m5/paired_deltas.csv
+Output: results/m5/paired_deltas.csv and results/m5/trivial_baseline.csv (always answer "keep")
 """
 
 from __future__ import annotations
@@ -14,7 +14,17 @@ from sklearn.metrics import f1_score
 
 from kggc.utils import RESULTS_DIR
 
-PAIRS = [("a", "b0"), ("a", "c"), ("a", "d"), ("b0", "b"), ("b", "c"), ("c", "d"), ("b", "d")]
+PAIRS = [
+    ("keep", "a"),
+    ("a", "b0"),
+    ("a", "b"),
+    ("a", "c"),
+    ("a", "d"),
+    ("b0", "b"),
+    ("b", "c"),
+    ("c", "d"),
+    ("b", "d"),
+]
 LABELS = ["keep", "downgrade", "upgrade"]
 
 
@@ -38,6 +48,10 @@ def main() -> None:
             v[cfg] = d
     base = next(iter(v.values()))
     y = base["truth"].to_numpy()
+    v["keep"] = base.assign(verdict="keep")  # trivial baseline: never revise anything
+    pd.DataFrame([{"config": "keep", **metrics(y, v["keep"]["verdict"].to_numpy())}]).to_csv(
+        out / "trivial_baseline.csv", index=False
+    )
     rng = np.random.default_rng(0)
     idx = [rng.integers(0, len(y), len(y)) for _ in range(args.n_boot)]
     rows = []

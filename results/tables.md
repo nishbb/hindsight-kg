@@ -99,12 +99,26 @@ Conflict recall against ClinVar's conflicting flag (n=100): 1.00 from individual
 | (c) agent with GNN tools | 0.294 | 0.316 | 0.553 | 0.531 | 0.521 | 6.00 | 21,504 |
 | (d) agent with GNN tools + conformal budget | 0.328 | 0.372 | 0.619 | 0.530 | 0.485 | 5.93 | 35,470 |
 
+Trivial baseline, always answer "keep": accuracy 0.500, macro-F1 0.222.
+
+| config | downgraded caught (of 80) | stable P/LP wrongly downgraded (of 80) | upgraded caught (of 80) | stable VUS wrongly upgraded (of 80) |
+|---|---|---|---|---|
+| a | 6 | 1 | 62 | 21 |
+| b0 | 71 | 70 | 1 | 1 |
+| b | 73 | 73 | 2 | 0 |
+| c | 79 | 76 | 11 | 6 |
+| d | 77 | 75 | 24 | 15 |
+
 Paired bootstrap over the same edges (2,000 resamples):
 
 | from | to | metric | delta (95% CI) | p |
 |---|---|---|---|---|
+| keep | a | accuracy | +0.050 (-0.022 to +0.119) | 0.161 |
+| keep | a | macro_f1 | +0.294 (+0.239 to +0.343) | 0.000 |
 | a | b0 | accuracy | -0.244 (-0.334 to -0.153) | 0.000 |
 | a | b0 | macro_f1 | -0.208 (-0.274 to -0.136) | 0.000 |
+| a | b | accuracy | -0.253 (-0.344 to -0.162) | 0.000 |
+| a | b | macro_f1 | -0.212 (-0.282 to -0.144) | 0.000 |
 | a | c | accuracy | -0.256 (-0.347 to -0.166) | 0.000 |
 | a | c | macro_f1 | -0.200 (-0.267 to -0.130) | 0.000 |
 | a | d | accuracy | -0.222 (-0.312 to -0.131) | 0.000 |

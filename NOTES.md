@@ -180,3 +180,10 @@ Agent (config c, Nebius Nemotron-3_5-Lightning) on the 12 edges: 10 downgrade, 2
 
 * `make reproduce-small` (labels, graph, small R-GCN, evaluation, three dossiers, two cleaning arms) ran end to end on the laptop CPU in 7 min 28 s wall clock, under the 30 min target. It also refreshed `results/m2/leakage_manifest.json`, whose `clinvar_latest` date was still the abandoned weekly file (2026-11-16); it now records the pinned archive (2026-11-05).
 * 51 offline tests pass; ruff and black are clean.
+
+## Corrections after v0.1.0 (2026-11-23)
+
+* M5 lacked a trivial baseline. `scripts/m5_stats.py` now adds always answering "keep" (accuracy 0.500, macro-F1 0.222) and the a versus b pair. Always answering "keep" scores accuracy 0.500 and macro-F1 0.222 on this sample, so the GNN rule's accuracy gain over it is not significant (+0.050, 95% CI -0.022 to +0.119); its macro-F1 gain is (+0.294, CI +0.239 to +0.343) and comes mainly from upgrades (62 of 80 caught, 21 of 80 stable VUS wrongly upgraded). It caught only 6 of 80 downgrades. README and paper wording changed accordingly; no verdict was rerun. H2 remains not supported.
+* The paper said downgrades are predicted mostly by how the assertion was made. Permutation importance ranks missense consequence first. Corrected.
+* The COPD note said conformal sets separated cases better than the agent. They were also empty for 4 of 7 stable pathogenic edges. Corrected.
+* The explanation for H3 is now labelled untested, and the c to d gain is labelled suggestive (65% more prompt tokens, 18 uncorrected comparisons).

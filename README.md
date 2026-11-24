@@ -70,7 +70,7 @@ Paired bootstrap, does the graph add signal (AUROC delta):
 | upgrade | tabular to tabular + R-GCN | +0.070 (+0.063 to +0.077) |
 | upgrade | tabular + neighbour counts to + R-GCN | +0.004 (+0.002 to +0.006) |
 
-**Reading.** For downgrades, the GNN adds nothing beyond ClinVar metadata that curators already see (review status, "no assertion criteria", likely versus definite pathogenic). For upgrades, graph context matters a lot (+0.070 AUROC), but leave-one-out counts of other variants in the same gene and disease capture almost all of it; the GNN adds a small residual +0.004. The R-GCN alone, trained without any outcome labels, matches the supervised tabular model for upgrades. Held-out time-T link prediction is strong (P/LP versus B/LB AUROC 0.978 to 0.981 across folds), and split conformal sets reach their nominal 90% coverage (0.901 for both classes). Full tables, stratification by review stars and HGNC gene group, and feature importance: `results/m3/`.
+**Reading.** For downgrades, the GNN adds nothing beyond ClinVar metadata that curators already see or that the variant itself shows (in permutation importance missense consequence is the largest feature, followed by review stars, gnomAD frequency and likely versus definite pathogenic). For upgrades, graph context matters a lot (+0.070 AUROC), but leave-one-out counts of other variants in the same gene and disease capture almost all of it; the GNN adds a small residual +0.004. The R-GCN alone, trained without any outcome labels, matches the supervised tabular model for upgrades. Held-out time-T link prediction is strong (P/LP versus B/LB AUROC 0.978 to 0.981 across folds), and split conformal sets reach their nominal 90% coverage (0.901 for both classes). Full tables, stratification by review stars and HGNC gene group, and feature importance: `results/m3/`.
 
 ### H2. Does an LLM audit agent beat the GNN? (320 edges, 80 per outcome)
 
@@ -79,12 +79,13 @@ Model `nvidia/Nemotron-3_5-Lightning` (reasoning off) via Nebius Token Factory; 
 | config | accuracy | macro-F1 | coverage | ECE | tool calls / edge |
 |---|---|---|---|---|---|
 | (a) GNN only, conformal rule | **0.550** | **0.516** | 0.822 | 0.350 | 0 |
+| always answer "keep" (trivial baseline) | 0.500 | 0.222 | 1.000 | n/a | 0 |
 | LLM alone, no tools | 0.306 | 0.308 | 0.578 | 0.501 | 0 |
 | (b) agent without GNN tools | 0.297 | 0.303 | 0.544 | 0.507 | 5.86 |
 | (c) agent with GNN tools | 0.294 | 0.316 | 0.553 | 0.521 | 6.00 |
 | (d) agent with GNN tools + conformal budget | 0.328 | 0.372 | 0.619 | 0.485 | 5.93 |
 
-The GNN-only rule beats every agent (macro-F1 deltas -0.14 to -0.21, all p < 0.001, paired bootstrap). Agents downgrade almost every pathogenic edge (recall 0.91 to 0.99, precision 0.50, which is chance on this balanced sample) and rarely upgrade. Giving the agent GNN tools does not help by itself (b to c: +0.013 macro-F1, p = 0.64); spending tool calls according to conformal uncertainty does (c to d: +0.056, CI +0.011 to +0.104, p = 0.017), at equal mean tool calls. **H2 is not supported.** Token cost for the whole evaluation was about 26M input and 0.6M output tokens (about $1.70 at the listed price). Traces: `results/m5/`.
+The GNN-only rule scores above every agent (agent minus GNN macro-F1 -0.14 to -0.21, all p < 0.001, paired bootstrap), but it is not a strong auditor. Always answering "keep" scores accuracy 0.500 and macro-F1 0.222 on this sample, so the GNN rule's accuracy gain over it is not significant (+0.050, 95% CI -0.022 to +0.119); its macro-F1 gain is (+0.294, CI +0.239 to +0.343) and comes mainly from upgrades (62 of 80 caught, 21 of 80 stable VUS wrongly upgraded). It caught only 6 of 80 downgrades. Agents downgrade almost every pathogenic edge (recall 0.89 to 0.99, precision 0.50 to 0.51, which is chance on this balanced sample) and rarely upgrade. Giving the agent GNN tools does not help by itself (b to c: +0.013 macro-F1, p = 0.64); spending tool calls according to conformal uncertainty does (c to d: +0.056, CI +0.011 to +0.104, p = 0.017), at matched mean tool calls. It also used 65% more prompt tokens, and it is one of 18 uncorrected comparisons, so we treat it as suggestive. **H2 is not supported.** Token cost for the whole evaluation was about 26M input and 0.6M output tokens (about $1.70 at the listed price). Traces: `results/m5/`.
 
 ### H3. Does cleaning help downstream? (gene-disease link prediction, 8,122 pairs that first appear in 2026)
 
@@ -97,7 +98,7 @@ The GNN-only rule beats every agent (macro-F1 deltas -0.14 to -0.21, all p < 0.0
 | prune random edges | 3,908 | 0.908 (0.002) | 0.641 (0.006) |
 | prune the edges really downgraded (oracle, uses future labels) | 4,170 | 0.908 (0.004) | 0.638 (0.003) |
 
-**H3 is not supported.** No arm improves prediction of new gene-disease links; even removing exactly the edges that were later downgraded does not help. A downgraded variant usually sits in a gene that still causes the disease, so the edge still carries gene-level signal. The STaRK-Prime graph-RAG part of H3 was **not run** (needs a GPU for G-Retriever fine-tuning). Preparation shows our trust signal reaches only 5,326 of 80,411 PrimeKG disease-protein edges (6.6%), which bounds any effect there.
+**H3 is not supported.** No arm improves prediction of new gene-disease links; even removing exactly the edges that were later downgraded does not help. One plausible reason, not tested directly, is that a downgraded variant often sits in a gene that still causes the disease, so the edge still carries gene-level signal. The STaRK-Prime graph-RAG part of H3 was **not run** (needs a GPU for G-Retriever fine-tuning). Preparation shows our trust signal reaches only 5,326 of 80,411 PrimeKG disease-protein edges (6.6%), which bounds any effect there.
 
 ### QIAGEN problem: cited variant dossiers
 
